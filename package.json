@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "description": "A monorepo containing Natura Design System multiplataform packages",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "lerna run lint "
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,13 @@
   },
   "homepage": "https://github.com/natura-cosmeticos/natds-commons#readme",
   "devDependencies": {
+    "@naturacosmeticos/eslint-config-natura": "^2.0.1",
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^7.0.0",
     "lerna": "^3.21.0"
-  }
+  },
+  "workspaces": [
+    "packages/natds-themes"
+  ]
 }

@@ -3,5 +3,11 @@
   "version": "0.0.0",
   "description": "The single source of truth for Natura Desing System tokens.",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "lint": "eslint ./**.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "style-dictionary": "^2.10.0"
+  }
 }
