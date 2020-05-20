@@ -1,0 +1,7 @@
+{
+  "name": "@naturacosmeticos/natds-themes",
+  "version": "0.0.0",
+  "description": "The single source of truth for Natura Desing System tokens.",
+  "main": "index.js",
+  "license": "MIT"
+}

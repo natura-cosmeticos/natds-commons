@@ -1,0 +1,29 @@
+{
+  "name": "@naturacosmeticos/natds-commons",
+  "version": "0.0.0",
+  "description": "A monorepo containing Natura Design System multiplataform packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-commons.git"
+  },
+  "keywords": [
+    "commons",
+    "natds",
+    "tokens",
+    "themes",
+    "icons"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  },
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons#readme",
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
+}
