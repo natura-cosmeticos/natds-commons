@@ -6,7 +6,10 @@
   "private": true,
   "scripts": {
     "test": "test",
-    "lint": "lerna run lint "
+    "lint": "lerna run lint",
+    "commit": "git cz",
+    "release": "lerna version --conventional-commits",
+    "prerelease": "lerna version --conventional-commits --conventional-prerelease"
   },
   "repository": {
     "type": "git",
@@ -26,11 +29,26 @@
   },
   "homepage": "https://github.com/natura-cosmeticos/natds-commons#readme",
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@naturacosmeticos/eslint-config-natura": "^2.0.1",
+    "commitizen": "^4.1.2",
+    "cz-lerna-changelog": "^2.0.2",
     "eslint": "^7.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^7.0.0",
+    "husky": "^4.2.5",
     "lerna": "^3.21.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "workspaces": [
     "packages/natds-themes"
