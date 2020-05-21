@@ -12,9 +12,11 @@ Make sure you have `node` and `yarn` installed
 
 At the root directory run `yarn install`
 
+___
+
 ## Commands available to all packages
 
-The commands bellow can be run by
+The commands bellow can be run by:
 
 ```bash
 yarn <command>
@@ -22,10 +24,75 @@ yarn <command>
 
 `test`: runs packages tests
 
+`test:watch`: runs packages tests and watch for changes
+
 `lint`: runs eslint using the `@naturacosmeticos/eslint-config-natura` rules
 
 `commit`: opens an interactive GUI to help you write commits in compliance with `conventional commits`
 
-`prerelease`: analize commits, bump packages and make the apropriate releases
+`release`: analize commits, bump packages and make the apropriate releases
 
-`release`: analize commits, bump packages and make the apropriate pre-releases
+`prerelease`: analize commits, bump packages and make the apropriate pre-releases
+
+___
+
+## Adding new packages
+
+#### Create a new package
+
+create a new folder inside the `packages` folder and run
+
+```bash
+yarn init
+```
+
+and fill the package information.
+
+#### Create the package scripts
+
+After that, create in the package's `package.json` file the above scripts.
+
+This enable us to run all packages commands from the root folder.
+
+#### Register the new package
+
+Add the created package in the root `package.json` workspaces array
+
+```json
+{
+"workspaces": [
+    "packages/natds-themes",
+    "packages/<your-new-package>"
+  ]
+}
+```
+
+#### Adding dependencies to a package
+
+from the root folder
+
+```shell
+npx lerna add <package-I-want-to-add> --scope @naturacosmeticos/<my-package> -D
+```
+
+#### Adding shared dependencies to all packages
+
+from the root folder (devDependencies only. if it is a **dependency**, it should be added and listed in the packages `package.json` with the above command)
+
+```shell
+yarn add <package-I-want-to-add> -D -W
+```
+
+#### Start hacking!
+
+___
+
+## Commiting
+
+We are using the `conventional commits` guidelines to automate our versioning and changelog criation process.
+
+You can read more about [here](https://www.conventionalcommits.org/en/v1.0.0/).
+
+If you are unsure about how to follow the commit guidelines, we have an interective guide to help you with this. See the `commit` command above.
+
+> All the commits have to contain an issue number starting with `DSY-`. If you are having trouble commiting (reference error) you probably forgot that! Using the `commit` command, you can include this information on the long description field

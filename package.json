@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "test",
+    "test": "lerna run test",
+    "test:watch": "lerna run test:watch",
     "lint": "lerna run lint",
     "commit": "git cz",
     "release": "lerna version --conventional-commits",
@@ -38,6 +39,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^7.0.0",
     "husky": "^4.2.5",
+    "jest": "^26.0.1",
     "lerna": "^3.21.0"
   },
   "config": {
