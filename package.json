@@ -23,7 +23,10 @@
     "themes",
     "icons"
   ],
-  "author": "",
+  "author": "Natura Cosméticos <designsystem@natura.net>",
+  "contributors": [
+    "Ariel Flor <arielwb@gmail.com>"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"

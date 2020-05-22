@@ -8,7 +8,7 @@
     "test:watch": "jest --watch",
     "lint": "eslint ./**.js"
   },
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "style-dictionary": "^2.10.0"
   }
