@@ -46,7 +46,10 @@
     "eslint": "^7.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^7.0.0",
+<<<<<<< HEAD
     "handlebars": "^4.7.6",
+=======
+>>>>>>> chore(natds-themes): add build config for react-native and html
     "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
