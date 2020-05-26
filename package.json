@@ -11,7 +11,8 @@
     "commit": "git cz",
     "build": "lerna run build",
     "release": "lerna version --conventional-commits",
-    "prerelease": "lerna version --conventional-commits --conventional-prerelease"
+    "prerelease": "lerna version --conventional-commits --conventional-prerelease",
+    "start": "lerna run start"
   },
   "repository": {
     "type": "git",

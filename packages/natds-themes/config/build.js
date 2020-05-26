@@ -2,6 +2,7 @@ import StyleDictionary from 'style-dictionary';
 import buildConfig from './buildConfig.js';
 import registerHtmlFormat from './html/registerHtmlFormat.js';
 import registerIndexHtmlAction from './html/registerIndexHtmlAction.js';
+import registerAttributesFormatter from './android/registerAttributesFormatter.js';
 
 const brands = [
   'natura',
@@ -17,10 +18,12 @@ const modes = [
 const platforms = [
   'react-native',
   'html',
+  'android',
 ];
 
 const customFormats = [
   registerHtmlFormat,
+  registerAttributesFormatter,
 ];
 
 const customActions = [
