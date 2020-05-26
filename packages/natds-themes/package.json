@@ -7,14 +7,10 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "eslint ./**.js",
+    "lint": "eslint ./**/*.js",
     "build": "rm -rf ./build && node ./config/build.js --input-type=module",
     "start": "http-server build/html"
   },
   "license": "ISC",
-  "devDependencies": {
-    "handlebars": "^4.7.6",
-    "http-server": "^0.12.3",
-    "style-dictionary": "^2.10.0"
-  }
+  "devDependencies": {}
 }

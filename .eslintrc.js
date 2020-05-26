@@ -14,5 +14,37 @@ module.exports = {
       }
     }
   },
-  "ignorePatterns": [".eslintrc.js"]
+  "ignorePatterns": [".eslintrc.js"],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "packages/natds-themes/**/*"
+        ]
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "always"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ['./packages/natds-themes/**/*'],
+      "rules": {
+        'import/no-extraneous-dependencies': [
+          2,
+          {
+            "devDependencies": true,
+            "packageDir": __dirname,
+          },
+        ],
+      },
+    }
+  ]
 }
+

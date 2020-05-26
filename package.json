@@ -42,10 +42,12 @@
     "eslint": "^7.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^7.0.0",
+    "handlebars": "^4.7.6",
     "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "lerna": "^3.21.0"
+    "lerna": "^3.21.0",
+    "style-dictionary": "^2.10.0"
   },
   "config": {
     "commitizen": {
