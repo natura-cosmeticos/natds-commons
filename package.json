@@ -9,6 +9,7 @@
     "test:watch": "lerna run test:watch",
     "lint": "lerna run lint",
     "commit": "git cz",
+    "build": "lerna run build",
     "release": "lerna version --conventional-commits",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease"
   },
@@ -41,6 +42,7 @@
     "eslint": "^7.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^7.0.0",
+    "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "lerna": "^3.21.0"
