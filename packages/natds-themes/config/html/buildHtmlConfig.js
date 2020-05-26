@@ -1,5 +1,5 @@
 const buildHtmlConfig = (brand, mode) => ({
-  actions: ['create_index_html'],
+  actions: ['create_paths_html'],
   buildPath: `build/html/${brand}/`,
   files: [
     {

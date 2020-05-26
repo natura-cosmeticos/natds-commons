@@ -1,7 +1,7 @@
 import buildHtmlConfig from './buildHtmlConfig';
 
 const expectedConfig = {
-  actions: ['create_index_html'],
+  actions: ['create_paths_html'],
   buildPath: 'build/html/pokemon/',
   files: [
     {

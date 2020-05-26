@@ -16,8 +16,6 @@ module.exports = {
     'jsx',
     'json',
   ],
-  roots: ['<rootDir>/packages/natds-themes'],
-  testEnvironment: 'jest-environment-node',
   testMatch: [
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',

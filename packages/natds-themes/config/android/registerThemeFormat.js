@@ -1,9 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import Handlebars from 'handlebars';
-import variables from '../nodeVariables.cjs';
-
-const { __dirname } = variables;
 
 const buildThemeInfo = (fileName) => {
   const themeName = fileName.replace('.xml', '');
@@ -16,7 +13,7 @@ const buildThemeInfo = (fileName) => {
 };
 
 const formatter = (dictionary, platform) => {
-  const html = fs.readFileSync(path.resolve(__dirname, './android/templates/themes.hbs')).toString();
+  const html = fs.readFileSync(path.resolve(__dirname, './templates/themes.hbs')).toString();
   const htmlTemplate = Handlebars.compile(html);
 
   const { mode, themeName } = buildThemeInfo(platform.files[1].destination);

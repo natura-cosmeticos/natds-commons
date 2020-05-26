@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:watch": "jest --watch",
     "lint": "lerna run lint",
     "commit": "git cz",
     "build": "lerna run build",
@@ -35,6 +35,9 @@
   },
   "homepage": "https://github.com/natura-cosmeticos/natds-commons#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@naturacosmeticos/eslint-config-natura": "^2.0.1",

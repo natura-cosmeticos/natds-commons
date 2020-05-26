@@ -2,7 +2,7 @@ import fs from 'fs';
 
 const filePath = 'build/html/paths.json';
 
-const doHandler = (dictionary, config) => {
+export const createPaths = (dictionary, config) => {
   const currentData = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath)) : [];
 
   const brandName = config.buildPath.split('/')[2];
@@ -16,14 +16,14 @@ const doHandler = (dictionary, config) => {
   fs.writeFileSync(filePath, JSON.stringify(currentData));
 };
 
-const undoHandler = () => fs.removeSync(filePath);
+export const deletePaths = () => fs.unlinkSync(filePath);
 
-const registerIndexHtmlAction = () => (
+const registerCreatePathsAction = () => (
   {
-    do: doHandler,
-    name: 'create_index_html',
-    undo: undoHandler,
+    do: createPaths,
+    name: 'create_paths_html',
+    undo: deletePaths,
   }
 );
 
-export default registerIndexHtmlAction;
+export default registerCreatePathsAction;

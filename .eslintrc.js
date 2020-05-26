@@ -20,42 +20,16 @@ module.exports = {
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [
-          "packages/natds-themes/**/*"
-        ]
-      }
+        "devDependencies": true,
+        "packageDir": __dirname,
+      },
     ],
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "always"
-      }
-    ]
   },
   "overrides": [
     {
-      "files": ['./packages/natds-themes/**/*'],
-      "rules": {
-        'import/no-extraneous-dependencies': [
-          2,
-          {
-            "devDependencies": true,
-            "packageDir": __dirname,
-          },
-        ],
-      },
-    },
-    {
       "files": ['./packages/natds-themes/**/*.test.js'],
       "rules": {
-        "import/extensions": [
-          "error",
-          "ignorePackages",
-          {
-            "js": "never"
-          }
-        ]
+        'max-lines-per-function': "off"
       },
     }
   ]
