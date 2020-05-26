@@ -1,7 +1,8 @@
 module.exports = {
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": ["@naturacosmeticos/natura"],
   "parserOptions": {
@@ -10,7 +11,7 @@ module.exports = {
   "settings": {
     "import/resolver": {
       "node": {
-        "paths": ["packages"]
+        "paths": ["packages/"]
       }
     }
   },
@@ -43,6 +44,18 @@ module.exports = {
             "packageDir": __dirname,
           },
         ],
+      },
+    },
+    {
+      "files": ['./packages/natds-themes/**/*.test.js'],
+      "rules": {
+        "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+            "js": "never"
+          }
+        ]
       },
     }
   ]

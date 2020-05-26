@@ -5,9 +5,8 @@
   "main": "./config/build.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "eslint ./**/*.js",
+    "test": "node --experimental-vm-modules ../../node_modules/jest/bin/jest.js",
+    "lint": "eslint --ext .js ./",
     "build": "rm -rf ./build && node ./config/build.js --input-type=module",
     "start": "http-server build/html"
   },

@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "test:watch": "lerna run test:watch",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
     "lint": "lerna run lint",
     "commit": "git cz",
     "build": "lerna run build",

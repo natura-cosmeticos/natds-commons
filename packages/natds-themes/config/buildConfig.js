@@ -1,5 +1,5 @@
-import buildReactNativeConfig from './react-native/reactNativeConfig.js';
-import buildHtmlConfig from './html/htmlConfig.js';
+import buildReactNativeConfig from './react-native/buildReactNativeConfig.js';
+import buildHtmlConfig from './html/buildHtmlConfig.js';
 
 const buildConfig = (brand, mode) => ({
   platforms: {

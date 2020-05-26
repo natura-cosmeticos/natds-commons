@@ -3,8 +3,6 @@ import fs from 'fs';
 const filePath = 'build/html/paths.json';
 
 const doHandler = (dictionary, config) => {
-  console.log('Copying assets directory', config);
-
   const currentData = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath)) : [];
 
   const brandName = config.buildPath.split('/')[2];
@@ -19,7 +17,6 @@ const doHandler = (dictionary, config) => {
 };
 
 const undoHandler = () => fs.removeSync(filePath);
-
 
 const registerIndexHtmlAction = () => (
   {
