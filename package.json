@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --collectCoverage",
     "lint": "lerna run lint",
     "commit": "git cz",
     "build": "lerna run build",
@@ -50,6 +50,7 @@
     "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
+    "jest-file-snapshot": "^0.3.8",
     "lerna": "^3.21.0",
     "style-dictionary": "^2.10.0"
   },

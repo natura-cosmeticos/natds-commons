@@ -1,3 +1,4 @@
+import path from 'path';
 import registerAttributesFormat from './registerAttributesFormat';
 
 const dictionary = {
@@ -29,7 +30,8 @@ describe('registerAttributesFormat', () => {
 
   it('should return the correct formatter template', () => {
     const register = registerAttributesFormat();
+    const output = register.formatter(dictionary);
 
-    expect(register.formatter(dictionary)).toMatchSnapshot();
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerAttributesFormat.snap.xml'));
   });
 });

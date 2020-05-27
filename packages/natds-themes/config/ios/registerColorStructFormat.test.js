@@ -1,3 +1,4 @@
+import path from 'path';
 import registerColorStructFormat from './registerColorStructFormat';
 
 const dictionary = {
@@ -38,6 +39,8 @@ describe('registerColorPalletProtocolFormat', () => {
   it('should return the correct formatter template', () => {
     const register = registerColorStructFormat();
 
-    expect(register.formatter(dictionary, platform)).toMatchSnapshot();
+    const output = register.formatter(dictionary, platform);
+
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerColorStructFormat.snap.swift'));
   });
 });

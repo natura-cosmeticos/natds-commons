@@ -1,4 +1,5 @@
-import registerThemeFormat from './registerThemeFormat';
+import path from 'path';
+import registerThemeFormat, { buildThemeInfo } from './registerThemeFormat';
 
 const dictionary = {
   properties: {
@@ -40,7 +41,32 @@ describe('registerAttributesFormat', () => {
 
   it('should return the correct formatter template', () => {
     const register = registerThemeFormat();
+    const output = register.formatter(dictionary, platform);
 
-    expect(register.formatter(dictionary, platform)).toMatchSnapshot();
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerThemeFormat.snap.xml'));
+  });
+
+  describe('buildThemeInfo', () => {
+    it('should return the theme brand and mode information for dark mode', () => {
+      const themeInfo = buildThemeInfo('Theme.Avon.Dark.xml');
+
+      const expectedThemeInfo = {
+        mode: 'DayNight',
+        themeName: 'Theme.Avon.Dark',
+      };
+
+      expect(themeInfo).toEqual(expectedThemeInfo);
+    });
+
+    it('should return the theme brand and mode information for light mode', () => {
+      const themeInfo = buildThemeInfo('Theme.Avon.Light.xml');
+
+      const expectedThemeInfo = {
+        mode: 'Light',
+        themeName: 'Theme.Avon.Light',
+      };
+
+      expect(themeInfo).toEqual(expectedThemeInfo);
+    });
   });
 });

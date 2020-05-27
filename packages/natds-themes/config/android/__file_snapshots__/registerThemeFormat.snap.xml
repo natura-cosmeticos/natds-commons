@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Avon.Dark" parent="Theme.MaterialComponents.DayNight">
+    <item name="colorPrimary">#F091C9</item>
+  </style>
+</resources>

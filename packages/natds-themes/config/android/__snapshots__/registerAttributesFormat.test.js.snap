@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`registerAttributesFormat should return the correct formatter template 1`] = `
-"<?xml version=\\"1.0\\" encoding=\\"utf-8\\"?>
-<resources>
-  <attr name=\\"colorPrimary\\" format=\\"color\\" />
-</resources>
-"
-`;

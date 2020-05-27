@@ -1,3 +1,4 @@
+import path from 'path';
 import registerHtmlFormat from './registerHtmlFormat';
 
 const dictionary = {
@@ -30,6 +31,8 @@ describe('registerHtmlFormat', () => {
   it('should return the correct formatter template', () => {
     const register = registerHtmlFormat();
 
-    expect(register.formatter(dictionary)).toMatchSnapshot();
+    const output = register.formatter(dictionary);
+
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerHtmlFormat.snap.html'));
   });
 });

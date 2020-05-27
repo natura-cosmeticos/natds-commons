@@ -1,7 +1,7 @@
 module.exports = {
   cacheDirectory: '.jest/cache',
   collectCoverageFrom: [
-    '<rootDir>/packages/**/*.js',
+    '<rootDir>/packages/**/**/*.js',
   ],
   coverageThreshold: {
     global: {
@@ -16,8 +16,12 @@ module.exports = {
     'jsx',
     'json',
   ],
+  setupFilesAfterEnv: ['./jest.setup.js'],
   testMatch: [
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
+  ],
+  watchPathIgnorePatterns: [
+    '__file_snapshots__',
   ],
 };

@@ -2,12 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import Handlebars from 'handlebars';
 
-const buildThemeInfo = (fileName) => {
+export const buildThemeInfo = (fileName) => {
   const themeName = fileName.replace('.xml', '');
   const [, , mode] = fileName.split('.');
 
   return {
-    mode: mode === 'light' ? 'Light' : 'DayNight',
+    mode: mode === 'Light' ? 'Light' : 'DayNight',
     themeName,
   };
 };
