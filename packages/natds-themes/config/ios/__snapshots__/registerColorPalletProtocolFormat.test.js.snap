@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`registerColorPalletProtocolFormat should return the correct formatter template 1`] = `
+"protocol ColorPalette {
+  var primary: String { get }
+}"
+`;

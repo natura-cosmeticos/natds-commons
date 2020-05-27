@@ -4,8 +4,8 @@ import registerHtmlFormat from './html/registerHtmlFormat';
 import registerCreatePathsAction from './html/registerCreatePathsAction';
 import registerAttributesFormatter from './android/registerAttributesFormat';
 import registerThemeFormat from './android/registerThemeFormat';
-import registerStructFormat from './ios/registerStructFormat';
-import registerProtocolColorPalletFormat from './ios/registerProtocolColorPalletFormat';
+import registerColorStructFormat from './ios/registerColorStructFormat';
+import registerColorPalletProtocolFormat from './ios/registerColorPalletProtocolFormat';
 
 const brands = [
   'natura',
@@ -29,8 +29,8 @@ const customFormats = [
   registerHtmlFormat,
   registerAttributesFormatter,
   registerThemeFormat,
-  registerStructFormat,
-  registerProtocolColorPalletFormat,
+  registerColorStructFormat,
+  registerColorPalletProtocolFormat,
 ];
 
 const customActions = [

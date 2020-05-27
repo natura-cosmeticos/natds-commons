@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Handlebars from 'handlebars';
 
-const registerStructFormat = () => {
+const registerColorStructFormat = () => {
   const html = fs.readFileSync(path.resolve(__dirname, './templates/colorStruct.hbs')).toString();
   const htmlTemplate = Handlebars.compile(html);
 
@@ -17,4 +17,4 @@ const registerStructFormat = () => {
   };
 };
 
-export default registerStructFormat;
+export default registerColorStructFormat;
