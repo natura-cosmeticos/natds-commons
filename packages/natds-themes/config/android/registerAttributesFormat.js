@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Handlebars from 'handlebars';
 
-const registerHtmlFormat = () => {
+const registerAttributesFormat = () => {
   const html = fs.readFileSync(path.resolve(__dirname, './templates/attributes.hbs')).toString();
   const htmlTemplate = Handlebars.compile(html);
 
@@ -16,4 +16,4 @@ const registerHtmlFormat = () => {
   };
 };
 
-export default registerHtmlFormat;
+export default registerAttributesFormat;

@@ -1,4 +1,4 @@
-const capitalizeWord = word => `${word[0].toUpperCase()}${word.slice(1)}`;
+import { capitalizeWord } from '../shared/textHelpers';
 
 const buildAndroidConfig = (brand, mode) => ({
   buildPath: `build/android/${brand}/`,

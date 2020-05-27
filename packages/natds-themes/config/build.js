@@ -4,6 +4,7 @@ import registerHtmlFormat from './html/registerHtmlFormat';
 import registerCreatePathsAction from './html/registerCreatePathsAction';
 import registerAttributesFormatter from './android/registerAttributesFormat';
 import registerThemeFormat from './android/registerThemeFormat';
+import registerStructFormat from './ios/registerStructFormat';
 
 const brands = [
   'natura',
@@ -20,12 +21,14 @@ const platforms = [
   'react-native',
   'html',
   'android',
+  'ios',
 ];
 
 const customFormats = [
   registerHtmlFormat,
   registerAttributesFormatter,
   registerThemeFormat,
+  registerStructFormat,
 ];
 
 const customActions = [
