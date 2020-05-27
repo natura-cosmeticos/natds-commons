@@ -28,6 +28,6 @@
     <item name="colorWarning">#FCC433</item>
     <item name="colorOnWarning">#333333</item>
     <item name="colorAlert">#E74627</item>
-    <item name="colorOnAlert">#FFFFFF </item>
+    <item name="colorOnAlert">#FFFFFF</item>
   </style>
 </resources>

@@ -1,4 +1,4 @@
-struct NaturaColorPaletteLight {
+struct NaturaColorPaletteLight: ColorPalette {
   let primary = "#F4AB34"
   let onPrimary = "#333333"
   let primaryLight = "#FEFDE8"

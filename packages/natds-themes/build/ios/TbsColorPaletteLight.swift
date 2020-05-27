@@ -1,4 +1,4 @@
-struct TbsColorPaletteDark {
+struct TbsColorPaletteLight: ColorPalette {
   let primary = "#62B3AE"
   let onPrimary = "#000000"
   let primaryLight = "#94E5E0"

@@ -1,4 +1,4 @@
-struct AvonColorPaletteLight {
+struct AvonColorPaletteLight: ColorPalette {
   let primary = "#DE0085"
   let onPrimary = "#FFFFFF"
   let primaryLight = "#FF56B5"

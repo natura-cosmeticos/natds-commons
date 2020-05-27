@@ -1,0 +1,5 @@
+protocol ColorPalette {
+  {{#each color}}
+  var {{@key}}: String { get }
+  {{/each}}
+}
