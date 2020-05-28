@@ -6,6 +6,7 @@ import registerAttributesFormatter from './android/registerAttributesFormat';
 import registerThemeFormat from './android/registerThemeFormat';
 import registerColorStructFormat from './ios/registerColorStructFormat';
 import registerColorPalletProtocolFormat from './ios/registerColorPalletProtocolFormat';
+import registerColorIndexAction from './react-dom/registerColorIndexAction';
 
 const brands = [
   'natura',
@@ -20,6 +21,7 @@ const modes = [
 
 const platforms = [
   'react-native',
+  'react-dom',
   'html',
   'android',
   'ios',
@@ -35,6 +37,7 @@ const customFormats = [
 
 const customActions = [
   registerCreatePathsAction,
+  registerColorIndexAction,
 ];
 
 const buildDictionary = (brand, mode, platform) => {

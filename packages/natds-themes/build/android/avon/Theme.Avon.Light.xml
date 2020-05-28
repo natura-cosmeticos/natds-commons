@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Avon.Light" parent="Theme.MaterialComponents.DayNight">
+  <style name="Theme.Avon.Light" parent="Theme.MaterialComponents.Light">
     <item name="colorPrimary">#DE0085</item>
     <item name="colorOnPrimary">#FFFFFF</item>
     <item name="colorPrimaryLight">#FF56B5</item>

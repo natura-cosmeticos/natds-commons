@@ -1,4 +1,5 @@
 import buildReactNativeConfig from './react-native/buildReactNativeConfig';
+import buildReactDomConfig from './react-dom/buildReactDomConfig';
 import buildHtmlConfig from './html/buildHtmlConfig';
 import buildAndroidConfig from './android/buildAndroidConfig';
 import builIosConfig from './ios/buildIosConfig';
@@ -8,6 +9,7 @@ const buildConfig = (brand, mode) => ({
     android: buildAndroidConfig(brand, mode),
     html: buildHtmlConfig(brand, mode),
     ios: builIosConfig(brand, mode),
+    'react-dom': buildReactDomConfig(brand, mode),
     'react-native': buildReactNativeConfig(brand, mode),
   },
   source: [

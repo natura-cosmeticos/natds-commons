@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Natura.Light" parent="Theme.MaterialComponents.DayNight">
+  <style name="Theme.Natura.Light" parent="Theme.MaterialComponents.Light">
     <item name="colorPrimary">#F4AB34</item>
     <item name="colorOnPrimary">#333333</item>
     <item name="colorPrimaryLight">#FEFDE8</item>
