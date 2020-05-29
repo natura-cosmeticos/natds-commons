@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Tbs.Light" parent="Theme.MaterialComponents.Light">
+  <style name="Theme.TheBodyShop.Light" parent="Theme.MaterialComponents.Light">
     <item name="colorPrimary">#62B3AE</item>
     <item name="colorOnPrimary">#000000</item>
     <item name="colorPrimaryLight">#94E5E0</item>

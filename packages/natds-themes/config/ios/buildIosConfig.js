@@ -11,6 +11,10 @@ const buildAndroidConfig = (brand, mode) => ({
       destination: 'ColorPalette.swift',
       format: 'ios-swift/protocol-colors-palette.swift',
     },
+    {
+      destination: 'DynamicColors.swift',
+      format: 'ios-swift/dynamic-colors.swift',
+    },
   ],
   transformGroup: 'ios-swift',
   transforms: ['color/hex'],

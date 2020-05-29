@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Tbs.Dark" parent="Theme.MaterialComponents.DayNight">
+  <style name="Theme.TheBodyShop.Dark" parent="Theme.MaterialComponents.DayNight">
     <item name="colorPrimary">#62B3AE</item>
     <item name="colorOnPrimary">#000000</item>
     <item name="colorPrimaryLight">#94E5E0</item>

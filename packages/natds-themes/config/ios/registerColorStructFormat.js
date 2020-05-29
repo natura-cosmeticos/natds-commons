@@ -3,7 +3,7 @@ import path from 'path';
 import Handlebars from 'handlebars';
 
 const registerColorStructFormat = () => {
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/colorStruct.hbs')).toString();
+  const html = fs.readFileSync(path.resolve(__dirname, './templates/colorPaletteStruct.hbs')).toString();
   const htmlTemplate = Handlebars.compile(html);
 
   const formatter = (dictionary, platform) => htmlTemplate({

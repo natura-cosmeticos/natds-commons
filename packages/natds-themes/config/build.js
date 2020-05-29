@@ -6,11 +6,12 @@ import registerAttributesFormatter from './android/registerAttributesFormat';
 import registerThemeFormat from './android/registerThemeFormat';
 import registerColorStructFormat from './ios/registerColorStructFormat';
 import registerColorPalletProtocolFormat from './ios/registerColorPalletProtocolFormat';
+import registerDynamicColorFormat from './ios/registerDynamicColorFormat';
 import registerColorIndexAction from './react-dom/registerColorIndexAction';
 
 const brands = [
   'natura',
-  'tbs',
+  'theBodyShop',
   'avon',
 ];
 
@@ -33,6 +34,7 @@ const customFormats = [
   registerThemeFormat,
   registerColorStructFormat,
   registerColorPalletProtocolFormat,
+  registerDynamicColorFormat,
 ];
 
 const customActions = [

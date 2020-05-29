@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import Handlebars from 'handlebars';
 
-const registerProtocolColorPalletFormat = () => {
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/colorPaletteProtocol.hbs')).toString();
+const registerDynamicColorFormat = () => {
+  const html = fs.readFileSync(path.resolve(__dirname, './templates/dynamicColorsClass.hbs')).toString();
   const htmlTemplate = Handlebars.compile(html);
 
   const formatter = dictionary => htmlTemplate({
@@ -12,8 +12,8 @@ const registerProtocolColorPalletFormat = () => {
 
   return {
     formatter,
-    name: 'ios-swift/protocol-colors-palette.swift',
+    name: 'ios-swift/dynamic-colors.swift',
   };
 };
 
-export default registerProtocolColorPalletFormat;
+export default registerDynamicColorFormat;
