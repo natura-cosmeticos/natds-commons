@@ -17,6 +17,4 @@ export const createColorIndex = () => {
   fs.writeFileSync(outputPath, result);
 };
 
-export default {
-  createColorIndex,
-};
+export default createColorIndex;

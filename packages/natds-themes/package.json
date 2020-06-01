@@ -4,9 +4,13 @@
   "description": "The single source of truth for Natura Desing System tokens.",
   "main": "./config/build.js",
   "scripts": {
-    "test": "jest --collectCoverage",
+    "test": "jest --collectCoverage --colors --config='../../jest.config.js'",
     "lint": "eslint --ext .js ./",
-    "build": "rm -rf ./build && babel-node --presets @babel/preset-env ./config/build.js && babel-node --presets @babel/preset-env ./config/postBuild.js && cp ./config/ios/static/* ./build/ios",
+    "build": "yarn build:clear && yarn build:outputs && yarn build:post && yarn build:copy",
+    "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
+    "build:post": "babel-node --presets @babel/preset-env -e 'require(\"./config/postBuild.js\").postBuild()'",
+    "build:copy": "cp ./config/ios/static/* ./build/ios",
+    "build:clear": "rm -rf ./build",
     "start": "http-server build/html"
   },
   "license": "ISC",

@@ -1,8 +1,5 @@
-import { createColorIndex } from './react-dom/createColorIndex';
+import postBuildTasks from './shared/config';
 
+export const postBuild = () => postBuildTasks.forEach(buildTask => buildTask());
 
-const postBuildTasks = [
-  createColorIndex,
-];
-
-postBuildTasks.forEach(buildTask => buildTask());
+export default postBuild;

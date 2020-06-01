@@ -29,7 +29,8 @@ module.exports = {
     {
       "files": ['./packages/natds-themes/**/*.test.js'],
       "rules": {
-        'max-lines-per-function': "off"
+        'max-lines-per-function': "off",
+        'max-statements': "off"
       },
     }
   ]
