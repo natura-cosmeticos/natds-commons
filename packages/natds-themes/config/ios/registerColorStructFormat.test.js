@@ -28,7 +28,7 @@ const platform = {
   ],
 };
 
-describe('registerColorPalletProtocolFormat', () => {
+describe('registerColorStructFormat', () => {
   it('should return the register config', () => {
     const register = registerColorStructFormat();
 

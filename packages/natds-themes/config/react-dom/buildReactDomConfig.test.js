@@ -1,14 +1,16 @@
 import buildReactDomConfig from './buildReactDomConfig';
 
 const expectedConfig = {
-  buildPath: 'build/react-native/pokemon/',
+  actions: ['create_paths_react_dom'],
+  buildPath: 'build/react-dom/pokemon/',
   files: [
     {
       destination: 'pikachu.json',
-      format: 'json/nested',
+      format: 'json/flat',
     },
   ],
   transformGroup: 'js',
+  transforms: ['name/cti/camel'],
 };
 
 describe('buildReactDomConfig', () => {

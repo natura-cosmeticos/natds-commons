@@ -1,13 +1,13 @@
 import StyleDictionary from 'style-dictionary';
 import buildConfig from './buildConfig';
 import registerHtmlFormat from './html/registerHtmlFormat';
-import registerCreatePathsAction from './html/registerCreatePathsAction';
+import registerHtmlCreatePathsAction from './html/registerCreatePathsAction';
 import registerAttributesFormatter from './android/registerAttributesFormat';
 import registerThemeFormat from './android/registerThemeFormat';
 import registerColorStructFormat from './ios/registerColorStructFormat';
 import registerColorPalletProtocolFormat from './ios/registerColorPalletProtocolFormat';
 import registerDynamicColorFormat from './ios/registerDynamicColorFormat';
-import registerColorIndexAction from './react-dom/registerColorIndexAction';
+import registerReactCreatePathsAction from './react-dom/registerCreatePathsAction';
 
 const brands = [
   'natura',
@@ -38,8 +38,8 @@ const customFormats = [
 ];
 
 const customActions = [
-  registerCreatePathsAction,
-  registerColorIndexAction,
+  registerHtmlCreatePathsAction,
+  registerReactCreatePathsAction,
 ];
 
 const buildDictionary = (brand, mode, platform) => {

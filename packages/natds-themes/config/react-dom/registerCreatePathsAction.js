@@ -3,7 +3,7 @@ import { capitalizeWord } from '../shared/textHelpers';
 
 const filePath = 'build/react-dom/paths.json';
 
-export const createIndex = (dictionary, config) => {
+export const createPaths = (dictionary, config) => {
   const currentData = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath)) : [];
 
   const brandName = config.buildPath.split('/')[2];
@@ -17,13 +17,13 @@ export const createIndex = (dictionary, config) => {
   fs.writeFileSync(filePath, JSON.stringify(currentData));
 };
 
-export const deleteIndex = () => fs.unlinkSync(filePath);
+export const deletePaths = () => fs.unlinkSync(filePath);
 
 const registerCreatePathsAction = () => (
   {
-    do: createIndex,
-    name: 'create_index',
-    undo: deleteIndex,
+    do: createPaths,
+    name: 'create_paths_react_dom',
+    undo: deletePaths,
   }
 );
 

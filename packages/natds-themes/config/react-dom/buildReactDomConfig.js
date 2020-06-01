@@ -1,5 +1,5 @@
 const buildReactDomConfig = (brand, mode) => ({
-  actions: ['create_index'],
+  actions: ['create_paths_react_dom'],
   buildPath: `build/react-dom/${brand}/`,
   files: [
     {

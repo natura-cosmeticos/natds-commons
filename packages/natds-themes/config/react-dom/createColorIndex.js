@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import Handlebars from 'handlebars';
 
-export const createIndex = () => {
+export const createColorIndex = () => {
   const dataPath = path.resolve(__dirname, '../../build/react-dom/paths.json');
   const templatePath = path.resolve(__dirname, './templates/colorIndex.hbs');
   const outputPath = './build/react-dom/index.js';
@@ -15,11 +15,8 @@ export const createIndex = () => {
   const result = htmlTemplate({ paths: JSON.parse(paths) });
 
   fs.writeFileSync(outputPath, result);
-  fs.unlinkSync(dataPath);
 };
 
-createIndex();
-
 export default {
-  createIndex,
+  createColorIndex,
 };

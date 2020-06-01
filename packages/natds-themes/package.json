@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --collectCoverage",
     "lint": "eslint --ext .js ./",
-    "build": "rm -rf ./build && babel-node --presets @babel/preset-env ./config/build.js && babel-node --presets @babel/preset-env ./config/react-dom/createColorIndex.js && cp ./config/ios/static/* ./build/ios",
+    "build": "rm -rf ./build && babel-node --presets @babel/preset-env ./config/build.js && babel-node --presets @babel/preset-env ./config/postBuild.js && cp ./config/ios/static/* ./build/ios",
     "start": "http-server build/html"
   },
   "license": "ISC",
