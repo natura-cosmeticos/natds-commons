@@ -1,5 +1,6 @@
 import path from 'path';
 import registerColorPalletProtocolFormat from './registerColorPalletProtocolFormat';
+import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
   properties: {
@@ -21,11 +22,11 @@ const dictionary = {
 };
 
 describe('registerColorPalletProtocolFormat', () => {
-  it('should return the register config', () => {
-    const register = registerColorPalletProtocolFormat();
+  it('should call the formatBuilder function ', () => {
+    jest.spyOn(formatBuilder, 'formatBuilder');
+    registerColorPalletProtocolFormat();
 
-    expect(typeof register.formatter).toBe('function');
-    expect(register.name).toBe('ios-swift/protocol-colors-palette.swift');
+    expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {

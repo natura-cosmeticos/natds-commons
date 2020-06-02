@@ -1,45 +1,30 @@
 import fs from 'fs';
 import { createColorIndex } from './createColorIndex';
-
-const template = `
-{{#each paths}}
-import {{name}} from '.{{path}}';
-{{/each}}
-
-export default {
-{{#each paths}}
-  {{name}},
-{{/each}}
-};
-`;
+import * as compileTemplate from '../shared/templateHelpers';
 
 jest.mock('fs');
 
 describe('createColorIndex', () => {
   it('should create token paths file', () => {
-    const buffer = Buffer.from(template, 'utf8');
-
     const mockPathsFile = [{
       name: 'avonLightColorTokens',
       path: '/avon/light.json',
     }];
 
+    const templateSpy = jest.fn(() => 'A template');
+
+    jest
+      .spyOn(compileTemplate, 'compileTemplate')
+      .mockImplementation(() => templateSpy);
+
     fs
       .readFileSync
-      .mockReturnValue(buffer)
-      .mockReturnValueOnce(buffer)
-      .mockReturnValueOnce(JSON.stringify(mockPathsFile));
+      .mockReturnValue(JSON.stringify(mockPathsFile));
 
     createColorIndex();
 
-    const expectedFile = `
-import avonLightColorTokens from './avon/light.json';
-
-export default {
-  avonLightColorTokens,
-};
-`;
-
-    expect(fs.writeFileSync).toHaveBeenCalledWith('./build/react-dom/index.js', expectedFile);
+    expect(templateSpy).toHaveBeenCalledWith({ paths: mockPathsFile });
+    expect(fs.readFileSync).toHaveBeenCalled();
+    expect(fs.writeFileSync).toHaveBeenCalledWith('./build/react-dom/index.js', 'A template');
   });
 });

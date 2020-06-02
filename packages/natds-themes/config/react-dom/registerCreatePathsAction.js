@@ -1,21 +1,23 @@
 import fs from 'fs';
 import { capitalizeWord } from '../shared/textHelpers';
+import { createOutputPathInfo } from '../shared/createOutputPathInfo';
 
 const filePath = 'build/react-dom/paths.json';
 
-export const createPaths = (dictionary, config) => {
-  const currentData = fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath)) : [];
-
+export const dataBuilderFunction = (dictionary, config) => {
   const brandName = config.buildPath.split('/')[2];
   const mode = config.files[0].destination.split('.')[0];
 
-  currentData.push({
+  return {
     name: `${brandName}${capitalizeWord(mode)}ColorTokens`,
     path: `/${brandName}/${config.files[0].destination}`,
-  });
-
-  fs.writeFileSync(filePath, JSON.stringify(currentData));
+  };
 };
+
+export const createPaths = (
+  dictionary,
+  config,
+) => createOutputPathInfo(filePath, dataBuilderFunction, dictionary, config);
 
 export const deletePaths = () => fs.unlinkSync(filePath);
 

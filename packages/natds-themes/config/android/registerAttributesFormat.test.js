@@ -1,5 +1,6 @@
 import path from 'path';
 import registerAttributesFormat from './registerAttributesFormat';
+import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
   properties: {
@@ -21,11 +22,11 @@ const dictionary = {
 };
 
 describe('registerAttributesFormat', () => {
-  it('should return the register config', () => {
-    const register = registerAttributesFormat();
+  it('should call the formatBuilder function ', () => {
+    jest.spyOn(formatBuilder, 'formatBuilder');
+    registerAttributesFormat();
 
-    expect(typeof register.formatter).toBe('function');
-    expect(register.name).toBe('android/attributes');
+    expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {

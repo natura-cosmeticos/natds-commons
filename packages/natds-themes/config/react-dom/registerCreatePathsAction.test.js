@@ -1,7 +1,14 @@
 import fs from 'fs';
-import registerCreatePathsAction, { createPaths, deletePaths } from './registerCreatePathsAction';
+import registerCreatePathsAction, { createPaths, deletePaths, dataBuilderFunction } from './registerCreatePathsAction';
+import * as createOutputPathInfo from '../shared/createOutputPathInfo';
+import * as textHelpers from '../shared/textHelpers';
 
 jest.mock('fs');
+
+const sampleConfig = {
+  buildPath: 'build/react-dom/brand/',
+  files: [{ destination: 'mode.html' }],
+};
 
 describe('registerCreatePathsAction', () => {
   it('should return create paths action', () => {
@@ -11,54 +18,15 @@ describe('registerCreatePathsAction', () => {
     expect(typeof createPathsAction.undo).toBe('function');
     expect(createPathsAction.name).toEqual('create_paths_react_dom');
   });
+});
 
-  describe('createPaths', () => {
-    it('should create index paths file when the file does not exists', () => {
-      const expectedFile = [
-        {
-          name: 'brandModeColorTokens',
-          path: '/brand/mode.html',
-        },
-      ];
-
-      const sampleConfig = {
-        buildPath: 'build/react-dom/brand/',
-        files: [{ destination: 'mode.html' }],
-      };
-
-      fs.existsSync.mockReturnValue(false);
-
-      createPaths(null, sampleConfig);
-
-      expect(fs.writeFileSync).toHaveBeenCalledWith('build/react-dom/paths.json', JSON.stringify(expectedFile));
-    });
-  });
-
-  it('should create index paths file when the file exists', () => {
-    const existingFile = [{
-      name: 'otherBrandModeColorTokens',
-      path: '/otherBrand/mode.json',
-    }];
-
-    const expectedFile = [
-      ...existingFile,
-      {
-        name: 'brandModeColorTokens',
-        path: '/brand/mode.html',
-      },
-    ];
-
-    const sampleConfig = {
-      buildPath: 'build/react-dom/brand/',
-      files: [{ destination: 'mode.html' }],
-    };
-
-    fs.existsSync.mockReturnValue(true);
-    fs.readFileSync.mockReturnValue(JSON.stringify(existingFile));
+describe('createPaths', () => {
+  it('should call createOutputPathInfo function', () => {
+    jest.spyOn(createOutputPathInfo, 'createOutputPathInfo');
 
     createPaths(null, sampleConfig);
 
-    expect(fs.writeFileSync).toHaveBeenNthCalledWith(2, 'build/react-dom/paths.json', JSON.stringify(expectedFile));
+    expect(createOutputPathInfo.createOutputPathInfo).toHaveBeenCalled();
   });
 });
 
@@ -67,5 +35,24 @@ describe('deletePaths', () => {
     deletePaths();
 
     expect(fs.unlinkSync).toHaveBeenCalledWith('build/react-dom/paths.json');
+  });
+});
+
+describe('dataBuilderFunction', () => {
+  it('should build the template data', () => {
+    const capitalizeWordSpy = jest.fn(() => 'Mode');
+
+    jest
+      .spyOn(textHelpers, 'capitalizeWord')
+      .mockImplementation(capitalizeWordSpy);
+
+    const data = dataBuilderFunction(null, sampleConfig);
+
+    expect(data).toEqual({
+      name: 'brandModeColorTokens',
+      path: '/brand/mode.html',
+    });
+
+    expect(capitalizeWordSpy).toHaveBeenCalledWith('mode');
   });
 });
