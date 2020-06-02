@@ -5,14 +5,14 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "lerna run test",
-    "test:watch": "jest --watch --collectCoverage",
-    "lint": "lerna run lint",
-    "commit": "git cz",
     "build": "lerna run build",
-    "release": "lerna version --conventional-commits",
+    "commit": "git cz",
+    "lint": "lerna run lint",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
-    "start": "lerna run start"
+    "release": "lerna version --conventional-commits",
+    "start": "lerna run start",
+    "test": "lerna run test",
+    "test:watch": "jest --watch --collectCoverage"
   },
   "repository": {
     "type": "git",

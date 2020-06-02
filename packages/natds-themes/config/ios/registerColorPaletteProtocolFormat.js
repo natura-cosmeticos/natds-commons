@@ -1,7 +1,7 @@
 import path from 'path';
 import { formatBuilder } from '../shared/formatBuilder';
 
-const registerProtocolColorPalletFormat = () => {
+const registerProtocolColorPaletteFormat = () => {
   const templatePath = path.resolve(__dirname, './templates/colorPaletteProtocol.hbs');
 
   const templateDataBuilder = dictionary => ({
@@ -11,4 +11,4 @@ const registerProtocolColorPalletFormat = () => {
   return formatBuilder('ios-swift/protocol-colors-palette.swift', templatePath, templateDataBuilder);
 };
 
-export default registerProtocolColorPalletFormat;
+export default registerProtocolColorPaletteFormat;
