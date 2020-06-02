@@ -3,6 +3,8 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/packages/**/**/*.js',
     '!<rootDir>/packages/**/**/babel.config.js',
+    '!<rootDir>/packages/**/build/**/*.js',
+    '!<rootDir>/packages/**/dist/**/*.js',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {

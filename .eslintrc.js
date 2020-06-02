@@ -15,7 +15,11 @@ module.exports = {
       }
     }
   },
-  "ignorePatterns": [".eslintrc.js"],
+  "ignorePatterns": [
+    ".eslintrc.js",
+    "**/build/**",
+    "**/dist/**",
+  ],
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",

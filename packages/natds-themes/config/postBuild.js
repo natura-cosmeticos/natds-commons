@@ -1,4 +1,4 @@
-import postBuildTasks from './shared/config';
+import { postBuildTasks } from './shared/config';
 
 export const postBuild = () => postBuildTasks.forEach(buildTask => buildTask());
 
