@@ -1,19 +1,14 @@
-import fs from 'fs';
 import path from 'path';
-import Handlebars from 'handlebars';
+import { formatBuilder } from '../shared/formatBuilder';
 
 const registerAttributesFormat = () => {
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/attributes.hbs')).toString();
-  const htmlTemplate = Handlebars.compile(html);
+  const templatePath = path.resolve(__dirname, './templates/attributes.hbs');
 
-  const formatter = dictionary => htmlTemplate({
+  const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
   });
 
-  return {
-    formatter,
-    name: 'android/attributes',
-  };
+  return formatBuilder('android/attributes', templatePath, templateDataBuilder);
 };
 
 export default registerAttributesFormat;

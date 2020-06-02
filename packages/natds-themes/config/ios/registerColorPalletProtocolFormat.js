@@ -1,19 +1,14 @@
-import fs from 'fs';
 import path from 'path';
-import Handlebars from 'handlebars';
+import { formatBuilder } from '../shared/formatBuilder';
 
 const registerProtocolColorPalletFormat = () => {
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/colorPaletteProtocol.hbs')).toString();
-  const htmlTemplate = Handlebars.compile(html);
+  const templatePath = path.resolve(__dirname, './templates/colorPaletteProtocol.hbs');
 
-  const formatter = dictionary => htmlTemplate({
+  const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
   });
 
-  return {
-    formatter,
-    name: 'ios-swift/protocol-colors-palette.swift',
-  };
+  return formatBuilder('ios-swift/protocol-colors-palette.swift', templatePath, templateDataBuilder);
 };
 
 export default registerProtocolColorPalletFormat;
