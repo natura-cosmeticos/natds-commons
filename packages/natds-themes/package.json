@@ -11,7 +11,7 @@
     "build:post": "babel-node --presets @babel/preset-env -e 'require(\"./config/postBuild.js\").postBuild()'",
     "build:copy": "cp ./config/ios/static/* ./build/ios",
     "build:clear": "rm -rf ./build",
-    "start": "http-server build/html"
+    "start": "yarn run build && http-server build/html"
   },
   "license": "ISC",
   "devDependencies": {}
