@@ -1,5 +1,6 @@
 # macos files
 .DS_Store
+.icloud
 
 # Logs
 logs
