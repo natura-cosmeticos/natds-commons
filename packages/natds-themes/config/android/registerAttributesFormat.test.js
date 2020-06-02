@@ -22,7 +22,7 @@ const dictionary = {
 };
 
 describe('registerAttributesFormat', () => {
-  it('should call the formatBuilder function ', () => {
+  it('should call the formatBuilder function', () => {
     jest.spyOn(formatBuilder, 'formatBuilder');
     registerAttributesFormat();
 
