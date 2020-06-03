@@ -28,5 +28,25 @@
     "onWarning": "#333333",
     "alert": "#e74627",
     "onAlert": "#ffffff"
+  },
+  "size": {
+    "none": "0rem",
+    "micro": "4rem",
+    "tiny": "8rem",
+    "small": "16rem",
+    "standard": "24rem",
+    "semi": "32rem",
+    "semix": "40rem",
+    "medium": "48rem",
+    "mediumx": "56rem",
+    "large": "64rem",
+    "largex": "72rem",
+    "largexx": "80rem",
+    "largexxx": "88rem",
+    "huge": "96rem",
+    "hugex": "128rem",
+    "hugexx": "144rem",
+    "hugexxx": "192rem",
+    "veryhuge": "256rem"
   }
 }
