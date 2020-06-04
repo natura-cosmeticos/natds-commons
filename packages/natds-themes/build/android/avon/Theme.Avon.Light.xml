@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Avon.Light" parent="Theme.MaterialComponents.Light">
+    <item name="colorPrimary">#DE0085</item>
+    <item name="colorOnPrimary">#FFFFFF</item>
+    <item name="colorPrimaryLight">#FF56B5</item>
+    <item name="colorOnPrimaryLight">#000000</item>
+    <item name="colorPrimaryDark">#A70058</item>
+    <item name="colorOnPrimaryDark">#FFFFFF</item>
+    <item name="colorSecondary">#E9E9E9</item>
+    <item name="colorOnSecondary">#333333</item>
+    <item name="colorSecondaryLight">#FFFFFF</item>
+    <item name="colorOnSecondaryLight">#333333</item>
+    <item name="colorSecondaryDark">#B7B7B7</item>
+    <item name="colorOnSecondaryDark">#333333</item>
+    <item name="colorBackground">#FAFAFA</item>
+    <item name="colorOnBackground">#333333</item>
+    <item name="colorSurface">#FFFFFF</item>
+    <item name="colorOnSurface">#333333</item>
+    <item name="colorHighlight">#000000</item>
+    <item name="colorHighEmphasis">#333333</item>
+    <item name="colorMediumEmphasis">#777777</item>
+    <item name="colorLowEmphasis">#BBBBBB</item>
+    <item name="colorLink">#227BBD</item>
+    <item name="colorOnLink">#FFFFFF</item>
+    <item name="colorSuccess">#569A32</item>
+    <item name="colorOnSuccess">#FFFFFF</item>
+    <item name="colorWarning">#FCC433</item>
+    <item name="colorOnWarning">#333333</item>
+    <item name="colorAlert">#E74627</item>
+    <item name="colorOnAlert">#FFFFFF</item>
+  </style>
+</resources>

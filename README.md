@@ -30,9 +30,13 @@ yarn <command>
 
 `commit`: opens an interactive GUI to help you write commits in compliance with `conventional commits`
 
+`build`: run packages build task
+
 `release`: analize commits, bump packages and make the apropriate releases
 
 `prerelease`: analize commits, bump packages and make the apropriate pre-releases
+
+`start`: runs packages `start` task, generally used to open a browser visualization
 
 ___
 

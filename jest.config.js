@@ -1,8 +1,12 @@
 module.exports = {
   cacheDirectory: '.jest/cache',
   collectCoverageFrom: [
-    '<rootDir>/packages/**/*.js',
+    '<rootDir>/packages/**/**/*.js',
+    '!<rootDir>/packages/**/**/babel.config.js',
+    '!<rootDir>/packages/**/build/**/*.js',
+    '!<rootDir>/packages/**/dist/**/*.js',
   ],
+  coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
     global: {
       branches: 100,
@@ -15,10 +19,14 @@ module.exports = {
     'js',
     'jsx',
     'json',
-    'node',
   ],
+  rootDir: '.',
+  setupFilesAfterEnv: ['./jest.setup.js'],
   testMatch: [
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
+  ],
+  watchPathIgnorePatterns: [
+    '__file_snapshots__',
   ],
 };

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.TheBodyShop.Dark" parent="Theme.MaterialComponents.DayNight">
+    <item name="colorPrimary">#62B3AE</item>
+    <item name="colorOnPrimary">#000000</item>
+    <item name="colorPrimaryLight">#94E5E0</item>
+    <item name="colorOnPrimaryLight">#000000</item>
+    <item name="colorPrimaryDark">#2F837F</item>
+    <item name="colorOnPrimaryDark">#000000</item>
+    <item name="colorSecondary">#D2AD93</item>
+    <item name="colorOnSecondary">#000000</item>
+    <item name="colorSecondaryLight">#FFDFC4</item>
+    <item name="colorOnSecondaryLight">#000000</item>
+    <item name="colorSecondaryDark">#A07E65</item>
+    <item name="colorOnSecondaryDark">#000000</item>
+    <item name="colorBackground">#121212</item>
+    <item name="colorOnBackground">#FFFFFF</item>
+    <item name="colorSurface">#333333</item>
+    <item name="colorOnSurface">#FFFFFF</item>
+    <item name="colorHighlight">#FFFFFF</item>
+    <item name="colorHighEmphasis">#FAFAFA</item>
+    <item name="colorMediumEmphasis">#BBBBBB</item>
+    <item name="colorLowEmphasis">#777777</item>
+    <item name="colorLink">#227BBD</item>
+    <item name="colorOnLink">#FFFFFF</item>
+    <item name="colorSuccess">#569A32</item>
+    <item name="colorOnSuccess">#FFFFFF</item>
+    <item name="colorWarning">#FCC433</item>
+    <item name="colorOnWarning">#333333</item>
+    <item name="colorAlert">#E74627</item>
+    <item name="colorOnAlert">#FFFFFF</item>
+  </style>
+</resources>

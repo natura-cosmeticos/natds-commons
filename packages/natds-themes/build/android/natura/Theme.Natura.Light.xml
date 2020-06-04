@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Natura.Light" parent="Theme.MaterialComponents.Light">
+    <item name="colorPrimary">#F4AB34</item>
+    <item name="colorOnPrimary">#333333</item>
+    <item name="colorPrimaryLight">#FEFDE8</item>
+    <item name="colorOnPrimaryLight">#333333</item>
+    <item name="colorPrimaryDark">#EF8426</item>
+    <item name="colorOnPrimaryDark">#333333</item>
+    <item name="colorSecondary">#FF6B0B</item>
+    <item name="colorOnSecondary">#000000</item>
+    <item name="colorSecondaryLight">#FFF8E1</item>
+    <item name="colorOnSecondaryLight">#000000</item>
+    <item name="colorSecondaryDark">#FF5808</item>
+    <item name="colorOnSecondaryDark">#000000</item>
+    <item name="colorBackground">#FAFAFA</item>
+    <item name="colorOnBackground">#333333</item>
+    <item name="colorSurface">#FFFFFF</item>
+    <item name="colorOnSurface">#333333</item>
+    <item name="colorHighlight">#000000</item>
+    <item name="colorHighEmphasis">#333333</item>
+    <item name="colorMediumEmphasis">#777777</item>
+    <item name="colorLowEmphasis">#BBBBBB</item>
+    <item name="colorLink">#227BBD</item>
+    <item name="colorOnLink">#FFFFFF</item>
+    <item name="colorSuccess">#569A32</item>
+    <item name="colorOnSuccess">#FFFFFF</item>
+    <item name="colorWarning">#FCC433</item>
+    <item name="colorOnWarning">#333333</item>
+    <item name="colorAlert">#E74627</item>
+    <item name="colorOnAlert">#FFFFFF</item>
+  </style>
+</resources>

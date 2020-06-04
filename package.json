@@ -6,11 +6,13 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "test:watch": "lerna run test:watch",
+    "test:watch": "jest --watch --collectCoverage",
     "lint": "lerna run lint",
     "commit": "git cz",
+    "build": "lerna run build",
     "release": "lerna version --conventional-commits",
-    "prerelease": "lerna version --conventional-commits --conventional-prerelease"
+    "prerelease": "lerna version --conventional-commits --conventional-prerelease",
+    "start": "lerna run start"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,9 @@
   },
   "homepage": "https://github.com/natura-cosmeticos/natds-commons#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@naturacosmeticos/eslint-config-natura": "^2.0.1",
@@ -41,9 +46,13 @@
     "eslint": "^7.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^7.0.0",
+    "handlebars": "^4.7.6",
+    "http-server": "^0.12.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "lerna": "^3.21.0"
+    "jest-file-snapshot": "^0.3.8",
+    "lerna": "^3.21.0",
+    "style-dictionary": "^2.10.0"
   },
   "config": {
     "commitizen": {
