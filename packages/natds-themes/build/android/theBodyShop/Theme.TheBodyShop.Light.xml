@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Theme.TheBodyShop.Light" parent="Theme.MaterialComponents.Light">
-    <item name="colorPrimary">#62B3AE</item>
-    <item name="colorOnPrimary">#000000</item>
-    <item name="colorPrimaryLight">#94E5E0</item>
-    <item name="colorOnPrimaryLight">#000000</item>
-    <item name="colorPrimaryDark">#2F837F</item>
-    <item name="colorOnPrimaryDark">#000000</item>
-    <item name="colorSecondary">#D2AD93</item>
-    <item name="colorOnSecondary">#000000</item>
-    <item name="colorSecondaryLight">#FFDFC4</item>
-    <item name="colorOnSecondaryLight">#000000</item>
-    <item name="colorSecondaryDark">#A07E65</item>
-    <item name="colorOnSecondaryDark">#000000</item>
-    <item name="colorBackground">#121212</item>
-    <item name="colorOnBackground">#FFFFFF</item>
-    <item name="colorSurface">#333333</item>
-    <item name="colorOnSurface">#FFFFFF</item>
-    <item name="colorHighlight">#FFFFFF</item>
-    <item name="colorHighEmphasis">#FAFAFA</item>
-    <item name="colorMediumEmphasis">#BBBBBB</item>
-    <item name="colorLowEmphasis">#777777</item>
+    <item name="colorPrimary">#004236</item>
+    <item name="colorOnPrimary">#FFFFFF</item>
+    <item name="colorPrimaryLight">#356D60</item>
+    <item name="colorOnPrimaryLight">#FFFFFF</item>
+    <item name="colorPrimaryDark">#001D10</item>
+    <item name="colorOnPrimaryDark">#FFFFFF</item>
+    <item name="colorSecondary">#A55F53</item>
+    <item name="colorOnSecondary">#FFFFFF</item>
+    <item name="colorSecondaryLight">#D98D7F</item>
+    <item name="colorOnSecondaryLight">#FFFFFF</item>
+    <item name="colorSecondaryDark">#73342A</item>
+    <item name="colorOnSecondaryDark">#FFFFFF</item>
+    <item name="colorBackground">#FAFAFA</item>
+    <item name="colorOnBackground">#333333</item>
+    <item name="colorSurface">#FFFFFF</item>
+    <item name="colorOnSurface">#333333</item>
+    <item name="colorHighlight">#000000</item>
+    <item name="colorHighEmphasis">#333333</item>
+    <item name="colorMediumEmphasis">#777777</item>
+    <item name="colorLowEmphasis">#BBBBBB</item>
     <item name="colorLink">#227BBD</item>
     <item name="colorOnLink">#FFFFFF</item>
     <item name="colorSuccess">#569A32</item>
