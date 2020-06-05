@@ -1,5 +1,5 @@
 import path from 'path';
-import registerAttributesFormat from './registerAttributesFormat';
+import registerColorPaletteProtocolFormat from './registerColorPaletteProtocolFormat';
 import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
@@ -21,18 +21,19 @@ const dictionary = {
   },
 };
 
-describe('registerAttributesFormat', () => {
-  it('should call the formatBuilder function', () => {
+describe('registerColorPaletteProtocolFormat', () => {
+  it('should call the formatBuilder function ', () => {
     jest.spyOn(formatBuilder, 'formatBuilder');
-    registerAttributesFormat();
+    registerColorPaletteProtocolFormat();
 
     expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {
-    const register = registerAttributesFormat();
+    const register = registerColorPaletteProtocolFormat();
+
     const output = register.formatter(dictionary);
 
-    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerAttributesFormat.snap.xml'));
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerColorPaletteProtocolFormat.snap.swift'));
   });
 });

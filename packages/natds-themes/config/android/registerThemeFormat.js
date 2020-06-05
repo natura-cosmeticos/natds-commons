@@ -1,6 +1,5 @@
-import fs from 'fs';
 import path from 'path';
-import Handlebars from 'handlebars';
+import { formatBuilder } from '../shared/formatBuilder';
 
 export const buildThemeInfo = (fileName) => {
   const themeName = fileName.replace('.xml', '');
@@ -12,22 +11,20 @@ export const buildThemeInfo = (fileName) => {
   };
 };
 
-const formatter = (dictionary, platform) => {
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/themes.hbs')).toString();
-  const htmlTemplate = Handlebars.compile(html);
-
+const templateDataBuilder = (dictionary, platform) => {
   const { mode, themeName } = buildThemeInfo(platform.files[1].destination);
 
-  return htmlTemplate({
+  return {
     color: dictionary.properties.color,
     mode,
     themeName,
-  });
+  };
 };
 
-const registerThemeFormat = () => ({
-  formatter,
-  name: 'android/themes',
-});
+const registerThemeFormat = () => {
+  const templatePath = path.resolve(__dirname, './templates/themes.hbs');
+
+  return formatBuilder('android/themes', templatePath, templateDataBuilder);
+};
 
 export default registerThemeFormat;

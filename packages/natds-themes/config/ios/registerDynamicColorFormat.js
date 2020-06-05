@@ -1,19 +1,14 @@
-import fs from 'fs';
 import path from 'path';
-import Handlebars from 'handlebars';
+import { formatBuilder } from '../shared/formatBuilder';
 
 const registerDynamicColorFormat = () => {
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/dynamicColorsClass.hbs')).toString();
-  const htmlTemplate = Handlebars.compile(html);
+  const templatePath = path.resolve(__dirname, './templates/dynamicColorsClass.hbs');
 
-  const formatter = dictionary => htmlTemplate({
+  const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
   });
 
-  return {
-    formatter,
-    name: 'ios-swift/dynamic-colors.swift',
-  };
+  return formatBuilder('ios-swift/dynamic-colors.swift', templatePath, templateDataBuilder);
 };
 
 export default registerDynamicColorFormat;

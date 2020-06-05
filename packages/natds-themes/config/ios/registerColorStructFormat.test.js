@@ -1,5 +1,6 @@
 import path from 'path';
 import registerColorStructFormat from './registerColorStructFormat';
+import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
   properties: {
@@ -29,11 +30,11 @@ const platform = {
 };
 
 describe('registerColorStructFormat', () => {
-  it('should return the register config', () => {
-    const register = registerColorStructFormat();
+  it('should call the formatBuilder function ', () => {
+    jest.spyOn(formatBuilder, 'formatBuilder');
+    registerColorStructFormat();
 
-    expect(typeof register.formatter).toBe('function');
-    expect(register.name).toBe('ios-swift/struct-colors.swift');
+    expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {

@@ -1,23 +1,20 @@
-import fs from 'fs';
-import path from 'path';
 import Handlebars from 'handlebars';
+import path from 'path';
+import fs from 'fs';
+import { formatBuilder } from '../shared/formatBuilder';
 
 const registerHtmlFormat = () => {
   const navigationTemplate = fs.readFileSync(path.resolve(__dirname, './templates/navigation.hbs')).toString();
 
   Handlebars.registerPartial('navigation', navigationTemplate);
 
-  const html = fs.readFileSync(path.resolve(__dirname, './templates/colors.hbs')).toString();
-  const htmlTemplate = Handlebars.compile(html);
+  const templatePath = path.resolve(__dirname, './templates/colors.hbs');
 
-  const formatter = dictionary => htmlTemplate({
+  const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
   });
 
-  return {
-    formatter,
-    name: 'html/colors',
-  };
+  return formatBuilder('html/colors', templatePath, templateDataBuilder);
 };
 
 export default registerHtmlFormat;

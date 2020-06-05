@@ -1,5 +1,6 @@
 import path from 'path';
 import registerDynamicColorFormat from './registerDynamicColorFormat';
+import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
   properties: {
@@ -21,11 +22,11 @@ const dictionary = {
 };
 
 describe('registerDynamicColorFormat', () => {
-  it('should return the register config', () => {
-    const register = registerDynamicColorFormat();
+  it('should call the formatBuilder function ', () => {
+    jest.spyOn(formatBuilder, 'formatBuilder');
+    registerDynamicColorFormat();
 
-    expect(typeof register.formatter).toBe('function');
-    expect(register.name).toBe('ios-swift/dynamic-colors.swift');
+    expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {

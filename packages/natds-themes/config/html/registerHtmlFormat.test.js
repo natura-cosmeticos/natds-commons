@@ -1,5 +1,6 @@
 import path from 'path';
 import registerHtmlFormat from './registerHtmlFormat';
+import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
   properties: {
@@ -21,11 +22,11 @@ const dictionary = {
 };
 
 describe('registerHtmlFormat', () => {
-  it('should return the register config', () => {
-    const register = registerHtmlFormat();
+  it('should call the formatBuilder function ', () => {
+    jest.spyOn(formatBuilder, 'formatBuilder');
+    registerHtmlFormat();
 
-    expect(typeof register.formatter).toBe('function');
-    expect(register.name).toBe('html/colors');
+    expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {

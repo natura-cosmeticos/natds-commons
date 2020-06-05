@@ -1,66 +1,66 @@
 {
   "color": {
     "primary": {
-      "value": "#62B3AE"
+      "value": "#004236"
     },
     "onPrimary": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "primaryLight": {
-      "value": "#94E5E0"
+      "value": "#356D60"
     },
     "onPrimaryLight": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "primaryDark": {
-      "value": "#2F837F"
+      "value": "#001D10"
     },
     "onPrimaryDark": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
 
     "secondary": {
-      "value": "#D2AD93"
+      "value": "#A55F53"
     },
     "onSecondary": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "secondaryLight": {
-      "value": "#FFDFC4"
+      "value": "#D98D7F"
     },
     "onSecondaryLight": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "secondaryDark": {
-      "value": "#A07E65"
+      "value": "#73342A"
     },
     "onSecondaryDark": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
 
     "background": {
-      "value": "#121212"
-    },
-    "onBackground": {
-      "value": "#FFFFFF"
-    },
-    "surface": {
-      "value": "#333333"
-    },
-    "onSurface": {
-      "value": "#FFFFFF"
-    },
-    "highlight": {
-      "value": "#FFFFFF"
-    },
-    "highEmphasis": {
       "value": "#FAFAFA"
     },
+    "onBackground": {
+      "value": "#333333"
+    },
+    "surface": {
+      "value": "#FFFFFF"
+    },
+    "onSurface": {
+      "value": "#333333"
+    },
+    "highlight": {
+      "value": "#000000"
+    },
+    "highEmphasis": {
+      "value": "#333333"
+    },
     "mediumEmphasis": {
-      "value": "#BBBBBB"
+      "value": "#777777"
     },
     "lowEmphasis": {
-      "value": "#777777"
+      "value": "#BBBBBB"
     },
     "link": {
       "value": "#227BBD"

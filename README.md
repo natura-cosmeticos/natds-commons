@@ -2,6 +2,8 @@
 
 A monorepo containing Natura Design System multiplatform packages.
 
+[![Build Status](https://app.bitrise.io/app/31fba7fef7b852a0/status.svg?token=cq37m7wlp8mfWe2kfQ2u-w&branch=master)](https://app.bitrise.io/app/31fba7fef7b852a0)
+
 ___
 
 ## Getting started
