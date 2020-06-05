@@ -9,8 +9,11 @@
     "build:post": "babel-node --presets @babel/preset-env -e 'require(\"./config/postBuild.js\").postBuild()'",
     "build:copy": "cp ./config/ios/static/* ./build/ios",
     "build:clear": "rm -rf ./build",
+    "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
     "lint": "eslint --ext .js ./",
-    "start": "yarn run build && http-server build/html",
+    "html": "yarn build && http-server build/html",
+    "html:watch": "nodemon --watch config -e .js,.hbs,.html -x 'yarn html'",
+    "start": "yarn html:watch",
     "test": "jest --collectCoverage --colors --config='../../jest.config.js'"
   },
   "license": "ISC",

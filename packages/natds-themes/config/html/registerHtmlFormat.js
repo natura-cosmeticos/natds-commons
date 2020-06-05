@@ -8,10 +8,11 @@ const registerHtmlFormat = () => {
 
   Handlebars.registerPartial('navigation', navigationTemplate);
 
-  const templatePath = path.resolve(__dirname, './templates/colors.hbs');
+  const templatePath = path.resolve(__dirname, './templates/tokens.hbs');
 
   const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
+    size: dictionary.properties.size,
   });
 
   return formatBuilder('html/colors', templatePath, templateDataBuilder);
