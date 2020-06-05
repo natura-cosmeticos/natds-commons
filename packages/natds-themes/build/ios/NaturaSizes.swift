@@ -1,4 +1,4 @@
-struct TheBodyShopSize: Sizes {
+struct NaturaSizes: Sizes {
   let none: CGFloat = 0
   let micro: CGFloat = 4
   let tiny: CGFloat = 8

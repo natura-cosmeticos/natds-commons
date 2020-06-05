@@ -30,11 +30,11 @@ const sizesProtocolConfig = () => ({
 });
 
 const sizeStructConfig = brand => ({
-  destination: `${capitalizeWord(brand)}Size.swift`,
+  destination: `${capitalizeWord(brand)}Sizes.swift`,
   format: 'ios-swift/struct.swift',
   interfaceName: 'Sizes',
   propertyName: 'size',
-  structName: `${capitalizeWord(brand)}Size`,
+  structName: `${capitalizeWord(brand)}Sizes`,
   type: ': CGFloat',
 });
 

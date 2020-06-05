@@ -11,11 +11,11 @@ const expectedConfig = {
       structName: 'PokemonColorPalettePikachu',
     },
     {
-      destination: 'PokemonSize.swift',
+      destination: 'PokemonSizes.swift',
       format: 'ios-swift/struct.swift',
       interfaceName: 'Sizes',
       propertyName: 'size',
-      structName: 'PokemonSize',
+      structName: 'PokemonSizes',
       type: ': CGFloat',
     },
     {
