@@ -18,6 +18,20 @@ const dictionary = {
         value: '#F091C9',
       },
     },
+    size: {
+      tiny: {
+        attributes: {},
+        name: 'sizeTiny',
+        original: {
+          value: 8,
+        },
+        path: [
+          'size',
+          'tiny',
+        ],
+        value: 8,
+      },
+    },
   },
 };
 

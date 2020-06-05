@@ -1,13 +1,13 @@
 import { compileTemplate } from './templateHelpers';
 
 export const formatBuilder = (name, templatePath, templateDataBuilder) => {
-  const htmlTemplate = compileTemplate(templatePath);
+  const template = compileTemplate(templatePath);
 
-  const formatter = (dictionary, platform) => {
-    const templateData = templateDataBuilder(dictionary, platform);
+  function formatter(dictionary, platform) {
+    const templateData = templateDataBuilder(dictionary, platform, this);
 
-    return htmlTemplate(templateData);
-  };
+    return template(templateData);
+  }
 
   return {
     formatter,

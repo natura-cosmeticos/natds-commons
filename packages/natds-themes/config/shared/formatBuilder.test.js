@@ -36,7 +36,8 @@ describe('formatBuilder', () => {
     const format = formatBuilder('format-name', './path/to/template', templateDataBuilderSpy);
 
     format.formatter(dictionary, platform);
+    format.contextOptions = 'a value';
 
-    expect(templateDataBuilderSpy).toHaveBeenCalledWith(dictionary, platform);
+    expect(templateDataBuilderSpy).toHaveBeenCalledWith(dictionary, platform, format);
   });
 });

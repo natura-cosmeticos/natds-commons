@@ -1,5 +1,5 @@
 import path from 'path';
-import registerColorPaletteProtocolFormat from './registerColorPaletteProtocolFormat';
+import registerStructFormat from './registerStructFormat';
 import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
@@ -21,19 +21,32 @@ const dictionary = {
   },
 };
 
-describe('registerColorPaletteProtocolFormat', () => {
+const platform = {
+  files: [
+    {
+      destination: 'AvonColorPaletteDark.swift',
+    },
+  ],
+};
+
+describe('registerStructFormat', () => {
   it('should call the formatBuilder function ', () => {
     jest.spyOn(formatBuilder, 'formatBuilder');
-    registerColorPaletteProtocolFormat();
+    registerStructFormat();
 
     expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
   it('should return the correct formatter template', () => {
-    const register = registerColorPaletteProtocolFormat();
+    const register = registerStructFormat();
 
-    const output = register.formatter(dictionary);
+    register.interfaceName = 'Interface';
+    register.structName = 'Struct';
+    register.type = 'Type';
+    register.propertyName = 'color';
 
-    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerColorPaletteProtocolFormat.snap.swift'));
+    const output = register.formatter(dictionary, platform);
+
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerStructFormat.snap.swift'));
   });
 });

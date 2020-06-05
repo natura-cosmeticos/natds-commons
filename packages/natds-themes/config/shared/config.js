@@ -2,8 +2,8 @@ import registerHtmlFormat from '../html/registerHtmlFormat';
 import registerHtmlCreatePathsAction from '../html/registerCreatePathsAction';
 import registerAttributesFormatter from '../android/registerAttributesFormat';
 import registerThemeFormat from '../android/registerThemeFormat';
-import registerColorStructFormat from '../ios/registerColorStructFormat';
-import registerColorPaletteProtocolFormat from '../ios/registerColorPaletteProtocolFormat';
+import registerStructFormat from '../ios/registerStructFormat';
+import registerProtocolFormat from '../ios/registerProtocolFormat';
 import registerDynamicColorFormat from '../ios/registerDynamicColorFormat';
 import registerReactCreatePathsAction from '../react-dom/registerCreatePathsAction';
 import { createColorIndex } from '../react-dom/createColorIndex';
@@ -31,8 +31,8 @@ export const customFormats = [
   registerHtmlFormat,
   registerAttributesFormatter,
   registerThemeFormat,
-  registerColorStructFormat,
-  registerColorPaletteProtocolFormat,
+  registerStructFormat,
+  registerProtocolFormat,
   registerDynamicColorFormat,
 ];
 
