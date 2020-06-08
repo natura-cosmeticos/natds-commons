@@ -1,3 +1,3 @@
 struct Struct: Interface {
-  let primaryType = #F091C9
+  let primaryType = &quot;#F091C9&quot;
 }

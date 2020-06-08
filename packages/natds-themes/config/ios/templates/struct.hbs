@@ -1,3 +1,5 @@
+{{> fileHeader }}
+
 struct {{structName}}: {{interfaceName}} {
   {{#each properties}}
   let {{@key}}{{../type}} = {{#unless ../type}}"{{/unless}}{{value}}{{#unless ../type}}"{{/unless}}

@@ -5,6 +5,7 @@ import registerThemeFormat from '../android/registerThemeFormat';
 import registerStructFormat from '../ios/registerStructFormat';
 import registerProtocolFormat from '../ios/registerProtocolFormat';
 import registerDynamicColorFormat from '../ios/registerDynamicColorFormat';
+import { registerTemplateHeaderHelper } from './templateHelpers';
 
 export const brands = [
   'natura',
@@ -37,3 +38,5 @@ export const customFormats = [
 export const customActions = [
   registerHtmlCreatePathsAction,
 ];
+
+registerTemplateHeaderHelper();
