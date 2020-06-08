@@ -5,8 +5,6 @@ import registerThemeFormat from '../android/registerThemeFormat';
 import registerStructFormat from '../ios/registerStructFormat';
 import registerProtocolFormat from '../ios/registerProtocolFormat';
 import registerDynamicColorFormat from '../ios/registerDynamicColorFormat';
-import registerReactCreatePathsAction from '../react-dom/registerCreatePathsAction';
-import { createColorIndex } from '../react-dom/createColorIndex';
 
 export const brands = [
   'natura',
@@ -38,9 +36,4 @@ export const customFormats = [
 
 export const customActions = [
   registerHtmlCreatePathsAction,
-  registerReactCreatePathsAction,
-];
-
-export const postBuildTasks = [
-  createColorIndex,
 ];

@@ -4,9 +4,8 @@
   "description": "The single source of truth for Natura Desing System tokens.",
   "main": "./config/build.js",
   "scripts": {
-    "build": "yarn build:clear && yarn build:outputs && yarn build:post && yarn build:copy",
+    "build": "yarn build:clear && yarn build:outputs && yarn build:copy",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
-    "build:post": "babel-node --presets @babel/preset-env -e 'require(\"./config/postBuild.js\").postBuild()'",
     "build:copy": "cp ./config/ios/static/* ./build/ios",
     "build:clear": "rm -rf ./build",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
