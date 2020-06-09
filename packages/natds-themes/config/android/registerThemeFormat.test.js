@@ -1,6 +1,7 @@
 import path from 'path';
 import registerThemeFormat, { buildThemeInfo } from './registerThemeFormat';
 import * as formatBuilder from '../shared/formatBuilder';
+import '../shared/config';
 
 const dictionary = {
   properties: {

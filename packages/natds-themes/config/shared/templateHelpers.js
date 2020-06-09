@@ -12,7 +12,7 @@ export const compileTemplate = (templatePath) => {
 export const registerTemplateHeaderHelper = () => {
   const template = fs.readFileSync(path.resolve(__dirname, './templates/fileHeader.hbs')).toString();
 
-  Handlebars.registerHelper('date', () => new Date());
+  Handlebars.registerHelper('date', () => new Date().toDateString());
 
   Handlebars.registerPartial('fileHeader', template);
 };

@@ -1,6 +1,7 @@
 import path from 'path';
 import registerDynamicColorFormat from './registerDynamicColorFormat';
 import * as formatBuilder from '../shared/formatBuilder';
+import '../shared/config';
 
 const dictionary = {
   properties: {

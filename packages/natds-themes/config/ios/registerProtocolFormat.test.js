@@ -1,6 +1,7 @@
 import path from 'path';
 import registerProtocolFormat from './registerProtocolFormat';
 import * as formatBuilder from '../shared/formatBuilder';
+import '../shared/config';
 
 const dictionary = {
   properties: {

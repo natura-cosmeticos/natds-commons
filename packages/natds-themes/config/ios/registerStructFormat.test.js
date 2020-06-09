@@ -1,6 +1,7 @@
 import path from 'path';
 import registerStructFormat from './registerStructFormat';
 import * as formatBuilder from '../shared/formatBuilder';
+import '../shared/config';
 
 const dictionary = {
   properties: {
