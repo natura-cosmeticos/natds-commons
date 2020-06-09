@@ -52,6 +52,7 @@
     "jest": "^26.0.1",
     "jest-file-snapshot": "^0.3.8",
     "lerna": "^3.21.0",
+    "nodemon": "^2.0.4",
     "style-dictionary": "^2.10.0"
   },
   "config": {

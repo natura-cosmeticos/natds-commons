@@ -1,6 +1,15 @@
+<!-- 
+{{> fileHeader }}
+-->
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   {{#each color}}
   <attr name="{{name}}" format="color" />
   {{/each}}
+
+  {{#each size}}
+  <attr name="{{name}}" format="dimension" />
+  {{/each}}
+
 </resources>

@@ -5,11 +5,32 @@ const expectedConfig = {
   files: [
     {
       destination: 'PokemonColorPalettePikachu.swift',
-      format: 'ios-swift/struct-colors.swift',
+      format: 'ios-swift/struct.swift',
+      interfaceName: 'ColorPalette',
+      propertyName: 'color',
+      structName: 'PokemonColorPalettePikachu',
+    },
+    {
+      destination: 'PokemonSizes.swift',
+      format: 'ios-swift/struct.swift',
+      interfaceName: 'Sizes',
+      propertyName: 'size',
+      structName: 'PokemonSizes',
+      type: ': CGFloat',
     },
     {
       destination: 'ColorPalette.swift',
-      format: 'ios-swift/protocol-colors-palette.swift',
+      format: 'ios-swift/protocol.swift',
+      propertyName: 'color',
+      protocolName: 'ColorPalette',
+      protocolType: 'String',
+    },
+    {
+      destination: 'Sizes.swift',
+      format: 'ios-swift/protocol.swift',
+      propertyName: 'size',
+      protocolName: 'Sizes',
+      protocolType: 'CGFloat',
     },
     {
       destination: 'DynamicColors.swift',

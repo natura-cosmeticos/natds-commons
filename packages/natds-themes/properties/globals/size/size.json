@@ -1,0 +1,58 @@
+{
+  "size": {
+    "none": {
+      "value": 0
+    },
+    "micro": {
+      "value": 4
+    },
+    "tiny": {
+      "value": 8
+    },
+    "small": {
+      "value": 16
+    },
+    "standard": {
+      "value": 24
+    },
+    "semi": {
+      "value": 32
+    },
+    "semix": {
+      "value": 40
+    },
+    "medium": {
+      "value": 48
+    },
+    "mediumx": {
+      "value": 56
+    },
+    "large": {
+      "value": 64
+    },
+    "largex": {
+      "value": 72
+    },
+    "largexx": {
+      "value": 80
+    },
+    "largexxx": {
+      "value": 88
+    },
+    "huge": {
+      "value": 96
+    },
+    "hugex": {
+      "value": 128
+    },
+    "hugexx": {
+      "value": 144
+    },
+    "hugexxx": {
+      "value": 192
+    },
+    "veryhuge": {
+      "value": 256
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import path from 'path';
 import registerAttributesFormat from './registerAttributesFormat';
 import * as formatBuilder from '../shared/formatBuilder';
+import '../shared/config';
 
 const dictionary = {
   properties: {
@@ -16,6 +17,20 @@ const dictionary = {
           'primary',
         ],
         value: '#F091C9',
+      },
+    },
+    size: {
+      tiny: {
+        attributes: {},
+        name: 'sizeTiny',
+        original: {
+          value: 8,
+        },
+        path: [
+          'size',
+          'tiny',
+        ],
+        value: 8,
       },
     },
   },

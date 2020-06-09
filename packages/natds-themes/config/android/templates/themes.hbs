@@ -1,8 +1,16 @@
+<!-- 
+{{> fileHeader }}
+-->
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="{{themeName}}" parent="Theme.MaterialComponents.{{mode}}">
     {{#each color}}
     <item name="{{name}}">{{value}}</item>
+    {{/each}}
+    
+    {{#each size}}
+    <item name="{{name}}">{{value}}dp</item>
     {{/each}}
   </style>
 </resources>
