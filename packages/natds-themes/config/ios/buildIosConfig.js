@@ -38,12 +38,31 @@ const sizeStructConfig = brand => ({
   type: ': CGFloat',
 });
 
+const spacingProtocolConfig = () => ({
+  destination: 'Spacings.swift',
+  format: 'ios-swift/protocol.swift',
+  propertyName: 'spacing',
+  protocolName: 'Spacing',
+  protocolType: 'CGFloat',
+});
+
+const spacingStructConfig = brand => ({
+  destination: `${capitalizeWord(brand)}Spacings.swift`,
+  format: 'ios-swift/struct.swift',
+  interfaceName: 'Spacings',
+  propertyName: 'spacing',
+  structName: `${capitalizeWord(brand)}Spacings`,
+  type: ': CGFloat',
+});
+
 const buildFiles = (brand, mode) => ([
   colorPaletteStructConfig(brand, mode),
-  sizeStructConfig(brand),
   colorPaletteProtocolConfig(),
-  sizesProtocolConfig(),
   dynamicColorsConfig(),
+  sizeStructConfig(brand),
+  sizesProtocolConfig(),
+  spacingStructConfig(brand),
+  spacingProtocolConfig(),
 ]);
 
 const buildAndroidConfig = (brand, mode) => ({

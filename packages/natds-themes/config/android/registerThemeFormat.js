@@ -18,6 +18,7 @@ const templateDataBuilder = (dictionary, platform) => {
     color: dictionary.properties.color,
     mode,
     size: dictionary.properties.size,
+    spacing: dictionary.properties.spacing,
     themeName,
   };
 };

@@ -18,40 +18,40 @@
     "semi": {
       "value": 32
     },
-    "semix": {
+    "semiX": {
       "value": 40
     },
     "medium": {
       "value": 48
     },
-    "mediumx": {
+    "mediumX": {
       "value": 56
     },
     "large": {
       "value": 64
     },
-    "largex": {
+    "largeX": {
       "value": 72
     },
-    "largexx": {
+    "largeXX": {
       "value": 80
     },
-    "largexxx": {
+    "largeXXX": {
       "value": 88
     },
     "huge": {
       "value": 96
     },
-    "hugex": {
+    "hugeX": {
       "value": 128
     },
-    "hugexx": {
+    "hugeXX": {
       "value": 144
     },
-    "hugexxx": {
+    "hugeXXX": {
       "value": 192
     },
-    "veryhuge": {
+    "veryHuge": {
       "value": 256
     }
   }
