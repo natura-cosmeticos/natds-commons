@@ -16,6 +16,7 @@ const expecteConfig = {
   source: [
     'properties/brands/pokemon/pikachu.json',
     'properties/globals/**/*.json',
+    'properties/globals/**/*.js',
   ],
 };
 

@@ -33,6 +33,20 @@ const dictionary = {
         value: 8,
       },
     },
+    spacing: {
+      small: {
+        attributes: {},
+        name: 'spacingSmall',
+        original: {
+          value: 8,
+        },
+        path: [
+          'spacing',
+          'small',
+        ],
+        value: 8,
+      },
+    },
   },
 };
 

@@ -13,8 +13,7 @@ const expectedConfig = {
       format: 'android/themes',
     },
   ],
-  transformGroup: 'android',
-  transforms: ['name/cti/camel'],
+  transforms: ['name/cti/camel-custom', 'attribute/cti'],
 };
 
 describe('buildAndroidConfig', () => {

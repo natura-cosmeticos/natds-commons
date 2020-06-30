@@ -1,5 +1,5 @@
 import StyleDictionary from 'style-dictionary';
-import { customFormats, customActions } from './config';
+import { customFormats, customActions, customTransforms } from './config';
 import { buildDictionary } from './buildDictionary';
 import * as buildConfig from './buildConfig';
 
@@ -11,6 +11,7 @@ describe('buildDictionary', () => {
 
     const registerFormatSpy = jest.fn();
     const registerActionSpy = jest.fn();
+    const registerTransformSpy = jest.fn();
     const buildPlatformSpy = jest.fn();
     const buildConfigSpy = jest.spyOn(buildConfig, 'buildConfig');
 
@@ -18,6 +19,7 @@ describe('buildDictionary', () => {
       buildPlatform: buildPlatformSpy,
       registerAction: registerActionSpy,
       registerFormat: registerFormatSpy,
+      registerTransform: registerTransformSpy,
     });
 
     StyleDictionary.extend.mockImplementation(mockImplementation);
@@ -28,5 +30,6 @@ describe('buildDictionary', () => {
     expect(buildPlatformSpy).toBeCalledWith('ios');
     expect(registerFormatSpy).toHaveBeenCalledTimes(customFormats.length);
     expect(registerActionSpy).toHaveBeenCalledTimes(customActions.length);
+    expect(registerTransformSpy).toHaveBeenCalledTimes(customTransforms.length);
   });
 });
