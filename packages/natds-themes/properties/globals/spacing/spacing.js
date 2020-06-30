@@ -1,11 +1,13 @@
+/* eslint-disable sort-keys */
+
 const spacing = 8;
 
 const scale = {
-  large: 6,
   none: 0,
-  semi: 4,
   small: 2,
   standard: 3,
+  semi: 4,
+  large: 6,
   xLarge: 8,
 };
 

@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+
 import buildIosConfig from './buildIosConfig';
 import * as filterCategory from '../shared/filters';
 
@@ -112,7 +114,7 @@ describe('buildIosConfig', () => {
 
     expect(filterCategorySpy).toHaveBeenCalledWith({}, 'color');
   });
-  
+
   it('should filter de size category on size struct file', () => {
     const filterCategorySpy = jest.fn();
 
@@ -126,7 +128,7 @@ describe('buildIosConfig', () => {
 
     expect(filterCategorySpy).toHaveBeenCalledWith({}, 'size');
   });
-  
+
   it('should filter de size category on size protocol file', () => {
     const filterCategorySpy = jest.fn();
 
@@ -140,7 +142,7 @@ describe('buildIosConfig', () => {
 
     expect(filterCategorySpy).toHaveBeenCalledWith({}, 'size');
   });
-  
+
   it('should filter de spacing category on spacing struct file', () => {
     const filterCategorySpy = jest.fn();
 
@@ -154,7 +156,7 @@ describe('buildIosConfig', () => {
 
     expect(filterCategorySpy).toHaveBeenCalledWith({}, 'spacing');
   });
-  
+
   it('should filter de spacing category on size spacing file', () => {
     const filterCategorySpy = jest.fn();
 

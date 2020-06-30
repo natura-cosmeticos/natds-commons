@@ -7,8 +7,6 @@ jest.mock('style-dictionary');
 
 describe('buildDictionary', () => {
   it('should build the config by brand, mode and platform', () => {
-    console.log = jest.fn();
-
     const registerFormatSpy = jest.fn();
     const registerActionSpy = jest.fn();
     const registerTransformSpy = jest.fn();
