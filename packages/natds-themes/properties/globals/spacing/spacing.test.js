@@ -5,7 +5,7 @@ describe('spacing', () => {
     const expectedSpacingConfig = {
       spacing: {
         large: {
-          value: 64,
+          value: 48,
         },
         micro: {
           value: 4,
