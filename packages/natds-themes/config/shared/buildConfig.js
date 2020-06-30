@@ -15,7 +15,7 @@ export const buildConfig = (brand, mode) => ({
   source: [
     `properties/brands/${brand}/${mode}.json`,
     'properties/globals/**/*.json',
-    'properties/globals/**/*.js',
+    'properties/globals/**/!(*.test).js',
   ],
 });
 

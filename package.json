@@ -10,7 +10,7 @@
     "lint": "lerna run lint",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
     "release": "lerna version --conventional-commits",
-    "start": "lerna run start",
+    "start": "lerna run start --stream",
     "test": "lerna run test",
     "test:watch": "jest --watch --collectCoverage"
   },
