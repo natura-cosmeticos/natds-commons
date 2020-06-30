@@ -18,11 +18,11 @@
  */
 
 struct NaturaSpacings: Spacings {
-  let large: CGFloat = 64
   let micro: CGFloat = 4
-  let semi: CGFloat = 32
+  let tiny: CGFloat = 8
   let small: CGFloat = 16
   let standard: CGFloat = 24
-  let tiny: CGFloat = 8
+  let semi: CGFloat = 32
+  let large: CGFloat = 48
   let xLarge: CGFloat = 64
 }

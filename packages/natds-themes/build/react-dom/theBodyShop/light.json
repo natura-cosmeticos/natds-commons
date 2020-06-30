@@ -50,13 +50,13 @@
     "veryHuge": 256
   },
   "spacing": {
-    "large": 64,
-    "micro": 4,
     "none": 0,
-    "semi": 32,
+    "micro": 4,
+    "tiny": 8,
     "small": 16,
     "standard": 24,
-    "tiny": 8,
+    "semi": 32,
+    "large": 48,
     "xLarge": 64
   }
 }

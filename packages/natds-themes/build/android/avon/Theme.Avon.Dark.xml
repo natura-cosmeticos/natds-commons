@@ -70,13 +70,13 @@
     <item name="sizeHugeXXX">192dp</item>
     <item name="sizeVeryHuge">256dp</item>
     
-    <item name="spacingLarge">64dp</item>
-    <item name="spacingMicro">4dp</item>
     <item name="spacingNone">0dp</item>
-    <item name="spacingSemi">32dp</item>
+    <item name="spacingMicro">4dp</item>
+    <item name="spacingTiny">8dp</item>
     <item name="spacingSmall">16dp</item>
     <item name="spacingStandard">24dp</item>
-    <item name="spacingTiny">8dp</item>
+    <item name="spacingSemi">32dp</item>
+    <item name="spacingLarge">48dp</item>
     <item name="spacingXLarge">64dp</item>
   </style>
 </resources>

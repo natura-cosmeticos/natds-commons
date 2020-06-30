@@ -18,11 +18,11 @@
  */
 
 protocol Spacing {
-  var large: CGFloat { get }
   var micro: CGFloat { get }
-  var semi: CGFloat { get }
+  var tiny: CGFloat { get }
   var small: CGFloat { get }
   var standard: CGFloat { get }
-  var tiny: CGFloat { get }
+  var semi: CGFloat { get }
+  var large: CGFloat { get }
   var xLarge: CGFloat { get }
 }

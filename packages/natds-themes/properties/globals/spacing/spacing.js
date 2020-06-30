@@ -11,17 +11,14 @@ const scale = {
 
 module.exports = {
   spacing: {
-    large: {
-      value: spacing * scale.xLarge,
+    none: {
+      value: scale.none,
     },
     micro: {
       value: spacing / 2,
     },
-    none: {
-      value: scale.none,
-    },
-    semi: {
-      value: spacing * scale.semi,
+    tiny: {
+      value: spacing,
     },
     small: {
       value: spacing * scale.small,
@@ -29,8 +26,11 @@ module.exports = {
     standard: {
       value: spacing * scale.standard,
     },
-    tiny: {
-      value: spacing,
+    semi: {
+      value: spacing * scale.semi,
+    },
+    large: {
+      value: spacing * scale.large,
     },
     xLarge: {
       value: spacing * scale.xLarge,
