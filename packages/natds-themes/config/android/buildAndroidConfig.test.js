@@ -9,8 +9,10 @@ const expectedConfig = {
       format: 'android/attributes',
     },
     {
-      destination: 'Theme.Pokemon.Pikachu.xml',
+      brandName: 'Pokemon',
+      destination: 'theme_pokemon_pikachu.xml',
       format: 'android/themes',
+      mode: 'Pikachu',
     },
   ],
   transforms: ['name/cti/camel-custom', 'attribute/cti'],

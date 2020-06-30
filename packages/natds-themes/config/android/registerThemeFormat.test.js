@@ -1,5 +1,5 @@
 import path from 'path';
-import registerThemeFormat, { buildThemeInfo } from './registerThemeFormat';
+import registerThemeFormat from './registerThemeFormat';
 import * as formatBuilder from '../shared/formatBuilder';
 import '../shared/config';
 
@@ -69,34 +69,27 @@ describe('registerAttributesFormat', () => {
     expect(formatBuilder.formatBuilder).toHaveBeenCalled();
   });
 
-  it('should return the correct formatter template', () => {
+  it('should return the correct formatter template for dark mode', () => {
     const register = registerThemeFormat();
+
+    register.brandName = 'Avon';
+    register.mode = 'Dark';
+    register.propertyName = 'color';
+
     const output = register.formatter(dictionary, platform);
 
-    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerThemeFormat.snap.xml'));
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerThemeFormat_light.snap.xml'));
   });
 
-  describe('buildThemeInfo', () => {
-    it('should return the theme brand and mode information for dark mode', () => {
-      const themeInfo = buildThemeInfo('Theme.Avon.Dark.xml');
+  it('should return the correct formatter template for light mode', () => {
+    const register = registerThemeFormat();
 
-      const expectedThemeInfo = {
-        mode: 'DayNight',
-        themeName: 'Theme.Avon.Dark',
-      };
+    register.brandName = 'Avon';
+    register.mode = 'Light';
+    register.propertyName = 'color';
 
-      expect(themeInfo).toEqual(expectedThemeInfo);
-    });
+    const output = register.formatter(dictionary, platform);
 
-    it('should return the theme brand and mode information for light mode', () => {
-      const themeInfo = buildThemeInfo('Theme.Avon.Light.xml');
-
-      const expectedThemeInfo = {
-        mode: 'Light',
-        themeName: 'Theme.Avon.Light',
-      };
-
-      expect(themeInfo).toEqual(expectedThemeInfo);
-    });
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerThemeFormat_dark.snap.xml'));
   });
 });
