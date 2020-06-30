@@ -12,8 +12,7 @@ const buildAndroidConfig = (brand, mode) => ({
       format: 'android/themes',
     },
   ],
-  transformGroup: 'android',
-  transforms: ['name/cti/camel'],
+  transforms: ['name/cti/camel-custom', 'attribute/cti'],
 });
 
 export default buildAndroidConfig;
