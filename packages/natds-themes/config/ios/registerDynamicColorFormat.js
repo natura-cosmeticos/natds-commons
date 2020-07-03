@@ -4,7 +4,7 @@ import { formatBuilder } from '../shared/formatBuilder';
 const registerDynamicColorFormat = () => {
   const templatePath = path.resolve(__dirname, './templates/dynamicColorsClass.hbs');
 
-  const templateDataBuilder = dictionary => ({
+  const templateDataBuilder = (dictionary) => ({
     color: dictionary.properties.color,
   });
 

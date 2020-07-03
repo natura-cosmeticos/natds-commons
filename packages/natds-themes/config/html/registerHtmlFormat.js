@@ -10,7 +10,7 @@ const registerHtmlFormat = () => {
 
   const templatePath = path.resolve(__dirname, './templates/tokens.hbs');
 
-  const templateDataBuilder = dictionary => ({
+  const templateDataBuilder = (dictionary) => ({
     color: dictionary.properties.color,
     size: dictionary.properties.size,
     spacing: dictionary.properties.spacing,
