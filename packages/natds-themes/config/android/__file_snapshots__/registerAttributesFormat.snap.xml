@@ -24,5 +24,6 @@
   <attr name="colorPrimary" format="color" />
 
   <attr name="sizeTiny" format="dimension" />
-
+  
+  <attr name="spacingSmall" format="dimension" />
 </resources>

@@ -17,33 +17,12 @@
  *                                                              
  */
 
-protocol ColorPalette {
-  var primary: String { get }
-  var onPrimary: String { get }
-  var primaryLight: String { get }
-  var onPrimaryLight: String { get }
-  var primaryDark: String { get }
-  var onPrimaryDark: String { get }
-  var secondary: String { get }
-  var onSecondary: String { get }
-  var secondaryLight: String { get }
-  var onSecondaryLight: String { get }
-  var secondaryDark: String { get }
-  var onSecondaryDark: String { get }
-  var background: String { get }
-  var onBackground: String { get }
-  var surface: String { get }
-  var onSurface: String { get }
-  var highlight: String { get }
-  var highEmphasis: String { get }
-  var mediumEmphasis: String { get }
-  var lowEmphasis: String { get }
-  var link: String { get }
-  var onLink: String { get }
-  var success: String { get }
-  var onSuccess: String { get }
-  var warning: String { get }
-  var onWarning: String { get }
-  var alert: String { get }
-  var onAlert: String { get }
+struct TheBodyShopSpacings: Spacings {
+  let micro: CGFloat = 4
+  let tiny: CGFloat = 8
+  let small: CGFloat = 16
+  let standard: CGFloat = 24
+  let semi: CGFloat = 32
+  let large: CGFloat = 48
+  let xLarge: CGFloat = 64
 }

@@ -13,6 +13,7 @@ const registerHtmlFormat = () => {
   const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
     size: dictionary.properties.size,
+    spacing: dictionary.properties.spacing,
   });
 
   return formatBuilder('html/colors', templatePath, templateDataBuilder);

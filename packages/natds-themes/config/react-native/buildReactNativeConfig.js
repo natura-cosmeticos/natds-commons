@@ -6,7 +6,7 @@ const buildReactNativeConfig = (brand, mode) => ({
       format: 'json/nested',
     },
   ],
-  transformGroup: 'js',
+  transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
 });
 
 export default buildReactNativeConfig;

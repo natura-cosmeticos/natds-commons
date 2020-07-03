@@ -1,3 +1,5 @@
+/* eslint-disable max-lines-per-function */
+
 import { capitalizeWord } from '../shared/textHelpers';
 
 const buildAndroidConfig = (brand, mode) => ({
@@ -8,12 +10,13 @@ const buildAndroidConfig = (brand, mode) => ({
       format: 'android/attributes',
     },
     {
-      destination: `Theme.${capitalizeWord(brand)}.${capitalizeWord(mode)}.xml`,
+      brandName: capitalizeWord(brand),
+      destination: `theme_${brand}_${mode}.xml`,
       format: 'android/themes',
+      mode: capitalizeWord(mode),
     },
   ],
-  transformGroup: 'android',
-  transforms: ['name/cti/camel'],
+  transforms: ['name/cti/camel-custom', 'attribute/cti'],
 });
 
 export default buildAndroidConfig;

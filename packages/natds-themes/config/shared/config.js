@@ -6,6 +6,7 @@ import registerStructFormat from '../ios/registerStructFormat';
 import registerProtocolFormat from '../ios/registerProtocolFormat';
 import registerDynamicColorFormat from '../ios/registerDynamicColorFormat';
 import { registerTemplateHeaderHelper } from './templateHelpers';
+import { registerCamelTransform } from './registerCamelTransform';
 
 export const brands = [
   'natura',
@@ -37,6 +38,10 @@ export const customFormats = [
 
 export const customActions = [
   registerHtmlCreatePathsAction,
+];
+
+export const customTransforms = [
+  registerCamelTransform,
 ];
 
 registerTemplateHeaderHelper();

@@ -7,6 +7,7 @@ const registerAttributesFormat = () => {
   const templateDataBuilder = dictionary => ({
     color: dictionary.properties.color,
     size: dictionary.properties.size,
+    spacing: dictionary.properties.spacing,
   });
 
   return formatBuilder('android/attributes', templatePath, templateDataBuilder);
