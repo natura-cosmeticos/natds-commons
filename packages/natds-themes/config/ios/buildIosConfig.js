@@ -3,7 +3,7 @@ import { filterCategory } from '../shared/filters';
 
 const colorPaletteProtocolConfig = () => ({
   destination: 'ColorPalette.swift',
-  filter: dictionary => filterCategory(dictionary, 'color'),
+  filter: (dictionary) => filterCategory(dictionary, 'color'),
   format: 'ios-swift/protocol.swift',
   propertyName: 'color',
   protocolName: 'ColorPalette',
@@ -12,7 +12,7 @@ const colorPaletteProtocolConfig = () => ({
 
 const colorPaletteStructConfig = (brand, mode) => ({
   destination: `${capitalizeWord(brand)}ColorPalette${capitalizeWord(mode)}.swift`,
-  filter: dictionary => filterCategory(dictionary, 'color'),
+  filter: (dictionary) => filterCategory(dictionary, 'color'),
   format: 'ios-swift/struct.swift',
   interfaceName: 'ColorPalette',
   propertyName: 'color',
@@ -21,22 +21,22 @@ const colorPaletteStructConfig = (brand, mode) => ({
 
 const dynamicColorsConfig = () => ({
   destination: 'DynamicColors.swift',
-  filter: dictionary => filterCategory(dictionary, 'color'),
+  filter: (dictionary) => filterCategory(dictionary, 'color'),
   format: 'ios-swift/dynamic-colors.swift',
 });
 
 const sizesProtocolConfig = () => ({
   destination: 'Sizes.swift',
-  filter: dictionary => filterCategory(dictionary, 'size'),
+  filter: (dictionary) => filterCategory(dictionary, 'size'),
   format: 'ios-swift/protocol.swift',
   propertyName: 'size',
   protocolName: 'Sizes',
   protocolType: 'CGFloat',
 });
 
-const sizeStructConfig = brand => ({
+const sizeStructConfig = (brand) => ({
   destination: `${capitalizeWord(brand)}Sizes.swift`,
-  filter: dictionary => filterCategory(dictionary, 'size'),
+  filter: (dictionary) => filterCategory(dictionary, 'size'),
   format: 'ios-swift/struct.swift',
   interfaceName: 'Sizes',
   propertyName: 'size',
@@ -46,16 +46,16 @@ const sizeStructConfig = brand => ({
 
 const spacingProtocolConfig = () => ({
   destination: 'Spacings.swift',
-  filter: dictionary => filterCategory(dictionary, 'spacing'),
+  filter: (dictionary) => filterCategory(dictionary, 'spacing'),
   format: 'ios-swift/protocol.swift',
   propertyName: 'spacing',
   protocolName: 'Spacing',
   protocolType: 'CGFloat',
 });
 
-const spacingStructConfig = brand => ({
+const spacingStructConfig = (brand) => ({
   destination: `${capitalizeWord(brand)}Spacings.swift`,
-  filter: dictionary => filterCategory(dictionary, 'spacing'),
+  filter: (dictionary) => filterCategory(dictionary, 'spacing'),
   format: 'ios-swift/struct.swift',
   interfaceName: 'Spacings',
   propertyName: 'spacing',

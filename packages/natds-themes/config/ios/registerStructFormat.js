@@ -16,7 +16,6 @@ const templateDataBuilder = (dictionary, _platform, {
 const registerColorStructFormat = () => {
   const templatePath = path.resolve(__dirname, './templates/struct.hbs');
 
-
   return formatBuilder('ios-swift/struct.swift', templatePath, templateDataBuilder);
 };
 
