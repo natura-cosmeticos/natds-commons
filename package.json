@@ -35,9 +35,9 @@
   },
   "homepage": "https://github.com/natura-cosmeticos/natds-commons#readme",
   "devDependencies": {
-    "@babel/core": "7.9.6",
-    "@babel/node": "7.8.7",
-    "@babel/preset-env": "7.9.6",
+    "@babel/core": "7.10.4",
+    "@babel/node": "7.10.4",
+    "@babel/preset-env": "7.10.4",
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@naturacosmeticos/eslint-config-natura": "2.0.1",
