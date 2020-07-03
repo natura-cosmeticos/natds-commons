@@ -2,7 +2,8 @@
 
 A monorepo containing Natura Design System multiplatform packages.
 
-[![Build Status](https://app.bitrise.io/app/31fba7fef7b852a0/status.svg?token=cq37m7wlp8mfWe2kfQ2u-w&branch=master)](https://app.bitrise.io/app/31fba7fef7b852a0)
+[![Build Status](https://app.bitrise.io/app/31fba7fef7b852a0/status.svg?token=cq37m7wlp8mfWe2kfQ2u-w&branch=master)](https://app.bitrise.io/app/31fba7fef7b852a0) [![codecov](https://codecov.io/gh/natura-cosmeticos/natds-commons/branch/master/graph/badge.svg)](https://codecov.io/gh/natura-cosmeticos/natds-commons) ![GitHub issues](https://img.shields.io/github/issues/natura-cosmeticos/natds-commons) ![GitHub](https://img.shields.io/github/license/natura-cosmeticos/natds-commons) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+
 
 ___
 
