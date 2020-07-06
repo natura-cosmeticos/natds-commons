@@ -89,7 +89,7 @@ const buildFiles = (brand, mode) => ([
   spacingStructConfig(brand),
   spacingProtocolConfig(),
   borderRadiusConfig(brand),
-  borderRadiusProtocolConfig()
+  borderRadiusProtocolConfig(),
 ]);
 
 const buildAndroidConfig = (brand, mode) => ({

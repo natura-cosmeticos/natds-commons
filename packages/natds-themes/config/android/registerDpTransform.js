@@ -1,15 +1,9 @@
-const isCategory = (categoryName, { attributes: { category } }) => category === categoryName;
-
-export const isSize = (prop) => (
-  !isCategory('color', prop)
-  && !isCategory('font', prop)
-  && !isCategory('icon', prop)
-);
+import { filterCategory } from '../shared/filters';
 
 export const registerDpTransform = () => ({
+  matcher: (prop) => !filterCategory(prop, 'color'),
   name: 'size/dp-custom',
   transformer: ({ value }) => `${value}dp`,
-  matcher: isSize,
   type: 'value',
 });
 

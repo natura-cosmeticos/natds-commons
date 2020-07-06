@@ -6,7 +6,7 @@ describe('registerAttributeTypeTransform', () => {
       name: 'size/attrType',
       transformer: expect.any(Function),
       type: 'attribute',
-    }
+    };
 
     expect(registerAttributeTypeTransform()).toMatchObject(expectedConfig);
   });
@@ -29,9 +29,9 @@ describe('registerAttributeTypeTransform', () => {
 
     const expectedProp = {
       customOptions: {
-        type: 'dimension'
-      }
-    }
+        type: 'dimension',
+      },
+    };
 
     expect(transformConfig.transformer(prop)).toEqual(expectedProp);
   });
