@@ -51,7 +51,7 @@
     "husky": "4.2.5",
     "jest": "26.1.0",
     "jest-file-snapshot": "0.3.8",
-    "lerna": "3.21.0",
+    "lerna": "3.22.1",
     "nodemon": "2.0.4",
     "style-dictionary": "2.10.0"
   },
