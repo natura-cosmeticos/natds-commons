@@ -49,7 +49,7 @@
     "handlebars": "4.7.6",
     "http-server": "0.12.3",
     "husky": "4.2.5",
-    "jest": "26.0.1",
+    "jest": "26.1.0",
     "jest-file-snapshot": "0.3.8",
     "lerna": "3.21.0",
     "nodemon": "2.0.4",
