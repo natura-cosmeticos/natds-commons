@@ -63,6 +63,23 @@ const spacingStructConfig = (brand) => ({
   type: ': CGFloat',
 });
 
+const borderRadiusProtocolConfig = () => ({
+  destination: 'BorderRadius.swift',
+  format: 'ios-swift/protocol.swift',
+  propertyName: 'borderRadius',
+  protocolName: 'BorderRadius',
+  protocolType: 'CGFloat',
+});
+
+const borderRadiusConfig = (brand) => ({
+  destination: `${capitalizeWord(brand)}BorderRadius.swift`,
+  format: 'ios-swift/struct.swift',
+  interfaceName: 'BorderRadius',
+  propertyName: 'borderRadius',
+  structName: `${capitalizeWord(brand)}BorderRadius`,
+  type: ': CGFloat',
+});
+
 const buildFiles = (brand, mode) => ([
   colorPaletteStructConfig(brand, mode),
   colorPaletteProtocolConfig(),
@@ -71,6 +88,8 @@ const buildFiles = (brand, mode) => ([
   sizesProtocolConfig(),
   spacingStructConfig(brand),
   spacingProtocolConfig(),
+  borderRadiusConfig(brand),
+  borderRadiusProtocolConfig()
 ]);
 
 const buildAndroidConfig = (brand, mode) => ({

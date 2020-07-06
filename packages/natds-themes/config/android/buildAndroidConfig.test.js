@@ -15,7 +15,7 @@ const expectedConfig = {
       mode: 'Pikachu',
     },
   ],
-  transforms: ['name/cti/camel-custom', 'attribute/cti'],
+  transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
 };
 
 describe('buildAndroidConfig', () => {

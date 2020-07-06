@@ -1,0 +1,16 @@
+{
+  "borderRadius": {
+    "none": {
+      "value": 0
+    },
+    "small": {
+      "value": 2
+    },
+    "medium": {
+      "value": 4
+    },
+    "large": {
+      "value": 8
+    }
+  }
+}

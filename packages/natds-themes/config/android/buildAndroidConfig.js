@@ -16,7 +16,7 @@ const buildAndroidConfig = (brand, mode) => ({
       mode: capitalizeWord(mode),
     },
   ],
-  transforms: ['name/cti/camel-custom', 'attribute/cti'],
+  transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
 });
 
 export default buildAndroidConfig;

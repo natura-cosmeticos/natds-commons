@@ -7,7 +7,7 @@ const dictionary = {
   properties: {
     color: {
       primary: {
-        attributes: {},
+        attributes: { customOptions: { type: 'color' } },
         name: 'colorPrimary',
         original: {
           value: '#F091C9',
@@ -21,7 +21,7 @@ const dictionary = {
     },
     size: {
       tiny: {
-        attributes: {},
+        attributes: { customOptions: { type: 'dimension' } },
         name: 'sizeTiny',
         original: {
           value: 8,
@@ -35,7 +35,7 @@ const dictionary = {
     },
     spacing: {
       small: {
-        attributes: {},
+        attributes: { customOptions: { type: 'dimension' } },
         name: 'spacingSmall',
         original: {
           value: 8,

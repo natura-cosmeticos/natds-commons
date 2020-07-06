@@ -30,7 +30,7 @@ const dictionary = {
           'size',
           'tiny',
         ],
-        value: 8,
+        value: "8dp",
       },
     },
     spacing: {
@@ -44,7 +44,7 @@ const dictionary = {
           'spacing',
           'small',
         ],
-        value: 8,
+        value: "8dp",
       },
     },
   },
