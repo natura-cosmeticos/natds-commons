@@ -16,5 +16,11 @@
     {{#each spacing}}
     <item name="{{name}}">{{value}}dp</item>
     {{/each}}
+    
+    {{#each assets}}
+    {{#each @this}}
+    <item name="{{name}}">{{value}}</item>
+    {{/each}}
+    {{/each}}
   </style>
 </resources>

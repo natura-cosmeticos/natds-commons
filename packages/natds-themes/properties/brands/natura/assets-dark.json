@@ -1,0 +1,12 @@
+{
+  "assets": {
+    "logo": {
+      "horizontal": {
+        "value": "assets/natura-dark-horizontal.svg"
+      },
+      "vertical": {
+        "value": "assets/natura-dark-vertical.svg"
+      }
+    }
+  }
+}

@@ -10,6 +10,7 @@ const templateDataBuilder = (
   mode,
   size: dictionary.properties.size,
   spacing: dictionary.properties.spacing,
+  assets: dictionary.properties.assets,
 });
 
 const registerThemeFormat = () => {

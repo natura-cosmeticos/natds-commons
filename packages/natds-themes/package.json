@@ -6,6 +6,7 @@
   "scripts": {
     "build": "yarn build:clear && yarn build:outputs && yarn build:copy",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
+    "download:assets": "babel-node --presets @babel/preset-env -e 'require(\"./bin/downloadFigmaAssets.js\").init()'",
     "build:copy": "cp ./config/ios/static/* ./build/ios",
     "build:clear": "rm -rf ./build",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
@@ -16,5 +17,7 @@
     "test": "jest --collectCoverage --colors --config='../../jest.config.js'"
   },
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "svg2vectordrawable": "^2.6.25"
+  }
 }

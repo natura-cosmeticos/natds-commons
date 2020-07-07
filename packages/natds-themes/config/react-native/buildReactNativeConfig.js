@@ -7,6 +7,7 @@ const buildReactNativeConfig = (brand, mode) => ({
     },
   ],
   transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
+  actions: ['copy_assets']
 });
 
 export default buildReactNativeConfig;

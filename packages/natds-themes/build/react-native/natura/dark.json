@@ -29,6 +29,12 @@
     "alert": "#e74627",
     "onAlert": "#ffffff"
   },
+  "assets": {
+    "logo": {
+      "horizontal": "assets/natura-dark-horizontal.svg",
+      "vertical": "assets/natura-dark-vertical.svg"
+    }
+  },
   "size": {
     "none": 0,
     "micro": 4,

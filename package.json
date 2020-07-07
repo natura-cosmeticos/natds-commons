@@ -5,14 +5,15 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "lerna run build",
-    "commit": "git cz",
-    "lint": "lerna run lint",
-    "prerelease": "lerna version --conventional-commits --conventional-prerelease",
-    "release": "lerna version --conventional-commits",
+    "build": "lerna run build --stream",
+    "commit": "git cz --stream",
+    "lint": "lerna run lint --stream",
+    "prerelease": "lerna version --conventional-commits --conventional-prerelease --stream",
+    "release": "lerna version --conventional-commits --stream",
     "start": "lerna run start --stream",
-    "test": "lerna run test",
-    "test:watch": "jest --watch --collectCoverage"
+    "test": "lerna run test --stream",
+    "test:watch": "jest --watch --collectCoverage --stream",
+    "download:assets": "lerna run download:assets --stream"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
     "eslint": "7.3.1",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-mocha": "7.0.1",
+    "figma-api": "^1.5.5",
     "handlebars": "4.7.6",
     "http-server": "0.12.3",
     "husky": "4.2.5",
