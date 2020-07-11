@@ -16,6 +16,14 @@ excluded_files:
   - "Gemfile.lock"
   - ".typo-ci.yml"
 excluded_words:
+  - cti
   - natds
+  - natds-themes
+  - natura
+  - NaturaBorderRadius
+  - NaturaColorPaletteDark
+  - NaturaColorPaletteLight
+  - NaturaSizes
+  - NaturaSpacings
   - typoci
 spellcheck_filenames: true
