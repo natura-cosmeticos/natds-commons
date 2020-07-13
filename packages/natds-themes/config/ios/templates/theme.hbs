@@ -1,0 +1,72 @@
+{{> fileHeader }}
+
+protocol ComponentsProtocol {
+{{#each components}}
+{{#each @this}}
+{{#if name}}
+  var {{name}}: {{attributes.customOptions.type}} { get }
+{{/if}}
+{{#unless name}}
+{{#each @this}}
+  var {{name}}: {{attributes.customOptions.type}} { get }
+{{/each}}
+{{/unless}}
+{{/each}}
+{{/each}}
+}
+
+struct Components {
+{{#each components}}
+{{#each @this}}
+{{#if name}}
+  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/if}}
+{{#unless name}}
+{{#each @this}}
+  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
+{{/unless}}
+{{/each}}
+{{/each}}
+}
+
+protocol TokensProtocol {
+{{#each tokens}}
+{{#each @this}}
+{{#if name}}
+  var {{name}}: {{attributes.customOptions.type}} { get }
+{{/if}}
+{{#unless name}}
+{{#each @this}}
+  var {{name}}: {{attributes.customOptions.type}} { get }
+{{/each}}
+{{/unless}}
+{{/each}}
+{{/each}}
+}
+
+struct Tokens {
+{{#each tokens}}
+{{#each @this}}
+{{#if name}}
+  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/if}}
+{{#unless name}}
+{{#each @this}}
+  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
+{{/unless}}
+{{/each}}
+{{/each}}
+}
+
+
+protocol ThemeProtocol {
+  var tokens: TokensProtocol
+  var components: ComponentsProtocol
+}
+
+struct Theme{
+  let tokens: String
+  let components: String
+}

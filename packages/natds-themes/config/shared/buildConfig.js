@@ -4,7 +4,7 @@ import buildHtmlConfig from '../html/buildHtmlConfig';
 import buildAndroidConfig from '../android/buildAndroidConfig';
 import builIosConfig from '../ios/buildIosConfig';
 
-export const buildConfig = (brand, mode) => ({
+export const buildConfig = (brand, mode, platform) => ({
   platforms: {
     android: buildAndroidConfig(brand, mode),
     html: buildHtmlConfig(brand, mode),
@@ -16,6 +16,7 @@ export const buildConfig = (brand, mode) => ({
     `properties/brands/${brand}/${mode}.json`,
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test).js',
+    `properties/platforms/${platform}/*.json`,
   ],
 });
 

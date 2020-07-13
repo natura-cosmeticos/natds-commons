@@ -5,9 +5,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   {{#each properties}}
-    {{#each @this}}
-    <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
-    {{/each}}
-
-    {{/each}}
+  {{#each @this}}
+  {{#if name}}
+  <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
+  {{/if}}
+  {{#unless name}}
+  {{#each @this}}
+  <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
+  {{/each}}
+  {{/unless}}
+  {{/each}}
+  {{/each}}
 </resources>

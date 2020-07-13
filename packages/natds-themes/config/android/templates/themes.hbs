@@ -7,9 +7,15 @@
   <style name="Theme.{{brandName}}.{{mode}}" parent="Theme.MaterialComponents.{{materialMode}}">
     {{#each properties}}
     {{#each @this}}
+    {{#if value}}
+    <item name="{{name}}">{{value}}</item>
+    {{/if}}
+    {{#unless value}}
+    {{#each @this}}
     <item name="{{name}}">{{value}}</item>
     {{/each}}
-
+    {{/unless}}
+    {{/each}}
     {{/each}}
   </style>
 </resources>

@@ -1,0 +1,18 @@
+{
+  "button": {
+    "default": {
+      "fontSize": {
+        "value": 14
+      },
+      "fontWeight": {
+        "value": "{typography.fontWeight.medium.value}"
+      },
+      "letterSpacing": {
+        "value": 1.23
+      },
+      "lineHeight": {
+        "value": "{typography.lineHeight.medium.value}"
+      }
+    }
+  }
+}

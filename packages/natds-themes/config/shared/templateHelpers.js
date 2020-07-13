@@ -4,7 +4,7 @@ import Handlebars from 'handlebars';
 
 export const compileTemplate = (templatePath) => {
   const templateFile = fs.readFileSync(templatePath).toString();
-  const template = Handlebars.compile(templateFile);
+  const template = Handlebars.compile(templateFile, { noEscape: true });
 
   return template;
 };

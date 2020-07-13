@@ -1,0 +1,134 @@
+{
+  "heading1": {
+    "fontSize": {
+      "value": 96
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0
+    }
+  },
+  "heading2": {
+    "fontSize": {
+      "value": 60
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0
+    }
+  },
+  "heading3": {
+    "fontSize": {
+      "value": 48
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0
+    }
+  },
+  "heading4": {
+    "fontSize": {
+      "value": 34
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0.27
+    }
+  },
+  "heading5": {
+    "fontSize": {
+      "value": 24
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0
+    }
+  },
+  "heading6": {
+    "fontSize": {
+      "value": 20
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.medium.value}"
+    },
+    "letterSpacing": {
+      "value": 0.24
+    }
+  },
+  "subtitle1": {
+    "fontSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.medium.value}"
+    },
+    "letterSpacing": {
+      "value": 0.13
+    }
+  },
+  "subtitle2": {
+    "fontSize": {
+      "value": 14
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.medium.value}"
+    },
+    "letterSpacing": {
+      "value": 0.11
+    }
+  },
+  "body1": {
+    "fontSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}" 
+    },
+    "letterSpacing": {
+      "value": 0.51
+    }
+  },
+  "body2": {
+    "fontSize": {
+      "value": 14
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0.22
+    }
+  },
+  "caption": {
+    "fontSize": {
+      "value": 12
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.regular.value}"
+    },
+    "letterSpacing": {
+      "value": 0.38
+    }
+  },
+  "overline": {
+    "fontSize": {
+      "value": 12
+    },
+    "fontWeight": {
+      "value": "{typography.fontWeight.medium.value}"
+    },
+    "letterSpacing": {
+      "value": 1.92
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "typography": {
+    "fontFamily": {
+      "primary": {
+        "value": "San Francisco"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": ".regular"
+      },
+      "medium": {
+        "value": ".medium"
+      }
+    }
+  },
+  "heading4": {
+    "letterSpacing": {
+      "value": 0.08
+    }
+  },
+  "heading6": {
+    "letterSpacing": {
+      "value": 0.12
+    }
+  },
+  "subtitle1": {
+    "letterSpacing": {
+      "value": 0.08
+    }
+  },
+  "subtitle2": {
+    "letterSpacing": {
+      "value": 0.08
+    }
+  },
+  "body1": {
+    "letterSpacing": {
+      "value": 0.32
+    }
+  },
+  "body2": {
+    "letterSpacing": {
+      "value": 0.16
+    }
+  },
+  "caption": {
+    "letterSpacing": {
+      "value": 0.16
+    }
+  },
+  "overline": {
+    "letterSpacing": {
+      "value": 0.8
+    }
+  }
+}
