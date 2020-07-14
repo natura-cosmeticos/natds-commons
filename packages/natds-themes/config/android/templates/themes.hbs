@@ -5,16 +5,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Theme.{{brandName}}.{{mode}}" parent="Theme.MaterialComponents.{{materialMode}}">
-    {{#each color}}
+    {{#each properties}}
+    {{#each @this}}
     <item name="{{name}}">{{value}}</item>
     {{/each}}
-    
-    {{#each size}}
-    <item name="{{name}}">{{value}}dp</item>
-    {{/each}}
-    
-    {{#each spacing}}
-    <item name="{{name}}">{{value}}dp</item>
+
     {{/each}}
   </style>
 </resources>

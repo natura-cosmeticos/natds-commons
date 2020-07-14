@@ -2,6 +2,8 @@ import registerHtmlFormat from '../html/registerHtmlFormat';
 import registerHtmlCreatePathsAction from '../html/registerCreatePathsAction';
 import registerAttributesFormatter from '../android/registerAttributesFormat';
 import registerThemeFormat from '../android/registerThemeFormat';
+import { registerDpTransform } from '../android/registerDpTransform';
+import { registerAttributeTypeTransform } from '../android/registerAttributeTypeTransform';
 import registerStructFormat from '../ios/registerStructFormat';
 import registerProtocolFormat from '../ios/registerProtocolFormat';
 import registerDynamicColorFormat from '../ios/registerDynamicColorFormat';
@@ -42,6 +44,8 @@ export const customActions = [
 
 export const customTransforms = [
   registerCamelTransform,
+  registerDpTransform,
+  registerAttributeTypeTransform,
 ];
 
 registerTemplateHeaderHelper();

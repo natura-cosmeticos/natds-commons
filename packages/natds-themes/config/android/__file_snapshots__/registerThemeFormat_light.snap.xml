@@ -23,9 +23,10 @@
 <resources>
   <style name="Theme.Avon.Dark" parent="Theme.MaterialComponents.DayNight">
     <item name="colorPrimary">#F091C9</item>
-    
+
     <item name="sizeTiny">8dp</item>
-    
+
     <item name="spacingSmall">8dp</item>
+
   </style>
 </resources>

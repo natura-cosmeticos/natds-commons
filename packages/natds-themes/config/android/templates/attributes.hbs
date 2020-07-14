@@ -4,15 +4,10 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  {{#each color}}
-  <attr name="{{name}}" format="color" />
-  {{/each}}
+  {{#each properties}}
+    {{#each @this}}
+    <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
+    {{/each}}
 
-  {{#each size}}
-  <attr name="{{name}}" format="dimension" />
-  {{/each}}
-  
-  {{#each spacing}}
-  <attr name="{{name}}" format="dimension" />
-  {{/each}}
+    {{/each}}
 </resources>

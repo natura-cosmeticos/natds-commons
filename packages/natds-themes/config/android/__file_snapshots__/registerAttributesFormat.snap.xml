@@ -21,9 +21,10 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimary" format="color" />
 
-  <attr name="sizeTiny" format="dimension" />
-  
-  <attr name="spacingSmall" format="dimension" />
+    <attr name="sizeTiny" format="dimension" />
+
+    <attr name="spacingSmall" format="dimension" />
+
 </resources>

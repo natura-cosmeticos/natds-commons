@@ -17,12 +17,9 @@
  *                                                              
  */
 
-struct TheBodyShopSpacings: Spacings {
-  let micro: CGFloat = 4
-  let tiny: CGFloat = 8
-  let small: CGFloat = 16
-  let standard: CGFloat = 24
-  let semi: CGFloat = 32
-  let large: CGFloat = 48
-  let xLarge: CGFloat = 64
+struct TheBodyShopBorderRadius: BorderRadius {
+  let none: CGFloat = 0
+  let small: CGFloat = 2
+  let medium: CGFloat = 4
+  let large: CGFloat = 8
 }
