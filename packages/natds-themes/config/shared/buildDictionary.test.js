@@ -24,7 +24,7 @@ describe('buildDictionary', () => {
 
     buildDictionary('pokemon', 'pikachu', 'ios');
 
-    expect(buildConfigSpy).toBeCalledWith('pokemon', 'pikachu');
+    expect(buildConfigSpy).toBeCalledWith('pokemon', 'pikachu', 'ios');
     expect(buildPlatformSpy).toBeCalledWith('ios');
     expect(registerFormatSpy).toHaveBeenCalledTimes(customFormats.length);
     expect(registerActionSpy).toHaveBeenCalledTimes(customActions.length);

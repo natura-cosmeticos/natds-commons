@@ -9,14 +9,12 @@ const types = {
   string: 'String',
 };
 
-const getType = (prop) => types[
-  Object.keys(types).find((type) => isProp(prop, type)) || typeof prop.value
-];
-
-export const isFontWeight = ({ path }) => path.includes('fontWeight');
-
 const transformer = (prop) => {
-  const type = getType(prop);
+  const typeKey = Object
+    .keys(types)
+    .find((typeName) => isProp(prop, typeName)) || typeof prop.value;
+
+  const type = types[typeKey];
 
   return {
     customOptions: {

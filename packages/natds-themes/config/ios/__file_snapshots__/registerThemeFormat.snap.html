@@ -17,10 +17,36 @@
  *                                                              
  */
 
-final class DynamicColors {
-    private let dynamicColorFactory: ColorProvider
+protocol ComponentsProtocol {
+  var heading1FontSize:  { get }
+}
 
-    init(dynamicColorFactory: ColorProvider) { self.dynamicColorFactory = dynamicColorFactory }
-    
-    lazy var primary = dynamicColorFactory.createDynamicColor(for: \.primary)
+struct Components {
+  lazy var heading1FontSize = 14
+}
+
+protocol TokensProtocol {
+  var borderRadiusSmall:  { get }
+  var colorPrimary:  { get }
+  var sizeTiny:  { get }
+  var spacingSmall:  { get }
+  var typographyLineHeightSmall:  { get }
+}
+
+struct Tokens {
+  lazy var borderRadiusSmall = 8
+  lazy var colorPrimary = #F091C9
+  lazy var sizeTiny = 8
+  lazy var spacingSmall = 8
+  lazy var typographyLineHeightSmall = 14
+}
+
+protocol ThemeProtocol {
+  var tokens: TokensProtocol
+  var components: ComponentsProtocol
+}
+
+struct Theme{
+  let tokens: String
+  let components: String
 }
