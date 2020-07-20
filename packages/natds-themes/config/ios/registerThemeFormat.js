@@ -1,27 +1,18 @@
 import path from 'path';
 import { formatBuilder } from '../shared/formatBuilder';
-
-const splitTokensAndComponents = ({
-  size, spacing, typography, borderRadius, color,
-  ...components
-}) => ({
-  components,
-  tokens: {
-    borderRadius,
-    color,
-    size,
-    spacing,
-    typography,
-  },
-});
+import { flattenProps, splitTokensAndComponents } from '../shared/helpers';
 
 const registerThemeFormat = () => {
   const templatePath = path.resolve(__dirname, './templates/theme.hbs');
 
-  const templateDataBuilder = (dictionary) => ({
-    ...(splitTokensAndComponents(dictionary.properties)),
-    properties: dictionary.properties,
-  });
+  const templateDataBuilder = ({ properties }) => {
+    const { tokens, components } = splitTokensAndComponents(properties);
+
+    return {
+      components: flattenProps(components),
+      tokens: flattenProps(tokens),
+    };
+  };
 
   return formatBuilder('ios-swift/theme.swift', templatePath, templateDataBuilder);
 };

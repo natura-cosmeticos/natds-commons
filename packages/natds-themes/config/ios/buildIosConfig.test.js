@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
 
 import buildIosConfig from './buildIosConfig';
-import * as filterCategory from '../shared/filters';
+import * as filterCategory from '../shared/helpers';
 
 const expectedConfig = {
   buildPath: 'build/ios/',

@@ -1,4 +1,4 @@
-import { isProp } from '../shared/filters';
+import { isProp } from '../shared/helpers';
 
 const types = {
   color: 'UIColor',

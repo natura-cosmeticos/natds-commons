@@ -58,7 +58,7 @@
         <h1>Colors</h1>
         <hr>
       </div>
-      {{#each color}}
+      {{#each tokens.color}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="color-sample" style="background: {{value}}"></div>
@@ -68,7 +68,7 @@
         <h1>Sizes</h1>
         <hr>
       </div>
-      {{#each size}}
+      {{#each tokens.size}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="size-sample" style="height: {{value}}px"></div>
@@ -78,7 +78,7 @@
         <h1>Spacing</h1>
         <hr>
       </div>
-      {{#each spacing}}
+      {{#each tokens.spacing}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="spacing-sample">
@@ -91,7 +91,7 @@
         <h1>Border Radius</h1>
         <hr>
       </div>
-      {{#each borderRadius}}
+      {{#each tokens.borderRadius}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="borderRadius-sample" style="border-radius: {{value}}px"></div>
@@ -102,7 +102,7 @@
         <hr>
         <h3>Font Family</h1>
       </div>
-      {{#each typography.fontFamily}}
+      {{#each tokens.typography.fontFamily}}
       <div class="color col-12 col-sm-6 col-md-4">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <p class="typography-sample" style="font-family: {{value}}">
@@ -110,7 +110,7 @@
         </p>
       </div>
       {{/each}}
-      {{#each typography.lineHeight}}
+      {{#each tokens.typography.lineHeight}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <p class="typography-sample" style="line-height: {{value}}em">

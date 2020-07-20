@@ -1,6 +1,6 @@
-import { filterCategory } from './filters';
+import { filterCategory } from './helpers';
 
-describe('filters', () => {
+describe('helpers', () => {
   describe('filterCategory', () => {
     it('should return true if the category matches the given name', () => {
       const dictionary = {

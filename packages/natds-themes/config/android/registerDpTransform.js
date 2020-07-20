@@ -1,4 +1,4 @@
-import { filterCategory, isProp } from '../shared/filters';
+import { filterCategory, isProp } from '../shared/helpers';
 
 export const registerDpTransform = () => ({
   matcher: (prop) => (
