@@ -5,15 +5,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   {{#each properties}}
-  {{#each @this}}
-  {{#if name}}
-  <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
-  {{/if}}
-  {{#unless name}}
-  {{#each @this}}
-  <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
-  {{/each}}
-  {{/unless}}
-  {{/each}}
+  <attr name="{{name}}" format="{{attributes.customOptions.type}}" />  
   {{/each}}
 </resources>
