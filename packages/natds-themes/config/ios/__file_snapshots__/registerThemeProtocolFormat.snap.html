@@ -17,19 +17,19 @@
  *                                                              
  */
 
-struct Components: Components {
-  lazy var heading1FontSize = 14
+protocol ComponentsProtocol {
+  var heading1FontSize:  { get }
 }
 
-struct Tokens: Tokens {
-  lazy var borderRadiusSmall = 8
-  lazy var colorPrimary = "#F091C9"
-  lazy var sizeTiny = 8
-  lazy var spacingSmall = 8
-  lazy var typographyLineHeightSmall = 14
+protocol TokensProtocol {
+  var borderRadiusSmall:  { get }
+  var colorPrimary:  { get }
+  var sizeTiny:  { get }
+  var spacingSmall:  { get }
+  var typographyLineHeightSmall:  { get }
 }
 
-struct Theme: Theme {
-  let tokens: Tokens
-  let components: Components
+protocol ThemeProtocol {
+  var tokens: TokensProtocol
+  var components: ComponentsProtocol
 }

@@ -1,10 +1,10 @@
 import registerHtmlFormat from '../html/registerHtmlFormat';
 import registerHtmlCreatePathsAction from '../html/registerCreatePathsAction';
 import registerAttributesFormatter from '../android/registerAttributesFormat';
-import registerThemeFormat from '../android/registerThemeFormat';
+import registerThemeFormatAndroid from '../android/registerThemeFormat';
 import { registerDpTransform } from '../android/registerDpTransform';
 import { registerAttributeTypeTransform } from '../android/registerAttributeTypeTransform';
-import registerThemeFormatIos from '../ios/registerThemeFormat';
+import { registerThemeFormat, registerThemeProtocolFormat } from '../ios/registerFormats';
 import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTransform';
 import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
 import { registerTemplateHeaderHelper } from './templateHelpers';
@@ -32,8 +32,9 @@ export const platforms = [
 export const customFormats = [
   registerHtmlFormat,
   registerAttributesFormatter,
+  registerThemeFormatAndroid,
   registerThemeFormat,
-  registerThemeFormatIos,
+  registerThemeProtocolFormat,
 ];
 
 export const customActions = [

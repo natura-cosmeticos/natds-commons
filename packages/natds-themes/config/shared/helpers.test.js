@@ -1,8 +1,11 @@
+/* eslint-disable max-lines */
+
 import {
   filterCategory,
   isProp,
   flattenProps,
   splitTokensAndComponents,
+  flatTokensAndComponents,
 } from './helpers';
 
 describe('helpers', () => {
@@ -89,6 +92,88 @@ describe('helpers', () => {
       };
 
       expect(splitTokensAndComponents(properties)).toEqual(expectedResult);
+    });
+  });
+
+  describe('flatTokensAndComponents', () => {
+    it('should split and flat the properties into tokens and components', () => {
+      const dictionary = {
+        properties: {
+          borderRadius: {
+            small: {
+              name: 'borderRadiusSmall',
+              value: 8,
+            },
+          },
+          button: {
+            outlined: {
+              primary: {
+                name: 'buttonOutlinedPrimary',
+                value: 'red',
+              },
+            },
+          },
+          color: {
+            primary: {
+              name: 'colorPrimary',
+              value: 'red',
+            },
+          },
+          size: {
+            small: {
+              name: 'sizeSmall',
+              value: 8,
+            },
+          },
+          spacing: {
+            small: {
+              name: 'spacingSmall',
+              value: 8,
+            },
+          },
+          typography: {
+            primary: {
+              name: 'typographyPrimary',
+              value: 'Roboto',
+            },
+          },
+        },
+      };
+
+      const expectedResult = {
+        components: [
+          {
+            name: 'buttonOutlinedPrimary',
+            value: 'red',
+          },
+        ],
+        tokens: [
+          {
+            name: 'borderRadiusSmall',
+            value: 8,
+          },
+          {
+            name: 'colorPrimary',
+            value: 'red',
+          },
+          {
+            name: 'sizeSmall',
+            value: 8,
+          },
+          {
+            name: 'spacingSmall',
+            value: 8,
+          },
+          {
+            name: 'typographyPrimary',
+            value: 'Roboto',
+          },
+        ],
+      };
+
+      const result = flatTokensAndComponents(dictionary);
+
+      expect(result).toEqual(expectedResult);
     });
   });
 });

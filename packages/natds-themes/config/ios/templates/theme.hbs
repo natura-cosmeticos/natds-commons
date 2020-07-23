@@ -1,35 +1,18 @@
 {{> fileHeader }}
 
-protocol ComponentsProtocol {
-{{#each components}}
-  var {{name}}: {{attributes.customOptions.type}} { get }
-{{/each}}
-}
-
-struct Components {
+struct Components: Components {
 {{#each components}}
   lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
 {{/each}}
 }
 
-protocol TokensProtocol {
-{{#each tokens}}
-  var {{name}}: {{attributes.customOptions.type}} { get }
-{{/each}}
-}
-
-struct Tokens {
+struct Tokens: Tokens {
 {{#each tokens}}
   lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
 {{/each}}
 }
 
-protocol ThemeProtocol {
-  var tokens: TokensProtocol
-  var components: ComponentsProtocol
-}
-
-struct Theme{
-  let tokens: String
-  let components: String
+struct Theme: Theme {
+  let tokens: Tokens
+  let components: Components
 }

@@ -6,8 +6,12 @@ const expectedConfig = {
   buildPath: 'build/ios/',
   files: [
     {
-      destination: 'ThemePokemonPikachu.swift',
+      destination: 'PokemonPikachuTheme.swift',
       format: 'ios-swift/theme.swift',
+    },
+    {
+      destination: 'ThemeProtocol.swift',
+      format: 'ios-swift/theme-protocol.swift',
     },
   ],
   transformGroup: 'ios-swift',

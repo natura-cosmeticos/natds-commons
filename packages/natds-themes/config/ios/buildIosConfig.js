@@ -4,8 +4,12 @@ const buildIosConfig = (brand, mode) => ({
   buildPath: 'build/ios/',
   files: [
     {
-      destination: `Theme${capitalizeWord(brand)}${capitalizeWord(mode)}.swift`,
+      destination: `${capitalizeWord(brand)}${capitalizeWord(mode)}Theme.swift`,
       format: 'ios-swift/theme.swift',
+    },
+    {
+      destination: 'ThemeProtocol.swift',
+      format: 'ios-swift/theme-protocol.swift',
     },
   ],
   transformGroup: 'ios-swift',

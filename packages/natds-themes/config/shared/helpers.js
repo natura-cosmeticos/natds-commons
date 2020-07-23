@@ -27,4 +27,11 @@ export const splitTokensAndComponents = ({
   },
 });
 
-export default filterCategory;
+export const flatTokensAndComponents = ({ properties }) => {
+  const { tokens, components } = splitTokensAndComponents(properties);
+
+  return {
+    components: flattenProps(components),
+    tokens: flattenProps(tokens),
+  };
+};
