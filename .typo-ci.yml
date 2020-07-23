@@ -25,5 +25,7 @@ excluded_words:
   - NaturaColorPaletteLight
   - NaturaSizes
   - NaturaSpacings
+  - Pikachu
+  - PokemonPikachuTheme
   - typoci
 spellcheck_filenames: true
