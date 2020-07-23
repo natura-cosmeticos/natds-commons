@@ -45,7 +45,7 @@
     "commitizen": "4.1.2",
     "core-js": "3.6.5",
     "cz-lerna-changelog": "2.0.3",
-    "eslint": "7.4.0",
+    "eslint": "7.5.0",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-mocha": "7.0.1",
     "handlebars": "4.7.6",
