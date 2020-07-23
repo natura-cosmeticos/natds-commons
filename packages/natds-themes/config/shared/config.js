@@ -1,12 +1,12 @@
 import registerHtmlFormat from '../html/registerHtmlFormat';
 import registerHtmlCreatePathsAction from '../html/registerCreatePathsAction';
 import registerAttributesFormatter from '../android/registerAttributesFormat';
-import registerThemeFormat from '../android/registerThemeFormat';
+import registerThemeFormatAndroid from '../android/registerThemeFormat';
 import { registerDpTransform } from '../android/registerDpTransform';
 import { registerAttributeTypeTransform } from '../android/registerAttributeTypeTransform';
-import registerStructFormat from '../ios/registerStructFormat';
-import registerProtocolFormat from '../ios/registerProtocolFormat';
-import registerDynamicColorFormat from '../ios/registerDynamicColorFormat';
+import { registerThemeFormat, registerThemeProtocolFormat } from '../ios/registerFormats';
+import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTransform';
+import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
 import { registerTemplateHeaderHelper } from './templateHelpers';
 import { registerCamelTransform } from './registerCamelTransform';
 
@@ -32,10 +32,9 @@ export const platforms = [
 export const customFormats = [
   registerHtmlFormat,
   registerAttributesFormatter,
+  registerThemeFormatAndroid,
   registerThemeFormat,
-  registerStructFormat,
-  registerProtocolFormat,
-  registerDynamicColorFormat,
+  registerThemeProtocolFormat,
 ];
 
 export const customActions = [
@@ -46,6 +45,8 @@ export const customTransforms = [
   registerCamelTransform,
   registerDpTransform,
   registerAttributeTypeTransform,
+  registerAttributeTypeTransformIos,
+  registerValueStringLiteralTransform,
 ];
 
 registerTemplateHeaderHelper();

@@ -1,5 +1,6 @@
 import path from 'path';
 import { formatBuilder } from '../shared/formatBuilder';
+import { flattenProps } from '../shared/helpers';
 
 const templateDataBuilder = (
   { properties }, platform, { brandName, mode },
@@ -7,7 +8,7 @@ const templateDataBuilder = (
   brandName,
   materialMode: mode === 'Light' ? 'Light' : 'DayNight',
   mode,
-  properties,
+  properties: flattenProps(properties),
 });
 
 const registerThemeFormat = () => {

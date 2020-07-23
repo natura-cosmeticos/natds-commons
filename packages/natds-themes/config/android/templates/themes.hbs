@@ -6,10 +6,7 @@
 <resources>
   <style name="Theme.{{brandName}}.{{mode}}" parent="Theme.MaterialComponents.{{materialMode}}">
     {{#each properties}}
-    {{#each @this}}
     <item name="{{name}}">{{value}}</item>
-    {{/each}}
-
     {{/each}}
   </style>
 </resources>

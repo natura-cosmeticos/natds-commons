@@ -5,9 +5,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   {{#each properties}}
-    {{#each @this}}
-    <attr name="{{name}}" format="{{attributes.customOptions.type}}" />
-    {{/each}}
-
-    {{/each}}
+  <attr name="{{name}}" format="{{attributes.customOptions.type}}" />  
+  {{/each}}
 </resources>

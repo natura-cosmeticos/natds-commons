@@ -4,14 +4,13 @@
   "description": "The single source of truth for Natura Desing System tokens.",
   "main": "./config/build.js",
   "scripts": {
-    "build": "yarn build:clear && yarn build:outputs && yarn build:copy",
+    "build": "yarn build:clear && yarn build:outputs",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
-    "build:copy": "cp ./config/ios/static/* ./build/ios",
     "build:clear": "rm -rf ./build",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
     "lint": "eslint --ext .js ./",
     "html": "yarn build && http-server build/html",
-    "html:watch": "nodemon --watch config -e .js,.hbs,.html -x 'yarn html'",
+    "html:watch": "nodemon --watch config -e .js,.json,.hbs,.html -x 'yarn html'",
     "start": "yarn html:watch",
     "test": "jest --collectCoverage --colors --config='../../jest.config.js'"
   },

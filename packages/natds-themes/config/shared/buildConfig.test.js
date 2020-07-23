@@ -17,6 +17,7 @@ const expecteConfig = {
     'properties/brands/pokemon/pikachu.json',
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test).js',
+    'properties/platforms/ios/*.json',
   ],
 };
 
@@ -28,7 +29,7 @@ describe('buildConfig', () => {
     const buildAndroidConfigSpy = jest.spyOn(buildAndroidConfig, 'default').mockImplementation(() => 'androidConfig');
     const buildIosConfigSpy = jest.spyOn(buildIosConfig, 'default').mockImplementation(() => 'iosConfig');
 
-    const config = buildConfig('pokemon', 'pikachu');
+    const config = buildConfig('pokemon', 'pikachu', 'ios');
 
     expect(buildReactNativeConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
     expect(buildReactDomConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');

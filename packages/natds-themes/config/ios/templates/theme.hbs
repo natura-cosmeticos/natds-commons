@@ -1,0 +1,18 @@
+{{> fileHeader }}
+
+struct Components: Components {
+{{#each components}}
+  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
+}
+
+struct Tokens: Tokens {
+{{#each tokens}}
+  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
+}
+
+struct Theme: Theme {
+  let tokens: Tokens
+  let components: Components
+}

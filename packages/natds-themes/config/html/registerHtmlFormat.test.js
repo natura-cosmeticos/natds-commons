@@ -1,9 +1,25 @@
+/* eslint-disable max-lines */
+
 import path from 'path';
 import registerHtmlFormat from './registerHtmlFormat';
 import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
   properties: {
+    borderRadius: {
+      small: {
+        attributes: {},
+        name: 'borderRadiusSmall',
+        original: {
+          value: 8,
+        },
+        path: [
+          'borderRadius',
+          'small',
+        ],
+        value: 8,
+      },
+    },
     color: {
       primary: {
         attributes: {},
@@ -16,6 +32,44 @@ const dictionary = {
           'primary',
         ],
         value: '#F091C9',
+      },
+    },
+    heading1: {
+      fontSize: {
+        attributes: {},
+        name: 'heading1FontSize',
+        original: {
+          value: 14,
+        },
+        path: [
+          'heading1',
+          'fontSize',
+        ],
+        value: 14,
+      },
+      fontWeight: {
+        attributes: {},
+        name: 'heading1FontWeight',
+        original: {
+          value: 500,
+        },
+        path: [
+          'heading1',
+          'fontWeight',
+        ],
+        value: 500,
+      },
+      letterSpacing: {
+        attributes: {},
+        name: 'heading1LetterSpacing',
+        original: {
+          value: 0,
+        },
+        path: [
+          'heading1',
+          'letterSpacing',
+        ],
+        value: 0,
       },
     },
     size: {
@@ -44,6 +98,38 @@ const dictionary = {
           'small',
         ],
         value: 8,
+      },
+    },
+    typography: {
+      fontFamily: {
+        small: {
+          attributes: {},
+          name: 'typographyFontFamilySmall',
+          original: {
+            value: 14,
+          },
+          path: [
+            'typography',
+            'fontFamily',
+            'small',
+          ],
+          value: 14,
+        },
+      },
+      lineHeight: {
+        small: {
+          attributes: {},
+          name: 'typographyLineHeightSmall',
+          original: {
+            value: 1,
+          },
+          path: [
+            'typography',
+            'lineHeight',
+            'small',
+          ],
+          value: 1,
+        },
       },
     },
   },

@@ -6,10 +6,16 @@
   <title>Color tokens</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
     .color-sample {
       border: 1px solid #eaeaea;
       height: 50px;
@@ -33,21 +39,26 @@
       height: 20px;
     }
 
-    .borderRadius-sample{
+    .borderRadius-sample {
       background: #ffe5e5;
       border: 1px solid #e83e8c;
       height: 70px;
       width: 100%;
     }
+
+    .typography-sample {
+      background-color: #f3f2f2;
+      padding: 10px;
+    }
   </style>
   {{> navigation }}
-  <div class="container mt-5">
+  <div class="container-fluid mt-5">
     <div class="row">
       <div class="col-12">
         <h1>Colors</h1>
         <hr>
       </div>
-      {{#each color}}
+      {{#each tokens.color}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="color-sample" style="background: {{value}}"></div>
@@ -57,7 +68,7 @@
         <h1>Sizes</h1>
         <hr>
       </div>
-      {{#each size}}
+      {{#each tokens.size}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="size-sample" style="height: {{value}}px"></div>
@@ -67,7 +78,7 @@
         <h1>Spacing</h1>
         <hr>
       </div>
-      {{#each spacing}}
+      {{#each tokens.spacing}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="spacing-sample">
@@ -80,10 +91,48 @@
         <h1>Border Radius</h1>
         <hr>
       </div>
-      {{#each borderRadius}}
+      {{#each tokens.borderRadius}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="borderRadius-sample" style="border-radius: {{value}}px"></div>
+      </div>
+      {{/each}}
+      <div class="col-12 mt-5">
+        <h1>Typography</h1>
+        <hr>
+        <h3>Font Family</h1>
+      </div>
+      {{#each tokens.typography.fontFamily}}
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="typography-sample" style="font-family: {{value}}">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      {{/each}}
+      {{#each tokens.typography.lineHeight}}
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="typography-sample" style="line-height: {{value}}em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      {{/each}}
+      <div class="col-12 mt-5">
+        <h1>Elements</h1>
+        <hr>
+      </div>
+      {{#each typographyElements}}
+      <h2 class="color-name col-12 mt-3 mb-1">{{@key}}</h2>
+      <div class="color col-12">
+        {{#each @this}}
+        <p class="color-name mt-1 mb-1">{{name}}: <code>{{value}}</code></p>
+        {{/each}}
+        <p class="typography-sample mt-2"
+          style="font-size: {{fontSize.value}}px; font-weight: {{fontWeight.value}}; letter-spacing: {{letterSpacing.value}}">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
       </div>
       {{/each}}
     </div>

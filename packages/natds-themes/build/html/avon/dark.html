@@ -6,10 +6,16 @@
   <title>Color tokens</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
     .color-sample {
       border: 1px solid #eaeaea;
       height: 50px;
@@ -33,11 +39,16 @@
       height: 20px;
     }
 
-    .borderRadius-sample{
+    .borderRadius-sample {
       background: #ffe5e5;
       border: 1px solid #e83e8c;
       height: 70px;
       width: 100%;
+    }
+
+    .typography-sample {
+      background-color: #f3f2f2;
+      padding: 10px;
     }
   </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -74,7 +85,7 @@
       .then(response => response.json())
       .then(buildMenu)
     }
-  </script>  <div class="container mt-5">
+  </script>  <div class="container-fluid mt-5">
     <div class="row">
       <div class="col-12">
         <h1>Colors</h1>
@@ -347,6 +358,181 @@
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-3 mb-1">borderRadiusLarge: <code>8</code></p>
         <div class="borderRadius-sample" style="border-radius: 8px"></div>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Typography</h1>
+        <hr>
+        <h3>Font Family</h1>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilyPrimary: <code>Roboto</code></p>
+        <p class="typography-sample" style="font-family: Roboto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilySecondary: <code>sans-serif</code></p>
+        <p class="typography-sample" style="font-family: sans-serif">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilyBranding: <code>Helvetica Now</code></p>
+        <p class="typography-sample" style="font-family: Helvetica Now">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightReset: <code>1</code></p>
+        <p class="typography-sample" style="line-height: 1em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightSmall: <code>1.25</code></p>
+        <p class="typography-sample" style="line-height: 1.25em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightMedium: <code>1.5</code></p>
+        <p class="typography-sample" style="line-height: 1.5em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightLarge: <code>2</code></p>
+        <p class="typography-sample" style="line-height: 2em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Elements</h1>
+        <hr>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading1FontSize: <code>96</code></p>
+        <p class="color-name mt-1 mb-1">heading1FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading1LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 96px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading2</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading2FontSize: <code>60</code></p>
+        <p class="color-name mt-1 mb-1">heading2FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading2LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 60px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading3</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading3FontSize: <code>48</code></p>
+        <p class="color-name mt-1 mb-1">heading3FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading3LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 48px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading4</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading4FontSize: <code>34</code></p>
+        <p class="color-name mt-1 mb-1">heading4FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading4LetterSpacing: <code>0.27</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 34px; font-weight: 400; letter-spacing: 0.27">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading5</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading5FontSize: <code>24</code></p>
+        <p class="color-name mt-1 mb-1">heading5FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading5LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 24px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading6</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading6FontSize: <code>20</code></p>
+        <p class="color-name mt-1 mb-1">heading6FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">heading6LetterSpacing: <code>0.24</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 20px; font-weight: 500; letter-spacing: 0.24">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">subtitle1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">subtitle1FontSize: <code>16</code></p>
+        <p class="color-name mt-1 mb-1">subtitle1FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">subtitle1LetterSpacing: <code>0.13</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 16px; font-weight: 500; letter-spacing: 0.13">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">subtitle2</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">subtitle2FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">subtitle2FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">subtitle2LetterSpacing: <code>0.11</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 14px; font-weight: 500; letter-spacing: 0.11">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">body1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">body1FontSize: <code>16</code></p>
+        <p class="color-name mt-1 mb-1">body1FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">body1LetterSpacing: <code>0.51</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 16px; font-weight: 400; letter-spacing: 0.51">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">body2</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">body2FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">body2FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">body2LetterSpacing: <code>0.22</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 14px; font-weight: 400; letter-spacing: 0.22">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">caption</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">captionFontSize: <code>12</code></p>
+        <p class="color-name mt-1 mb-1">captionFontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">captionLetterSpacing: <code>0.38</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 12px; font-weight: 400; letter-spacing: 0.38">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">overline</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">overlineFontSize: <code>12</code></p>
+        <p class="color-name mt-1 mb-1">overlineFontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">overlineLetterSpacing: <code>1.92</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 12px; font-weight: 500; letter-spacing: 1.92">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
       </div>
     </div>
     <hr>

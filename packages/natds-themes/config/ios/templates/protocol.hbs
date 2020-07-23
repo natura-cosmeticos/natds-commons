@@ -1,7 +1,0 @@
-{{> fileHeader }}
-
-protocol {{protocolName}} {
-  {{#each properties}}
-  var {{@key}}: {{../protocolType}} { get }
-  {{/each}}
-}

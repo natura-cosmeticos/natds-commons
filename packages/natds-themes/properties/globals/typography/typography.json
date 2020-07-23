@@ -1,0 +1,37 @@
+{
+  "typography": {
+    "fontFamily": {
+      "primary": {
+        "value": "Roboto"
+      },
+      "secondary": {
+        "value": "sans-serif"
+      },
+      "branding": {
+        "value": "Helvetica Now"
+      }
+    },
+    "lineHeight": {
+      "reset": {
+        "value": 1
+      },
+      "small": {
+        "value": 1.25
+      },
+      "medium": {
+        "value": 1.5
+      },
+      "large": {
+        "value": 2.0
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": 400
+      },
+      "medium": {
+        "value": 500
+      }
+    }
+  }
+}

@@ -26,7 +26,7 @@ describe('formatBuilder', () => {
     formatBuilder('format-name', './path/to/template', templateDataBuilderSpy);
 
     expect(fs.readFileSync).toHaveBeenCalledWith('./path/to/template');
-    expect(Handlebars.compile).toHaveBeenCalledWith('{{template}}');
+    expect(Handlebars.compile).toHaveBeenCalledWith('{{template}}', { noEscape: true });
   });
 
   it('should call the given templateDataBuilder funtion in the formatter call', () => {

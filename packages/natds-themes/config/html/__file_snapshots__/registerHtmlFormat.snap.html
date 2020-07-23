@@ -6,10 +6,16 @@
   <title>Color tokens</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
     .color-sample {
       border: 1px solid #eaeaea;
       height: 50px;
@@ -33,11 +39,16 @@
       height: 20px;
     }
 
-    .borderRadius-sample{
+    .borderRadius-sample {
       background: #ffe5e5;
       border: 1px solid #e83e8c;
       height: 70px;
       width: 100%;
+    }
+
+    .typography-sample {
+      background-color: #f3f2f2;
+      padding: 10px;
     }
   </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -74,7 +85,7 @@
       .then(response => response.json())
       .then(buildMenu)
     }
-  </script>  <div class="container mt-5">
+  </script>  <div class="container-fluid mt-5">
     <div class="row">
       <div class="col-12">
         <h1>Colors</h1>
@@ -106,6 +117,42 @@
       <div class="col-12 mt-5">
         <h1>Border Radius</h1>
         <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">borderRadiusSmall: <code>8</code></p>
+        <div class="borderRadius-sample" style="border-radius: 8px"></div>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Typography</h1>
+        <hr>
+        <h3>Font Family</h1>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilySmall: <code>14</code></p>
+        <p class="typography-sample" style="font-family: 14">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightSmall: <code>1</code></p>
+        <p class="typography-sample" style="line-height: 1em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Elements</h1>
+        <hr>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading1FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">heading1FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">heading1LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 14px; font-weight: 500; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
       </div>
     </div>
     <hr>
