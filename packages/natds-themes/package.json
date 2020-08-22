@@ -1,10 +1,41 @@
 {
   "name": "@naturacosmeticos/natds-themes",
+  "displayName": "NatDSThemes",
+  "description": "The single source of truth for Natura Design System tokens.",
   "version": "0.0.0",
-  "description": "The single source of truth for Natura Desing System tokens.",
-  "main": "./config/build.js",
+  "private": false,
+  "keywords": [
+    "naturacosmeticos",
+    "natds",
+    "natds-themes",
+    "themes",
+    "natdsthemes",
+    "tokens"
+  ],
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-themes#readme",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Natura Design System",
+    "email": "designsystem@natura.net"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "directory": "packages/natds-themes",
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds-commons.git"
+  },
   "scripts": {
-    "build": "yarn build:clear && yarn build:outputs",
+    "build": "yarn build:clear && yarn build:outputs && yarn build:copy",
+    "build:copy": "mkdir -p ./dist && cp -r ./build/react-dom ./dist/react-dom && cp -r ./build/react-native ./dist/react-native",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
     "build:clear": "rm -rf ./build",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
@@ -14,6 +45,7 @@
     "start": "yarn html:watch",
     "test": "jest --collectCoverage --colors --config='../../jest.config.js'"
   },
-  "license": "ISC",
-  "devDependencies": {}
+  "publishConfig": {
+    "access": "public"
+  }
 }
