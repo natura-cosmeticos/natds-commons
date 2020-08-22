@@ -7,7 +7,7 @@
   "masterIssueAutoclose": true,
   "packageRules": [
     {
-      "groupName": "snyk package"
+      "groupName": "snyk package",
       "packagePatterns": ["snyk"],
       "rangeStrategy": "replace"
     }
