@@ -54,3 +54,6 @@ package.json
 # Jest
 .jest
 coverage
+
+# IDE workspace specific configuration
+.idea/workspace.xml
