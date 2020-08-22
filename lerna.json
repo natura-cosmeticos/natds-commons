@@ -1,4 +1,10 @@
 {
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): bump natds-common packages via lerna [skip ci]"
+    }
+  },
   "npmClient": "yarn",
   "packages": [
     "packages/*"
