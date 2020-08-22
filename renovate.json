@@ -4,5 +4,12 @@
   ],
   "labels": ["dependencies", "renovate"],
   "masterIssue": true,
-  "masterIssueAutoclose": true
+  "masterIssueAutoclose": true,
+  "packageRules": [
+    {
+      "groupName": "snyk package"
+      "packagePatterns": ["snyk"],
+      "rangeStrategy": "replace"
+    }
+  ]
 }
