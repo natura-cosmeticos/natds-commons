@@ -23,6 +23,7 @@ jobs:
         - "sh ./scripts/configure-git.sh"
         - npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'
         - yarn config set _authToken "${NPM_AUTH_TOKEN}"
+        - "git add packages/natds-themes/build/**/*"
         - "git commit -m \"build(natds-themes): update android and ios generated files [skip ci]\""
         - "yarn release-ci"
       deploy:
