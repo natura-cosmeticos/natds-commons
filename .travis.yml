@@ -23,9 +23,10 @@ jobs:
         - "sh ./scripts/configure-git.sh"
         - npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'
         - yarn config set _authToken "${NPM_AUTH_TOKEN}"
+        - "yarn release-ci"
       deploy:
         - provider: script
-          script: "yarn release-ci"
+          script: "yarn lerna-publish-ci"
           skip_cleanup: true
           on:
             branch: master
