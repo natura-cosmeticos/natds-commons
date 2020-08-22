@@ -1,0 +1,31 @@
+language: node_js
+os: linux
+dist: xenial
+node_js:
+  - lts/*
+cache:
+  npm: false
+  yarn: true
+notifications:
+  email: false
+git:
+  quiet: true
+install: "yarn --frozen-lockfile"
+before_script:
+  - "yarn bootstrap"
+script: "yarn test"
+jobs:
+  include:
+    - stage: release
+      name: "Release"
+      if: type = push AND branch = master
+      before_deploy:
+        - "sh ./scripts/configure-git.sh"
+        - npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'
+        - yarn config set _authToken "${NPM_AUTH_TOKEN}"
+      deploy:
+        - provider: script
+          script: "yarn release-ci"
+          skip_cleanup: true
+          on:
+            branch: master
