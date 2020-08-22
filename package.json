@@ -2,10 +2,10 @@
   "name": "@naturacosmeticos/natds-commons",
   "version": "0.0.0",
   "description": "A monorepo containing Natura Design System multiplataform packages",
-  "main": "index.js",
   "private": true,
   "scripts": {
     "build": "lerna run build",
+    "changelog": "lerna-changelog",
     "commit": "git cz",
     "lint": "lerna run lint",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
@@ -54,6 +54,7 @@
     "jest": "26.1.0",
     "jest-file-snapshot": "0.3.8",
     "lerna": "3.22.1",
+    "lerna-changelog": "1.0.1",
     "nodemon": "2.0.4",
     "style-dictionary": "2.10.1"
   },
