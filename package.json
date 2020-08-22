@@ -1,17 +1,31 @@
 {
   "name": "@naturacosmeticos/natds-commons",
+  "displayName": "Root",
   "version": "0.0.0",
-  "description": "A monorepo containing Natura Design System multiplataform packages",
+  "description": "A monorepo containing Natura Design System multiplatform packages",
   "private": true,
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "changelog": "lerna-changelog",
+    "clean": "lerna clean",
     "commit": "git cz",
+    "lerna-publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
+    "lerna-publish-ci": "yarn lerna-publish --yes",
     "lint": "lerna run lint",
+    "posttest": "snyk monitor --all-projects",
+    "prebuild": "yarn lint",
+    "prepare": "snyk protect",
+    "prepublishOnly": "whoami",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
+    "prerelease-ci": "yarn prerelease --force-git-tag --force-publish --yes",
+    "pretest": "yarn build",
+    "preversion": "whoami",
+    "reinstall": "yarn clean && rm -rf ./node_modules && rm -rf yarn.lock && yarn install && yarn bootstrap",
     "release": "lerna version --conventional-commits",
+    "release-ci": "yarn release --create-release github --force-publish --yes",
     "start": "lerna run start --stream",
-    "test": "lerna run test",
+    "test": "snyk test --all-projects && lerna run test",
     "test:watch": "jest --watch --collectCoverage"
   },
   "repository": {
@@ -25,9 +39,19 @@
     "themes",
     "icons"
   ],
-  "author": "Natura Cosméticos <designsystem@natura.net>",
+  "author": {
+    "name": "Natura Design System",
+    "email": "designsystem@natura.net"
+  },
   "contributors": [
-    "Ariel Flor <arielwb@gmail.com>"
+    {
+      "name": "Ariel Flor",
+      "email": "aflor@thoughtworks.com"
+    },
+    {
+      "name": "Jimmy Andrade",
+      "email": "jimmy.andrade@thoughtworks.com"
+    }
   ],
   "license": "ISC",
   "bugs": {
@@ -56,6 +80,7 @@
     "lerna": "3.22.1",
     "lerna-changelog": "1.0.1",
     "nodemon": "2.0.4",
+    "snyk": "^1.381.1",
     "style-dictionary": "2.10.1"
   },
   "config": {
