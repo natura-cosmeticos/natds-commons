@@ -75,7 +75,7 @@
     "handlebars": "4.7.6",
     "http-server": "0.12.3",
     "husky": "4.2.5",
-    "jest": "26.1.0",
+    "jest": "26.4.2",
     "jest-file-snapshot": "0.3.8",
     "lerna": "3.22.1",
     "lerna-changelog": "1.0.1",
