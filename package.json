@@ -95,6 +95,7 @@
     }
   },
   "workspaces": [
-    "packages/natds-themes"
+    "packages/natds-themes",
+    "packages/natds-storybook-themes"
   ]
 }
