@@ -3,6 +3,7 @@
     "config:base"
   ],
   "labels": ["dependencies", "renovate"],
+  "lockFileMaintenance": true,
   "masterIssue": true,
   "masterIssueAutoclose": true,
   "packageRules": [
