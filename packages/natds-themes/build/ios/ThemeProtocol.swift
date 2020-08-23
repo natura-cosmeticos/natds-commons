@@ -122,6 +122,7 @@ protocol TokensProtocol {
   var typographyFontFamilyPrimary: String { get }
   var typographyFontFamilySecondary: String { get }
   var typographyFontFamilyBranding: String { get }
+  var typographyFontFamilyCode: String { get }
   var typographyLineHeightReset: CGFloat { get }
   var typographyLineHeightSmall: CGFloat { get }
   var typographyLineHeightMedium: CGFloat { get }

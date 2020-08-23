@@ -127,7 +127,8 @@
     "fontFamily": {
       "primary": "Roboto",
       "secondary": "sans-serif",
-      "branding": "Helvetica Now"
+      "branding": "Helvetica Now",
+      "code": "Roboto Mono"
     },
     "lineHeight": {
       "reset": 1,

@@ -115,6 +115,7 @@
     <item name="typographyFontFamilyPrimary">Roboto</item>
     <item name="typographyFontFamilySecondary">sans-serif</item>
     <item name="typographyFontFamilyBranding">Helvetica Now</item>
+    <item name="typographyFontFamilyCode">Roboto Mono</item>
     <item name="typographyLineHeightReset">1dp</item>
     <item name="typographyLineHeightSmall">1.25dp</item>
     <item name="typographyLineHeightMedium">1.5dp</item>

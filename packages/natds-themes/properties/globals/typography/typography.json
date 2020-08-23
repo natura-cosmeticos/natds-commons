@@ -9,6 +9,9 @@
       },
       "branding": {
         "value": "Helvetica Now"
+      },
+      "code": {
+        "value": "Roboto Mono"
       }
     },
     "lineHeight": {

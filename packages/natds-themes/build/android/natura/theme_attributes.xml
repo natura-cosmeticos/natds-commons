@@ -114,6 +114,7 @@
   <attr name="typographyFontFamilyPrimary" format="dimension" />  
   <attr name="typographyFontFamilySecondary" format="dimension" />  
   <attr name="typographyFontFamilyBranding" format="dimension" />  
+  <attr name="typographyFontFamilyCode" format="dimension" />  
   <attr name="typographyLineHeightReset" format="dimension" />  
   <attr name="typographyLineHeightSmall" format="dimension" />  
   <attr name="typographyLineHeightMedium" format="dimension" />  

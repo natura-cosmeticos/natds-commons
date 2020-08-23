@@ -122,6 +122,7 @@ struct Tokens: Tokens {
   lazy var typographyFontFamilyPrimary = "San Francisco"
   lazy var typographyFontFamilySecondary = "sans-serif"
   lazy var typographyFontFamilyBranding = "Helvetica Now"
+  lazy var typographyFontFamilyCode = "SF Mono"
   lazy var typographyLineHeightReset: CGFloat = 1
   lazy var typographyLineHeightSmall: CGFloat = 1.25
   lazy var typographyLineHeightMedium: CGFloat = 1.5

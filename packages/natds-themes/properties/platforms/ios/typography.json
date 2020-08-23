@@ -3,6 +3,9 @@
     "fontFamily": {
       "primary": {
         "value": "San Francisco"
+      },
+      "code": {
+        "value": "SF Mono"
       }
     },
     "fontWeight": {
