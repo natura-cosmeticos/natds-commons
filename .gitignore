@@ -57,3 +57,6 @@ coverage
 
 # IDE workspace specific configuration
 .idea/workspace.xml
+
+# Package dist files
+dist
