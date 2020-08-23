@@ -5,6 +5,7 @@ module.exports = {
     '!<rootDir>/packages/**/**/babel.config.js',
     '!<rootDir>/packages/**/build/**/*.js',
     '!<rootDir>/packages/**/dist/**/*.js',
+    '!<rootDir>/packages/**/rollup.config.js'
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
