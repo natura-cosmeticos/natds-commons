@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   "env": {
     "es6": true,
@@ -12,6 +14,7 @@ module.exports = {
   "settings": {
     "import/resolver": {
       "node": {
+        "extensions": [".ts"],
         "paths": ["packages/"]
       }
     }
@@ -37,6 +40,35 @@ module.exports = {
         'max-lines-per-function': "off",
         'max-statements': "off"
       },
+    },
+    {
+      "files": ['./packages/natds-storybook-themes/**/*.js'],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: true,
+          },
+        ],
+      }
+    },
+    {
+      "files": ['./packages/natds-storybook-themes/src/**/*.ts'],
+      "rules": {
+        "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+            ts: "never"
+          }
+        ],
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
+          },
+        ],
+      }
     }
   ]
 }
