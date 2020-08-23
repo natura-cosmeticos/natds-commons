@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "yarn build:clear && yarn build:outputs && yarn build:copy",
-    "build:clear": "rm -rf ./build",
+    "build:clear": "rm -rf ./build && rm -rf ./dist",
     "build:copy": "mkdir -p ./dist && cp -r ./build/react-dom ./dist/react-dom && cp -r ./build/react-native ./dist/react-native",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
