@@ -12,5 +12,11 @@
       "packagePatterns": ["snyk"],
       "rangeStrategy": "replace"
     }
-  ]
+  ],
+  "semanticCommits": true,
+  "unicodeEmoji": true,
+  "updateLockFiles": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
