@@ -1,0 +1,7 @@
+# ignore /dist folders
+dist/
+react-native/
+
+# don't ignore static/ folder inside platform config directories
+!config/react-native/static
+!config/web/static
