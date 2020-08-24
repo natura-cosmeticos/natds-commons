@@ -2,7 +2,7 @@
 
 ## Installation
 
-```npm
+```shell script
 npm i @naturacosmeticos/natds-storybook-themes
 ```
 
