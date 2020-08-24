@@ -1,5 +1,5 @@
 const base = require('../../jest.base.config');
-const {displayName, name} = require("./package.json");
+const { displayName, name } = require('./package.json');
 
 module.exports = {
   ...base,
@@ -8,7 +8,7 @@ module.exports = {
     '!<rootDir>/**/**/babel.config.js',
     '!<rootDir>/**/build/**/*.js',
     '!<rootDir>/**/dist/**/*.js',
-    '!<rootDir>/**/rollup.config.js'
+    '!<rootDir>/**/rollup.config.js',
   ],
   displayName,
   moduleFileExtensions: [
@@ -27,4 +27,4 @@ module.exports = {
   watchPathIgnorePatterns: [
     '__file_snapshots__',
   ],
-}
+};
