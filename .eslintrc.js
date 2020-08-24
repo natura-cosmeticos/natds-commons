@@ -11,6 +11,8 @@ module.exports = {
     ".eslintrc.js",
     "**/build/**",
     "**/dist/**",
+    "**/node_modules/**",
+    "packages/natds-themes/react-native"
   ],
   "overrides": [
     {

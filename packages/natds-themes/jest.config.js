@@ -24,6 +24,9 @@ module.exports = {
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
   ],
+  transforms: {
+    '^.+\\.[j]sx?$': 'babel-jest',
+  },
   watchPathIgnorePatterns: [
     '__file_snapshots__',
   ],
