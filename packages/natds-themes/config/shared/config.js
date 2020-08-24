@@ -23,7 +23,7 @@ export const modes = [
 
 export const platforms = [
   'react-native',
-  'react-dom',
+  'web',
   'html',
   'android',
   'ios',

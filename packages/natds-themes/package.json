@@ -25,20 +25,35 @@
     "dist",
     "README.md"
   ],
+  "browser": {
+    "./dist/index.js": "./dist/umd/index.js",
+    "./dist/esm/index.js": "./dist/esm/index.js"
+  },
+  "esmodule": "dist/esm/index.js",
+  "jsdelivr": "dist/umd/index.js",
+  "jsnext:main": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "react-native": "react-native/index.js",
+  "umd:main": "dist/umd/index.js",
+  "unpkg": "dist/umd/index.js",
   "directories": {
-    "lib": "dist"
+    "build": "build",
+    "lib": "dist",
+    "react-native": "react-native"
   },
   "repository": {
     "directory": "packages/natds-themes",
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds-commons.git"
   },
+  "dependencies": {},
   "scripts": {
-    "build": "yarn build:clear && yarn build:outputs && yarn build:copy",
-    "build:clear": "rm -rf ./build && rm -rf ./dist",
-    "build:copy": "mkdir -p ./dist && cp -r ./build/react-dom ./dist/react-dom && cp -r ./build/react-native ./dist/react-native",
+    "build": "yarn clean && yarn build:outputs && yarn build:copy && rollup -c",
+    "build:copy": "cp -r ./config/react-native/static/* ./build/react-native && cp -r ./config/web/static/* ./build/web",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
+    "clean": "rm -rf $npm_package_directories_build && rm -rf $npm_package_directories_lib && rm -rf ./react-native",
     "html": "yarn build && http-server build/html",
     "html:watch": "nodemon --watch config -e .js,.json,.hbs,.html -x 'yarn html'",
     "lint": "eslint --ext .js ./",
