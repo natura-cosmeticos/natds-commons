@@ -3,12 +3,11 @@ const { displayName, name } = require('./package.json');
 
 module.exports = {
   ...base,
-  collectCoverageFrom: [
-    '<rootDir>/**/**/*.js',
-    '!<rootDir>/**/**/babel.config.js',
-    '!<rootDir>/**/build/**/*.js',
-    '!<rootDir>/**/dist/**/*.js',
-    '!<rootDir>/**/rollup.config.js',
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '<rootDir>/config/react-native/static/',
+    '<rootDir>/config/web/static/',
+    '<rootDir>/react-native/',
   ],
   displayName,
   moduleFileExtensions: [
@@ -19,14 +18,11 @@ module.exports = {
   name,
   rootDir: '.',
   setupFiles: ['core-js'],
-  setupFilesAfterEnv: ['./jest.setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testMatch: [
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
   ],
-  transforms: {
-    '^.+\\.[j]sx?$': 'babel-jest',
-  },
   watchPathIgnorePatterns: [
     '__file_snapshots__',
   ],

@@ -1,4 +1,13 @@
 module.exports = {
+  cacheDirectory: '.jest/cache',
+  collectCoverageFrom: [
+    '<rootDir>/**/**/*.js',
+    '!<rootDir>/**/**/babel.config.js',
+    '!<rootDir>/**/build/**/*.js',
+    '!<rootDir>/**/dist/**/*.js',
+    '!<rootDir>/**/jest.config.js',
+    '!<rootDir>/**/rollup.config.js',
+  ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
     global: {
