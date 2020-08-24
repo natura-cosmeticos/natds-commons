@@ -13,6 +13,7 @@
     "lerna-publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
     "lerna-publish-ci": "yarn lerna-publish --yes",
     "lint": "lerna run lint",
+    "lint-fix": "lerna run lint-fix",
     "posttest": "snyk monitor --all-projects",
     "prebuild": "yarn lint",
     "prepare": "snyk protect",
