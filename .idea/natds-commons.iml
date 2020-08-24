@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/natds-storybook-themes/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/natds-themes/build" />
       <excludeFolder url="file://$MODULE_DIR$/packages/natds-themes/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/natds-themes/native" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/natds-themes/react-native" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/natds-themes/web" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
