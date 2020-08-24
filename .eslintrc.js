@@ -7,32 +7,11 @@ module.exports = {
     "jest": true
   },
   "extends": ["@naturacosmeticos/natura"],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 2017
-  },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".ts"],
-        "paths": ["packages/"]
-      }
-    }
-  },
   "ignorePatterns": [
     ".eslintrc.js",
     "**/build/**",
     "**/dist/**",
   ],
-  "rules": {
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": true,
-        "packageDir": __dirname,
-      },
-    ],
-  },
   "overrides": [
     {
       "files": ['./packages/natds-themes/**/*.test.js'],
@@ -42,19 +21,8 @@ module.exports = {
       },
     },
     {
-      "files": ['./packages/natds-storybook-themes/**/*.js'],
-      "rules": {
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            devDependencies: true,
-          },
-        ],
-      }
-    },
-    {
-      "files": ['./packages/natds-storybook-themes/src/**/*.ts'],
-      "rules": {
+      "files": ['./packages/natds-storybook-themes/src/**/*.{js,ts}'],
+      rules: {
         "import/extensions": [
           "error",
           "ignorePackages",
@@ -65,11 +33,32 @@ module.exports = {
         "import/no-extraneous-dependencies": [
           "error",
           {
+            devDependencies: true,
             packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
           },
         ],
+      },
+    },
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "packageDir": __dirname,
+      },
+    ],
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts"],
+        "paths": ["packages/"]
       }
     }
-  ]
+  },
 }
-
