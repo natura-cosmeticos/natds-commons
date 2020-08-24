@@ -8,5 +8,5 @@ module.exports = {
       statements: 100,
     },
   },
-  verbose: true
-}
+  verbose: true,
+};
