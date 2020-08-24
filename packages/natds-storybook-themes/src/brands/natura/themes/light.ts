@@ -1,5 +1,5 @@
 import { create } from '@storybook/theming/create';
-import { borderRadius, color, typography } from '@naturacosmeticos/natds-themes/dist/react-dom/natura/light.json';
+import { natura } from '@naturacosmeticos/natds-themes';
 import { brandGlobals } from '../../../globals/brand';
 
 /**
@@ -11,6 +11,8 @@ import brandImage from '../assets/images/logo.png';
  * @todo extract Natura favicon to a token
  */
 import '../assets/images/favicon.png';
+
+const { borderRadius, color, typography } = natura.light;
 
 export const naturaLightStorybookTheme = create({
   ...brandGlobals,
