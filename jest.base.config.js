@@ -8,7 +8,6 @@ module.exports = {
     '!<rootDir>/**/build/**/*.js',
     '!<rootDir>/**/coverage/lcov-report/*',
     '!<rootDir>/**/dist/**/*.js',
-    '!<rootDir>/config/**/static/index.js',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
