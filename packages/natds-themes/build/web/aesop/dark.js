@@ -3,17 +3,17 @@
  * Generated on Tue, 25 Aug 2020 15:10:10 GMT
  */
 
-export const colorPrimary = "#f4ab34";
+export const colorPrimary = "#f1f1f0";
 export const colorOnPrimary = "#333333";
-export const colorPrimaryLight = "#fefde8";
-export const colorOnPrimaryLight = "#333333";
-export const colorPrimaryDark = "#ef8426";
-export const colorOnPrimaryDark = "#333333";
-export const colorSecondary = "#ff6b0b";
+export const colorPrimaryLight = "#ffffff";
+export const colorOnPrimaryLight = "#000000";
+export const colorPrimaryDark = "#bebebe";
+export const colorOnPrimaryDark = "#000000";
+export const colorSecondary = "#ddcb91";
 export const colorOnSecondary = "#000000";
-export const colorSecondaryLight = "#fff8e1";
+export const colorSecondaryLight = "#fffec2";
 export const colorOnSecondaryLight = "#000000";
-export const colorSecondaryDark = "#ff5808";
+export const colorSecondaryDark = "#aa9a63";
 export const colorOnSecondaryDark = "#000000";
 export const colorBackground = "#121212";
 export const colorOnBackground = "#ffffff";

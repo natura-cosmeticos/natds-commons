@@ -4,17 +4,17 @@
  */
 
 :root {
-  --colorPrimary: #004236;
+  --colorPrimary: #262625;
   --colorOnPrimary: #ffffff;
-  --colorPrimaryLight: #356d60;
+  --colorPrimaryLight: #4e4e4d;
   --colorOnPrimaryLight: #ffffff;
-  --colorPrimaryDark: #001d10;
+  --colorPrimaryDark: #000000;
   --colorOnPrimaryDark: #ffffff;
-  --colorSecondary: #a55f53;
+  --colorSecondary: #a6662b;
   --colorOnSecondary: #ffffff;
-  --colorSecondaryLight: #d98d7f;
-  --colorOnSecondaryLight: #ffffff;
-  --colorSecondaryDark: #73342a;
+  --colorSecondaryLight: #db9457;
+  --colorOnSecondaryLight: #000000;
+  --colorSecondaryDark: #733b00;
   --colorOnSecondaryDark: #ffffff;
   --colorBackground: #fafafa;
   --colorOnBackground: #333333;

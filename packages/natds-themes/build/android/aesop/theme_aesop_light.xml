@@ -21,27 +21,27 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Avon.Dark" parent="Theme.MaterialComponents.DayNight">
-    <item name="colorPrimary">#F091C9</item>
-    <item name="colorOnPrimary">#000000</item>
-    <item name="colorPrimaryLight">#FFC3FC</item>
-    <item name="colorOnPrimaryLight">#000000</item>
-    <item name="colorPrimaryDark">#BC6198</item>
-    <item name="colorOnPrimaryDark">#000000</item>
-    <item name="colorSecondary">#E9E9E9</item>
-    <item name="colorOnSecondary">#333333</item>
-    <item name="colorSecondaryLight">#FFFFFF</item>
-    <item name="colorOnSecondaryLight">#333333</item>
-    <item name="colorSecondaryDark">#B7B7B7</item>
-    <item name="colorOnSecondaryDark">#333333</item>
-    <item name="colorBackground">#121212</item>
-    <item name="colorOnBackground">#FFFFFF</item>
-    <item name="colorSurface">#333333</item>
-    <item name="colorOnSurface">#FFFFFF</item>
-    <item name="colorHighlight">#FFFFFF</item>
-    <item name="colorHighEmphasis">#FAFAFA</item>
-    <item name="colorMediumEmphasis">#BBBBBB</item>
-    <item name="colorLowEmphasis">#777777</item>
+  <style name="Theme.Aesop.Light" parent="Theme.MaterialComponents.Light">
+    <item name="colorPrimary">#262625</item>
+    <item name="colorOnPrimary">#FFFFFF</item>
+    <item name="colorPrimaryLight">#4E4E4D</item>
+    <item name="colorOnPrimaryLight">#FFFFFF</item>
+    <item name="colorPrimaryDark">#000000</item>
+    <item name="colorOnPrimaryDark">#FFFFFF</item>
+    <item name="colorSecondary">#A6662B</item>
+    <item name="colorOnSecondary">#FFFFFF</item>
+    <item name="colorSecondaryLight">#DB9457</item>
+    <item name="colorOnSecondaryLight">#000000</item>
+    <item name="colorSecondaryDark">#733B00</item>
+    <item name="colorOnSecondaryDark">#FFFFFF</item>
+    <item name="colorBackground">#FAFAFA</item>
+    <item name="colorOnBackground">#333333</item>
+    <item name="colorSurface">#FFFFFF</item>
+    <item name="colorOnSurface">#333333</item>
+    <item name="colorHighlight">#000000</item>
+    <item name="colorHighEmphasis">#333333</item>
+    <item name="colorMediumEmphasis">#777777</item>
+    <item name="colorLowEmphasis">#BBBBBB</item>
     <item name="colorLink">#227BBD</item>
     <item name="colorOnLink">#FFFFFF</item>
     <item name="colorSuccess">#569A32</item>

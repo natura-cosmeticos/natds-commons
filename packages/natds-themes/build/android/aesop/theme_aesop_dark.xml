@@ -21,19 +21,19 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Theme.Avon.Dark" parent="Theme.MaterialComponents.DayNight">
-    <item name="colorPrimary">#F091C9</item>
-    <item name="colorOnPrimary">#000000</item>
-    <item name="colorPrimaryLight">#FFC3FC</item>
+  <style name="Theme.Aesop.Dark" parent="Theme.MaterialComponents.DayNight">
+    <item name="colorPrimary">#F1F1F0</item>
+    <item name="colorOnPrimary">#333333</item>
+    <item name="colorPrimaryLight">#FFFFFF</item>
     <item name="colorOnPrimaryLight">#000000</item>
-    <item name="colorPrimaryDark">#BC6198</item>
+    <item name="colorPrimaryDark">#BEBEBE</item>
     <item name="colorOnPrimaryDark">#000000</item>
-    <item name="colorSecondary">#E9E9E9</item>
-    <item name="colorOnSecondary">#333333</item>
-    <item name="colorSecondaryLight">#FFFFFF</item>
-    <item name="colorOnSecondaryLight">#333333</item>
-    <item name="colorSecondaryDark">#B7B7B7</item>
-    <item name="colorOnSecondaryDark">#333333</item>
+    <item name="colorSecondary">#DDCB91</item>
+    <item name="colorOnSecondary">#000000</item>
+    <item name="colorSecondaryLight">#FFFEC2</item>
+    <item name="colorOnSecondaryLight">#000000</item>
+    <item name="colorSecondaryDark">#AA9A63</item>
+    <item name="colorOnSecondaryDark">#000000</item>
     <item name="colorBackground">#121212</item>
     <item name="colorOnBackground">#FFFFFF</item>
     <item name="colorSurface">#333333</item>
