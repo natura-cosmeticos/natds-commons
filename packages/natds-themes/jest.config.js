@@ -11,9 +11,9 @@ module.exports = {
   ],
   coveragePathIgnorePatterns: [
     '/node_modules/',
-    '<rootDir>/config/react-native/static/',
-    '<rootDir>/config/web/static/',
-    '<rootDir>/react-native/',
+    '/config/react-native/static/',
+    '/config/web/static/',
+    '/react-native/',
   ],
   displayName,
   moduleFileExtensions: [
