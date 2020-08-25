@@ -1,5 +1,6 @@
 module.exports = {
   cacheDirectory: '.jest/cache',
+  collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/**/**/*.js',
     '!<rootDir>/**/**/babel.config.js',
