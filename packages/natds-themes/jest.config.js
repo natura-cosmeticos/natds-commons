@@ -5,7 +5,7 @@ module.exports = {
   ...base,
   collectCoverageFrom: [
     ...base.collectCoverageFrom,
-    '!<rootDir>/config/*/static/*.js',
+    '!<rootDir>/config/**/static/index.js',
     '!<rootDir>/dist/**/*.js',
     '!<rootDir>/react-native/*.js',
   ],
