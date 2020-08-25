@@ -1,13 +1,12 @@
 import json from '@rollup/plugin-json';
 import {
-  dependencies, directories, displayName,
+  directories, displayName,
 } from './package.json';
 
 const globals = {};
 
 const external = [
   ...Object.keys(globals),
-  ...Object.keys(dependencies),
 ];
 const plugins = [json()];
 
