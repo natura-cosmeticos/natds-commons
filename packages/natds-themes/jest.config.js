@@ -1,6 +1,13 @@
 const base = require('../../jest.base.config');
 const { displayName, name } = require('./package.json');
 
+const ignorePatterns = [
+  '/node_modules/',
+  '/config/react-native/static/',
+  '/config/web/static/',
+  '/react-native/',
+];
+
 module.exports = {
   ...base,
   collectCoverageFrom: [
@@ -9,12 +16,7 @@ module.exports = {
     '!<rootDir>/dist/**/*.js',
     '!<rootDir>/react-native/*.js',
   ],
-  coveragePathIgnorePatterns: [
-    '/node_modules/',
-    '/config/react-native/static/',
-    '/config/web/static/',
-    '/react-native/',
-  ],
+  coveragePathIgnorePatterns: ignorePatterns,
   displayName,
   moduleFileExtensions: [
     'js',
@@ -29,6 +31,7 @@ module.exports = {
     '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
   ],
+  testPatchIgnorePatterns: ignorePatterns,
   watchPathIgnorePatterns: [
     '__file_snapshots__',
   ],
