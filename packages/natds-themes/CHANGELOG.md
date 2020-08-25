@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1-alpha.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.0-alpha.33...@naturacosmeticos/natds-themes@0.1.1-alpha.0) (2020-08-25)
+
+
+### Bug Fixes
+
+* **natds-themes:** remove undefined dependencies error when building ([703b0d7](https://github.com/natura-cosmeticos/natds-commons/commit/703b0d7507d6989767a43563b29aa7740629da21))
+
+
+
+
+
 # [0.1.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.0-alpha.33...@naturacosmeticos/natds-themes@0.1.0) (2020-08-25)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes

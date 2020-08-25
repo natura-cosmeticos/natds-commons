@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.13.1-alpha.0 (2020-08-25)
+
+
+### Bug Fixes
+
+* **natds-storybook-themes:** add ignored package manifest ([aa8a9ae](https://github.com/natura-cosmeticos/natds-commons/commit/aa8a9ae771ddd42a8ff3911d9a33c45c5962372f))
+
+
+
+
+
 # 0.13.0 (2020-08-25)
 
 
