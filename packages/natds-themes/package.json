@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-themes",
   "displayName": "NatDSThemes",
   "description": "The single source of truth for Natura Design System tokens.",
-  "version": "0.1.0-alpha.31",
+  "version": "0.1.0-alpha.32",
   "private": false,
   "keywords": [
     "naturacosmeticos",
@@ -47,7 +47,6 @@
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds-commons.git"
   },
-  "dependencies": {},
   "scripts": {
     "build": "yarn clean && yarn build:outputs && yarn build:copy && rollup -c",
     "build:copy": "cp -r ./config/react-native/static/* ./build/react-native && cp -r ./config/web/static/* ./build/web",
