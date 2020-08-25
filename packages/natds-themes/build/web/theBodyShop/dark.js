@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Aug 2020 18:55:44 GMT
+ * Generated on Tue, 25 Aug 2020 18:59:20 GMT
  */
 
 export const colorPrimary = "#62b3ae";
