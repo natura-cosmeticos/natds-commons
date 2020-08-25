@@ -1,0 +1,555 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color tokens</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .color-sample {
+      border: 1px solid #eaeaea;
+      height: 50px;
+    }
+
+    .size-sample {
+      background: #ffe5e5;
+    }
+
+    .spacing-sample {
+      height: 120px;
+      background-color: #f3f2f2;
+    }
+
+    .spacing-element {
+      background-color: #ffe5e5;
+    }
+
+    .spacing-inner-element {
+      background-color: #aba6a6;
+      height: 20px;
+    }
+
+    .borderRadius-sample {
+      background: #ffe5e5;
+      border: 1px solid #e83e8c;
+      height: 70px;
+      width: 100%;
+    }
+
+    .typography-sample {
+      background-color: #f3f2f2;
+      padding: 10px;
+    }
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="wrapper" class="navbar-nav mr-auto">
+  
+      </ul>
+    </div>
+  </nav>
+  
+  <script>
+    const buildMenu = (tokens) => {
+      const wrapper = document.getElementById('wrapper')
+  
+      tokens.forEach(tokenInfo => {
+        const link = document.createElement('a');
+        link.classList = 'nav-link';
+        link.href = tokenInfo.path;
+        link.innerHTML = tokenInfo.name
+  
+        const item = document.createElement('li');
+        item.classList = 'nav-item'
+        item.appendChild(link);
+        wrapper.appendChild(item);
+      })
+    }
+    window.onload = () => {
+      fetch('../paths.json')
+      .then(response => response.json())
+      .then(buildMenu)
+    }
+  </script>  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h1>Colors</h1>
+        <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorPrimary: <code>#F4AB34</code></p>
+        <div class="color-sample" style="background: #F4AB34"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnPrimary: <code>#333333</code></p>
+        <div class="color-sample" style="background: #333333"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorPrimaryLight: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnPrimaryLight: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorPrimaryDark: <code>#BEBEBE</code></p>
+        <div class="color-sample" style="background: #BEBEBE"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnPrimaryDark: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorSecondary: <code>#DDCB91</code></p>
+        <div class="color-sample" style="background: #DDCB91"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnSecondary: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorSecondaryLight: <code>#FFFEC2</code></p>
+        <div class="color-sample" style="background: #FFFEC2"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnSecondaryLight: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorSecondaryDark: <code>#AA9A63</code></p>
+        <div class="color-sample" style="background: #AA9A63"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnSecondaryDark: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorBackground: <code>#121212</code></p>
+        <div class="color-sample" style="background: #121212"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnBackground: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorSurface: <code>#333333</code></p>
+        <div class="color-sample" style="background: #333333"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnSurface: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorHighlight: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorHighEmphasis: <code>#FAFAFA</code></p>
+        <div class="color-sample" style="background: #FAFAFA"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorMediumEmphasis: <code>#BBBBBB</code></p>
+        <div class="color-sample" style="background: #BBBBBB"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorLowEmphasis: <code>#777777</code></p>
+        <div class="color-sample" style="background: #777777"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorLink: <code>#227BBD</code></p>
+        <div class="color-sample" style="background: #227BBD"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnLink: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorSuccess: <code>#569A32</code></p>
+        <div class="color-sample" style="background: #569A32"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnSuccess: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorWarning: <code>#FCC433</code></p>
+        <div class="color-sample" style="background: #FCC433"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnWarning: <code>#333333</code></p>
+        <div class="color-sample" style="background: #333333"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorAlert: <code>#E74627</code></p>
+        <div class="color-sample" style="background: #E74627"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">colorOnAlert: <code>#FFFFFF</code></p>
+        <div class="color-sample" style="background: #FFFFFF"></div>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Sizes</h1>
+        <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeNone: <code>0</code></p>
+        <div class="size-sample" style="height: 0px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeMicro: <code>4</code></p>
+        <div class="size-sample" style="height: 4px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeTiny: <code>8</code></p>
+        <div class="size-sample" style="height: 8px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeSmall: <code>16</code></p>
+        <div class="size-sample" style="height: 16px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeStandard: <code>24</code></p>
+        <div class="size-sample" style="height: 24px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeSemi: <code>32</code></p>
+        <div class="size-sample" style="height: 32px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeSemiX: <code>40</code></p>
+        <div class="size-sample" style="height: 40px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeMedium: <code>48</code></p>
+        <div class="size-sample" style="height: 48px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeMediumX: <code>56</code></p>
+        <div class="size-sample" style="height: 56px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeLarge: <code>64</code></p>
+        <div class="size-sample" style="height: 64px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeLargeX: <code>72</code></p>
+        <div class="size-sample" style="height: 72px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeLargeXx: <code>80</code></p>
+        <div class="size-sample" style="height: 80px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeLargeXxx: <code>88</code></p>
+        <div class="size-sample" style="height: 88px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeHuge: <code>96</code></p>
+        <div class="size-sample" style="height: 96px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeHugeX: <code>128</code></p>
+        <div class="size-sample" style="height: 128px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeHugeXx: <code>144</code></p>
+        <div class="size-sample" style="height: 144px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeHugeXxx: <code>192</code></p>
+        <div class="size-sample" style="height: 192px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">sizeVeryHuge: <code>256</code></p>
+        <div class="size-sample" style="height: 256px"></div>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Spacing</h1>
+        <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingNone: <code>0</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 0px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingMicro: <code>4</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 4px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingTiny: <code>8</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 8px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingSmall: <code>16</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 16px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingStandard: <code>24</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 24px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingSemi: <code>32</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 32px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingLarge: <code>48</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 48px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">spacingXLarge: <code>64</code></p>
+        <div class="spacing-sample">
+          <div class="spacing-element" style="height: 64px"></div>
+          <div class="spacing-inner-element"></div>
+        </div>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Border Radius</h1>
+        <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">borderRadiusNone: <code>0</code></p>
+        <div class="borderRadius-sample" style="border-radius: 0px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">borderRadiusSmall: <code>2</code></p>
+        <div class="borderRadius-sample" style="border-radius: 2px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">borderRadiusMedium: <code>4</code></p>
+        <div class="borderRadius-sample" style="border-radius: 4px"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">borderRadiusLarge: <code>8</code></p>
+        <div class="borderRadius-sample" style="border-radius: 8px"></div>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Typography</h1>
+        <hr>
+        <h3>Font Family</h1>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilyPrimary: <code>Roboto</code></p>
+        <p class="typography-sample" style="font-family: Roboto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilySecondary: <code>sans-serif</code></p>
+        <p class="typography-sample" style="font-family: sans-serif">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilyBranding: <code>Helvetica Now</code></p>
+        <p class="typography-sample" style="font-family: Helvetica Now">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-3 mb-1">typographyFontFamilyCode: <code>Roboto Mono</code></p>
+        <p class="typography-sample" style="font-family: Roboto Mono">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightReset: <code>1</code></p>
+        <p class="typography-sample" style="line-height: 1em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightSmall: <code>1.25</code></p>
+        <p class="typography-sample" style="line-height: 1.25em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightMedium: <code>1.5</code></p>
+        <p class="typography-sample" style="line-height: 1.5em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-3 mb-1">typographyLineHeightLarge: <code>2</code></p>
+        <p class="typography-sample" style="line-height: 2em">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
+          blandit felis in risus tempor cursus.
+        </p>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Elements</h1>
+        <hr>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading1FontSize: <code>96</code></p>
+        <p class="color-name mt-1 mb-1">heading1FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading1LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 96px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading2</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading2FontSize: <code>60</code></p>
+        <p class="color-name mt-1 mb-1">heading2FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading2LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 60px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading3</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading3FontSize: <code>48</code></p>
+        <p class="color-name mt-1 mb-1">heading3FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading3LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 48px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading4</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading4FontSize: <code>34</code></p>
+        <p class="color-name mt-1 mb-1">heading4FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading4LetterSpacing: <code>0.27</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 34px; font-weight: 400; letter-spacing: 0.27">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading5</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading5FontSize: <code>24</code></p>
+        <p class="color-name mt-1 mb-1">heading5FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">heading5LetterSpacing: <code>0</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 24px; font-weight: 400; letter-spacing: 0">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">heading6</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">heading6FontSize: <code>20</code></p>
+        <p class="color-name mt-1 mb-1">heading6FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">heading6LetterSpacing: <code>0.24</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 20px; font-weight: 500; letter-spacing: 0.24">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">subtitle1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">subtitle1FontSize: <code>16</code></p>
+        <p class="color-name mt-1 mb-1">subtitle1FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">subtitle1LetterSpacing: <code>0.13</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 16px; font-weight: 500; letter-spacing: 0.13">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">subtitle2</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">subtitle2FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">subtitle2FontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">subtitle2LetterSpacing: <code>0.11</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 14px; font-weight: 500; letter-spacing: 0.11">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">body1</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">body1FontSize: <code>16</code></p>
+        <p class="color-name mt-1 mb-1">body1FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">body1LetterSpacing: <code>0.51</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 16px; font-weight: 400; letter-spacing: 0.51">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">body2</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">body2FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">body2FontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">body2LetterSpacing: <code>0.22</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 14px; font-weight: 400; letter-spacing: 0.22">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">caption</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">captionFontSize: <code>12</code></p>
+        <p class="color-name mt-1 mb-1">captionFontWeight: <code>400</code></p>
+        <p class="color-name mt-1 mb-1">captionLetterSpacing: <code>0.38</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 12px; font-weight: 400; letter-spacing: 0.38">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">overline</h2>
+      <div class="color col-12">
+        <p class="color-name mt-1 mb-1">overlineFontSize: <code>12</code></p>
+        <p class="color-name mt-1 mb-1">overlineFontWeight: <code>500</code></p>
+        <p class="color-name mt-1 mb-1">overlineLetterSpacing: <code>1.92</code></p>
+        <p class="typography-sample mt-2"
+          style="font-size: 12px; font-weight: 500; letter-spacing: 1.92">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
