@@ -11,22 +11,23 @@ import { registerTemplateHeaderHelper } from './templateHelpers';
 import { registerCamelTransform } from './registerCamelTransform';
 
 export const brands = [
+  'aesop',
+  'avon',
   'natura',
   'theBodyShop',
-  'avon',
 ];
 
 export const modes = [
-  'light',
   'dark',
+  'light',
 ];
 
 export const platforms = [
+  'android',
+  'html',
+  'ios',
   'react-native',
   'web',
-  'html',
-  'android',
-  'ios',
 ];
 
 export const customFormats = [
