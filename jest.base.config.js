@@ -3,12 +3,11 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/**/**/*.js',
-    '!<rootDir>/**/**/babel.config.js',
+    '!<rootDir>/**/**/.eslintrc.js',
+    '!<rootDir>/**/**/*.config.js',
     '!<rootDir>/**/build/**/*.js',
     '!<rootDir>/**/coverage/lcov-report/*',
     '!<rootDir>/**/dist/**/*.js',
-    '!<rootDir>/**/jest.config.js',
-    '!<rootDir>/**/rollup.config.js',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
