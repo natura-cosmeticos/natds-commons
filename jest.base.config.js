@@ -4,6 +4,7 @@ module.exports = {
     '<rootDir>/**/**/*.js',
     '!<rootDir>/**/**/babel.config.js',
     '!<rootDir>/**/build/**/*.js',
+    '!<rootDir>/**/coverage/lcov-report/*',
     '!<rootDir>/**/dist/**/*.js',
     '!<rootDir>/**/jest.config.js',
     '!<rootDir>/**/rollup.config.js',
