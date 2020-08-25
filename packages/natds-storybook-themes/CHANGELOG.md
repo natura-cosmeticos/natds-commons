@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.13.0 (2020-08-25)
+
+
+### Features
+
+* **natds-storybook-themes:** add Natura Light Theme for Storybook ([ded1fce](https://github.com/natura-cosmeticos/natds-commons/commit/ded1fce493918d79243291179c623d44cc960da8))
+
+
+
+
+
 # [0.12.0](https://github.com/natura-cosmeticos/natds-react/compare/v0.11.0...v0.12.0) (2020-08-23)
 
 
