@@ -1,8 +1,7 @@
 /**
  * @todo create adr for `jest-file-snapshot` use decision
  */
-const { toMatchFile } = require('jest-file-snapshot');
-// import { toMatchFile } from 'jest-file-snapshot';
+import { toMatchFile } from 'jest-file-snapshot';
 
 expect.extend({ toMatchFile });
 
