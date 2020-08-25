@@ -27,7 +27,7 @@
     "release-ci": "yarn release --create-release github --force-publish --yes",
     "snyk": "snyk test --all-projects",
     "start": "lerna run start --stream",
-    "test": "lerna run test",
+    "test": "jest --colectCoverage --colors",
     "test:watch": "jest --watch --collectCoverage"
   },
   "repository": {

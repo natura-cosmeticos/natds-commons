@@ -59,7 +59,7 @@
     "lint": "eslint --ext .js ./",
     "lint-fix": "yarn lint --fix",
     "start": "yarn html:watch",
-    "test": "jest --collectCoverage --colors"
+    "test": "jest --colors"
   },
   "publishConfig": {
     "access": "public"
