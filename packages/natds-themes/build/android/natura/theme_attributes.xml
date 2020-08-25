@@ -93,6 +93,17 @@
   <attr name="overlineFontSize" format="dimension" />  
   <attr name="overlineFontWeight" format="dimension" />  
   <attr name="overlineLetterSpacing" format="dimension" />  
+  <attr name="opacityTransparent" format="dimension" />  
+  <attr name="opacityLower" format="dimension" />  
+  <attr name="opacityVeryLow" format="dimension" />  
+  <attr name="opacityLow" format="dimension" />  
+  <attr name="opacityMediumLow" format="dimension" />  
+  <attr name="opacityDisabledLow" format="dimension" />  
+  <attr name="opacityDisabled" format="dimension" />  
+  <attr name="opacityMedium" format="dimension" />  
+  <attr name="opacityMediumHigh" format="dimension" />  
+  <attr name="opacityHigh" format="dimension" />  
+  <attr name="opacityOpaque" format="dimension" />  
   <attr name="sizeNone" format="dimension" />  
   <attr name="sizeMicro" format="dimension" />  
   <attr name="sizeTiny" format="dimension" />  

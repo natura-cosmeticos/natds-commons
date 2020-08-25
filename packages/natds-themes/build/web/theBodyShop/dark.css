@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Aug 2020 21:25:34 GMT
+ * Generated on Tue, 25 Aug 2020 23:34:02 GMT
  */
 
 :root {
@@ -76,6 +76,17 @@
   --overlineFontSize: 12;
   --overlineFontWeight: 500;
   --overlineLetterSpacing: 1.92;
+  --opacityTransparent: 0;
+  --opacityLower: 0.04;
+  --opacityVeryLow: 0.08;
+  --opacityLow: 0.12;
+  --opacityMediumLow: 0.16;
+  --opacityDisabledLow: 0.24;
+  --opacityDisabled: 0.32;
+  --opacityMedium: 0.48;
+  --opacityMediumHigh: 0.56;
+  --opacityHigh: 0.64;
+  --opacityOpaque: 1;
   --sizeNone: 0;
   --sizeMicro: 4;
   --sizeTiny: 8;

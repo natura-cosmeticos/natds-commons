@@ -58,6 +58,17 @@ struct Components: Components {
   lazy var overlineFontSize: CGFloat = 12
   lazy var overlineFontWeight: UIFont.Weight = .medium
   lazy var overlineLetterSpacing: CGFloat = 0.8
+  lazy var opacityTransparent = "0"
+  lazy var opacityLower = "0.04"
+  lazy var opacityVeryLow = "0.08"
+  lazy var opacityLow = "0.12"
+  lazy var opacityMediumLow = "0.16"
+  lazy var opacityDisabledLow = "0.24"
+  lazy var opacityDisabled = "0.32"
+  lazy var opacityMedium = "0.48"
+  lazy var opacityMediumHigh = "0.56"
+  lazy var opacityHigh = "0.64"
+  lazy var opacityOpaque = "1"
 }
 
 struct Tokens: Tokens {

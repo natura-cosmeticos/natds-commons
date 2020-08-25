@@ -58,6 +58,17 @@ protocol ComponentsProtocol {
   var overlineFontSize: CGFloat { get }
   var overlineFontWeight: UIFont.Weight { get }
   var overlineLetterSpacing: CGFloat { get }
+  var opacityTransparent: String { get }
+  var opacityLower: String { get }
+  var opacityVeryLow: String { get }
+  var opacityLow: String { get }
+  var opacityMediumLow: String { get }
+  var opacityDisabledLow: String { get }
+  var opacityDisabled: String { get }
+  var opacityMedium: String { get }
+  var opacityMediumHigh: String { get }
+  var opacityHigh: String { get }
+  var opacityOpaque: String { get }
 }
 
 protocol TokensProtocol {
