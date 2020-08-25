@@ -65,7 +65,7 @@ struct Tokens: Tokens {
   lazy var borderRadiusSmall: CGFloat = 2
   lazy var borderRadiusMedium: CGFloat = 4
   lazy var borderRadiusLarge: CGFloat = 8
-  lazy var colorPrimary = "#F4AB34"
+  lazy var colorPrimary = "#F1F1F0"
   lazy var colorOnPrimary = "#333333"
   lazy var colorPrimaryLight = "#FFFFFF"
   lazy var colorOnPrimaryLight = "#000000"

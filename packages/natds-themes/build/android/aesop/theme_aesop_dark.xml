@@ -22,7 +22,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Theme.Aesop.Dark" parent="Theme.MaterialComponents.DayNight">
-    <item name="colorPrimary">#F4AB34</item>
+    <item name="colorPrimary">#F1F1F0</item>
     <item name="colorOnPrimary">#333333</item>
     <item name="colorPrimaryLight">#FFFFFF</item>
     <item name="colorOnPrimaryLight">#000000</item>
