@@ -3,6 +3,12 @@ const { displayName, name } = require('./package.json');
 
 module.exports = {
   ...base,
+  collectCoverageFrom: [
+    ...base.collectCoverageFrom,
+    '!<rootDir>/config/*/static/*.js',
+    '!<rootDir>/dist/**/*.js',
+    '!<rootDir>/react-native/*.js',
+  ],
   coveragePathIgnorePatterns: [
     '/node_modules/',
     '<rootDir>/config/react-native/static/',
