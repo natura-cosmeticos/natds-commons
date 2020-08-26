@@ -13,7 +13,7 @@ git:
 install: "yarn --frozen-lockfile"
 before_script:
   - "yarn bootstrap"
-script: "yarn test"
+script: "yarn test-ci"
 jobs:
   include:
     - stage: check
