@@ -16,6 +16,9 @@ before_script:
 script: "yarn test"
 jobs:
   include:
+    - stage: check
+      name: "Confidence check"
+      if: type = push AND branch != master
     - stage: release
       name: "Release"
       if: type = push AND branch = master

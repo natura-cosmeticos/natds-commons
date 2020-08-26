@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 Aug 2020 18:39:55 GMT
+ * Generated on Tue, 25 Aug 2020 23:48:24 GMT
  */
 
 export const colorPrimary = "#62b3ae";
@@ -75,6 +75,17 @@ export const captionLetterSpacing = 0.38;
 export const overlineFontSize = 12;
 export const overlineFontWeight = 500;
 export const overlineLetterSpacing = 1.92;
+export const opacityTransparent = "0";
+export const opacityLower = "0.04";
+export const opacityVeryLow = "0.08";
+export const opacityLow = "0.12";
+export const opacityMediumLow = "0.16";
+export const opacityDisabledLow = "0.24";
+export const opacityDisabled = "0.32";
+export const opacityMedium = "0.48";
+export const opacityMediumHigh = "0.56";
+export const opacityHigh = "0.64";
+export const opacityOpaque = "1";
 export const sizeNone = 0;
 export const sizeMicro = 4;
 export const sizeTiny = 8;

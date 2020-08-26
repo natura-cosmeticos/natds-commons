@@ -3,6 +3,79 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.0-alpha.0...@naturacosmeticos/natds-themes@0.2.0-alpha.1) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-themes
+
+
+
+
+
+# [0.2.0-alpha.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.1-alpha.1...@naturacosmeticos/natds-themes@0.2.0-alpha.0) (2020-08-25)
+
+
+### Features
+
+* **natds-themes:** add opacity token ([f6ce66f](https://github.com/natura-cosmeticos/natds-commons/commit/f6ce66f4566cb0001ddffbfd47c2ad8f94c5e0b1))
+
+
+
+
+
+## [0.1.1-alpha.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.1-alpha.0...@naturacosmeticos/natds-themes@0.1.1-alpha.1) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-themes
+
+
+
+
+
+## [0.1.1-alpha.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.0-alpha.33...@naturacosmeticos/natds-themes@0.1.1-alpha.0) (2020-08-25)
+
+
+### Bug Fixes
+
+* **natds-themes:** remove undefined dependencies error when building ([703b0d7](https://github.com/natura-cosmeticos/natds-commons/commit/703b0d7507d6989767a43563b29aa7740629da21))
+
+
+
+
+
+# [0.1.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.0-alpha.33...@naturacosmeticos/natds-themes@0.1.0) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-themes
+
+
+
+
+
+# [0.1.0-alpha.33](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.0-alpha.32...@naturacosmeticos/natds-themes@0.1.0-alpha.33) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-themes
+
+
+
+
+
+# 0.1.0-alpha.32 (2020-08-25)
+
+
+### Bug Fixes
+
+* **natds-themes:** don't ignore react-native static files ([b5aeef5](https://github.com/natura-cosmeticos/natds-commons/commit/b5aeef5f1460f949b0a782f3c3907caab73fe67e))
+* **natds-themes:** fix primary color for aesop dark theme ([13b06f8](https://github.com/natura-cosmeticos/natds-commons/commit/13b06f872665e05dc87d1762c7695493cbe5b48c))
+
+
+### Features
+
+* **natds-themes:** add aesop light and dark themes ([5a083ab](https://github.com/natura-cosmeticos/natds-commons/commit/5a083ab78d55758b9e569f35a4e8236d386a17cb))
+* **natds-themes:** add CSS and JS tokens generation for web ([7ebe7ce](https://github.com/natura-cosmeticos/natds-commons/commit/7ebe7cee32a4086af816c60d46ada84f6f4eeb91))
+* **natds-themes:** add new aesop themes to build config ([68c7b3b](https://github.com/natura-cosmeticos/natds-commons/commit/68c7b3b8ce72b88ab2b3870c425f9b96aea9f76e))
+
+
+
+
+
 # [0.1.0-alpha.31](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.1.0-alpha.30...@naturacosmeticos/natds-themes@0.1.0-alpha.31) (2020-08-23)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes

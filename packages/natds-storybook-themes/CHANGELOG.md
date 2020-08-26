@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.1-alpha.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.1-alpha.2...@naturacosmeticos/natds-storybook-themes@0.13.1-alpha.3) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-storybook-themes
+
+
+
+
+
+## [0.13.1-alpha.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.1-alpha.1...@naturacosmeticos/natds-storybook-themes@0.13.1-alpha.2) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-storybook-themes
+
+
+
+
+
+## [0.13.1-alpha.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.1-alpha.0...@naturacosmeticos/natds-storybook-themes@0.13.1-alpha.1) (2020-08-25)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-storybook-themes
+
+
+
+
+
+## 0.13.1-alpha.0 (2020-08-25)
+
+
+### Bug Fixes
+
+* **natds-storybook-themes:** add ignored package manifest ([aa8a9ae](https://github.com/natura-cosmeticos/natds-commons/commit/aa8a9ae771ddd42a8ff3911d9a33c45c5962372f))
+
+
+
+
+
+# 0.13.0 (2020-08-25)
+
+
+### Features
+
+* **natds-storybook-themes:** add Natura Light Theme for Storybook ([ded1fce](https://github.com/natura-cosmeticos/natds-commons/commit/ded1fce493918d79243291179c623d44cc960da8))
+
+
+
+
+
 # [0.12.0](https://github.com/natura-cosmeticos/natds-react/compare/v0.11.0...v0.12.0) (2020-08-23)
 
 

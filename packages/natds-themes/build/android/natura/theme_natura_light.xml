@@ -94,6 +94,17 @@
     <item name="overlineFontSize">12dp</item>
     <item name="overlineFontWeight">medium</item>
     <item name="overlineLetterSpacing">0.166666667dp</item>
+    <item name="opacityTransparent">0dp</item>
+    <item name="opacityLower">0.04dp</item>
+    <item name="opacityVeryLow">0.08dp</item>
+    <item name="opacityLow">0.12dp</item>
+    <item name="opacityMediumLow">0.16dp</item>
+    <item name="opacityDisabledLow">0.24dp</item>
+    <item name="opacityDisabled">0.32dp</item>
+    <item name="opacityMedium">0.48dp</item>
+    <item name="opacityMediumHigh">0.56dp</item>
+    <item name="opacityHigh">0.64dp</item>
+    <item name="opacityOpaque">1dp</item>
     <item name="sizeNone">0dp</item>
     <item name="sizeMicro">4dp</item>
     <item name="sizeTiny">8dp</item>

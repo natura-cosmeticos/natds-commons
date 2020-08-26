@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-themes",
   "displayName": "NatDSThemes",
   "description": "The single source of truth for Natura Design System tokens.",
-  "version": "0.1.0-alpha.31",
+  "version": "0.2.0-alpha.1",
   "private": false,
   "keywords": [
     "naturacosmeticos",
@@ -47,9 +47,8 @@
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds-commons.git"
   },
-  "dependencies": {},
   "scripts": {
-    "build": "yarn clean && yarn build:outputs && yarn build:copy && rollup -c",
+    "build": "yarn clean && yarn build:outputs && yarn build:copy && yarn rollup:build",
     "build:copy": "cp -r ./config/react-native/static/* ./build/react-native && cp -r ./config/web/static/* ./build/web",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
@@ -58,8 +57,9 @@
     "html:watch": "nodemon --watch config -e .js,.json,.hbs,.html -x 'yarn html'",
     "lint": "eslint --ext .js ./",
     "lint-fix": "yarn lint --fix",
+    "rollup:build": "rollup -c",
     "start": "yarn html:watch",
-    "test": "jest --collectCoverage --colors"
+    "test": "jest --colors"
   },
   "publishConfig": {
     "access": "public"
