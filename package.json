@@ -9,6 +9,7 @@
     "build": "lerna run build",
     "changelog": "lerna-changelog",
     "clean": "lerna clean",
+    "codecov": "codecov",
     "commit": "git cz",
     "lerna-publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
     "lerna-publish-ci": "yarn lerna-publish --yes",
@@ -28,6 +29,7 @@
     "snyk": "snyk test --all-projects",
     "start": "lerna run start --stream",
     "test": "jest --colors",
+    "test-ci": "yarn test && yarn codecov",
     "test:watch": "jest --watch --collectCoverage"
   },
   "repository": {
@@ -73,6 +75,7 @@
     "@rollup/plugin-typescript": "5.0.2",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.3.0",
+    "codecov": "3.7.2",
     "commitizen": "4.1.5",
     "core-js": "3.6.5",
     "cz-lerna-changelog": "2.0.3",
