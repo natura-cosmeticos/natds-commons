@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 27 Aug 2020 13:24:56 GMT
+ * Generated on Thu, 27 Aug 2020 14:22:34 GMT
  */
 
 export const colorPrimary = "#f4ab34";
