@@ -18,6 +18,7 @@ const expectedConfig = {
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test).js',
     'properties/platforms/ios/*.json',
+    'properties/platforms/ios/!(*.test).js',
   ],
 };
 

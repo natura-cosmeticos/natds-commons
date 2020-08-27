@@ -18,7 +18,7 @@ const buildWebConfig = (brand, mode) => ({
   /**
    * @todo use pixel transformer for sizing/spacing tokens
    */
-  transforms: ['attribute/cti', 'name/cti/camel', 'color/hex'],
+  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
 });
 
 export default buildWebConfig;

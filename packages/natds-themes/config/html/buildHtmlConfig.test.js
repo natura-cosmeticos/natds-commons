@@ -10,7 +10,7 @@ const expectedConfig = {
     },
   ],
   transformGroup: 'html',
-  transforms: ['name/cti/camel'],
+  transforms: ['name/cti/camel-custom'],
 };
 
 describe('buildHtmlConfig', () => {

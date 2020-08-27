@@ -21,6 +21,10 @@
       height: 50px;
     }
 
+    .opacity-sample {
+      background-color: #000000;
+    }
+
     .size-sample {
       background: #ffe5e5;
     }
@@ -50,6 +54,9 @@
       background-color: #f3f2f2;
       padding: 10px;
     }
+    code {
+      white-space: nowrap;
+    }
   </style>
   {{> navigation }}
   <div class="container-fluid mt-5">
@@ -60,8 +67,28 @@
       </div>
       {{#each tokens.color}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="color-sample" style="background: {{value}}"></div>
+      </div>
+      {{/each}}
+      <div class="col-12 mt-5">
+        <h1>Opacities</h1>
+        <hr>
+      </div>
+      {{#each tokens.opacity}}
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
+        <div class="color-sample opacity-sample" style="opacity: {{value}}"></div>
+      </div>
+      {{/each}}
+      <div class="col-12 mt-5">
+        <h1>Elevations</h1>
+        <hr>
+      </div>
+      {{#each tokens.elevation}}
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
+        <div class="color-sample" style="box-shadow: {{value}}"></div>
       </div>
       {{/each}}
       <div class="col-12 mt-5">
@@ -70,7 +97,7 @@
       </div>
       {{#each tokens.size}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="size-sample" style="height: {{value}}px"></div>
       </div>
       {{/each}}
@@ -80,7 +107,7 @@
       </div>
       {{#each tokens.spacing}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="spacing-sample">
           <div class="spacing-element" style="height: {{value}}px"></div>
           <div class="spacing-inner-element"></div>
@@ -93,7 +120,7 @@
       </div>
       {{#each tokens.borderRadius}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
         <div class="borderRadius-sample" style="border-radius: {{value}}px"></div>
       </div>
       {{/each}}
@@ -104,7 +131,7 @@
       </div>
       {{#each tokens.typography.fontFamily}}
       <div class="color col-12 col-sm-6 col-md-4">
-        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
         <p class="typography-sample" style="font-family: {{value}}">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
@@ -112,7 +139,7 @@
       {{/each}}
       {{#each tokens.typography.lineHeight}}
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-3 mb-1">{{name}}: <code>{{value}}</code></p>
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
         <p class="typography-sample" style="line-height: {{value}}em">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non mollis dui, id egestas risus. Quisque
           blandit felis in risus tempor cursus.

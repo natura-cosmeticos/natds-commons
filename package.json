@@ -15,13 +15,9 @@
     "lerna-publish-ci": "yarn lerna-publish --yes",
     "lint": "lerna run lint",
     "lint-fix": "lerna run lint-fix",
-    "posttest": "snyk monitor --all-projects",
-    "prebuild": "yarn lint",
-    "prepare": "snyk protect",
     "prepublishOnly": "whoami",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
     "prerelease-ci": "yarn prerelease --force-git-tag --force-publish --yes",
-    "pretest": "yarn build",
     "preversion": "whoami",
     "reinstall": "yarn clean && rm -rf ./node_modules && rm -rf yarn.lock && yarn install && yarn bootstrap",
     "release": "lerna version --conventional-commits",
@@ -29,7 +25,7 @@
     "snyk": "snyk test --all-projects",
     "start": "lerna run start --stream",
     "test": "jest --colors",
-    "test-ci": "yarn test && yarn codecov",
+    "test-ci": "yarn lint && yarn test && yarn codecov",
     "test:watch": "jest --watch --collectCoverage"
   },
   "repository": {

@@ -1,7 +1,8 @@
 /* eslint-disable max-lines */
 
 import {
-  filterCategory,
+  isCategory,
+  isItem,
   isProp,
   flattenProps,
   splitTokensAndComponents,
@@ -9,7 +10,7 @@ import {
 } from './helpers';
 
 describe('helpers', () => {
-  describe('filterCategory', () => {
+  describe('isCategory', () => {
     it('should return true if the category matches the given name', () => {
       const dictionary = {
         attributes: {
@@ -17,7 +18,7 @@ describe('helpers', () => {
         },
       };
 
-      expect(filterCategory(dictionary, 'pikachu')).toEqual(true);
+      expect(isCategory(dictionary, 'pikachu')).toEqual(true);
     });
 
     it('should return false if the category does not match the given name', () => {
@@ -27,7 +28,29 @@ describe('helpers', () => {
         },
       };
 
-      expect(filterCategory(dictionary, 'bulbasaur')).toEqual(false);
+      expect(isCategory(dictionary, 'bulbasaur')).toEqual(false);
+    });
+  });
+
+  describe('isItem', () => {
+    it('should return true if the item matches the given name', () => {
+      const dictionary = {
+        attributes: {
+          item: 'pikachu',
+        },
+      };
+
+      expect(isItem(dictionary, 'pikachu')).toEqual(true);
+    });
+
+    it('should return false if the item does not match the given name', () => {
+      const dictionary = {
+        attributes: {
+          item: 'pikachu',
+        },
+      };
+
+      expect(isItem(dictionary, 'bulbasaur')).toEqual(false);
     });
   });
 
@@ -72,6 +95,8 @@ describe('helpers', () => {
         button: {},
         color: {},
         dialog: {},
+        elevation: {},
+        opacity: {},
         size: {},
         spacing: {},
         typography: {},
@@ -85,6 +110,8 @@ describe('helpers', () => {
         tokens: {
           borderRadius: {},
           color: {},
+          elevation: {},
+          opacity: {},
           size: {},
           spacing: {},
           typography: {},
@@ -117,6 +144,18 @@ describe('helpers', () => {
             primary: {
               name: 'colorPrimary',
               value: 'red',
+            },
+          },
+          elevation: {
+            tiny: {
+              name: 'elevationTiny',
+              value: 1,
+            },
+          },
+          opacity: {
+            opaque: {
+              name: 'opacityOpaque',
+              value: 1,
             },
           },
           size: {
@@ -155,6 +194,14 @@ describe('helpers', () => {
           {
             name: 'colorPrimary',
             value: 'red',
+          },
+          {
+            name: 'elevationTiny',
+            value: 1,
+          },
+          {
+            name: 'opacityOpaque',
+            value: 1,
           },
           {
             name: 'sizeSmall',

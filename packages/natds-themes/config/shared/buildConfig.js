@@ -1,3 +1,5 @@
+/* eslint-disable max-lines-per-function */
+
 import buildReactNativeConfig from '../react-native/buildReactNativeConfig';
 import buildWebConfig from '../web/buildWebConfig';
 import buildHtmlConfig from '../html/buildHtmlConfig';
@@ -17,6 +19,7 @@ export const buildConfig = (brand, mode, platform) => ({
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test).js',
     `properties/platforms/${platform}/*.json`,
+    `properties/platforms/${platform}/!(*.test).js`,
   ],
 });
 

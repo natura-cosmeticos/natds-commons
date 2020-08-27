@@ -8,7 +8,7 @@ const buildHtmlConfig = (brand, mode) => ({
     },
   ],
   transformGroup: 'html',
-  transforms: ['name/cti/camel'],
+  transforms: ['name/cti/camel-custom'],
 });
 
 export default buildHtmlConfig;

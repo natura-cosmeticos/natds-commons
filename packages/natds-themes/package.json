@@ -48,11 +48,11 @@
     "url": "https://github.com/natura-cosmeticos/natds-commons.git"
   },
   "scripts": {
-    "build": "yarn clean && yarn build:outputs && yarn build:copy && yarn rollup:build",
+    "build": "yarn clean && yarn build:outputs",
     "build:copy": "cp -r ./config/react-native/static/* ./build/react-native && cp -r ./config/web/static/* ./build/web",
     "build:outputs": "babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build'",
-    "clean": "rm -rf $npm_package_directories_build && rm -rf $npm_package_directories_lib && rm -rf ./react-native",
+    "clean": "rm -rf ./build && rm -rf ./dist && rm -rf ./react-native",
     "html": "yarn build && http-server build/html",
     "html:watch": "nodemon --watch config -e .js,.json,.hbs,.html -x 'yarn html'",
     "lint": "eslint --ext .js ./",

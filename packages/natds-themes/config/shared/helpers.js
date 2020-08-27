@@ -1,6 +1,10 @@
-export const filterCategory = (
+export const isCategory = (
   { attributes }, categoryName,
 ) => attributes.category === categoryName;
+
+export const isItem = (
+  { attributes }, itemName,
+) => attributes.item === itemName;
 
 export const isProp = (
   { path }, propName,
@@ -14,13 +18,15 @@ export const flattenProps = (properties) => {
 };
 
 export const splitTokensAndComponents = ({
-  size, spacing, typography, borderRadius, color,
+  size, spacing, typography, borderRadius, color, elevation, opacity,
   ...components
 }) => ({
   components,
   tokens: {
     borderRadius,
     color,
+    elevation,
+    opacity,
     size,
     spacing,
     typography,

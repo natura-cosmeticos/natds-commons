@@ -36,6 +36,20 @@ const dictionary = {
         value: '"#F091C9"',
       },
     },
+    elevation: {
+      tiny: {
+        attributes: {},
+        name: 'elevationTiny',
+        original: {
+          value: 1,
+        },
+        path: [
+          'elevation',
+          'tiny',
+        ],
+        value: 1,
+      },
+    },
     heading1: {
       fontSize: {
         attributes: {},
@@ -48,6 +62,20 @@ const dictionary = {
           'fontSize',
         ],
         value: 14,
+      },
+    },
+    opacity: {
+      opaque: {
+        attributes: {},
+        name: 'opacityOpaque',
+        original: {
+          value: 1,
+        },
+        path: [
+          'opacity',
+          'opaque',
+        ],
+        value: 1,
       },
     },
     size: {
