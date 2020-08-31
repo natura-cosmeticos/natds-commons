@@ -10,10 +10,17 @@ notifications:
   email: false
 git:
   quiet: true
-install: "yarn --frozen-lockfile"
+install: 
+  - "yarn install --frozen-lockfile"
+  - "snyk protect"
 before_script:
   - "yarn bootstrap"
-script: "yarn test-ci"
+script: 
+  - "yarn lint"
+  - "yarn build"
+  - "yarn test"
+  - "yarn codecov"
+  - "snyk monitor --all-projects"
 jobs:
   include:
     - stage: check
