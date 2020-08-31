@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 28 Aug 2020 17:35:56 GMT
+ * Generated on Mon, 31 Aug 2020 19:15:26 GMT
  */
 
 :root {
@@ -98,12 +98,12 @@
   --sizeMediumX: 56;
   --sizeLarge: 64;
   --sizeLargeX: 72;
-  --sizeLargeXx: 80;
-  --sizeLargeXxx: 88;
+  --sizeLargeXX: 80;
+  --sizeLargeXXX: 88;
   --sizeHuge: 96;
   --sizeHugeX: 128;
-  --sizeHugeXx: 144;
-  --sizeHugeXxx: 192;
+  --sizeHugeXX: 144;
+  --sizeHugeXXX: 192;
   --sizeVeryHuge: 256;
   --typographyFontFamilyPrimary: Roboto;
   --typographyFontFamilySecondary: sans-serif;
@@ -123,4 +123,15 @@
   --spacingSemi: 32;
   --spacingLarge: 48;
   --spacingXLarge: 64;
+  --elevationNone: none;
+  --elevationMicro: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  --elevationTiny: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  --elevationSmall: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
+  --elevationMedium: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+  --elevationLarge: 0 6px 10px 0 rgba(0, 0, 0, 0.14);
+  --elevationLargeX: 0 8px 10px 0 rgba(0, 0, 0, 0.14);
+  --elevationLargeXX: 0 9px 12px 0 rgba(0, 0, 0, 0.14);
+  --elevationHuge: 0 12px 17px 0 rgba(0, 0, 0, 0.14);
+  --elevationHugeX: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  --elevationHugeXX: 0 24px 38px 0 rgba(0, 0, 0, 0.14);
 }
