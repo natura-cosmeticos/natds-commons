@@ -104,17 +104,17 @@
     "letterSpacing": 1.92
   },
   "opacity": {
-    "transparent": "0",
-    "lower": "0.04",
-    "veryLow": "0.08",
-    "low": "0.12",
-    "mediumLow": "0.16",
-    "disabledLow": "0.24",
-    "disabled": "0.32",
-    "medium": "0.48",
-    "mediumHigh": "0.56",
-    "high": "0.64",
-    "opaque": "1"
+    "transparent": 0,
+    "lower": 0.04,
+    "veryLow": 0.08,
+    "low": 0.12,
+    "mediumLow": 0.16,
+    "disabledLow": 0.24,
+    "disabled": 0.32,
+    "medium": 0.48,
+    "mediumHigh": 0.56,
+    "high": 0.64,
+    "opaque": 1
   },
   "size": {
     "none": 0,
@@ -163,5 +163,18 @@
     "semi": 32,
     "large": 48,
     "xLarge": 64
+  },
+  "elevation": {
+    "none": "none",
+    "micro": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+    "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "medium": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "large": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeX": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeXX": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "huge": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)"
   }
 }

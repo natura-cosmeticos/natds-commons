@@ -1,37 +1,37 @@
 {
   "opacity": {
     "transparent": {
-      "value": "0"
+      "value": 0
     },
     "lower": {
-      "value": "0.04"
+      "value": 0.04
     },
     "veryLow": {
-      "value": "0.08"
+      "value": 0.08
     },
     "low": {
-      "value": "0.12"
+      "value": 0.12
     },
     "mediumLow": {
-      "value": "0.16"
+      "value": 0.16
     },
     "disabledLow": {
-      "value": "0.24"
+      "value": 0.24
     },
     "disabled": {
-      "value": "0.32"
+      "value": 0.32
     },
     "medium": {
-      "value": "0.48"
+      "value": 0.48
     },
     "mediumHigh": {
-      "value": "0.56"
+      "value": 0.56
     },
     "high": {
-      "value": "0.64"
+      "value": 0.64
     },
     "opaque": {
-      "value": "1"
+      "value": 1
     }
   }
 }

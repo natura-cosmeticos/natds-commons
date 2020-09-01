@@ -13,7 +13,7 @@ const buildIosConfig = (brand, mode) => ({
     },
   ],
   transformGroup: 'ios-swift',
-  transforms: ['color/hex', 'attribute/cti', 'name/cti/camel', 'attribute/type', 'value/string-literal'],
+  transforms: ['color/hex', 'attribute/cti', 'name/cti/camel-custom', 'attribute/type', 'value/string-literal'],
 });
 
 export default buildIosConfig;

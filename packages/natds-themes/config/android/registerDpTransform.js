@@ -1,8 +1,8 @@
-import { filterCategory, isProp } from '../shared/helpers';
+import { isCategory, isProp } from '../shared/helpers';
 
 export const registerDpTransform = () => ({
   matcher: (prop) => (
-    !filterCategory(prop, 'color')
+    !isCategory(prop, 'color')
     && !isProp(prop, 'fontWeight')
     && !isProp(prop, 'fontFamily')
   ),

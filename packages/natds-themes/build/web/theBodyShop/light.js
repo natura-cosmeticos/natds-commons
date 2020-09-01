@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 28 Aug 2020 17:35:57 GMT
+ * Generated on Mon, 31 Aug 2020 19:15:26 GMT
  */
 
 export const colorPrimary = "#004236";
@@ -75,17 +75,17 @@ export const captionLetterSpacing = 0.38;
 export const overlineFontSize = 12;
 export const overlineFontWeight = 500;
 export const overlineLetterSpacing = 1.92;
-export const opacityTransparent = "0";
-export const opacityLower = "0.04";
-export const opacityVeryLow = "0.08";
-export const opacityLow = "0.12";
-export const opacityMediumLow = "0.16";
-export const opacityDisabledLow = "0.24";
-export const opacityDisabled = "0.32";
-export const opacityMedium = "0.48";
-export const opacityMediumHigh = "0.56";
-export const opacityHigh = "0.64";
-export const opacityOpaque = "1";
+export const opacityTransparent = 0;
+export const opacityLower = 0.04;
+export const opacityVeryLow = 0.08;
+export const opacityLow = 0.12;
+export const opacityMediumLow = 0.16;
+export const opacityDisabledLow = 0.24;
+export const opacityDisabled = 0.32;
+export const opacityMedium = 0.48;
+export const opacityMediumHigh = 0.56;
+export const opacityHigh = 0.64;
+export const opacityOpaque = 1;
 export const sizeNone = 0;
 export const sizeMicro = 4;
 export const sizeTiny = 8;
@@ -97,12 +97,12 @@ export const sizeMedium = 48;
 export const sizeMediumX = 56;
 export const sizeLarge = 64;
 export const sizeLargeX = 72;
-export const sizeLargeXx = 80;
-export const sizeLargeXxx = 88;
+export const sizeLargeXX = 80;
+export const sizeLargeXXX = 88;
 export const sizeHuge = 96;
 export const sizeHugeX = 128;
-export const sizeHugeXx = 144;
-export const sizeHugeXxx = 192;
+export const sizeHugeXX = 144;
+export const sizeHugeXXX = 192;
 export const sizeVeryHuge = 256;
 export const typographyFontFamilyPrimary = "Roboto";
 export const typographyFontFamilySecondary = "sans-serif";
@@ -122,3 +122,14 @@ export const spacingStandard = 24;
 export const spacingSemi = 32;
 export const spacingLarge = 48;
 export const spacingXLarge = 64;
+export const elevationNone = "none";
+export const elevationMicro = "0 1px 1px 0 rgba(0, 0, 0, 0.14)";
+export const elevationTiny = "0 2px 2px 0 rgba(0, 0, 0, 0.14)";
+export const elevationSmall = "0 3px 4px 0 rgba(0, 0, 0, 0.14)";
+export const elevationMedium = "0 4px 5px 0 rgba(0, 0, 0, 0.14)";
+export const elevationLarge = "0 6px 10px 0 rgba(0, 0, 0, 0.14)";
+export const elevationLargeX = "0 8px 10px 0 rgba(0, 0, 0, 0.14)";
+export const elevationLargeXX = "0 9px 12px 0 rgba(0, 0, 0, 0.14)";
+export const elevationHuge = "0 12px 17px 0 rgba(0, 0, 0, 0.14)";
+export const elevationHugeX = "0 16px 24px 0 rgba(0, 0, 0, 0.14)";
+export const elevationHugeXX = "0 24px 38px 0 rgba(0, 0, 0, 0.14)";

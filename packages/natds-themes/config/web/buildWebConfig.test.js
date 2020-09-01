@@ -16,7 +16,7 @@ const expectedConfig = {
       format: 'javascript/es6',
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/camel', 'color/hex'],
+  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
 };
 
 describe('buildReactDomConfig', () => {

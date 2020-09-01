@@ -24,4 +24,6 @@ flags:
   themes:
     paths:
       - packages/natds-themes
-    carryforward: false
+    carryforward: true
+fixes:
+   - "/home/travis/build/natura-cosmeticos/natds-commons/::"

@@ -1,0 +1,37 @@
+{
+  "elevation": {
+    "none": {
+      "value": "none"
+    },
+    "micro": {
+      "value": "0 1px 1px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "tiny": {
+      "value": "0 2px 2px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "small": {
+      "value": "0 3px 4px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "medium": {
+      "value": "0 4px 5px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "large": {
+      "value": "0 6px 10px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "largeX": {
+      "value": "0 8px 10px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "largeXX": {
+      "value": "0 9px 12px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "huge": {
+      "value": "0 12px 17px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "hugeX": {
+      "value": "0 16px 24px 0 rgba(0, 0, 0, 0.14)"
+    },
+    "hugeXX": {
+      "value": "0 24px 38px 0 rgba(0, 0, 0, 0.14)"
+    }
+  }
+}

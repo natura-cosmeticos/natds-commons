@@ -1,0 +1,37 @@
+{
+  "elevation": {
+    "none": {
+      "value": 0
+    },
+    "micro": {
+      "value": 1
+    },
+    "tiny": {
+      "value": 2
+    },
+    "small": {
+      "value": 3
+    },
+    "medium": {
+      "value": 4
+    },
+    "large": {
+      "value": 6
+    },
+    "largeX": {
+      "value": 8
+    },
+    "largeXX": {
+      "value": 9
+    },
+    "huge": {
+      "value": 12
+    },
+    "hugeX": {
+      "value": 16
+    },
+    "hugeXX": {
+      "value": 24
+    }
+  }
+}
