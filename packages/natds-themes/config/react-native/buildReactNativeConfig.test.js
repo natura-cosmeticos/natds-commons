@@ -8,7 +8,7 @@ const expectedConfig = {
       format: 'json/nested',
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex'],
+  transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex', 'name/cti/camel-custom'],
 };
 
 describe('buildReactNativeConfig', () => {

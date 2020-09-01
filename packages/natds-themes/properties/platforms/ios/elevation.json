@@ -19,7 +19,7 @@
     },
     "micro": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -36,7 +36,7 @@
     },
     "tiny": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -53,7 +53,7 @@
     },
     "small": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -70,7 +70,7 @@
     },
     "medium": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -87,7 +87,7 @@
     },
     "large": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -104,7 +104,7 @@
     },
     "largeX": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -121,7 +121,7 @@
     },
     "largeXX": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -138,7 +138,7 @@
     },
     "huge": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -155,7 +155,7 @@
     },
     "hugeX": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0
@@ -172,7 +172,7 @@
     },
     "hugeXX": {
       "shadowColor": {
-        "value": "rgb(0, 0, 0)"
+        "value": "#000000"
       },
       "shadowOffsetWidth": {
         "value": 0

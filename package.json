@@ -26,7 +26,7 @@
     "start": "lerna run start --stream",
     "test": "jest --colors",
     "test-ci": "yarn lint && yarn test && yarn codecov",
-    "test:watch": "jest --watch --collectCoverage"
+    "test:watch": "jest ----watchAll --collectCoverage"
   },
   "repository": {
     "type": "git",

@@ -3,21 +3,16 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/**/**/*.js',
-    '!<rootDir>/**/**/.eslintrc.js',
-    '!<rootDir>/**/**/*.config.js',
-    '!<rootDir>/**/build/**/*.js',
-    '!<rootDir>/**/coverage/lcov-report/*',
-    '!<rootDir>/**/dist/**/*.js',
-    '!/config/react-native/static/index.js',
-    '!<rootDir>/packages/natds-themes/config/react-native/static/index.js',
-    '!/config/web/static/index.js',
-    '!<rootDir>/packages/natds-themes/config/web/static/index.js',
-    '!<rootDir>/packages/natds-themes/react-native/index.js',
-    '!<rootDir>/packages/natds-themes/config/**/static/index.js',
-    '!/dist/**/*.js',
-    '!/packages/natds-themes/dist/**/index.js',
   ],
   coverageDirectory: '<rootDir>/coverage',
+  coveragePathIgnorePatterns: [
+    '.eslintrc.js',
+    '.*.config.js',
+    '.*/build/.*',
+    '.*/coverage/.*',
+    '.*/dist/.*',
+    '.*/static/.*',
+  ],
   coverageThreshold: {
     global: {
       branches: 100,
@@ -26,9 +21,14 @@ module.exports = {
       statements: 100,
     },
   },
+  setupFiles: ['core-js'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  testMatch: [
+    '**/__tests__/**/*.js',
+    '**/?(*.)+(spec|test).js',
+  ],
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
-    '^.+\\.ts?$': 'ts-jest',
   },
   verbose: true,
 };
