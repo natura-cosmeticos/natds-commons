@@ -36,10 +36,10 @@ jobs:
         - yarn config set _authToken "${NPM_AUTH_TOKEN}"
         - "git add packages/natds-themes/build/**/*"
         - "git commit --allow-empty -m \"build(natds-themes): update android and ios generated files [skip ci]\""
-        - "yarn release-ci"
+        - "yarn release:ci"
       deploy:
         - provider: script
-          script: "yarn lerna-publish-ci"
+          script: "yarn lerna:publish:ci"
           skip_cleanup: true
           on:
             branch: master
