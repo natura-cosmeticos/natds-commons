@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0-alpha.16](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.0-alpha.15...@naturacosmeticos/natds-themes@0.2.0-alpha.16) (2020-09-02)
+
+
+### Bug Fixes
+
+* **themes:** fix aesop onPrimary color on dark theme ([#48](https://github.com/natura-cosmeticos/natds-commons/issues/48)) ([28f8abf](https://github.com/natura-cosmeticos/natds-commons/commit/28f8abfcc02d7c6fb0ad9f1e09f5ec1427a75525))
+
+
+### Features
+
+* add elevation tokens ([#52](https://github.com/natura-cosmeticos/natds-commons/issues/52)) ([9cbc400](https://github.com/natura-cosmeticos/natds-commons/commit/9cbc4004f5cca1c6a7a2794b0b789a680f024ace))
+
+
+
+
+
 # [0.2.0-alpha.15](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.0-alpha.14...@naturacosmeticos/natds-themes@0.2.0-alpha.15) (2020-08-27)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
