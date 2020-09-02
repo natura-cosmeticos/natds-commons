@@ -24,7 +24,7 @@
     "release:ci": "yarn release --conventional-graduate --create-release github --force-publish --yes",
     "snyk": "snyk test --all-projects",
     "start": "lerna run start --stream",
-    "test": "lerna run test",
+    "test": "lerna run test --stream",
     "test:ci": "yarn lint && yarn test && yarn codecov",
     "test:watch": "jest ----watchAll --collectCoverage"
   },
