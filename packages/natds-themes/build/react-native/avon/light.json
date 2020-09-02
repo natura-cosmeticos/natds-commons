@@ -166,7 +166,7 @@
   },
   "elevation": {
     "none": {
-      "shadowColor": "#000000",
+      "shadowColor": "nil",
       "shadowOffsetWidth": 0,
       "shadowOffsetHeight": -3,
       "shadowRadius": 3,
