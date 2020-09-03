@@ -1,9 +1,8 @@
 {{> fileHeader }}
 
-protocol ComponentsProtocol {
-{{#each components}}
-  var {{name}}: {{attributes.customOptions.type}} { get }
-{{/each}}
+protocol ThemeProtocol {
+  var tokens: TokensProtocol
+  var components: ComponentsProtocol
 }
 
 protocol TokensProtocol {
@@ -12,7 +11,8 @@ protocol TokensProtocol {
 {{/each}}
 }
 
-protocol ThemeProtocol {
-  var tokens: TokensProtocol
-  var components: ComponentsProtocol
+protocol ComponentsProtocol {
+{{#each components}}
+  var {{name}}: {{attributes.customOptions.type}} { get }
+{{/each}}
 }
