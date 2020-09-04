@@ -19,7 +19,6 @@ script:
   - "yarn lint"
   - "yarn build"
   - "yarn test"
-  - "yarn codecov"
   - "bash <(curl -s https://codecov.io/bash)"
   - "snyk monitor --all-projects"
 jobs:

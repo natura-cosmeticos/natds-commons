@@ -46,9 +46,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "lint": "exit 0",
-    "test": "jest --collectCoverage --colors --config='../../jest.config.js'"
+    "dev": "rollup -c -w"
   },
   "devDependencies": {
     "rollup": "2.26.6",
