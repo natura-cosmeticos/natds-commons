@@ -9,6 +9,7 @@ import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTrans
 import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
 import { registerTemplateHeaderHelper } from './templateHelpers';
 import { registerCamelTransform } from './registerCamelTransform';
+import { registerPxTransform } from './registerPxTransform';
 
 export const brands = [
   'aesop',
@@ -28,6 +29,7 @@ export const platforms = [
   'ios',
   'react-native',
   'web',
+  'css',
 ];
 
 export const customFormats = [
@@ -48,6 +50,7 @@ export const customTransforms = [
   registerAttributeTypeTransform,
   registerAttributeTypeTransformIos,
   registerValueStringLiteralTransform,
+  registerPxTransform,
 ];
 
 registerTemplateHeaderHelper();

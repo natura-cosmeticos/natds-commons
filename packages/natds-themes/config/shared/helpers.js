@@ -6,9 +6,15 @@ export const isItem = (
   { attributes }, itemName,
 ) => attributes.item === itemName;
 
+const curryIsProp = ({ path }) => (propName) => path.includes(propName);
+
 export const isProp = (
-  { path }, propName,
-) => path.includes(propName);
+  dictionary, propName,
+) => curryIsProp(dictionary)(propName);
+
+export const isOneOfProps = (
+  dictionary, props,
+) => !!props.find(curryIsProp(dictionary));
 
 export const flattenProps = (properties) => {
   const mapProps = (item) => Object.values(item).map(checkIfHasName); // eslint-disable-line

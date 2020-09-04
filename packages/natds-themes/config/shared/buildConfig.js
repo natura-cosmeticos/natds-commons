@@ -1,7 +1,7 @@
 /* eslint-disable max-lines-per-function */
 
 import buildReactNativeConfig from '../react-native/buildReactNativeConfig';
-import buildWebConfig from '../web/buildWebConfig';
+import { buildWebConfig, buildCssConfig } from '../web/buildWebConfig';
 import buildHtmlConfig from '../html/buildHtmlConfig';
 import buildAndroidConfig from '../android/buildAndroidConfig';
 import buildIosConfig from '../ios/buildIosConfig';
@@ -9,6 +9,7 @@ import buildIosConfig from '../ios/buildIosConfig';
 export const buildConfig = (brand, mode, platform) => ({
   platforms: {
     android: buildAndroidConfig(brand, mode),
+    css: buildCssConfig(brand, mode),
     html: buildHtmlConfig(brand, mode),
     ios: buildIosConfig(brand, mode),
     'react-native': buildReactNativeConfig(brand, mode),

@@ -11,7 +11,7 @@ describe('registerDpTransform', () => {
     expect(registerDpTransform()).toMatchObject(expectedConfig);
   });
 
-  it('should add the type information to customOptions attributes', () => {
+  it('should append the dp unit to the value', () => {
     const config = registerDpTransform();
 
     const prop = {

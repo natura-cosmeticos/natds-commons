@@ -8,6 +8,7 @@ import * as buildIosConfig from '../ios/buildIosConfig';
 const expectedConfig = {
   platforms: {
     android: 'androidConfig',
+    css: 'cssConfig',
     html: 'htmlConfig',
     ios: 'iosConfig',
     'react-native': 'reactNativeConfig',
@@ -25,7 +26,8 @@ const expectedConfig = {
 describe('buildConfig', () => {
   it('should return the global build configuration', () => {
     const buildReactNativeConfigSpy = jest.spyOn(buildReactNativeConfig, 'default').mockImplementation(() => 'reactNativeConfig');
-    const buildReactDomConfigSpy = jest.spyOn(buildWebConfig, 'default').mockImplementation(() => 'webConfig');
+    const buildReactDomConfigSpy = jest.spyOn(buildWebConfig, 'buildWebConfig').mockImplementation(() => 'webConfig');
+    const buildCssConfigSpy = jest.spyOn(buildWebConfig, 'buildCssConfig').mockImplementation(() => 'cssConfig');
     const buildHtmlConfigSpy = jest.spyOn(buildHtmlConfig, 'default').mockImplementation(() => 'htmlConfig');
     const buildAndroidConfigSpy = jest.spyOn(buildAndroidConfig, 'default').mockImplementation(() => 'androidConfig');
     const buildIosConfigSpy = jest.spyOn(buildIosConfig, 'default').mockImplementation(() => 'iosConfig');
@@ -34,6 +36,7 @@ describe('buildConfig', () => {
 
     expect(buildReactNativeConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
     expect(buildReactDomConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
+    expect(buildCssConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
     expect(buildHtmlConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
     expect(buildAndroidConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
     expect(buildIosConfigSpy).toHaveBeenCalledWith('pokemon', 'pikachu');
