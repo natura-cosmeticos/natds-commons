@@ -5,14 +5,23 @@ const buildWebConfig = (brand, mode) => ({
     {
       destination: `${mode}.css`,
       format: 'css/variables',
+      options: {
+        showFileHeader: false,
+      },
     },
     {
       destination: `${mode}.json`,
       format: 'json/nested',
+      options: {
+        showFileHeader: false,
+      },
     },
     {
       destination: `${mode}.js`,
       format: 'javascript/es6',
+      options: {
+        showFileHeader: false,
+      },
     },
   ],
   /**
