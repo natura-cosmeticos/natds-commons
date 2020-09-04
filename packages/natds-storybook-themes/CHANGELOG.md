@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.2...@naturacosmeticos/natds-storybook-themes@0.13.3) (2020-09-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @storybook/theming to v6.0.21 ([877621a](https://github.com/natura-cosmeticos/natds-commons/commit/877621a9d07f8ced10dc6b2e9a5d66ba5f443e08))
+
+
+
+
+
 ## [0.13.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.1...@naturacosmeticos/natds-storybook-themes@0.13.2) (2020-09-04)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-storybook-themes
