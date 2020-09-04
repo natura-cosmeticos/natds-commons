@@ -1,17 +1,16 @@
 import { isOneOfProps } from './helpers';
 
-export const registerPxTransform = () => ({
-  matcher: (prop) => {
-    const notPxProps = [
-      'color',
-      'fontWeight',
-      'fontFamily',
-      'elevation',
-      'opacity',
-    ];
+const notPxProps = [
+  'color',
+  'fontWeight',
+  'fontFamily',
+  'elevation',
+  'opacity',
+  'lineHeight',
+];
 
-    return !isOneOfProps(prop, notPxProps);
-  },
+export const registerPxTransform = () => ({
+  matcher: (prop) => !isOneOfProps(prop, notPxProps),
   name: 'unit/px',
   transformer: ({ value }) => `${value}px`,
   type: 'value',

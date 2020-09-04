@@ -31,7 +31,7 @@ describe('registerPxTransform', () => {
     expect(config.transformer(prop)).toEqual('8px');
   });
 
-  it('should not match color category', () => {
+  it('should not match not px properties', () => {
     const isOneOfPropsSpy = jest
       .spyOn(helpers, 'isOneOfProps')
       .mockReturnValue(true);
@@ -58,6 +58,7 @@ describe('registerPxTransform', () => {
       'fontFamily',
       'elevation',
       'opacity',
+      'lineHeight',
     ]);
   });
 
@@ -88,6 +89,7 @@ describe('registerPxTransform', () => {
       'fontFamily',
       'elevation',
       'opacity',
+      'lineHeight',
     ]);
   });
 });
