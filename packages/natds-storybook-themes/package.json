@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "@naturacosmeticos/natds-themes": "^0.2.1",
-    "@storybook/theming": "6.0.18"
+    "@storybook/theming": "6.0.21"
   },
   "config": {},
   "publishConfig": {
