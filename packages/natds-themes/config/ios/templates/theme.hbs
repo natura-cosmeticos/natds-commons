@@ -1,18 +1,18 @@
 {{> fileHeader }}
 
-struct Components: Components {
-{{#each components}}
-  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
-{{/each}}
+struct {{themeName}}Theme: Theme {
+  let tokens: TokensProtocol = {{themeName}}Tokens()
+  let components: ComponentsProtocol = {{themeName}}Components()
 }
 
-struct Tokens: Tokens {
+struct {{themeName}}Tokens: Tokens {
 {{#each tokens}}
-  lazy var {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+  let {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
 {{/each}}
 }
 
-struct Theme: Theme {
-  let tokens: Tokens
-  let components: Components
+struct {{themeName}}Components: Components {
+{{#each components}}
+  let {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
 }

@@ -5,6 +5,7 @@ const types = {
   float: 'CGFloat',
   fontWeight: 'UIFont.Weight',
   int: 'CGFloat',
+  lineHeight: 'CGFloat',
   number: 'CGFloat',
   string: 'String',
 };

@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Fri, 04 Sep 2020 18:39:01 GMT
- */
-
 export const colorPrimary = "#f091c9";
 export const colorOnPrimary = "#000000";
 export const colorPrimaryLight = "#ffc3fc";

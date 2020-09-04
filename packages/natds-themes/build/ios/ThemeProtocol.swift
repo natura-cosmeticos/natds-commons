@@ -17,47 +17,9 @@
  *                                                              
  */
 
-protocol ComponentsProtocol {
-  var buttonDefaultFontSize: CGFloat { get }
-  var buttonDefaultFontWeight: UIFont.Weight { get }
-  var buttonDefaultLetterSpacing: CGFloat { get }
-  var buttonDefaultLineHeight: String { get }
-  var heading1FontSize: CGFloat { get }
-  var heading1FontWeight: UIFont.Weight { get }
-  var heading1LetterSpacing: CGFloat { get }
-  var heading2FontSize: CGFloat { get }
-  var heading2FontWeight: UIFont.Weight { get }
-  var heading2LetterSpacing: CGFloat { get }
-  var heading3FontSize: CGFloat { get }
-  var heading3FontWeight: UIFont.Weight { get }
-  var heading3LetterSpacing: CGFloat { get }
-  var heading4FontSize: CGFloat { get }
-  var heading4FontWeight: UIFont.Weight { get }
-  var heading4LetterSpacing: CGFloat { get }
-  var heading5FontSize: CGFloat { get }
-  var heading5FontWeight: UIFont.Weight { get }
-  var heading5LetterSpacing: CGFloat { get }
-  var heading6FontSize: CGFloat { get }
-  var heading6FontWeight: UIFont.Weight { get }
-  var heading6LetterSpacing: CGFloat { get }
-  var subtitle1FontSize: CGFloat { get }
-  var subtitle1FontWeight: UIFont.Weight { get }
-  var subtitle1LetterSpacing: CGFloat { get }
-  var subtitle2FontSize: CGFloat { get }
-  var subtitle2FontWeight: UIFont.Weight { get }
-  var subtitle2LetterSpacing: CGFloat { get }
-  var body1FontSize: CGFloat { get }
-  var body1FontWeight: UIFont.Weight { get }
-  var body1LetterSpacing: CGFloat { get }
-  var body2FontSize: CGFloat { get }
-  var body2FontWeight: UIFont.Weight { get }
-  var body2LetterSpacing: CGFloat { get }
-  var captionFontSize: CGFloat { get }
-  var captionFontWeight: UIFont.Weight { get }
-  var captionLetterSpacing: CGFloat { get }
-  var overlineFontSize: CGFloat { get }
-  var overlineFontWeight: UIFont.Weight { get }
-  var overlineLetterSpacing: CGFloat { get }
+protocol ThemeProtocol {
+  var tokens: TokensProtocol
+  var components: ComponentsProtocol
 }
 
 protocol TokensProtocol {
@@ -197,7 +159,45 @@ protocol TokensProtocol {
   var typographyFontWeightMedium: UIFont.Weight { get }
 }
 
-protocol ThemeProtocol {
-  var tokens: TokensProtocol
-  var components: ComponentsProtocol
+protocol ComponentsProtocol {
+  var buttonDefaultFontSize: CGFloat { get }
+  var buttonDefaultFontWeight: UIFont.Weight { get }
+  var buttonDefaultLetterSpacing: CGFloat { get }
+  var buttonDefaultLineHeight: CGFloat { get }
+  var heading1FontSize: CGFloat { get }
+  var heading1FontWeight: UIFont.Weight { get }
+  var heading1LetterSpacing: CGFloat { get }
+  var heading2FontSize: CGFloat { get }
+  var heading2FontWeight: UIFont.Weight { get }
+  var heading2LetterSpacing: CGFloat { get }
+  var heading3FontSize: CGFloat { get }
+  var heading3FontWeight: UIFont.Weight { get }
+  var heading3LetterSpacing: CGFloat { get }
+  var heading4FontSize: CGFloat { get }
+  var heading4FontWeight: UIFont.Weight { get }
+  var heading4LetterSpacing: CGFloat { get }
+  var heading5FontSize: CGFloat { get }
+  var heading5FontWeight: UIFont.Weight { get }
+  var heading5LetterSpacing: CGFloat { get }
+  var heading6FontSize: CGFloat { get }
+  var heading6FontWeight: UIFont.Weight { get }
+  var heading6LetterSpacing: CGFloat { get }
+  var subtitle1FontSize: CGFloat { get }
+  var subtitle1FontWeight: UIFont.Weight { get }
+  var subtitle1LetterSpacing: CGFloat { get }
+  var subtitle2FontSize: CGFloat { get }
+  var subtitle2FontWeight: UIFont.Weight { get }
+  var subtitle2LetterSpacing: CGFloat { get }
+  var body1FontSize: CGFloat { get }
+  var body1FontWeight: UIFont.Weight { get }
+  var body1LetterSpacing: CGFloat { get }
+  var body2FontSize: CGFloat { get }
+  var body2FontWeight: UIFont.Weight { get }
+  var body2LetterSpacing: CGFloat { get }
+  var captionFontSize: CGFloat { get }
+  var captionFontWeight: UIFont.Weight { get }
+  var captionLetterSpacing: CGFloat { get }
+  var overlineFontSize: CGFloat { get }
+  var overlineFontWeight: UIFont.Weight { get }
+  var overlineLetterSpacing: CGFloat { get }
 }

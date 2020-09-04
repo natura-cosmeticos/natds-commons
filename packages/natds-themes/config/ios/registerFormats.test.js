@@ -147,6 +147,8 @@ describe('registerFormats', () => {
     it('should return the correct formatter template', () => {
       const register = registerThemeFormat();
 
+      register.themeName = 'NaturaLight';
+
       const output = register.formatter(dictionary);
 
       expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerThemeFormat.snap.html'));

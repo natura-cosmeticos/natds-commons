@@ -1,3 +1,5 @@
+/* eslint-disable max-lines-per-function */
+
 import { capitalizeWord } from '../shared/textHelpers';
 
 const buildIosConfig = (brand, mode) => ({
@@ -6,6 +8,7 @@ const buildIosConfig = (brand, mode) => ({
     {
       destination: `${capitalizeWord(brand)}${capitalizeWord(mode)}Theme.swift`,
       format: 'ios-swift/theme.swift',
+      themeName: `${capitalizeWord(brand)}${capitalizeWord(mode)}`,
     },
     {
       destination: 'ThemeProtocol.swift',

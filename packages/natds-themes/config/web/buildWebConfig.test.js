@@ -6,14 +6,23 @@ const expectedConfig = {
     {
       destination: 'pikachu.css',
       format: 'css/variables',
+      options: {
+        showFileHeader: false,
+      },
     },
     {
       destination: 'pikachu.json',
       format: 'json/nested',
+      options: {
+        showFileHeader: false,
+      },
     },
     {
       destination: 'pikachu.js',
       format: 'javascript/es6',
+      options: {
+        showFileHeader: false,
+      },
     },
   ],
   transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
