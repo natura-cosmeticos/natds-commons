@@ -1,3 +1,5 @@
+/* eslint-disable max-lines-per-function */
+
 import { capitalizeWord } from '../shared/textHelpers';
 
 const buildIosConfig = (brand, mode) => ({

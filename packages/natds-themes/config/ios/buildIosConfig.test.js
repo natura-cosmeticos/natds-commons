@@ -8,6 +8,7 @@ const expectedConfig = {
     {
       destination: 'PokemonPikachuTheme.swift',
       format: 'ios-swift/theme.swift',
+      themeName: 'PokemonPikachu',
     },
     {
       destination: 'ThemeProtocol.swift',
@@ -22,6 +23,6 @@ describe('buildIosConfig', () => {
   it('should return the ios config for the given brand and mode', () => {
     const config = buildIosConfig('pokemon', 'pikachu');
 
-    expect(config).toMatchObject(expectedConfig);
+    expect(config).toEqual(expectedConfig);
   });
 });
