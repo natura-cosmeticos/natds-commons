@@ -12,7 +12,8 @@ git:
   quiet: true
 install: 
   - "yarn install --frozen-lockfile"
-  - "snyk protect"
+  - "yarn global add snyk"
+  - "snyk auth $SNYK_TOKEN"
 before_script:
   - "yarn bootstrap"
 script: 
@@ -20,7 +21,7 @@ script:
   - "yarn build"
   - "yarn test"
   - "bash <(curl -s https://codecov.io/bash)"
-  - "snyk monitor --all-projects"
+  - "snyk test --all-projects"
 jobs:
   include:
     - stage: check

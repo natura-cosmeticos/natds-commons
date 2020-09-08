@@ -9,7 +9,6 @@
     "build": "lerna run build",
     "changelog": "lerna-changelog",
     "clean": "lerna clean",
-    "codecov": "codecov",
     "commit": "git cz",
     "lerna:publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
     "lerna:publish:ci": "yarn lerna:publish --yes",
@@ -22,10 +21,9 @@
     "reinstall": "yarn clean && rm -rf ./node_modules && rm -rf yarn.lock && yarn install && yarn bootstrap",
     "release": "lerna version --conventional-commits",
     "release:ci": "yarn release --conventional-graduate --create-release github --force-publish --yes",
-    "snyk": "snyk test --all-projects",
     "start": "lerna run start --stream",
     "test": "lerna run test --stream",
-    "test:ci": "yarn lint && yarn test && yarn codecov",
+    "test:ci": "yarn lint && yarn test",
     "test:watch": "jest ----watchAll --collectCoverage"
   },
   "repository": {
@@ -87,7 +85,6 @@
     "nodemon": "2.0.4",
     "rollup": "2.26.10",
     "semantic-release": "15.8.0",
-    "snyk": "^1.381.1",
     "style-dictionary": "2.10.1",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
