@@ -60,7 +60,7 @@ describe('registerTypeDefinitionsAction', () => {
       expect(registerTypeDefinitionsAction().do(null, config)).toEqual(false);
     });
 
-    describe('creating a file definition', () => {
+    describe('type definition creation', () => {
       const existsSyncMock = () => false;
 
       beforeEach(() => {

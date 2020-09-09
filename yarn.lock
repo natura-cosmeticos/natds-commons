@@ -7584,7 +7584,7 @@ json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json2ts@^0.0.7:
+json2ts@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/json2ts/-/json2ts-0.0.7.tgz#ab0ee646916a87522093633f1ff0a88474aaf9e5"
   integrity sha1-qw7mRpFqh1Igk2M/H/CohHSq+eU=
