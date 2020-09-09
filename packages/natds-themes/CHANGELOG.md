@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.3.0...@naturacosmeticos/natds-themes@0.3.1) (2020-09-09)
+
+
+### Bug Fixes
+
+* **natds-themes:** add react-native folder to the published npm package ([4c18f31](https://github.com/natura-cosmeticos/natds-commons/commit/4c18f31e3394c6c4e410daf3fc04fad4641d12fb))
+
+
+
+
+
 # [0.3.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.5...@naturacosmeticos/natds-themes@0.3.0) (2020-09-09)
 
 
