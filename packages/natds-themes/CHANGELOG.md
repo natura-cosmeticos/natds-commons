@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.4...@naturacosmeticos/natds-themes@0.2.5) (2020-09-09)
+
+
+### Bug Fixes
+
+* **natds-themes:** add px units to css outputs ([47b5717](https://github.com/natura-cosmeticos/natds-commons/commit/47b5717f8d60771e4120a1718ea85b809ded803f))
+
+
+
+
+
 ## [0.2.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.3...@naturacosmeticos/natds-themes@0.2.4) (2020-09-04)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
