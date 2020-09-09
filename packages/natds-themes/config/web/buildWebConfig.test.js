@@ -1,6 +1,7 @@
 import { buildCssConfig, buildWebConfig } from './buildWebConfig';
 
 const expectedWebConfig = {
+  actions: ['create_type_definitions'],
   buildPath: 'build/web/pokemon/',
   files: [
     {

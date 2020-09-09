@@ -1,5 +1,5 @@
-
 declare const Themes: Themes.Themes
+
 declare namespace Themes {
   export interface Color {
 	primary: string
@@ -229,19 +229,18 @@ export interface Theme {
 	spacing: Spacing
 	elevation: Elevation
 }
-  
-export interface BrandThemes {
-  dark: Theme
-  light: Theme
+
+  export interface BrandThemes {
+    dark: Theme
+    light: Theme
+  }
+
+  export interface Themes {
+    aesop: BrandThemes
+    avon: BrandThemes
+    natura: BrandThemes
+    theBodyShop: BrandThemes
+  }
 }
 
-export interface Themes {
-  aesop: BrandThemes,
-	avon: BrandThemes,
-	natura: BrandThemes,
-	theBodyShop: BrandThemes,
-	
-}
-
-}
 export = Themes

@@ -1,7 +1,8 @@
 import fs, { existsSync } from 'fs';
 import path from 'path';
 import json2ts from 'json2ts';
-import { brands } from './config';
+import { compileTemplate } from './templateHelpers';
+import { brands } from './constants';
 
 const buildDefinitionPath = (config) => {
   const [buildFolder, platformFolder] = config.buildPath.split('/');
@@ -14,18 +15,7 @@ const fixTypeDefinitions = (types) => types
   .replace(/;/gm, '')
   .replace(/(BorderRadiu)(\s|\n)/gm, '$1s$2');
 
-const buildThemesInterface = (brandNames) => `
-export interface BrandThemes {
-  dark: Theme
-  light: Theme
-}
-
-export interface Themes {
-  ${brandNames.map((brand) => `${brand}: BrandThemes,\n\t`).join('')}
-}
-`;
-
-const doAction = (dictionary, config) => {
+const doAction = (_dictionary, config) => {
   const definitionsPath = buildDefinitionPath(config);
 
   if (existsSync(path.join(__dirname, '../../', definitionsPath))) return false;
@@ -33,19 +23,17 @@ const doAction = (dictionary, config) => {
   const jsonFile = config.files.find(({ destination }) => destination.includes('.json'));
   const jsonThemeFile = fs.readFileSync(`${config.buildPath}${jsonFile.destination}`);
   const typeDefinitions = json2ts.convert(jsonThemeFile);
+  const templatePath = path.resolve(__dirname, './templates/typeDefinitions.hbs');
+  const typesTemplate = compileTemplate(templatePath);
 
-  const typeDefinitionFixes = fixTypeDefinitions(typeDefinitions);
+  const tokensTypes = fixTypeDefinitions(typeDefinitions);
 
-  const finalDefinition = `
-declare const Themes: Themes.Themes
-declare namespace Themes {
-  ${typeDefinitionFixes}
-  ${buildThemesInterface(brands)}
-}
-export = Themes
-`;
+  const types = typesTemplate({
+    brands,
+    tokensTypes,
+  });
 
-  return fs.writeFileSync(definitionsPath, finalDefinition);
+  return fs.writeFileSync(definitionsPath, types);
 };
 
 const undoAction = (dictionary, config) => {
