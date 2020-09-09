@@ -4,6 +4,7 @@ import {
   isCategory,
   isItem,
   isProp,
+  isOneOfProps,
   flattenProps,
   splitTokensAndComponents,
   flatTokensAndComponents,
@@ -69,6 +70,24 @@ describe('helpers', () => {
       };
 
       expect(isProp(prop, 'fontWeight')).toEqual(false);
+    });
+  });
+
+  describe('isOneOfProps', () => {
+    it('should return true if one of the given props name is present on current prop', () => {
+      const prop = {
+        path: ['typography', 'lineHeight', 'small'],
+      };
+
+      expect(isOneOfProps(prop, ['borderRadius', 'lineHeight'])).toEqual(true);
+    });
+
+    it('should return false if none of the given prop names is not present on current prop', () => {
+      const prop = {
+        path: ['typography', 'lineHeight', 'small'],
+      };
+
+      expect(isOneOfProps(prop, ['borderRadius', 'fontWeight'])).toEqual(false);
     });
   });
 

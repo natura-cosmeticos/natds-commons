@@ -60,3 +60,6 @@ coverage
 
 # Package dist files
 dist
+
+# Generated file for publishing
+packages/natds-themes/react-native

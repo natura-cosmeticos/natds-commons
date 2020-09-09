@@ -1,15 +1,8 @@
-import buildWebJsonConfig from './buildWebConfig';
+import { buildCssConfig, buildWebConfig } from './buildWebConfig';
 
-const expectedConfig = {
+const expectedWebConfig = {
   buildPath: 'build/web/pokemon/',
   files: [
-    {
-      destination: 'pikachu.css',
-      format: 'css/variables',
-      options: {
-        showFileHeader: false,
-      },
-    },
     {
       destination: 'pikachu.json',
       format: 'json/nested',
@@ -28,10 +21,34 @@ const expectedConfig = {
   transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
 };
 
-describe('buildReactDomConfig', () => {
-  it('should return the react dom config for the given brand and mode', () => {
-    const config = buildWebJsonConfig('pokemon', 'pikachu');
+const expectedCssConfig = {
+  buildPath: 'build/web/pokemon/',
+  files: [
+    {
+      destination: 'pikachu.css',
+      format: 'css/variables',
+      options: {
+        showFileHeader: false,
+      },
+    },
+  ],
+  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex', 'unit/px'],
+};
 
-    expect(config).toEqual(expectedConfig);
+describe('buildReactDomConfig', () => {
+  describe('buildWebConfig', () => {
+    it('should return the react dom config for the given brand and mode', () => {
+      const config = buildWebConfig('pokemon', 'pikachu');
+
+      expect(config).toEqual(expectedWebConfig);
+    });
+  });
+
+  describe('buildCssConfig', () => {
+    it('should return the css config for the given brand and mode', () => {
+      const config = buildCssConfig('pokemon', 'pikachu');
+
+      expect(config).toEqual(expectedCssConfig);
+    });
   });
 });

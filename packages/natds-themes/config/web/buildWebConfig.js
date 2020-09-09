@@ -1,5 +1,19 @@
-// eslint-disable-next-line max-lines-per-function
-const buildWebConfig = (brand, mode) => ({
+export const buildWebConfig = (brand, mode) => ({
+  buildPath: `build/web/${brand}/`,
+  files: [{
+    destination: `${mode}.json`,
+    format: 'json/nested',
+    options: { showFileHeader: false },
+  },
+  {
+    destination: `${mode}.js`,
+    format: 'javascript/es6',
+    options: { showFileHeader: false },
+  }],
+  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
+});
+
+export const buildCssConfig = (brand, mode) => ({
   buildPath: `build/web/${brand}/`,
   files: [
     {
@@ -9,25 +23,6 @@ const buildWebConfig = (brand, mode) => ({
         showFileHeader: false,
       },
     },
-    {
-      destination: `${mode}.json`,
-      format: 'json/nested',
-      options: {
-        showFileHeader: false,
-      },
-    },
-    {
-      destination: `${mode}.js`,
-      format: 'javascript/es6',
-      options: {
-        showFileHeader: false,
-      },
-    },
   ],
-  /**
-   * @todo use pixel transformer for sizing/spacing tokens
-   */
-  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
+  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex', 'unit/px'],
 });
-
-export default buildWebConfig;
