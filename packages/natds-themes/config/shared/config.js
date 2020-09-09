@@ -8,6 +8,7 @@ import { registerThemeFormat, registerThemeProtocolFormat } from '../ios/registe
 import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTransform';
 import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
 import { registerTemplateHeaderHelper } from './templateHelpers';
+import { registerTypeDefinitionsAction } from './registerTypeDefinitionsAction';
 import { registerCamelTransform } from './registerCamelTransform';
 import { registerPxTransform } from './registerPxTransform';
 
@@ -42,6 +43,7 @@ export const customFormats = [
 
 export const customActions = [
   registerHtmlCreatePathsAction,
+  registerTypeDefinitionsAction,
 ];
 
 export const customTransforms = [

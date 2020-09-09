@@ -1,4 +1,5 @@
 export const buildWebConfig = (brand, mode) => ({
+  actions: ['create_type_definitions'],
   buildPath: `build/web/${brand}/`,
   files: [{
     destination: `${mode}.json`,
