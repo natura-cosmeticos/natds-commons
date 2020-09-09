@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.5...@naturacosmeticos/natds-themes@0.3.0) (2020-09-09)
+
+
+### Features
+
+* **natds-themes:** add typescript type definitions generation on build ([88ebd38](https://github.com/natura-cosmeticos/natds-commons/commit/88ebd38b4c33ca35b769f00ecc70eb2fae72502e))
+
+
+
+
+
 ## [0.2.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.2.4...@naturacosmeticos/natds-themes@0.2.5) (2020-09-09)
 
 
