@@ -1,6 +1,7 @@
 import buildReactNativeConfig from './buildReactNativeConfig';
 
 const expectedConfig = {
+  actions: ['create_type_definitions'],
   buildPath: 'build/react-native/pokemon/',
   files: [
     {

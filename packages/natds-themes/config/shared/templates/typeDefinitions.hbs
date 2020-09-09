@@ -1,0 +1,18 @@
+declare const Themes: Themes.Themes
+
+declare namespace Themes {
+  {{tokensTypes}}
+
+  export interface BrandThemes {
+    dark: Theme
+    light: Theme
+  }
+
+  export interface Themes {
+  {{#each brands}}
+    {{this}}: BrandThemes
+  {{/each}}
+  }
+}
+
+export = Themes

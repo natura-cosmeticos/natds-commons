@@ -1,4 +1,5 @@
 const buildReactNativeConfig = (brand, mode) => ({
+  actions: ['create_type_definitions'],
   buildPath: `build/react-native/${brand}/`,
   files: [
     {

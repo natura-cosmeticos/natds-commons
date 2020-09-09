@@ -1,4 +1,4 @@
-import { brands, platforms, modes } from './shared/config';
+import { brands, platforms, modes } from './shared/constants';
 import { buildDictionary } from './shared/buildDictionary';
 
 export const build = () => brands

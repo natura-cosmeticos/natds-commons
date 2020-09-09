@@ -21,7 +21,7 @@ describe('createOutputPathInfo', () => {
     expect(fs.writeFileSync).toHaveBeenCalledWith('./a-file-path.json', JSON.stringify([fakeData]));
   });
 
-  it('should upda a file containing build file paths if exists', () => {
+  it('should update a file containing build file paths if exists', () => {
     const fileData = [{ someData: 'someValue' }];
     const fakeData = { otherData: 'otherValue' };
     const dataBuilderSpy = jest.fn(() => fakeData);
