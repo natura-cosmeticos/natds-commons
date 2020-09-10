@@ -13,7 +13,7 @@ export default [
       compact: false,
       dir: directories['react-native'],
       exports: 'default',
-      format: 'es',
+      format: 'cjs',
       sourcemap: false,
     }],
     plugins,
@@ -22,11 +22,6 @@ export default [
     input: './build/web/index.js',
     output: [
       {
-        compact: false,
-        dir: `${directories.lib}/es`,
-        format: 'es',
-        sourcemap: false,
-      }, {
         compact: false,
         dir: `${directories.lib}/esm`,
         format: 'esm',
