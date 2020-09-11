@@ -30,6 +30,9 @@
     "high": {
       "value": 0.64
     },
+    "veryHigh": {
+      "value": 0.8
+    },
     "opaque": {
       "value": 1
     }
