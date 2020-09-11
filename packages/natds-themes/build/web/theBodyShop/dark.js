@@ -80,6 +80,7 @@ export const opacityDisabled = 0.32;
 export const opacityMedium = 0.48;
 export const opacityMediumHigh = 0.56;
 export const opacityHigh = 0.64;
+export const opacityVeryHigh = 0.8;
 export const opacityOpaque = 1;
 export const sizeNone = 0;
 export const sizeMicro = 4;

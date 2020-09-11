@@ -133,6 +133,7 @@ export interface Opacity {
 	medium: number
 	mediumHigh: number
 	high: number
+	veryHigh: number
 	opaque: number
 }
 
