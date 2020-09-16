@@ -18,8 +18,8 @@
  */
 
 struct AesopDarkTheme: Theme {
-  let tokens: TokensProtocol = AesopDarkTokens()
-  let components: ComponentsProtocol = AesopDarkComponents()
+  let tokens: Tokens = AesopDarkTokens()
+  let components: Components = AesopDarkComponents()
 }
 
 struct AesopDarkTokens: Tokens {

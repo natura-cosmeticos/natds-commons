@@ -18,8 +18,8 @@
  */
 
 struct TheBodyShopDarkTheme: Theme {
-  let tokens: TokensProtocol = TheBodyShopDarkTokens()
-  let components: ComponentsProtocol = TheBodyShopDarkComponents()
+  let tokens: Tokens = TheBodyShopDarkTokens()
+  let components: Components = TheBodyShopDarkComponents()
 }
 
 struct TheBodyShopDarkTokens: Tokens {

@@ -17,12 +17,12 @@
  *                                                              
  */
 
-protocol ThemeProtocol {
-  var tokens: TokensProtocol
-  var components: ComponentsProtocol
+protocol Theme {
+  var tokens: Tokens
+  var components: Components
 }
 
-protocol TokensProtocol {
+protocol Tokens {
   var borderRadiusNone: CGFloat { get }
   var borderRadiusSmall: CGFloat { get }
   var borderRadiusMedium: CGFloat { get }
@@ -160,7 +160,7 @@ protocol TokensProtocol {
   var typographyFontWeightMedium: UIFont.Weight { get }
 }
 
-protocol ComponentsProtocol {
+protocol Components {
   var buttonDefaultFontSize: CGFloat { get }
   var buttonDefaultFontWeight: UIFont.Weight { get }
   var buttonDefaultLetterSpacing: CGFloat { get }

@@ -18,8 +18,8 @@
  */
 
 struct NaturaDarkTheme: Theme {
-  let tokens: TokensProtocol = NaturaDarkTokens()
-  let components: ComponentsProtocol = NaturaDarkComponents()
+  let tokens: Tokens = NaturaDarkTokens()
+  let components: Components = NaturaDarkComponents()
 }
 
 struct NaturaDarkTokens: Tokens {

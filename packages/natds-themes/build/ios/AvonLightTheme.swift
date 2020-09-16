@@ -18,8 +18,8 @@
  */
 
 struct AvonLightTheme: Theme {
-  let tokens: TokensProtocol = AvonLightTokens()
-  let components: ComponentsProtocol = AvonLightComponents()
+  let tokens: Tokens = AvonLightTokens()
+  let components: Components = AvonLightComponents()
 }
 
 struct AvonLightTokens: Tokens {
