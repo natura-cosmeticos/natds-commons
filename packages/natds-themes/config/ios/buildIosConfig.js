@@ -8,7 +8,7 @@ const buildIosConfig = (brand, mode) => ({
       format: 'ios-swift/theme.swift',
     },
     {
-      destination: 'ThemeProtocol.swift',
+      destination: 'Theme.swift',
       format: 'ios-swift/theme-protocol.swift',
     },
   ],
