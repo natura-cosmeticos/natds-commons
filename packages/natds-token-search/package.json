@@ -1,0 +1,49 @@
+{
+  "name": "@naturacosmeticos/natds-token-search",
+  "version": "0.0.0",
+  "description": "An application to help token discovery and usage",
+  "keywords": [
+    "design",
+    "tokens"
+  ],
+  "author": "Ariel Flor <arielwb@gmail.com>",
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-token-search#readme",
+  "license": "ISC",
+  "main": "lib/natds-token-search.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-commons.git"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "browserslist": [
+    "last 3 Chrome versions",
+    "last 3 Firefox versions",
+    "last 2 Safari versions",
+    "last 3 Edge versions",
+    "last 2 iOS versions",
+    "last 2 Android versions",
+    "last 2 ChromeAndroid versions",
+    "IE >= 11"
+  ]
+}
