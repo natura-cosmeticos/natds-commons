@@ -4,7 +4,8 @@ module.exports = {
   "env": {
     "es6": true,
     "node": true,
-    "jest": true
+    "jest": true,
+    "browser": true,
   },
   "extends": ["@naturacosmeticos/natura"],
   "ignorePatterns": [
@@ -37,6 +38,18 @@ module.exports = {
           {
             devDependencies: true,
             packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
+          },
+        ],
+      },
+    },
+    {
+      "files": ['./packages/natds-token-search/src/**/*.js'],
+      rules: {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: true,
+            packageDir: path.join(__dirname, 'packages', 'natds-token-search'),
           },
         ],
       },

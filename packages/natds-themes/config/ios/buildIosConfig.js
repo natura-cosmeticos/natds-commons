@@ -14,6 +14,10 @@ const buildIosConfig = (brand, mode) => ({
       destination: 'ThemeProtocol.swift',
       format: 'ios-swift/theme-protocol.swift',
     },
+    {
+      destination: `${capitalizeWord(brand)}${capitalizeWord(mode)}.js`,
+      format: 'javascript/module',
+    },
   ],
   transformGroup: 'ios-swift',
   transforms: ['color/hex', 'attribute/cti', 'name/cti/camel-custom', 'attribute/type', 'value/string-literal'],

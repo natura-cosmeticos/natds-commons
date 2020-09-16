@@ -15,6 +15,10 @@ const buildAndroidConfig = (brand, mode) => ({
       format: 'android/themes',
       mode: capitalizeWord(mode),
     },
+    {
+      destination: `${mode}.js`,
+      format: 'javascript/module',
+    },
   ],
   transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
 });
