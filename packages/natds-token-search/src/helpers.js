@@ -21,18 +21,15 @@ const setContent = (element) => (content) => {
   element.innerHTML = content; // eslint-disable-line
 };
 
-export const createElement = (element, attributes, content) => {
+export const createElement = (element, attributes, content, className) => {
   const el = document.createElement(element);
 
-  unless(
-    isNil,
-    mapObjIndexed(setAttribute(el)),
-  )(attributes);
+  unless(isNil, mapObjIndexed(setAttribute(el)))(attributes);
+  unless(isNil, setContent(el))(content);
 
-  unless(
-    isNil,
-    setContent(el),
-  )(content);
+  if (className) {
+    el.classList.add(className);
+  }
 
   return el;
 };

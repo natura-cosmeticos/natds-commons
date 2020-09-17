@@ -32,10 +32,10 @@ export const Form = () => {
 
   const state = store.getState();
 
+  form.appendChild(RadioGroup('platform', platforms, state.platform, 'Platforms'));
   form.appendChild(Search(onInputSearch));
-  form.appendChild(RadioGroup('platform', platforms, state.platform));
-  form.appendChild(RadioGroup('brand', brands, state.brand));
-  form.appendChild(RadioGroup('mode', modes, state.mode));
+  form.appendChild(RadioGroup('brand', brands, state.brand, 'Brands'));
+  form.appendChild(RadioGroup('mode', modes, state.mode, 'Modes'));
 
   form.addEventListener('change', onFormChange);
 
