@@ -51,7 +51,9 @@
   "scripts": {
     "build": "yarn build:outputs && yarn build:npm:packages",
     "build:copy": "cp -r ./config/react-native/static/* ./build/react-native && cp -r ./config/web/static/* ./build/web",
-    "build:outputs": "yarn clean && babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
+    "build:dictionary": "yarn clean && babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
+    "build:outputs": "yarn build:dictionary && yarn build:android:colors",
+    "build:android:colors": "babel-node --presets @babel/preset-env -e 'require(\"./config/android/buildColorsOutput.js\").buildColorsOutput()'",
     "build:npm:packages": "yarn build:copy && yarn rollup:build && yarn copy:types",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build:outputs'",
     "clean": "rm -rf ./build && rm -rf ./dist && rm -rf ./react-native",

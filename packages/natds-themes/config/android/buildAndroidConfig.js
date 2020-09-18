@@ -3,6 +3,7 @@
 import { capitalizeWord } from '../shared/textHelpers';
 
 const buildAndroidConfig = (brand, mode) => ({
+  actions: ['create_colors_android'],
   buildPath: `build/android/${brand}/`,
   files: [
     {

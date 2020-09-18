@@ -5,6 +5,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Theme.{{brandName}}.{{mode}}" parent="Theme.MaterialComponents.{{materialMode}}">
+    {{#each colors}}
+    <item name="{{name}}">@colors/{{value}}</item>
+    {{/each}}
     {{#each properties}}
     <item name="{{name}}">{{value}}</item>
     {{/each}}
