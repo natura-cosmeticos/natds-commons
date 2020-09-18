@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio should render checked radio group 1`] = `
+<span>
+  <input
+    checked="checked"
+    id="pikachu"
+    name="pokemon"
+    type="radio"
+    value="pikachu"
+  />
+  <label
+    for="pikachu"
+  >
+    pikachu
+  </label>
+</span>
+`;
+
+exports[`Radio should render unchecked radio group 1`] = `
+<span>
+  <input
+    id="pikachu"
+    name="pokemon"
+    type="radio"
+    value="pikachu"
+  />
+  <label
+    for="pikachu"
+  >
+    pikachu
+  </label>
+</span>
+`;

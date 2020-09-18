@@ -3,11 +3,6 @@ import { createElement } from './helpers';
 import { store } from './store';
 import jss from './styles/jss';
 
-const renderBody = pipe(
-  map((item) => `<tr><td>${item.name}</td><td>${item.value}</td></tr>`),
-  join(''),
-);
-
 const tableStyles = {
   tokenTable: {
     '& td, & th': {
@@ -30,6 +25,11 @@ const tableStyles = {
 const tableSheet = jss.createStyleSheet(tableStyles);
 
 const tableHeading = '<thead><th>Name</th><th>Value</th></thead>';
+
+const renderBody = pipe(
+  map((item) => `<tr><td>${item.name}</td><td>${item.value}</td></tr>`),
+  join(''),
+);
 
 export const Table = () => {
   tableSheet.attach();

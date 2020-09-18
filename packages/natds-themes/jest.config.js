@@ -7,6 +7,7 @@ module.exports = {
   coveragePathIgnorePatterns: [
     '/node_modules/',
     './build/',
+    './coverage/',
     './dist/',
     './.*(.config.js)',
     './react-native/',

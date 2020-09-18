@@ -5,7 +5,7 @@ import * as RadioGroup from '../src/RadioGroup';
 import * as helpers from '../src/helpers';
 import { store } from '../src/store';
 import * as actions from '../src/store/actions';
-import { createMockElement } from './testHelpers';
+import { createMockElement } from '../testHelpers';
 
 const createMockInput = (type, name) => createMockElement('input', {
   type,

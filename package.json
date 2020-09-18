@@ -14,7 +14,7 @@
     "lerna:publish:ci": "yarn lerna:publish --yes",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
-    "copy:netlify:assets": "mkdir -p netlify && cp -r packages/natds-themes/build/html netlify && cp -r packages/natds-token-search/dist/* netlify",
+    "copy:netlify:assets": "mkdir -p netlify && cp -r packages/natds-themes/build/html/* netlify && cp -r packages/natds-token-search/dist/* netlify",
     "netlify:build": "yarn build && yarn copy:netlify:assets",
     "prepublishOnly": "whoami",
     "release:alpha": "yarn release --conventional-prerelease",

@@ -10,10 +10,11 @@ module.exports = {
     './.*(.config.js)',
     './dist/',
     './.cache',
+    './src/styles',
   ],
   displayName,
   name,
-  rootDir: '.',
+  rootDir: '../..',
   transform: {
     '\\.js$': ['babel-jest', { cwd: __dirname }],
   },

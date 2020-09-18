@@ -18,7 +18,6 @@ module.exports = {
     '<rootDir>/packages/natds-token-search/jest.config.js',
   ],
   testMatch: [
-    '**/__tests__/**/*.js',
     '**/?(*.)+(spec|test).js',
   ],
   verbose: true,
