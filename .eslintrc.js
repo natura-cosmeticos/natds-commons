@@ -17,7 +17,10 @@ module.exports = {
   ],
   "overrides": [
     {
-      "files": ['./packages/natds-themes/**/*.test.js'],
+      "files": [
+        './packages/natds-themes/**/*.test.js'
+        './packages/natds-token-search/**/*.test.js'
+      ],
       "rules": {
         'max-lines-per-function': "off",
         'max-statements': "off"

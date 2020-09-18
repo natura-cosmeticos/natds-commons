@@ -2,6 +2,7 @@ module.exports = {
   cacheDirectory: '.jest/cache',
   collectCoverageFrom: [
     '<rootDir>/packages/natds-themes/**/*.js',
+    '<rootDir>/packages/natds-tokens-search/**/*.js',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
@@ -14,6 +15,7 @@ module.exports = {
   },
   projects: [
     '<rootDir>/packages/natds-themes/jest.config.js',
+    '<rootDir>/packages/natds-token-search/jest.config.js',
   ],
   testMatch: [
     '**/__tests__/**/*.js',

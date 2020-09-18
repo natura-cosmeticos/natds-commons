@@ -1,6 +1,6 @@
 import { createElement } from './helpers';
 import { searchAction, store } from './store';
-import { RadioGroup } from './Radio';
+import { RadioGroup } from './RadioGroup';
 import { Search } from './Search';
 
 const brands = [

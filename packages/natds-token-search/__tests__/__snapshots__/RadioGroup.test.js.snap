@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup should render radio group 1`] = `
+<div
+  class="radioGroup-0-0-2 pokemon"
+>
+  <h5>
+    Pokemons
+  </h5>
+  <div
+    class="radios-0-0-1"
+  >
+    <span>
+      <input
+        checked="checked"
+        id="pikachu"
+        name="pokemon"
+        type="radio"
+        value="pikachu"
+      />
+      <label
+        for="pikachu"
+      >
+        pikachu
+      </label>
+    </span>
+    <span>
+      <input
+        id="bulbasour"
+        name="pokemon"
+        type="radio"
+        value="bulbasour"
+      />
+      <label
+        for="bulbasour"
+      >
+        bulbasour
+      </label>
+    </span>
+  </div>
+</div>
+`;

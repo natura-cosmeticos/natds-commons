@@ -14,6 +14,10 @@ const expectedConfig = {
       format: 'android/themes',
       mode: 'Pikachu',
     },
+    {
+      destination: 'pikachu.js',
+      format: 'javascript/module',
+    }
   ],
   transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
 };

@@ -1,5 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-token-search",
+  "displayName": "NatDSTokensSearch",
   "version": "0.0.0",
   "description": "An application to help token discovery and usage",
   "keywords": [
@@ -24,7 +25,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest --colors --collectCoverage"
   },
   "bugs": {
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"

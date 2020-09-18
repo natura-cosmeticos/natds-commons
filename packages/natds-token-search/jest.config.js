@@ -5,20 +5,16 @@ module.exports = {
     './**/*.js',
   ],
   coveragePathIgnorePatterns: [
-    '/node_modules/',
-    './build/',
-    './dist/',
+    './node_modules/',
+    './coverage/',
     './.*(.config.js)',
-    './react-native/',
-    './.*/static/',
+    './dist/',
+    './.cache',
   ],
   displayName,
   name,
   rootDir: '.',
-  setupFilesAfterEnv: [
-    './jest.setup.js',
-  ],
-  watchPathIgnorePatterns: [
-    '__file_snapshots__',
-  ],
+  transform: {
+    '\\.js$': ['babel-jest', { cwd: __dirname }],
+  },
 };
