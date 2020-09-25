@@ -21,7 +21,7 @@ const expectedWebConfig = {
     {
       destination: 'pikachu-esm.js',
       format: 'javascript/module',
-    }
+    },
   ],
   transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
 };

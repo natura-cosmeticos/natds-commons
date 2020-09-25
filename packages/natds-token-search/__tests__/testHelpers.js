@@ -13,3 +13,5 @@ export const createMockElement = (el, attrs, content) => {
 
   return element;
 };
+
+export default createMockElement;

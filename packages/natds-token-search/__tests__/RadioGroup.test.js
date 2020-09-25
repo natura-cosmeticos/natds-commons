@@ -1,14 +1,13 @@
 import { RadioGroup } from '../src/RadioGroup';
 import * as Radio from '../src/Radio';
-import { createMockElement } from '../testHelpers';
-import * as helpers from '../src/helpers';
+import { createMockElement } from './testHelpers';
 
-const createMockRadio = (name, value, checked) => createMockElement('input', {
-  type: 'radio',
-  name,
-  value,
+const createMockRadio = (name, value) => createMockElement('input', {
   'data-testid': value,
-})
+  name,
+  type: 'radio',
+  value,
+});
 
 describe('RadioGroup', () => {
   beforeEach(() => {
@@ -16,7 +15,7 @@ describe('RadioGroup', () => {
   });
 
   it('should render radio group', () => {
-    const radioGroup = RadioGroup('pokemon', ['pikachu', 'bulbasour'], 'pikachu', 'Pokemons')
+    const radioGroup = RadioGroup('pokemon', ['pikachu', 'bulbasour'], 'pikachu', 'Pokemons');
 
     expect(radioGroup).toMatchSnapshot();
   });

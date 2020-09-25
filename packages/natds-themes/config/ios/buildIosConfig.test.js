@@ -17,7 +17,7 @@ const expectedConfig = {
     {
       destination: 'PokemonPikachu.js',
       format: 'javascript/module',
-    }
+    },
   ],
   transformGroup: 'ios-swift',
   transforms: ['color/hex', 'attribute/cti', 'name/cti/camel-custom', 'attribute/type', 'value/string-literal'],

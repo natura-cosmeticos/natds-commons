@@ -11,7 +11,7 @@ const expectedConfig = {
     {
       destination: 'pikachu.js',
       format: 'javascript/module',
-    }
+    },
   ],
   transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex', 'name/cti/camel-custom'],
 };

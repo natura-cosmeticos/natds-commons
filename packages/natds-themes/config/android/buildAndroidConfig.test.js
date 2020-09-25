@@ -17,7 +17,7 @@ const expectedConfig = {
     {
       destination: 'pikachu.js',
       format: 'javascript/module',
-    }
+    },
   ],
   transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
 };

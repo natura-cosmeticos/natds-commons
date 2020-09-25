@@ -4,13 +4,13 @@ import { Table } from '../src/Table';
 const allTokens = [
   {
     name: 'color',
-    value: '#ffffff'
+    value: '#ffffff',
   },
   {
     name: 'opacity',
-    value: 1
-  }
-]
+    value: 1,
+  },
+];
 
 const state = {
   allTokens,
@@ -26,15 +26,16 @@ describe('Table', () => {
     jest.spyOn(store, 'getState').mockReturnValue(state);
   });
   it('should render table', () => {
-    const table = Table()
+    const table = Table();
 
     expect(table).toMatchSnapshot();
   });
 
   it('should update table on store changes', () => {
-    const table = Table()
+    const table = Table();
+
     jest.spyOn(store, 'getState').mockReturnValue({ ...state, selectedTokens: [allTokens[0]] });
-    store.dispatch({ type: 'ACTION' })
+    store.dispatch({ type: 'ACTION' });
 
     expect(table).toMatchSnapshot();
   });

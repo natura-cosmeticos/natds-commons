@@ -18,8 +18,8 @@ module.exports = {
   "overrides": [
     {
       "files": [
-        './packages/natds-themes/**/*.test.js'
-        './packages/natds-token-search/**/*.test.js'
+        './packages/natds-themes/**/*.test.js',
+        './packages/natds-token-search/__tests__/**'
       ],
       "rules": {
         'max-lines-per-function': "off",
@@ -46,7 +46,10 @@ module.exports = {
       },
     },
     {
-      "files": ['./packages/natds-token-search/src/**/*.js'],
+      "files": [
+        './packages/natds-token-search/src/**/*.js',
+        './packages/natds-token-search/__tests__/testHelpers.js'
+      ],
       rules: {
         "import/no-extraneous-dependencies": [
           "error",

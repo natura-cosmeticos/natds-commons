@@ -4,9 +4,11 @@ import jss from './styles/jss';
 const inputStyles = {
   input: {
     border: [1, 'solid', '#DFDFDF'],
-    margin: [[30, 0]],
     padding: 8,
     width: 480,
+  },
+  wrapper: {
+    margin: [[30, 0]],
   },
 };
 
@@ -14,11 +16,16 @@ const sheet = jss.createStyleSheet(inputStyles);
 
 export const Search = (onInput) => {
   sheet.attach();
+  const title = createElement('h5', null, 'Search');
   const input = createElement('input', { type: 'search' }, null, sheet.classes.input);
+  const wrapper = createElement('div', null, null, sheet.classes.wrapper);
 
   input.addEventListener('input', onInput);
 
-  return input;
+  wrapper.appendChild(title);
+  wrapper.appendChild(input);
+
+  return wrapper;
 };
 
 export default Search;

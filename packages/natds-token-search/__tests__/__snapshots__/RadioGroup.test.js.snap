@@ -2,13 +2,13 @@
 
 exports[`RadioGroup should render radio group 1`] = `
 <div
-  class="radioGroup-0-0-2 pokemon"
+  class="radioGroup-0-0-1 pokemon"
 >
   <h5>
     Pokemons
   </h5>
   <div
-    class="radios-0-0-1"
+    class="radios-0-0-2"
   >
     <input
       data-testid="pikachu"

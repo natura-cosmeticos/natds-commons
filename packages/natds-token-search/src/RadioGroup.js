@@ -3,24 +3,24 @@ import jss from './styles/jss';
 import { Radio } from './Radio';
 
 const radioGroupStyles = {
-  radios: {
-    '& span': {
-      '& *': {
-        verticalAlign: 'middle',
-      },
-      '& input': {
-        margin: 0,
+  radioGroup: {
+    '&.brand,&.mode': {
+      '& input:checked+label': {
+        borderColor: '#227BBD',
+        color: 'black',
+        fontWeight: 'bold',
       },
       '& label': {
-        fontSize: 14,
-        paddingLeft: 8,
+        '&:hover': {
+          backgroundColor: '#c4ddef',
+          borderColor: '#227BBD',
+        },
+        border: [1, 'solid', '#DFDFDF'],
+        borderRadius: 25,
+        color: '#565656',
+        padding: [8, 24],
       },
-      padding: [8, 0],
-      width: 120,
     },
-    display: 'flex',
-  },
-  radioGroup: {
     '&.platform': {
       '& $radios': {
         '&::after': {
@@ -49,12 +49,9 @@ const radioGroupStyles = {
           position: 'absolute',
           right: 0,
         },
-        opacity: 0,
-        position: 'absolute',
       },
       '& label': {
         padding: [20, 0],
-        position: 'relative',
       },
       '& span': {
         display: 'flex',
@@ -65,6 +62,26 @@ const radioGroupStyles = {
     },
     margin: [20, 0],
   },
+  radios: {
+    '& span': {
+      '& *': {
+        verticalAlign: 'middle',
+      },
+      '& input': {
+        margin: 0,
+        opacity: 0,
+        position: 'absolute',
+      },
+      '& label': {
+        fontSize: 14,
+        position: 'relative',
+      },
+      marginRight: 24,
+      padding: [8, 0],
+    },
+    display: 'flex',
+  },
+
 };
 
 const radioGroupSheet = jss.createStyleSheet(radioGroupStyles);

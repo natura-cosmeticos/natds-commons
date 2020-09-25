@@ -3,7 +3,7 @@ import * as Form from '../src/Form';
 import * as Table from '../src/Table';
 import * as helpers from '../src/helpers';
 import { App } from '../src/App';
-import { createMockElement } from '../testHelpers';
+import { createMockElement } from './testHelpers';
 
 describe('App', () => {
   let createElementSpy;

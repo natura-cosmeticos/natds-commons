@@ -35,9 +35,6 @@ const reducer = (state = initialState, action) => {
 
   const currentAction = prop(action.type, actionMap);
 
-  console.log({ state });
-  console.log({ action });
-
   return currentAction ? currentAction(state, action) : { ...state };
 };
 

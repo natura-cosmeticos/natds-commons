@@ -1,8 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Search should render search 1`] = `
-<input
-  class="input-0-0-1"
-  type="search"
-/>
+<div
+  class="wrapper-0-0-2"
+>
+  <h5>
+    Search
+  </h5>
+  <input
+    class="input-0-0-1"
+    type="search"
+  />
+</div>
 `;

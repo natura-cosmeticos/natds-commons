@@ -2,7 +2,7 @@
 
 exports[`App renders the app 1`] = `
 <div
-  class="container-0-0-5"
+  class="container-0-0-6"
 >
   <div>
     Form
