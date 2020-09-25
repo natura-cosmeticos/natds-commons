@@ -24,7 +24,7 @@
     "release": "lerna version --conventional-commits",
     "release:ci": "yarn release --conventional-graduate --create-release github --yes",
     "start": "lerna run start --stream",
-    "test": "lerna run test --stream",
+    "test": "jest --colors --collectCoverage",
     "test:ci": "yarn lint && yarn test",
     "test:watch": "jest ----watchAll --collectCoverage"
   },

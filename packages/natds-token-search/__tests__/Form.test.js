@@ -1,5 +1,5 @@
 import { getByText, queryByTestId, getByTestId, fireEvent } from '@testing-library/dom';
-import { Form } from '../src/Form';
+import { Form, onFormChange, onInputSearch } from '../src/Form';
 import * as Search from '../src/Search';
 import * as RadioGroup from '../src/RadioGroup';
 import * as helpers from '../src/helpers';
@@ -26,10 +26,12 @@ const state = {
 describe('Form', () => {
   let createElementSpy;
   let radioGroupSpy;
+  let dispatchSpy;
 
   beforeEach(() => {
     jest.spyOn(Search, 'Search').mockReturnValue(createMockInput('search', 'search'));
     jest.spyOn(store, 'getState').mockReturnValue(state);
+    dispatchSpy = jest.spyOn(store, 'dispatch');
     radioGroupSpy = jest.spyOn(RadioGroup, 'RadioGroup').mockImplementation((name) => createMockInput('radio', name));
     createElementSpy = jest.spyOn(helpers, 'createElement');
   });
@@ -85,6 +87,17 @@ describe('Form', () => {
       fireEvent.change(getByTestId(form, 'search'), { target: { value: 'pikachu' } })
 
       expect(searchActionSpy).toHaveBeenCalledWith({ search: 'pikachu' })
+    });
+  });
+
+  describe('form handlers', () => {
+    it('should dispatch search action with input payload', () => {
+      const searchActionSpy = jest.spyOn(actions, 'searchAction');
+
+      onInputSearch({ target: { value: 'a value' } });
+
+      expect(dispatchSpy).toHaveBeenCalled();
+      expect(searchActionSpy).toHaveBeenCalledWith({ search: 'a value' });
     });
   });
 });

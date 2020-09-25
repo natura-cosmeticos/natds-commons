@@ -1,8 +1,18 @@
 module.exports = {
-  cacheDirectory: '.jest/cache',
+  cacheDirectory: '<rootDir>/.jest/cache',
   collectCoverageFrom: [
-    '<rootDir>/packages/natds-themes/**/*.js',
-    '<rootDir>/packages/natds-tokens-search/**/*.js',
+    '<rootDir>/packages/natds-themes/*/**/*.js',
+    '<rootDir>/packages/natds-token-search/*/**/*.js',
+  ],
+  coveragePathIgnorePatterns: [
+    'build',
+    'node_modules',
+    'dist',
+    'coverage',
+    'static',
+    'natds-themes/react-native',
+    'natds-token-search/src/styles',
+    'natds-token-search/src/index',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
@@ -13,12 +23,25 @@ module.exports = {
       statements: 100,
     },
   },
-  projects: [
-    '<rootDir>/packages/natds-themes/jest.config.js',
-    '<rootDir>/packages/natds-token-search/jest.config.js',
-  ],
   testMatch: [
     '**/?(*.)+(spec|test).js',
+  ],
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/examples/',
+    '/coverage/',
+    '\\.snap$',
+    '/packages/.*/build',
+    '/packages/.*/dist',
+  ],
+  transform: {
+    '^.+\\.[jt]sx?$': 'babel-jest',
+  },
+  setupFilesAfterEnv: [
+    './jest.setup.js',
+  ],
+  watchPathIgnorePatterns: [
+    '__file_snapshots__',
   ],
   verbose: true,
 };

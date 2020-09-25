@@ -19,7 +19,7 @@ const platforms = [
   'web',
 ];
 
-const onInputSearch = ({ target }) => store.dispatch(
+export const onInputSearch = ({ target }) => store.dispatch(
   searchAction({ search: target.value }),
 );
 
