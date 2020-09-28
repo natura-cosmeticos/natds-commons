@@ -30,3 +30,10 @@ export const globalStyles = {
     },
   },
 };
+
+export const color = {
+  gray: '#DFDFDF',
+  primary: '#915F55',
+  primaryHover: '#c4ddef',
+  text: '#565656',
+};

@@ -1,9 +1,10 @@
 import { createElement } from './helpers';
 import jss from './styles/jss';
+import { color } from './styles/global';
 
 const inputStyles = {
   input: {
-    border: [1, 'solid', '#DFDFDF'],
+    border: [1, 'solid', color.gray],
     padding: 8,
     width: 480,
   },

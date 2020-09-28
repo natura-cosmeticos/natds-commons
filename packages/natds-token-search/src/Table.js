@@ -2,11 +2,12 @@ import { pipe, join, map } from 'ramda';
 import { createElement } from './helpers';
 import { store } from './store';
 import jss from './styles/jss';
+import { color } from './styles/global';
 
 const tableStyles = {
   tokenTable: {
     '& td, & th': {
-      border: [1, 'solid', '#DFDFDF'],
+      border: [1, 'solid', color.gray],
       fontSize: 16,
       lineHeight: 1.5,
       padding: 8,

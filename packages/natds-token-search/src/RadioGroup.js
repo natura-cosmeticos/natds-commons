@@ -1,30 +1,31 @@
 import { createElement } from './helpers';
 import jss from './styles/jss';
+import { color } from './styles/global';
 import { Radio } from './Radio';
 
 const radioGroupStyles = {
   radioGroup: {
     '&.brand,&.mode': {
       '& input:checked+label': {
-        borderColor: '#227BBD',
+        borderColor: color.primary,
         color: 'black',
         fontWeight: 'bold',
       },
       '& label': {
         '&:hover': {
-          backgroundColor: '#c4ddef',
-          borderColor: '#227BBD',
+          backgroundColor: color.primaryHover,
+          borderColor: color.primary,
         },
-        border: [1, 'solid', '#DFDFDF'],
+        border: [1, 'solid', color.gray],
         borderRadius: 25,
-        color: '#565656',
+        color: color.text,
         padding: [8, 24],
       },
     },
     '&.platform': {
       '& $radios': {
         '&::after': {
-          borderBottom: [1, 'solid', '#dfdfdf'],
+          borderBottom: [1, 'solid', color.gray],
           bottom: 0,
           content: '""',
           left: 16,
@@ -42,7 +43,7 @@ const radioGroupStyles = {
           fontWeight: 'bold',
         },
         '&:checked+label::after': {
-          borderBottom: [2, 'solid', '#227BBD'],
+          borderBottom: [2, 'solid', color.primary],
           bottom: 0,
           content: '""',
           left: 0,
