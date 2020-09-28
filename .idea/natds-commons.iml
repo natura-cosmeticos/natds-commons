@@ -15,5 +15,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/jest" level="application" />
+    <orderEntry type="library" name="@naturacosmeticos/natds-themes" level="application" />
   </component>
 </module>

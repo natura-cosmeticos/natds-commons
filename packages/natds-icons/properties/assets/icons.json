@@ -1,0 +1,144 @@
+{
+  "asset": {
+    "icon": {
+      "filled-action-add": {
+        "unicode": ["\u2795"],
+        "value": "assets/icons/filled-action-add.svg"
+      },
+      "filled-action-cancel": {
+        "unicode": ["\u2327", "\u2418", "\u0018", "\uD83D\uDDD9"],
+        "value": "assets/icons/filled-action-cancel.svg"
+      },
+      "filled-action-check": {
+        "unicode": ["\u2705"],
+        "value": "assets/icons/filled-action-check.svg"
+      },
+      "filled-action-delete": {
+        "unicode": ["\uD83D\uDDD1"],
+        "value": "assets/icons/filled-action-delete.svg"
+      },
+      "filled-action-love": {
+        "unicode": ["\u2764", "\uD83D\uDDA4"],
+        "value": "assets/icons/filled-action-love.svg"
+      },
+      "filled-action-newrequest": {
+        "unicode": ["\u8ACB"],
+        "value": "assets/icons/filled-action-newrequest.svg"
+      },
+      "filled-action-rating": {
+        "unicode": ["\u2605"],
+        "value": "assets/icons/filled-action-rating.svg"
+      },
+      "filled-action-subtract": {
+        "unicode": ["\u2796"],
+        "value": "assets/icons/filled-action-subtract.svg"
+      },
+      "filled-brand-facebook": {
+        "unicode": ["\u0066"],
+        "value": "assets/icons/filled-brand-facebook.svg"
+      },
+      "filled-brand-google": {
+        "unicode": ["\u0047"],
+        "value": "assets/icons/filled-brand-google.svg"
+      },
+      "filled-brand-linkedin": {
+        "unicode": ["\u0069\u006E"],
+        "value": "assets/icons/filled-brand-linkedin.svg"
+      },
+      "filled-brand-instagram": {
+        "unicode": ["\uD83D\uDCF8"],
+        "value": "assets/icons/filled-brand-instagram.svg"
+      },
+      "filled-brand-naturarosacea": {
+        "unicode": ["\uD83C\uDFF5", "\uD83C\uDFF6", "\uD800\uDDF5"],
+        "value": "assets/icons/filled-brand-naturarosacea.svg"
+      },
+      "filled-brand-pinterest": {
+        "unicode": ["\u0070"],
+        "value": "assets/icons/filled-brand-pinterest.svg"
+      },
+      "filled-brand-spotify": {
+        "unicode": ["\uD83D\uDD0A"],
+        "value": "assets/icons/filled-brand-spotify.svg"
+      },
+      "filled-brand-twitter": {
+        "unicode": ["\uD83D\uDC26", "\u553D"],
+        "value": "assets/icons/filled-brand-twitter.svg"
+      },
+      "filled-brand-whatsapp": {
+        "unicode": ["\u2706"],
+        "value": "assets/icons/filled-brand-whatsapp.svg"
+      },
+      "filled-brand-youtube": {
+        "unicode": ["\uD83D\uDCFA", "\u0079\u0074"],
+        "value": "assets/icons/filled-brand-youtube.svg"
+      },
+      "filled-content-channel": {
+        "unicode": ["\u2B24\u25B6"],
+        "value": "assets/icons/filled-content-channel.svg"
+      },
+      "filled-content-divulgation": {
+        "unicode": ["\u4F48", "\u80ED", "\u81D9"],
+        "value": "assets/icons/filled-content-divulgation.svg"
+      },
+      "filled-content-quote": {
+        "unicode": ["\u201D", "\u201E", "\u275E"],
+        "value": "assets/icons/filled-content-quote.svg"
+      },
+      "filled-default-mockup": {
+        "unicode": ["\u25C6"],
+        "value": "assets/icons/filled-default-mockup.svg"
+      },
+      "filled-finance-charging": {
+        "comment": "Barcode used to enable reading via the smartphone's camera.",
+        "unicode": ["\u275A", "\u2758", "\u2759", "\u2980"],
+        "value": "assets/icons/filled-finance-charging.svg"
+      },
+      "filled-finance-paymentlink": {
+        "unicode": ["\uD83D\uDCAC\uD83D\uDD17"],
+        "value": "assets/icons/filled-finance-paymentlink.svg"
+      },
+      "filled-media-pause": {
+        "unicode": ["\u2016", "\u23F8"],
+        "value": "assets/icons/filled-media-pause.svg"
+      },
+      "filled-media-play": {
+        "unicode": ["\u25B6", "\u25B6\uFE0F"],
+        "value": "assets/icons/filled-media-play.svg"
+      },
+      "filled-media-stop": {
+        "unicode": ["\u23F9", "\u2B1B"],
+        "value": "assets/icons/filled-media-stop.svg"
+      },
+      "filled-navigation-arrowbottom": {
+        "unicode": ["\u2304", "\u142F", "\u02C5", "\u02C7", "\u02EC", "\u032C"],
+        "value": "assets/icons/filled-navigation-arrowbottom.svg"
+      },
+      "filled-navigation-arrow"
+      "outlined-action-camerachange": {
+        "unicode": ["\uD83D\uDD01", "\u21B7\u293E"],
+        "value": "assets/icons/outlined-action-camerachange.svg"
+      },
+      "outlined-action-change": {
+        "unicode": ["\u21C4", "\u2B82"],
+        "value": "assets/icons/outlined-action-change.svg"
+      },
+      "outlined-action-copylink": {
+        "unicode": ["\uD83D\uDD17"],
+        "value": "assets/icons/outlined-action-copylink.svg"
+      },
+      "outlined-finance-paymentlink": {
+        "unicode": ["\uD83D\uDD17\uD83D\uDCAC"],
+        "value": "assets/icons/outlined-finance-paymentlink.svg"
+      },
+      "outlined-media-camera": {
+        "unicode": ["\uD83D\uDCF7"],
+        "value": "assets/icons/outlined-media-camera.svg"
+      },
+      "outlined-product-ekos": {
+        "unicode": ["\uD83E\uDDF4"],
+        "value": "assets/icons/outlined-product-ekos.svg"
+      }
+    }
+  }
+}

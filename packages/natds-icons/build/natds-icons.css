@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+@font-face {
+    font-display: swap;
+    font-family: "natds-icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/natds-icons.woff2") format("woff2"), /* Super Modern Browsers */
+         url("./fonts/natds-icons.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("./fonts/natds-icons.svg#natds-icons") format("svg"); /* Legacy iOS */
+}
+
+.natds-icons {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    flex-shrink: 0;
+    font-family: "natds-icons", system-ui;
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    height: 1em;
+    line-height: 1;
+    overflow: hidden;
+    text-rendering: auto;
+    user-select: none;
+    width: 1em;
+}
+
+.natds-icons-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -0.0667em;
+}
+
+.natds-icons-xs {
+    font-size: 0.75em;
+}
+
+.natds-icons-sm {
+    font-size: 0.875em;
+}
+
+.natds-icons-1x {
+    font-size: 1em;
+}
+
+.natds-icons-2x {
+    font-size: 2em;
+}
+
+.natds-icons-3x {
+    font-size: 3em;
+}
+
+.natds-icons-4x {
+    font-size: 4em;
+}
+
+.natds-icons-5x {
+    font-size: 5em;
+}
+
+.natds-icons-6x {
+    font-size: 6em;
+}
+
+.natds-icons-7x {
+    font-size: 7em;
+}
+
+.natds-icons-8x {
+    font-size: 8em;
+}
+
+.natds-icons-9x {
+    font-size: 9em;
+}
+
+.natds-icons-10x {
+    font-size: 10em;
+}
+
+.natds-icons-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+.natds-icons-filled-action-add::before {
+    content: "➕"
+}
+.natds-icons-filled-action-cancel::before {
+    content: "⌧"
+}
+.natds-icons-filled-action-check::before {
+    content: "✅"
+}
+.natds-icons-filled-action-delete::before {
+    content: "🗑"
+}
+.natds-icons-filled-action-love::before {
+    content: "❤"
+}
+.natds-icons-filled-action-newrequest::before {
+    content: "請"
+}
+.natds-icons-filled-action-rating::before {
+    content: "★"
+}
+.natds-icons-filled-action-subtract::before {
+    content: "➖"
+}
+.natds-icons-filled-brand-facebook::before {
+    content: "f"
+}
+.natds-icons-filled-brand-google::before {
+    content: "G"
+}
+.natds-icons-filled-brand-linkedin::before {
+    content: "in"
+}
+.natds-icons-filled-brand-instagram::before {
+    content: "📸"
+}
+.natds-icons-filled-brand-naturarosacea::before {
+    content: "🏵"
+}
+.natds-icons-filled-brand-pinterest::before {
+    content: "p"
+}
+.natds-icons-filled-brand-spotify::before {
+    content: "🔊"
+}
+.natds-icons-filled-brand-twitter::before {
+    content: "🐦"
+}
+.natds-icons-filled-brand-whatsapp::before {
+    content: "✆"
+}
+.natds-icons-filled-brand-youtube::before {
+    content: "📺"
+}
+.natds-icons-filled-content-channel::before {
+    content: "⬤▶"
+}
+.natds-icons-filled-content-divulgation::before {
+    content: "佈"
+}
+.natds-icons-filled-content-quote::before {
+    content: "”"
+}
+.natds-icons-filled-default-mockup::before {
+    content: "◆"
+}
+.natds-icons-filled-finance-charging::before {
+    content: "❚"
+}
+.natds-icons-filled-finance-paymentlink::before {
+    content: "💬🔗"
+}
+.natds-icons-filled-media-pause::before {
+    content: "‖"
+}
+.natds-icons-filled-media-play::before {
+    content: "▶"
+}
+.natds-icons-filled-media-stop::before {
+    content: "⏹"
+}
+.natds-icons-filled-navigation-arrowbottom::before {
+    content: "⌄"
+}
+.natds-icons-outlined-action-camerachange::before {
+    content: "🔁"
+}
+.natds-icons-outlined-action-change::before {
+    content: "⇄"
+}
+.natds-icons-outlined-action-copylink::before {
+    content: "🔗"
+}
+.natds-icons-outlined-finance-paymentlink::before {
+    content: "🔗💬"
+}
+.natds-icons-outlined-media-camera::before {
+    content: "📷"
+}
+.natds-icons-outlined-product-ekos::before {
+    content: "🧴"
+}

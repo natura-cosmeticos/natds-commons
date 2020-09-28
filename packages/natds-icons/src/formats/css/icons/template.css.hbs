@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+@font-face {
+    font-display: swap;
+    font-family: "natds-icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/natds-icons.woff2") format("woff2"), /* Super Modern Browsers */
+         url("./fonts/natds-icons.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("./fonts/natds-icons.svg#natds-icons") format("svg"); /* Legacy iOS */
+}
+
+.natds-icons {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    flex-shrink: 0;
+    font-family: "natds-icons", system-ui;
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    height: 1em;
+    line-height: 1;
+    overflow: hidden;
+    text-rendering: auto;
+    user-select: none;
+    width: 1em;
+}
+
+.natds-icons-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -0.0667em;
+}
+
+.natds-icons-xs {
+    font-size: 0.75em;
+}
+
+.natds-icons-sm {
+    font-size: 0.875em;
+}
+
+.natds-icons-1x {
+    font-size: 1em;
+}
+
+.natds-icons-2x {
+    font-size: 2em;
+}
+
+.natds-icons-3x {
+    font-size: 3em;
+}
+
+.natds-icons-4x {
+    font-size: 4em;
+}
+
+.natds-icons-5x {
+    font-size: 5em;
+}
+
+.natds-icons-6x {
+    font-size: 6em;
+}
+
+.natds-icons-7x {
+    font-size: 7em;
+}
+
+.natds-icons-8x {
+    font-size: 8em;
+}
+
+.natds-icons-9x {
+    font-size: 9em;
+}
+
+.natds-icons-10x {
+    font-size: 10em;
+}
+
+.natds-icons-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+{{#each properties}}
+.natds-icons-{{name}}::before {
+    content: "{{unicodeToCss unicode.[0]}}"
+}
+{{/each}}

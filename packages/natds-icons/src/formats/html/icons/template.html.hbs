@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <title>natds-icons: Icons for Natura & Co. Design System</title>
+    <link href="./natds-icons.css" rel="stylesheet" type="text/css" />
+    <style>li, ul {list-style-type: none; margin: 0; padding: 0;}</style>
+</head>
+<body>
+{{#each properties}}
+{{#if comment}}
+    <!-- {{comment}} -->
+{{/if}}
+    <i aria-hidden="true" class="natds-icons natds-icons-3x natds-icons-{{name}}" title="{{name}}"></i>
+{{/each}}
+</ul>
+</body>
+</html>
