@@ -3,9 +3,9 @@
 {{> fileHeader }}
 -->
 <resources>
-    {{#each colors}}
+    {{#each dimensions}}
     {{#each @this}}
-    <color name="{{@key}}">{{.}}</color>
+    <dimen name="{{@key}}">{{.}}</dimen>
     {{/each}}
     {{/each}}
 </resources>

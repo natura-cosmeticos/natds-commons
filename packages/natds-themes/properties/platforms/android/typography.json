@@ -2,10 +2,10 @@
   "typography":{
     "fontWeight": {
       "regular": {
-        "value": "regular"
+        "value": "sans-serif"
       },
       "medium": {
-        "value": "medium"
+        "value": "sans-serif-medium"
       }
     }
   },

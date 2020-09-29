@@ -1,12 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- 
 {{> fileHeader }}
 -->
-
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <style name="Theme.{{brandName}}.{{mode}}" parent="Theme.MaterialComponents.{{materialMode}}">
     {{#each colors}}
     <item name="{{name}}">@color/ssot{{value}}</item>
+    {{/each}}
+    {{#each dimensions}}
+    <item name="{{name}}">@dimen/ssot{{value}}</item>
     {{/each}}
     {{#each properties}}
     <item name="{{name}}">{{value}}</item>

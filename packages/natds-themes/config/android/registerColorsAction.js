@@ -1,24 +1,31 @@
 import fs from 'fs';
 import { createOutputPathInfo } from '../shared/createOutputPathInfo';
-import { isProp } from '../shared/helpers';
+import { isDimension, isColor, mapFilteredValues } from './helpers';
 
-const filePath = 'build/android/colors.json';
+const outputPath = 'build/android';
+const colorsOutputPath = `${outputPath}/colors.json`;
+const dimensionsOutputPath = `${outputPath}/dimensions.json`;
 
-const dataBuilderFunction = (dictionary) => dictionary
-  .allProperties
-  .filter((item) => isProp(item, 'color'))
-  .map((item) => item.value);
+const getItemValue = (item) => item.value;
 
-export const createPaths = (
-  dictionary,
-  config,
-) => createOutputPathInfo(filePath, dataBuilderFunction, dictionary, config);
+const dataBuilder = (filterFn) => (dictionary) => mapFilteredValues(
+  dictionary.allProperties,
+  filterFn,
+  getItemValue,
+);
 
-export const deletePaths = () => fs.unlinkSync(filePath);
+export const extractValuesForResourceOutput = (dictionary, config) => {
+  createOutputPathInfo(colorsOutputPath, dataBuilder(isColor), dictionary, config);
+  createOutputPathInfo(dimensionsOutputPath, dataBuilder(isDimension), dictionary, config);
+};
+
+export const deletePaths = () => {
+  fs.unlinkSync(colorsOutputPath);
+};
 
 export const registerColorsAction = () => (
   {
-    do: createPaths,
+    do: extractValuesForResourceOutput,
     name: 'create_colors_android',
     undo: deletePaths,
   }
