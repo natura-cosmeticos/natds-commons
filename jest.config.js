@@ -1,20 +1,21 @@
 module.exports = {
   cacheDirectory: '<rootDir>/.jest/cache',
   collectCoverageFrom: [
-    '<rootDir>/packages/natds-themes/*/**/*.js',
-    '<rootDir>/packages/natds-token-search/*/**/*.js',
+    '<rootDir>/packages/natds-themes/**/*.js',
+    '<rootDir>/packages/natds-token-search/**/*.js',
   ],
+  coverageDirectory: '<rootDir>/coverage',
   coveragePathIgnorePatterns: [
     'build',
     'node_modules',
     'dist',
     'coverage',
     'static',
+    '/packages/.*.config.js',
     'natds-themes/react-native',
     'natds-token-search/src/styles',
     'natds-token-search/src/index',
   ],
-  coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
     global: {
       branches: 100,
@@ -23,6 +24,9 @@ module.exports = {
       statements: 100,
     },
   },
+  setupFilesAfterEnv: [
+    './jest.setup.js',
+  ],
   testMatch: [
     '**/?(*.)+(spec|test).js',
   ],
@@ -37,11 +41,8 @@ module.exports = {
   transform: {
     '^.+\\.[jt]sx?$': 'babel-jest',
   },
-  setupFilesAfterEnv: [
-    './jest.setup.js',
-  ],
+  verbose: true,
   watchPathIgnorePatterns: [
     '__file_snapshots__',
   ],
-  verbose: true,
 };

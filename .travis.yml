@@ -12,6 +12,7 @@ git:
   quiet: true
 install: 
   - "yarn install --frozen-lockfile"
+  - "yarn global add codecov"
   - "yarn global add snyk"
   - "snyk auth $SNYK_TOKEN"
 before_script:
@@ -19,9 +20,10 @@ before_script:
 script: 
   - "yarn lint"
   - "yarn build"
-  - "yarn test"
-  - "bash <(curl -s https://codecov.io/bash)"
+  - "yarn test --maxWorkers=2"
   - "snyk test --all-projects"
+after_success:
+  - codecov
 jobs:
   include:
     - stage: check
