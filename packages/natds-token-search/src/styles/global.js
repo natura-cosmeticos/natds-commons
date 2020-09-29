@@ -33,7 +33,7 @@ export const globalStyles = {
 
 export const color = {
   gray: '#DFDFDF',
-  primary: '#915F55',
-  primaryHover: '#c4ddef',
+  primary: '#397364',
+  primaryHover: '#D7E3E0',
   text: '#565656',
 };
