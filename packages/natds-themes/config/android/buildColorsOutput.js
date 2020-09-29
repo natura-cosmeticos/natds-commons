@@ -9,9 +9,7 @@ export const buildColorsOutput = () => {
 
   const colors = fs.readFileSync(`${colorsPath}/colors.json`);
   const uniqueColorsKeys = [...new Set(JSON.parse(colors))];
-  const uniqueColors = uniqueColorsKeys.map((item) => ({ [CryptoJS.MD5(item)]: item }));
-
-  console.log(uniqueColors);
+  const uniqueColors = uniqueColorsKeys.map((item) => ({ [`ssot${CryptoJS.MD5(item)}`]: item }));
 
   const template = compileTemplate(templatePath);
 
