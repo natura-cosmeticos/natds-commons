@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 30 Sep 2020 18:16:27 GMT
+ * Generated on Wed, 30 Sep 2020 18:20:23 GMT
  */
 
 module.exports = {
@@ -2456,7 +2456,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -2563,7 +2563,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -2670,7 +2670,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -2777,7 +2777,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -2884,7 +2884,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -2991,7 +2991,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -3098,7 +3098,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -3205,7 +3205,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -3312,7 +3312,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -3419,7 +3419,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [
@@ -3526,7 +3526,7 @@ module.exports = {
           "item": "shadowOpacity",
           "customOptions": {
             "includeType": true,
-            "type": "CGFloat"
+            "type": "Float"
           }
         },
         "path": [

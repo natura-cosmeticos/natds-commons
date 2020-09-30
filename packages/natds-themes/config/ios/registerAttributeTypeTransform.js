@@ -7,6 +7,7 @@ const types = {
   int: 'CGFloat',
   lineHeight: 'CGFloat',
   number: 'CGFloat',
+  shadowOpacity: 'Float',
   string: 'String',
 };
 
