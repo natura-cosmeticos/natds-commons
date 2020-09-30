@@ -4,7 +4,8 @@ module.exports = {
   "env": {
     "es6": true,
     "node": true,
-    "jest": true
+    "jest": true,
+    "browser": true,
   },
   "extends": ["@naturacosmeticos/natura"],
   "ignorePatterns": [
@@ -16,7 +17,10 @@ module.exports = {
   ],
   "overrides": [
     {
-      "files": ['./packages/natds-themes/**/*.test.js'],
+      "files": [
+        './packages/natds-themes/**/*.test.js',
+        './packages/natds-token-search/__tests__/**'
+      ],
       "rules": {
         'max-lines-per-function': "off",
         'max-statements': "off"
@@ -37,6 +41,21 @@ module.exports = {
           {
             devDependencies: true,
             packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
+          },
+        ],
+      },
+    },
+    {
+      "files": [
+        './packages/natds-token-search/src/**/*.js',
+        './packages/natds-token-search/__tests__/testHelpers.js'
+      ],
+      rules: {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: true,
+            packageDir: path.join(__dirname, 'packages', 'natds-token-search'),
           },
         ],
       },

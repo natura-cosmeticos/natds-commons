@@ -56,10 +56,13 @@ package-lock.json
 coverage
 
 # IDE workspace specific configuration
-.idea/workspace.xml
+.idea
 
 # Package dist files
 dist
 
 # Generated file for publishing
 packages/natds-themes/react-native
+
+.cache
+netlify

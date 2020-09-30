@@ -6,6 +6,10 @@ const buildReactNativeConfig = (brand, mode) => ({
       destination: `${mode}.json`,
       format: 'json/nested',
     },
+    {
+      destination: `${mode}.js`,
+      format: 'javascript/module',
+    },
   ],
   transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex', 'name/cti/camel-custom'],
 });

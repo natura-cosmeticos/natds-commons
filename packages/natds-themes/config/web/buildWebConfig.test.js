@@ -18,6 +18,10 @@ const expectedWebConfig = {
         showFileHeader: false,
       },
     },
+    {
+      destination: 'pikachu-esm.js',
+      format: 'javascript/module',
+    },
   ],
   transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
 };

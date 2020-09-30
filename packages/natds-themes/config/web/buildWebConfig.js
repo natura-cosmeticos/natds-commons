@@ -1,3 +1,5 @@
+/* eslint-disable max-lines-per-function */
+
 export const buildWebConfig = (brand, mode) => ({
   actions: ['create_type_definitions'],
   buildPath: `build/web/${brand}/`,
@@ -10,7 +12,12 @@ export const buildWebConfig = (brand, mode) => ({
     destination: `${mode}.js`,
     format: 'javascript/es6',
     options: { showFileHeader: false },
-  }],
+  },
+  {
+    destination: `${mode}-esm.js`,
+    format: 'javascript/module',
+  },
+  ],
   transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
 });
 
