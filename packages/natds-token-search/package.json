@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-token-search",
   "displayName": "NatDSTokensSearch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An application to help token discovery and usage",
   "keywords": [
     "design",
@@ -32,7 +32,7 @@
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-themes": "^0.4.2",
+    "@naturacosmeticos/natds-themes": "^0.4.3",
     "jss": "^10.4.0",
     "jss-preset-default": "^10.4.0",
     "ramda": "^0.27.1",
