@@ -17,12 +17,12 @@
  *                                                              
  */
 
-protocol ThemeProtocol {
-  var tokens: TokensProtocol
-  var components: ComponentsProtocol
+protocol Theme {
+  var tokens: Tokens
+  var components: Components
 }
 
-protocol TokensProtocol {
+protocol Tokens {
   var borderRadiusSmall:  { get }
   var colorPrimary:  { get }
   var elevationTiny:  { get }
@@ -32,6 +32,6 @@ protocol TokensProtocol {
   var typographyLineHeightSmall:  { get }
 }
 
-protocol ComponentsProtocol {
+protocol Components {
   var heading1FontSize:  { get }
 }

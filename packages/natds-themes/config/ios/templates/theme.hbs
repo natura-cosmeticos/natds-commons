@@ -1,8 +1,8 @@
 {{> fileHeader }}
 
 struct {{themeName}}Theme: Theme {
-  let tokens: TokensProtocol = {{themeName}}Tokens()
-  let components: ComponentsProtocol = {{themeName}}Components()
+  let tokens: Tokens = {{themeName}}Tokens()
+  let components: Components = {{themeName}}Components()
 }
 
 struct {{themeName}}Tokens: Tokens {
