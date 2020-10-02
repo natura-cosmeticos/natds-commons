@@ -12,7 +12,7 @@ const templateDataBuilder = (
 ) => {
   const props = flattenProps(properties);
 
-  const otherProps = props.filter((item) => !isColor && !isDimension(item));
+  const otherProps = props.filter((item) => !isColor(item) && !isDimension(item));
 
   return {
     brandName,

@@ -5,7 +5,7 @@ export const createOutputPathInfo = (filePath, dataBuilderFunction, dictionary, 
   const data = dataBuilderFunction(dictionary, config);
 
   if (Array.isArray(data)) {
-    fs.writeFileSync(filePath, JSON.stringify(data.concat(currentData)));
+    fs.writeFileSync(filePath, JSON.stringify(currentData.concat(data)));
   } else {
     currentData.push(data);
     fs.writeFileSync(filePath, JSON.stringify(currentData));

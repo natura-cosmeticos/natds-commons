@@ -46,6 +46,18 @@ module.exports = {
       },
     },
     {
+      "files": ['./packages/natds-themes/**/*.js'],
+      rules: {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: true,
+            packageDir: path.join(__dirname, 'packages', 'natds-themes'),
+          },
+        ],
+      },
+    },
+    {
       "files": [
         './packages/natds-token-search/src/**/*.js',
         './packages/natds-token-search/__tests__/testHelpers.js'
