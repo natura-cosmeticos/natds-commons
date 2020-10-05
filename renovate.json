@@ -10,7 +10,41 @@
     {
       "groupName": "snyk package",
       "packagePatterns": ["snyk"],
-      "rangeStrategy": "replace"
+      "rangeStrategy": "replace",
+      "automerge": true
+    },
+    {
+      "packageNames": [ "babel-eslint" ],
+      "packagePatterns": [ "^eslint" ],
+      "groupName": "eslint",
+      "automerge": true
+    },
+    {
+      "packageNames": [ "babel-jest", "@testing-library/dom" ],
+      "packagePatterns": [ "^jest" ],
+      "groupName": "test",
+      "automerge": true
+    },
+    {
+      "packageNames": [ "typescript", "tslib" ],
+      "groupName": "ts",
+      "automerge": true
+    },
+    {
+      "packagePatterns": [ "^@babel" ],
+      "groupName": "babel",
+      "automerge": true
+    },
+    {
+      "packagePatterns": [ "^@rollup", "^rollup"  ],
+      "groupName": "rollup",
+      "automerge": true
+    },
+    {
+      "packageNames": [ "cz-lerna-changelog", "commitizen", "lerna-changelog" ],
+      "packagePatterns": [ "^@commitlint"  ],
+      "groupName": "changelog",
+      "automerge": true
     }
   ],
   "semanticCommits": true,
