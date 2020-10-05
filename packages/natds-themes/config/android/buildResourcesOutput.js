@@ -11,7 +11,7 @@ const buildUniqueEncodedArray = (values) => {
   return uniqueValuesKeys.map(buildEncodedObjectFromValue);
 };
 
-const buildResourcesFromThemeValues = (resourceType) => {
+export const buildResourcesFromThemeValues = (resourceType) => {
   const outputPath = path.resolve(__dirname, '../../build/android');
   const templatePath = path.resolve(__dirname, `./templates/${resourceType}.hbs`);
   const themeValues = fs.readFileSync(`${outputPath}/${resourceType}.json`);
@@ -28,5 +28,3 @@ export const buildResourcesOutput = () => {
   buildResourcesFromThemeValues('colors');
   buildResourcesFromThemeValues('dimensions');
 };
-
-export default buildResourcesOutput;
