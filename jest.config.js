@@ -3,6 +3,7 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/packages/natds-themes/**/*.js',
     '<rootDir>/packages/natds-token-search/**/*.js',
+    '<rootDir>/packages/natds-icons/**/*.js',
     '!**/build/**',
     '!**/node_modules/**',
     '!**/dist/**',
