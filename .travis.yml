@@ -12,18 +12,15 @@ git:
   quiet: true
 install: 
   - "yarn install --frozen-lockfile"
-  - "yarn global add codecov"
   - "yarn global add snyk"
   - "snyk auth $SNYK_TOKEN"
 before_script:
   - "yarn bootstrap"
 script: 
   - "yarn lint"
-  - "yarn build"
-  - "yarn test --maxWorkers=2"
+  - "yarn test --runInBand"
+  - "bash <(curl -s https://codecov.io/bash)"
   - "snyk test --all-projects"
-after_success:
-  - codecov
 jobs:
   include:
     - stage: check
@@ -34,10 +31,8 @@ jobs:
       if: type = push AND branch = master
       before_deploy:
         - "sh ./scripts/configure-git.sh"
-        - npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'
-        - yarn config set _authToken "${NPM_AUTH_TOKEN}"
-        - "git add packages/natds-themes/build/**/*"
-        - "git commit --allow-empty -m \"build(natds-themes): update android and ios generated files [skip ci]\""
+        - "npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'"
+        - "yarn config set _authToken '${NPM_AUTH_TOKEN}'"
         - "yarn release:ci"
       deploy:
         - provider: script
