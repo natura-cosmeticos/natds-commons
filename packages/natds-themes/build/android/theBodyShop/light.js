@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Oct 2020 13:47:38 GMT
+ * Generated on Fri, 02 Oct 2020 17:34:10 GMT
  */
 
 module.exports = {
@@ -587,7 +587,7 @@ module.exports = {
   "button": {
     "default": {
       "fontSize": {
-        "value": "14dp",
+        "value": "14sp",
         "original": {
           "value": 14
         },
@@ -607,7 +607,7 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": "medium",
+        "value": "sans-serif-medium",
         "original": {
           "value": "{typography.fontWeight.medium.value}"
         },
@@ -617,7 +617,7 @@ module.exports = {
           "type": "default",
           "item": "fontWeight",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [
@@ -627,7 +627,7 @@ module.exports = {
         ]
       },
       "letterSpacing": {
-        "value": "0.0892857143dp",
+        "value": 0.0892857143,
         "original": {
           "value": 0.0892857143
         },
@@ -647,7 +647,7 @@ module.exports = {
         ]
       },
       "lineHeight": {
-        "value": "1.5dp",
+        "value": 1.5,
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
@@ -670,7 +670,7 @@ module.exports = {
   },
   "heading1": {
     "fontSize": {
-      "value": "96dp",
+      "value": "96sp",
       "original": {
         "value": 96
       },
@@ -688,7 +688,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -697,7 +697,7 @@ module.exports = {
         "category": "heading1",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -706,7 +706,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.015625dp",
+      "value": 0.015625,
       "original": {
         "value": 0.015625
       },
@@ -726,7 +726,7 @@ module.exports = {
   },
   "heading2": {
     "fontSize": {
-      "value": "60dp",
+      "value": "60sp",
       "original": {
         "value": 60
       },
@@ -744,7 +744,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -753,7 +753,7 @@ module.exports = {
         "category": "heading2",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -762,7 +762,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "-0.00833333333dp",
+      "value": -0.00833333333,
       "original": {
         "value": -0.00833333333
       },
@@ -782,7 +782,7 @@ module.exports = {
   },
   "heading3": {
     "fontSize": {
-      "value": "48dp",
+      "value": "48sp",
       "original": {
         "value": 48
       },
@@ -800,7 +800,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -809,7 +809,7 @@ module.exports = {
         "category": "heading3",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -818,7 +818,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0dp",
+      "value": 0,
       "original": {
         "value": 0
       },
@@ -838,7 +838,7 @@ module.exports = {
   },
   "heading4": {
     "fontSize": {
-      "value": "34dp",
+      "value": "34sp",
       "original": {
         "value": 34
       },
@@ -856,7 +856,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -865,7 +865,7 @@ module.exports = {
         "category": "heading4",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -874,7 +874,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.00735294118dp",
+      "value": 0.00735294118,
       "original": {
         "value": 0.00735294118
       },
@@ -894,7 +894,7 @@ module.exports = {
   },
   "heading5": {
     "fontSize": {
-      "value": "24dp",
+      "value": "24sp",
       "original": {
         "value": 24
       },
@@ -912,7 +912,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -921,7 +921,7 @@ module.exports = {
         "category": "heading5",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -930,7 +930,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0dp",
+      "value": 0,
       "original": {
         "value": 0
       },
@@ -950,7 +950,7 @@ module.exports = {
   },
   "heading6": {
     "fontSize": {
-      "value": "20dp",
+      "value": "20sp",
       "original": {
         "value": 20
       },
@@ -968,7 +968,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "medium",
+      "value": "sans-serif-medium",
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -977,7 +977,7 @@ module.exports = {
         "category": "heading6",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -986,7 +986,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.0125dp",
+      "value": 0.0125,
       "original": {
         "value": 0.0125
       },
@@ -1006,7 +1006,7 @@ module.exports = {
   },
   "subtitle1": {
     "fontSize": {
-      "value": "16dp",
+      "value": "16sp",
       "original": {
         "value": 16
       },
@@ -1024,7 +1024,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "medium",
+      "value": "sans-serif-medium",
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -1033,7 +1033,7 @@ module.exports = {
         "category": "subtitle1",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -1042,7 +1042,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.009375dp",
+      "value": 0.009375,
       "original": {
         "value": 0.009375
       },
@@ -1062,7 +1062,7 @@ module.exports = {
   },
   "subtitle2": {
     "fontSize": {
-      "value": "14dp",
+      "value": "14sp",
       "original": {
         "value": 14
       },
@@ -1080,7 +1080,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "medium",
+      "value": "sans-serif-medium",
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -1089,7 +1089,7 @@ module.exports = {
         "category": "subtitle2",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -1098,7 +1098,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.00714285714dp",
+      "value": 0.00714285714,
       "original": {
         "value": 0.00714285714
       },
@@ -1118,7 +1118,7 @@ module.exports = {
   },
   "body1": {
     "fontSize": {
-      "value": "16dp",
+      "value": "16sp",
       "original": {
         "value": 16
       },
@@ -1136,7 +1136,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -1145,7 +1145,7 @@ module.exports = {
         "category": "body1",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -1154,7 +1154,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.03125dp",
+      "value": 0.03125,
       "original": {
         "value": 0.03125
       },
@@ -1174,7 +1174,7 @@ module.exports = {
   },
   "body2": {
     "fontSize": {
-      "value": "14dp",
+      "value": "14sp",
       "original": {
         "value": 14
       },
@@ -1192,7 +1192,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -1201,7 +1201,7 @@ module.exports = {
         "category": "body2",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -1210,7 +1210,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.03125dp",
+      "value": 0.03125,
       "original": {
         "value": 0.03125
       },
@@ -1230,7 +1230,7 @@ module.exports = {
   },
   "caption": {
     "fontSize": {
-      "value": "12dp",
+      "value": "12sp",
       "original": {
         "value": 12
       },
@@ -1248,7 +1248,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "regular",
+      "value": "sans-serif",
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -1257,7 +1257,7 @@ module.exports = {
         "category": "caption",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -1266,7 +1266,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.0333333333dp",
+      "value": 0.0333333333,
       "original": {
         "value": 0.0333333333
       },
@@ -1286,7 +1286,7 @@ module.exports = {
   },
   "overline": {
     "fontSize": {
-      "value": "12dp",
+      "value": "12sp",
       "original": {
         "value": 12
       },
@@ -1304,7 +1304,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": "medium",
+      "value": "sans-serif-medium",
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -1313,7 +1313,7 @@ module.exports = {
         "category": "overline",
         "type": "fontWeight",
         "customOptions": {
-          "type": "dimension"
+          "type": "string"
         }
       },
       "path": [
@@ -1322,7 +1322,7 @@ module.exports = {
       ]
     },
     "letterSpacing": {
-      "value": "0.166666667dp",
+      "value": 0.166666667,
       "original": {
         "value": 0.166666667
       },
@@ -1342,7 +1342,7 @@ module.exports = {
   },
   "opacity": {
     "transparent": {
-      "value": "0dp",
+      "value": 0,
       "original": {
         "value": 0
       },
@@ -1351,7 +1351,7 @@ module.exports = {
         "category": "opacity",
         "type": "transparent",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1360,7 +1360,7 @@ module.exports = {
       ]
     },
     "lower": {
-      "value": "0.04dp",
+      "value": 0.04,
       "original": {
         "value": 0.04
       },
@@ -1369,7 +1369,7 @@ module.exports = {
         "category": "opacity",
         "type": "lower",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1378,7 +1378,7 @@ module.exports = {
       ]
     },
     "veryLow": {
-      "value": "0.08dp",
+      "value": 0.08,
       "original": {
         "value": 0.08
       },
@@ -1387,7 +1387,7 @@ module.exports = {
         "category": "opacity",
         "type": "veryLow",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1396,7 +1396,7 @@ module.exports = {
       ]
     },
     "low": {
-      "value": "0.12dp",
+      "value": 0.12,
       "original": {
         "value": 0.12
       },
@@ -1405,7 +1405,7 @@ module.exports = {
         "category": "opacity",
         "type": "low",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1414,7 +1414,7 @@ module.exports = {
       ]
     },
     "mediumLow": {
-      "value": "0.16dp",
+      "value": 0.16,
       "original": {
         "value": 0.16
       },
@@ -1423,7 +1423,7 @@ module.exports = {
         "category": "opacity",
         "type": "mediumLow",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1432,7 +1432,7 @@ module.exports = {
       ]
     },
     "disabledLow": {
-      "value": "0.24dp",
+      "value": 0.24,
       "original": {
         "value": 0.24
       },
@@ -1441,7 +1441,7 @@ module.exports = {
         "category": "opacity",
         "type": "disabledLow",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1450,7 +1450,7 @@ module.exports = {
       ]
     },
     "disabled": {
-      "value": "0.32dp",
+      "value": 0.32,
       "original": {
         "value": 0.32
       },
@@ -1459,7 +1459,7 @@ module.exports = {
         "category": "opacity",
         "type": "disabled",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1468,7 +1468,7 @@ module.exports = {
       ]
     },
     "medium": {
-      "value": "0.48dp",
+      "value": 0.48,
       "original": {
         "value": 0.48
       },
@@ -1477,7 +1477,7 @@ module.exports = {
         "category": "opacity",
         "type": "medium",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1486,7 +1486,7 @@ module.exports = {
       ]
     },
     "mediumHigh": {
-      "value": "0.56dp",
+      "value": 0.56,
       "original": {
         "value": 0.56
       },
@@ -1495,7 +1495,7 @@ module.exports = {
         "category": "opacity",
         "type": "mediumHigh",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1504,7 +1504,7 @@ module.exports = {
       ]
     },
     "high": {
-      "value": "0.64dp",
+      "value": 0.64,
       "original": {
         "value": 0.64
       },
@@ -1513,7 +1513,7 @@ module.exports = {
         "category": "opacity",
         "type": "high",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1522,7 +1522,7 @@ module.exports = {
       ]
     },
     "veryHigh": {
-      "value": "0.8dp",
+      "value": 0.8,
       "original": {
         "value": 0.8
       },
@@ -1531,7 +1531,7 @@ module.exports = {
         "category": "opacity",
         "type": "veryHigh",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1540,7 +1540,7 @@ module.exports = {
       ]
     },
     "opaque": {
-      "value": "1dp",
+      "value": 1,
       "original": {
         "value": 1
       },
@@ -1549,7 +1549,7 @@ module.exports = {
         "category": "opacity",
         "type": "opaque",
         "customOptions": {
-          "type": "dimension"
+          "type": "float"
         }
       },
       "path": [
@@ -1897,7 +1897,7 @@ module.exports = {
           "type": "fontFamily",
           "item": "primary",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [
@@ -1917,7 +1917,7 @@ module.exports = {
           "type": "fontFamily",
           "item": "secondary",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [
@@ -1937,7 +1937,7 @@ module.exports = {
           "type": "fontFamily",
           "item": "branding",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [
@@ -1957,7 +1957,7 @@ module.exports = {
           "type": "fontFamily",
           "item": "code",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [
@@ -1969,7 +1969,7 @@ module.exports = {
     },
     "lineHeight": {
       "reset": {
-        "value": "1dp",
+        "value": 1,
         "original": {
           "value": 1
         },
@@ -1989,7 +1989,7 @@ module.exports = {
         ]
       },
       "small": {
-        "value": "1.25dp",
+        "value": 1.25,
         "original": {
           "value": 1.25
         },
@@ -2009,7 +2009,7 @@ module.exports = {
         ]
       },
       "medium": {
-        "value": "1.5dp",
+        "value": 1.5,
         "original": {
           "value": 1.5
         },
@@ -2029,7 +2029,7 @@ module.exports = {
         ]
       },
       "large": {
-        "value": "2dp",
+        "value": 2,
         "original": {
           "value": 2
         },
@@ -2051,9 +2051,9 @@ module.exports = {
     },
     "fontWeight": {
       "regular": {
-        "value": "regular",
+        "value": "sans-serif",
         "original": {
-          "value": "regular"
+          "value": "sans-serif"
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -2061,7 +2061,7 @@ module.exports = {
           "type": "fontWeight",
           "item": "regular",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [
@@ -2071,9 +2071,9 @@ module.exports = {
         ]
       },
       "medium": {
-        "value": "medium",
+        "value": "sans-serif-medium",
         "original": {
-          "value": "medium"
+          "value": "sans-serif-medium"
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -2081,7 +2081,7 @@ module.exports = {
           "type": "fontWeight",
           "item": "medium",
           "customOptions": {
-            "type": "dimension"
+            "type": "string"
           }
         },
         "path": [

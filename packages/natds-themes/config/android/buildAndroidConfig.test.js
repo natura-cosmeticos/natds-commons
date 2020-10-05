@@ -2,6 +2,7 @@ import buildAndroidConfig from './buildAndroidConfig';
 import * as textHelpers from '../shared/textHelpers';
 
 const expectedConfig = {
+  actions: ['create_resources'],
   buildPath: 'build/android/pokemon/',
   files: [
     {

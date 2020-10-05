@@ -1,13 +1,9 @@
-import { isCategory, isProp } from '../shared/helpers';
+import { isDimensionWithUnit, isSpDimension } from './helpers';
 
 export const registerDpTransform = () => ({
-  matcher: (prop) => (
-    !isCategory(prop, 'color')
-    && !isProp(prop, 'fontWeight')
-    && !isProp(prop, 'fontFamily')
-  ),
+  matcher: isDimensionWithUnit,
   name: 'size/dp-custom',
-  transformer: ({ value }) => `${value}dp`,
+  transformer: (prop) => `${prop.value}${isSpDimension(prop) ? 'sp' : 'dp'}`,
   type: 'value',
 });
 

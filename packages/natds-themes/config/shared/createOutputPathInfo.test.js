@@ -26,7 +26,7 @@ describe('createOutputPathInfo', () => {
     const fakeData = { otherData: 'otherValue' };
     const dataBuilderSpy = jest.fn(() => fakeData);
 
-    fs.existsSync.mockImplementation(() => true);
+    fs.existsSync.mockReturnValue(true);
     fs.writeFileSync.mockImplementation(() => { });
     fs.readFileSync.mockImplementation(() => JSON.stringify(fileData));
 
@@ -39,5 +39,25 @@ describe('createOutputPathInfo', () => {
 
     expect(dataBuilderSpy).toHaveBeenCalledWith('dictionary', 'config');
     expect(fs.writeFileSync).toHaveBeenCalledWith('./another-file-path.json', JSON.stringify(expectedFileContent));
+  });
+
+  it('should concat with existing data if the new data is an array', () => {
+    const fileData = ['someValue'];
+    const fakeData = ['newValue'];
+    const dataBuilderSpy = jest.fn(() => fakeData);
+
+    fs.existsSync.mockReturnValue(true);
+    fs.readFileSync.mockImplementation(() => JSON.stringify(fileData));
+    fs.writeFileSync.mockImplementation(() => { });
+
+    createOutputPathInfo('./a-file-path.json', dataBuilderSpy, 'dictionary', 'config');
+
+    const expectedFileContent = [
+      'someValue',
+      'newValue',
+    ];
+
+    expect(dataBuilderSpy).toHaveBeenCalledWith('dictionary', 'config');
+    expect(fs.writeFileSync).toHaveBeenCalledWith('./a-file-path.json', JSON.stringify(expectedFileContent));
   });
 });

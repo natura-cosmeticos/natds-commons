@@ -4,6 +4,7 @@ import registerAttributesFormatter from '../android/registerAttributesFormat';
 import registerThemeFormatAndroid from '../android/registerThemeFormat';
 import { registerDpTransform } from '../android/registerDpTransform';
 import { registerAttributeTypeTransform } from '../android/registerAttributeTypeTransform';
+import { registerCreateResourcesAction } from '../android/registerCreateResourcesAction';
 import { registerThemeFormat, registerThemeProtocolFormat } from '../ios/registerFormats';
 import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTransform';
 import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
@@ -23,6 +24,7 @@ export const customFormats = [
 export const customActions = [
   registerHtmlCreatePathsAction,
   registerTypeDefinitionsAction,
+  registerCreateResourcesAction,
 ];
 
 export const customTransforms = [

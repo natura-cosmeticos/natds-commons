@@ -1,4 +1,5 @@
 import { registerDpTransform } from './registerDpTransform';
+import * as helpers from './helpers';
 
 describe('registerDpTransform', () => {
   it('should return the transform config', () => {
@@ -11,7 +12,9 @@ describe('registerDpTransform', () => {
     expect(registerDpTransform()).toMatchObject(expectedConfig);
   });
 
-  it('should append the dp unit to the value', () => {
+  it('should append the dp unit to the value when isSpDimension is false', () => {
+    jest.spyOn(helpers, 'isSpDimension').mockReturnValue(false);
+
     const config = registerDpTransform();
 
     const prop = {
@@ -30,7 +33,30 @@ describe('registerDpTransform', () => {
     expect(config.transformer(prop)).toEqual('8dp');
   });
 
-  it('should match only dimension categories', () => {
+  it('should append the sp unit to the value when isSpDimension is true', () => {
+    jest.spyOn(helpers, 'isSpDimension').mockReturnValue(true);
+
+    const config = registerDpTransform();
+
+    const prop = {
+      attributes: { category: 'fontSize' },
+      name: 'fontSizeSmall',
+      original: {
+        value: 8,
+      },
+      path: [
+        'fontSize',
+        'small',
+      ],
+      value: 8,
+    };
+
+    expect(config.transformer(prop)).toEqual('8sp');
+  });
+
+  it('should match only dimension with unit properties', () => {
+    const isDimensionWithUnitSpy = jest.spyOn(helpers, 'isDimensionWithUnit');
+
     const config = registerDpTransform();
 
     const prop = {
@@ -46,25 +72,8 @@ describe('registerDpTransform', () => {
       value: 8,
     };
 
-    expect(config.matcher(prop)).toEqual(true);
-  });
+    config.matcher(prop);
 
-  it('should not match color category', () => {
-    const config = registerDpTransform();
-
-    const prop = {
-      attributes: { category: 'color' },
-      name: 'colorPrimary',
-      original: {
-        value: '#F091C9',
-      },
-      path: [
-        'color',
-        'primary',
-      ],
-      value: '#F091C9',
-    };
-
-    expect(config.matcher(prop)).toEqual(false);
+    expect(isDimensionWithUnitSpy).toHaveBeenCalled();
   });
 });

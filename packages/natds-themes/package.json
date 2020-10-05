@@ -51,7 +51,9 @@
   "scripts": {
     "build": "yarn build:outputs && yarn build:npm:packages",
     "build:copy": "cp -r ./config/react-native/static/* ./build/react-native && cp -r ./config/web/static/* ./build/web",
-    "build:outputs": "yarn clean && babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
+    "build:dictionary": "yarn clean && babel-node --presets @babel/preset-env -e 'require(\"./config/build.js\").build()'",
+    "build:outputs": "yarn build:dictionary && yarn build:android:resources",
+    "build:android:resources": "babel-node --presets @babel/preset-env -e 'require(\"./config/android/buildResourcesOutput.js\").buildResourcesOutput()'",
     "build:npm:packages": "yarn build:copy && yarn rollup:build && yarn copy:types",
     "build:watch": "nodemon --watch config -e .js,.hbs -x 'yarn build:outputs'",
     "clean": "rm -rf ./build && rm -rf ./dist && rm -rf ./react-native",
@@ -68,5 +70,13 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "crypto-js": "^4.0.0",
+    "handlebars": "^4.7.6",
+    "json2ts": "^0.0.7",
+    "ramda": "^0.27.1",
+    "style-dictionary": "^2.10.1"
   }
 }
