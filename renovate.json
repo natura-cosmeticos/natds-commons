@@ -47,6 +47,7 @@
       "automerge": true
     }
   ],
+  "prConcurrentLimit": 3,
   "semanticCommits": true,
   "unicodeEmoji": true,
   "updateLockFiles": true,
