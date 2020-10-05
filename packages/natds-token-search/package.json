@@ -39,7 +39,7 @@
     "redux": "^4.0.5"
   },
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "1.12.4"
   },
   "browserslist": [
     "last 3 Chrome versions",
