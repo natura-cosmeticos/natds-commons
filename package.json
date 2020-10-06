@@ -69,7 +69,7 @@
     "@rollup/plugin-typescript": "5.0.2",
     "@testing-library/dom": "7.24.2",
     "babel-eslint": "10.1.0",
-    "babel-jest": "26.3.0",
+    "babel-jest": "26.5.0",
     "commitizen": "4.2.1",
     "core-js": "3.6.5",
     "crypto-js": "4.0.0",
