@@ -13,6 +13,10 @@ module.exports = {
     '!<rootDir>/packages/natds-themes/react-native/*.js',
     '!<rootDir>/packages/natds-token-search/src/styles/*.js',
     '!<rootDir>/packages/natds-token-search/src/index.js',
+    '!<rootDir>/packages/natds-icons/scripts/generateJsonType.js',
+    '!<rootDir>/packages/natds-icons/scripts/svgCleaner.js',
+    '!<rootDir>/packages/natds-icons/scripts/svgToFont.js',
+    '!<rootDir>/packages/natds-icons/regression/**',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
