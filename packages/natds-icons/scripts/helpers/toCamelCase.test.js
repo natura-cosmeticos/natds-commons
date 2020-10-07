@@ -1,9 +1,9 @@
-import toCamelCase from "./toCamelCase";
+import toCamelCase from './toCamelCase';
 
-describe("toCamelCase function", () => {
-  it("should convert to camelCase correctly", () => {
-    const actual = toCamelCase("outlined-finance-bag");
+describe('toCamelCase function', () => {
+  it('should convert to camelCase correctly', () => {
+    const actual = toCamelCase('outlined-finance-bag');
 
-    expect(actual).toBe("outlinedFinanceBag");
+    expect(actual).toBe('outlinedFinanceBag');
   });
 });

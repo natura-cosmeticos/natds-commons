@@ -1,9 +1,8 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const toCamelCaseMapper = require("./toCamelCaseMapper");
+const toCamelCaseMapper = require('./toCamelCaseMapper');
 
 const toCamelCase = (word) => word
-  .split("-")
+  .split('-')
   .map(toCamelCaseMapper)
-  .join("");
+  .join('');
 
 module.exports = toCamelCase;

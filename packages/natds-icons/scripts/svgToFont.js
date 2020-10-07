@@ -1,41 +1,35 @@
 #!/usr/bin/env node
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const webfont = require("webfont").default;
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const fs = require("fs");
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const getIconString = require("./helpers/getIconString");
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const getUnicodeIconString = require("./helpers/getUnicodeIconString");
+const webfont = require('webfont').default;
+const fs = require('fs');
+const getIconString = require('./helpers/getIconString');
+const getUnicodeIconString = require('./helpers/getUnicodeIconString');
 
 const config = {
-  files: "./src/assets/cleaned/**/*.svg",
+  files: './src/assets/cleaned/**/*.svg',
   fontHeight: 600,
-  fontName: "natds-icons",
+  fontName: 'natds-icons',
   normalize: true,
-  template: "css",
-  templateFontPath: "./fonts",
+  template: 'css',
+  templateFontPath: './fonts',
 };
 
-const distMetadata = "./src/";
-const distFont = "./src/fonts/";
+const distMetadata = './src/';
+const distFont = './src/fonts/';
 const types = [
-  "eot",
-  "ttf",
-  "woff",
-  "woff2",
-  "svg",
+  'eot',
+  'ttf',
+  'woff',
+  'woff2',
+  'svg',
 ];
 
 const onError = (error) => {
   if (error) {
-    // eslint-disable-next-line no-console
     console.error(error);
   }
 };
 
-// @todo refactor(icons): refactor createSwiftOutput()
 const createSwiftOutput = (metadata) => {
   const formattedMetadataSwift = `
 public enum Icon: String, CaseIterable {
@@ -57,7 +51,6 @@ extension Icon {
 const FIRST_INDEX = 0;
 const INDEX_INCREMENT = 1;
 
-// eslint-disable-next-line max-lines-per-function
 const onSuccess = (result) => {
   const { config: { fontName }, template, glyphsData } = result;
   const metadata = {};
@@ -67,7 +60,7 @@ const onSuccess = (result) => {
   });
 
   fs.writeFile(`${distMetadata + fontName}.css`, template, onError);
-  const formattedMetadataJson = `${JSON.stringify(metadata, null, "\t")}\n`;
+  const formattedMetadataJson = `${JSON.stringify(metadata, null, '\t')}\n`;
 
   fs.writeFile(`${distMetadata + fontName}.json`, formattedMetadataJson, onError);
 

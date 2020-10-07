@@ -54,7 +54,9 @@
     "minify-svg-files": "node ./scripts/svgCleaner.js",
     "start": "http-server ./src",
     "test": "jest --collectCoverage --colors",
-    "watch": "yarn start"
+    "watch": "yarn start",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "yarn lint --fix"
   },
   "config": {},
   "devDependencies": {
@@ -77,5 +79,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "puppeteer": "^5.3.1"
   }
 }

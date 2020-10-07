@@ -1,11 +1,10 @@
 #!/usr/bin/env node
-/* eslint-disable @typescript-eslint/no-var-requires */
-const fs = require("fs");
-const SVGO = require("svgo");
-const glob = require("glob");
+const fs = require('fs');
+const SVGO = require('svgo');
+const glob = require('glob');
 
-const INPUT = "./src/assets/raw/**/*.svg";
-const OUTPUT = "./src/assets/cleaned/";
+const INPUT = './src/assets/raw/**/*.svg';
+const OUTPUT = './src/assets/cleaned/';
 
 const svgo = new SVGO({
   plugins: [
@@ -46,22 +45,20 @@ const svgo = new SVGO({
     { convertShapeToPath: true },
     { sortAttrs: true },
     { removeDimensions: true },
-    { removeAttrs: { attrs: "(stroke|fill)" } },
+    { removeAttrs: { attrs: '(stroke|fill)' } },
   ],
 });
 
 const onError = (err) => {
   if (err) {
-    // eslint-disable-next-line no-console
     console.error(err);
     throw err;
   }
 };
 
 const getName = (path) => {
-  const parts = path.split("/");
+  const parts = path.split('/');
 
-  // eslint-disable-next-line no-magic-numbers
   const LAST_INDEX = parts.length - 1;
 
   return parts[LAST_INDEX];
@@ -77,16 +74,13 @@ const onFileReady = (content, path) => {
 
 const readFiles = () => glob(INPUT, (readFilesError, filenames) => {
   if (readFilesError) {
-    // eslint-disable-next-line no-console
     console.error(readFilesError);
     throw readFilesError;
   }
 
   filenames.forEach((filepath) => {
-    // eslint-disable-next-line no-shadow
-    fs.readFile(filepath, "utf-8", (readFileError, content) => {
+    fs.readFile(filepath, 'utf-8', (readFileError, content) => {
       if (readFileError) {
-        // eslint-disable-next-line no-console
         console.error(readFileError);
         throw readFileError;
       }

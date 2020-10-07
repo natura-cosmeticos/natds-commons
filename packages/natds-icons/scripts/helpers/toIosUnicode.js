@@ -1,3 +1,3 @@
-const toIosUnicode = (unicode) => `${unicode.replace("%u", "\\u{")}}`;
+const toIosUnicode = (unicode) => `${unicode.replace('%u', '\\u{')}}`;
 
 module.exports = toIosUnicode;

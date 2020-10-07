@@ -19,7 +19,8 @@ module.exports = {
     {
       "files": [
         './packages/natds-themes/**/*.test.js',
-        './packages/natds-token-search/__tests__/**'
+        './packages/natds-token-search/__tests__/**',
+        './packages/natds-icons/**/*.test.js'
       ],
       "rules": {
         'max-lines-per-function': "off",
@@ -53,6 +54,18 @@ module.exports = {
           {
             devDependencies: true,
             packageDir: path.join(__dirname, 'packages', 'natds-themes'),
+          },
+        ],
+      },
+    },
+    {
+      "files": ['./packages/natds-icons/**/*.js'],
+      rules: {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            devDependencies: true,
+            packageDir: path.join(__dirname, 'packages', 'natds-icons'),
           },
         ],
       },

@@ -19,9 +19,9 @@ describe('icon list', () => {
     const page = await browser.newPage();
 
     await page.setViewport({
+      height: 1080,
       width: 1920,
-      height: 1080
-    })
+    });
 
     await page.goto('http://127.0.0.1:8080/');
 
