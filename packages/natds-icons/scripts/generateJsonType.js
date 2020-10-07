@@ -3,19 +3,17 @@ const path = require('path');
 const JsonToTS = require('json-to-ts');
 const jsonFile = require('../src/natds-icons.json');
 
-const result = JsonToTS(jsonFile);
-let data = '/* eslint-disable max-lines,quotes */\n';
-
-result.forEach((typeInterface) => {
-  data = data.concat(typeInterface);
-});
-data = data.concat('\ndeclare const styles : RootObject;\n\nexport = styles;\n');
+const data = JsonToTS(jsonFile)
+  .reduce((types, typeInterface) => types.concat(typeInterface), '')
+  .concat('\ndeclare const styles : RootObject;\n\nexport = styles;\n');
 
 const filePath = path.resolve(__dirname, '..', 'src', 'natds-icons.json.d.ts');
 
-fs.writeFile(filePath, data, (error) => {
+try {
+  fs.writeFileSync(filePath, data);
+  console.info('SUCCESS Done writing JSON module file.');
+} catch (error) {
   if (error) {
     throw error;
   }
-  console.info('SUCCESS Done writing JSON module file.');
-});
+}

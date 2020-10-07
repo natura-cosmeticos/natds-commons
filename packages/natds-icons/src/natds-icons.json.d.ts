@@ -1,4 +1,3 @@
-/* eslint-disable max-lines,quotes */
 interface RootObject {
   'filled-action-add': string;
   'filled-action-cancel': string;
