@@ -51,6 +51,7 @@ extension Icon {
 const FIRST_INDEX = 0;
 const INDEX_INCREMENT = 1;
 
+/* eslint-disable */
 const onSuccess = (result) => {
   const { config: { fontName }, template, glyphsData } = result;
   const metadata = {};
@@ -74,6 +75,7 @@ const onSuccess = (result) => {
 
   createSwiftOutput(metadata);
 };
+/* eslint-enable */
 
 webfont(config).then(onSuccess)
   .catch(onError);

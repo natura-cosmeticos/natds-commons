@@ -17,6 +17,7 @@ module.exports = {
     '!<rootDir>/packages/natds-icons/scripts/svgCleaner.js',
     '!<rootDir>/packages/natds-icons/scripts/svgToFont.js',
     '!<rootDir>/packages/natds-icons/regression/**',
+    '!<rootDir>/packages/natds-icons/integration/**',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
