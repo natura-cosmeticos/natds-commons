@@ -3,6 +3,7 @@ module.exports = {
   collectCoverageFrom: [
     '<rootDir>/packages/natds-themes/**/*.js',
     '<rootDir>/packages/natds-token-search/**/*.js',
+    '<rootDir>/packages/natds-icons/**/*.js',
     '!**/build/**',
     '!**/node_modules/**',
     '!**/dist/**',
@@ -12,6 +13,11 @@ module.exports = {
     '!<rootDir>/packages/natds-themes/react-native/*.js',
     '!<rootDir>/packages/natds-token-search/src/styles/*.js',
     '!<rootDir>/packages/natds-token-search/src/index.js',
+    '!<rootDir>/packages/natds-icons/scripts/generateJsonType.js',
+    '!<rootDir>/packages/natds-icons/scripts/svgCleaner.js',
+    '!<rootDir>/packages/natds-icons/scripts/svgToFont.js',
+    '!<rootDir>/packages/natds-icons/regression/**',
+    '!<rootDir>/packages/natds-icons/integration/**',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
