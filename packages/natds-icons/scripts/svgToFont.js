@@ -4,11 +4,15 @@ const webfont = require('webfont').default;
 const fs = require('fs');
 const getIconString = require('./helpers/getIconString');
 const getUnicodeIconString = require('./helpers/getUnicodeIconString');
+const defaultMetadataProvider = require('./metadataBuilder');
+
+const metadataProvider = defaultMetadataProvider();
 
 const config = {
   files: './src/assets/cleaned/**/*.svg',
   fontHeight: 600,
   fontName: 'natds-icons',
+  metadataProvider,
   normalize: true,
   template: 'css',
   templateFontPath: './fonts',
@@ -60,10 +64,15 @@ const onSuccess = (result) => {
     Object.assign(metadata, { [name]: escape(unicode) });
   });
 
+  const unicode = glyphsData.reduce((prev, { metadata: { name, unicode } }) => Object.assign(prev, {
+    [name]: unicode
+  }), {});
+
   fs.writeFile(`${distMetadata + fontName}.css`, template, onError);
   const formattedMetadataJson = `${JSON.stringify(metadata, null, '\t')}\n`;
 
   fs.writeFile(`${distMetadata + fontName}.json`, formattedMetadataJson, onError);
+  fs.writeFile(`${distMetadata + fontName}.unicode.json`, `${JSON.stringify(unicode, null, '\t')}\n`, onError);
 
   for (let index = FIRST_INDEX; index < types.length; index += INDEX_INCREMENT) {
     const element = types[index];

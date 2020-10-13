@@ -84,6 +84,8 @@
     "access": "public"
   },
   "dependencies": {
-    "puppeteer": "^5.3.1"
+    "puppeteer": "^5.3.1",
+    "string.fromcodepoint": "^1.0.0",
+    "string.prototype.codepointat": "^1.0.0"
   }
 }
