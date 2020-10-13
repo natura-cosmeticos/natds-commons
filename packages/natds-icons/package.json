@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-icons",
   "displayName": "NatDS Icons",
-  "version": "0.18.25",
+  "version": "0.21.38",
   "private": false,
   "description": "A collection of icons for Natura Design System",
   "keywords": [
@@ -39,6 +39,10 @@
     "directory": "packages/icons",
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
+  },
+  "directories": {
+    "doc": "./docs",
+    "lib": "./dist"
   },
   "scripts": {
     "build": "yarn clean && yarn minify-svg-files && yarn create-font-files && yarn build-typescript && yarn copy-fonts && yarn copy-css && yarn generate-typings && yarn generate-json-type && yarn copy-typings && yarn generate-umd",

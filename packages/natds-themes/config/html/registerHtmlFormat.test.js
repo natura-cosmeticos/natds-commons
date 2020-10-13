@@ -1,5 +1,3 @@
-/* eslint-disable max-lines */
-
 import path from 'path';
 import registerHtmlFormat from './registerHtmlFormat';
 import * as formatBuilder from '../shared/formatBuilder';

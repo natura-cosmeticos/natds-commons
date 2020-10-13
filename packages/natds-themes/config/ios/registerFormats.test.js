@@ -1,5 +1,3 @@
-/* eslint-disable max-lines */
-
 import path from 'path';
 import { registerThemeFormat, registerThemeProtocolFormat } from './registerFormats';
 import * as formatBuilder from '../shared/formatBuilder';
