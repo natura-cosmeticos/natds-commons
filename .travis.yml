@@ -30,9 +30,12 @@ jobs:
       name: "Release"
       if: type = push AND branch = master
       before_deploy:
+        - "yarn build"
         - "sh ./scripts/configure-git.sh"
         - "npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'"
         - "yarn config set _authToken '${NPM_AUTH_TOKEN}'"
+        - "git add packages/natds-themes/build/**/*"
+        - "git commit --allow-empty -m \"build(natds-themes): update android and ios generated files [skip ci]\""
         - "yarn release:ci"
       deploy:
         - provider: script

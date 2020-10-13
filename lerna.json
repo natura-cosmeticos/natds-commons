@@ -2,6 +2,27 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
+      "ignoreChanges": [
+        "*.test.*",
+        "*.snap.*",
+        "*-snap.*",
+        "*.md",
+        "*.config.*",
+        "*.swift",
+        "*.yml",
+        "*.sh",
+        "package.json",
+        "tsconfig.json",
+        "yarn.lock",
+        ".editorconfig",
+        ".eslintrc.js",
+        "jest.setup.js",
+        "renovate.json",
+        "packages/natds-themes/dictionary.json",
+        "packages/natds-themes/build/**",
+        "packages/natds-token-search/**",
+        "packages/natds-storybook-themes/**"
+      ],
       "message": "chore(release): bump natds-common packages via lerna [skip ci]"
     }
   },
