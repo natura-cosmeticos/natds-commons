@@ -1,5 +1,3 @@
-/* eslint-disable max-lines-per-function */
-
 import buildReactNativeConfig from '../react-native/buildReactNativeConfig';
 import { buildWebConfig, buildCssConfig } from '../web/buildWebConfig';
 import buildHtmlConfig from '../html/buildHtmlConfig';

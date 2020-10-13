@@ -1,5 +1,3 @@
-/* eslint-disable max-lines-per-function */
-
 export const buildWebConfig = (brand, mode) => ({
   actions: ['create_type_definitions'],
   buildPath: `build/web/${brand}/`,

@@ -24,7 +24,8 @@ module.exports = {
       ],
       "rules": {
         'max-lines-per-function': "off",
-        'max-statements': "off"
+        'max-statements': "off",
+        'max-lines': "off"
       },
     },
     {
@@ -56,6 +57,7 @@ module.exports = {
             packageDir: path.join(__dirname, 'packages', 'natds-themes'),
           },
         ],
+        'max-lines-per-function': "off"
       },
     },
     {
