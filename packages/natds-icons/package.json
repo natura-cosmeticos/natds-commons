@@ -59,7 +59,16 @@
     "test": "jest --collectCoverage --colors",
     "watch": "yarn start",
     "lint": "eslint --ext .js ./",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "build:test": "sucrase-node ./lib/index.js",
+    "experimental": "yarn build:test",
+    "experimental:watch": "nodemon --watch lib ./lib/index.js"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "execMap": { 
+      "js": "node -r sucrase/register"
+   }
   },
   "config": {},
   "devDependencies": {

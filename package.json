@@ -31,7 +31,9 @@
     "test:regression:update": "concurrently -k --success first -n server,regression 'yarn start:icons' 'yarn regression -u'",
     "test": "yarn test:unit && yarn test:outputs",
     "test:ci": "yarn lint && yarn test",
-    "test:watch": "jest --watchAll --collectCoverage"
+    "test:watch": "jest --watchAll --collectCoverage",
+    "experimental": "lerna run experimental",
+    "experimental:watch": "lerna run experimental:watch --stream"
   },
   "repository": {
     "type": "git",
@@ -101,6 +103,7 @@
     "rollup": "2.26.10",
     "semantic-release": "15.8.0",
     "style-dictionary": "2.10.1",
+    "sucrase": "^3.16.0",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
   },
