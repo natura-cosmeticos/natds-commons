@@ -4,13 +4,13 @@ import { buildIconNamesFromGlyphData } from '../helpers';
 export const buildCurrentIconCodes = (data) => {
   if (!data?.glyphsData) return new Error('glyphsData not found');
 
-  const { glyphsData, globalConfig: { fontName, outputPath } } = data;
+  const { glyphsData, globalConfig: { iconCodesPath } } = data;
 
   const content = buildIconNamesFromGlyphData(glyphsData, (item) => item);
 
   const iconCodes = {
     content: `${JSON.stringify(content, null, '\t')}\n`,
-    outputPath: `${outputPath}/${fontName}-codes.json`,
+    outputPath: iconCodesPath,
   };
 
   return assocPath(['outputs', 'iconCodes'], iconCodes, data);

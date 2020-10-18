@@ -18,7 +18,7 @@ const globalConfig = {
   cleanedSvgOutput: path.resolve(__dirname, '../dist/svg'),
   fontExtensions: ['eot', 'ttf', 'woff', 'woff2', 'svg'],
   fontName: 'natds-icons',
-  iconCodesPath: './dist/natds-icons-codes.json',
+  iconCodesPath: path.resolve(__dirname, './generated/natds-icons-codes.json'),
   outputPath: path.resolve(__dirname, '../dist'),
   rawSvgInput: './svg/**/*.svg',
 };
