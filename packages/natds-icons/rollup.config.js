@@ -3,7 +3,7 @@ import url from '@rollup/plugin-url';
 
 export default {
   external: [],
-  input: './src/index.ts',
+  input: './dist/index.ts',
   output: [
     {
       dir: './dist/cjs',
