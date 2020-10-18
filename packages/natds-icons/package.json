@@ -44,20 +44,19 @@
     "lib": "./dist"
   },
   "scripts": {
-    "build": "yarn clean && yarn generate:outputs && yarn copy-static && yarn build-typescript && yarn generate-umd",
-    "build-typescript": "tsc -p ./tsconfig.json",
+    "build": "yarn clean && yarn build:outputs && yarn copy:static && yarn build:tsc && yarn build:js",
+    "build:js": "rollup -c",
+    "build:outputs": "sucrase-node ./src/index.js",
+    "build:outputs:watch": "nodemon --watch lib ./lib/index.js",
+    "build:tsc": "tsc -p ./tsconfig.json",
     "clean": "rm -rf dist",
-    "copy-static": "cp -r ./src/static/* ./dist",
-    "generate-umd": "rollup -c",
+    "copy:static": "cp -r ./src/static/* ./dist",
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "yarn lint --fix",
     "html": "http-server ./dist",
     "start": "yarn build && yarn html",
     "test": "jest --collectCoverage --colors",
-    "watch": "yarn start",
-    "lint": "eslint --ext .js ./",
-    "lint:fix": "yarn lint --fix",
-    "generate:outputs": "sucrase-node ./src/index.js",
-    "experimental": "yarn clear && yarn build:test",
-    "experimental:watch": "nodemon --watch lib ./lib/index.js"
+    "watch": "yarn start"
   },
   "nodemonConfig": {
     "verbose": true,

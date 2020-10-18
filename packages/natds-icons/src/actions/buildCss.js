@@ -1,4 +1,3 @@
-import path from 'path';
 import { assocPath } from 'ramda';
 
 export const buildCss = (data) => {
@@ -6,7 +5,7 @@ export const buildCss = (data) => {
 
   const css = {
     content: template,
-    outputPath: path.resolve(outputPath, `${fontName}.css`),
+    outputPath: `${outputPath}/${fontName}.css`,
   };
 
   return assocPath(['outputs', 'css'], css, data);

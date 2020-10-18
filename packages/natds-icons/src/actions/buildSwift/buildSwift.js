@@ -1,4 +1,3 @@
-import path from 'path';
 import { assocPath } from 'ramda';
 import { getIconString, getUnicodeIconString } from './helpers';
 
@@ -21,7 +20,7 @@ export const buildSwift = (data) => {
 
   const swiftOutput = {
     content: buildSwiftContentFromJson(data),
-    outputPath: path.resolve(outputPath, `${fontName}.swift`),
+    outputPath: `${outputPath}/${fontName}.swift`,
   };
 
   return assocPath(['outputs', 'swift'], swiftOutput, data);

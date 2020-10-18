@@ -10,9 +10,9 @@ const data = {
   svgPaths: {
     cleaned: [
       './an/icon/path/icon-name.svg',
-      './an/icon/path/another-icon-name.svg'
-    ]
-  }
+      './an/icon/path/another-icon-name.svg',
+    ],
+  },
 };
 
 describe('buildPreviousIconCodes', () => {
@@ -36,8 +36,8 @@ describe('buildPreviousIconCodes', () => {
       fs.readFileSync.mockReturnValue(previousIconCodes);
     });
 
-    it('should read the previous icon codes file if exists', () => {
-      buildPreviousIconCodes(data)
+    it('should read the previous icon codes file', () => {
+      buildPreviousIconCodes(data);
 
       expect(fs.existsSync).toHaveBeenCalledWith('./icon-codes.json');
       expect(fs.readFileSync).toHaveBeenCalledWith('./icon-codes.json');

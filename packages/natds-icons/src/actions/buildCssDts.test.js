@@ -6,6 +6,7 @@ jest.mock('typed-css-modules');
 const data = {
   globalConfig: {
     fontName: 'font-name',
+    outputPath: 'folder/name',
   },
   outputs: {
     css: {

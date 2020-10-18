@@ -3,6 +3,10 @@ import { buildCurrentIconCodes, buildJson } from './buildCurrentIconCodes';
 const iconCode = [String.fromCodePoint(0xea01)]
 
 const data = {
+  globalConfig: {
+    fontName: 'font-name',
+    outputPath: 'folder/name',
+  },
   glyphsData: [
     {
       metadata: {
@@ -11,23 +15,20 @@ const data = {
       },
     },
   ],
-  globalConfig: {
-    fontName: 'font-name',
-  },
-}
+};
 
 describe('buildCurrentIconCodes', () => {
   it('should throw if there is no glyphsData', () => {
     try {
-      buildCurrentIconCodes()
+      buildCurrentIconCodes();
     } catch (error) {
-      expect(error.message).toEqual('glyphsData not found')
+      expect(error.message).toEqual('glyphsData not found');
     }
   });
 
   it('should build the current icon codes object', () => {
     const expectedJsonContent = {
-      'icon-name': iconCode
+      'icon-name': iconCode,
     };
 
     const result = buildCurrentIconCodes(data);
@@ -36,11 +37,11 @@ describe('buildCurrentIconCodes', () => {
       ...data,
       outputs: {
         iconCodes: {
-          outputPath: '../../build/font-name-codes.json',
           content: `${JSON.stringify(expectedJsonContent, null, '\t')}\n`,
+          outputPath: 'folder/name/font-name-codes.json',
         },
-      }
-    })
+      },
+    });
   });
 });
 
@@ -64,7 +65,7 @@ describe('buildJson', () => {
       ...data,
       outputs: {
         json: {
-          outputPath: '../../build/font-name.json',
+          outputPath: 'folder/name/font-name.json',
           content: `${JSON.stringify(expectedJsonContent, null, '\t')}\n`,
         },
       }

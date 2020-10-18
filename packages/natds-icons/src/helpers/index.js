@@ -8,7 +8,7 @@ import {
 export const buildIconNamesFromGlyphData = (glyphsData, transformCode) => glyphsData
   .reduce((prev, { metadata: { name, unicode } }) => ({
     ...prev,
-    [name]: transformCode(unicode)
+    [name]: transformCode(unicode),
   }), {});
 
 const capitalizeWord = (word) => `${word[0].toUpperCase()}${word.slice(1)}`;

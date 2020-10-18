@@ -4,6 +4,7 @@ const data = {
   globalConfig: {
     fontExtensions: ['ttf'],
     fontName: 'font-name',
+    outputPath: 'folder/name',
   },
   ttf: 'ttf file contents',
 };
@@ -33,7 +34,7 @@ describe('buildFonts', () => {
       outputs: {
         ttf: {
           content: 'ttf file contents',
-          outputPath: '../../build/fonts/font-name.ttf',
+          outputPath: 'folder/name/fonts/font-name.ttf',
         },
       },
     });

@@ -22,7 +22,7 @@
     "release": "lerna version --conventional-commits",
     "release:ci": "yarn release --conventional-graduate --create-release github --yes",
     "start": "lerna run start --stream",
-    "start:icons": "yarn start --scope=@naturacosmeticos/natds-icons",
+    "start:icons": "lerna run html --scope=@naturacosmeticos/natds-icons",
     "test:unit": "jest --colors --collectCoverage --testPathIgnorePatterns=integration --testPathIgnorePatterns=regression",
     "build:icons": "yarn build --scope=@naturacosmeticos/natds-icons",
     "regression": "jest --colors --testPathPattern=regression",
@@ -31,9 +31,7 @@
     "test:regression:update": "concurrently -k --success first -n server,regression 'yarn start:icons' 'yarn regression -u'",
     "test": "yarn test:unit && yarn test:outputs",
     "test:ci": "yarn lint && yarn test",
-    "test:watch": "jest --watchAll --collectCoverage",
-    "experimental": "lerna run experimental",
-    "experimental:watch": "lerna run experimental:watch --stream"
+    "test:watch": "jest --watchAll --collectCoverage --testPathIgnorePatterns=integration --testPathIgnorePatterns=regression"
   },
   "repository": {
     "type": "git",

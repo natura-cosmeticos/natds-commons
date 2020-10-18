@@ -1,4 +1,3 @@
-import path from 'path';
 import { assocPath } from 'ramda';
 import JsonToTS from 'json-to-ts';
 
@@ -16,7 +15,7 @@ export const buildJsonDts = (data) => {
 
   const jsonDtsOutput = {
     content: jsonDts,
-    outputPath: path.resolve(outputPath, `${fontName}.json.d.ts`),
+    outputPath: `${outputPath}/${fontName}.json.d.ts`,
   };
 
   return assocPath(['outputs', 'jsonDts'], jsonDtsOutput, data);

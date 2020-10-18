@@ -1,4 +1,3 @@
-import path from 'path';
 import { assocPath } from 'ramda';
 import { buildIconNamesFromGlyphData } from '../helpers';
 
@@ -11,7 +10,7 @@ export const buildCurrentIconCodes = (data) => {
 
   const iconCodes = {
     content: `${JSON.stringify(content, null, '\t')}\n`,
-    outputPath: path.resolve(outputPath, `${fontName}-codes.json`),
+    outputPath: `${outputPath}/${fontName}-codes.json`,
   };
 
   return assocPath(['outputs', 'iconCodes'], iconCodes, data);
@@ -26,7 +25,7 @@ export const buildJson = (data) => {
 
   const json = {
     content: `${JSON.stringify(content, null, '\t')}\n`,
-    outputPath: path.resolve(outputPath, `${fontName}.json`),
+    outputPath: `${outputPath}/${fontName}.json`,
   };
 
   return assocPath(['outputs', 'json'], json, data);

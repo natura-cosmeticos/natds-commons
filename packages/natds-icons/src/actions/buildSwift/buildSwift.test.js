@@ -4,6 +4,7 @@ import * as helpers from './helpers';
 const data = {
   globalConfig: {
     fontName: 'font-name',
+    outputPath: 'folder/name',
   },
 };
 
@@ -48,7 +49,7 @@ extension Icon {
     const expectedSwiftOutput = {
       swift: {
         content,
-        outputPath: '../../build/font-name.swift',
+        outputPath: 'folder/name/font-name.swift',
       },
     };
 

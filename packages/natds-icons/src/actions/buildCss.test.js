@@ -3,6 +3,7 @@ import { buildCss } from './buildCss';
 const data = {
   globalConfig: {
     fontName: 'font-name',
+    outputPath: 'folder/name',
   },
   template: '.icon { color: red; }',
 };
@@ -16,7 +17,7 @@ describe('buildCss', () => {
       outputs: {
         css: {
           content: '.icon { color: red; }',
-          outputPath: '../../build/font-name.css',
+          outputPath: 'folder/name/font-name.css',
         },
       },
     });

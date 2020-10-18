@@ -8,7 +8,7 @@ const createFontOutput = (data, fontExtension) => {
 
   const fontData = {
     content: data[fontExtension],
-    outputPath: path.resolve(outputPath, 'fonts', `${fontName}.${fontExtension}`),
+    outputPath: `${outputPath}/fonts/${fontName}.${fontExtension}`,
   };
 
   return assocPath(['outputs', fontExtension], fontData, data);
