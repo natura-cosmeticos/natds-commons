@@ -1,3 +1,4 @@
+import path from 'path';
 import {
   buildSvgPaths,
   optimizeSvg,
@@ -14,12 +15,12 @@ import {
 } from './actions';
 
 const globalConfig = {
-  cleanedSvgOutput: './src/assets/cleaned',
+  cleanedSvgOutput: path.resolve(__dirname, '../dist/svg'),
   fontExtensions: ['eot', 'ttf', 'woff', 'woff2', 'svg'],
   fontName: 'natds-icons',
-  iconCodesPath: './build/natds-icons-codes.json',
-  outputPath: './build',
-  rawSvgInput: './src/assets/raw/**/*.svg',
+  iconCodesPath: './dist/natds-icons-codes.json',
+  outputPath: path.resolve(__dirname, '../dist'),
+  rawSvgInput: './svg/**/*.svg',
 };
 
 const log = (msg) => console.log(msg);

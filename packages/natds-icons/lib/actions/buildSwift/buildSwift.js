@@ -1,3 +1,4 @@
+import path from 'path';
 import { assocPath } from 'ramda';
 import { getIconString, getUnicodeIconString } from './helpers';
 
@@ -16,11 +17,11 @@ extension Icon {
 `;
 
 export const buildSwift = (data) => {
-  const { globalConfig: { fontName } } = data;
+  const { globalConfig: { fontName, outputPath } } = data;
 
   const swiftOutput = {
     content: buildSwiftContentFromJson(data),
-    outputPath: `../../build/${fontName}.swift`,
+    outputPath: path.resolve(outputPath, `${fontName}.swift`),
   };
 
   return assocPath(['outputs', 'swift'], swiftOutput, data);

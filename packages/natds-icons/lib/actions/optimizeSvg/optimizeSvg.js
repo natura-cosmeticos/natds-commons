@@ -5,6 +5,10 @@ import R, { assocPath, map, pipe, hasPath } from 'ramda';
 import { svgoConfig } from './svgoConfig';
 
 const writeCleanedSvg = (iconsData) => ({ data, path: filePath }) => {
+  if (!fs.existsSync(iconsData.globalConfig.cleanedSvgOutput)) {
+    fs.mkdirSync(iconsData.globalConfig.cleanedSvgOutput, { recursive: true })
+  }
+
   const outputPath = path.resolve(iconsData.globalConfig.cleanedSvgOutput, path.basename(filePath));
 
   fs.writeFileSync(outputPath, data);

@@ -1,13 +1,14 @@
+import path from 'path';
 import { assocPath } from 'ramda';
 
 const createFontOutput = (data, fontExtension) => {
   if (!data[fontExtension]) return new Error(`${fontExtension} data not found`);
 
-  const { globalConfig: { fontName } } = data;
+  const { globalConfig: { fontName, outputPath } } = data;
 
   const fontData = {
     content: data[fontExtension],
-    outputPath: `../../build/fonts/${fontName}.${fontExtension}`,
+    outputPath: path.resolve(outputPath, 'fonts', `${fontName}.${fontExtension}`),
   };
 
   return assocPath(['outputs', fontExtension], fontData, data);

@@ -2,8 +2,8 @@ import path from 'path';
 import DtsCreator from 'typed-css-modules';
 
 export const buildCssDts = (data) => {
-  const { globalConfig: { fontName }, outputs: { css } } = data;
-  const filePath = path.resolve(__dirname, '../../build', `${fontName}.css`);
+  const { globalConfig: { fontName, outputPath }, outputs: { css } } = data;
+  const filePath = path.resolve(outputPath, `${fontName}.css`);
 
   const creator = new DtsCreator();
 

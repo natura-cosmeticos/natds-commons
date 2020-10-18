@@ -1,11 +1,12 @@
+import path from 'path';
 import { assocPath } from 'ramda';
 
 export const buildCss = (data) => {
-  const { globalConfig: { fontName }, template } = data;
+  const { globalConfig: { fontName, outputPath }, template } = data;
 
   const css = {
     content: template,
-    outputPath: `../../build/${fontName}.css`,
+    outputPath: path.resolve(outputPath, `${fontName}.css`),
   };
 
   return assocPath(['outputs', 'css'], css, data);
