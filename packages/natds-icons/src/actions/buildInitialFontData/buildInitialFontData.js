@@ -8,10 +8,8 @@ export const buildInitialFontData = (data) => {
 
   const metadataProvider = getMetadataProvider(data);
 
-  const svgFilesPath = `${data.globalConfig.cleanedSvgOutput}**/*.svg`;
-
   const config = {
-    files: svgFilesPath,
+    files: `${data.globalConfig.cleanedSvgOutput}**/*.svg`,
     fontHeight: 600,
     fontName: data?.globalConfig?.fontName || 'natds-icons',
     metadataProvider,
@@ -20,7 +18,7 @@ export const buildInitialFontData = (data) => {
     templateFontPath: './fonts',
   };
 
-  return webfont(config).then((response) => ({ ...data, ...response}));
+  return webfont(config).then((response) => ({ ...data, ...response }));
 };
 
 export default buildInitialFontData;

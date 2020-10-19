@@ -60,9 +60,9 @@
   },
   "nodemonConfig": {
     "verbose": true,
-    "execMap": { 
+    "execMap": {
       "js": "node -r sucrase/register"
-   }
+    }
   },
   "config": {},
   "devDependencies": {
@@ -88,6 +88,7 @@
   },
   "dependencies": {
     "puppeteer": "^5.3.1",
+    "ramda": "^0.27.1",
     "string.fromcodepoint": "^1.0.0",
     "string.prototype.codepointat": "^1.0.0"
   }

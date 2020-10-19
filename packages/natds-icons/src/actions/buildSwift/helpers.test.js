@@ -12,18 +12,20 @@ const data = {
   },
 };
 
-describe('getIconString', () => {
-  it('should create icons camel case and snake case', () => {
-    const result = getIconString(data);
+describe('helpers', () => {
+  describe('getIconString', () => {
+    it('should create icons camel case and snake case', () => {
+      const result = getIconString(data);
 
-    expect(result).toEqual('case IconName = "icon-name"\n\t');
+      expect(result).toEqual('case IconName = "icon-name"\n\t');
+    });
   });
-});
 
-describe('getUnicodeIconString', () => {
-  it('should create icons camel case and values', () => {
-    const result = getUnicodeIconString(data);
+  describe('getUnicodeIconString', () => {
+    it('should create icons camel case and values', () => {
+      const result = getUnicodeIconString(data);
 
-    expect(result).toEqual('case .IconName: return "\\u{EA0A}"\n\t\t');
+      expect(result).toEqual('case .IconName: return "\\u{EA0A}"\n\t\t');
+    });
   });
 });

@@ -22,7 +22,7 @@ describe('buildCssDts', () => {
   });
 
   it('should create the css file definition', () => {
-    const creatorSpy = (path, content) => Promise.resolve(jest.fn(path, content))
+    const creatorSpy = (path, content) => Promise.resolve(jest.fn(path, content));
 
     DtsCreator.mockImplementation(() => ({
       create: creatorSpy,
@@ -43,7 +43,7 @@ describe('buildCssDts', () => {
     }));
 
     buildCssDts(data)
-      .then((result) => {
+      .then(() => {
         expect(writeFileSpy).toHaveBeenCalled();
       });
   });

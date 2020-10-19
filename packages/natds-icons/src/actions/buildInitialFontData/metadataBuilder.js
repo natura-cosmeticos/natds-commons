@@ -4,7 +4,7 @@ import 'string.prototype.codepointat';
 
 const findNextCodepoint = (startCode, usedCodes) => (
   usedCodes.includes(startCode)
-    ? findNextCodepoint(++startCode, usedCodes)
+    ? findNextCodepoint(startCode + 1, usedCodes)
     : startCode
 );
 

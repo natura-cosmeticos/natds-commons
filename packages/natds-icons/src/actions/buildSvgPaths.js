@@ -1,3 +1,5 @@
+/* eslint-disable consistent-return */
+
 import glob from 'glob';
 import { assocPath, hasPath, path } from 'ramda';
 

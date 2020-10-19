@@ -1,4 +1,3 @@
-import path from 'path';
 import { assocPath } from 'ramda';
 
 const createFontOutput = (data, fontExtension) => {

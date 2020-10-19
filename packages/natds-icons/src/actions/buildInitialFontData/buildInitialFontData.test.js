@@ -5,12 +5,12 @@ import * as metadataBuilder from './metadataBuilder';
 jest.mock('webfont');
 
 const data = {
-  previousIconCodes: {},
   globalConfig: {
     cleanedSvgOutput: './cleaned/',
-    fontName: 'font-name'
-  }
-}
+    fontName: 'font-name',
+  },
+  previousIconCodes: {},
+};
 
 describe('buildInitialFontData', () => {
   beforeEach(() => {
@@ -24,7 +24,7 @@ describe('buildInitialFontData', () => {
   it('should throw if there is no previousIconCodes', () => {
     expect(buildInitialFontData()).rejects.toEqual(new Error('previousIconCodes not found'));
   });
-  
+
   it('should throw if there is no cleanedSvgOutput', () => {
     expect(buildInitialFontData({ previousIconCodes: {} })).rejects.toEqual(new Error('cleanedSvgOutput not found'));
   });
@@ -41,7 +41,7 @@ describe('buildInitialFontData', () => {
   });
 
   it('should buildInitialFontData', () => {
-    const getMetadataProviderSpy = jest
+    jest
       .spyOn(metadataBuilder, 'getMetadataProvider')
       .mockReturnValue(jest.fn);
 
@@ -53,8 +53,9 @@ describe('buildInitialFontData', () => {
       normalize: true,
       template: 'css',
       templateFontPath: './fonts',
-    }
+    };
+
     return buildInitialFontData(data)
-      .then(() => expect(webfont).toHaveBeenCalledWith(expectedConfig))
+      .then(() => expect(webfont).toHaveBeenCalledWith(expectedConfig));
   });
 });

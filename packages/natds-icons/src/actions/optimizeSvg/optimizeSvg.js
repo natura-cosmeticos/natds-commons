@@ -1,12 +1,15 @@
+/* eslint-disable id-length */
 import fs from 'fs';
 import path from 'path';
 import SVGO from 'svgo';
-import R, { assocPath, map, pipe, hasPath } from 'ramda';
+import R, {
+  assocPath, map, pipe, hasPath,
+} from 'ramda';
 import { svgoConfig } from './svgoConfig';
 
 const writeCleanedSvg = (iconsData) => ({ data, path: filePath }) => {
   if (!fs.existsSync(iconsData.globalConfig.cleanedSvgOutput)) {
-    fs.mkdirSync(iconsData.globalConfig.cleanedSvgOutput, { recursive: true })
+    fs.mkdirSync(iconsData.globalConfig.cleanedSvgOutput, { recursive: true });
   }
 
   const outputPath = path.resolve(iconsData.globalConfig.cleanedSvgOutput, path.basename(filePath));

@@ -1,5 +1,5 @@
 import glob from 'glob';
-import buildSvgPaths from './buildSvgPaths';
+import { buildSvgPaths } from './buildSvgPaths';
 
 jest.mock('glob');
 
