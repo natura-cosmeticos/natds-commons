@@ -24,7 +24,6 @@ const globalConfig = {
 };
 
 const log = (msg) => console.log(msg);
-const logObj = (obj) => console.log(Object.keys(obj));
 
 buildSvgPaths({ globalConfig })
   .then(optimizeSvg)
@@ -38,5 +37,4 @@ buildSvgPaths({ globalConfig })
   .then(buildFonts)
   .then(buildSwift)
   .then(writeFiles)
-  .then(logObj)
   .catch(log);

@@ -1,4 +1,4 @@
-import { buildIconNamesFromGlyphData } from '.';
+import { buildIconNamesFromGlyphData, toCamelCase } from '.';
 
 const glyphsData = [
   {
@@ -15,13 +15,23 @@ const glyphsData = [
   },
 ];
 
-describe('buildIconNamesFromGlyphData', () => {
-  it('should return a name:code object applying the transform function', () => {
-    const transform = (item) => item;
+describe('Helpers', () => {
+  describe('buildIconNamesFromGlyphData', () => {
+    it('should return a name:code object applying the transform function', () => {
+      const transform = (item) => item;
 
-    expect(buildIconNamesFromGlyphData(glyphsData, transform)).toEqual({
-      'another-icon-name': [0xea02],
-      'icon-name': [0xea01],
+      expect(buildIconNamesFromGlyphData(glyphsData, transform)).toEqual({
+        'another-icon-name': [0xea02],
+        'icon-name': [0xea01],
+      });
+    });
+  });
+
+  describe('toCamelCase', () => {
+    it('should convert from snake case to camel case', () => {
+      const result = toCamelCase('a-sample-word');
+
+      expect(result).toEqual('aSampleWord');
     });
   });
 });

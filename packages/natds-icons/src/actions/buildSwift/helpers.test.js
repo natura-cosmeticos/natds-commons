@@ -17,7 +17,7 @@ describe('helpers', () => {
     it('should create icons camel case and snake case', () => {
       const result = getIconString(data);
 
-      expect(result).toEqual('case IconName = "icon-name"\n\t');
+      expect(result).toEqual('case iconName = "icon-name"\n\t');
     });
   });
 
@@ -25,7 +25,7 @@ describe('helpers', () => {
     it('should create icons camel case and values', () => {
       const result = getUnicodeIconString(data);
 
-      expect(result).toEqual('case .IconName: return "\\u{EA0A}"\n\t\t');
+      expect(result).toEqual('case .iconName: return "\\u{EA0A}"\n\t\t');
     });
   });
 });

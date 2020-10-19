@@ -3,6 +3,7 @@ import {
   pipe,
   split,
   map,
+  addIndex,
 } from 'ramda';
 
 export const buildIconNamesFromGlyphData = (glyphsData, transformCode) => glyphsData
@@ -13,8 +14,10 @@ export const buildIconNamesFromGlyphData = (glyphsData, transformCode) => glyphs
 
 const capitalizeWord = (word) => `${word[0].toUpperCase()}${word.slice(1)}`;
 
+const mapIndexed = addIndex(map);
+
 export const toCamelCase = pipe(
   split('-'),
-  map((item, index) => (index === 0 ? item : capitalizeWord(item))),
+  mapIndexed((item, index) => (index === 0 ? item : capitalizeWord(item))),
   join(''),
 );

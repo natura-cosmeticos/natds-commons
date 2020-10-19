@@ -23,7 +23,6 @@
     .icon-wrapper {
       text-align: center;
       margin: 20px 30px;
-      width: 20%;
     }
 
     code {
@@ -33,20 +32,19 @@
 
   <script>
     const wrapper = document.getElementById('icons-by-name');
+    const startUnicode = 0xea01;
 
-    const createIcon = (iconClass, glyph) => {
+    const createIcon = (index) => {
       const iconWrapper = document.createElement('div');
       iconWrapper.classList.add('icon-wrapper')
       const icon = document.createElement('i');
       const nameWraper = document.createElement('div');
-      const name = document.createElement('span');
       const code = document.createElement('code');
 
-      icon.classList.add('natds-icons', 'natds-icons-3x', `natds-icons-${iconClass}`)
-      name.innerHTML = `${iconClass}:`;
-      code.innerHTML = glyph;
+      icon.classList.add('natds-icons', 'natds-icons-3x')
+      icon.innerHTML = String.fromCodePoint(startUnicode + index);
+      code.innerHTML = escape(String.fromCodePoint(startUnicode + index));
 
-      nameWraper.appendChild(name)
       nameWraper.appendChild(code)
       iconWrapper.appendChild(icon)
       iconWrapper.appendChild(nameWraper)
@@ -54,11 +52,12 @@
       return iconWrapper;
     }
 
+
     fetch('./natds-icons.json')
       .then(res => res.json())
       .then((icons) => Object
         .keys(icons)
-        .forEach(iconName => wrapper.appendChild(createIcon(iconName, icons[iconName]))));
+        .forEach((iconName, index) => wrapper.appendChild(createIcon(index))));
   </script>
 </body>
 
