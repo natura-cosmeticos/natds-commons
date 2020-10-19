@@ -1,9 +1,18 @@
 # Natura Design System - Icons
 
-![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
+## Installation
 
-## Installation and usage
+Install the  dependency:
+
+```sh
+# with npm
+npm install --save @naturacosmeticos/natds-icons
+
+# with yarn
+yarn add @naturacosmeticos/natds-icons
+```
+
+## Usage
 
 ### For React web projects
 
@@ -17,49 +26,9 @@ npm install --save @naturacosmeticos/natds-web
 yarn add @naturacosmeticos/natds-web
 ```
 
-Now, have you installed the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) library?
+Then follow the instructions of [natds-web](https://github.com/natura-cosmeticos/natds-js/tree/main/packages/web).
 
-Then, you can import the `Icon` component and, in the` name` property, enter the name of the icon you want to use, like:
-
-```jsx
-import { Icon } from "@naturacosmeticos/natds-web";
-
-const YourApp = () => (
-  <>
-    <Icon name={"outlined-finance-bag"} />
-    <Icon name={"outlined-content-gift"} />
-  </>
-)
-```
-
-Note that, above, we are using two examples of icons out of the hundreds of options we offer.
-
-<details>
-  <summary>How does the `Icon` component work internally?</summary>
-  
-We have created a React component using JSX that works like this:
-
-```jsx highlight-line="2"
-import React from "react"
-import "@naturacosmeticos/natds-icons/dist/natds-icons.css";
-import { iconNames } from "@naturacosmeticos/natds-icons";
-
-const Icon = (props) => (
-  <i className={`natds-icons-${props.name}`} />
-);
-```
-  
-</details>
-
-#### Where do I find icon names?
-
-You can search for the icons you need in our [Design System Storybook](https://storybook-web.natura.com.br).
-
-Note that the availability of the icons may vary depending on the version you use.
-
-So always try to use the latest version of `natds-web` (or` natds-icons`, if this is the case)
-
----
+Check out our [documentation for `Icon` in the React Storybook](https://natds-js.netlify.app/releases/v0.17.0/?path=/docs/components-icon--interactive).
 
 ### For React Native projects
 
@@ -73,11 +42,7 @@ npm install --save @naturacosmeticos/natds-rn
 yarn add @naturacosmeticos/natds-rn
 ```
 
-**Now, have you installed the [@naturacosmeticos/natds-rn](https://github.com/natura-cosmeticos/natds-rn/) library?**
-
 Then follow the instructions of [Icons section of React Native readme](https://github.com/natura-cosmeticos/natds-rn/#icons).
-
-**Looking for examples of using the `Icon` component in React Native and all the available properties?**
 
 Check out our [documentation for `Icon` in the React Native Storybook for web](https://natds-rn.netlify.app/?path=/docs/components-icon--all).
 
@@ -85,15 +50,7 @@ Check out our [documentation for `Icon` in the React Native Storybook for web](h
 
 ### For non-React projects
 
-You can use this package by installing it directly into your project with:
-
-```sh
-# with npm
-npm install --save @naturacosmeticos/natds-icons
-
-# with yarn
-yarn add @naturacosmeticos/natds-icons
-```
+#### CSS + font
 
 You can import fonts and the generated [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) and [JSON](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) files like this:
 
@@ -120,7 +77,37 @@ import {
 } from '@naturacosmeticos/natds-icons';
 ```
 
+#### Svg
+
+You can use the svg icons individually by importing them from the [./dist/svg](./dist/svg) folder;
+
+#### CDN
+
+This library is available to use from both `unpkg` and `jsdelivr`
+
+```shell
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@0.22.0/dist/index.js
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@0.22.0/dist/natds-icons.json
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@0.22.0/dist/svg/filled-action-add.svg
+
+https://unpkg.com/@naturacosmeticos/natds-icons@0.22.0/dist/index.js
+https://unpkg.com/@naturacosmeticos/natds-icons@0.22.0/dist/natds-icons.json
+https://unpkg.com/@naturacosmeticos/natds-icons@0.22.0/dist/svg/filled-action-add.svg
+```
+
+### iOS
+
+A [natds-icons.swift](./dist/natds-icons.swift) file is generated to be used in ios projects.
+Visit [natds-ios](https://github.com/natura-cosmeticos/natds-ios) for more information.
+
+## Where to find icon names
+
+You can search for the icons you need in our [Design System Storybook](https://storybook-web.natura.com.br).
+
+Note that the availability of the icons may vary depending on the version you use.
+
+So always try to use the latest version of `natds-icons`
+
 ## How to contribute
 
 To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
-
