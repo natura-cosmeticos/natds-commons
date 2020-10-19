@@ -77,7 +77,7 @@
     "@rollup/plugin-node-resolve": "9.0.0",
     "@rollup/plugin-typescript": "5.0.2",
     "@rollup/plugin-url": "^5.0.1",
-    "@testing-library/dom": "7.24.2",
+    "@testing-library/dom": "7.26.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.3.0",
     "commitizen": "4.2.1",
