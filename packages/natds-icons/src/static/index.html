@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natds Icons</title>
+  <link rel="stylesheet" href="./natds-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="icons-by-name"></div>
+  <style>
+    #icons-by-name {
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;  
+      margin-bottom: 150px;    
+    }
+    
+    .icon-wrapper {
+      text-align: center;
+      margin: 20px 30px;
+    }
+
+    code {
+      color: #e8007f;
+    }
+  </style>
+
+  <script>
+    const wrapper = document.getElementById('icons-by-name');
+    const startUnicode = 0xea01;
+
+    const createIcon = (index) => {
+      const iconWrapper = document.createElement('div');
+      iconWrapper.classList.add('icon-wrapper')
+      const icon = document.createElement('i');
+      const nameWraper = document.createElement('div');
+      const code = document.createElement('code');
+
+      icon.classList.add('natds-icons', 'natds-icons-3x')
+      icon.innerHTML = String.fromCodePoint(startUnicode + index);
+      code.innerHTML = escape(String.fromCodePoint(startUnicode + index));
+
+      nameWraper.appendChild(code)
+      iconWrapper.appendChild(icon)
+      iconWrapper.appendChild(nameWraper)
+
+      return iconWrapper;
+    }
+
+
+    fetch('./natds-icons.json')
+      .then(res => res.json())
+      .then((icons) => Object
+        .keys(icons)
+        .forEach((iconName, index) => wrapper.appendChild(createIcon(index))));
+  </script>
+</body>
+
+</html>

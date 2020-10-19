@@ -22,7 +22,7 @@
     "release": "lerna version --conventional-commits",
     "release:ci": "yarn release --conventional-graduate --create-release github --yes",
     "start": "lerna run start --stream",
-    "start:icons": "yarn start --scope=@naturacosmeticos/natds-icons",
+    "start:icons": "lerna run html --scope=@naturacosmeticos/natds-icons",
     "test:unit": "jest --colors --collectCoverage --testPathIgnorePatterns=integration --testPathIgnorePatterns=regression",
     "build:icons": "yarn build --scope=@naturacosmeticos/natds-icons",
     "regression": "jest --colors --testPathPattern=regression",
@@ -31,7 +31,7 @@
     "test:regression:update": "concurrently -k --success first -n server,regression 'yarn start:icons' 'yarn regression -u'",
     "test": "yarn test:unit && yarn test:outputs",
     "test:ci": "yarn lint && yarn test",
-    "test:watch": "jest --watchAll --collectCoverage"
+    "test:watch": "jest --watchAll --collectCoverage --testPathIgnorePatterns=integration --testPathIgnorePatterns=regression"
   },
   "repository": {
     "type": "git",
@@ -76,6 +76,7 @@
     "@rollup/plugin-json": "4.1.0",
     "@rollup/plugin-node-resolve": "9.0.0",
     "@rollup/plugin-typescript": "5.0.2",
+    "@rollup/plugin-url": "^5.0.1",
     "@testing-library/dom": "7.24.2",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.3.0",
@@ -101,6 +102,7 @@
     "rollup": "2.26.10",
     "semantic-release": "15.8.0",
     "style-dictionary": "2.10.1",
+    "sucrase": "^3.16.0",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
   },

@@ -20,7 +20,7 @@
     "noUnusedLocals": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "rootDir": "./src",
+    "rootDir": "./dist",
     "skipLibCheck": false,
     "sourceMap": true,
     "strict": true,
@@ -29,8 +29,9 @@
     "types": ["jest"]
   },
   "include": [
-    "./src/index.ts",
-    "./src/natds-icons.json",
-    "./src/**/*.d.ts"
-  ]
+    "./dist/index.ts",
+    "./dist/natds-icons.json",
+    "./dist/**/*.d.ts"
+  ],
+  "exclude": []
 }

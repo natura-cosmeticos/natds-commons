@@ -1,0 +1,5 @@
+!dist
+dist/cjs
+dist/esm
+dist/iife
+dist/umd
