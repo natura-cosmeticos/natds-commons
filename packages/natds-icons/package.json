@@ -46,7 +46,8 @@
   "scripts": {
     "build": "yarn clean && yarn build:outputs && yarn copy:static && yarn build:tsc && yarn build:js",
     "build:js": "rollup -c",
-    "build:outputs": "sucrase-node ./src/index.js",
+    "build:outputsfafa": "sucrase-node ./src/index.js",
+    "build:outputs": "node -r sucrase/register -e 'require(\"./src/index.js\").init()'",
     "build:outputs:watch": "nodemon --watch lib ./lib/index.js",
     "build:tsc": "tsc -p ./tsconfig.json",
     "clean": "rm -rf dist",

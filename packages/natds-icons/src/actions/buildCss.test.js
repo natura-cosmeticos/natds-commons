@@ -9,6 +9,14 @@ const data = {
 };
 
 describe('buildCss', () => {
+  it('should throw if there is no template', () => {
+    try {
+      buildCss();
+    } catch (error) {
+      expect(error.message).toEqual('template not found');
+    }
+  });
+
   it('should crate the css output', () => {
     const result = buildCss(data);
 

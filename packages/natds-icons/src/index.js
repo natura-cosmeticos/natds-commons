@@ -14,19 +14,18 @@ import {
   writeFiles,
 } from './actions';
 
-const globalConfig = {
+export const buildConfig = () => ({
   cleanedSvgOutput: path.resolve(__dirname, '../dist/svg'),
   fontExtensions: ['eot', 'ttf', 'woff', 'woff2', 'svg'],
   fontName: 'natds-icons',
   iconCodesPath: path.resolve(__dirname, './generated/natds-icons-codes.json'),
   outputPath: path.resolve(__dirname, '../dist'),
   rawSvgInput: './svg/**/*.svg',
-};
+});
 
-const log = (msg) => console.log(msg);
-
-buildSvgPaths({ globalConfig })
-  .then(optimizeSvg)
+export const init = () => buildSvgPaths({
+  globalConfig: buildConfig(),
+}).then(optimizeSvg)
   .then(buildPreviousIconCodes)
   .then(buildInitialFontData)
   .then(buildCurrentIconCodes)
@@ -37,4 +36,6 @@ buildSvgPaths({ globalConfig })
   .then(buildFonts)
   .then(buildSwift)
   .then(writeFiles)
-  .catch(log);
+  .catch((msg) => console.log(msg));
+
+export default init;

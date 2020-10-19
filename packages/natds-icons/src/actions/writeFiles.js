@@ -10,7 +10,7 @@ export const writeFiles = (data) => {
       const filePath = path.resolve(__dirname, outputPath);
 
       if (!fs.existsSync(path.dirname(filePath))) {
-        fs.mkdirSync(path.dirname(filePath));
+        fs.mkdirSync(path.dirname(filePath), { recursive: true });
       }
 
       fs.writeFileSync(filePath, content);

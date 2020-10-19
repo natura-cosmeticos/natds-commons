@@ -11,7 +11,7 @@ export const buildInitialFontData = (data) => {
   const config = {
     files: `${data.globalConfig.cleanedSvgOutput}**/*.svg`,
     fontHeight: 600,
-    fontName: data?.globalConfig?.fontName || 'natds-icons',
+    fontName: data.globalConfig.fontName,
     metadataProvider,
     normalize: true,
     template: 'css',

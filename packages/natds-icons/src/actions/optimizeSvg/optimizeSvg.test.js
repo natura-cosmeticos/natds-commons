@@ -22,6 +22,7 @@ describe('optimizeSvg', () => {
   });
 
   beforeEach(() => {
+    fs.existsSync.mockReturnValue(true);
     fs.readFileSync.mockReturnValue('<svg>content</svg>');
     svgoOptimizeSpy = jest.fn();
     svgoOptimizeSpy.mockReturnValue({
@@ -48,6 +49,14 @@ describe('optimizeSvg', () => {
   it('should write the cleaned svg to disk', () => optimizeSvg(data)
     .then(() => expect(fs.writeFileSync)
       .toHaveBeenCalledWith(path.resolve('./cleaned/path.svg'), '<svg>content</svg>')));
+
+  it('should create output directory if does not exists', () => {
+    fs.existsSync.mockReturnValue(false);
+
+    return optimizeSvg(data)
+      .then(() => expect(fs.mkdirSync)
+        .toHaveBeenCalledWith('./cleaned', { recursive: true }));
+  });
 
   it('should the given data adding the cleaned svg paths', () => optimizeSvg(data)
     .then((result) => expect(result)

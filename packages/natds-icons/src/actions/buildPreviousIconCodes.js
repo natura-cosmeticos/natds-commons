@@ -1,17 +1,21 @@
 import fs from 'fs';
 import { path, hasPath, assocPath } from 'ramda';
 
+export const getPreviousCodesFromPaths = (nextSvgPaths, previousCodes) => (acc, iconName) => (
+  nextSvgPaths.find((iconPath) => iconPath.includes(iconName))
+    ? {
+      ...acc,
+      [iconName]: previousCodes[iconName],
+    }
+    : acc
+);
+
 const getPreviousCodesForNextBuild = (previousCodesFilePath, nextSvgPaths) => {
   const previousCodes = JSON.parse(fs.readFileSync(previousCodesFilePath));
 
   return Object
     .keys(previousCodes)
-    .reduce((acc, iconName) => (nextSvgPaths.find((iconPath) => iconPath.includes(iconName))
-      ? {
-        ...acc,
-        [iconName]: previousCodes[iconName],
-      }
-      : acc), {});
+    .reduce(getPreviousCodesFromPaths(nextSvgPaths, previousCodes), {});
 };
 
 export const buildPreviousIconCodes = (data) => {

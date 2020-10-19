@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { buildPreviousIconCodes } from './buildPreviousIconCodes';
+import { buildPreviousIconCodes, getPreviousCodesFromPaths } from './buildPreviousIconCodes';
 
 jest.mock('fs');
 
@@ -61,6 +61,42 @@ describe('buildPreviousIconCodes', () => {
     expect(result).toEqual({
       ...data,
       previousIconCodes: {},
+    });
+  });
+
+  describe('getPreviousCodesFromPaths', () => {
+    it('should include the previous icon when the icon is on the svg list', () => {
+      const previousCodes = {
+        'icon-a': ['code'],
+        'icon-b': ['code'],
+      };
+
+      const nextSvgPaths = [
+        'folder/name/icon-a.svg',
+        'folder/name/icon-b.svg',
+        'folder/name/icon-c.svg',
+      ];
+
+      const result = getPreviousCodesFromPaths(nextSvgPaths, previousCodes)({}, 'icon-a');
+
+      expect(result).toEqual({ 'icon-a': ['code'] });
+    });
+
+    it('should not include the previous icon when the icon is on not the svg list', () => {
+      const previousCodes = {
+        'icon-a': ['code'],
+        'icon-b': ['code'],
+      };
+
+      const nextSvgPaths = [
+        'folder/name/icon-c.svg',
+        'folder/name/icon-d.svg',
+        'folder/name/icon-f.svg',
+      ];
+
+      const result = getPreviousCodesFromPaths(nextSvgPaths, previousCodes)({}, 'icon-a');
+
+      expect(result).toEqual({ });
     });
   });
 });
