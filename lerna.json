@@ -18,17 +18,16 @@
         ".eslintrc.js",
         "jest.setup.js",
         "renovate.json",
-        "packages/natds-themes/dictionary.json",
         "packages/natds-themes/build/**",
-        "packages/natds-token-search/**",
-        "packages/natds-storybook-themes/**"
+        "packages/natds-icons/src/**"
       ],
       "message": "chore(release): bump natds-common packages via lerna [skip ci]"
     }
   },
   "npmClient": "yarn",
   "packages": [
-    "packages/*"
+    "packages/natds-themes/*",
+    "packages/natds-icons/*"
   ],
   "useWorkspaces": true,
   "version": "independent"
