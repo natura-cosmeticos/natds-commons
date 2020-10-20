@@ -100,6 +100,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-rating": string;
   readonly "natds-icons-outlined-action-recycle": string;
   readonly "natds-icons-outlined-action-request": string;
+  readonly "natds-icons-outlined-action-requestspecial": string;
   readonly "natds-icons-outlined-action-runningclock": string;
   readonly "natds-icons-outlined-action-save": string;
   readonly "natds-icons-outlined-action-schedule": string;
@@ -161,6 +162,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-mirror": string;
   readonly "natds-icons-outlined-content-password": string;
   readonly "natds-icons-outlined-content-planb": string;
+  readonly "natds-icons-outlined-content-productshowcase": string;
   readonly "natds-icons-outlined-content-produtivity": string;
   readonly "natds-icons-outlined-content-report": string;
   readonly "natds-icons-outlined-content-store": string;
@@ -226,6 +228,9 @@ declare const styles: {
   readonly "natds-icons-outlined-product-makeup": string;
   readonly "natds-icons-outlined-product-outlet": string;
   readonly "natds-icons-outlined-product-perfumery": string;
+  readonly "natds-icons-outlined-product-perfumeryfeminine": string;
+  readonly "natds-icons-outlined-product-perfumerymasculine": string;
+  readonly "natds-icons-outlined-product-perfumerytbs": string;
   readonly "natds-icons-outlined-product-promotionproduct": string;
   readonly "natds-icons-outlined-product-scent": string;
   readonly "natds-icons-outlined-product-vegan": string;

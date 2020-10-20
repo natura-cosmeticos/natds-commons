@@ -248,6 +248,9 @@
 	"outlined-action-request": [
 		""
 	],
+	"outlined-action-requestspecial": [
+		""
+	],
 	"outlined-action-runningclock": [
 		""
 	],
@@ -430,6 +433,9 @@
 	],
 	"outlined-content-planb": [
 		""
+	],
+	"outlined-content-productshowcase": [
+		""
 	],
 	"outlined-content-produtivity": [
 		""
@@ -625,6 +631,15 @@
 	],
 	"outlined-product-perfumery": [
 		""
+	],
+	"outlined-product-perfumeryfeminine": [
+		""
+	],
+	"outlined-product-perfumerymasculine": [
+		""
+	],
+	"outlined-product-perfumerytbs": [
+		""
 	],
 	"outlined-product-promotionproduct": [
 		""

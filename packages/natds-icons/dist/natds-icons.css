@@ -433,6 +433,10 @@
   content: "\ea53";
 }
 
+.natds-icons-outlined-action-requestspecial::before {
+  content: "\eade";
+}
+
 .natds-icons-outlined-action-runningclock::before {
   content: "\ea54";
 }
@@ -675,6 +679,10 @@
 
 .natds-icons-outlined-content-planb::before {
   content: "\ea90";
+}
+
+.natds-icons-outlined-content-productshowcase::before {
+  content: "\eadf";
 }
 
 .natds-icons-outlined-content-produtivity::before {
@@ -935,6 +943,18 @@
 
 .natds-icons-outlined-product-perfumery::before {
   content: "\ead1";
+}
+
+.natds-icons-outlined-product-perfumeryfeminine::before {
+  content: "\eae0";
+}
+
+.natds-icons-outlined-product-perfumerymasculine::before {
+  content: "\eae1";
+}
+
+.natds-icons-outlined-product-perfumerytbs::before {
+  content: "\eae2";
 }
 
 .natds-icons-outlined-product-promotionproduct::before {
