@@ -15,7 +15,10 @@ excluded_files:
   - "yarn.lock"
   - "Gemfile.lock"
   - ".typo-ci.yml"
+  - "packages/natds-icons/dist/**/*"
 excluded_words:
+  - cosmeticos
+  - cosméticos
   - cti
   - natds
   - natds-themes
