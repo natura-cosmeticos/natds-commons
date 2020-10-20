@@ -3056,7 +3056,7 @@
     "@rollup/pluginutils" "^3.1.0"
     resolve "^1.17.0"
 
-"@rollup/plugin-url@5.0.1", "@rollup/plugin-url@^5.0.1":
+"@rollup/plugin-url@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-url/-/plugin-url-5.0.1.tgz#77fc9f56100cd83cfb45109adf7d48af1c8ecdbf"
   integrity sha512-/dO8Ic+vR9VtMkHjmFBWzISjX0iDwrB3vLg8sy4A7hxu2Uk0J09kAXbtku7gJb1fqVcJUIByFG5d/4sgNh1DvA==
@@ -5408,7 +5408,7 @@ concat-stream@^2.0.0:
     readable-stream "^3.0.2"
     typedarray "^0.0.6"
 
-concurrently@^5.3.0:
+concurrently@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-5.3.0.tgz#7500de6410d043c912b2da27de3202cb489b1e7b"
   integrity sha512-8MhqOB6PWlBfA2vJ8a0bSFKATOdWlHiQlk11IfmQBPaHVP8oP2gsh2MObE6UR3hqDHqvaIvLTyceNW6obVuFHQ==
@@ -9261,7 +9261,7 @@ jest-haste-map@^26.5.0:
   optionalDependencies:
     fsevents "^2.1.2"
 
-jest-image-snapshot@^4.2.0:
+jest-image-snapshot@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/jest-image-snapshot/-/jest-image-snapshot-4.2.0.tgz#559d7ade69e9918517269cef184261c80029a69e"
   integrity sha512-6aAqv2wtfOgxiJeBayBCqHo1zX+A12SUNNzo7rIxiXh6W6xYVu8QyHWkada8HeRi+QUTHddp0O0Xa6kmQr+xbQ==
@@ -9545,7 +9545,7 @@ jest@26.4.2:
     import-local "^3.0.2"
     jest-cli "^26.4.2"
 
-jest@^26.5.0:
+jest@26.5.0:
   version "26.5.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-26.5.0.tgz#d973c13a3843587b89b02dab1fbcd1f3bf111f09"
   integrity sha512-yW1QTkdpxVWTV2M5cOwVdEww8dRGqL5bb7FOG3YQoMtf7oReCEawmU0+tOKkZUSfcOymbXmCfdBQLzuwOLCx0w==
@@ -12806,7 +12806,7 @@ pupa@^2.0.1:
   dependencies:
     escape-goat "^2.0.0"
 
-puppeteer@^5.3.1:
+puppeteer@5.3.1, puppeteer@^5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-5.3.1.tgz#324e190d89f25ac33dba539f57b82a18553f8646"
   integrity sha512-YTM1RaBeYrj6n7IlRXRYLqJHF+GM7tasbvrNFx6w1S16G76NrPq7oYFKLDO+BQsXNtS8kW2GxWCXjIMPvfDyaQ==
@@ -14812,7 +14812,7 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-sucrase@^3.16.0:
+sucrase@3.16.0:
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/sucrase/-/sucrase-3.16.0.tgz#19b5b886ccca270dd5ca12ff060eeaf0b599735f"
   integrity sha512-ovVuswxV5TayCPXfTk8bgBgk6uNRvsinIkEpq0J6zS1xXCx5N/LLGcbsKdRhqn/ToZylMX6+yXaR1LSn1I42Pg==
