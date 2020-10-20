@@ -3,19 +3,22 @@
   "displayName": "NatDS Icons",
   "version": "0.22.0",
   "private": false,
-  "description": "A collection of icons for Natura Design System",
+  "description": "A collection of icons for Natura & Co. Design System",
   "keywords": [
     "design-system",
     "icons",
     "natds",
     "natura"
   ],
-  "homepage": "https://github.com/natura-cosmeticos/natds-js/tree/master/packages/icons/README.md",
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-icons#readme",
   "bugs": {
-    "url": "https://github.com/natura-cosmeticos/natds-js/issues"
+    "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
   },
   "license": "ISC",
-  "author": "Natura Cosméticos <designsystem@natura.net>",
+  "author": {
+    "email": "designsystem@natura.net",
+    "name": "Natura & Co."
+  },
   "contributors": [
     "Ariel Flor <aflor@thoughtworks.com>",
     "Daniel Castro <daniel.castro@vizir.com.br>",
@@ -38,7 +41,7 @@
   "repository": {
     "directory": "packages/icons",
     "type": "git",
-    "url": "https://github.com/natura-cosmeticos/natds.git"
+    "url": "https://github.com/natura-cosmeticos/natds-commons.git"
   },
   "directories": {
     "lib": "./dist"
