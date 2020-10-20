@@ -80,7 +80,7 @@
     "@testing-library/dom": "7.26.3",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.6.0",
-    "commitizen": "4.2.1",
+    "commitizen": "4.2.2",
     "concurrently": "5.3.0",
     "core-js": "3.6.5",
     "crypto-js": "4.0.0",
