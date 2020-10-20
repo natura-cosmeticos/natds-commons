@@ -82,6 +82,7 @@ interface RootObject {
   'outlined-action-rating': string;
   'outlined-action-recycle': string;
   'outlined-action-request': string;
+  'outlined-action-requestspecial': string;
   'outlined-action-runningclock': string;
   'outlined-action-save': string;
   'outlined-action-schedule': string;
@@ -143,6 +144,7 @@ interface RootObject {
   'outlined-content-mirror': string;
   'outlined-content-password': string;
   'outlined-content-planb': string;
+  'outlined-content-productshowcase': string;
   'outlined-content-produtivity': string;
   'outlined-content-report': string;
   'outlined-content-store': string;
@@ -208,6 +210,9 @@ interface RootObject {
   'outlined-product-makeup': string;
   'outlined-product-outlet': string;
   'outlined-product-perfumery': string;
+  'outlined-product-perfumeryfeminine': string;
+  'outlined-product-perfumerymasculine': string;
+  'outlined-product-perfumerytbs': string;
   'outlined-product-promotionproduct': string;
   'outlined-product-scent': string;
   'outlined-product-vegan': string;
