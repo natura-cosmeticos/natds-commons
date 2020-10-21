@@ -9,4 +9,5 @@ export * from './buildCss';
 export * from './buildCssDts';
 export * from './buildFonts';
 export * from './buildSwift';
+export * from './buildDrawable';
 export * from './writeFiles';
