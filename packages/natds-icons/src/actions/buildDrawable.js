@@ -1,12 +1,22 @@
-import { pipe, prop, map, fromPairs, mergeDeepRight, keys, join, concat } from 'ramda';
+import {
+  pipe,
+  prop,
+  map,
+  fromPairs,
+  mergeDeepRight,
+  keys,
+  join,
+} from 'ramda';
 import svg2vectordrawable from 'svg2vectordrawable';
 
-const handleDrawable = (item, data) => (content) => {
+const addColorToPaths = (xml) => xml.replace(/<path\n/g, '<path\n        android:fillColor="#FF000000"\n');
+
+const handleDrawable = (item, data) => (xml) => {
   const { globalConfig: { outputPath } } = data;
-  const fileName = item.metadata.name.replace(/-/g, '_');
+  const fileName = item.metadata.name.toLowerCase().replace(/-/g, '_');
 
   const output = {
-    content,
+    content: addColorToPaths(xml),
     outputPath: `${outputPath}/drawables/${fileName}.xml`,
   };
 
