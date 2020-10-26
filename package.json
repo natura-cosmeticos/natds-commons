@@ -91,7 +91,7 @@
     "handlebars": "4.7.6",
     "http-server": "0.12.3",
     "husky": "4.2.5",
-    "jest": "26.6.0",
+    "jest": "26.6.1",
     "jest-file-snapshot": "0.3.8",
     "jest-image-snapshot": "4.2.0",
     "json2ts": "0.0.7",
