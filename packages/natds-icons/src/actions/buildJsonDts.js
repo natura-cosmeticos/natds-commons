@@ -11,7 +11,7 @@ export const buildJsonDts = (data) => {
 
   const jsonDts = JsonToTS(JSON.parse(content))
     .reduce((types, typeInterface) => types.concat(typeInterface), '')
-    .concat('\ndeclare const styles : RootObject;\n\nexport = styles;\n');
+    .concat('\ndeclare const styles : RootObject;\n\nexport default styles;\n');
 
   const jsonDtsOutput = {
     content: jsonDts,
