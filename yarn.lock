@@ -3393,23 +3393,23 @@
     tar-stream "^2.1.2"
     tmp "^0.1.0"
 
-"@storybook/client-logger@6.0.21":
-  version "6.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.0.21.tgz#20369addf9eb79fc0c85a2e0dcb48f5a1a544532"
-  integrity sha512-8aUEbhjXV+UMYQWukVYnp+kZafF+LD4Dm7eMo37IUZvt3VIjV1VvhxIDVJtqjk2vv0KZTepESFBkZQLmBzI9Zg==
+"@storybook/client-logger@6.0.28":
+  version "6.0.28"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.0.28.tgz#f71d0ad3314facfdce4a5d2bebd0f08dc0289109"
+  integrity sha512-FOgeRQknrlm5PTgfY0THPrcrDyxu4ImuFOn+VWQW60mf9ShJQl45BEgm4bm9hbblYYnVHtnskWUOJfxqhHvgjg==
   dependencies:
     core-js "^3.0.1"
     global "^4.3.2"
 
-"@storybook/theming@6.0.21":
-  version "6.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.0.21.tgz#d56051c0b8679c2b701ce08385660ab4146cf15f"
-  integrity sha512-n97DfB9kG6WrV1xBGDyeQibTrh8pBBCp3dSL3UTGH+KX3C2+4sm6QHlTgyekbi5FrbFEbnuZOKAS3YbLVONsRQ==
+"@storybook/theming@6.0.28":
+  version "6.0.28"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.0.28.tgz#8403333c68c44729eb677ef7c934aaa06e269f33"
+  integrity sha512-dcZXDkO1LYcnWUejAzvjl3OPBnAB1m2+fzmRx0dBrgm2O+fcNXTadQ6SXZYKaSz37lS+aGtYG7I9nurwhXMMXA==
   dependencies:
     "@emotion/core" "^10.0.20"
     "@emotion/is-prop-valid" "^0.8.6"
     "@emotion/styled" "^10.0.17"
-    "@storybook/client-logger" "6.0.21"
+    "@storybook/client-logger" "6.0.28"
     core-js "^3.0.1"
     deep-object-diff "^1.1.0"
     emotion-theming "^10.0.19"
