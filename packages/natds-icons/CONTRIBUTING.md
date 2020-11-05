@@ -2,14 +2,21 @@
 
 Natura Design System - Icons
 
-To include a new Icon you should put the SVG in the `svg/` folder and build the application as usual. The new icon will be available in the generated font.
+## To include a new Icon - Adding the icon
 
-## Build
+- put the SVG in the `svg/` folder 
+- `yarn build:icons` 
+- Run the tests: `yarn tests`
+- Run regression tests: `yarn test:regression`
+  - This test should fail and you can check the diff at the path indicated on failure msg.
+- If the diff is as expected, you can update these tests: `yarn test:regression:update`
+- To finish, update the snapshot tests: `yarn tests:outputs -u`
 
-```sh
-yarn build
-```
 
-***
+## Open PR with changes
+- Create a branch with name "feat/branch_name"
+- Commit your changes adding at the commit name the type `feat`
+- Open the PR
 
-See the scripts section in the package.json file for the complete list of tasks.
+After perform all checks, your contribution will merged and publish :)
+
