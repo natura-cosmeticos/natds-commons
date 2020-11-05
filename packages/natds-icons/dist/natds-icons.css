@@ -993,6 +993,10 @@
   content: "\eada";
 }
 
+.natds-icons-outlined-social-management::before {
+  content: "\eae3";
+}
+
 .natds-icons-outlined-social-myprofile::before {
   content: "\eadb";
 }

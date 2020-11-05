@@ -222,6 +222,7 @@ interface RootObject {
   'outlined-social-contact': string;
   'outlined-social-digitalconsultant': string;
   'outlined-social-groupofpeople': string;
+  'outlined-social-management': string;
   'outlined-social-myprofile': string;
   'outlined-social-network': string;
   'outlined-social-person': string;
