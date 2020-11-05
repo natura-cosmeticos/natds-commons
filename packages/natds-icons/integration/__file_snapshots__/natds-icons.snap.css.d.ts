@@ -240,6 +240,7 @@ declare const styles: {
   readonly "natds-icons-outlined-social-contact": string;
   readonly "natds-icons-outlined-social-digitalconsultant": string;
   readonly "natds-icons-outlined-social-groupofpeople": string;
+  readonly "natds-icons-outlined-social-management": string;
   readonly "natds-icons-outlined-social-myprofile": string;
   readonly "natds-icons-outlined-social-network": string;
   readonly "natds-icons-outlined-social-person": string;
