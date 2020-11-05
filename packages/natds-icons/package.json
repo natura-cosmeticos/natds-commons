@@ -49,9 +49,7 @@
   "scripts": {
     "build": "yarn clean && yarn build:outputs && yarn copy:static && yarn build:tsc && yarn build:js",
     "build:js": "rollup -c",
-    "build:outputsfafa": "sucrase-node ./src/index.js",
     "build:outputs": "node -r sucrase/register -e 'require(\"./src/index.js\").init()'",
-    "build:outputs:watch": "nodemon --watch lib ./lib/index.js",
     "build:tsc": "tsc -p ./tsconfig.json",
     "clean": "rm -rf dist",
     "copy:static": "cp -r ./src/static/* ./dist",
@@ -94,6 +92,7 @@
     "puppeteer": "^5.3.1",
     "ramda": "^0.27.1",
     "string.fromcodepoint": "^1.0.0",
-    "string.prototype.codepointat": "^1.0.0"
+    "string.prototype.codepointat": "^1.0.0",
+    "svg2vectordrawable": "^2.6.26"
   }
 }

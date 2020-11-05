@@ -11,6 +11,7 @@ import {
   buildCssDts,
   buildFonts,
   buildSwift,
+  buildDrawable,
   writeFiles,
 } from './actions';
 
@@ -35,6 +36,7 @@ export const init = () => buildSvgPaths({
   .then(buildCssDts)
   .then(buildFonts)
   .then(buildSwift)
+  .then(buildDrawable)
   .then(writeFiles)
   .catch((msg) => console.log(msg));
 

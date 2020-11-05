@@ -12,6 +12,7 @@ import * as buildCss from './actions/buildCss';
 import * as buildCssDts from './actions/buildCssDts';
 import * as buildSwift from './actions/buildSwift/buildSwift';
 import * as optimizeSvg from './actions/optimizeSvg/optimizeSvg';
+import * as buildDrawable from './actions/buildDrawable';
 
 jest.mock('path');
 
@@ -41,6 +42,7 @@ describe('natds icons build pipeline', () => {
     const buildCssDtsSpy = jest.spyOn(buildCssDts, 'buildCssDts').mockImplementation(() => Promise.resolve());
     const buildFontsSpy = jest.spyOn(buildFonts, 'buildFonts').mockImplementation(() => Promise.resolve());
     const buildSwiftSpy = jest.spyOn(buildSwift, 'buildSwift').mockImplementation(() => Promise.resolve());
+    const buildDrawableSpy = jest.spyOn(buildDrawable, 'buildDrawable').mockImplementation(() => Promise.resolve());
     const writeFilesSpy = jest.spyOn(writeFiles, 'writeFiles').mockImplementation(() => Promise.resolve());
     const optimizeSvgSpy = jest.spyOn(optimizeSvg, 'optimizeSvg').mockImplementation(() => Promise.resolve());
     const buildSvgPathsSpy = jest.spyOn(buildSvgPaths, 'buildSvgPaths').mockImplementation(() => Promise.resolve());
@@ -59,6 +61,7 @@ describe('natds icons build pipeline', () => {
       expect(buildCssDtsSpy).toHaveBeenCalled();
       expect(buildFontsSpy).toHaveBeenCalled();
       expect(buildSwiftSpy).toHaveBeenCalled();
+      expect(buildDrawableSpy).toHaveBeenCalled();
       expect(writeFilesSpy).toHaveBeenCalled();
     });
   });
