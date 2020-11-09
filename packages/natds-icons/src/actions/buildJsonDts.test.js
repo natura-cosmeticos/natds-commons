@@ -30,7 +30,7 @@ interface RootObject {
 }
 declare const styles : RootObject;
 
-export = styles;
+export default styles;
 `;
 
 describe('buildJsonDts', () => {

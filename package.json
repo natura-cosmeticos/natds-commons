@@ -16,7 +16,7 @@
     "lint:fix": "lerna run lint:fix",
     "copy:html:assets": "mkdir -p build && cp -r packages/natds-themes/build/html/* build && cp -r packages/natds-token-search/dist/* build",
     "html:build": "yarn build && yarn copy:html:assets",
-    "release:alpha": "yarn release --conventional-prerelease",
+    "release:alpha": "yarn release --conventional-prerelease --no-commit-hooks",
     "release:alpha-ci": "yarn release:alpha --yes",
     "reinstall": "yarn clean && rm -rf ./node_modules && rm -rf yarn.lock && yarn install && yarn bootstrap",
     "release": "lerna version --conventional-commits",

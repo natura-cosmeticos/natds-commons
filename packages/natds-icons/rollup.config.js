@@ -1,9 +1,8 @@
 import json from '@rollup/plugin-json';
-import url from '@rollup/plugin-url';
 
 export default {
   external: [],
-  input: './dist/index.ts',
+  input: './dist/index.js',
   output: [
     {
       dir: './dist/cjs',
@@ -30,15 +29,5 @@ export default {
   ],
   plugins: [
     json(),
-    url({
-      include: [
-        '**/*.css',
-        '**/*.eot',
-        '**/*.svg',
-        '**/*.ttf',
-        '**/*.woff',
-        '**/*.woff2',
-      ],
-    }),
   ],
 };
