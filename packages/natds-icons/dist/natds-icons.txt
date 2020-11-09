@@ -221,6 +221,7 @@ outlined_social_collaborate
 outlined_social_contact
 outlined_social_digitalconsultant
 outlined_social_groupofpeople
+outlined_social_management
 outlined_social_myprofile
 outlined_social_network
 outlined_social_person
