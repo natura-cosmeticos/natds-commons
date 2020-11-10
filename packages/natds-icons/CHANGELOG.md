@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@0.23.0...@naturacosmeticos/natds-icons@0.24.0) (2020-11-10)
+
+
+### Features
+
+* [DSY-1619] New icons ([3c6174d](https://github.com/natura-cosmeticos/natds-commons/commit/3c6174df0e6ab5dba303deadc9d8132e6c82883d))
+
+
+
+
+
 # [0.23.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@0.22.0...@naturacosmeticos/natds-icons@0.23.0) (2020-10-20)
 
 
