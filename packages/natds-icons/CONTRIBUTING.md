@@ -6,11 +6,11 @@ Natura Design System - Icons
 
 - put the SVG in the `svg/` folder 
 - `yarn build:icons` 
-- Run the tests: `yarn tests`
+- Run the tests: `yarn test`
+  Some tests will fail, you should update it: `yarn test:outputs -u`
 - Run regression tests: `yarn test:regression`
   - This test should fail and you can check the diff at the path indicated on failure msg.
 - If the diff is as expected, you can update these tests: `yarn test:regression:update`
-- To finish, update the snapshot tests: `yarn tests:outputs -u`
 
 
 ## Open PR with changes

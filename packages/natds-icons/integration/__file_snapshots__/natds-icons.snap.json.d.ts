@@ -63,6 +63,7 @@ interface RootObject {
   'outlined-action-edit': string;
   'outlined-action-favorite': string;
   'outlined-action-filter': string;
+  'outlined-action-frame': string;
   'outlined-action-gridsquare': string;
   'outlined-action-help': string;
   'outlined-action-history': string;
@@ -130,6 +131,7 @@ interface RootObject {
   'outlined-content-gallery': string;
   'outlined-content-gift': string;
   'outlined-content-global': string;
+  'outlined-content-handcare': string;
   'outlined-content-handglobal': string;
   'outlined-content-hands': string;
   'outlined-content-health': string;

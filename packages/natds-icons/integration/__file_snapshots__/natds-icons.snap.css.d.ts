@@ -81,6 +81,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-edit": string;
   readonly "natds-icons-outlined-action-favorite": string;
   readonly "natds-icons-outlined-action-filter": string;
+  readonly "natds-icons-outlined-action-frame": string;
   readonly "natds-icons-outlined-action-gridsquare": string;
   readonly "natds-icons-outlined-action-help": string;
   readonly "natds-icons-outlined-action-history": string;
@@ -148,6 +149,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-gallery": string;
   readonly "natds-icons-outlined-content-gift": string;
   readonly "natds-icons-outlined-content-global": string;
+  readonly "natds-icons-outlined-content-handcare": string;
   readonly "natds-icons-outlined-content-handglobal": string;
   readonly "natds-icons-outlined-content-hands": string;
   readonly "natds-icons-outlined-content-health": string;
