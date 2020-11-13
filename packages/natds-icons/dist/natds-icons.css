@@ -357,6 +357,10 @@
   content: "\ea40";
 }
 
+.natds-icons-outlined-action-frame::before {
+  content: "\eae4";
+}
+
 .natds-icons-outlined-action-gridsquare::before {
   content: "\ea41";
 }
@@ -623,6 +627,10 @@
 
 .natds-icons-outlined-content-global::before {
   content: "\ea82";
+}
+
+.natds-icons-outlined-content-handcare::before {
+  content: "\eae5";
 }
 
 .natds-icons-outlined-content-handglobal::before {

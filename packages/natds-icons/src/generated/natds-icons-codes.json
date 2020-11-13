@@ -191,6 +191,9 @@
 	"outlined-action-filter": [
 		""
 	],
+	"outlined-action-frame": [
+		""
+	],
 	"outlined-action-gridsquare": [
 		""
 	],
@@ -391,6 +394,9 @@
 	],
 	"outlined-content-global": [
 		""
+	],
+	"outlined-content-handcare": [
+		""
 	],
 	"outlined-content-handglobal": [
 		""
