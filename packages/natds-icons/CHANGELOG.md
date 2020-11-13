@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.25.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@0.24.1...@naturacosmeticos/natds-icons@0.25.0) (2020-11-13)
+
+
+### Features
+
+* **natds-icons:** Adding new outlined icons ([7f5e827](https://github.com/natura-cosmeticos/natds-commons/commit/7f5e82777a077937b20ce8c3ba85d4abc66ffc5c))
+* **natds-icons:** adjusting filled-content-channel path ([877f1db](https://github.com/natura-cosmeticos/natds-commons/commit/877f1db4cf0c51ea7a09a958c9369da53ddc8a4b))
+
+
+
+
+
 ## [0.24.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@0.24.0...@naturacosmeticos/natds-icons@0.24.1) (2020-11-10)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
