@@ -38,16 +38,16 @@
       const iconWrapper = document.createElement('div');
       iconWrapper.classList.add('icon-wrapper')
       const icon = document.createElement('i');
-      const nameWraper = document.createElement('div');
+      const nameWrapper = document.createElement('div');
       const code = document.createElement('code');
 
       icon.classList.add('natds-icons', 'natds-icons-3x')
       icon.innerHTML = String.fromCodePoint(startUnicode + index);
       code.innerHTML = escape(String.fromCodePoint(startUnicode + index));
 
-      nameWraper.appendChild(code)
+      nameWrapper.appendChild(code)
       iconWrapper.appendChild(icon)
-      iconWrapper.appendChild(nameWraper)
+      iconWrapper.appendChild(nameWrapper)
 
       return iconWrapper;
     }
