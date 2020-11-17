@@ -1,0 +1,14 @@
+version: '3'
+services:
+  visual:
+    build:
+      context: .
+    volumes:
+      - ".:/app"
+    command: sh -c "yarn test:regression"
+  visual-update:
+    build:
+      context: .
+    volumes:
+      - ".:/app"
+    command: sh -c "yarn test:regression:update"
