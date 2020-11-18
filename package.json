@@ -33,7 +33,8 @@
     "test:regression:docker:update": "docker-compose run visual-update",
     "test": "yarn test:unit",
     "test:ci": "yarn lint && yarn test",
-    "test:watch": "jest --watchAll --collectCoverage --testPathIgnorePatterns=regression --testPathIgnorePatterns=inputs"
+    "test:watch": "jest --watchAll --collectCoverage --testPathIgnorePatterns=regression --testPathIgnorePatterns=inputs",
+    "post:comment": "node -r sucrase/register ./scripts/post-pr-comment.js"
   },
   "repository": {
     "type": "git",
@@ -73,6 +74,7 @@
     "@babel/preset-env": "7.12.1",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
+    "@mixmaxhq/post-github-comment-from-travis": "^0.1.1",
     "@naturacosmeticos/eslint-config-natura": "2.0.2",
     "@rollup/plugin-image": "2.0.5",
     "@rollup/plugin-json": "4.1.0",
