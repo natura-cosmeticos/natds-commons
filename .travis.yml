@@ -21,6 +21,7 @@ script:
   - "yarn test --runInBand"
   - "bash <(curl -s https://codecov.io/bash)"
   - "snyk test --all-projects"
+  - "yarn post:comment"
 jobs:
   include:
     - stage: check
