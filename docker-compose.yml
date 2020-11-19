@@ -4,11 +4,11 @@ services:
     build:
       context: .
     volumes:
-      - ".:/app"
+      - "./packages/natds-icons/regression:/app/packages/natds-icons/regression"
     command: sh -c "yarn test:regression"
   visual-update:
     build:
       context: .
     volumes:
-      - ".:/app"
+      - "./packages/natds-icons/regression:/app/packages/natds-icons/regression"
     command: sh -c "yarn test:regression:update"
