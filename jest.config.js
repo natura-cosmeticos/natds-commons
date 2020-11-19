@@ -14,7 +14,7 @@ module.exports = {
     '!<rootDir>/packages/natds-token-search/src/styles/*.js',
     '!<rootDir>/packages/natds-token-search/src/index.js',
     '!<rootDir>/packages/natds-icons/regression/**',
-    '!<rootDir>/packages/natds-icons/integration/**',
+    '!<rootDir>/packages/natds-icons/inputs/**',
   ],
   coverageDirectory: '<rootDir>/coverage',
   coverageThreshold: {
