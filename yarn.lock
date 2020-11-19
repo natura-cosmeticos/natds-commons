@@ -1532,13 +1532,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.4.5":
-  version "7.12.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
-  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/template@^7.10.4", "@babel/template@^7.3.3", "@babel/template@^7.4.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.10.4.tgz#3251996c4200ebc71d1a8fc405fba940f36ba278"
@@ -2920,22 +2913,6 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@mixmaxhq/post-github-comment-from-travis@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@mixmaxhq/post-github-comment-from-travis/-/post-github-comment-from-travis-0.1.1.tgz#a312173e5bae55a5541326a43e0ef05336b7465f"
-  integrity sha512-QSJ1NgDoS5EdD1uhGKriNrE4m1EgqPPewBfrKFqlZ3R8kwRebRkn2kUgMP6fNLdoQAs1mutzOUy7fPVk00yA3A==
-  dependencies:
-    "@babel/runtime" "^7.4.5"
-    "@mixmaxhq/travis-utils" "^0.1.0"
-    yargs "^13.2.4"
-
-"@mixmaxhq/travis-utils@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@mixmaxhq/travis-utils/-/travis-utils-0.1.0.tgz#70cd1360dbd521ab5c393496f06f62c557adc9c4"
-  integrity sha512-SIEIl759SwYjz5gA+lMinOxoq95YlxdE0bhaUX32Udr47vG2ZdojglQoDnjXVnMGgLxtexA2t004iwh9RxXkgQ==
-  dependencies:
-    "@octokit/rest" "^16.28.0"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -3058,7 +3035,7 @@
     once "^1.4.0"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@^16.27.0", "@octokit/rest@^16.28.0", "@octokit/rest@^16.28.4":
+"@octokit/rest@^16.27.0", "@octokit/rest@^16.28.4":
   version "16.43.2"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.43.2.tgz#c53426f1e1d1044dee967023e3279c50993dd91b"
   integrity sha512-ngDBevLbBTFfrHZeiS7SAMAZ6ssuVmXuya+F/7RaVvlysgGa1JKJkKWY+jV6TCJYcW0OALfJ7nTIGXcBXzycfQ==
@@ -17226,7 +17203,7 @@ yargs-parser@^7.0.0:
   dependencies:
     camelcase "^4.1.0"
 
-yargs@^13.0.0, yargs@^13.2.4, yargs@^13.3.0:
+yargs@^13.0.0, yargs@^13.3.0:
   version "13.3.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
   integrity sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
