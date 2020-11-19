@@ -1,0 +1,27 @@
+name: Icon-regression
+on: pull_request
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    name: Regression test
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Regression Test
+      run: yarn test:regression:docker
+      continue-on-error: true
+    - name: Create Comment
+      id: create_comment
+      env:
+        IMGUR_CLIENT_ID: ${{ secrets.IMGUR_CLIENT_ID }}
+      run: |
+        OUTPUT=$(bash ./scripts/build-regression-comment.sh)
+        echo $OUTPUT
+        echo "::set-output name=comment::$OUTPUT"
+    - name: Post comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        header: regression_test
+        message: |
+          ${{ steps.create_comment.outputs.comment }}
