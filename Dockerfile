@@ -3,6 +3,5 @@ RUN apt-get update && apt-get install -y procps
 ENV PUPPETEER_EXECUTABLE_PATH="/usr/bin/google-chrome-stable"
 RUN mkdir /app
 WORKDIR /app
-COPY package.json yarn.lock ./
-RUN yarn install
 COPY . .
+RUN yarn install
