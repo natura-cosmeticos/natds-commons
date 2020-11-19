@@ -1,0 +1,31 @@
+name: Icon-regression
+on: 
+  pull_request:
+    branches:
+      - '**(icons?)**'
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    name: Regression test
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Regression Test
+      run: yarn test:regression:docker
+      continue-on-error: true
+    - name: Post image to Imgur
+      id: post_image
+      env:
+        IMGUR_CLIENT_ID: ${{ secrets.IMGUR_CLIENT_ID }}
+      run: |
+        OUTPUT=$(bash ./scripts/upload-image.sh)
+        echo $OUTPUT
+        echo "::set-output name=imgUrl::$OUTPUT"
+    - name: Post comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        header: test
+        message: |
+          Regression tests diff result for commit ${{ github.sha }}.
+          ![regression test diff result](${{ steps.post_image.outputs.imgUrl }})

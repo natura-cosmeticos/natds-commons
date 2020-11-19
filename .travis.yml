@@ -12,32 +12,33 @@ git:
   quiet: true
 install: 
   - "yarn install --frozen-lockfile"
-  - "yarn global add snyk"
-  - "snyk auth $SNYK_TOKEN"
+  - "sh ./scripts/configure-git.sh"
 before_script:
   - "yarn bootstrap"
 script: 
   - "yarn lint"
   - "yarn test --runInBand"
   - "bash <(curl -s https://codecov.io/bash)"
-  - "snyk test --all-projects"
-  - "yarn post:comment"
 jobs:
   include:
     - stage: check
       name: "Confidence check"
       if: type = push AND branch != master
+    - stage: update-files
+      name: "Update Files"
+      if: type = push AND branch =~ /.*\(icons?\).*/
+      before_script:
+        - "yarn build:icons"
+      script: "sh ./scripts/update-files.sh"
     - stage: release
       name: "Release"
       if: type = push AND branch = master
       before_deploy:
         - "yarn build"
-        - "sh ./scripts/configure-git.sh"
+        - "yarn test:regression:docker:update"
         - "npm config set '//registry.npmjs.org/:_authToken' '${NPM_AUTH_TOKEN}'"
         - "yarn config set _authToken '${NPM_AUTH_TOKEN}'"
-        - "git add packages/natds-themes/build/**/*"
-        - "git add packages/natds-icons/dist/"
-        - "git commit --allow-empty -m \"chore(natds-themes): update android and ios generated files [skip ci]\""
+        - "sh ./scripts/update-files.sh"
         - "yarn release:ci"
       deploy:
         - provider: script
