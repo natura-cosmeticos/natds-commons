@@ -105,6 +105,10 @@
   content: "\ea01";
 }
 
+.natds-icons-filled-action-add-test::before {
+  content: "\eae6";
+}
+
 .natds-icons-filled-action-cancel::before {
   content: "\ea02";
 }
