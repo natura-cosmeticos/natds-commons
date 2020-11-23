@@ -1,6 +1,7 @@
 
 public enum Icon: String, CaseIterable {
   case filledActionAdd = "filled-action-add"
+	case filledActionAddTest = "filled-action-add-test"
 	case filledActionCancel = "filled-action-cancel"
 	case filledActionCheck = "filled-action-check"
 	case filledActionDelete = "filled-action-delete"
@@ -236,6 +237,7 @@ extension Icon {
   var unicode: String {
     switch self {
     case .filledActionAdd: return "\u{EA01}"
+		case .filledActionAddTest: return "\u{EAE6}"
 		case .filledActionCancel: return "\u{EA02}"
 		case .filledActionCheck: return "\u{EA03}"
 		case .filledActionDelete: return "\u{EA04}"
