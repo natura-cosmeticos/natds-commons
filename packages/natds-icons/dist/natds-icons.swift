@@ -1,8 +1,11 @@
 
 public enum Icon: String, CaseIterable {
   case filledActionAdd = "filled-action-add"
+	case filledActionAddTest = "filled-action-add-test"
 	case filledActionCancel = "filled-action-cancel"
+	case filledActionCancelTest = "filled-action-cancel-test"
 	case filledActionCheck = "filled-action-check"
+	case filledActionCheckTest = "filled-action-check-test"
 	case filledActionDelete = "filled-action-delete"
 	case filledActionLove = "filled-action-love"
 	case filledActionNewrequest = "filled-action-newrequest"
@@ -10,6 +13,7 @@ public enum Icon: String, CaseIterable {
 	case filledActionSubtract = "filled-action-subtract"
 	case filledBrandFacebook = "filled-brand-facebook"
 	case filledBrandGoogle = "filled-brand-google"
+	case filledBrandGoogleTest = "filled-brand-google-test"
 	case filledBrandInstagram = "filled-brand-instagram"
 	case filledBrandLinkedin = "filled-brand-linkedin"
 	case filledBrandNaturarosacea = "filled-brand-naturarosacea"
@@ -236,8 +240,11 @@ extension Icon {
   var unicode: String {
     switch self {
     case .filledActionAdd: return "\u{EA01}"
+		case .filledActionAddTest: return "\u{EAE6}"
 		case .filledActionCancel: return "\u{EA02}"
+		case .filledActionCancelTest: return "\u{EAE7}"
 		case .filledActionCheck: return "\u{EA03}"
+		case .filledActionCheckTest: return "\u{EAE8}"
 		case .filledActionDelete: return "\u{EA04}"
 		case .filledActionLove: return "\u{EA05}"
 		case .filledActionNewrequest: return "\u{EA06}"
@@ -245,6 +252,7 @@ extension Icon {
 		case .filledActionSubtract: return "\u{EA08}"
 		case .filledBrandFacebook: return "\u{EA09}"
 		case .filledBrandGoogle: return "\u{EA0A}"
+		case .filledBrandGoogleTest: return "\u{EAE9}"
 		case .filledBrandInstagram: return "\u{EA0B}"
 		case .filledBrandLinkedin: return "\u{EA0C}"
 		case .filledBrandNaturarosacea: return "\u{EA0D}"

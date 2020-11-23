@@ -2,11 +2,20 @@
 	"filled-action-add": [
 		""
 	],
+	"filled-action-add-test": [
+		""
+	],
 	"filled-action-cancel": [
 		""
 	],
+	"filled-action-cancel-test": [
+		""
+	],
 	"filled-action-check": [
 		""
+	],
+	"filled-action-check-test": [
+		""
 	],
 	"filled-action-delete": [
 		""
@@ -28,6 +37,9 @@
 	],
 	"filled-brand-google": [
 		""
+	],
+	"filled-brand-google-test": [
+		""
 	],
 	"filled-brand-instagram": [
 		""

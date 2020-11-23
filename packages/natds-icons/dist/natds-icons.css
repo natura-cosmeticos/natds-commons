@@ -105,12 +105,24 @@
   content: "\ea01";
 }
 
+.natds-icons-filled-action-add-test::before {
+  content: "\eae6";
+}
+
 .natds-icons-filled-action-cancel::before {
   content: "\ea02";
 }
 
+.natds-icons-filled-action-cancel-test::before {
+  content: "\eae7";
+}
+
 .natds-icons-filled-action-check::before {
   content: "\ea03";
+}
+
+.natds-icons-filled-action-check-test::before {
+  content: "\eae8";
 }
 
 .natds-icons-filled-action-delete::before {
@@ -139,6 +151,10 @@
 
 .natds-icons-filled-brand-google::before {
   content: "\ea0a";
+}
+
+.natds-icons-filled-brand-google-test::before {
+  content: "\eae9";
 }
 
 .natds-icons-filled-brand-instagram::before {

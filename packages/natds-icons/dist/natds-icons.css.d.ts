@@ -18,8 +18,11 @@ declare const styles: {
   readonly "natds-icons-pull-left": string;
   readonly "natds-icons-pull-right": string;
   readonly "natds-icons-filled-action-add": string;
+  readonly "natds-icons-filled-action-add-test": string;
   readonly "natds-icons-filled-action-cancel": string;
+  readonly "natds-icons-filled-action-cancel-test": string;
   readonly "natds-icons-filled-action-check": string;
+  readonly "natds-icons-filled-action-check-test": string;
   readonly "natds-icons-filled-action-delete": string;
   readonly "natds-icons-filled-action-love": string;
   readonly "natds-icons-filled-action-newrequest": string;
@@ -27,6 +30,7 @@ declare const styles: {
   readonly "natds-icons-filled-action-subtract": string;
   readonly "natds-icons-filled-brand-facebook": string;
   readonly "natds-icons-filled-brand-google": string;
+  readonly "natds-icons-filled-brand-google-test": string;
   readonly "natds-icons-filled-brand-instagram": string;
   readonly "natds-icons-filled-brand-linkedin": string;
   readonly "natds-icons-filled-brand-naturarosacea": string;

@@ -1,7 +1,10 @@
 {
 	"filled-action-add": "%uEA01",
+	"filled-action-add-test": "%uEAE6",
 	"filled-action-cancel": "%uEA02",
+	"filled-action-cancel-test": "%uEAE7",
 	"filled-action-check": "%uEA03",
+	"filled-action-check-test": "%uEAE8",
 	"filled-action-delete": "%uEA04",
 	"filled-action-love": "%uEA05",
 	"filled-action-newrequest": "%uEA06",
@@ -9,6 +12,7 @@
 	"filled-action-subtract": "%uEA08",
 	"filled-brand-facebook": "%uEA09",
 	"filled-brand-google": "%uEA0A",
+	"filled-brand-google-test": "%uEAE9",
 	"filled-brand-instagram": "%uEA0B",
 	"filled-brand-linkedin": "%uEA0C",
 	"filled-brand-naturarosacea": "%uEA0D",

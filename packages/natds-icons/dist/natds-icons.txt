@@ -1,6 +1,9 @@
 filled_action_add
+filled_action_add_test
 filled_action_cancel
+filled_action_cancel_test
 filled_action_check
+filled_action_check_test
 filled_action_delete
 filled_action_love
 filled_action_newrequest
@@ -8,6 +11,7 @@ filled_action_rating
 filled_action_subtract
 filled_brand_facebook
 filled_brand_google
+filled_brand_google_test
 filled_brand_instagram
 filled_brand_linkedin
 filled_brand_naturarosacea

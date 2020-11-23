@@ -1,7 +1,10 @@
 interface RootObject {
   'filled-action-add': string;
+  'filled-action-add-test': string;
   'filled-action-cancel': string;
+  'filled-action-cancel-test': string;
   'filled-action-check': string;
+  'filled-action-check-test': string;
   'filled-action-delete': string;
   'filled-action-love': string;
   'filled-action-newrequest': string;
@@ -9,6 +12,7 @@ interface RootObject {
   'filled-action-subtract': string;
   'filled-brand-facebook': string;
   'filled-brand-google': string;
+  'filled-brand-google-test': string;
   'filled-brand-instagram': string;
   'filled-brand-linkedin': string;
   'filled-brand-naturarosacea': string;
