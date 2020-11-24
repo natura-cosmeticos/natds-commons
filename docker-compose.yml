@@ -1,0 +1,14 @@
+version: '3'
+services:
+  visual:
+    build:
+      context: .
+    volumes:
+      - "./packages/natds-icons/regression:/app/packages/natds-icons/regression"
+    command: sh -c "yarn test:regression"
+  visual-update:
+    build:
+      context: .
+    volumes:
+      - "./packages/natds-icons/regression:/app/packages/natds-icons/regression"
+    command: sh -c "yarn test:regression:update"

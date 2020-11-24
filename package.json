@@ -23,15 +23,18 @@
     "release:ci": "yarn release --conventional-graduate --create-release github --yes",
     "start": "lerna run start --stream",
     "start:icons": "lerna run html --scope=@naturacosmeticos/natds-icons",
-    "test:unit": "jest --colors --collectCoverage --testPathIgnorePatterns=integration --testPathIgnorePatterns=regression",
+    "test:unit": "jest --colors --collectCoverage --testPathIgnorePatterns=regression --testPathIgnorePatterns=inputs",
     "build:icons": "yarn build --scope=@naturacosmeticos/natds-icons",
     "regression": "jest --colors --testPathPattern=regression",
+    "test:inputs": "jest --colors --watchAll --testPathPattern=inputs",
     "test:regression": "yarn build:icons && concurrently -k --success first -n server,regression 'yarn start:icons' 'yarn regression'",
-    "test:outputs": "jest --colors --testPathPattern=integration",
     "test:regression:update": "concurrently -k --success first -n server,regression 'yarn start:icons' 'yarn regression -u'",
-    "test": "yarn test:unit && yarn test:outputs",
+    "test:regression:docker": "docker-compose run visual",
+    "test:regression:docker:update": "docker-compose run visual-update",
+    "test": "yarn test:unit",
     "test:ci": "yarn lint && yarn test",
-    "test:watch": "jest --watchAll --collectCoverage --testPathIgnorePatterns=integration --testPathIgnorePatterns=regression"
+    "test:watch": "jest --watchAll --collectCoverage --testPathIgnorePatterns=regression --testPathIgnorePatterns=inputs",
+    "post:comment": "node -r sucrase/register ./scripts/post-pr-comment.js"
   },
   "repository": {
     "type": "git",
