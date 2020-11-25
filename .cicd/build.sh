@@ -1,1 +1,5 @@
-echo "build.sh"
+#!/bin/bash
+set -e
+
+yarn install
+yarn html:build
