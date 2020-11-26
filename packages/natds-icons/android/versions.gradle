@@ -1,8 +1,0 @@
-ext.versions = [
-        'projectVersionName': '0.0.1',
-        'projectVersionCode': 1,
-        'compileSdk'        : 30,
-        'buildTools'        : '30.0.0',
-        'targetSdk'         : 30,
-        'minSdk'            : 21
-]

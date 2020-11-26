@@ -1,0 +1,40 @@
+apply plugin: 'maven-publish'
+
+def getVersionName = { ->
+    def versionPropsFile = file('version.properties')
+    if (versionPropsFile.canRead()) {
+        Properties versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionPropsFile))
+        return versionProps['VERSION_NAME']
+    }
+    return "0.0.0"
+}
+
+def getGroupId = { ->
+    return "com.natura"
+}
+
+def getArtifactId = { ->
+    return "iconsandroid"
+}
+
+publishing {
+    publications {
+        bar(MavenPublication) {
+            groupId getGroupId()
+            artifactId getArtifactId()
+            version getVersionName()
+            artifact("$buildDir/outputs/aar/${getArtifactId()}-release.aar")
+        }
+    }
+    repositories {
+        maven {
+            name = "natds-commons"
+            url = uri("https://maven.pkg.github.com/natura-cosmeticos/natds-commons")
+            credentials {
+                username = System.getenv("GITHUB_USERNAME")
+                password = System.getenv("GITHUB_API_KEY")
+            }
+        }
+    }
+}
