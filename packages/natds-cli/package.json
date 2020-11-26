@@ -1,0 +1,34 @@
+{
+  "name": "natds-cli",
+  "version": "0.0.0",
+  "description": "A CLI with helper scripts",
+  "keywords": [
+    "cli",
+    "scripts"
+  ],
+  "author": "Ariel Flor <arielwb@gmail.com>",
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-cli#readme",
+  "license": "ISC",
+  "main": "lib/natds-cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "get-js-version": "./bin/getPackageVersion.js",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-commons.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  }
+}

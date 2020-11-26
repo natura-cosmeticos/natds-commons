@@ -10,7 +10,6 @@
         "*.config.*",
         "*.swift",
         "*.yml",
-        "*.sh",
         "package.json",
         "tsconfig.json",
         "yarn.lock",
@@ -19,7 +18,8 @@
         "jest.setup.js",
         "renovate.json",
         "packages/natds-themes/build/**",
-        "packages/natds-icons/src/**"
+        "packages/natds-icons/src/**",
+        ".cicd/**"
       ],
       "message": "chore(release): bump natds-common packages via lerna [skip ci]"
     }
@@ -27,7 +27,8 @@
   "npmClient": "yarn",
   "packages": [
     "packages/natds-themes/*",
-    "packages/natds-icons/*"
+    "packages/natds-icons/*",
+    "packages/natds-cli/*"
   ],
   "useWorkspaces": true,
   "version": "independent"
