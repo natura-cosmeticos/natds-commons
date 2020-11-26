@@ -1,13 +1,7 @@
 apply plugin: 'maven-publish'
 
 def getVersionName = { ->
-    def versionPropsFile = file('version.properties')
-    if (versionPropsFile.canRead()) {
-        Properties versionProps = new Properties()
-        versionProps.load(new FileInputStream(versionPropsFile))
-        return versionProps['VERSION_NAME']
-    }
-    return "0.0.0"
+    return System.getenv("NATDS_ICONS_VERSION")
 }
 
 def getGroupId = { ->
@@ -15,7 +9,7 @@ def getGroupId = { ->
 }
 
 def getArtifactId = { ->
-    return "iconsandroid"
+    return "icons"
 }
 
 publishing {
@@ -35,6 +29,7 @@ publishing {
                 username = System.getenv("GITHUB_USERNAME")
                 password = System.getenv("GITHUB_API_KEY")
             }
+
         }
     }
 }
