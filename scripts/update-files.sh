@@ -1,11 +1,12 @@
 #!/bin/bash
 set -e
 
+git checkout $BITRISE_GIT_BRANCH
 git add packages/natds-themes/build/
 
 git add packages/natds-icons/dist/
 git add packages/natds-icons/regression/
 git add packages/natds-icons/src/generated/
 
-git commit --allow-empty -m "chore: update generated files [skip ci]"
-git push --set-upstream origin "${TRAVIS_BRANCH}"
+git commit --allow-empty -m "chore: update generated files [ci skip]"
+git push origin HEAD
