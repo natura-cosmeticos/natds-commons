@@ -1,5 +1,6 @@
 interface RootObject {
   'filled-action-add': string;
+  'filled-action-add-test': string;
   'filled-action-cancel': string;
   'filled-action-check': string;
   'filled-action-delete': string;
