@@ -12,7 +12,7 @@
       "es2017",
       "dom"
     ],
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
     "newLine": "lf",
     "noImplicitAny": false,
@@ -25,7 +25,7 @@
     "sourceMap": true,
     "strict": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es5",
+    "target": "ESNext",
     "types": ["jest"]
   },
   "include": [
