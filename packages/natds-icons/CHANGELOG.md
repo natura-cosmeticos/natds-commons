@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@0.25.0...@naturacosmeticos/natds-icons@1.0.0) (2020-12-02)
+
+
+### Bug Fixes
+
+* **icons:** prevent import warning [DSY-1519] ([a0f81f4](https://github.com/natura-cosmeticos/natds-commons/commit/a0f81f4e4632dbb49cda13c2c4c39971c1128701))
+* **natds-icons:** remove font import from lib index ([05a772d](https://github.com/natura-cosmeticos/natds-commons/commit/05a772d7ddad826ddc93c1e8c6121ae0838c8eb5))
+
+
+### BREAKING CHANGES
+
+* **natds-icons:** The itens exported from the lib entry point have changed. Check the docs for more info.
+
+DSY-1519
+
+
+
+
+
 # [0.25.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@0.24.1...@naturacosmeticos/natds-icons@0.25.0) (2020-11-16)
 
 
