@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-git checkout $BITRISE_GIT_BRANCH
 git add packages/natds-themes/build/
 
 git add packages/natds-icons/dist/
