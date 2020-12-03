@@ -18,6 +18,7 @@ declare const styles: {
   readonly "natds-icons-pull-left": string;
   readonly "natds-icons-pull-right": string;
   readonly "natds-icons-filled-action-add": string;
+  readonly "natds-icons-filled-action-add-test": string;
   readonly "natds-icons-filled-action-cancel": string;
   readonly "natds-icons-filled-action-check": string;
   readonly "natds-icons-filled-action-delete": string;
