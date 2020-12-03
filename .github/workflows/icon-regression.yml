@@ -27,3 +27,11 @@ jobs:
         header: regression_test
         message: |
           ${{ steps.create_comment.outputs.comment }}
+on: pull_request_review_comment
+jobs:
+  update_regression:
+    runs-on: ubuntu-latest
+    name: Regression test
+    steps:
+    - name: Regression Test Update
+      run: echo "foi"
