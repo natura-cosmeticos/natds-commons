@@ -11,7 +11,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Regression Test Update
-      run: yarn test:regression:docker
+      run: yarn test:regression:docker:update
     - uses: EndBug/add-and-commit@v5
       with:
         add: './packages/natds-icons/regression/__image_snapshots__'
