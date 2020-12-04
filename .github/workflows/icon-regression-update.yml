@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Regression test
     steps:
-    - name: Dump context
-      uses: crazy-max/ghaction-dump-context@v1
     - uses: actions/github-script@v3
       id: get-pr
       with:
