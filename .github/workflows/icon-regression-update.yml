@@ -8,8 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Regression test
     steps:
+    - name: Dump context
+      uses: crazy-max/ghaction-dump-context@v1
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
     - name: Regression Test Update
       run: yarn test:regression:docker:update
     - uses: EndBug/add-and-commit@v5
