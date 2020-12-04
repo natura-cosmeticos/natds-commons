@@ -1,7 +1,10 @@
 name: Icon-regression-Update
-on: pull_request_review_comment
+on:
+  issue_comment:
+    types: [created, edited]
 jobs:
   update_regression:
+    if: contains(github.event.comment.html_url, '/pull/') && contains(github.event.comment.body, '[update regression]')
     runs-on: ubuntu-latest
     name: Regression test
     steps:
