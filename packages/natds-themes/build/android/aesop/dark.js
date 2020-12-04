@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Dec 2020 13:56:15 GMT
+ * Generated on Fri, 04 Dec 2020 14:01:41 GMT
  */
 
 module.exports = {
