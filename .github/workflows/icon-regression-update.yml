@@ -10,10 +10,15 @@ jobs:
     steps:
     - name: Dump context
       uses: crazy-max/ghaction-dump-context@v1
+    - name: Get the latest commit on PR
+      id: get-latest-commit
+      uses: ActionsRML/get-PR-latest-commit@master
+      with:
+        pull_number: ${{ github.event.issue.number }}
     - name: Checkout repository
       uses: actions/checkout@v2
       with:
-        ref: ${{ github.event.pull_request.head.sha }}
+        ref: ${{ steps.get-latest-commit.outputs.latest_commit_sha }}
     - name: Regression Test Update
       run: yarn test:regression:docker:update
     - uses: EndBug/add-and-commit@v5
