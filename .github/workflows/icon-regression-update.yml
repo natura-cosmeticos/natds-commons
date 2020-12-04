@@ -14,7 +14,7 @@ jobs:
       run: yarn test:regression:docker
     - uses: EndBug/add-and-commit@v5
       with:
-        add: '/packages/natds-icons/regression/__image_snapshots__'
+        add: './packages/natds-icons/regression/__image_snapshots__'
         author_name: Design System via github action
         author_email: designsystem@natura.net
         message: 'chore: updating icons regression test reference image [skip ci]'
