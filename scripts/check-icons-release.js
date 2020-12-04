@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const { exec } = require('child_process');
 
 exec('npx lerna changed --json --loglevel=silent', (err, stdout) => {
