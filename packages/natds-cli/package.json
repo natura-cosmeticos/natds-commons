@@ -11,14 +11,12 @@
   "license": "ISC",
   "main": "lib/natds-cli.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "bin": {
     "get-js-version": "./bin/getPackageVersion.js",
     "configure-git": "./bin/configureGit.sh",
-    "configure-npm": "./bin/configureNpm.sh",
-    "test": "__tests__"
+    "configure-npm": "./bin/configureNpm.sh"
   },
   "files": [
     "lib"
