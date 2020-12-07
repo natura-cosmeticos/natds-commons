@@ -19,6 +19,7 @@
         "renovate.json",
         "packages/natds-themes/build/**",
         "packages/natds-icons/src/**",
+        "packages/natds-icons/android/**",
         ".cicd/**"
       ],
       "message": "chore(release): bump natds-common packages via lerna [skip ci]"
