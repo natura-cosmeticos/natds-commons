@@ -1,28 +1,36 @@
 # Natura Design System - Icons
 
-- How to Use
-    - For web projects
-      - Installation
-      - Using React
-      - Using as icon font
-      - Using SVG
-      - Where to find icon names
-    - For React Native projects
-    - For Android projects
-    - For iOS projects
-- How to contribute
+- [How to Use](#how-to-use)
+    - [Icon Names](#icon-names-)
+    - [Using NatDS Libraries](#using-natds-libraries) 
+    - [Without Using NatDS Libraries](#without-using-natds-libraries)
+        - [Installation](#installation)
+        - [Using CSS + icon font](#using-css--icon-font)
+        - [Using SVG](#using-svg)
+- [How to contribute](#how-to-contribute)
 
 
 ## How to use
 
 ### Icon Names 📌
 
-You can search for the names of the icons you need in our **[Natura Design System](https://natds.zeroheight.com/styleguide/s/41041/p/94367e-icon-library/b/6154b9)** website.
+You can search for the names of the icons you need in our **[Natura Design System](https://zeroheight.com/28db352be/p/94367e-icon-library/b/6154b9)** website.
 
 > **ℹ️ Note that the availability of the icons may vary depending on the version you use, so always try to use the latest stable version of `natds-icons`.**
 
+### Using NatDS Libraries
 
-### For web projects
+If you are developing for theses platforms, you can check out our component libraries for: Android ([natds-android](https://github.com/natura-cosmeticos/natds-android/)), iOS ([natds-ios](https://github.com/natura-cosmeticos/natds-ios/)), React ([natds-web](https://github.com/natura-cosmeticos/natds-js/tree/main/packages/web/)), and React Native ([natds-rn](https://github.com/natura-cosmeticos/natds-rn/)).
+
+Here you can find more instructions on how to use `natds-icons` along with those libraries:
+
+- [natds-android](https://github.com/natura-cosmeticos/natds-android/tree/master/doc/icon-token.md)
+- [natds-ios](https://github.com/natura-cosmeticos/natds-ios/)
+- [natds-web](https://github.com/natura-cosmeticos/natds-js/tree/main/packages/web/docs/icons.md/)
+- [natds-rn](https://github.com/natura-cosmeticos/natds-rn/tree/master/docs/Icons.md)
+
+
+### Without Using NatDS Libraries
 
 #### Installation
 
@@ -41,50 +49,48 @@ yarn add @naturacosmeticos/natds-icons
 
 This library is available to use from both `unpkg` and `jsdelivr`. You can load the files from this networks using URLs that points directly to the files you want, like this:
 
-[https://unpkg.com/@naturacosmeticos/natds-icons@1.0.3/dist/natds-icons.css](https://unpkg.com/@naturacosmeticos/natds-icons@1.0.3/dist/natds-icons.css)
+[https://unpkg.com/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css](https://unpkg.com/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css)
 
 Or this:
 
-[https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@version/dist/natds-icons.css](https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@version/dist/natds-icons.css)
+[https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css](https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css)
 
-  >**⚠️ You should replace `1.0.3` by the better version for your project. Always prefer the latest stable version.**
+  >**⚠️ You can replace `latest` by the better version for your project. We recommend you always use the latest stable version.**
 
-Check out [unpkg](https://unpkg.com/browse/@naturacosmeticos/natds-icons@1.0.3/dist/) and [jsdelivr](https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@1.0.3/dist/) to see the files you can import and their complete URLs.
-
-
-#### Using React
-
-If you are using React, you can check out our library for React components: [natds-web](https://github.com/natura-cosmeticos/natds-js/). There you can find [more instructions](https://github.com/natura-cosmeticos/natds-js/tree/main/packages/web/docs/icons.md) on how to use `natds-icons` along with those components.
+Check out [unpkg](https://unpkg.com/browse/@naturacosmeticos/natds-icons@latest/dist/) and [jsdelivr](https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/) to see the files you can import and their complete URLs.
 
 
-#### Using as icon font
+> **ℹ️ Working with TypeScript?**
+>
+> We also provide [declaration files for CSS](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.css.d.ts) and [JSON](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.json.d.ts), so you can avoid the `"Could not find a declaration file for module"` error.
 
-For using `natds-icons` as an *icon font* on web environments, you will need to serve the [font files](https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-icons/dist/fonts) and consume the [CSS file](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.css) as you see fit.
 
-You may also import the [JSON file](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.json) that contains the relationships between the icon names and their `unicode` counterparts.
+#### Using CSS + icon font
 
->**⚠️ We don't recommend using `unicodes`, specially before version [0.23.0](https://www.npmjs.com/package/@naturacosmeticos/natds-icons/v/0.23.0), as they were generated automatically and didn't persist between versions.**
-
-You can import files like this:
-
-```jsx
-import {
-  iconNames, // the .json file
-  iconStyles, // the .css file
-  NatdsIconsEot,
-  NatdsIconsSvg,
-  NatdsIconsTtf,
-  NatdsIconsWoff,
-  NatdsIconsWoff2
-} from '@naturacosmeticos/natds-icons';
-```
-
-Or like this:
+Load the font icons from the package `@naturacosmeticos/natds-icons`:
 
 ```html
-<script src="node_modules/@naturacosmeticos/natds-icons/dist/natds-icons.json"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css">
+```
 
-<link href="node_modules/@naturacosmeticos/natds-icons/dist/natds-icons.css" rel="stylesheet">
+or load it from `node_modules` with a module bundler like `webpack` or `rollup`
+
+*main.js:*
+```javascript
+import React from 'react';
+import '@naturacosmeticos/natds-icons/natds-icons.css';
+```
+
+*webpack.config.js:*
+```javascript
+module.exports = {
+  module: {
+    loaders: [
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+      // ...
+    ]
+  }
+};
 ```
 
 After that, you can insert an icon by adding the name of the icon class to any inline HTML element. Like this example:
@@ -93,7 +99,7 @@ After that, you can insert an icon by adding the name of the icon class to any i
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@0.22.0/dist/natds-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css">
 </head>
 <body>
 
@@ -109,34 +115,44 @@ All the icons can be customized with CSS (size, color, shadow, etc.), but we rec
 
 If you need a customization that is not provided yet, please consider [contributing](./CONTRIBUTING.md), or you can [create an issue](https://github.com/natura-cosmeticos/natds-commons/issues/new/choose).
 
-> **ℹ️ Working with TypeScript?**
->
-> We also provide [declaration files for CSS](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.css.d.ts) and [JSON](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.json.d.ts), so you can avoid the `"Could not find a declaration file for module"` error.
-
 
 #### Using SVG
 
-You can use the SVG files for the icons individually by importing them from the [./dist/svg](./dist/svg) folder;
+You can use the SVG files for the icons individually by importing them from the [./dist/svg](./dist/svg) folder or CDN. Like this example:
 
+```html
+<!DOCTYPE html>
+<html>
+<body>
 
+    <img src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@1.0.3/dist/svg/filled-action-rating.svg" alt="star icon">
 
-### For React Native projects
+</body>
+</html>
+```
 
-If you are using React Native, you can check out our library for React Native components: [natds-rn](https://github.com/natura-cosmeticos/natds-rn/). There you can find [more instructions](https://github.com/natura-cosmeticos/natds-rn/tree/master/docs/Icons.md) on how to use `natds-icons` along with those components.
+Or like this:
 
+```html
+<!DOCTYPE html>
+<html>
+<body>
 
+    <a href="/" class="rating-star">
+      Rate this product!
+    </a>
 
-### For Android projects
+</body>
+</html>
+```
 
-If you are developing for Android devices, you need to check out our library for Android components: [natds-android](https://github.com/natura-cosmeticos/natds-android/). There you can find [more instructions](https://github.com/natura-cosmeticos/natds-android/tree/master/doc/icon-token.md) on how to use `natds-icons` along with those components.
-
-
-
-### For iOS projects
-
-If you are developing for iOS devices, you need to check out our library for iOS components: [natds-ios](https://github.com/natura-cosmeticos/natds-ios/). There you can find [more instructions](https://github.com/natura-cosmeticos/natds-android/tree/master/doc/icon-token.md) on how to use `natds-icons` along with those components.
-
-
+```css
+.rating-star {
+  display: block;
+  text-indent: -9999px;
+  background: url(https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@1.0.3/dist/svg/filled-action-rating.svg);
+}
+```
 
 ## How to contribute
 
