@@ -14,7 +14,7 @@
 
 ### Icon Names 📌
 
-You can search for the names of the icons you need in our **[Natura Design System](https://zeroheight.com/28db352be/p/94367e-icon-library/b/6154b9)** website.
+You can search for the names of the icons you need in our **[Natura Design System](https://natds.natura.design/icon-library)** website.
 
 > **ℹ️ Note that the availability of the icons may vary depending on the version you use, so always try to use the latest stable version of `natds-icons`.**
 
