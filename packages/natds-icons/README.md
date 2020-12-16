@@ -8,6 +8,7 @@
             - [Installation](#installation)
             - [Using CSS + icon font](#using-css--icon-font)
             - [Using SVG](#using-svg)
+        - [Android development](#android-development)
 - [How to contribute](#how-to-contribute)
 
 ## Icon Names 📌
