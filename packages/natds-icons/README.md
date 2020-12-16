@@ -25,7 +25,7 @@ If you are developing for theses platforms, you can check out our component libr
 Here you can find more instructions on how to use `natds-icons` along with those libraries:
 
 - [natds-android](https://github.com/natura-cosmeticos/natds-android/tree/master/doc/icon-token.md)
-- [natds-ios](https://github.com/natura-cosmeticos/natds-ios/)
+- [natds-ios](https://github.com/natura-cosmeticos/natds-ios/blob/master/docs/using-icons.md)
 - [natds-web](https://github.com/natura-cosmeticos/natds-js/tree/main/packages/web/docs/icons.md/)
 - [natds-rn](https://github.com/natura-cosmeticos/natds-rn/tree/master/docs/Icons.md)
 
