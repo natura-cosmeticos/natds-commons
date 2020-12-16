@@ -120,9 +120,9 @@ module.exports = {
       ]
     },
     "secondary": {
-      "value": "\"#D2AD93\"",
+      "value": "\"#F3F1A5\"",
       "original": {
-        "value": "#D2AD93"
+        "value": "#F3F1A5"
       },
       "name": "colorSecondary",
       "attributes": {

@@ -20,10 +20,10 @@
     },
 
     "secondary": {
-      "value": "#A55F53"
+      "value": "#D6CE4B"
     },
     "onSecondary": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryLight": {
       "value": "#D98D7F"

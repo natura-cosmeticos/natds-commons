@@ -96,9 +96,9 @@ module.exports = {
       ]
     },
     "secondary": {
-      "value": "#a55f53",
+      "value": "#d6ce4b",
       "original": {
-        "value": "#A55F53"
+        "value": "#D6CE4B"
       },
       "name": "colorSecondary",
       "attributes": {
@@ -111,9 +111,9 @@ module.exports = {
       ]
     },
     "onSecondary": {
-      "value": "#ffffff",
+      "value": "#000000",
       "original": {
-        "value": "#FFFFFF"
+        "value": "#000000"
       },
       "name": "colorOnSecondary",
       "attributes": {

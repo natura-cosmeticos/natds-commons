@@ -33,7 +33,7 @@ struct TheBodyShopDarkTokens: Tokens {
   let colorOnPrimaryLight = "#000000"
   let colorPrimaryDark = "#2F837F"
   let colorOnPrimaryDark = "#000000"
-  let colorSecondary = "#D2AD93"
+  let colorSecondary = "#F3F1A5"
   let colorOnSecondary = "#000000"
   let colorSecondaryLight = "#FFDFC4"
   let colorOnSecondaryLight = "#000000"
