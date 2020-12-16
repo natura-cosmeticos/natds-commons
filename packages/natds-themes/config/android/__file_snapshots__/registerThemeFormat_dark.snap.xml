@@ -21,8 +21,8 @@
 -->
 <resources>
   <style name="Theme.Avon.Light" parent="Theme.MaterialComponents.Light">
-    <item name="colorPrimary">@color/ssotssot980234b8f105163590a948ac7f8aa3f2</item>
-    <item name="sizeTiny">@dimen/ssotssot9a2af777528e7da0358e7be79a4981c2</item>
-    <item name="spacingSmall">@dimen/ssotssot9a2af777528e7da0358e7be79a4981c2</item>
+    <item name="colorPrimary">@color/ssot980234b8f105163590a948ac7f8aa3f2</item>
+    <item name="sizeTiny">@dimen/ssot9a2af777528e7da0358e7be79a4981c2</item>
+    <item name="spacingSmall">@dimen/ssot9a2af777528e7da0358e7be79a4981c2</item>
   </style>
 </resources>
