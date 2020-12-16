@@ -67,3 +67,4 @@ packages/natds-themes/react-native
 .cache
 netlify
 __diff_output__
+public
