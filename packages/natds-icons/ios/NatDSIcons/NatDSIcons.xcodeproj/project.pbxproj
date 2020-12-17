@@ -108,10 +108,18 @@
 		7956618B258BF46600673A96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				79566193258BF4E100673A96 /* natds-icons-ios.ttf */,
+				79566198258BF83000673A96 /* Sources */,
 				7956618C258BF46600673A96 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		79566198258BF83000673A96 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				79566193258BF4E100673A96 /* natds-icons-ios.ttf */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

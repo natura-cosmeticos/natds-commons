@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NatDSIcons"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "Natura Group Design System - Icons"
   spec.description  = <<-DESC
                     Natura Design System helps designers and developers work faster and smarter, ensuring brand consistency and scalability.
@@ -16,6 +16,6 @@ spec.source_files  = 'NatDSIcons/*.{h,m,swift}'
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = '5.0'
   spec.platform      = :ios, '10.0'
-  spec.resources     = ['Resources/*.{ttf}']
-  spec.ios.resource_bundle = { 'NatDSIcons' => ['Resources/*.{ttf}'] }
+  spec.resources     = ['Resources/**/*.{ttf}']
+  spec.ios.resource_bundle = { 'NatDSIcons' => ['Resources/**/*.{ttf}'] }
 end
