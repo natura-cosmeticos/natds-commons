@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.natura.com.br/"
   spec.license      = "ISC"
   spec.author       = { "Natura Design System" => "designsystem@natura.net" }
-  spec.source       = { :git => "https://github.com/natura-cosmeticos/natds-commons.git", :tag => spec.version, :branch => "feature/ios-icons }
+  spec.source       = { :git => "https://github.com/natura-cosmeticos/natds-commons.git", :tag => spec.version, :branch => "feature/ios-icons" }
   spec.source_files  = 'NatDSIcons/*.{h,m,swift}'
   spec.resources           = ['Resources/*.{ttf}']
   spec.ios.resource_bundle = { 'NatDSIcons' => ['Resources/*.{ttf}'] }
