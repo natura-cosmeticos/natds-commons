@@ -10,10 +10,14 @@ Pod::Spec.new do |spec|
   spec.license      = "ISC"
   spec.author             = { "Natura Design System" => "designsystem@natura.net" }
   spec.source       = { :git => "https://github.com/natura-cosmeticos/natds-commons.git", :tag => spec.version, :branch => "feat/ios-icons" }
-spec.source_files  = 'NatDSIcons/*.{h,m,swift}'
+
   spec.exclude_files = "Classes/Exclude"
+
   spec.swift_version = '5.0'
   spec.platform      = :ios, '10.0'
-  spec.resources     = ['Resources/*.{ttf}']
-  spec.ios.resource_bundle = { 'NatDSIcons' => ['Resources/*.{ttf}'] }
+
+  #spec.source_files  = 'Resources/*.{swift,h,m}'
+
+  #spec.resources           = ['Resources/*.{ttf}']
+  #spec.ios.resource_bundle = { 'NatDSIcons' => ['Reources/*.{ttf}'] }
 end
