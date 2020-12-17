@@ -158,9 +158,9 @@ module.exports = {
       ]
     },
     "secondaryLight": {
-      "value": "\"#D98D7F\"",
+      "value": "\"#FFFF7C\"",
       "original": {
-        "value": "#D98D7F"
+        "value": "#FFFF7C"
       },
       "name": "colorSecondaryLight",
       "attributes": {
@@ -177,9 +177,9 @@ module.exports = {
       ]
     },
     "onSecondaryLight": {
-      "value": "\"#FFFFFF\"",
+      "value": "\"#000000\"",
       "original": {
-        "value": "#FFFFFF"
+        "value": "#000000"
       },
       "name": "colorOnSecondaryLight",
       "attributes": {
@@ -196,9 +196,9 @@ module.exports = {
       ]
     },
     "secondaryDark": {
-      "value": "\"#73342A\"",
+      "value": "\"#A29D12\"",
       "original": {
-        "value": "#73342A"
+        "value": "#A29D12"
       },
       "name": "colorSecondaryDark",
       "attributes": {
@@ -215,9 +215,9 @@ module.exports = {
       ]
     },
     "onSecondaryDark": {
-      "value": "\"#FFFFFF\"",
+      "value": "\"#000000\"",
       "original": {
-        "value": "#FFFFFF"
+        "value": "#000000"
       },
       "name": "colorOnSecondaryDark",
       "attributes": {

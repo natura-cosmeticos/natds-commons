@@ -7,10 +7,10 @@
   --colorOnPrimaryDark: #ffffff;
   --colorSecondary: #d6ce4b;
   --colorOnSecondary: #000000;
-  --colorSecondaryLight: #d98d7f;
-  --colorOnSecondaryLight: #ffffff;
-  --colorSecondaryDark: #73342a;
-  --colorOnSecondaryDark: #ffffff;
+  --colorSecondaryLight: #ffff7c;
+  --colorOnSecondaryLight: #000000;
+  --colorSecondaryDark: #a29d12;
+  --colorOnSecondaryDark: #000000;
   --colorBackground: #fafafa;
   --colorOnBackground: #333333;
   --colorSurface: #ffffff;

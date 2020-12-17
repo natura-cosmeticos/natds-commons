@@ -26,16 +26,16 @@
       "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#D98D7F"
+      "value": "#FFFF7C"
     },
     "onSecondaryLight": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryDark": {
-      "value": "#73342A"
+      "value": "#A29D12"
     },
     "onSecondaryDark": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
 
     "background": {

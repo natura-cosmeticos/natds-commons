@@ -1,15 +1,15 @@
 :root {
-  --colorPrimary: #62b3ae;
+  --colorPrimary: #7cc4bc;
   --colorOnPrimary: #000000;
-  --colorPrimaryLight: #94e5e0;
+  --colorPrimaryLight: #aef7ee;
   --colorOnPrimaryLight: #000000;
-  --colorPrimaryDark: #2f837f;
+  --colorPrimaryDark: #4c938c;
   --colorOnPrimaryDark: #000000;
   --colorSecondary: #f3f1a5;
   --colorOnSecondary: #000000;
-  --colorSecondaryLight: #ffdfc4;
+  --colorSecondaryLight: #ffffd7;
   --colorOnSecondaryLight: #000000;
-  --colorSecondaryDark: #a07e65;
+  --colorSecondaryDark: #bfbf75;
   --colorOnSecondaryDark: #000000;
   --colorBackground: #121212;
   --colorOnBackground: #ffffff;

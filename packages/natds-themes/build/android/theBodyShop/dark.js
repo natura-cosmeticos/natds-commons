@@ -6,9 +6,9 @@
 module.exports = {
   "color": {
     "primary": {
-      "value": "#62B3AE",
+      "value": "#7CC4BC",
       "original": {
-        "value": "#62B3AE"
+        "value": "#7CC4BC"
       },
       "name": "colorPrimary",
       "attributes": {
@@ -42,9 +42,9 @@ module.exports = {
       ]
     },
     "primaryLight": {
-      "value": "#94E5E0",
+      "value": "#AEF7EE",
       "original": {
-        "value": "#94E5E0"
+        "value": "#AEF7EE"
       },
       "name": "colorPrimaryLight",
       "attributes": {
@@ -78,9 +78,9 @@ module.exports = {
       ]
     },
     "primaryDark": {
-      "value": "#2F837F",
+      "value": "#4C938C",
       "original": {
-        "value": "#2F837F"
+        "value": "#4C938C"
       },
       "name": "colorPrimaryDark",
       "attributes": {
@@ -150,9 +150,9 @@ module.exports = {
       ]
     },
     "secondaryLight": {
-      "value": "#FFDFC4",
+      "value": "#FFFFD7",
       "original": {
-        "value": "#FFDFC4"
+        "value": "#FFFFD7"
       },
       "name": "colorSecondaryLight",
       "attributes": {
@@ -186,9 +186,9 @@ module.exports = {
       ]
     },
     "secondaryDark": {
-      "value": "#A07E65",
+      "value": "#BFBF75",
       "original": {
-        "value": "#A07E65"
+        "value": "#BFBF75"
       },
       "name": "colorSecondaryDark",
       "attributes": {
