@@ -12,6 +12,7 @@
 		795660A7258B986700673A96 /* NatDSIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 79566099258B986700673A96 /* NatDSIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		795660B3258B987500673A96 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795660B2258B987500673A96 /* Icon.swift */; };
 		795660B7258B988C00673A96 /* NatDSIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795660B6258B988C00673A96 /* NatDSIcons.swift */; };
+		795660CC258B9CD200673A96 /* natds-icons-ios.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795660CB258B9CD200673A96 /* natds-icons-ios.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,9 @@
 		795660A6258B986700673A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		795660B2258B987500673A96 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		795660B6258B988C00673A96 /* NatDSIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatDSIcons.swift; sourceTree = "<group>"; };
+		795660C2258B9CBC00673A96 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		795660C4258B9CBC00673A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795660CB258B9CD200673A96 /* natds-icons-ios.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "natds-icons-ios.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		795660BF258B9CBC00673A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +70,7 @@
 			children = (
 				79566098258B986700673A96 /* NatDSIcons */,
 				795660A3258B986700673A96 /* NatDSIconsTests */,
+				795660C3258B9CBC00673A96 /* Resources */,
 				79566097258B986700673A96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +80,7 @@
 			children = (
 				79566096258B986700673A96 /* NatDSIcons.framework */,
 				7956609F258B986700673A96 /* NatDSIconsTests.xctest */,
+				795660C2258B9CBC00673A96 /* Resources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +103,15 @@
 				795660A6258B986700673A96 /* Info.plist */,
 			);
 			path = NatDSIconsTests;
+			sourceTree = "<group>";
+		};
+		795660C3258B9CBC00673A96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				795660CB258B9CD200673A96 /* natds-icons-ios.ttf */,
+				795660C4258B9CBC00673A96 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +164,23 @@
 			productReference = 7956609F258B986700673A96 /* NatDSIconsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		795660C1258B9CBC00673A96 /* Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795660C5258B9CBC00673A96 /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildPhases = (
+				795660BE258B9CBC00673A96 /* Sources */,
+				795660BF258B9CBC00673A96 /* Frameworks */,
+				795660C0258B9CBC00673A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resources;
+			productName = Resources;
+			productReference = 795660C2258B9CBC00673A96 /* Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +195,9 @@
 						LastSwiftMigration = 1220;
 					};
 					7956609E258B986700673A96 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					795660C1258B9CBC00673A96 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -175,6 +217,7 @@
 			targets = (
 				79566095258B986700673A96 /* NatDSIcons */,
 				7956609E258B986700673A96 /* NatDSIconsTests */,
+				795660C1258B9CBC00673A96 /* Resources */,
 			);
 		};
 /* End PBXProject section */
@@ -184,10 +227,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795660CC258B9CD200673A96 /* natds-icons-ios.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7956609D258B986700673A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795660C0258B9CBC00673A96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,6 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				795660A5258B986700673A96 /* NatDSIconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795660BE258B9CBC00673A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +494,38 @@
 			};
 			name = Release;
 		};
+		795660C6258B9CBC00673A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = net.natura.Resources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		795660C7258B9CBC00673A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = net.natura.Resources;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,6 +552,15 @@
 			buildConfigurations = (
 				795660AE258B986700673A96 /* Debug */,
 				795660AF258B986700673A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795660C5258B9CBC00673A96 /* Build configuration list for PBXNativeTarget "Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795660C6258B9CBC00673A96 /* Debug */,
+				795660C7258B9CBC00673A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
