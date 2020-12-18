@@ -13,8 +13,6 @@
 		7956617F258BF42700673A96 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956617E258BF42700673A96 /* Icon.swift */; };
 		79566183258BF44000673A96 /* NatDSIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79566182258BF44000673A96 /* NatDSIcons.swift */; };
 		79566194258BF4E100673A96 /* natds-icons-ios.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79566193258BF4E100673A96 /* natds-icons-ios.ttf */; };
-		795661B8258C13F200673A96 /* natds-icons-ios.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795661B7258C13F200673A96 /* natds-icons-ios.ttf */; };
-		795661B9258C13F200673A96 /* natds-icons-ios.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795661B7258C13F200673A96 /* natds-icons-ios.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +37,6 @@
 		7956618A258BF46600673A96 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7956618C258BF46600673A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79566193258BF4E100673A96 /* natds-icons-ios.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "natds-icons-ios.ttf"; sourceTree = "<group>"; };
-		795661B7258C13F200673A96 /* natds-icons-ios.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "natds-icons-ios.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +68,6 @@
 		79566154258BF3F500673A96 = {
 			isa = PBXGroup;
 			children = (
-				795661B6258C13D800673A96 /* Sources */,
 				79566160258BF3F500673A96 /* NatDSIcons */,
 				7956616B258BF3F500673A96 /* NatDSIconsTests */,
 				7956618B258BF46600673A96 /* Resources */,
@@ -116,14 +112,6 @@
 				7956618C258BF46600673A96 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		795661B6258C13D800673A96 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				795661B7258C13F200673A96 /* natds-icons-ios.ttf */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795661B8258C13F200673A96 /* natds-icons-ios.ttf in Resources */,
 				79566194258BF4E100673A96 /* natds-icons-ios.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795661B9258C13F200673A96 /* natds-icons-ios.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

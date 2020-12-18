@@ -16,8 +16,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.platform      = :ios, '10.0'
 
-  #spec.source_files  = 'Resources/*.{swift,h,m}'
-
-  #spec.resources           = ['Resources/*.{ttf}']
-  #spec.ios.resource_bundle = { 'NatDSIcons' => ['Reources/*.{ttf}'] }
+  spec.source_files  = '**/NatDSIcons/*.{swift,h,m}'
+  spec.resources           = ['**/Resources/*.{ttf}']
+  spec.ios.resource_bundle = { 'NatDSIcons' => ['**/Resources/*.{ttf}'] }
 end
