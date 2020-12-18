@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NatDSIcons"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Natura Group Design System - Icons"
   spec.description  = <<-DESC
                     Natura Design System helps designers and developers work faster and smarter, ensuring brand consistency and scalability.
