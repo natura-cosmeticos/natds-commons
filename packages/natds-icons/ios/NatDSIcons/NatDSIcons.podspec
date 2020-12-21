@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NatDSIcons"
-  spec.version      = "0.0.6"
+  spec.version      = "#{ ENV['NATDS_ICONS_VERSION'] }"
   spec.summary      = "Natura Group Design System - Icons"
   spec.description  = <<-DESC
                     Natura Design System helps designers and developers work faster and smarter, ensuring brand consistency and scalability.
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.natura.com.br/"
   spec.license      = "ISC"
   spec.author             = { "Natura Design System" => "designsystem@natura.net" }
-  spec.source       = { :git => "https://github.com/natura-cosmeticos/natds-commons.git", :tag => spec.version, :branch => "feat/ios-icons" }
+  spec.source       = { :git => "https://github.com/natura-cosmeticos/natds-commons.git", :tag => "#{ ENV['NATDS_ICONS_TAG'] }" }
 
   spec.exclude_files = "Classes/Exclude"
 
