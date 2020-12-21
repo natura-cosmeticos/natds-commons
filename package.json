@@ -19,7 +19,7 @@
     "release:alpha": "yarn release --conventional-prerelease --no-commit-hooks",
     "release:alpha-ci": "yarn release:alpha --yes",
     "reinstall": "yarn clean && rm -rf ./node_modules && rm -rf yarn.lock && yarn install && yarn bootstrap",
-    "release": "lerna version --conventional-commits",
+    "release": "lerna version --conventional-commits --no-private",
     "release:ci": "yarn release --conventional-graduate --create-release github --yes",
     "start": "lerna run start --stream",
     "start:icons": "lerna run html --scope=@naturacosmeticos/natds-icons",

@@ -6,6 +6,7 @@
     "cli",
     "scripts"
   ],
+  "private": false,
   "author": "Ariel Flor <arielwb@gmail.com>",
   "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-cli#readme",
   "license": "ISC",

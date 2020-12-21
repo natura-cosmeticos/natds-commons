@@ -3,6 +3,7 @@
   "displayName": "NatDSTokensSearch",
   "version": "0.1.8",
   "description": "An application to help token discovery and usage",
+  "private": true,
   "keywords": [
     "design",
     "tokens"
