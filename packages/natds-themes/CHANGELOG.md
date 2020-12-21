@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.10-alpha.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.4.9...@naturacosmeticos/natds-themes@0.4.10-alpha.0) (2020-12-17)
+
+
+### Bug Fixes
+
+* update tbs secondary colors ([1e65305](https://github.com/natura-cosmeticos/natds-commons/commit/1e65305213889b1c400b668ee7dced5250c950fd))
+
+
+
+
+
 ## [0.4.9](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.4.8...@naturacosmeticos/natds-themes@0.4.9) (2020-12-16)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes

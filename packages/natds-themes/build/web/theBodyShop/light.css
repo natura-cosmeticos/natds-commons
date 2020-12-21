@@ -5,12 +5,12 @@
   --colorOnPrimaryLight: #ffffff;
   --colorPrimaryDark: #001d10;
   --colorOnPrimaryDark: #ffffff;
-  --colorSecondary: #a55f53;
-  --colorOnSecondary: #ffffff;
-  --colorSecondaryLight: #d98d7f;
-  --colorOnSecondaryLight: #ffffff;
-  --colorSecondaryDark: #73342a;
-  --colorOnSecondaryDark: #ffffff;
+  --colorSecondary: #d6ce4b;
+  --colorOnSecondary: #000000;
+  --colorSecondaryLight: #ffff7c;
+  --colorOnSecondaryLight: #000000;
+  --colorSecondaryDark: #a29d12;
+  --colorOnSecondaryDark: #000000;
   --colorBackground: #fafafa;
   --colorOnBackground: #333333;
   --colorSurface: #ffffff;

@@ -1,38 +1,37 @@
 {
   "color": {
     "primary": {
-      "value": "#62B3AE"
+      "value": "#7CC4BC"
     },
     "onPrimary": {
       "value": "#000000"
     },
     "primaryLight": {
-      "value": "#94E5E0"
+      "value": "#AEF7EE"
     },
     "onPrimaryLight": {
       "value": "#000000"
     },
     "primaryDark": {
-      "value": "#2F837F"
+      "value": "#4C938C"
     },
     "onPrimaryDark": {
       "value": "#000000"
     },
-
     "secondary": {
-      "value": "#D2AD93"
+      "value": "#F3F1A5"
     },
     "onSecondary": {
       "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#FFDFC4"
+      "value": "#FFFFD7"
     },
     "onSecondaryLight": {
       "value": "#000000"
     },
     "secondaryDark": {
-      "value": "#A07E65"
+      "value": "#BFBF75"
     },
     "onSecondaryDark": {
       "value": "#000000"
