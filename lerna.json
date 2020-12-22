@@ -20,7 +20,9 @@
         "packages/natds-themes/build/**",
         "packages/natds-icons/src/**",
         "packages/natds-icons/android/**",
-        ".cicd/**"
+        "packages/natds-icons/ios/**",
+        ".cicd/**",
+        "scripts/**"
       ],
       "message": "chore(release): bump natds-common packages via lerna [skip ci]"
     }
