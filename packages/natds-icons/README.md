@@ -67,7 +67,7 @@ Check out [unpkg](https://unpkg.com/browse/@naturacosmeticos/natds-icons@latest/
 >
 > We also provide [declaration files for CSS](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.css.d.ts) and [JSON](https://github.com/natura-cosmeticos/natds-commons/blob/master/packages/natds-icons/dist/natds-icons.json.d.ts), so you can avoid the `"Could not find a declaration file for module"` error.
 
-
+&nbsp;
 ##### Using CSS + icon font
 
 Load the font icons from the package `@naturacosmeticos/natds-icons`:
@@ -118,7 +118,7 @@ All the icons can be customized with CSS (size, color, shadow, etc.), but we rec
 
 If you need a customization that is not provided yet, please consider [contributing](./CONTRIBUTING.md), or you can [create an issue](https://github.com/natura-cosmeticos/natds-commons/issues/new/choose).
 
-
+&nbsp;
 ##### Using SVG
 
 You can use the SVG files for the icons individually by importing them from the [./dist/svg](./dist/svg) folder or CDN. Like this example:
@@ -156,7 +156,7 @@ Or like this:
   background: url(https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@1.0.3/dist/svg/filled-action-rating.svg);
 }
 ```
-
+&nbsp;
 #### Android development
 
 In order to use `natds-icons` in an Android project, you must add a new dependency.
@@ -190,7 +190,21 @@ implementation "com.natura:icons:$rootProject.<version>"
 
 With the dependency configured, you can access our icons as drawables. 😃
 
+&nbsp;
+#### iOS development
 
+To use NatDS Icons, you MUST add a new pod to your project. You must specify it in your `Podfile`:
+
+```ruby
+target '<Your Target Name>' do
+    pod 'NatDSIcons'    
+end
+```
+
+[Check the documentation on how to use icons.](https://github.com/natura-cosmeticos/natds-ios/blob/update-docs-icons/docs/How%20to%20use%20icons.md)
+
+
+&nbsp;
 ## How to contribute
 
 To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
