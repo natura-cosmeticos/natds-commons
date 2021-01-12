@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                     Natura Design System helps designers and developers work faster and smarter, ensuring brand consistency and scalability.
                    DESC
-  spec.documentation_url: "https://natds-ios.natura.design/documentation/how-to-use-icons.html"
+  spec.documentation_url = "https://natds-ios.natura.design/documentation/how-to-use-icons.html"
   spec.homepage     = "https://www.natura.com.br/"
   spec.license      = "ISC"
   spec.author             = { "Natura Design System" => "designsystem@natura.net" }
