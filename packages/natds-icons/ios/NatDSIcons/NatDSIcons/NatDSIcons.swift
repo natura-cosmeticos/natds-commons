@@ -1,3 +1,3 @@
-public func getIcon(icon: Icon) -> String {
+public func getIcon(_ icon: Icon) -> String {
     return icon.unicode
 }
