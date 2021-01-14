@@ -1,3 +1,4 @@
+import svg2vectordrawable from 'svg2vectordrawable';
 import {
   pipe,
   prop,
@@ -7,7 +8,6 @@ import {
   keys,
   join,
 } from 'ramda';
-import svg2vectordrawable from 'svg2vectordrawable';
 
 const addColorToPaths = (xml) => xml.replace(/<path\n/g, '<path\n        android:fillColor="#FF000000"\n');
 

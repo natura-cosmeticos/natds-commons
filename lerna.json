@@ -18,7 +18,6 @@
         "jest.setup.js",
         "renovate.json",
         "packages/natds-themes/build/**",
-        "packages/natds-icons/src/**",
         "packages/natds-icons/android/**",
         "packages/natds-icons/ios/**",
         ".cicd/**",
