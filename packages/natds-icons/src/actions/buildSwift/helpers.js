@@ -5,7 +5,6 @@ import {
   path,
   values,
 } from 'ramda';
-
 import { toCamelCase } from '../../helpers';
 
 const mapIconsJson = (mapper) => (data) => pipe(
