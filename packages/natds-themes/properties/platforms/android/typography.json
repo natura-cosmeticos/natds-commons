@@ -6,6 +6,14 @@
       }
     },
     "typography": {
+      "fontFamily": {
+        "primary": {
+          "value": "Roboto"
+        },
+        "code": {
+          "value": "Roboto Mono"
+        }
+      },
       "fontWeight": {
         "regular": {
           "value": "sans-serif"

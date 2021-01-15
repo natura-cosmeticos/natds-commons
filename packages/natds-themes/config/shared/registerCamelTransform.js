@@ -11,6 +11,7 @@ export const registerCamelTransform = () => ({
 
     return arrayToCamelCase(words);
   },
+  transitive: true,
   type: 'name',
 });
 

@@ -29,6 +29,7 @@ const transformer = (prop) => {
 export const registerAttributeTypeTransform = () => ({
   name: 'attribute/type',
   transformer,
+  transitive: true,
   type: 'attribute',
 });
 

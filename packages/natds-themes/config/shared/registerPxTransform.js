@@ -13,6 +13,7 @@ export const registerPxTransform = () => ({
   matcher: (prop) => !isOneOfProps(prop, notPxProps),
   name: 'unit/px',
   transformer: ({ value }) => `${value}px`,
+  transitive: true,
   type: 'value',
 });
 

@@ -33,7 +33,7 @@
         "value": "{platform.typography.fontWeight.regular.value}"
       },
       "medium": {
-        "value": "{platform.typography.fontWeight.regular.value}"
+        "value": "{platform.typography.fontWeight.medium.value}"
       }
     }
   }
