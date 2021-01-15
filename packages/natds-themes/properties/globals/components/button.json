@@ -8,7 +8,7 @@
         "value": "{typography.fontWeight.medium.value}"
       },
       "letterSpacing": {
-        "value": 1.23
+        "value": "{platform.button.letterSpacing.value}"
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"

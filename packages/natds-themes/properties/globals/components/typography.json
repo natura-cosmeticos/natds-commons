@@ -7,7 +7,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0
+      "value": "{platform.heading1.letterSpacing.value}"
     }
   },
   "heading2": {
@@ -18,7 +18,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0
+      "value": "{platform.heading2.letterSpacing.value}"
     }
   },
   "heading3": {
@@ -29,7 +29,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0
+      "value": "{platform.heading3.letterSpacing.value}"
     }
   },
   "heading4": {
@@ -40,7 +40,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0.27
+      "value": "{platform.heading4.letterSpacing.value}"
     }
   },
   "heading5": {
@@ -51,7 +51,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0
+      "value": "{platform.heading5.letterSpacing.value}"
     }
   },
   "heading6": {
@@ -62,7 +62,7 @@
       "value": "{typography.fontWeight.medium.value}"
     },
     "letterSpacing": {
-      "value": 0.24
+      "value": "{platform.heading6.letterSpacing.value}"
     }
   },
   "subtitle1": {
@@ -73,7 +73,7 @@
       "value": "{typography.fontWeight.medium.value}"
     },
     "letterSpacing": {
-      "value": 0.13
+      "value": "{platform.subtitle1.letterSpacing.value}"
     }
   },
   "subtitle2": {
@@ -84,7 +84,7 @@
       "value": "{typography.fontWeight.medium.value}"
     },
     "letterSpacing": {
-      "value": 0.11
+      "value": "{platform.subtitle2.letterSpacing.value}"
     }
   },
   "body1": {
@@ -95,7 +95,7 @@
       "value": "{typography.fontWeight.regular.value}" 
     },
     "letterSpacing": {
-      "value": 0.51
+      "value": "{platform.body1.letterSpacing.value}"
     }
   },
   "body2": {
@@ -106,7 +106,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0.22
+      "value": "{platform.body2.letterSpacing.value}"
     }
   },
   "caption": {
@@ -117,7 +117,7 @@
       "value": "{typography.fontWeight.regular.value}"
     },
     "letterSpacing": {
-      "value": 0.38
+      "value": "{platform.caption.letterSpacing.value}"
     }
   },
   "overline": {
@@ -128,7 +128,7 @@
       "value": "{typography.fontWeight.medium.value}"
     },
     "letterSpacing": {
-      "value": 1.92
+      "value": "{platform.overline.letterSpacing.value}"
     }
   }
 }

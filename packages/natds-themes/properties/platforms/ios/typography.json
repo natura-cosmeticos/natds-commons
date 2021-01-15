@@ -1,4 +1,11 @@
 {
+  "platform": {
+    "button": {
+      "letterSpacing": {
+        "value": 0.44
+      }
+    }
+  },
   "typography": {
     "fontFamily": {
       "primary": {
@@ -17,9 +24,29 @@
       }
     }
   },
+  "heading1": {
+    "letterSpacing": {
+      "value": 0
+    }
+  },
+  "heading2": {
+    "letterSpacing": {
+      "value": 0
+    }
+  },
+  "heading3": {
+    "letterSpacing": {
+      "value": 0
+    }
+  },
   "heading4": {
     "letterSpacing": {
       "value": 0.08
+    }
+  },
+  "heading5": {
+    "letterSpacing": {
+      "value": 0
     }
   },
   "heading6": {

@@ -2,7 +2,7 @@
   "typography": {
     "fontFamily": {
       "primary": {
-        "value": "Roboto"
+        "value": "{platform.typography.fontFamily.primary.value}"
       },
       "secondary": {
         "value": "sans-serif"
@@ -11,7 +11,7 @@
         "value": "Helvetica Now"
       },
       "code": {
-        "value": "Roboto Mono"
+        "value": "{platform.typography.fontFamily.code.value}"
       }
     },
     "lineHeight": {
@@ -30,10 +30,10 @@
     },
     "fontWeight": {
       "regular": {
-        "value": 400
+        "value": "{platform.typography.fontWeight.regular.value}"
       },
       "medium": {
-        "value": 500
+        "value": "{platform.typography.fontWeight.regular.value}"
       }
     }
   }
