@@ -12,6 +12,7 @@ import { registerTemplateHeaderHelper } from './templateHelpers';
 import { registerTypeDefinitionsAction } from './registerTypeDefinitionsAction';
 import { registerCamelTransform } from './registerCamelTransform';
 import { registerPxTransform } from './registerPxTransform';
+import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilter';
 
 export const customFormats = [
   registerHtmlFormat,
@@ -34,6 +35,10 @@ export const customTransforms = [
   registerAttributeTypeTransformIos,
   registerValueStringLiteralTransform,
   registerPxTransform,
+];
+
+export const customFilters = [
+  registerPrivatePropertiesFilter,
 ];
 
 registerTemplateHeaderHelper();

@@ -1,5 +1,4 @@
 import { capitalizeWord } from '../shared/textHelpers';
-import { isProp } from '../shared/helpers';
 
 const buildAndroidConfig = (brand, mode) => ({
   actions: ['create_resources'],
@@ -7,19 +6,19 @@ const buildAndroidConfig = (brand, mode) => ({
   files: [
     {
       destination: 'theme_attributes.xml',
-      filter: (prop) => (!isProp(prop, 'platform')),
+      filter: 'privateProperties',
       format: 'android/attributes',
     },
     {
       brandName: capitalizeWord(brand),
       destination: `theme_${brand}_${mode}.xml`,
-      filter: (prop) => (!isProp(prop, 'platform')),
+      filter: 'privateProperties',
       format: 'android/themes',
       mode: capitalizeWord(mode),
     },
     {
       destination: `${mode}.js`,
-      filter: (prop) => (!isProp(prop, 'platform')),
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

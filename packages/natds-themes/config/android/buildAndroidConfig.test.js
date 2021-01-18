@@ -7,16 +7,19 @@ const expectedConfig = {
   files: [
     {
       destination: 'theme_attributes.xml',
+      filter: 'privateProperties',
       format: 'android/attributes',
     },
     {
       brandName: 'Pokemon',
       destination: 'theme_pokemon_pikachu.xml',
+      filter: 'privateProperties',
       format: 'android/themes',
       mode: 'Pikachu',
     },
     {
       destination: 'pikachu.js',
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

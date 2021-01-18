@@ -1,23 +1,21 @@
-import { isProp } from '../shared/helpers';
-
 export const buildWebConfig = (brand, mode) => ({
   actions: ['create_type_definitions'],
   buildPath: `build/web/${brand}/`,
   files: [{
     destination: `${mode}.json`,
-    filter: (prop) => (!isProp(prop, 'platform')),
+    filter: 'privateProperties',
     format: 'json/nested',
     options: { showFileHeader: false },
   },
   {
     destination: `${mode}.js`,
-    filter: (prop) => (!isProp(prop, 'platform')),
+    filter: 'privateProperties',
     format: 'javascript/es6',
     options: { showFileHeader: false },
   },
   {
     destination: `${mode}-esm.js`,
-    filter: (prop) => (!isProp(prop, 'platform')),
+    filter: 'privateProperties',
     format: 'javascript/module',
   },
   ],
@@ -29,6 +27,7 @@ export const buildCssConfig = (brand, mode) => ({
   files: [
     {
       destination: `${mode}.css`,
+      filter: 'privateProperties',
       format: 'css/variables',
       options: {
         showFileHeader: false,

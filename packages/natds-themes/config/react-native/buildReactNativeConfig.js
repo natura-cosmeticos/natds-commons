@@ -1,17 +1,15 @@
-import { isProp } from '../shared/helpers';
-
 const buildReactNativeConfig = (brand, mode) => ({
   actions: ['create_type_definitions'],
   buildPath: `build/react-native/${brand}/`,
   files: [
     {
       destination: `${mode}.json`,
-      filter: (prop) => (!isProp(prop, 'platform')),
+      filter: 'privateProperties',
       format: 'json/nested',
     },
     {
       destination: `${mode}.js`,
-      filter: (prop) => (!isProp(prop, 'platform')),
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

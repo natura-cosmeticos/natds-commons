@@ -6,6 +6,7 @@ const expectedWebConfig = {
   files: [
     {
       destination: 'pikachu.json',
+      filter: 'privateProperties',
       format: 'json/nested',
       options: {
         showFileHeader: false,
@@ -13,6 +14,7 @@ const expectedWebConfig = {
     },
     {
       destination: 'pikachu.js',
+      filter: 'privateProperties',
       format: 'javascript/es6',
       options: {
         showFileHeader: false,
@@ -20,6 +22,7 @@ const expectedWebConfig = {
     },
     {
       destination: 'pikachu-esm.js',
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],
@@ -31,6 +34,7 @@ const expectedCssConfig = {
   files: [
     {
       destination: 'pikachu.css',
+      filter: 'privateProperties',
       format: 'css/variables',
       options: {
         showFileHeader: false,

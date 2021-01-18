@@ -6,6 +6,7 @@ const expectedConfig = {
   files: [
     {
       destination: 'pikachu.html',
+      filter: 'privateProperties',
       format: 'html/colors',
     },
   ],
