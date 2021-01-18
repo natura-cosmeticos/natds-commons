@@ -15,6 +15,7 @@ export const registerAttributeTypeTransform = () => ({
       type: isStringTypeProp(prop) ? 'string' : categoryTypes[prop.attributes.category] || categoryTypes.default,
     },
   }),
+  transitive: true,
   type: 'attribute',
 });
 

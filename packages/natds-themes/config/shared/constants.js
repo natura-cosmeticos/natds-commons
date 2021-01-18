@@ -16,5 +16,4 @@ export const platforms = [
   'ios',
   'react-native',
   'web',
-  'css',
 ];

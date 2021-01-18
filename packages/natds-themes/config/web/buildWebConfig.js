@@ -3,16 +3,19 @@ export const buildWebConfig = (brand, mode) => ({
   buildPath: `build/web/${brand}/`,
   files: [{
     destination: `${mode}.json`,
+    filter: 'privateProperties',
     format: 'json/nested',
     options: { showFileHeader: false },
   },
   {
     destination: `${mode}.js`,
+    filter: 'privateProperties',
     format: 'javascript/es6',
     options: { showFileHeader: false },
   },
   {
     destination: `${mode}-esm.js`,
+    filter: 'privateProperties',
     format: 'javascript/module',
   },
   ],
@@ -24,6 +27,7 @@ export const buildCssConfig = (brand, mode) => ({
   files: [
     {
       destination: `${mode}.css`,
+      filter: 'privateProperties',
       format: 'css/variables',
       options: {
         showFileHeader: false,

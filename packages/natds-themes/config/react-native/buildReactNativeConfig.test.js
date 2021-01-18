@@ -6,10 +6,12 @@ const expectedConfig = {
   files: [
     {
       destination: 'pikachu.json',
+      filter: 'privateProperties',
       format: 'json/nested',
     },
     {
       destination: 'pikachu.js',
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

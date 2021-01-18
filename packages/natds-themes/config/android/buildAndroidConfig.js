@@ -6,16 +6,19 @@ const buildAndroidConfig = (brand, mode) => ({
   files: [
     {
       destination: 'theme_attributes.xml',
+      filter: 'privateProperties',
       format: 'android/attributes',
     },
     {
       brandName: capitalizeWord(brand),
       destination: `theme_${brand}_${mode}.xml`,
+      filter: 'privateProperties',
       format: 'android/themes',
       mode: capitalizeWord(mode),
     },
     {
       destination: `${mode}.js`,
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

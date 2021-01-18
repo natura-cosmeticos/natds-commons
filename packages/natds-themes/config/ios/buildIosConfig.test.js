@@ -5,15 +5,18 @@ const expectedConfig = {
   files: [
     {
       destination: 'PokemonPikachuTheme.swift',
+      filter: 'privateProperties',
       format: 'ios-swift/theme.swift',
       themeName: 'PokemonPikachu',
     },
     {
       destination: 'ThemeProtocol.swift',
+      filter: 'privateProperties',
       format: 'ios-swift/theme-protocol.swift',
     },
     {
       destination: 'PokemonPikachu.js',
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

@@ -5,15 +5,18 @@ const buildIosConfig = (brand, mode) => ({
   files: [
     {
       destination: `${capitalizeWord(brand)}${capitalizeWord(mode)}Theme.swift`,
+      filter: 'privateProperties',
       format: 'ios-swift/theme.swift',
       themeName: `${capitalizeWord(brand)}${capitalizeWord(mode)}`,
     },
     {
       destination: 'ThemeProtocol.swift',
+      filter: 'privateProperties',
       format: 'ios-swift/theme-protocol.swift',
     },
     {
       destination: `${capitalizeWord(brand)}${capitalizeWord(mode)}.js`,
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

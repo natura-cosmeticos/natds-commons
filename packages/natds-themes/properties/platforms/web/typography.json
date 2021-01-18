@@ -2,7 +2,7 @@
   "platform": {
     "button": {
       "letterSpacing": {
-        "value": 0.0892857143
+        "value": 1.23
       }
     },
     "typography": {
@@ -16,21 +16,21 @@
       },
       "fontWeight": {
         "regular": {
-          "value": "sans-serif"
+          "value": 400
         },
         "medium": {
-          "value": "sans-serif-medium"
+          "value": 500
         }
       }
     },
     "heading1": {
       "letterSpacing": {
-        "value": 0.015625
+        "value": 0
       }
     },
     "heading2": {
       "letterSpacing": {
-        "value": -0.00833333333
+        "value": 0
       }
     },
     "heading3": {
@@ -40,7 +40,7 @@
     },
     "heading4": {
       "letterSpacing": {
-        "value": 0.00735294118
+        "value": 0.27
       }
     },
     "heading5": {
@@ -50,37 +50,37 @@
     },
     "heading6": {
       "letterSpacing": {
-        "value": 0.0125
+        "value": 0.24
       }
     },
     "subtitle1": {
       "letterSpacing": {
-        "value": 0.009375
+        "value": 0.13
       }
     },
     "subtitle2": {
       "letterSpacing": {
-        "value": 0.00714285714
+        "value": 0.11
       }
     },
     "body1": {
       "letterSpacing": {
-        "value": 0.03125
+        "value": 0.51
       }
     },
     "body2": {
       "letterSpacing": {
-        "value": 0.03125
+        "value": 0.22
       }
     },
     "caption": {
       "letterSpacing": {
-        "value": 0.0333333333
+        "value": 0.38
       }
     },
     "overline": {
       "letterSpacing": {
-        "value": 0.166666667
+        "value": 1.92
       }
     }
   }

@@ -4,10 +4,12 @@ const buildReactNativeConfig = (brand, mode) => ({
   files: [
     {
       destination: `${mode}.json`,
+      filter: 'privateProperties',
       format: 'json/nested',
     },
     {
       destination: `${mode}.js`,
+      filter: 'privateProperties',
       format: 'javascript/module',
     },
   ],

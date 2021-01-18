@@ -1,12 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 Jan 2021 14:28:44 GMT
+ * Generated on Fri, 15 Jan 2021 19:49:34 GMT
  */
 
 module.exports = {
   "color": {
     "primary": {
       "value": "#262625",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#262625"
       },
@@ -22,6 +24,8 @@ module.exports = {
     },
     "onPrimary": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -37,6 +41,8 @@ module.exports = {
     },
     "primaryLight": {
       "value": "#4e4e4d",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#4E4E4D"
       },
@@ -52,6 +58,8 @@ module.exports = {
     },
     "onPrimaryLight": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -67,6 +75,8 @@ module.exports = {
     },
     "primaryDark": {
       "value": "#000000",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#000000"
       },
@@ -82,6 +92,8 @@ module.exports = {
     },
     "onPrimaryDark": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -97,6 +109,8 @@ module.exports = {
     },
     "secondary": {
       "value": "#a6662b",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#A6662B"
       },
@@ -112,6 +126,8 @@ module.exports = {
     },
     "onSecondary": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -127,6 +143,8 @@ module.exports = {
     },
     "secondaryLight": {
       "value": "#db9457",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#DB9457"
       },
@@ -142,6 +160,8 @@ module.exports = {
     },
     "onSecondaryLight": {
       "value": "#000000",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#000000"
       },
@@ -157,6 +177,8 @@ module.exports = {
     },
     "secondaryDark": {
       "value": "#733b00",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#733B00"
       },
@@ -172,6 +194,8 @@ module.exports = {
     },
     "onSecondaryDark": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -187,6 +211,8 @@ module.exports = {
     },
     "background": {
       "value": "#fafafa",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FAFAFA"
       },
@@ -202,6 +228,8 @@ module.exports = {
     },
     "onBackground": {
       "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#333333"
       },
@@ -217,6 +245,8 @@ module.exports = {
     },
     "surface": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -232,6 +262,8 @@ module.exports = {
     },
     "onSurface": {
       "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#333333"
       },
@@ -247,6 +279,8 @@ module.exports = {
     },
     "highlight": {
       "value": "#000000",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#000000"
       },
@@ -262,6 +296,8 @@ module.exports = {
     },
     "highEmphasis": {
       "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#333333"
       },
@@ -277,6 +313,8 @@ module.exports = {
     },
     "mediumEmphasis": {
       "value": "#777777",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#777777"
       },
@@ -292,6 +330,8 @@ module.exports = {
     },
     "lowEmphasis": {
       "value": "#bbbbbb",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#BBBBBB"
       },
@@ -307,6 +347,8 @@ module.exports = {
     },
     "link": {
       "value": "#227bbd",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#227BBD"
       },
@@ -322,6 +364,8 @@ module.exports = {
     },
     "onLink": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -337,6 +381,8 @@ module.exports = {
     },
     "success": {
       "value": "#569a32",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#569A32"
       },
@@ -352,6 +398,8 @@ module.exports = {
     },
     "onSuccess": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -367,6 +415,8 @@ module.exports = {
     },
     "warning": {
       "value": "#fcc433",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FCC433"
       },
@@ -382,6 +432,8 @@ module.exports = {
     },
     "onWarning": {
       "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#333333"
       },
@@ -397,6 +449,8 @@ module.exports = {
     },
     "alert": {
       "value": "#e74627",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#E74627"
       },
@@ -412,6 +466,8 @@ module.exports = {
     },
     "onAlert": {
       "value": "#ffffff",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
       "original": {
         "value": "#FFFFFF"
       },
@@ -444,6 +500,8 @@ module.exports = {
     },
     "small": {
       "value": 2,
+      "filePath": "properties/globals/borderRadius/borderRadius.json",
+      "isSource": true,
       "original": {
         "value": 2
       },
@@ -459,6 +517,8 @@ module.exports = {
     },
     "medium": {
       "value": 4,
+      "filePath": "properties/globals/borderRadius/borderRadius.json",
+      "isSource": true,
       "original": {
         "value": 4
       },
@@ -474,6 +534,8 @@ module.exports = {
     },
     "large": {
       "value": 8,
+      "filePath": "properties/globals/borderRadius/borderRadius.json",
+      "isSource": true,
       "original": {
         "value": 8
       },
@@ -492,6 +554,8 @@ module.exports = {
     "default": {
       "fontSize": {
         "value": 14,
+        "filePath": "properties/globals/components/button.json",
+        "isSource": true,
         "original": {
           "value": 14
         },
@@ -509,6 +573,8 @@ module.exports = {
       },
       "fontWeight": {
         "value": 500,
+        "filePath": "properties/globals/components/button.json",
+        "isSource": true,
         "original": {
           "value": "{typography.fontWeight.medium.value}"
         },
@@ -526,8 +592,10 @@ module.exports = {
       },
       "letterSpacing": {
         "value": 1.23,
+        "filePath": "properties/globals/components/button.json",
+        "isSource": true,
         "original": {
-          "value": 1.23
+          "value": "{platform.button.letterSpacing.value}"
         },
         "name": "buttonDefaultLetterSpacing",
         "attributes": {
@@ -543,6 +611,8 @@ module.exports = {
       },
       "lineHeight": {
         "value": 1.5,
+        "filePath": "properties/globals/components/button.json",
+        "isSource": true,
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
@@ -563,6 +633,8 @@ module.exports = {
   "heading1": {
     "fontSize": {
       "value": 96,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 96
       },
@@ -578,6 +650,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -593,8 +667,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0
+        "value": "{platform.heading1.letterSpacing.value}"
       },
       "name": "heading1LetterSpacing",
       "attributes": {
@@ -610,6 +686,8 @@ module.exports = {
   "heading2": {
     "fontSize": {
       "value": 60,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 60
       },
@@ -625,6 +703,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -640,8 +720,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0
+        "value": "{platform.heading2.letterSpacing.value}"
       },
       "name": "heading2LetterSpacing",
       "attributes": {
@@ -657,6 +739,8 @@ module.exports = {
   "heading3": {
     "fontSize": {
       "value": 48,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 48
       },
@@ -672,6 +756,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -687,8 +773,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0
+        "value": "{platform.heading3.letterSpacing.value}"
       },
       "name": "heading3LetterSpacing",
       "attributes": {
@@ -704,6 +792,8 @@ module.exports = {
   "heading4": {
     "fontSize": {
       "value": 34,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 34
       },
@@ -719,6 +809,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -734,8 +826,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.27,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.27
+        "value": "{platform.heading4.letterSpacing.value}"
       },
       "name": "heading4LetterSpacing",
       "attributes": {
@@ -751,6 +845,8 @@ module.exports = {
   "heading5": {
     "fontSize": {
       "value": 24,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 24
       },
@@ -766,6 +862,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -781,8 +879,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0
+        "value": "{platform.heading5.letterSpacing.value}"
       },
       "name": "heading5LetterSpacing",
       "attributes": {
@@ -798,6 +898,8 @@ module.exports = {
   "heading6": {
     "fontSize": {
       "value": 20,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 20
       },
@@ -813,6 +915,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 500,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -828,8 +932,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.24,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.24
+        "value": "{platform.heading6.letterSpacing.value}"
       },
       "name": "heading6LetterSpacing",
       "attributes": {
@@ -845,6 +951,8 @@ module.exports = {
   "subtitle1": {
     "fontSize": {
       "value": 16,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 16
       },
@@ -860,6 +968,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 500,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -875,8 +985,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.13,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.13
+        "value": "{platform.subtitle1.letterSpacing.value}"
       },
       "name": "subtitle1LetterSpacing",
       "attributes": {
@@ -892,6 +1004,8 @@ module.exports = {
   "subtitle2": {
     "fontSize": {
       "value": 14,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 14
       },
@@ -907,6 +1021,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 500,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -922,8 +1038,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.11,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.11
+        "value": "{platform.subtitle2.letterSpacing.value}"
       },
       "name": "subtitle2LetterSpacing",
       "attributes": {
@@ -939,6 +1057,8 @@ module.exports = {
   "body1": {
     "fontSize": {
       "value": 16,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 16
       },
@@ -954,6 +1074,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -969,8 +1091,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.51,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.51
+        "value": "{platform.body1.letterSpacing.value}"
       },
       "name": "body1LetterSpacing",
       "attributes": {
@@ -986,6 +1110,8 @@ module.exports = {
   "body2": {
     "fontSize": {
       "value": 14,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 14
       },
@@ -1001,6 +1127,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -1016,8 +1144,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.22,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.22
+        "value": "{platform.body2.letterSpacing.value}"
       },
       "name": "body2LetterSpacing",
       "attributes": {
@@ -1033,6 +1163,8 @@ module.exports = {
   "caption": {
     "fontSize": {
       "value": 12,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 12
       },
@@ -1048,6 +1180,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 400,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.regular.value}"
       },
@@ -1063,8 +1197,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 0.38,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 0.38
+        "value": "{platform.caption.letterSpacing.value}"
       },
       "name": "captionLetterSpacing",
       "attributes": {
@@ -1080,6 +1216,8 @@ module.exports = {
   "overline": {
     "fontSize": {
       "value": 12,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": 12
       },
@@ -1095,6 +1233,8 @@ module.exports = {
     },
     "fontWeight": {
       "value": 500,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
         "value": "{typography.fontWeight.medium.value}"
       },
@@ -1110,8 +1250,10 @@ module.exports = {
     },
     "letterSpacing": {
       "value": 1.92,
+      "filePath": "properties/globals/components/typography.json",
+      "isSource": true,
       "original": {
-        "value": 1.92
+        "value": "{platform.overline.letterSpacing.value}"
       },
       "name": "overlineLetterSpacing",
       "attributes": {
@@ -1142,6 +1284,8 @@ module.exports = {
     },
     "lower": {
       "value": 0.04,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.04
       },
@@ -1157,6 +1301,8 @@ module.exports = {
     },
     "veryLow": {
       "value": 0.08,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.08
       },
@@ -1172,6 +1318,8 @@ module.exports = {
     },
     "low": {
       "value": 0.12,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.12
       },
@@ -1187,6 +1335,8 @@ module.exports = {
     },
     "mediumLow": {
       "value": 0.16,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.16
       },
@@ -1202,6 +1352,8 @@ module.exports = {
     },
     "disabledLow": {
       "value": 0.24,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.24
       },
@@ -1217,6 +1369,8 @@ module.exports = {
     },
     "disabled": {
       "value": 0.32,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.32
       },
@@ -1232,6 +1386,8 @@ module.exports = {
     },
     "medium": {
       "value": 0.48,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.48
       },
@@ -1247,6 +1403,8 @@ module.exports = {
     },
     "mediumHigh": {
       "value": 0.56,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.56
       },
@@ -1262,6 +1420,8 @@ module.exports = {
     },
     "high": {
       "value": 0.64,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.64
       },
@@ -1277,6 +1437,8 @@ module.exports = {
     },
     "veryHigh": {
       "value": 0.8,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0.8
       },
@@ -1292,6 +1454,8 @@ module.exports = {
     },
     "opaque": {
       "value": 1,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 1
       },
@@ -1324,6 +1488,8 @@ module.exports = {
     },
     "micro": {
       "value": 4,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 4
       },
@@ -1339,6 +1505,8 @@ module.exports = {
     },
     "tiny": {
       "value": 8,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 8
       },
@@ -1354,6 +1522,8 @@ module.exports = {
     },
     "small": {
       "value": 16,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 16
       },
@@ -1369,6 +1539,8 @@ module.exports = {
     },
     "standard": {
       "value": 24,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 24
       },
@@ -1384,6 +1556,8 @@ module.exports = {
     },
     "semi": {
       "value": 32,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 32
       },
@@ -1399,6 +1573,8 @@ module.exports = {
     },
     "semiX": {
       "value": 40,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 40
       },
@@ -1414,6 +1590,8 @@ module.exports = {
     },
     "medium": {
       "value": 48,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 48
       },
@@ -1429,6 +1607,8 @@ module.exports = {
     },
     "mediumX": {
       "value": 56,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 56
       },
@@ -1444,6 +1624,8 @@ module.exports = {
     },
     "large": {
       "value": 64,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 64
       },
@@ -1459,6 +1641,8 @@ module.exports = {
     },
     "largeX": {
       "value": 72,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 72
       },
@@ -1474,6 +1658,8 @@ module.exports = {
     },
     "largeXX": {
       "value": 80,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 80
       },
@@ -1489,6 +1675,8 @@ module.exports = {
     },
     "largeXXX": {
       "value": 88,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 88
       },
@@ -1504,6 +1692,8 @@ module.exports = {
     },
     "huge": {
       "value": 96,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 96
       },
@@ -1519,6 +1709,8 @@ module.exports = {
     },
     "hugeX": {
       "value": 128,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 128
       },
@@ -1534,6 +1726,8 @@ module.exports = {
     },
     "hugeXX": {
       "value": 144,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 144
       },
@@ -1549,6 +1743,8 @@ module.exports = {
     },
     "hugeXXX": {
       "value": 192,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 192
       },
@@ -1564,6 +1760,8 @@ module.exports = {
     },
     "veryHuge": {
       "value": 256,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 256
       },
@@ -1582,8 +1780,10 @@ module.exports = {
     "fontFamily": {
       "primary": {
         "value": "Roboto",
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
-          "value": "Roboto"
+          "value": "{platform.typography.fontFamily.primary.value}"
         },
         "name": "typographyFontFamilyPrimary",
         "attributes": {
@@ -1599,6 +1799,8 @@ module.exports = {
       },
       "secondary": {
         "value": "sans-serif",
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
           "value": "sans-serif"
         },
@@ -1616,6 +1818,8 @@ module.exports = {
       },
       "branding": {
         "value": "Helvetica Now",
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
           "value": "Helvetica Now"
         },
@@ -1633,8 +1837,10 @@ module.exports = {
       },
       "code": {
         "value": "Roboto Mono",
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
-          "value": "Roboto Mono"
+          "value": "{platform.typography.fontFamily.code.value}"
         },
         "name": "typographyFontFamilyCode",
         "attributes": {
@@ -1652,6 +1858,8 @@ module.exports = {
     "lineHeight": {
       "reset": {
         "value": 1,
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
           "value": 1
         },
@@ -1669,6 +1877,8 @@ module.exports = {
       },
       "small": {
         "value": 1.25,
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
           "value": 1.25
         },
@@ -1686,6 +1896,8 @@ module.exports = {
       },
       "medium": {
         "value": 1.5,
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
           "value": 1.5
         },
@@ -1703,6 +1915,8 @@ module.exports = {
       },
       "large": {
         "value": 2,
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
           "value": 2
         },
@@ -1722,8 +1936,10 @@ module.exports = {
     "fontWeight": {
       "regular": {
         "value": 400,
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
-          "value": 400
+          "value": "{platform.typography.fontWeight.regular.value}"
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -1739,8 +1955,10 @@ module.exports = {
       },
       "medium": {
         "value": 500,
+        "filePath": "properties/globals/typography/typography.json",
+        "isSource": true,
         "original": {
-          "value": 500
+          "value": "{platform.typography.fontWeight.medium.value}"
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -1774,6 +1992,8 @@ module.exports = {
     },
     "micro": {
       "value": 4,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 4
       },
@@ -1789,6 +2009,8 @@ module.exports = {
     },
     "tiny": {
       "value": 8,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 8
       },
@@ -1804,6 +2026,8 @@ module.exports = {
     },
     "small": {
       "value": 16,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 16
       },
@@ -1819,6 +2043,8 @@ module.exports = {
     },
     "standard": {
       "value": 24,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 24
       },
@@ -1834,6 +2060,8 @@ module.exports = {
     },
     "semi": {
       "value": 32,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 32
       },
@@ -1849,6 +2077,8 @@ module.exports = {
     },
     "large": {
       "value": 48,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 48
       },
@@ -1864,6 +2094,8 @@ module.exports = {
     },
     "xLarge": {
       "value": 64,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 64
       },
@@ -1882,6 +2114,8 @@ module.exports = {
     "none": {
       "shadowColor": {
         "value": "nil",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "nil"
         },
@@ -1916,6 +2150,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": -3,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": -3
         },
@@ -1933,6 +2169,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 3,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 3
         },
@@ -1986,6 +2224,8 @@ module.exports = {
     "micro": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2020,6 +2260,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 1,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 1
         },
@@ -2037,6 +2279,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 1,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 1
         },
@@ -2054,6 +2298,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2071,6 +2317,8 @@ module.exports = {
       },
       "elevation": {
         "value": 1,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 1
         },
@@ -2090,6 +2338,8 @@ module.exports = {
     "tiny": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2124,6 +2374,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 2,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 2
         },
@@ -2141,6 +2393,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 2,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 2
         },
@@ -2158,6 +2412,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2175,6 +2431,8 @@ module.exports = {
       },
       "elevation": {
         "value": 2,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 2
         },
@@ -2194,6 +2452,8 @@ module.exports = {
     "small": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2228,6 +2488,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 3,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 3
         },
@@ -2245,6 +2507,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 4,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 4
         },
@@ -2262,6 +2526,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2279,6 +2545,8 @@ module.exports = {
       },
       "elevation": {
         "value": 3,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 3
         },
@@ -2298,6 +2566,8 @@ module.exports = {
     "medium": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2332,6 +2602,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 4,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 4
         },
@@ -2349,6 +2621,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 5,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 5
         },
@@ -2366,6 +2640,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2383,6 +2659,8 @@ module.exports = {
       },
       "elevation": {
         "value": 4,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 4
         },
@@ -2402,6 +2680,8 @@ module.exports = {
     "large": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2436,6 +2716,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 6,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 6
         },
@@ -2453,6 +2735,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 10,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 10
         },
@@ -2470,6 +2754,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2487,6 +2773,8 @@ module.exports = {
       },
       "elevation": {
         "value": 6,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 6
         },
@@ -2506,6 +2794,8 @@ module.exports = {
     "largeX": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2540,6 +2830,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 8,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 8
         },
@@ -2557,6 +2849,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 10,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 10
         },
@@ -2574,6 +2868,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2591,6 +2887,8 @@ module.exports = {
       },
       "elevation": {
         "value": 8,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 8
         },
@@ -2610,6 +2908,8 @@ module.exports = {
     "largeXX": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2644,6 +2944,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 9,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 9
         },
@@ -2661,6 +2963,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 12,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 12
         },
@@ -2678,6 +2982,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2695,6 +3001,8 @@ module.exports = {
       },
       "elevation": {
         "value": 9,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 9
         },
@@ -2714,6 +3022,8 @@ module.exports = {
     "huge": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2748,6 +3058,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 12,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 12
         },
@@ -2765,6 +3077,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 17,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 17
         },
@@ -2782,6 +3096,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2799,6 +3115,8 @@ module.exports = {
       },
       "elevation": {
         "value": 12,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 12
         },
@@ -2818,6 +3136,8 @@ module.exports = {
     "hugeX": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2852,6 +3172,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 16,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 16
         },
@@ -2869,6 +3191,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 24,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 24
         },
@@ -2886,6 +3210,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -2903,6 +3229,8 @@ module.exports = {
       },
       "elevation": {
         "value": 16,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 16
         },
@@ -2922,6 +3250,8 @@ module.exports = {
     "hugeXX": {
       "shadowColor": {
         "value": "#000000",
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": "#000000"
         },
@@ -2956,6 +3286,8 @@ module.exports = {
       },
       "shadowOffsetHeight": {
         "value": 24,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 24
         },
@@ -2973,6 +3305,8 @@ module.exports = {
       },
       "shadowRadius": {
         "value": 38,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 38
         },
@@ -2990,6 +3324,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0.14,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 0.14
         },
@@ -3007,6 +3343,8 @@ module.exports = {
       },
       "elevation": {
         "value": 24,
+        "filePath": "properties/platforms/react-native/elevation.js",
+        "isSource": true,
         "original": {
           "value": 24
         },

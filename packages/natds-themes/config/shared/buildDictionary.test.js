@@ -1,5 +1,7 @@
 import StyleDictionary from 'style-dictionary';
-import { customFormats, customActions, customTransforms } from './config';
+import {
+  customFormats, customActions, customTransforms, customFilters,
+} from './config';
 import { buildDictionary } from './buildDictionary';
 import * as buildConfig from './buildConfig';
 
@@ -10,12 +12,14 @@ describe('buildDictionary', () => {
     const registerFormatSpy = jest.fn();
     const registerActionSpy = jest.fn();
     const registerTransformSpy = jest.fn();
+    const registerFilterSpy = jest.fn();
     const buildPlatformSpy = jest.fn();
     const buildConfigSpy = jest.spyOn(buildConfig, 'buildConfig');
 
     const mockImplementation = () => ({
       buildPlatform: buildPlatformSpy,
       registerAction: registerActionSpy,
+      registerFilter: registerFilterSpy,
       registerFormat: registerFormatSpy,
       registerTransform: registerTransformSpy,
     });
@@ -29,5 +33,6 @@ describe('buildDictionary', () => {
     expect(registerFormatSpy).toHaveBeenCalledTimes(customFormats.length);
     expect(registerActionSpy).toHaveBeenCalledTimes(customActions.length);
     expect(registerTransformSpy).toHaveBeenCalledTimes(customTransforms.length);
+    expect(registerFilterSpy).toHaveBeenCalledTimes(customFilters.length);
   });
 });

@@ -1,60 +1,87 @@
 {
-  "typography": {
-    "fontFamily": {
-      "primary": {
-        "value": "San Francisco"
-      },
-      "code": {
-        "value": "SF Mono"
+  "platform": {
+    "button": {
+      "letterSpacing": {
+        "value": 0.44
       }
     },
-    "fontWeight": {
-      "regular": {
-        "value": ".regular"
+    "typography": {
+      "fontFamily": {
+        "primary": {
+          "value": "San Francisco"
+        },
+        "code": {
+          "value": "SF Mono"
+        }
       },
-      "medium": {
-        "value": ".medium"
+      "fontWeight": {
+        "regular": {
+          "value": ".regular"
+        },
+        "medium": {
+          "value": ".medium"
+        }
       }
-    }
-  },
-  "heading4": {
-    "letterSpacing": {
-      "value": 0.08
-    }
-  },
-  "heading6": {
-    "letterSpacing": {
-      "value": 0.12
-    }
-  },
-  "subtitle1": {
-    "letterSpacing": {
-      "value": 0.08
-    }
-  },
-  "subtitle2": {
-    "letterSpacing": {
-      "value": 0.08
-    }
-  },
-  "body1": {
-    "letterSpacing": {
-      "value": 0.32
-    }
-  },
-  "body2": {
-    "letterSpacing": {
-      "value": 0.16
-    }
-  },
-  "caption": {
-    "letterSpacing": {
-      "value": 0.16
-    }
-  },
-  "overline": {
-    "letterSpacing": {
-      "value": 0.8
+    },
+    "heading1": {
+      "letterSpacing": {
+        "value": 0
+      }
+    },
+    "heading2": {
+      "letterSpacing": {
+        "value": 0
+      }
+    },
+    "heading3": {
+      "letterSpacing": {
+        "value": 0
+      }
+    },
+    "heading4": {
+      "letterSpacing": {
+        "value": 0.08
+      }
+    },
+    "heading5": {
+      "letterSpacing": {
+        "value": 0
+      }
+    },
+    "heading6": {
+      "letterSpacing": {
+        "value": 0.12
+      }
+    },
+    "subtitle1": {
+      "letterSpacing": {
+        "value": 0.08
+      }
+    },
+    "subtitle2": {
+      "letterSpacing": {
+        "value": 0.08
+      }
+    },
+    "body1": {
+      "letterSpacing": {
+        "value": 0.32
+      }
+    },
+    "body2": {
+      "letterSpacing": {
+        "value": 0.16
+      }
+    },
+    "caption": {
+      "letterSpacing": {
+        "value": 0.16
+      }
+    },
+    "overline": {
+      "letterSpacing": {
+        "value": 0.8
+      }
     }
   }
 }

@@ -4,6 +4,7 @@ const buildHtmlConfig = (brand, mode) => ({
   files: [
     {
       destination: `${mode}.html`,
+      filter: 'privateProperties',
       format: 'html/colors',
     },
   ],
