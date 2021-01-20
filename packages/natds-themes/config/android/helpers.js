@@ -1,5 +1,5 @@
 import CryptoJS from 'crypto-js';
-import { isProp, isOneOfProps } from '../shared/helpers';
+import { isProp, isOneOfProps, isPrivateProp } from '../shared/helpers';
 
 export const createEncodedHashFromValue = (value) => `ssot${CryptoJS.MD5(value.toString())}`;
 
@@ -9,7 +9,7 @@ export const isSpDimension = (prop) => isProp(prop, 'fontSize');
 
 export const isUnitlessDimension = (prop) => isOneOfProps(prop, ['opacity', 'lineHeight', 'letterSpacing']);
 
-export const isDimension = (prop) => !isOneOfProps(prop, ['color', 'fontFamily', 'fontWeight']);
+export const isDimension = (prop) => !isOneOfProps(prop, ['color', 'fontFamily', 'fontWeight']) && !isPrivateProp(prop);
 
 export const isDimensionWithUnit = (prop) => isDimension(prop) && !isUnitlessDimension(prop);
 

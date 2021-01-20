@@ -1,7 +1,7 @@
-import { isProp } from './helpers';
+import { isPrivateProp } from './helpers';
 
 export const registerPrivatePropertiesFilter = () => ({
-  matcher: (prop) => !isProp(prop, 'platform'),
+  matcher: (prop) => !isPrivateProp(prop),
   name: 'privateProperties',
 });
 
