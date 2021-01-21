@@ -113,13 +113,15 @@ describe('helpers', () => {
       expect(isOneOfPropsSpy).toHaveBeenCalledWith(prop, ['color', 'fontFamily', 'fontWeight']);
       expect(result).toEqual(false);
     });
-    it('should call isOneOfProps with the given prop and return a truthy result', () => {
+    it('should call isOneOfProps and isPrivateProp with the given prop and return a truthy result', () => {
       const isOneOfPropsSpy = jest.spyOn(sharedHelpers, 'isOneOfProps').mockReturnValue(false);
+      const isPrivatePropSpy = jest.spyOn(sharedHelpers, 'isPrivateProp').mockReturnValue(false);
 
       const result = isDimension(prop);
 
       expect(isOneOfPropsSpy).toHaveBeenCalledWith(prop, ['color', 'fontFamily', 'fontWeight']);
-      expect(result).toEqual(false);
+      expect(isPrivatePropSpy).toHaveBeenCalledWith(prop);
+      expect(result).toEqual(true);
     });
   });
 });
