@@ -13,12 +13,12 @@ const styleProperties = {
 
 describe('registerPrivatePropertiesFilter', () => {
   it('should filter platform private properties', () => {
-    const mockIsProp = jest.spyOn(helpers, 'isProp').mockReturnValue(true);
+    const mockIsPrivateProp = jest.spyOn(helpers, 'isPrivateProp').mockReturnValue(true);
     const config = registerPrivatePropertiesFilter();
 
     const isAllowedProp = config.matcher(styleProperties);
 
-    expect(mockIsProp).toHaveBeenCalledWith(styleProperties, 'platform');
+    expect(mockIsPrivateProp).toHaveBeenCalledWith(styleProperties);
     expect(isAllowedProp).toBe(false);
   });
 });
