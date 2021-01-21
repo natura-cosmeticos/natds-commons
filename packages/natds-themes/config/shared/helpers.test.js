@@ -1,6 +1,7 @@
 import {
   isCategory,
   isItem,
+  isPrivateProp,
   isProp,
   isOneOfProps,
   flattenProps,
@@ -238,6 +239,23 @@ describe('helpers', () => {
       const result = flatTokensAndComponents(dictionary);
 
       expect(result).toEqual(expectedResult);
+    });
+  });
+
+  describe('isPrivateProp', () => {
+    it('should returns true when has a private property', () => {
+      const prop = {
+        path: ['platform', 'typography', 'lineHeight', 'small'],
+      };
+
+      expect(isPrivateProp(prop)).toBe(true);
+    });
+    it('should returns false when has no private property', () => {
+      const prop = {
+        path: ['typography', 'lineHeight', 'small'],
+      };
+
+      expect(isPrivateProp(prop)).toBe(false);
     });
   });
 });

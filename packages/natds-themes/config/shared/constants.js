@@ -12,6 +12,7 @@ export const modes = [
 
 export const platforms = [
   'android',
+  'css',
   'html',
   'ios',
   'react-native',

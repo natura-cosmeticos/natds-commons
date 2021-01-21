@@ -47,3 +47,5 @@ export const flatTokensAndComponents = ({ properties }) => {
     tokens: flattenProps(tokens),
   };
 };
+
+export const isPrivateProp = (prop) => isProp(prop, 'platform');
