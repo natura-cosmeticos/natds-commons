@@ -123,6 +123,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-indeterminate": string;
   readonly "natds-icons-outlined-alert-info": string;
   readonly "natds-icons-outlined-alert-notification": string;
+  readonly "natds-icons-outlined-alert-notificationsbadge": string;
   readonly "natds-icons-outlined-alert-warning": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;
@@ -136,6 +137,7 @@ declare const styles: {
   readonly "natds-icons-outlined-communication-treatment": string;
   readonly "natds-icons-outlined-content-adddocument": string;
   readonly "natds-icons-outlined-content-agility": string;
+  readonly "natds-icons-outlined-content-asleep": string;
   readonly "natds-icons-outlined-content-bellringing": string;
   readonly "natds-icons-outlined-content-book": string;
   readonly "natds-icons-outlined-content-brightness": string;
@@ -167,6 +169,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-productshowcase": string;
   readonly "natds-icons-outlined-content-produtivity": string;
   readonly "natds-icons-outlined-content-report": string;
+  readonly "natds-icons-outlined-content-saleinsight": string;
   readonly "natds-icons-outlined-content-store": string;
   readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;
@@ -217,6 +220,7 @@ declare const styles: {
   readonly "natds-icons-outlined-place-runningtruck": string;
   readonly "natds-icons-outlined-place-truck": string;
   readonly "natds-icons-outlined-place-waze": string;
+  readonly "natds-icons-outlined-product-abandonedbag": string;
   readonly "natds-icons-outlined-product-accessories": string;
   readonly "natds-icons-outlined-product-bagproduct": string;
   readonly "natds-icons-outlined-product-beard": string;
@@ -234,6 +238,8 @@ declare const styles: {
   readonly "natds-icons-outlined-product-perfumerymasculine": string;
   readonly "natds-icons-outlined-product-perfumerytbs": string;
   readonly "natds-icons-outlined-product-promotionproduct": string;
+  readonly "natds-icons-outlined-product-relatedproducts": string;
+  readonly "natds-icons-outlined-product-repurchase": string;
   readonly "natds-icons-outlined-product-scent": string;
   readonly "natds-icons-outlined-product-vegan": string;
   readonly "natds-icons-outlined-social-addcontact": string;

@@ -105,6 +105,7 @@ interface RootObject {
   'outlined-alert-indeterminate': string;
   'outlined-alert-info': string;
   'outlined-alert-notification': string;
+  'outlined-alert-notificationsbadge': string;
   'outlined-alert-warning': string;
   'outlined-communication-chat': string;
   'outlined-communication-email': string;
@@ -118,6 +119,7 @@ interface RootObject {
   'outlined-communication-treatment': string;
   'outlined-content-adddocument': string;
   'outlined-content-agility': string;
+  'outlined-content-asleep': string;
   'outlined-content-bellringing': string;
   'outlined-content-book': string;
   'outlined-content-brightness': string;
@@ -149,6 +151,7 @@ interface RootObject {
   'outlined-content-productshowcase': string;
   'outlined-content-produtivity': string;
   'outlined-content-report': string;
+  'outlined-content-saleinsight': string;
   'outlined-content-store': string;
   'outlined-content-wellness': string;
   'outlined-content-wifi': string;
@@ -199,6 +202,7 @@ interface RootObject {
   'outlined-place-runningtruck': string;
   'outlined-place-truck': string;
   'outlined-place-waze': string;
+  'outlined-product-abandonedbag': string;
   'outlined-product-accessories': string;
   'outlined-product-bagproduct': string;
   'outlined-product-beard': string;
@@ -216,6 +220,8 @@ interface RootObject {
   'outlined-product-perfumerymasculine': string;
   'outlined-product-perfumerytbs': string;
   'outlined-product-promotionproduct': string;
+  'outlined-product-relatedproducts': string;
+  'outlined-product-repurchase': string;
   'outlined-product-scent': string;
   'outlined-product-vegan': string;
   'outlined-social-addcontact': string;

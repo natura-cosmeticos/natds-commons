@@ -104,6 +104,7 @@ outlined_alert_empty
 outlined_alert_indeterminate
 outlined_alert_info
 outlined_alert_notification
+outlined_alert_notificationsbadge
 outlined_alert_warning
 outlined_communication_chat
 outlined_communication_email
@@ -117,6 +118,7 @@ outlined_communication_speaker
 outlined_communication_treatment
 outlined_content_adddocument
 outlined_content_agility
+outlined_content_asleep
 outlined_content_bellringing
 outlined_content_book
 outlined_content_brightness
@@ -148,6 +150,7 @@ outlined_content_planb
 outlined_content_productshowcase
 outlined_content_produtivity
 outlined_content_report
+outlined_content_saleinsight
 outlined_content_store
 outlined_content_wellness
 outlined_content_wifi
@@ -198,6 +201,7 @@ outlined_place_rocket
 outlined_place_runningtruck
 outlined_place_truck
 outlined_place_waze
+outlined_product_abandonedbag
 outlined_product_accessories
 outlined_product_bagproduct
 outlined_product_beard
@@ -215,6 +219,8 @@ outlined_product_perfumeryfeminine
 outlined_product_perfumerymasculine
 outlined_product_perfumerytbs
 outlined_product_promotionproduct
+outlined_product_relatedproducts
+outlined_product_repurchase
 outlined_product_scent
 outlined_product_vegan
 outlined_social_addcontact

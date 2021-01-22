@@ -317,6 +317,9 @@
 	"outlined-alert-notification": [
 		""
 	],
+	"outlined-alert-notificationsbadge": [
+		""
+	],
 	"outlined-alert-warning": [
 		""
 	],
@@ -355,6 +358,9 @@
 	],
 	"outlined-content-agility": [
 		""
+	],
+	"outlined-content-asleep": [
+		""
 	],
 	"outlined-content-bellringing": [
 		""
@@ -448,6 +454,9 @@
 	],
 	"outlined-content-report": [
 		""
+	],
+	"outlined-content-saleinsight": [
+		""
 	],
 	"outlined-content-store": [
 		""
@@ -599,6 +608,9 @@
 	"outlined-place-waze": [
 		""
 	],
+	"outlined-product-abandonedbag": [
+		""
+	],
 	"outlined-product-accessories": [
 		""
 	],
@@ -649,6 +661,12 @@
 	],
 	"outlined-product-promotionproduct": [
 		""
+	],
+	"outlined-product-relatedproducts": [
+		""
+	],
+	"outlined-product-repurchase": [
+		""
 	],
 	"outlined-product-scent": [
 		""
