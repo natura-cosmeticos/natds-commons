@@ -525,6 +525,10 @@
   content: "\ea68";
 }
 
+.natds-icons-outlined-alert-notificationsbadge::before {
+  content: "\eae6";
+}
+
 .natds-icons-outlined-alert-warning::before {
   content: "\ea69";
 }
@@ -575,6 +579,10 @@
 
 .natds-icons-outlined-content-agility::before {
   content: "\ea75";
+}
+
+.natds-icons-outlined-content-asleep::before {
+  content: "\eae7";
 }
 
 .natds-icons-outlined-content-bellringing::before {
@@ -699,6 +707,10 @@
 
 .natds-icons-outlined-content-report::before {
   content: "\ea92";
+}
+
+.natds-icons-outlined-content-saleinsight::before {
+  content: "\eae8";
 }
 
 .natds-icons-outlined-content-store::before {
@@ -901,6 +913,10 @@
   content: "\eac4";
 }
 
+.natds-icons-outlined-product-abandonedbag::before {
+  content: "\eae9";
+}
+
 .natds-icons-outlined-product-accessories::before {
   content: "\eac5";
 }
@@ -967,6 +983,14 @@
 
 .natds-icons-outlined-product-promotionproduct::before {
   content: "\ead2";
+}
+
+.natds-icons-outlined-product-relatedproducts::before {
+  content: "\eaea";
+}
+
+.natds-icons-outlined-product-repurchase::before {
+  content: "\eaeb";
 }
 
 .natds-icons-outlined-product-scent::before {
