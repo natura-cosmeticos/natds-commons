@@ -33,4 +33,10 @@ describe('icons input', () => {
     expect(words.length).toEqual(3);
     expect(isAllowedStyleName).toBeTruthy();
   });
+
+  test.each(icons)('should not have a fill-rule style %o', (icon) => {
+    const hasFillRule = icon.content.includes('fill-rule');
+
+    expect(hasFillRule).toBeFalsy();
+  });
 });
