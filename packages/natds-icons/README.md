@@ -9,6 +9,7 @@
             - [Using CSS + icon font](#using-css--icon-font)
             - [Using SVG](#using-svg)
         - [Android development](#android-development)
+        - [iOS development](#ios-development)
 - [How to contribute](#how-to-contribute)
 
 ## Icon Names 📌
@@ -26,7 +27,7 @@ If you are developing for theses platforms, you can check out our component libr
 Here you can find more instructions on how to use `natds-icons` along with those libraries:
 
 - [natds-android](https://github.com/natura-cosmeticos/natds-android/tree/master/doc/icon-token.md)
-- [natds-ios](https://github.com/natura-cosmeticos/natds-ios/blob/master/docs/using-icons.md)
+- [natds-ios](https://github.com/natura-cosmeticos/natds-ios/blob/master/docs/How%20to%20use%20icons.md)
 - [natds-web](https://github.com/natura-cosmeticos/natds-js/tree/main/packages/web/docs/icons.md/)
 - [natds-rn](https://github.com/natura-cosmeticos/natds-rn/tree/master/docs/Icons.md)
 
@@ -189,6 +190,20 @@ implementation "com.natura:icons:$rootProject.<version>"
 ```
 
 With the dependency configured, you can access our icons as drawables. 😃
+
+
+#### iOS development
+
+To use NatDS Icons, you MUST add a new pod to your project. You must specify it in your `Podfile`:
+
+```ruby
+target '<Your Target Name>' do
+    pod 'NatDSIcons'    
+end
+```
+
+[Check the documentation on how to use icons.](https://github.com/natura-cosmeticos/natds-ios/blob/master/docs/How%20to%20use%20icons.md)
+
 
 
 ## How to contribute
