@@ -1,0 +1,67 @@
+{
+  "name": "@naturacosmeticos/natds-lint",
+  "version": "0.0.0",
+  "description": "Lint rules for Natura Design System js/ts projects",
+  "keywords": [
+    "lint",
+    "natds"
+  ],
+  "author": "arielwb <arielwb@gmail.com>",
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-lint#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "rules": "rules",
+    "jest": "jest",
+    "base": "base",
+    "typescript": "typescript"
+  },
+  "files": [
+    "base",
+    "jest",
+    "react",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-commons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    }
+  }
+}
