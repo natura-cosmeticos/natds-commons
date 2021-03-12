@@ -6,4 +6,18 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
   ],
+  rules: {
+    'import/extensions': ['error', 'ignorePackages', {
+      ts: 'never',
+      tsx: 'never',
+    }],
+  }
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx']
+      }
+    },
+    'import/extensions': ['.ts', '.tsx'],
+  },
 }
