@@ -11,7 +11,7 @@ module.exports = {
       ts: 'never',
       tsx: 'never',
     }],
-  }
+  },
   settings: {
     'import/resolver': {
       node: {
