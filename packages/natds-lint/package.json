@@ -20,7 +20,10 @@
     "base",
     "jest",
     "react",
-    "typescript"
+    "typescript",
+    "index.js",
+    "package.json",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"
