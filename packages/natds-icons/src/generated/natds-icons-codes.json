@@ -8,6 +8,9 @@
 	"filled-action-check": [
 		""
 	],
+	"filled-action-clock": [
+		""
+	],
 	"filled-action-delete": [
 		""
 	],
@@ -20,8 +23,14 @@
 	"filled-action-rating": [
 		""
 	],
+	"filled-action-request": [
+		""
+	],
 	"filled-action-subtract": [
 		""
+	],
+	"filled-brand-avonshorthand": [
+		""
 	],
 	"filled-brand-facebook": [
 		""
@@ -68,8 +77,17 @@
 	"filled-finance-charging": [
 		""
 	],
+	"filled-finance-invoice": [
+		""
+	],
+	"filled-finance-money": [
+		""
+	],
 	"filled-finance-paymentlink": [
 		""
+	],
+	"filled-finance-paymentnotapproved": [
+		""
 	],
 	"filled-media-pause": [
 		""
@@ -104,6 +122,9 @@
 	"filled-navigation-directiontop": [
 		""
 	],
+	"filled-navigation-home": [
+		""
+	],
 	"filled-navigation-menu": [
 		""
 	],
@@ -121,6 +142,9 @@
 	],
 	"filled-navigation-settop": [
 		""
+	],
+	"filled-place-truck": [
+		""
 	],
 	"filled-product-brandsproduct": [
 		""
@@ -380,6 +404,9 @@
 	"outlined-content-christmascard": [
 		""
 	],
+	"outlined-content-cloud": [
+		""
+	],
 	"outlined-content-consistency": [
 		""
 	],
@@ -391,6 +418,12 @@
 	],
 	"outlined-content-exchangereports": [
 		""
+	],
+	"outlined-content-flower": [
+		""
+	],
+	"outlined-content-fragrance": [
+		""
 	],
 	"outlined-content-gallery": [
 		""
@@ -422,6 +455,9 @@
 	"outlined-content-itemlist": [
 		""
 	],
+	"outlined-content-leafs": [
+		""
+	],
 	"outlined-content-lifebuoy": [
 		""
 	],
@@ -452,14 +488,26 @@
 	"outlined-content-produtivity": [
 		""
 	],
+	"outlined-content-rainycloud": [
+		""
+	],
 	"outlined-content-report": [
 		""
 	],
 	"outlined-content-saleinsight": [
 		""
 	],
+	"outlined-content-snow": [
+		""
+	],
 	"outlined-content-store": [
 		""
+	],
+	"outlined-content-sun": [
+		""
+	],
+	"outlined-content-sunandcloud": [
+		""
 	],
 	"outlined-content-wellness": [
 		""
@@ -494,6 +542,9 @@
 	"outlined-finance-idcard": [
 		""
 	],
+	"outlined-finance-invoice": [
+		""
+	],
 	"outlined-finance-littlemachine": [
 		""
 	],
@@ -509,11 +560,17 @@
 	"outlined-finance-paymentlink": [
 		""
 	],
+	"outlined-finance-paymentnotapproved": [
+		""
+	],
 	"outlined-finance-payreference": [
 		""
 	],
 	"outlined-finance-promotion": [
 		""
+	],
+	"outlined-finance-scancard": [
+		""
 	],
 	"outlined-finance-shoppingcart": [
 		""

@@ -113,6 +113,10 @@
   content: "\ea03";
 }
 
+.natds-icons-filled-action-clock::before {
+  content: "\eaec";
+}
+
 .natds-icons-filled-action-delete::before {
   content: "\ea04";
 }
@@ -129,8 +133,16 @@
   content: "\ea07";
 }
 
+.natds-icons-filled-action-request::before {
+  content: "\eaed";
+}
+
 .natds-icons-filled-action-subtract::before {
   content: "\ea08";
+}
+
+.natds-icons-filled-brand-avonshorthand::before {
+  content: "\eaee";
 }
 
 .natds-icons-filled-brand-facebook::before {
@@ -193,8 +205,20 @@
   content: "\ea17";
 }
 
+.natds-icons-filled-finance-invoice::before {
+  content: "\eaef";
+}
+
+.natds-icons-filled-finance-money::before {
+  content: "\eaf0";
+}
+
 .natds-icons-filled-finance-paymentlink::before {
   content: "\ea18";
+}
+
+.natds-icons-filled-finance-paymentnotapproved::before {
+  content: "\eaf1";
 }
 
 .natds-icons-filled-media-pause::before {
@@ -241,6 +265,10 @@
   content: "\ea23";
 }
 
+.natds-icons-filled-navigation-home::before {
+  content: "\eaf2";
+}
+
 .natds-icons-filled-navigation-menu::before {
   content: "\ea24";
 }
@@ -263,6 +291,10 @@
 
 .natds-icons-filled-navigation-settop::before {
   content: "\ea29";
+}
+
+.natds-icons-filled-place-truck::before {
+  content: "\eaf3";
 }
 
 .natds-icons-filled-product-brandsproduct::before {
@@ -609,6 +641,10 @@
   content: "\ea7b";
 }
 
+.natds-icons-outlined-content-cloud::before {
+  content: "\eaf4";
+}
+
 .natds-icons-outlined-content-consistency::before {
   content: "\ea7c";
 }
@@ -623,6 +659,14 @@
 
 .natds-icons-outlined-content-exchangereports::before {
   content: "\ea7f";
+}
+
+.natds-icons-outlined-content-flower::before {
+  content: "\eaf5";
+}
+
+.natds-icons-outlined-content-fragrance::before {
+  content: "\eaf6";
 }
 
 .natds-icons-outlined-content-gallery::before {
@@ -665,6 +709,10 @@
   content: "\ea88";
 }
 
+.natds-icons-outlined-content-leafs::before {
+  content: "\eaf7";
+}
+
 .natds-icons-outlined-content-lifebuoy::before {
   content: "\ea89";
 }
@@ -705,6 +753,10 @@
   content: "\ea91";
 }
 
+.natds-icons-outlined-content-rainycloud::before {
+  content: "\eaf8";
+}
+
 .natds-icons-outlined-content-report::before {
   content: "\ea92";
 }
@@ -713,8 +765,20 @@
   content: "\eae8";
 }
 
+.natds-icons-outlined-content-snow::before {
+  content: "\eaf9";
+}
+
 .natds-icons-outlined-content-store::before {
   content: "\ea93";
+}
+
+.natds-icons-outlined-content-sun::before {
+  content: "\eafa";
+}
+
+.natds-icons-outlined-content-sunandcloud::before {
+  content: "\eafb";
 }
 
 .natds-icons-outlined-content-wellness::before {
@@ -761,6 +825,10 @@
   content: "\ea9e";
 }
 
+.natds-icons-outlined-finance-invoice::before {
+  content: "\eafc";
+}
+
 .natds-icons-outlined-finance-littlemachine::before {
   content: "\ea9f";
 }
@@ -781,12 +849,20 @@
   content: "\eaa3";
 }
 
+.natds-icons-outlined-finance-paymentnotapproved::before {
+  content: "\eafd";
+}
+
 .natds-icons-outlined-finance-payreference::before {
   content: "\eaa4";
 }
 
 .natds-icons-outlined-finance-promotion::before {
   content: "\eaa5";
+}
+
+.natds-icons-outlined-finance-scancard::before {
+  content: "\eafe";
 }
 
 .natds-icons-outlined-finance-shoppingcart::before {
