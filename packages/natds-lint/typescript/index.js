@@ -7,17 +7,18 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    '@typescript-eslint/no-var-requires': 'off',
     'import/extensions': ['error', 'ignorePackages', {
       ts: 'never',
       tsx: 'never',
     }],
   },
   settings: {
+    'import/extensions': ['.ts', '.tsx'],
     'import/resolver': {
       node: {
-        extensions: ['.ts', '.tsx']
-      }
+        extensions: ['.ts', '.tsx'],
+      },
     },
-    'import/extensions': ['.ts', '.tsx'],
   },
-}
+};

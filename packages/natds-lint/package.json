@@ -36,38 +36,15 @@
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.10"
-  },
-  "devDependencies": {
+    "confusing-browser-globals": "^1.0.10",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
-    "eslint": "^7.21.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.2.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.17.0",
-    "@typescript-eslint/parser": "^4.17.0",
-    "eslint": "^7.0.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.2.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
-  },
-  "peerDependenciesMeta": {
-    "eslint-plugin-react": {
-      "optional": true
-    },
-    "eslint-plugin-react-hooks": {
-      "optional": true
-    },
-    "@typescript-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "@typescript-eslint/parser": {
-      "optional": true
-    }
+    "eslint": "^7.0.0"
   }
 }
