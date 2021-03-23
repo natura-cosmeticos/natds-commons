@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/eslint-config-natds",
-  "version": "0.0.1-alpha.4",
+  "version": "0.0.1",
   "description": "Lint rules for Natura Design System js/ts projects",
   "keywords": [
     "lint",
@@ -36,9 +36,9 @@
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.10",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
+    "confusing-browser-globals": "^1.0.10",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.2.1",
     "eslint-plugin-react": "^7.22.0",
