@@ -30,7 +30,8 @@
   "packages": [
     "packages/natds-themes/*",
     "packages/natds-icons/*",
-    "packages/natds-cli/*"
+    "packages/natds-cli/*",
+    "packages/natds-lint/*"
   ],
   "useWorkspaces": true,
   "version": "independent"

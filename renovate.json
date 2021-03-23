@@ -6,6 +6,7 @@
   "lockFileMaintenance": true,
   "masterIssue": true,
   "masterIssueAutoclose": true,
+  "ignoreDeps": ["semantic-release", "gradle"],
   "packageRules": [
     {
       "groupName": "snyk package",
