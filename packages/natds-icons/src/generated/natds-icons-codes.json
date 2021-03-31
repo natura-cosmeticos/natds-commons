@@ -467,6 +467,9 @@
 	"outlined-content-magic": [
 		""
 	],
+	"outlined-content-maintenance": [
+		""
+	],
 	"outlined-content-medal": [
 		""
 	],
@@ -508,6 +511,12 @@
 	],
 	"outlined-content-sunandcloud": [
 		""
+	],
+	"outlined-content-unavailable": [
+		""
+	],
+	"outlined-content-virtualmirror": [
+		""
 	],
 	"outlined-content-wellness": [
 		""
@@ -587,11 +596,29 @@
 	"outlined-finance-transfermoney": [
 		""
 	],
+	"outlined-makeup-eyebrow": [
+		""
+	],
+	"outlined-makeup-eyelashes": [
+		""
+	],
+	"outlined-makeup-eyeliner": [
+		""
+	],
+	"outlined-makeup-face": [
+		""
+	],
+	"outlined-makeup-mouth": [
+		""
+	],
 	"outlined-media-app": [
 		""
 	],
 	"outlined-media-camera": [
 		""
+	],
+	"outlined-media-cameraunavailable": [
+		""
 	],
 	"outlined-media-monitor": [
 		""
@@ -698,11 +725,23 @@
 	"outlined-product-hair": [
 		""
 	],
+	"outlined-product-lashes": [
+		""
+	],
+	"outlined-product-liner": [
+		""
+	],
+	"outlined-product-lipgloss": [
+		""
+	],
 	"outlined-product-makeup": [
 		""
 	],
 	"outlined-product-outlet": [
 		""
+	],
+	"outlined-product-pencil": [
+		""
 	],
 	"outlined-product-perfumery": [
 		""
@@ -715,6 +754,9 @@
 	],
 	"outlined-product-perfumerytbs": [
 		""
+	],
+	"outlined-product-powder": [
+		""
 	],
 	"outlined-product-promotionproduct": [
 		""

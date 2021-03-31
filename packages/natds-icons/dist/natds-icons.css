@@ -725,6 +725,10 @@
   content: "\ea8b";
 }
 
+.natds-icons-outlined-content-maintenance::before {
+  content: "\eaff";
+}
+
 .natds-icons-outlined-content-medal::before {
   content: "\ea8c";
 }
@@ -779,6 +783,14 @@
 
 .natds-icons-outlined-content-sunandcloud::before {
   content: "\eafb";
+}
+
+.natds-icons-outlined-content-unavailable::before {
+  content: "\eb00";
+}
+
+.natds-icons-outlined-content-virtualmirror::before {
+  content: "\eb01";
 }
 
 .natds-icons-outlined-content-wellness::before {
@@ -885,12 +897,36 @@
   content: "\eaaa";
 }
 
+.natds-icons-outlined-makeup-eyebrow::before {
+  content: "\eb02";
+}
+
+.natds-icons-outlined-makeup-eyelashes::before {
+  content: "\eb03";
+}
+
+.natds-icons-outlined-makeup-eyeliner::before {
+  content: "\eb04";
+}
+
+.natds-icons-outlined-makeup-face::before {
+  content: "\eb05";
+}
+
+.natds-icons-outlined-makeup-mouth::before {
+  content: "\eb06";
+}
+
 .natds-icons-outlined-media-app::before {
   content: "\eaab";
 }
 
 .natds-icons-outlined-media-camera::before {
   content: "\eaac";
+}
+
+.natds-icons-outlined-media-cameraunavailable::before {
+  content: "\eb07";
 }
 
 .natds-icons-outlined-media-monitor::before {
@@ -1033,12 +1069,28 @@
   content: "\eace";
 }
 
+.natds-icons-outlined-product-lashes::before {
+  content: "\eb08";
+}
+
+.natds-icons-outlined-product-liner::before {
+  content: "\eb09";
+}
+
+.natds-icons-outlined-product-lipgloss::before {
+  content: "\eb0a";
+}
+
 .natds-icons-outlined-product-makeup::before {
   content: "\eacf";
 }
 
 .natds-icons-outlined-product-outlet::before {
   content: "\ead0";
+}
+
+.natds-icons-outlined-product-pencil::before {
+  content: "\eb0b";
 }
 
 .natds-icons-outlined-product-perfumery::before {
@@ -1055,6 +1107,10 @@
 
 .natds-icons-outlined-product-perfumerytbs::before {
   content: "\eae2";
+}
+
+.natds-icons-outlined-product-powder::before {
+  content: "\eb0c";
 }
 
 .natds-icons-outlined-product-promotionproduct::before {
