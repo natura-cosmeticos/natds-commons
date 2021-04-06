@@ -270,6 +270,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-perfumerymasculine": string;
   readonly "natds-icons-outlined-product-perfumerytbs": string;
   readonly "natds-icons-outlined-product-powder": string;
+  readonly "natds-icons-outlined-product-primer": string;
   readonly "natds-icons-outlined-product-promotionproduct": string;
   readonly "natds-icons-outlined-product-relatedproducts": string;
   readonly "natds-icons-outlined-product-repurchase": string;

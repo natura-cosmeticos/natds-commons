@@ -252,6 +252,7 @@ interface RootObject {
   'outlined-product-perfumerymasculine': string;
   'outlined-product-perfumerytbs': string;
   'outlined-product-powder': string;
+  'outlined-product-primer': string;
   'outlined-product-promotionproduct': string;
   'outlined-product-relatedproducts': string;
   'outlined-product-repurchase': string;

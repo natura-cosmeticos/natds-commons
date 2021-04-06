@@ -1113,6 +1113,10 @@
   content: "\eb0c";
 }
 
+.natds-icons-outlined-product-primer::before {
+  content: "\eb0d";
+}
+
 .natds-icons-outlined-product-promotionproduct::before {
   content: "\ead2";
 }
