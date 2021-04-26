@@ -162,6 +162,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-gallery": string;
   readonly "natds-icons-outlined-content-gift": string;
   readonly "natds-icons-outlined-content-global": string;
+  readonly "natds-icons-outlined-content-handbag": string;
   readonly "natds-icons-outlined-content-handcare": string;
   readonly "natds-icons-outlined-content-handglobal": string;
   readonly "natds-icons-outlined-content-hands": string;

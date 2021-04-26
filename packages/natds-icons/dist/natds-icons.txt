@@ -143,6 +143,7 @@ outlined_content_fragrance
 outlined_content_gallery
 outlined_content_gift
 outlined_content_global
+outlined_content_handbag
 outlined_content_handcare
 outlined_content_handglobal
 outlined_content_hands

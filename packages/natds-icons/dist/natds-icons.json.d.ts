@@ -144,6 +144,7 @@ interface RootObject {
   'outlined-content-gallery': string;
   'outlined-content-gift': string;
   'outlined-content-global': string;
+  'outlined-content-handbag': string;
   'outlined-content-handcare': string;
   'outlined-content-handglobal': string;
   'outlined-content-hands': string;
