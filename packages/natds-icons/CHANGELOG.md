@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.4.0...@naturacosmeticos/natds-icons@1.5.0) (2021-04-26)
+
+
+### Features
+
+* **natds-icons:** add icon outlined-content-handbag ([#243](https://github.com/natura-cosmeticos/natds-commons/issues/243)) ([2d81435](https://github.com/natura-cosmeticos/natds-commons/commit/2d814350afce6ca8260d5ef138cf0a90bf58a9ad))
+
+
+
+
+
 # [1.4.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.3.0...@naturacosmeticos/natds-icons@1.4.0) (2021-04-06)
 
 
