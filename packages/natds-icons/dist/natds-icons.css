@@ -681,6 +681,10 @@
   content: "\ea82";
 }
 
+.natds-icons-outlined-content-handbag::before {
+  content: "\eb0e";
+}
+
 .natds-icons-outlined-content-handcare::before {
   content: "\eae5";
 }
