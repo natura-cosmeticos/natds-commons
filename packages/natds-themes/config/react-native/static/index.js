@@ -8,7 +8,6 @@ import naturaLightTheme from './natura/light.json';
 import theBodyShopDarkTheme from './theBodyShop/dark.json';
 import theBodyShopLightTheme from './theBodyShop/light.json';
 
-// @todo generate type definitions
 const themes = {
   aesop: {
     dark: aesopDarkTheme,
