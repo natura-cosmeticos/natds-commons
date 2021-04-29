@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "value": "natura-a-official"
+        },
+        "b": {
+          "value": "natura-b-official"
+        }
+      },
+      "custom":{
+        "a": {
+          "value": "natura-a-custom"
+        },
+        "b": {
+          "value": "natura-b-custom"
+        }
+      }
+    }
+  }
+}

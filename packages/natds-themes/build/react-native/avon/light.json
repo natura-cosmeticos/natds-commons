@@ -1,34 +1,4 @@
 {
-  "color": {
-    "primary": "#7f28c4",
-    "onPrimary": "#ffffff",
-    "primaryLight": "#b35bf8",
-    "onPrimaryLight": "#000000",
-    "primaryDark": "#4b0092",
-    "onPrimaryDark": "#000000",
-    "secondary": "#e2197c",
-    "onSecondary": "#ffffff",
-    "secondaryLight": "#ff5eab",
-    "onSecondaryLight": "#000000",
-    "secondaryDark": "#aa0050",
-    "onSecondaryDark": "#ffffff",
-    "background": "#fafafa",
-    "onBackground": "#333333",
-    "surface": "#ffffff",
-    "onSurface": "#333333",
-    "highlight": "#000000",
-    "highEmphasis": "#333333",
-    "mediumEmphasis": "#777777",
-    "lowEmphasis": "#bbbbbb",
-    "link": "#227bbd",
-    "onLink": "#ffffff",
-    "success": "#569a32",
-    "onSuccess": "#ffffff",
-    "warning": "#fcc433",
-    "onWarning": "#333333",
-    "alert": "#e74627",
-    "onAlert": "#ffffff"
-  },
   "borderRadius": {
     "none": 0,
     "small": 2,
@@ -164,6 +134,48 @@
     "semi": 32,
     "large": 48,
     "xLarge": 64
+  },
+  "color": {
+    "primary": "#7f28c4",
+    "onPrimary": "#ffffff",
+    "primaryLight": "#b35bf8",
+    "onPrimaryLight": "#000000",
+    "primaryDark": "#4b0092",
+    "onPrimaryDark": "#000000",
+    "secondary": "#e2197c",
+    "onSecondary": "#ffffff",
+    "secondaryLight": "#ff5eab",
+    "onSecondaryLight": "#000000",
+    "secondaryDark": "#aa0050",
+    "onSecondaryDark": "#ffffff",
+    "background": "#fafafa",
+    "onBackground": "#333333",
+    "surface": "#ffffff",
+    "onSurface": "#333333",
+    "highlight": "#000000",
+    "highEmphasis": "#333333",
+    "mediumEmphasis": "#777777",
+    "lowEmphasis": "#bbbbbb",
+    "link": "#227bbd",
+    "onLink": "#ffffff",
+    "success": "#569a32",
+    "onSuccess": "#ffffff",
+    "warning": "#fcc433",
+    "onWarning": "#333333",
+    "alert": "#e74627",
+    "onAlert": "#ffffff"
+  },
+  "asset": {
+    "brand": {
+      "neutral": {
+        "a": "avon-a-official",
+        "b": "avon-a-official"
+      },
+      "custom": {
+        "a": "avon-a-custom",
+        "b": "avon-a-custom"
+      }
+    }
   },
   "elevation": {
     "none": {

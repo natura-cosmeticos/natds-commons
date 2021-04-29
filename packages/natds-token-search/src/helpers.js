@@ -1,17 +1,29 @@
 import {
   pipe, unless, map, objOf, zipObj, mapObjIndexed, isNil,
-  filter, prop, contains, toLower, anyPass, toString,
+  filter, prop, contains, toLower, anyPass, toString, has,
+  none, not, values, when, ifElse, identity, is, flatten,
+  until,
 } from 'ramda';
 
-export const flattenData = (properties) => {
-  const mapProps = (item) => Object.values(item).map(checkIfHasName); // eslint-disable-line
-  const checkIfHasName = (item) => (item.name ? item : mapProps(item));
+export const flattenProps = (properties) => {
+  const isProperty = has('name');
+  const isNotItem = pipe(isProperty, not);
+  const isFlat = none(isNotItem);
+  const isNotArray = pipe(is(Array), not);
+  const getItemFromNestedObject = map(ifElse(isProperty, identity, values));
+  const toArray = when(isNotArray, values);
 
-  return mapProps(properties).flat(2);
+  const getPropertyValues = pipe(
+    toArray,
+    getItemFromNestedObject,
+    flatten,
+  );
+
+  return until(isFlat, getPropertyValues)(values(properties));
 };
 
 export const buildTokensForBrand = (brand) => pipe(
-  map(flattenData),
+  map(flattenProps),
   zipObj(['light', 'dark']),
   objOf(brand),
 );

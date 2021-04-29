@@ -1,6 +1,7 @@
 import buildIosConfig from './buildIosConfig';
 
 const expectedConfig = {
+  actions: ['custom_copy_assets'],
   buildPath: 'build/ios/',
   files: [
     {
@@ -21,7 +22,14 @@ const expectedConfig = {
     },
   ],
   transformGroup: 'ios-swift',
-  transforms: ['color/hex', 'attribute/cti', 'name/cti/camel-custom', 'attribute/type', 'value/string-literal'],
+  transforms: [
+    'color/hex',
+    'attribute/cti',
+    'name/cti/camel-custom',
+    'attribute/type',
+    'value/string-literal',
+    'asset/extension',
+  ],
 };
 
 describe('buildIosConfig', () => {

@@ -1,487 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 May 2021 13:08:24 GMT
+ * Generated on Mon, 17 May 2021 13:13:30 GMT
  */
 
 module.exports = {
-  "color": {
-    "primary": {
-      "value": "#7f28c4",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#7F28C4"
-      },
-      "name": "colorPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "primary"
-      },
-      "path": [
-        "color",
-        "primary"
-      ]
-    },
-    "onPrimary": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimary"
-      },
-      "path": [
-        "color",
-        "onPrimary"
-      ]
-    },
-    "primaryLight": {
-      "value": "#b35bf8",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#B35BF8"
-      },
-      "name": "colorPrimaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "primaryLight"
-      },
-      "path": [
-        "color",
-        "primaryLight"
-      ]
-    },
-    "onPrimaryLight": {
-      "value": "#000000",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnPrimaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimaryLight"
-      },
-      "path": [
-        "color",
-        "onPrimaryLight"
-      ]
-    },
-    "primaryDark": {
-      "value": "#4b0092",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#4B0092"
-      },
-      "name": "colorPrimaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "primaryDark"
-      },
-      "path": [
-        "color",
-        "primaryDark"
-      ]
-    },
-    "onPrimaryDark": {
-      "value": "#000000",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnPrimaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimaryDark"
-      },
-      "path": [
-        "color",
-        "onPrimaryDark"
-      ]
-    },
-    "secondary": {
-      "value": "#e2197c",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#E2197C"
-      },
-      "name": "colorSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "secondary"
-      },
-      "path": [
-        "color",
-        "secondary"
-      ]
-    },
-    "onSecondary": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondary"
-      },
-      "path": [
-        "color",
-        "onSecondary"
-      ]
-    },
-    "secondaryLight": {
-      "value": "#ff5eab",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FF5EAB"
-      },
-      "name": "colorSecondaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "secondaryLight"
-      },
-      "path": [
-        "color",
-        "secondaryLight"
-      ]
-    },
-    "onSecondaryLight": {
-      "value": "#000000",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnSecondaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondaryLight"
-      },
-      "path": [
-        "color",
-        "onSecondaryLight"
-      ]
-    },
-    "secondaryDark": {
-      "value": "#aa0050",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#AA0050"
-      },
-      "name": "colorSecondaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "secondaryDark"
-      },
-      "path": [
-        "color",
-        "secondaryDark"
-      ]
-    },
-    "onSecondaryDark": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSecondaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondaryDark"
-      },
-      "path": [
-        "color",
-        "onSecondaryDark"
-      ]
-    },
-    "background": {
-      "value": "#fafafa",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FAFAFA"
-      },
-      "name": "colorBackground",
-      "attributes": {
-        "category": "color",
-        "type": "background"
-      },
-      "path": [
-        "color",
-        "background"
-      ]
-    },
-    "onBackground": {
-      "value": "#333333",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnBackground",
-      "attributes": {
-        "category": "color",
-        "type": "onBackground"
-      },
-      "path": [
-        "color",
-        "onBackground"
-      ]
-    },
-    "surface": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorSurface",
-      "attributes": {
-        "category": "color",
-        "type": "surface"
-      },
-      "path": [
-        "color",
-        "surface"
-      ]
-    },
-    "onSurface": {
-      "value": "#333333",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnSurface",
-      "attributes": {
-        "category": "color",
-        "type": "onSurface"
-      },
-      "path": [
-        "color",
-        "onSurface"
-      ]
-    },
-    "highlight": {
-      "value": "#000000",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorHighlight",
-      "attributes": {
-        "category": "color",
-        "type": "highlight"
-      },
-      "path": [
-        "color",
-        "highlight"
-      ]
-    },
-    "highEmphasis": {
-      "value": "#333333",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorHighEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "highEmphasis"
-      },
-      "path": [
-        "color",
-        "highEmphasis"
-      ]
-    },
-    "mediumEmphasis": {
-      "value": "#777777",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#777777"
-      },
-      "name": "colorMediumEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "mediumEmphasis"
-      },
-      "path": [
-        "color",
-        "mediumEmphasis"
-      ]
-    },
-    "lowEmphasis": {
-      "value": "#bbbbbb",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#BBBBBB"
-      },
-      "name": "colorLowEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "lowEmphasis"
-      },
-      "path": [
-        "color",
-        "lowEmphasis"
-      ]
-    },
-    "link": {
-      "value": "#227bbd",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#227BBD"
-      },
-      "name": "colorLink",
-      "attributes": {
-        "category": "color",
-        "type": "link"
-      },
-      "path": [
-        "color",
-        "link"
-      ]
-    },
-    "onLink": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnLink",
-      "attributes": {
-        "category": "color",
-        "type": "onLink"
-      },
-      "path": [
-        "color",
-        "onLink"
-      ]
-    },
-    "success": {
-      "value": "#569a32",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#569A32"
-      },
-      "name": "colorSuccess",
-      "attributes": {
-        "category": "color",
-        "type": "success"
-      },
-      "path": [
-        "color",
-        "success"
-      ]
-    },
-    "onSuccess": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSuccess",
-      "attributes": {
-        "category": "color",
-        "type": "onSuccess"
-      },
-      "path": [
-        "color",
-        "onSuccess"
-      ]
-    },
-    "warning": {
-      "value": "#fcc433",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FCC433"
-      },
-      "name": "colorWarning",
-      "attributes": {
-        "category": "color",
-        "type": "warning"
-      },
-      "path": [
-        "color",
-        "warning"
-      ]
-    },
-    "onWarning": {
-      "value": "#333333",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnWarning",
-      "attributes": {
-        "category": "color",
-        "type": "onWarning"
-      },
-      "path": [
-        "color",
-        "onWarning"
-      ]
-    },
-    "alert": {
-      "value": "#e74627",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#E74627"
-      },
-      "name": "colorAlert",
-      "attributes": {
-        "category": "color",
-        "type": "alert"
-      },
-      "path": [
-        "color",
-        "alert"
-      ]
-    },
-    "onAlert": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/avon/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnAlert",
-      "attributes": {
-        "category": "color",
-        "type": "onAlert"
-      },
-      "path": [
-        "color",
-        "onAlert"
-      ]
-    }
-  },
   "borderRadius": {
     "none": {
       "value": 0,
@@ -2108,6 +1630,596 @@ module.exports = {
         "spacing",
         "xLarge"
       ]
+    }
+  },
+  "color": {
+    "primary": {
+      "value": "#7f28c4",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#7F28C4"
+      },
+      "name": "colorPrimary",
+      "attributes": {
+        "category": "color",
+        "type": "primary"
+      },
+      "path": [
+        "color",
+        "primary"
+      ]
+    },
+    "onPrimary": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnPrimary",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimary"
+      },
+      "path": [
+        "color",
+        "onPrimary"
+      ]
+    },
+    "primaryLight": {
+      "value": "#b35bf8",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#B35BF8"
+      },
+      "name": "colorPrimaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "primaryLight"
+      },
+      "path": [
+        "color",
+        "primaryLight"
+      ]
+    },
+    "onPrimaryLight": {
+      "value": "#000000",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnPrimaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryLight"
+      },
+      "path": [
+        "color",
+        "onPrimaryLight"
+      ]
+    },
+    "primaryDark": {
+      "value": "#4b0092",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#4B0092"
+      },
+      "name": "colorPrimaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "primaryDark"
+      },
+      "path": [
+        "color",
+        "primaryDark"
+      ]
+    },
+    "onPrimaryDark": {
+      "value": "#000000",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnPrimaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryDark"
+      },
+      "path": [
+        "color",
+        "onPrimaryDark"
+      ]
+    },
+    "secondary": {
+      "value": "#e2197c",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#E2197C"
+      },
+      "name": "colorSecondary",
+      "attributes": {
+        "category": "color",
+        "type": "secondary"
+      },
+      "path": [
+        "color",
+        "secondary"
+      ]
+    },
+    "onSecondary": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSecondary",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondary"
+      },
+      "path": [
+        "color",
+        "onSecondary"
+      ]
+    },
+    "secondaryLight": {
+      "value": "#ff5eab",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF5EAB"
+      },
+      "name": "colorSecondaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "secondaryLight"
+      },
+      "path": [
+        "color",
+        "secondaryLight"
+      ]
+    },
+    "onSecondaryLight": {
+      "value": "#000000",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnSecondaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondaryLight"
+      },
+      "path": [
+        "color",
+        "onSecondaryLight"
+      ]
+    },
+    "secondaryDark": {
+      "value": "#aa0050",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#AA0050"
+      },
+      "name": "colorSecondaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "secondaryDark"
+      },
+      "path": [
+        "color",
+        "secondaryDark"
+      ]
+    },
+    "onSecondaryDark": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSecondaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondaryDark"
+      },
+      "path": [
+        "color",
+        "onSecondaryDark"
+      ]
+    },
+    "background": {
+      "value": "#fafafa",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FAFAFA"
+      },
+      "name": "colorBackground",
+      "attributes": {
+        "category": "color",
+        "type": "background"
+      },
+      "path": [
+        "color",
+        "background"
+      ]
+    },
+    "onBackground": {
+      "value": "#333333",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnBackground",
+      "attributes": {
+        "category": "color",
+        "type": "onBackground"
+      },
+      "path": [
+        "color",
+        "onBackground"
+      ]
+    },
+    "surface": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorSurface",
+      "attributes": {
+        "category": "color",
+        "type": "surface"
+      },
+      "path": [
+        "color",
+        "surface"
+      ]
+    },
+    "onSurface": {
+      "value": "#333333",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnSurface",
+      "attributes": {
+        "category": "color",
+        "type": "onSurface"
+      },
+      "path": [
+        "color",
+        "onSurface"
+      ]
+    },
+    "highlight": {
+      "value": "#000000",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorHighlight",
+      "attributes": {
+        "category": "color",
+        "type": "highlight"
+      },
+      "path": [
+        "color",
+        "highlight"
+      ]
+    },
+    "highEmphasis": {
+      "value": "#333333",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorHighEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "highEmphasis"
+      },
+      "path": [
+        "color",
+        "highEmphasis"
+      ]
+    },
+    "mediumEmphasis": {
+      "value": "#777777",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#777777"
+      },
+      "name": "colorMediumEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "mediumEmphasis"
+      },
+      "path": [
+        "color",
+        "mediumEmphasis"
+      ]
+    },
+    "lowEmphasis": {
+      "value": "#bbbbbb",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#BBBBBB"
+      },
+      "name": "colorLowEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "lowEmphasis"
+      },
+      "path": [
+        "color",
+        "lowEmphasis"
+      ]
+    },
+    "link": {
+      "value": "#227bbd",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#227BBD"
+      },
+      "name": "colorLink",
+      "attributes": {
+        "category": "color",
+        "type": "link"
+      },
+      "path": [
+        "color",
+        "link"
+      ]
+    },
+    "onLink": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnLink",
+      "attributes": {
+        "category": "color",
+        "type": "onLink"
+      },
+      "path": [
+        "color",
+        "onLink"
+      ]
+    },
+    "success": {
+      "value": "#569a32",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#569A32"
+      },
+      "name": "colorSuccess",
+      "attributes": {
+        "category": "color",
+        "type": "success"
+      },
+      "path": [
+        "color",
+        "success"
+      ]
+    },
+    "onSuccess": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSuccess",
+      "attributes": {
+        "category": "color",
+        "type": "onSuccess"
+      },
+      "path": [
+        "color",
+        "onSuccess"
+      ]
+    },
+    "warning": {
+      "value": "#fcc433",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FCC433"
+      },
+      "name": "colorWarning",
+      "attributes": {
+        "category": "color",
+        "type": "warning"
+      },
+      "path": [
+        "color",
+        "warning"
+      ]
+    },
+    "onWarning": {
+      "value": "#333333",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnWarning",
+      "attributes": {
+        "category": "color",
+        "type": "onWarning"
+      },
+      "path": [
+        "color",
+        "onWarning"
+      ]
+    },
+    "alert": {
+      "value": "#e74627",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#E74627"
+      },
+      "name": "colorAlert",
+      "attributes": {
+        "category": "color",
+        "type": "alert"
+      },
+      "path": [
+        "color",
+        "alert"
+      ]
+    },
+    "onAlert": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/avon/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnAlert",
+      "attributes": {
+        "category": "color",
+        "type": "onAlert"
+      },
+      "path": [
+        "color",
+        "onAlert"
+      ]
+    }
+  },
+  "asset": {
+    "brand": {
+      "neutral": {
+        "a": {
+          "value": "avon-a-official",
+          "filePath": "properties/brands/avon/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "avon-a-official"
+          },
+          "name": "assetBrandNeutralA",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "neutral",
+            "subitem": "a",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "neutral",
+            "a"
+          ]
+        },
+        "b": {
+          "value": "avon-a-official",
+          "filePath": "properties/brands/avon/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "avon-a-official"
+          },
+          "name": "assetBrandNeutralB",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "neutral",
+            "subitem": "b",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "neutral",
+            "b"
+          ]
+        }
+      },
+      "custom": {
+        "a": {
+          "value": "avon-a-custom",
+          "filePath": "properties/brands/avon/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "avon-a-custom"
+          },
+          "name": "assetBrandCustomA",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "custom",
+            "subitem": "a",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "custom",
+            "a"
+          ]
+        },
+        "b": {
+          "value": "avon-a-custom",
+          "filePath": "properties/brands/avon/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "avon-a-custom"
+          },
+          "name": "assetBrandCustomB",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "custom",
+            "subitem": "b",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "custom",
+            "b"
+          ]
+        }
+      }
     }
   },
   "elevation": {

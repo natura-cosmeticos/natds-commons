@@ -1,6 +1,6 @@
 import path from 'path';
 import { formatBuilder } from '../shared/formatBuilder';
-import { flattenProps } from '../shared/helpers';
+import { flattenProps, isAsset } from '../shared/helpers';
 import {
   isDimension, createEncodedHashFromValue, isColor, mapFilteredValues,
 } from './helpers';
@@ -12,12 +12,13 @@ const templateDataBuilder = (
 ) => {
   const props = flattenProps(properties);
 
-  const otherProps = props.filter((item) => !isColor(item) && !isDimension(item));
+  const otherProps = props.filter((item) => !isColor(item) && !isDimension(item) && !isAsset(item));
 
   return {
     brandName,
     colors: mapFilteredValues(props, isColor, encodeValue),
     dimensions: mapFilteredValues(props, isDimension, encodeValue),
+    drawables: mapFilteredValues(props, isAsset, (item) => item),
     materialMode: mode === 'Light' ? 'Light' : 'DayNight',
     mode,
     properties: otherProps,

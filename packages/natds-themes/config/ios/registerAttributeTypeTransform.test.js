@@ -44,7 +44,7 @@ describe('registerAttributeTypeTransform', () => {
     it('should add the customOptions object', () => {
       jest
         .spyOn(helpers, 'isProp')
-        .mockReturnValue(false);
+        .mockReturnValue(() => false);
 
       const config = registerAttributeTypeTransform();
       const prop = {

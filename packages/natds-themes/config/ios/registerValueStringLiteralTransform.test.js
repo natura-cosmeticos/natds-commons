@@ -17,7 +17,7 @@ describe('registerValueStringLiteralTransform', () => {
     it('should add the commas to string values', () => {
       jest
         .spyOn(helpers, 'isProp')
-        .mockReturnValue(false);
+        .mockReturnValue(() => false);
 
       const config = registerValueStringLiteralTransform();
       const prop = {
@@ -41,7 +41,7 @@ describe('registerValueStringLiteralTransform', () => {
     it('should not add the commas to number values', () => {
       jest
         .spyOn(helpers, 'isProp')
-        .mockReturnValue(false);
+        .mockReturnValue(() => false);
 
       const config = registerValueStringLiteralTransform();
       const prop = {
@@ -65,7 +65,7 @@ describe('registerValueStringLiteralTransform', () => {
     it('should not add the commas to fontWeight values', () => {
       jest
         .spyOn(helpers, 'isProp')
-        .mockReturnValue(true);
+        .mockReturnValue(() => true);
 
       const config = registerValueStringLiteralTransform();
       const prop = {

@@ -1,487 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 May 2021 13:08:25 GMT
+ * Generated on Mon, 17 May 2021 13:13:31 GMT
  */
 
 module.exports = {
-  "color": {
-    "primary": {
-      "value": "#f4ab34",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#F4AB34"
-      },
-      "name": "colorPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "primary"
-      },
-      "path": [
-        "color",
-        "primary"
-      ]
-    },
-    "onPrimary": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimary"
-      },
-      "path": [
-        "color",
-        "onPrimary"
-      ]
-    },
-    "primaryLight": {
-      "value": "#fefde8",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FEFDE8"
-      },
-      "name": "colorPrimaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "primaryLight"
-      },
-      "path": [
-        "color",
-        "primaryLight"
-      ]
-    },
-    "onPrimaryLight": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnPrimaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimaryLight"
-      },
-      "path": [
-        "color",
-        "onPrimaryLight"
-      ]
-    },
-    "primaryDark": {
-      "value": "#ef8426",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#EF8426"
-      },
-      "name": "colorPrimaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "primaryDark"
-      },
-      "path": [
-        "color",
-        "primaryDark"
-      ]
-    },
-    "onPrimaryDark": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnPrimaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimaryDark"
-      },
-      "path": [
-        "color",
-        "onPrimaryDark"
-      ]
-    },
-    "secondary": {
-      "value": "#ff6b0b",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FF6B0B"
-      },
-      "name": "colorSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "secondary"
-      },
-      "path": [
-        "color",
-        "secondary"
-      ]
-    },
-    "onSecondary": {
-      "value": "#000000",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondary"
-      },
-      "path": [
-        "color",
-        "onSecondary"
-      ]
-    },
-    "secondaryLight": {
-      "value": "#fff8e1",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFF8E1"
-      },
-      "name": "colorSecondaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "secondaryLight"
-      },
-      "path": [
-        "color",
-        "secondaryLight"
-      ]
-    },
-    "onSecondaryLight": {
-      "value": "#000000",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnSecondaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondaryLight"
-      },
-      "path": [
-        "color",
-        "onSecondaryLight"
-      ]
-    },
-    "secondaryDark": {
-      "value": "#ff5808",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FF5808"
-      },
-      "name": "colorSecondaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "secondaryDark"
-      },
-      "path": [
-        "color",
-        "secondaryDark"
-      ]
-    },
-    "onSecondaryDark": {
-      "value": "#000000",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnSecondaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondaryDark"
-      },
-      "path": [
-        "color",
-        "onSecondaryDark"
-      ]
-    },
-    "background": {
-      "value": "#fafafa",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FAFAFA"
-      },
-      "name": "colorBackground",
-      "attributes": {
-        "category": "color",
-        "type": "background"
-      },
-      "path": [
-        "color",
-        "background"
-      ]
-    },
-    "onBackground": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnBackground",
-      "attributes": {
-        "category": "color",
-        "type": "onBackground"
-      },
-      "path": [
-        "color",
-        "onBackground"
-      ]
-    },
-    "surface": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorSurface",
-      "attributes": {
-        "category": "color",
-        "type": "surface"
-      },
-      "path": [
-        "color",
-        "surface"
-      ]
-    },
-    "onSurface": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnSurface",
-      "attributes": {
-        "category": "color",
-        "type": "onSurface"
-      },
-      "path": [
-        "color",
-        "onSurface"
-      ]
-    },
-    "highlight": {
-      "value": "#000000",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorHighlight",
-      "attributes": {
-        "category": "color",
-        "type": "highlight"
-      },
-      "path": [
-        "color",
-        "highlight"
-      ]
-    },
-    "highEmphasis": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorHighEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "highEmphasis"
-      },
-      "path": [
-        "color",
-        "highEmphasis"
-      ]
-    },
-    "mediumEmphasis": {
-      "value": "#777777",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#777777"
-      },
-      "name": "colorMediumEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "mediumEmphasis"
-      },
-      "path": [
-        "color",
-        "mediumEmphasis"
-      ]
-    },
-    "lowEmphasis": {
-      "value": "#bbbbbb",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#BBBBBB"
-      },
-      "name": "colorLowEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "lowEmphasis"
-      },
-      "path": [
-        "color",
-        "lowEmphasis"
-      ]
-    },
-    "link": {
-      "value": "#227bbd",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#227BBD"
-      },
-      "name": "colorLink",
-      "attributes": {
-        "category": "color",
-        "type": "link"
-      },
-      "path": [
-        "color",
-        "link"
-      ]
-    },
-    "onLink": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnLink",
-      "attributes": {
-        "category": "color",
-        "type": "onLink"
-      },
-      "path": [
-        "color",
-        "onLink"
-      ]
-    },
-    "success": {
-      "value": "#569a32",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#569A32"
-      },
-      "name": "colorSuccess",
-      "attributes": {
-        "category": "color",
-        "type": "success"
-      },
-      "path": [
-        "color",
-        "success"
-      ]
-    },
-    "onSuccess": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSuccess",
-      "attributes": {
-        "category": "color",
-        "type": "onSuccess"
-      },
-      "path": [
-        "color",
-        "onSuccess"
-      ]
-    },
-    "warning": {
-      "value": "#fcc433",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FCC433"
-      },
-      "name": "colorWarning",
-      "attributes": {
-        "category": "color",
-        "type": "warning"
-      },
-      "path": [
-        "color",
-        "warning"
-      ]
-    },
-    "onWarning": {
-      "value": "#333333",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnWarning",
-      "attributes": {
-        "category": "color",
-        "type": "onWarning"
-      },
-      "path": [
-        "color",
-        "onWarning"
-      ]
-    },
-    "alert": {
-      "value": "#e74627",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#E74627"
-      },
-      "name": "colorAlert",
-      "attributes": {
-        "category": "color",
-        "type": "alert"
-      },
-      "path": [
-        "color",
-        "alert"
-      ]
-    },
-    "onAlert": {
-      "value": "#ffffff",
-      "filePath": "properties/brands/natura/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnAlert",
-      "attributes": {
-        "category": "color",
-        "type": "onAlert"
-      },
-      "path": [
-        "color",
-        "onAlert"
-      ]
-    }
-  },
   "borderRadius": {
     "none": {
       "value": 0,
@@ -2108,6 +1630,596 @@ module.exports = {
         "spacing",
         "xLarge"
       ]
+    }
+  },
+  "color": {
+    "primary": {
+      "value": "#f4ab34",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#F4AB34"
+      },
+      "name": "colorPrimary",
+      "attributes": {
+        "category": "color",
+        "type": "primary"
+      },
+      "path": [
+        "color",
+        "primary"
+      ]
+    },
+    "onPrimary": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnPrimary",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimary"
+      },
+      "path": [
+        "color",
+        "onPrimary"
+      ]
+    },
+    "primaryLight": {
+      "value": "#fefde8",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FEFDE8"
+      },
+      "name": "colorPrimaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "primaryLight"
+      },
+      "path": [
+        "color",
+        "primaryLight"
+      ]
+    },
+    "onPrimaryLight": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnPrimaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryLight"
+      },
+      "path": [
+        "color",
+        "onPrimaryLight"
+      ]
+    },
+    "primaryDark": {
+      "value": "#ef8426",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#EF8426"
+      },
+      "name": "colorPrimaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "primaryDark"
+      },
+      "path": [
+        "color",
+        "primaryDark"
+      ]
+    },
+    "onPrimaryDark": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnPrimaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryDark"
+      },
+      "path": [
+        "color",
+        "onPrimaryDark"
+      ]
+    },
+    "secondary": {
+      "value": "#ff6b0b",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF6B0B"
+      },
+      "name": "colorSecondary",
+      "attributes": {
+        "category": "color",
+        "type": "secondary"
+      },
+      "path": [
+        "color",
+        "secondary"
+      ]
+    },
+    "onSecondary": {
+      "value": "#000000",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnSecondary",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondary"
+      },
+      "path": [
+        "color",
+        "onSecondary"
+      ]
+    },
+    "secondaryLight": {
+      "value": "#fff8e1",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFF8E1"
+      },
+      "name": "colorSecondaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "secondaryLight"
+      },
+      "path": [
+        "color",
+        "secondaryLight"
+      ]
+    },
+    "onSecondaryLight": {
+      "value": "#000000",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnSecondaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondaryLight"
+      },
+      "path": [
+        "color",
+        "onSecondaryLight"
+      ]
+    },
+    "secondaryDark": {
+      "value": "#ff5808",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FF5808"
+      },
+      "name": "colorSecondaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "secondaryDark"
+      },
+      "path": [
+        "color",
+        "secondaryDark"
+      ]
+    },
+    "onSecondaryDark": {
+      "value": "#000000",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnSecondaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondaryDark"
+      },
+      "path": [
+        "color",
+        "onSecondaryDark"
+      ]
+    },
+    "background": {
+      "value": "#fafafa",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FAFAFA"
+      },
+      "name": "colorBackground",
+      "attributes": {
+        "category": "color",
+        "type": "background"
+      },
+      "path": [
+        "color",
+        "background"
+      ]
+    },
+    "onBackground": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnBackground",
+      "attributes": {
+        "category": "color",
+        "type": "onBackground"
+      },
+      "path": [
+        "color",
+        "onBackground"
+      ]
+    },
+    "surface": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorSurface",
+      "attributes": {
+        "category": "color",
+        "type": "surface"
+      },
+      "path": [
+        "color",
+        "surface"
+      ]
+    },
+    "onSurface": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnSurface",
+      "attributes": {
+        "category": "color",
+        "type": "onSurface"
+      },
+      "path": [
+        "color",
+        "onSurface"
+      ]
+    },
+    "highlight": {
+      "value": "#000000",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorHighlight",
+      "attributes": {
+        "category": "color",
+        "type": "highlight"
+      },
+      "path": [
+        "color",
+        "highlight"
+      ]
+    },
+    "highEmphasis": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorHighEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "highEmphasis"
+      },
+      "path": [
+        "color",
+        "highEmphasis"
+      ]
+    },
+    "mediumEmphasis": {
+      "value": "#777777",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#777777"
+      },
+      "name": "colorMediumEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "mediumEmphasis"
+      },
+      "path": [
+        "color",
+        "mediumEmphasis"
+      ]
+    },
+    "lowEmphasis": {
+      "value": "#bbbbbb",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#BBBBBB"
+      },
+      "name": "colorLowEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "lowEmphasis"
+      },
+      "path": [
+        "color",
+        "lowEmphasis"
+      ]
+    },
+    "link": {
+      "value": "#227bbd",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#227BBD"
+      },
+      "name": "colorLink",
+      "attributes": {
+        "category": "color",
+        "type": "link"
+      },
+      "path": [
+        "color",
+        "link"
+      ]
+    },
+    "onLink": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnLink",
+      "attributes": {
+        "category": "color",
+        "type": "onLink"
+      },
+      "path": [
+        "color",
+        "onLink"
+      ]
+    },
+    "success": {
+      "value": "#569a32",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#569A32"
+      },
+      "name": "colorSuccess",
+      "attributes": {
+        "category": "color",
+        "type": "success"
+      },
+      "path": [
+        "color",
+        "success"
+      ]
+    },
+    "onSuccess": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSuccess",
+      "attributes": {
+        "category": "color",
+        "type": "onSuccess"
+      },
+      "path": [
+        "color",
+        "onSuccess"
+      ]
+    },
+    "warning": {
+      "value": "#fcc433",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FCC433"
+      },
+      "name": "colorWarning",
+      "attributes": {
+        "category": "color",
+        "type": "warning"
+      },
+      "path": [
+        "color",
+        "warning"
+      ]
+    },
+    "onWarning": {
+      "value": "#333333",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnWarning",
+      "attributes": {
+        "category": "color",
+        "type": "onWarning"
+      },
+      "path": [
+        "color",
+        "onWarning"
+      ]
+    },
+    "alert": {
+      "value": "#e74627",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#E74627"
+      },
+      "name": "colorAlert",
+      "attributes": {
+        "category": "color",
+        "type": "alert"
+      },
+      "path": [
+        "color",
+        "alert"
+      ]
+    },
+    "onAlert": {
+      "value": "#ffffff",
+      "filePath": "properties/brands/natura/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnAlert",
+      "attributes": {
+        "category": "color",
+        "type": "onAlert"
+      },
+      "path": [
+        "color",
+        "onAlert"
+      ]
+    }
+  },
+  "asset": {
+    "brand": {
+      "neutral": {
+        "a": {
+          "value": "natura-a-official",
+          "filePath": "properties/brands/natura/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "natura-a-official"
+          },
+          "name": "assetBrandNeutralA",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "neutral",
+            "subitem": "a",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "neutral",
+            "a"
+          ]
+        },
+        "b": {
+          "value": "natura-b-official",
+          "filePath": "properties/brands/natura/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "natura-b-official"
+          },
+          "name": "assetBrandNeutralB",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "neutral",
+            "subitem": "b",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "neutral",
+            "b"
+          ]
+        }
+      },
+      "custom": {
+        "a": {
+          "value": "natura-a-custom",
+          "filePath": "properties/brands/natura/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "natura-a-custom"
+          },
+          "name": "assetBrandCustomA",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "custom",
+            "subitem": "a",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "custom",
+            "a"
+          ]
+        },
+        "b": {
+          "value": "natura-b-custom",
+          "filePath": "properties/brands/natura/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "natura-b-custom"
+          },
+          "name": "assetBrandCustomB",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "custom",
+            "subitem": "b",
+            "assetOptions": {
+              "extensions": [
+                "svg"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "custom",
+            "b"
+          ]
+        }
+      }
     }
   },
   "elevation": {

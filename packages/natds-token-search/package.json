@@ -25,9 +25,10 @@
   },
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html",
+    "build": "yarn copy:tokens && parcel build index.html",
     "test": "jest --colors --collectCoverage",
-    "lint": "eslint --ext .js ./"
+    "lint": "eslint --ext .js ./",
+    "copy:tokens": "rm -rf ./tokens && mkdir -p ./tokens && cp -r ../natds-themes/build/** ./tokens"
   },
   "bugs": {
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"

@@ -6,8 +6,6 @@
 npm i @naturacosmeticos/natds-themes
 ```
 
-⚠️ This library is still in the experimental phase. Please avoid using it in applications in production environments.
-
 ## Import
 
 ### For web projects (like React)
@@ -22,7 +20,7 @@ import { natura } from '@naturacosmeticos/natds-themes';
 import { natura } from '@naturacosmeticos/natds-themes/react-native';
 ```
 
-## Usage (1.x versions)
+## Usage
 
 This example shows how to import and use tokens from Natura Light Theme.
 

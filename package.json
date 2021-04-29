@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "build": "lerna run build --scope=@naturacosmeticos/natds-themes --stream && lerna run build --ignore=@naturacosmeticos/natds-themes",
     "changelog": "lerna-changelog",
     "clean": "lerna clean",
     "commit": "git cz",

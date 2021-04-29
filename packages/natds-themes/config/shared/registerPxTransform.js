@@ -7,13 +7,14 @@ const notPxProps = [
   'elevation',
   'opacity',
   'lineHeight',
+  'asset',
 ];
 
 export const registerPxTransform = () => ({
-  matcher: (prop) => !isOneOfProps(prop, notPxProps),
+  matcher: (prop) => !isOneOfProps(notPxProps)(prop),
   name: 'unit/px',
   transformer: ({ value }) => `${value}px`,
-  transitive: true,
+  transitive: false,
   type: 'value',
 });
 

@@ -1,6 +1,4 @@
 import {
-  isCategory,
-  isItem,
   isPrivateProp,
   isProp,
   isOneOfProps,
@@ -10,57 +8,13 @@ import {
 } from './helpers';
 
 describe('helpers', () => {
-  describe('isCategory', () => {
-    it('should return true if the category matches the given name', () => {
-      const dictionary = {
-        attributes: {
-          category: 'pikachu',
-        },
-      };
-
-      expect(isCategory(dictionary, 'pikachu')).toEqual(true);
-    });
-
-    it('should return false if the category does not match the given name', () => {
-      const dictionary = {
-        attributes: {
-          category: 'pikachu',
-        },
-      };
-
-      expect(isCategory(dictionary, 'bulbasaur')).toEqual(false);
-    });
-  });
-
-  describe('isItem', () => {
-    it('should return true if the item matches the given name', () => {
-      const dictionary = {
-        attributes: {
-          item: 'pikachu',
-        },
-      };
-
-      expect(isItem(dictionary, 'pikachu')).toEqual(true);
-    });
-
-    it('should return false if the item does not match the given name', () => {
-      const dictionary = {
-        attributes: {
-          item: 'pikachu',
-        },
-      };
-
-      expect(isItem(dictionary, 'bulbasaur')).toEqual(false);
-    });
-  });
-
   describe('isProp', () => {
     it('should return true if the given prop name is present on current prop', () => {
       const prop = {
         path: ['typography', 'lineHeight', 'small'],
       };
 
-      expect(isProp(prop, 'lineHeight')).toEqual(true);
+      expect(isProp('lineHeight')(prop)).toEqual(true);
     });
 
     it('should return false if the given prop name is not present on current prop', () => {
@@ -68,7 +22,7 @@ describe('helpers', () => {
         path: ['typography', 'lineHeight', 'small'],
       };
 
-      expect(isProp(prop, 'fontWeight')).toEqual(false);
+      expect(isProp('fontWeight')(prop)).toEqual(false);
     });
   });
 
@@ -78,7 +32,7 @@ describe('helpers', () => {
         path: ['typography', 'lineHeight', 'small'],
       };
 
-      expect(isOneOfProps(prop, ['borderRadius', 'lineHeight'])).toEqual(true);
+      expect(isOneOfProps(['borderRadius', 'lineHeight'])(prop)).toEqual(true);
     });
 
     it('should return false if none of the given prop names is not present on current prop', () => {
@@ -86,7 +40,7 @@ describe('helpers', () => {
         path: ['typography', 'lineHeight', 'small'],
       };
 
-      expect(isOneOfProps(prop, ['borderRadius', 'fontWeight'])).toEqual(false);
+      expect(isOneOfProps(['borderRadius', 'fontWeight'])(prop)).toEqual(false);
     });
   });
 

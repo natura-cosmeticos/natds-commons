@@ -2,7 +2,7 @@ import buildAndroidConfig from './buildAndroidConfig';
 import * as textHelpers from '../shared/textHelpers';
 
 const expectedConfig = {
-  actions: ['create_resources'],
+  actions: ['create_resources', 'custom_copy_assets'],
   buildPath: 'build/android/pokemon/',
   files: [
     {
@@ -23,7 +23,14 @@ const expectedConfig = {
       format: 'javascript/module',
     },
   ],
-  transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
+  transforms: [
+    'name/cti/camel-custom',
+    'attribute/cti',
+    'size/dp-custom',
+    'size/attrType',
+    'asset/extension',
+    'asset/snake',
+  ],
 };
 
 describe('buildAndroidConfig', () => {

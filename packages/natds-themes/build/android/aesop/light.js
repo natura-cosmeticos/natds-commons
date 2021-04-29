@@ -1,571 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 May 2021 13:08:24 GMT
+ * Generated on Mon, 17 May 2021 13:13:28 GMT
  */
 
 module.exports = {
-  "color": {
-    "primary": {
-      "value": "#262625",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#262625"
-      },
-      "name": "colorPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "primary",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "primary"
-      ]
-    },
-    "onPrimary": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnPrimary",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimary",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onPrimary"
-      ]
-    },
-    "primaryLight": {
-      "value": "#4E4E4D",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#4E4E4D"
-      },
-      "name": "colorPrimaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "primaryLight",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "primaryLight"
-      ]
-    },
-    "onPrimaryLight": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnPrimaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimaryLight",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onPrimaryLight"
-      ]
-    },
-    "primaryDark": {
-      "value": "#000000",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorPrimaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "primaryDark",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "primaryDark"
-      ]
-    },
-    "onPrimaryDark": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnPrimaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "onPrimaryDark",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onPrimaryDark"
-      ]
-    },
-    "secondary": {
-      "value": "#A6662B",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#A6662B"
-      },
-      "name": "colorSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "secondary",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "secondary"
-      ]
-    },
-    "onSecondary": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSecondary",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondary",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onSecondary"
-      ]
-    },
-    "secondaryLight": {
-      "value": "#DB9457",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#DB9457"
-      },
-      "name": "colorSecondaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "secondaryLight",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "secondaryLight"
-      ]
-    },
-    "onSecondaryLight": {
-      "value": "#000000",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorOnSecondaryLight",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondaryLight",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onSecondaryLight"
-      ]
-    },
-    "secondaryDark": {
-      "value": "#733B00",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#733B00"
-      },
-      "name": "colorSecondaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "secondaryDark",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "secondaryDark"
-      ]
-    },
-    "onSecondaryDark": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSecondaryDark",
-      "attributes": {
-        "category": "color",
-        "type": "onSecondaryDark",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onSecondaryDark"
-      ]
-    },
-    "background": {
-      "value": "#FAFAFA",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FAFAFA"
-      },
-      "name": "colorBackground",
-      "attributes": {
-        "category": "color",
-        "type": "background",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "background"
-      ]
-    },
-    "onBackground": {
-      "value": "#333333",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnBackground",
-      "attributes": {
-        "category": "color",
-        "type": "onBackground",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onBackground"
-      ]
-    },
-    "surface": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorSurface",
-      "attributes": {
-        "category": "color",
-        "type": "surface",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "surface"
-      ]
-    },
-    "onSurface": {
-      "value": "#333333",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnSurface",
-      "attributes": {
-        "category": "color",
-        "type": "onSurface",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onSurface"
-      ]
-    },
-    "highlight": {
-      "value": "#000000",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#000000"
-      },
-      "name": "colorHighlight",
-      "attributes": {
-        "category": "color",
-        "type": "highlight",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "highlight"
-      ]
-    },
-    "highEmphasis": {
-      "value": "#333333",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorHighEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "highEmphasis",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "highEmphasis"
-      ]
-    },
-    "mediumEmphasis": {
-      "value": "#777777",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#777777"
-      },
-      "name": "colorMediumEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "mediumEmphasis",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "mediumEmphasis"
-      ]
-    },
-    "lowEmphasis": {
-      "value": "#BBBBBB",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#BBBBBB"
-      },
-      "name": "colorLowEmphasis",
-      "attributes": {
-        "category": "color",
-        "type": "lowEmphasis",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "lowEmphasis"
-      ]
-    },
-    "link": {
-      "value": "#227BBD",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#227BBD"
-      },
-      "name": "colorLink",
-      "attributes": {
-        "category": "color",
-        "type": "link",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "link"
-      ]
-    },
-    "onLink": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnLink",
-      "attributes": {
-        "category": "color",
-        "type": "onLink",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onLink"
-      ]
-    },
-    "success": {
-      "value": "#569A32",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#569A32"
-      },
-      "name": "colorSuccess",
-      "attributes": {
-        "category": "color",
-        "type": "success",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "success"
-      ]
-    },
-    "onSuccess": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnSuccess",
-      "attributes": {
-        "category": "color",
-        "type": "onSuccess",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onSuccess"
-      ]
-    },
-    "warning": {
-      "value": "#FCC433",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FCC433"
-      },
-      "name": "colorWarning",
-      "attributes": {
-        "category": "color",
-        "type": "warning",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "warning"
-      ]
-    },
-    "onWarning": {
-      "value": "#333333",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#333333"
-      },
-      "name": "colorOnWarning",
-      "attributes": {
-        "category": "color",
-        "type": "onWarning",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onWarning"
-      ]
-    },
-    "alert": {
-      "value": "#E74627",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#E74627"
-      },
-      "name": "colorAlert",
-      "attributes": {
-        "category": "color",
-        "type": "alert",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "alert"
-      ]
-    },
-    "onAlert": {
-      "value": "#FFFFFF",
-      "filePath": "properties/brands/aesop/light.json",
-      "isSource": true,
-      "original": {
-        "value": "#FFFFFF"
-      },
-      "name": "colorOnAlert",
-      "attributes": {
-        "category": "color",
-        "type": "onAlert",
-        "customOptions": {
-          "type": "color"
-        }
-      },
-      "path": [
-        "color",
-        "onAlert"
-      ]
-    }
-  },
   "borderRadius": {
     "none": {
       "value": "0dp",
@@ -2468,6 +1906,696 @@ module.exports = {
         "spacing",
         "xLarge"
       ]
+    }
+  },
+  "color": {
+    "primary": {
+      "value": "#262625",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#262625"
+      },
+      "name": "colorPrimary",
+      "attributes": {
+        "category": "color",
+        "type": "primary",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "primary"
+      ]
+    },
+    "onPrimary": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnPrimary",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimary",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onPrimary"
+      ]
+    },
+    "primaryLight": {
+      "value": "#4E4E4D",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#4E4E4D"
+      },
+      "name": "colorPrimaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "primaryLight",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "primaryLight"
+      ]
+    },
+    "onPrimaryLight": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnPrimaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryLight",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onPrimaryLight"
+      ]
+    },
+    "primaryDark": {
+      "value": "#000000",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorPrimaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "primaryDark",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "primaryDark"
+      ]
+    },
+    "onPrimaryDark": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnPrimaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryDark",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onPrimaryDark"
+      ]
+    },
+    "secondary": {
+      "value": "#A6662B",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#A6662B"
+      },
+      "name": "colorSecondary",
+      "attributes": {
+        "category": "color",
+        "type": "secondary",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "secondary"
+      ]
+    },
+    "onSecondary": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSecondary",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondary",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onSecondary"
+      ]
+    },
+    "secondaryLight": {
+      "value": "#DB9457",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#DB9457"
+      },
+      "name": "colorSecondaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "secondaryLight",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "secondaryLight"
+      ]
+    },
+    "onSecondaryLight": {
+      "value": "#000000",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnSecondaryLight",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondaryLight",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onSecondaryLight"
+      ]
+    },
+    "secondaryDark": {
+      "value": "#733B00",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#733B00"
+      },
+      "name": "colorSecondaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "secondaryDark",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "secondaryDark"
+      ]
+    },
+    "onSecondaryDark": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSecondaryDark",
+      "attributes": {
+        "category": "color",
+        "type": "onSecondaryDark",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onSecondaryDark"
+      ]
+    },
+    "background": {
+      "value": "#FAFAFA",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FAFAFA"
+      },
+      "name": "colorBackground",
+      "attributes": {
+        "category": "color",
+        "type": "background",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "background"
+      ]
+    },
+    "onBackground": {
+      "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnBackground",
+      "attributes": {
+        "category": "color",
+        "type": "onBackground",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onBackground"
+      ]
+    },
+    "surface": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorSurface",
+      "attributes": {
+        "category": "color",
+        "type": "surface",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "surface"
+      ]
+    },
+    "onSurface": {
+      "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnSurface",
+      "attributes": {
+        "category": "color",
+        "type": "onSurface",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onSurface"
+      ]
+    },
+    "highlight": {
+      "value": "#000000",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorHighlight",
+      "attributes": {
+        "category": "color",
+        "type": "highlight",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "highlight"
+      ]
+    },
+    "highEmphasis": {
+      "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorHighEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "highEmphasis",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "highEmphasis"
+      ]
+    },
+    "mediumEmphasis": {
+      "value": "#777777",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#777777"
+      },
+      "name": "colorMediumEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "mediumEmphasis",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "mediumEmphasis"
+      ]
+    },
+    "lowEmphasis": {
+      "value": "#BBBBBB",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#BBBBBB"
+      },
+      "name": "colorLowEmphasis",
+      "attributes": {
+        "category": "color",
+        "type": "lowEmphasis",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "lowEmphasis"
+      ]
+    },
+    "link": {
+      "value": "#227BBD",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#227BBD"
+      },
+      "name": "colorLink",
+      "attributes": {
+        "category": "color",
+        "type": "link",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "link"
+      ]
+    },
+    "onLink": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnLink",
+      "attributes": {
+        "category": "color",
+        "type": "onLink",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onLink"
+      ]
+    },
+    "success": {
+      "value": "#569A32",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#569A32"
+      },
+      "name": "colorSuccess",
+      "attributes": {
+        "category": "color",
+        "type": "success",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "success"
+      ]
+    },
+    "onSuccess": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnSuccess",
+      "attributes": {
+        "category": "color",
+        "type": "onSuccess",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onSuccess"
+      ]
+    },
+    "warning": {
+      "value": "#FCC433",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FCC433"
+      },
+      "name": "colorWarning",
+      "attributes": {
+        "category": "color",
+        "type": "warning",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "warning"
+      ]
+    },
+    "onWarning": {
+      "value": "#333333",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#333333"
+      },
+      "name": "colorOnWarning",
+      "attributes": {
+        "category": "color",
+        "type": "onWarning",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onWarning"
+      ]
+    },
+    "alert": {
+      "value": "#E74627",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#E74627"
+      },
+      "name": "colorAlert",
+      "attributes": {
+        "category": "color",
+        "type": "alert",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "alert"
+      ]
+    },
+    "onAlert": {
+      "value": "#FFFFFF",
+      "filePath": "properties/brands/aesop/light.json",
+      "isSource": true,
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "colorOnAlert",
+      "attributes": {
+        "category": "color",
+        "type": "onAlert",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onAlert"
+      ]
+    }
+  },
+  "asset": {
+    "brand": {
+      "neutral": {
+        "a": {
+          "value": "aesop_a_official",
+          "filePath": "properties/brands/aesop/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "aesop-a-official"
+          },
+          "name": "assetBrandNeutralA",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "neutral",
+            "subitem": "a",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "svg",
+                "png"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "neutral",
+            "a"
+          ]
+        },
+        "b": {
+          "value": "aesop_a_official",
+          "filePath": "properties/brands/aesop/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "aesop-a-official"
+          },
+          "name": "assetBrandNeutralB",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "neutral",
+            "subitem": "b",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "svg",
+                "png"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "neutral",
+            "b"
+          ]
+        }
+      },
+      "custom": {
+        "a": {
+          "value": "aesop_a_custom",
+          "filePath": "properties/brands/aesop/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "aesop-a-custom"
+          },
+          "name": "assetBrandCustomA",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "custom",
+            "subitem": "a",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "svg",
+                "png"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "custom",
+            "a"
+          ]
+        },
+        "b": {
+          "value": "aesop_a_custom",
+          "filePath": "properties/brands/aesop/asset-light.json",
+          "isSource": true,
+          "original": {
+            "value": "aesop-a-custom"
+          },
+          "name": "assetBrandCustomB",
+          "attributes": {
+            "category": "asset",
+            "type": "brand",
+            "item": "custom",
+            "subitem": "b",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "svg",
+                "png"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "brand",
+            "custom",
+            "b"
+          ]
+        }
+      }
     }
   },
   "elevation": {

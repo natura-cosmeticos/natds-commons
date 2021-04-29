@@ -1,31 +1,23 @@
 /* eslint-disable no-use-before-define */
 import CryptoJS from 'crypto-js';
+import { pipe, prop } from 'ramda';
 import { isProp, isOneOfProps, isPrivateProp } from '../shared/helpers';
+import { toSnakeCase } from '../shared/textHelpers';
 
 export const createEncodedHashFromValue = (value) => `ssot${CryptoJS.MD5(value.toString())}`;
 
-export const isColor = (item) => isProp(item, 'color');
+export const isColor = isProp('color');
 
-export const isSpDimension = (prop) => isProp(prop, 'fontSize');
+export const isSpDimension = isProp('fontSize');
 
-export const isUnitlessDimension = (prop) => isOneOfProps(prop, ['opacity', 'lineHeight', 'letterSpacing']);
+export const isUnitlessDimension = isOneOfProps(['opacity', 'lineHeight', 'letterSpacing']);
 
-export const isDimension = (prop) => !isOneOfProps(prop, ['color', 'fontFamily', 'fontWeight']) && !isPrivateProp(prop);
+export const isDimension = (property) => !isOneOfProps(['color', 'fontFamily', 'fontWeight', 'asset'])(property) && !isPrivateProp(property);
 
-export const isDimensionWithUnit = (prop) => (
-  helpers.isDimension(prop) && !helpers.isUnitlessDimension(prop)
+export const isDimensionWithUnit = (property) => (
+  isDimension(property) && !isUnitlessDimension(property)
 );
 
 export const mapFilteredValues = (props, filterFn, mapFn) => props.filter(filterFn).map(mapFn);
 
-const helpers = {
-  createEncodedHashFromValue,
-  isColor,
-  isDimension,
-  isDimensionWithUnit,
-  isSpDimension,
-  isUnitlessDimension,
-  mapFilteredValues,
-};
-
-export default helpers;
+export const propValueToSnakeCase = pipe(prop('value'), toSnakeCase);

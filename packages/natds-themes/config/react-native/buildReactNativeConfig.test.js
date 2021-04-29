@@ -1,7 +1,7 @@
 import buildReactNativeConfig from './buildReactNativeConfig';
 
 const expectedConfig = {
-  actions: ['create_type_definitions'],
+  actions: ['create_type_definitions', 'custom_copy_assets'],
   buildPath: 'build/react-native/pokemon/',
   files: [
     {
@@ -15,7 +15,13 @@ const expectedConfig = {
       format: 'javascript/module',
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex', 'name/cti/camel-custom'],
+  transforms: [
+    'attribute/cti',
+    'name/cti/pascal',
+    'color/hex',
+    'name/cti/camel-custom',
+    'asset/extension',
+  ],
 };
 
 describe('buildReactNativeConfig', () => {

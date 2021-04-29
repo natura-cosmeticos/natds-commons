@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "value": "thebodyshop-a-official-dark"
+        },
+        "b": {
+          "value": "thebodyshop-b-official-dark"
+        }
+      },
+      "custom":{
+        "a": {
+          "value": "thebodyshop-a-custom"
+        },
+        "b": {
+          "value": "thebodyshop-b-custom"
+        }
+      }
+    }
+  }
+}

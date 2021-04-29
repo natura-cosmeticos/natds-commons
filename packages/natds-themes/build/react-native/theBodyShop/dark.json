@@ -1,34 +1,4 @@
 {
-  "color": {
-    "primary": "#7cc4bc",
-    "onPrimary": "#000000",
-    "primaryLight": "#aef7ee",
-    "onPrimaryLight": "#000000",
-    "primaryDark": "#4c938c",
-    "onPrimaryDark": "#000000",
-    "secondary": "#f3f1a5",
-    "onSecondary": "#000000",
-    "secondaryLight": "#ffffd7",
-    "onSecondaryLight": "#000000",
-    "secondaryDark": "#bfbf75",
-    "onSecondaryDark": "#000000",
-    "background": "#121212",
-    "onBackground": "#ffffff",
-    "surface": "#333333",
-    "onSurface": "#ffffff",
-    "highlight": "#ffffff",
-    "highEmphasis": "#fafafa",
-    "mediumEmphasis": "#bbbbbb",
-    "lowEmphasis": "#777777",
-    "link": "#227bbd",
-    "onLink": "#ffffff",
-    "success": "#569a32",
-    "onSuccess": "#ffffff",
-    "warning": "#fcc433",
-    "onWarning": "#333333",
-    "alert": "#e74627",
-    "onAlert": "#ffffff"
-  },
   "borderRadius": {
     "none": 0,
     "small": 2,
@@ -164,6 +134,48 @@
     "semi": 32,
     "large": 48,
     "xLarge": 64
+  },
+  "color": {
+    "primary": "#7cc4bc",
+    "onPrimary": "#000000",
+    "primaryLight": "#aef7ee",
+    "onPrimaryLight": "#000000",
+    "primaryDark": "#4c938c",
+    "onPrimaryDark": "#000000",
+    "secondary": "#f3f1a5",
+    "onSecondary": "#000000",
+    "secondaryLight": "#ffffd7",
+    "onSecondaryLight": "#000000",
+    "secondaryDark": "#bfbf75",
+    "onSecondaryDark": "#000000",
+    "background": "#121212",
+    "onBackground": "#ffffff",
+    "surface": "#333333",
+    "onSurface": "#ffffff",
+    "highlight": "#ffffff",
+    "highEmphasis": "#fafafa",
+    "mediumEmphasis": "#bbbbbb",
+    "lowEmphasis": "#777777",
+    "link": "#227bbd",
+    "onLink": "#ffffff",
+    "success": "#569a32",
+    "onSuccess": "#ffffff",
+    "warning": "#fcc433",
+    "onWarning": "#333333",
+    "alert": "#e74627",
+    "onAlert": "#ffffff"
+  },
+  "asset": {
+    "brand": {
+      "neutral": {
+        "a": "thebodyshop-a-official-dark",
+        "b": "thebodyshop-b-official-dark"
+      },
+      "custom": {
+        "a": "thebodyshop-a-custom",
+        "b": "thebodyshop-b-custom"
+      }
+    }
   },
   "elevation": {
     "none": {

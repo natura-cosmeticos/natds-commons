@@ -1,3 +1,4 @@
+/* eslint-disable id-length */
 import path from 'path';
 import registerThemeFormat from './registerThemeFormat';
 import * as formatBuilder from '../shared/formatBuilder';
@@ -5,6 +6,26 @@ import '../shared/config';
 
 const dictionary = {
   properties: {
+    asset: {
+      brand: {
+        neutral: {
+          a: {
+            attributes: {},
+            name: 'assetBrandNeutralA',
+            original: {
+              value: 8,
+            },
+            path: [
+              'asset',
+              'brand',
+              'neutral',
+              'a',
+            ],
+            value: 'nome-do-asset',
+          },
+        },
+      },
+    },
     color: {
       primary: {
         attributes: {},
