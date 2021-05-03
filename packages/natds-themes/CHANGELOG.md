@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.4.12...@naturacosmeticos/natds-themes@0.5.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* **natds-themes:** change avon main colors ([5c44886](https://github.com/natura-cosmeticos/natds-commons/commit/5c448863d86b4c049e2c8aef270ee13d3cf09a56))
+* **natds-themes:** remove dev dependencies dep list ([7d6bff0](https://github.com/natura-cosmeticos/natds-commons/commit/7d6bff0123243b70c2a86add4ed86594e1e557e4))
+
+
+### BREAKING CHANGES
+
+* **natds-themes:** Avon primary and secondary colors changed
+
+
+
+
+
 ## [0.4.12](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.4.11...@naturacosmeticos/natds-themes@0.4.12) (2021-01-21)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
