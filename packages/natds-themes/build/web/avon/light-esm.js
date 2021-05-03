@@ -1,16 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Thu, 29 Apr 2021 19:25:44 GMT
+ * Generated on Thu, 29 Apr 2021 20:56:26 GMT
  */
 
 module.exports = {
   "color": {
     "primary": {
-      "value": "#de0085",
+      "value": "#7f28c4",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#DE0085"
+        "value": "#7F28C4"
       },
       "name": "colorPrimary",
       "attributes": {
@@ -40,11 +40,11 @@ module.exports = {
       ]
     },
     "primaryLight": {
-      "value": "#ff56b5",
+      "value": "#b35bf8",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#FF56B5"
+        "value": "#B35BF8"
       },
       "name": "colorPrimaryLight",
       "attributes": {
@@ -74,11 +74,11 @@ module.exports = {
       ]
     },
     "primaryDark": {
-      "value": "#a70058",
+      "value": "#4b0092",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#A70058"
+        "value": "#4B0092"
       },
       "name": "colorPrimaryDark",
       "attributes": {
@@ -91,11 +91,11 @@ module.exports = {
       ]
     },
     "onPrimaryDark": {
-      "value": "#ffffff",
+      "value": "#000000",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#FFFFFF"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryDark",
       "attributes": {
@@ -108,11 +108,11 @@ module.exports = {
       ]
     },
     "secondary": {
-      "value": "#e9e9e9",
+      "value": "#e2197c",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#E9E9E9"
+        "value": "#E2197C"
       },
       "name": "colorSecondary",
       "attributes": {
@@ -125,11 +125,11 @@ module.exports = {
       ]
     },
     "onSecondary": {
-      "value": "#333333",
+      "value": "#ffffff",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#FFFFFF"
       },
       "name": "colorOnSecondary",
       "attributes": {
@@ -142,11 +142,11 @@ module.exports = {
       ]
     },
     "secondaryLight": {
-      "value": "#ffffff",
+      "value": "#ff5eab",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#FFFFFF"
+        "value": "#FF5EAB"
       },
       "name": "colorSecondaryLight",
       "attributes": {
@@ -159,11 +159,11 @@ module.exports = {
       ]
     },
     "onSecondaryLight": {
-      "value": "#333333",
+      "value": "#000000",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#000000"
       },
       "name": "colorOnSecondaryLight",
       "attributes": {
@@ -176,11 +176,11 @@ module.exports = {
       ]
     },
     "secondaryDark": {
-      "value": "#b7b7b7",
+      "value": "#aa0050",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#B7B7B7"
+        "value": "#AA0050"
       },
       "name": "colorSecondaryDark",
       "attributes": {
@@ -193,11 +193,11 @@ module.exports = {
       ]
     },
     "onSecondaryDark": {
-      "value": "#333333",
+      "value": "#ffffff",
       "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#FFFFFF"
       },
       "name": "colorOnSecondaryDark",
       "attributes": {

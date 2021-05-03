@@ -1,16 +1,16 @@
 :root {
-  --colorPrimary: #f091c9;
+  --colorPrimary: #be9ae2;
   --colorOnPrimary: #000000;
-  --colorPrimaryLight: #ffc3fc;
+  --colorPrimaryLight: #f1cbff;
   --colorOnPrimaryLight: #000000;
-  --colorPrimaryDark: #bc6198;
+  --colorPrimaryDark: #8d6bb0;
   --colorOnPrimaryDark: #000000;
-  --colorSecondary: #e9e9e9;
-  --colorOnSecondary: #333333;
-  --colorSecondaryLight: #ffffff;
-  --colorOnSecondaryLight: #333333;
-  --colorSecondaryDark: #b7b7b7;
-  --colorOnSecondaryDark: #333333;
+  --colorSecondary: #f593c4;
+  --colorOnSecondary: #000000;
+  --colorSecondaryLight: #ffc5f7;
+  --colorOnSecondaryLight: #000000;
+  --colorSecondaryDark: #c16394;
+  --colorOnSecondaryDark: #000000;
   --colorBackground: #121212;
   --colorOnBackground: #ffffff;
   --colorSurface: #333333;
