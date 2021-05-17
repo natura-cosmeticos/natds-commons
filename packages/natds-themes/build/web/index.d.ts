@@ -1,38 +1,7 @@
 declare const Themes: Themes.Themes
 
 declare namespace Themes {
-  export interface Color {
-	primary: string
-	onPrimary: string
-	primaryLight: string
-	onPrimaryLight: string
-	primaryDark: string
-	onPrimaryDark: string
-	secondary: string
-	onSecondary: string
-	secondaryLight: string
-	onSecondaryLight: string
-	secondaryDark: string
-	onSecondaryDark: string
-	background: string
-	onBackground: string
-	surface: string
-	onSurface: string
-	highlight: string
-	highEmphasis: string
-	mediumEmphasis: string
-	lowEmphasis: string
-	link: string
-	onLink: string
-	success: string
-	onSuccess: string
-	warning: string
-	onWarning: string
-	alert: string
-	onAlert: string
-}
-
-export interface BorderRadius {
+  export interface BorderRadius {
 	none: number
 	small: number
 	medium: number
@@ -194,6 +163,56 @@ export interface Spacing {
 	xLarge: number
 }
 
+export interface Color {
+	primary: string
+	onPrimary: string
+	primaryLight: string
+	onPrimaryLight: string
+	primaryDark: string
+	onPrimaryDark: string
+	secondary: string
+	onSecondary: string
+	secondaryLight: string
+	onSecondaryLight: string
+	secondaryDark: string
+	onSecondaryDark: string
+	background: string
+	onBackground: string
+	surface: string
+	onSurface: string
+	highlight: string
+	highEmphasis: string
+	mediumEmphasis: string
+	lowEmphasis: string
+	link: string
+	onLink: string
+	success: string
+	onSuccess: string
+	warning: string
+	onWarning: string
+	alert: string
+	onAlert: string
+}
+
+export interface Neutral {
+	a: string
+	b: string
+}
+
+export interface Custom {
+	a: string
+	b: string
+}
+
+export interface Brand {
+	neutral: Neutral
+	custom: Custom
+}
+
+export interface Asset {
+	brand: Brand
+}
+
 export interface Elevation {
 	none: string
 	micro: string
@@ -209,7 +228,6 @@ export interface Elevation {
 }
 
 export interface Theme {
-	color: Color
 	borderRadius: BorderRadius
 	button: Button
 	heading1: Heading1
@@ -228,6 +246,8 @@ export interface Theme {
 	size: Size
 	typography: Typography
 	spacing: Spacing
+	color: Color
+	asset: Asset
 	elevation: Elevation
 }
 

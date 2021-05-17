@@ -1,5 +1,5 @@
 export const buildWebConfig = (brand, mode) => ({
-  actions: ['create_type_definitions'],
+  actions: ['create_type_definitions', 'custom_copy_assets'],
   buildPath: `build/web/${brand}/`,
   files: [{
     destination: `${mode}.json`,
@@ -19,10 +19,16 @@ export const buildWebConfig = (brand, mode) => ({
     format: 'javascript/module',
   },
   ],
-  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
+  transforms: [
+    'attribute/cti',
+    'name/cti/camel-custom',
+    'color/hex',
+    'asset/extension',
+  ],
 });
 
 export const buildCssConfig = (brand, mode) => ({
+  actions: ['custom_copy_assets'],
   buildPath: `build/web/${brand}/`,
   files: [
     {
@@ -34,5 +40,11 @@ export const buildCssConfig = (brand, mode) => ({
       },
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex', 'unit/px'],
+  transforms: [
+    'attribute/cti',
+    'name/cti/camel-custom',
+    'color/hex',
+    'unit/px',
+    'asset/extension',
+  ],
 });

@@ -1,7 +1,7 @@
 import { capitalizeWord } from '../shared/textHelpers';
 
 const buildAndroidConfig = (brand, mode) => ({
-  actions: ['create_resources'],
+  actions: ['create_resources', 'custom_copy_assets'],
   buildPath: `build/android/${brand}/`,
   files: [
     {
@@ -22,7 +22,14 @@ const buildAndroidConfig = (brand, mode) => ({
       format: 'javascript/module',
     },
   ],
-  transforms: ['name/cti/camel-custom', 'attribute/cti', 'size/dp-custom', 'size/attrType'],
+  transforms: [
+    'name/cti/camel-custom',
+    'attribute/cti',
+    'size/dp-custom',
+    'size/attrType',
+    'asset/extension',
+    'asset/snake',
+  ],
 });
 
 export default buildAndroidConfig;

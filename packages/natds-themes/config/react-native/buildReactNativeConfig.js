@@ -1,5 +1,5 @@
 const buildReactNativeConfig = (brand, mode) => ({
-  actions: ['create_type_definitions'],
+  actions: ['create_type_definitions', 'custom_copy_assets'],
   buildPath: `build/react-native/${brand}/`,
   files: [
     {
@@ -13,7 +13,13 @@ const buildReactNativeConfig = (brand, mode) => ({
       format: 'javascript/module',
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/pascal', 'color/hex', 'name/cti/camel-custom'],
+  transforms: [
+    'attribute/cti',
+    'name/cti/pascal',
+    'color/hex',
+    'name/cti/camel-custom',
+    'asset/extension',
+  ],
 });
 
 export default buildReactNativeConfig;

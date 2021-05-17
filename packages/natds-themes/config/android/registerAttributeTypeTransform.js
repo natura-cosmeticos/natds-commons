@@ -1,12 +1,13 @@
 import { isOneOfProps } from '../shared/helpers';
 
 const categoryTypes = {
+  asset: 'reference',
   color: 'color',
   default: 'dimension',
   opacity: 'float',
 };
 
-const isStringTypeProp = (prop) => isOneOfProps(prop, ['fontFamily', 'fontWeight']);
+const isStringTypeProp = isOneOfProps(['fontFamily', 'fontWeight']);
 
 export const registerAttributeTypeTransform = () => ({
   name: 'size/attrType',

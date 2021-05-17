@@ -1,6 +1,5 @@
 import CryptoJS from 'crypto-js';
-import * as sharedHelpers from '../shared/helpers';
-import helpers, {
+import {
   createEncodedHashFromValue,
   isColor,
   isSpDimension,
@@ -16,7 +15,6 @@ const prop = {
     value: 8,
   },
   path: [
-    'platform',
     'spacing',
     'small',
   ],
@@ -45,83 +43,107 @@ describe('helpers', () => {
   });
 
   describe('isColor', () => {
-    it('should call isProp with the given prop', () => {
-      const isPropSpy = jest.spyOn(sharedHelpers, 'isProp');
+    it('should return true if is a color prop', () => {
+      const colorProp = {
+        ...prop,
+        path: ['color', 'primary'],
+      };
 
-      isColor(prop);
+      expect(isColor(colorProp)).toEqual(true);
+    });
 
-      expect(isPropSpy).toHaveBeenCalledWith(prop, 'color');
+    it('should return false if is not a color prop', () => {
+      expect(isColor(prop)).toEqual(false);
     });
   });
 
   describe('isSpDimension', () => {
-    it('should call isProp with the given prop', () => {
-      const isPropSpy = jest.spyOn(sharedHelpers, 'isProp');
+    it('should return true if is a dimension prop with sp unit', () => {
+      const dimensionProp = {
+        ...prop,
+        path: ['typography', 'fontSize', 'small'],
+      };
 
-      isSpDimension(prop);
+      expect(isSpDimension(dimensionProp)).toEqual(true);
+    });
 
-      expect(isPropSpy).toHaveBeenCalledWith(prop, 'fontSize');
+    it('should return false if is not a dimension prop with sp unit', () => {
+      expect(isSpDimension(prop)).toEqual(false);
     });
   });
 
   describe('isUnitlessDimension', () => {
-    it('should call isOneOfProps with the given prop', () => {
-      const isOneOfPropsSpy = jest.spyOn(sharedHelpers, 'isOneOfProps');
+    it('should return true when is a dimension without unit', () => {
+      const opacityProp = {
+        ...prop,
+        path: ['opacity', 'medium'],
+      };
 
-      isUnitlessDimension(prop);
+      isUnitlessDimension(opacityProp);
 
-      expect(isOneOfPropsSpy).toHaveBeenCalledWith(prop, ['opacity', 'lineHeight', 'letterSpacing']);
+      expect(isUnitlessDimension(opacityProp)).toEqual(true);
+    });
+
+    it('should return false when is not a dimension without unit', () => {
+      expect(isUnitlessDimension(prop)).toEqual(false);
     });
   });
 
   describe('isDimensionWithUnit', () => {
     it('should return true if is a dimension that should have unit', () => {
-      const isDimensionSpy = jest.spyOn(helpers, 'isDimension').mockReturnValue(true);
-      const isUnitlessDimensionSpy = jest.spyOn(helpers, 'isUnitlessDimension').mockReturnValue(false);
-
       const result = isDimensionWithUnit(prop);
-
-      expect(isDimensionSpy).toHaveBeenCalledWith(prop);
-      expect(isUnitlessDimensionSpy).toHaveBeenCalledWith(prop);
 
       expect(result).toEqual(true);
     });
 
     it('should return false if is not dimension', () => {
-      jest.spyOn(helpers, 'isDimension').mockReturnValue(false);
+      const notDimensionProp = {
+        ...prop,
+        path: ['color', 'primary'],
+      };
 
-      const result = isDimensionWithUnit(prop);
+      const result = isDimensionWithUnit(notDimensionProp);
 
       expect(result).toEqual(false);
     });
 
     it('should return false if is a dimension without unit', () => {
-      jest.spyOn(helpers, 'isDimension').mockReturnValue(true);
-      jest.spyOn(helpers, 'isUnitlessDimension').mockReturnValue(true);
-
-      const result = isDimensionWithUnit(prop);
+      const dimensionWithoutUnitProp = {
+        ...prop,
+        path: ['opacity', 'medium'],
+      };
+      const result = isDimensionWithUnit(dimensionWithoutUnitProp);
 
       expect(result).toEqual(false);
     });
   });
   describe('isDimension', () => {
-    it('should call isOneOfProps with the given prop and negate the result', () => {
-      const isOneOfPropsSpy = jest.spyOn(sharedHelpers, 'isOneOfProps').mockReturnValue(true);
-
+    it('should return true if it is a dimension prop', () => {
       const result = isDimension(prop);
 
-      expect(isOneOfPropsSpy).toHaveBeenCalledWith(prop, ['color', 'fontFamily', 'fontWeight']);
+      expect(result).toEqual(true);
+    });
+
+    it('should return false if it is not a dimension prop', () => {
+      const notDimensionProp = {
+        ...prop,
+        path: ['color', 'primary'],
+      };
+
+      const result = isDimension(notDimensionProp);
+
       expect(result).toEqual(false);
     });
-    it('should call isOneOfProps and isPrivateProp with the given prop and return a truthy result', () => {
-      const isOneOfPropsSpy = jest.spyOn(sharedHelpers, 'isOneOfProps').mockReturnValue(false);
-      const isPrivatePropSpy = jest.spyOn(sharedHelpers, 'isPrivateProp').mockReturnValue(false);
 
-      const result = isDimension(prop);
+    it('should return false if it not a private prop', () => {
+      const privateProp = {
+        ...prop,
+        path: ['platform', 'spacing', 'small'],
+      };
 
-      expect(isOneOfPropsSpy).toHaveBeenCalledWith(prop, ['color', 'fontFamily', 'fontWeight']);
-      expect(isPrivatePropSpy).toHaveBeenCalledWith(prop);
-      expect(result).toEqual(true);
+      const result = isDimension(privateProp);
+
+      expect(result).toEqual(false);
     });
   });
 });

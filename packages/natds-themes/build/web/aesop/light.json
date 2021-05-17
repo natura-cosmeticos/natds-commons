@@ -1,34 +1,4 @@
 {
-  "color": {
-    "primary": "#262625",
-    "onPrimary": "#ffffff",
-    "primaryLight": "#4e4e4d",
-    "onPrimaryLight": "#ffffff",
-    "primaryDark": "#000000",
-    "onPrimaryDark": "#ffffff",
-    "secondary": "#a6662b",
-    "onSecondary": "#ffffff",
-    "secondaryLight": "#db9457",
-    "onSecondaryLight": "#000000",
-    "secondaryDark": "#733b00",
-    "onSecondaryDark": "#ffffff",
-    "background": "#fafafa",
-    "onBackground": "#333333",
-    "surface": "#ffffff",
-    "onSurface": "#333333",
-    "highlight": "#000000",
-    "highEmphasis": "#333333",
-    "mediumEmphasis": "#777777",
-    "lowEmphasis": "#bbbbbb",
-    "link": "#227bbd",
-    "onLink": "#ffffff",
-    "success": "#569a32",
-    "onSuccess": "#ffffff",
-    "warning": "#fcc433",
-    "onWarning": "#333333",
-    "alert": "#e74627",
-    "onAlert": "#ffffff"
-  },
   "borderRadius": {
     "none": 0,
     "small": 2,
@@ -164,6 +134,48 @@
     "semi": 32,
     "large": 48,
     "xLarge": 64
+  },
+  "color": {
+    "primary": "#262625",
+    "onPrimary": "#ffffff",
+    "primaryLight": "#4e4e4d",
+    "onPrimaryLight": "#ffffff",
+    "primaryDark": "#000000",
+    "onPrimaryDark": "#ffffff",
+    "secondary": "#a6662b",
+    "onSecondary": "#ffffff",
+    "secondaryLight": "#db9457",
+    "onSecondaryLight": "#000000",
+    "secondaryDark": "#733b00",
+    "onSecondaryDark": "#ffffff",
+    "background": "#fafafa",
+    "onBackground": "#333333",
+    "surface": "#ffffff",
+    "onSurface": "#333333",
+    "highlight": "#000000",
+    "highEmphasis": "#333333",
+    "mediumEmphasis": "#777777",
+    "lowEmphasis": "#bbbbbb",
+    "link": "#227bbd",
+    "onLink": "#ffffff",
+    "success": "#569a32",
+    "onSuccess": "#ffffff",
+    "warning": "#fcc433",
+    "onWarning": "#333333",
+    "alert": "#e74627",
+    "onAlert": "#ffffff"
+  },
+  "asset": {
+    "brand": {
+      "neutral": {
+        "a": "aesop-a-official",
+        "b": "aesop-a-official"
+      },
+      "custom": {
+        "a": "aesop-a-custom",
+        "b": "aesop-a-custom"
+      }
+    }
   },
   "elevation": {
     "none": "none",

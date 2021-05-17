@@ -1,7 +1,7 @@
 import buildHtmlConfig from './buildHtmlConfig';
 
 const expectedConfig = {
-  actions: ['create_paths_html'],
+  actions: ['create_paths_html', 'custom_copy_assets'],
   buildPath: 'build/html/pokemon/',
   files: [
     {
@@ -11,7 +11,7 @@ const expectedConfig = {
     },
   ],
   transformGroup: 'html',
-  transforms: ['name/cti/camel-custom'],
+  transforms: ['name/cti/camel-custom', 'asset/extension'],
 };
 
 describe('buildHtmlConfig', () => {

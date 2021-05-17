@@ -1,4 +1,4 @@
-import { isProp } from '../shared/helpers';
+import { flipIsProp, isProp } from '../shared/helpers';
 
 const types = {
   color: 'UIColor',
@@ -14,13 +14,13 @@ const types = {
 const transformer = (prop) => {
   const typeKey = Object
     .keys(types)
-    .find((typeName) => isProp(prop, typeName)) || typeof prop.value;
+    .find(flipIsProp(prop));
 
-  const type = types[typeKey];
+  const type = types[typeKey || typeof prop.value];
 
   return {
     customOptions: {
-      includeType: isProp(prop, 'fontWeight') || (type !== 'String' && type !== 'UIColor'),
+      includeType: isProp('fontWeight')(prop) || (type !== 'String' && type !== 'UIColor'),
       type,
     },
   };

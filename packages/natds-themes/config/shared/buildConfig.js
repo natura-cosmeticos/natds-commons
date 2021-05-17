@@ -14,9 +14,10 @@ export const buildConfig = (brand, mode, platform) => ({
     web: buildWebConfig(brand, mode),
   },
   source: [
-    `properties/brands/${brand}/${mode}.json`,
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test).js',
+    `properties/brands/${brand}/${mode}.json`,
+    `properties/brands/${brand}/asset-${mode}.json`,
     `properties/platforms/${platform}/*.json`,
     `properties/platforms/${platform}/!(*.test).js`,
   ],

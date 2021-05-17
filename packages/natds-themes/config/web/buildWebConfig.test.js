@@ -1,7 +1,7 @@
 import { buildCssConfig, buildWebConfig } from './buildWebConfig';
 
 const expectedWebConfig = {
-  actions: ['create_type_definitions'],
+  actions: ['create_type_definitions', 'custom_copy_assets'],
   buildPath: 'build/web/pokemon/',
   files: [
     {
@@ -26,10 +26,16 @@ const expectedWebConfig = {
       format: 'javascript/module',
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex'],
+  transforms: [
+    'attribute/cti',
+    'name/cti/camel-custom',
+    'color/hex',
+    'asset/extension',
+  ],
 };
 
 const expectedCssConfig = {
+  actions: ['custom_copy_assets'],
   buildPath: 'build/web/pokemon/',
   files: [
     {
@@ -41,7 +47,13 @@ const expectedCssConfig = {
       },
     },
   ],
-  transforms: ['attribute/cti', 'name/cti/camel-custom', 'color/hex', 'unit/px'],
+  transforms: [
+    'attribute/cti',
+    'name/cti/camel-custom',
+    'color/hex',
+    'unit/px',
+    'asset/extension',
+  ],
 };
 
 describe('buildReactDomConfig', () => {

@@ -13,7 +13,8 @@ module.exports = {
     "**/build/**",
     "**/dist/**",
     "**/node_modules/**",
-    "packages/natds-themes/react-native"
+    "packages/natds-themes/react-native",
+    "packages/natds-token-search/tokens"
   ],
   "overrides": [
     {
@@ -45,6 +46,12 @@ module.exports = {
             packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
           },
         ],
+      },
+    },
+    {
+      files: ['./packages/natds-token-search/src/store/tokens.js'],
+      rules: {
+        "import/extensions": "off",
       },
     },
     {

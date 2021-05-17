@@ -1,34 +1,53 @@
-export const isCategory = (
-  { attributes }, categoryName,
-) => attributes.category === categoryName;
+import {
+  has,
+  pipe,
+  none,
+  not,
+  flatten,
+  when,
+  ifElse,
+  is,
+  identity,
+  values,
+  map,
+  until,
+  flip,
+  uncurryN,
+  prop,
+  includes,
+  any,
+} from 'ramda';
 
-export const isItem = (
-  { attributes }, itemName,
-) => attributes.item === itemName;
-
-const curryIsProp = ({ path }) => (propName) => path.includes(propName);
-
-export const isProp = (
-  dictionary, propName,
-) => curryIsProp(dictionary)(propName);
-
-export const isOneOfProps = (
-  dictionary, props,
-) => !!props.find(curryIsProp(dictionary));
+export const isProp = (propName) => pipe(prop('path'), includes(propName));
+export const flipIsProp = flip(uncurryN(2, isProp));
+export const isOneOfProps = (property) => (dic) => any(flipIsProp(dic))(property);
+export const isPrivateProp = isProp('platform');
+export const isAsset = isProp('asset');
 
 export const flattenProps = (properties) => {
-  const mapProps = (item) => Object.values(item).map(checkIfHasName); // eslint-disable-line
-  const checkIfHasName = (item, cb) => (item.name ? item : mapProps(item, cb));
+  const isProperty = has('name');
+  const isNotItem = pipe(isProperty, not);
+  const isFlat = none(isNotItem);
+  const isNotArray = pipe(is(Array), not);
+  const getItemFromNestedObject = map(ifElse(isProperty, identity, values));
+  const toArray = when(isNotArray, values);
 
-  return mapProps(properties).flat(2);
+  const getPropertyValues = pipe(
+    toArray,
+    getItemFromNestedObject,
+    flatten,
+  );
+
+  return until(isFlat, getPropertyValues)(values(properties));
 };
 
 export const splitTokensAndComponents = ({
-  size, spacing, typography, borderRadius, color, elevation, opacity,
+  size, spacing, typography, borderRadius, color, elevation, opacity, asset,
   ...components
 }) => ({
   components,
   tokens: {
+    asset,
     borderRadius,
     color,
     elevation,
@@ -47,5 +66,3 @@ export const flatTokensAndComponents = ({ properties }) => {
     tokens: flattenProps(tokens),
   };
 };
-
-export const isPrivateProp = (prop) => isProp(prop, 'platform');

@@ -1,0 +1,22 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "value": "avon-a-official-dark"
+        },
+        "b": {
+          "value": "avon-a-official-dark"
+        }
+      },
+      "custom":{
+        "a": {
+          "value": "avon-a-custom"
+        },
+        "b": {
+          "value": "avon-a-custom"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import { capitalizeWord } from '../shared/textHelpers';
 
 const buildIosConfig = (brand, mode) => ({
+  actions: ['custom_copy_assets'],
   buildPath: 'build/ios/',
   files: [
     {
@@ -21,7 +22,14 @@ const buildIosConfig = (brand, mode) => ({
     },
   ],
   transformGroup: 'ios-swift',
-  transforms: ['color/hex', 'attribute/cti', 'name/cti/camel-custom', 'attribute/type', 'value/string-literal'],
+  transforms: [
+    'color/hex',
+    'attribute/cti',
+    'name/cti/camel-custom',
+    'attribute/type',
+    'value/string-literal',
+    'asset/extension',
+  ],
 });
 
 export default buildIosConfig;
