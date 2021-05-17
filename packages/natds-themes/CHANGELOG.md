@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.5.0...@naturacosmeticos/natds-themes@0.6.0) (2021-05-17)
+
+
+### Features
+
+* **natds-themes:** add brand logos ([1ffd686](https://github.com/natura-cosmeticos/natds-commons/commit/1ffd686ba4e53e678a200c10bc9b200b7a20efe1))
+
+
+
+
+
 # [0.5.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.4.12...@naturacosmeticos/natds-themes@0.5.0) (2021-05-03)
 
 
