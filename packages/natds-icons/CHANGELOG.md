@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.5.0...@naturacosmeticos/natds-icons@1.5.1) (2021-05-24)
+
+
+### Bug Fixes
+
+* **natds-icons:** Update kotlin version at Android package ([5c934d7](https://github.com/natura-cosmeticos/natds-commons/commit/5c934d7169a81bd7a2ce9cb1ab046c7e733113fb))
+
+
+
+
+
 # [1.5.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.4.0...@naturacosmeticos/natds-icons@1.5.0) (2021-04-26)
 
 
