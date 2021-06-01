@@ -24,6 +24,7 @@ export const buildWebConfig = (brand, mode) => ({
     'name/cti/camel-custom',
     'color/hex',
     'asset/extension',
+    'asset/svg-inline',
   ],
 });
 
