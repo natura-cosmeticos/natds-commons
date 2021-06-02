@@ -16,6 +16,7 @@ import { registerCamelTransform } from './registerCamelTransform';
 import { registerPxTransform } from './registerPxTransform';
 import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilter';
 import { registerAssetExtensionTransform } from './registerAssetExtensionTransform';
+import { registerAssetInlineTransform } from './registerAssetInlineTransform';
 
 export const customFormats = [
   registerHtmlFormat,
@@ -41,6 +42,7 @@ export const customTransforms = [
   registerPxTransform,
   registerAssetExtensionTransform,
   registerAssetSnakeTransform,
+  registerAssetInlineTransform,
 ];
 
 export const customFilters = [

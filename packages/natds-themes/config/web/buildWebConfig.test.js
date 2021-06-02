@@ -31,6 +31,7 @@ const expectedWebConfig = {
     'name/cti/camel-custom',
     'color/hex',
     'asset/extension',
+    'asset/svg-inline',
   ],
 };
 
