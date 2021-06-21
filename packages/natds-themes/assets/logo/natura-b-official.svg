@@ -36,6 +36,6 @@
       <rect width="256" height="192" fill="white" />
     </clipPath>
     <image id="image1" width="168" height="119"
-      xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@0.6.2-alpha.0/dist/assets/logo-naturav-background.png" />
+      xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/logo-naturav-background.png" />
   </defs>
 </svg>

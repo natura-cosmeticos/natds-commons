@@ -15,6 +15,6 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.000360214) scale(0.012987 0.0185319)"/>
 </pattern>
-<image id="image0" width="77" height="54" xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@0.6.2-alpha.0/dist/assets/logo-naturah-background.png"/>
+<image id="image0" width="77" height="54" xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/logo-naturah-background.png"/>
 </defs>
 </svg>

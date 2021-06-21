@@ -9,7 +9,6 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.0219029) scale(0.00404576 0.0178571)"/>
 </pattern>
-<image id="image0" width="258" height="56" xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@0.6.2-alpha.0/dist/assets/logo-avon-background.png"/>
-
+<image id="image0" width="258" height="56" xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/logo-avon-background.png"/>
 </defs>
 </svg>

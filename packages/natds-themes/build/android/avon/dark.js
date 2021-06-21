@@ -1,12 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Mon, 21 Jun 2021 19:41:50 GMT
+ * Generated on Mon, 21 Jun 2021 21:06:38 GMT
  */
 
 module.exports = {
   "borderRadius": {
     "none": {
       "value": "0dp",
+      "filePath": "properties/globals/borderRadius/borderRadius.json",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -923,6 +925,8 @@ module.exports = {
   "opacity": {
     "transparent": {
       "value": 0,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -1163,6 +1167,8 @@ module.exports = {
   "size": {
     "none": {
       "value": "0dp",
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -1751,6 +1757,8 @@ module.exports = {
   "spacing": {
     "none": {
       "value": "0dp",
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -2601,6 +2609,8 @@ module.exports = {
   "elevation": {
     "none": {
       "value": "0dp",
+      "filePath": "properties/platforms/android/elevation.json",
+      "isSource": true,
       "original": {
         "value": 0
       },

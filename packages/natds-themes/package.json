@@ -81,6 +81,7 @@
     "handlebars": "4.7.6",
     "json2ts": "0.0.7",
     "ramda": "0.27.1",
-    "style-dictionary": "3.0.0-rc.2"
+    "style-dictionary": "3.0.1",
+    "svgo": "2.3.0"
   }
 }
