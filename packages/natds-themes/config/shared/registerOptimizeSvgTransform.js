@@ -45,17 +45,15 @@ const transformer = (token) => {
   const assetName = `${token.original.value}.svg`;
   const assetPath = path.join(__dirname, '../../assets/logo', assetName);
 
-  const svgInline = fs.readFileSync(assetPath);
+  const svgInline = fs.readFileSync(assetPath).toString();
+
   let optimizedSvg = optimize(svgInline, { plugins }).data;
-  
-  
-  const regex = new RegExp(/data:image\/png;base64,([^"']+)/gm);
-  
-  console.log(regex.exec(svg))
+
+  const regex = new RegExp('data:image/png;base64,(?<imageData>[^"\']+)', 'gm');
+
   const matches = [];
 
   let match;
-
 
   do {
     match = regex.exec(optimizedSvg);
@@ -63,7 +61,6 @@ const transformer = (token) => {
       matches.push(match.groups);
     }
   } while (match);
-
 
   if (matches.length) {
     matches.forEach((item, index) => {
