@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import {
   has,
   pipe,
@@ -66,3 +68,5 @@ export const flatTokensAndComponents = ({ properties }) => {
     tokens: flattenProps(tokens),
   };
 };
+
+export const readAsset = (assetName) => fs.readFileSync(path.join(__dirname, '../../assets/logo', assetName)).toString();

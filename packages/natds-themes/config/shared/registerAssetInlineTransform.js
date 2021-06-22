@@ -1,52 +1,10 @@
-import fs from 'fs';
-import { optimize } from 'svgo';
-import path from 'path';
-import { isAsset } from './helpers';
-
-const plugins = [
-  'cleanupAttrs',
-  'cleanupEnableBackground',
-  'cleanupIDs',
-  'cleanupNumericValues',
-  'collapseGroups',
-  'convertColors',
-  'convertEllipseToCircle',
-  'convertPathData',
-  'convertShapeToPath',
-  'convertTransform',
-  'inlineStyles',
-  'mergePaths',
-  'mergeStyles',
-  'minifyStyles',
-  'moveElemsAttrsToGroup',
-  'moveGroupAttrsToElems',
-  'removeComments',
-  'removeDesc',
-  'removeDoctype',
-  'removeEditorsNSData',
-  'removeEmptyAttrs',
-  'removeEmptyContainers',
-  'removeEmptyText',
-  'removeHiddenElems',
-  'removeMetadata',
-  'removeNonInheritableGroupAttrs',
-  'removeTitle',
-  'removeUnusedNS',
-  'removeUselessDefs',
-  'removeUselessStrokeAndFill',
-  'removeViewBox',
-  'removeXMLProcInst',
-  'sortDefsChildren',
-];
+import { isAsset, readAsset } from './helpers';
 
 const transformer = (token) => {
-  const assetName = `${token.original.value}.svg`;
-  const assetPath = path.join(__dirname, '../../assets/logo', assetName);
+  const assetName = `${token.value}.svg`;
+  const svgInline = readAsset(assetName);
 
-  const svgInline = fs.readFileSync(assetPath, 'utf-8');
-  const optimizedSvg = optimize(svgInline, { plugins });
-
-  return optimizedSvg.data || svgInline;
+  return svgInline;
 };
 
 export const registerAssetInlineTransform = () => ({

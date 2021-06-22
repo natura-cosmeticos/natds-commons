@@ -63,6 +63,8 @@ dist
 
 # Generated file for publishing
 packages/natds-themes/react-native
+packages/natds-themes/assets/logo/**-optimized.svg
+packages/natds-themes/assets/logo/**-embed-image-**.png
 packages/natds-token-search/tokens
 
 .cache
@@ -85,3 +87,5 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
+
+

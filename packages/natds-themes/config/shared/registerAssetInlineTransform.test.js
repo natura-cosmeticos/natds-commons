@@ -28,7 +28,7 @@ describe('transformer', () => {
     path.join.mockReturnValue('a/path');
   });
 
-  it('should return the svg content as string when optimization fail', () => {
+  it('should return the svg content as string', () => {
     svgo.optimize.mockReturnValue({});
     const config = registerAssetInlineTransform();
     const token = { original: { value: 'natura-a-official' } };
@@ -38,19 +38,6 @@ describe('transformer', () => {
     const expectedResult = '<svg>natura-a-official</svg>';
 
     expect(result).toEqual(expectedResult);
-    expect(fs.readFileSync).toHaveBeenCalledWith('a/path', 'utf-8');
-    expect(svgo.optimize).toHaveBeenCalledWith(expectedResult, expect.any(Object));
-  });
-
-  it('should return the optimized svg content as string', () => {
-    const optimizedSvg = '<svg id="optimized">natura-a-official</svg>';
-    const config = registerAssetInlineTransform();
-    const token = { original: { value: 'natura-a-official' } };
-
-    svgo.optimize.mockReturnValue({ data: optimizedSvg });
-
-    const result = config.transformer(token);
-
-    expect(result).toEqual(optimizedSvg);
+    expect(fs.readFileSync).toHaveBeenCalledWith('a/path');
   });
 });

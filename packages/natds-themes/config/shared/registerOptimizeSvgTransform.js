@@ -1,8 +1,7 @@
-/* eslint-disable max-statements */
 import fs from 'fs';
-import { optimize } from 'svgo';
 import path from 'path';
-import { isAsset } from './helpers';
+import { optimize } from 'svgo';
+import { isAsset, readAsset } from './helpers';
 
 const plugins = [
   'cleanupAttrs',
@@ -40,35 +39,41 @@ const plugins = [
   'sortDefsChildren',
 ];
 
-const transformer = (token) => {
-  const assetRemoteBaseUrl = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/';
-  const assetName = `${token.original.value}.svg`;
-  const assetPath = path.join(__dirname, '../../assets/logo', assetName);
-
-  const svgInline = fs.readFileSync(assetPath).toString();
-
-  let optimizedSvg = optimize(svgInline, { plugins }).data;
-
-  const regex = new RegExp('data:image/png;base64,(?<imageData>[^"\']+)', 'gm');
-
+export const execPattern = (pattern, data) => {
   const matches = [];
-
+  const regex = new RegExp(pattern, 'gm');
   let match;
 
   do {
-    match = regex.exec(optimizedSvg);
+    match = regex.exec(data);
     if (match && match.groups) {
       matches.push(match.groups);
     }
   } while (match);
 
-  if (matches.length) {
-    matches.forEach((item, index) => {
-      const imageName = `${assetName}-image-${index}.png`;
+  return matches;
+};
 
-      fs.writeFileSync(path.join(__dirname, '../../assets/logo', imageName), item.imageData, 'base64');
-      optimizedSvg = optimizedSvg.replace(item.imageData, `${assetRemoteBaseUrl}${imageName}`);
-    });
+export const convertBase64ToExternalImage = (assetName) => (acc, item, index) => {
+  const assetRemoteBaseUrl = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/';
+  const imageName = `${assetName}-embed-image-${index}.png`;
+
+  fs.writeFileSync(path.join(__dirname, '../../assets/logo', imageName), item.imageData, 'base64');
+
+  return acc.replace(`data:image/png;base64,${item.imageData}`, `${assetRemoteBaseUrl}${imageName}`);
+};
+
+const transformer = (token) => {
+  const assetName = `${token.original.value}.svg`;
+
+  const svgInline = readAsset(assetName);
+
+  let optimizedSvg = optimize(svgInline, { plugins }).data;
+
+  const matches = execPattern('data:image/png;base64,(?<imageData>[^"\']+)', optimizedSvg);
+
+  if (matches.length) {
+    optimizedSvg = matches.reduce(convertBase64ToExternalImage(token.original.value), optimizedSvg);
   }
 
   const optimizedAssetName = `${token.original.value}-optimized`;
