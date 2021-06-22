@@ -17,6 +17,7 @@ import { registerPxTransform } from './registerPxTransform';
 import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilter';
 import { registerAssetExtensionTransform } from './registerAssetExtensionTransform';
 import { registerAssetInlineTransform } from './registerAssetInlineTransform';
+import { registerOptimizeSvgTransform } from './registerOptimizeSvgTransform';
 
 export const customFormats = [
   registerHtmlFormat,
@@ -43,6 +44,7 @@ export const customTransforms = [
   registerAssetExtensionTransform,
   registerAssetSnakeTransform,
   registerAssetInlineTransform,
+  registerOptimizeSvgTransform,
 ];
 
 export const customFilters = [
