@@ -70,3 +70,27 @@ export const flatTokensAndComponents = ({ properties }) => {
 };
 
 export const readAsset = (assetName) => fs.readFileSync(path.join(__dirname, '../../assets/logo', assetName)).toString();
+
+export const execPattern = (pattern, data) => {
+  const matches = [];
+  const regex = new RegExp(pattern, 'gm');
+  let match;
+
+  do {
+    match = regex.exec(data);
+    if (match && match.groups) {
+      matches.push(match.groups);
+    }
+  } while (match);
+
+  return matches;
+};
+
+export const convertBase64ToExternalImage = (assetName) => (acc, item, index) => {
+  const assetRemoteBaseUrl = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/';
+  const imageName = `${assetName}-embed-image-${index}.png`;
+
+  fs.writeFileSync(path.join(__dirname, '../../assets/logo', imageName), item.imageData, 'base64');
+
+  return acc.replace(`data:image/png;base64,${item.imageData}`, `${assetRemoteBaseUrl}${imageName}`);
+};

@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import {
   isPrivateProp,
   isProp,
@@ -5,7 +7,13 @@ import {
   flattenProps,
   splitTokensAndComponents,
   flatTokensAndComponents,
+  readAsset,
+  execPattern,
+  convertBase64ToExternalImage,
 } from './helpers';
+
+jest.mock('fs');
+jest.mock('path');
 
 describe('helpers', () => {
   describe('isProp', () => {
@@ -210,6 +218,47 @@ describe('helpers', () => {
       };
 
       expect(isPrivateProp(prop)).toBe(false);
+    });
+  });
+
+  describe('readAsset', () => {
+    beforeEach(() => {
+      fs.readFileSync.mockReturnValue('<svg>natura-a-official</svg>');
+      path.join.mockReturnValue('a/path/natura-a-official');
+    });
+
+    it('should return the given asset inline', () => {
+      const result = readAsset('natura-a-official');
+      const expectedResult = '<svg>natura-a-official</svg>';
+
+      expect(result).toEqual(expectedResult);
+      expect(fs.readFileSync).toHaveBeenCalledWith('a/path/natura-a-official');
+    });
+  });
+
+  describe('execPattern', () => {
+    it('should return one match to the given pattern and data', () => {
+      const pattern = 'data:image/png;base64,(?<imageData>[^"\']+)';
+      const match = execPattern(pattern, '<svg><image xlink:href="data:image/png;base64,something"/></svg>');
+
+      expect(match.length).toBe(1);
+      expect(match).toEqual([{ imageData: 'something' }]);
+    });
+  });
+
+  describe('convertBase64ToExternalImage', () => {
+    beforeEach(() => {
+      path.join.mockReturnValue('a/path/natura-a-official-embed-image-0.png');
+    });
+    it('should convert embeded image to external image', () => {
+      const svg = '<svg><image xlink:href="data:image/png;base64,something"/></svg>';
+      const assetName = 'natura-a-official';
+
+      const result = convertBase64ToExternalImage(assetName)(svg, { imageData: 'something' }, 0);
+      const expectedResult = '<svg><image xlink:href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official-embed-image-0.png"/></svg>';
+
+      expect(result).toBe(expectedResult);
+      expect(fs.writeFileSync).toHaveBeenCalledWith('a/path/natura-a-official-embed-image-0.png', 'something', 'base64');
     });
   });
 });
