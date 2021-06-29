@@ -1,12 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { isAsset } from './helpers';
+import { isAsset, readAsset } from './helpers';
 
 const transformer = (token) => {
-  const assetName = `${token.original.value}.svg`;
-  const assetPath = path.join(__dirname, '../../assets/logo', assetName);
-
-  const svgInline = fs.readFileSync(assetPath, 'utf-8');
+  const assetName = `${token.value}.svg`;
+  const svgInline = readAsset(assetName);
 
   return svgInline;
 };

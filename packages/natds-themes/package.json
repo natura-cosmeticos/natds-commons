@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-themes",
   "displayName": "NatDSThemes",
   "description": "The single source of truth for Natura Design System tokens.",
-  "version": "0.6.1",
+  "version": "0.6.2-alpha.1",
   "private": false,
   "keywords": [
     "naturacosmeticos",
@@ -59,8 +59,9 @@
     "clean": "rm -rf ./build && rm -rf ./dist && rm -rf ./react-native",
     "copy:types": "yarn copy:types:web && yarn copy:types:react-native",
     "copy:assets": "yarn copy:assets:web && yarn copy:assets:react-native",
+    "copy:svg:background:web": "cp assets/logo/**-embed-image-**.png ./dist/assets",
     "copy:types:web": "cp ./build/web/index.d.ts ./dist",
-    "copy:assets:web": "node ./bin/copy-assets.js web ./dist/assets",
+    "copy:assets:web": "node ./bin/copy-assets.js web ./dist/assets && yarn copy:svg:background:web",
     "copy:types:react-native": "cp ./build/react-native/index.d.ts ./react-native",
     "copy:assets:react-native": "node ./bin/copy-assets.js react-native ./react-native/assets",
     "html": "yarn build:outputs && http-server build/html",
@@ -80,6 +81,7 @@
     "handlebars": "4.7.6",
     "json2ts": "0.0.7",
     "ramda": "0.27.1",
-    "style-dictionary": "3.0.0-rc.2"
+    "style-dictionary": "3.0.1",
+    "svgo": "2.3.0"
   }
 }

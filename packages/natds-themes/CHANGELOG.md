@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.2-alpha.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.6.2-alpha.0...@naturacosmeticos/natds-themes@0.6.2-alpha.1) (2021-06-21)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-themes
+
+
+
+
+
+## [0.6.2-alpha.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.6.1...@naturacosmeticos/natds-themes@0.6.2-alpha.0) (2021-06-21)
+
+
+### Bug Fixes
+
+* **natds-themes:** optimize logos for web ([d84faac](https://github.com/natura-cosmeticos/natds-commons/commit/d84faacaa26d82e804ac42c0d952badd1ad13aa2))
+
+
+
+
+
 ## [0.6.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.6.0...@naturacosmeticos/natds-themes@0.6.1) (2021-06-02)
 
 

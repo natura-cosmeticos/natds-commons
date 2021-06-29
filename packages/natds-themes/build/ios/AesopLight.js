@@ -1,12 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Wed, 02 Jun 2021 19:20:04 GMT
+ * Generated on Tue, 22 Jun 2021 22:24:17 GMT
  */
 
 module.exports = {
   "borderRadius": {
     "none": {
       "value": 0,
+      "filePath": "properties/globals/borderRadius/borderRadius.json",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -967,6 +969,8 @@ module.exports = {
   "opacity": {
     "transparent": {
       "value": 0,
+      "filePath": "properties/globals/opacity/opacity.json",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -1219,6 +1223,8 @@ module.exports = {
   "size": {
     "none": {
       "value": 0,
+      "filePath": "properties/globals/size/size.json",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -1835,6 +1841,8 @@ module.exports = {
   "spacing": {
     "none": {
       "value": 0,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
       "original": {
         "value": 0
       },
@@ -2745,6 +2753,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -2812,6 +2822,8 @@ module.exports = {
       },
       "shadowOpacity": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -2858,6 +2870,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -2973,6 +2987,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3088,6 +3104,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3203,6 +3221,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3318,6 +3338,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3433,6 +3455,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3548,6 +3572,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3663,6 +3689,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3778,6 +3806,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
@@ -3893,6 +3923,8 @@ module.exports = {
       },
       "shadowOffsetWidth": {
         "value": 0,
+        "filePath": "properties/platforms/ios/elevation.json",
+        "isSource": true,
         "original": {
           "value": 0
         },
