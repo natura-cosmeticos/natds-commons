@@ -1,9 +1,9 @@
 import {
+  addIndex,
   join,
+  map,
   pipe,
   split,
-  map,
-  addIndex,
 } from 'ramda';
 
 export const buildIconNamesFromGlyphData = (glyphsData, transformCode) => glyphsData
