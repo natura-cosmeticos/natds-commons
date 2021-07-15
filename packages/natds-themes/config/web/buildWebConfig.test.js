@@ -2,10 +2,16 @@ import { buildCssConfig, buildWebConfig } from './buildWebConfig';
 
 const expectedWebConfig = {
   actions: ['create_type_definitions', 'custom_copy_assets'],
-  buildPath: 'build/web/pokemon/',
+  buildPath: 'build/web/',
   files: [
     {
-      destination: 'pikachu.json',
+      destination: 'spectrum/pokemon/spectrum-pikachu.json',
+      filter: 'spectrumProperties',
+      format: 'json/nested',
+      options: { showFileHeader: false },
+    },
+    {
+      destination: 'pokemon/pikachu.json',
       filter: 'privateProperties',
       format: 'json/nested',
       options: {
@@ -13,7 +19,7 @@ const expectedWebConfig = {
       },
     },
     {
-      destination: 'pikachu.js',
+      destination: 'pokemon/pikachu.js',
       filter: 'privateProperties',
       format: 'javascript/es6',
       options: {
@@ -21,7 +27,13 @@ const expectedWebConfig = {
       },
     },
     {
-      destination: 'pikachu-esm.js',
+      destination: 'spectrum/pokemon/spectrum-pikachu.js',
+      filter: 'spectrumProperties',
+      format: 'javascript/es6',
+      options: { showFileHeader: false },
+    },
+    {
+      destination: 'pokemon/pikachu-esm.js',
       filter: 'privateProperties',
       format: 'javascript/module',
     },
@@ -38,11 +50,19 @@ const expectedWebConfig = {
 
 const expectedCssConfig = {
   actions: ['custom_copy_assets'],
-  buildPath: 'build/web/pokemon/',
+  buildPath: 'build/web/',
   files: [
     {
-      destination: 'pikachu.css',
+      destination: 'pokemon/pikachu.css',
       filter: 'privateProperties',
+      format: 'css/variables',
+      options: {
+        showFileHeader: false,
+      },
+    },
+    {
+      destination: 'spectrum/pokemon/spectrum-pikachu.css',
+      filter: 'spectrumProperties',
       format: 'css/variables',
       options: {
         showFileHeader: false,

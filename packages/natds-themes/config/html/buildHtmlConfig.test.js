@@ -9,6 +9,11 @@ const expectedConfig = {
       filter: 'privateProperties',
       format: 'html/colors',
     },
+    {
+      destination: 'spectrum-pikachu.html',
+      filter: 'spectrumProperties',
+      format: 'html/spectrum',
+    },
   ],
   transformGroup: 'html',
   transforms: ['name/cti/camel-custom', 'asset/extension'],

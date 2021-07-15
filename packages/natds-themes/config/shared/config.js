@@ -1,12 +1,17 @@
-import registerHtmlFormat from '../html/registerHtmlFormat';
+import { registerHtmlFormat, registerSpectrumHtmlFormat } from '../html/registerHtmlFormat';
 import registerHtmlCreatePathsAction from '../html/registerCreatePathsAction';
-import registerAttributesFormatter from '../android/registerAttributesFormat';
+import { registerSpectrumFormat as registerAndroidSpectrumFormat, registerAttributesFormat } from '../android/registerAttributesFormat';
 import registerThemeFormatAndroid from '../android/registerThemeFormat';
 import { registerDpTransform } from '../android/registerDpTransform';
 import { registerAssetSnakeTransform } from '../android/registerAssetSnakeTransform';
 import { registerAttributeTypeTransform } from '../android/registerAttributeTypeTransform';
 import { registerCreateResourcesAction } from '../android/registerCreateResourcesAction';
-import { registerThemeFormat, registerThemeProtocolFormat } from '../ios/registerFormats';
+import {
+  registerThemeFormat,
+  registerThemeProtocolFormat,
+  registerSpectrumProtocolFormat,
+  registerSpectrumFormat,
+} from '../ios/registerFormats';
 import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTransform';
 import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
 import { registerTemplateHeaderHelper } from './templateHelpers';
@@ -18,13 +23,18 @@ import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilt
 import { registerAssetExtensionTransform } from './registerAssetExtensionTransform';
 import { registerAssetInlineTransform } from './registerAssetInlineTransform';
 import { registerOptimizeSvgTransform } from './registerOptimizeSvgTransform';
+import { registerSpectrumPropertiesFilter } from './registerSpectrumPropertiesFilter';
 
 export const customFormats = [
   registerHtmlFormat,
-  registerAttributesFormatter,
+  registerAndroidSpectrumFormat,
+  registerAttributesFormat,
   registerThemeFormatAndroid,
   registerThemeFormat,
   registerThemeProtocolFormat,
+  registerSpectrumProtocolFormat,
+  registerSpectrumFormat,
+  registerSpectrumHtmlFormat,
 ];
 
 export const customActions = [
@@ -49,6 +59,7 @@ export const customTransforms = [
 
 export const customFilters = [
   registerPrivatePropertiesFilter,
+  registerSpectrumPropertiesFilter,
 ];
 
 registerTemplateHeaderHelper();

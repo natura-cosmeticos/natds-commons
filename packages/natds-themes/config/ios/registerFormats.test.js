@@ -1,5 +1,10 @@
 import path from 'path';
-import { registerThemeFormat, registerThemeProtocolFormat } from './registerFormats';
+import {
+  registerThemeFormat,
+  registerThemeProtocolFormat,
+  registerSpectrumFormat,
+  registerSpectrumProtocolFormat,
+} from './registerFormats';
 import * as formatBuilder from '../shared/formatBuilder';
 import * as helpers from '../shared/helpers';
 import '../shared/config';
@@ -124,6 +129,25 @@ const dictionary = {
   },
 };
 
+const spectrum = {
+  properties: {
+    spectrum: {
+      primary: {
+        attributes: { customOptions: { type: 'color' } },
+        name: 'colorPrimary',
+        original: {
+          value: '#F091C9',
+        },
+        path: [
+          'color',
+          'primary',
+        ],
+        value: '#F091C9',
+      },
+    },
+  },
+};
+
 describe('registerFormats', () => {
   describe('registerThemeFormat', () => {
     it('should call the formatBuilder function ', () => {
@@ -176,6 +200,60 @@ describe('registerFormats', () => {
       const output = register.formatter(dictionary);
 
       expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerThemeProtocolFormat.snap.html'));
+    });
+  });
+
+  describe('registerSpectrumFormat', () => {
+    it('should call the formatBuilder function ', () => {
+      jest.spyOn(formatBuilder, 'formatBuilder');
+      registerSpectrumFormat();
+
+      expect(formatBuilder.formatBuilder).toHaveBeenCalled();
+    });
+
+    it('should call the flatTokensAndComponents function ', () => {
+      const flatTokensAndComponentsSpy = jest.spyOn(helpers, 'flatTokensAndComponents');
+      const register = registerSpectrumFormat();
+
+      register.formatter(spectrum);
+
+      expect(flatTokensAndComponentsSpy).toHaveBeenCalled();
+    });
+
+    it('should return the correct formatter template', () => {
+      const register = registerSpectrumFormat();
+
+      register.themeName = 'NaturaLight';
+
+      const output = register.formatter(spectrum);
+
+      expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerSpectrumFormat.snap.html'));
+    });
+  });
+
+  describe('registerSpectrumProtocolFormat', () => {
+    it('should call the formatBuilder function ', () => {
+      jest.spyOn(formatBuilder, 'formatBuilder');
+      registerSpectrumProtocolFormat();
+
+      expect(formatBuilder.formatBuilder).toHaveBeenCalled();
+    });
+
+    it('should call the flatTokensAndComponents function ', () => {
+      const flatTokensAndComponentsSpy = jest.spyOn(helpers, 'flatTokensAndComponents');
+      const register = registerSpectrumProtocolFormat();
+
+      register.formatter(spectrum);
+
+      expect(flatTokensAndComponentsSpy).toHaveBeenCalled();
+    });
+
+    it('should return the correct formatter template', () => {
+      const register = registerSpectrumProtocolFormat();
+
+      const output = register.formatter(spectrum);
+
+      expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerSpectrumProtocolFormat.snap.html'));
     });
   });
 });

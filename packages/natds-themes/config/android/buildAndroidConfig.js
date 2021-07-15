@@ -2,22 +2,29 @@ import { capitalizeWord } from '../shared/textHelpers';
 
 const buildAndroidConfig = (brand, mode) => ({
   actions: ['create_resources', 'custom_copy_assets'],
-  buildPath: `build/android/${brand}/`,
+  buildPath: 'build/android/',
   files: [
     {
-      destination: 'theme_attributes.xml',
+      destination: `${brand}/theme_attributes.xml`,
       filter: 'privateProperties',
       format: 'android/attributes',
     },
     {
       brandName: capitalizeWord(brand),
-      destination: `theme_${brand}_${mode}.xml`,
+      destination: `${brand}/theme_${brand}_${mode}.xml`,
       filter: 'privateProperties',
       format: 'android/themes',
       mode: capitalizeWord(mode),
     },
     {
-      destination: `${mode}.js`,
+      brandName: capitalizeWord(brand),
+      destination: `spectrum/${brand}/spectrum_${brand}_${mode}.xml`,
+      filter: 'spectrumProperties',
+      format: 'android/spectrum',
+      mode: capitalizeWord(mode),
+    },
+    {
+      destination: `${brand}/${mode}.js`,
       filter: 'privateProperties',
       format: 'javascript/module',
     },

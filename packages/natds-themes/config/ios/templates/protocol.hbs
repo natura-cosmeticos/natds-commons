@@ -1,0 +1,10 @@
+{{> fileHeader }}
+{{prepend}}
+{{#each data}}
+protocol {{protocolName}} {
+{{#each protocolItems}}
+  var {{name}}: {{attributes.customOptions.type}} { get }
+{{/each}}
+}
+
+{{/each}}

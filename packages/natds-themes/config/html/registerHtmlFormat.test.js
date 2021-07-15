@@ -1,5 +1,6 @@
+/* eslint-disable mocha/max-top-level-suites */
 import path from 'path';
-import registerHtmlFormat from './registerHtmlFormat';
+import { registerHtmlFormat, registerSpectrumHtmlFormat } from './registerHtmlFormat';
 import * as formatBuilder from '../shared/formatBuilder';
 
 const dictionary = {
@@ -133,6 +134,77 @@ const dictionary = {
   },
 };
 
+const spectrum = {
+  properties: {
+    spectrum: {
+      angle: {
+        attributes: { customOptions: { type: 'color' } },
+        name: 'gradientStart',
+        original: {
+          value: 100,
+        },
+        path: [
+          'spectrum',
+          'gradient',
+          'angle',
+        ],
+        value: 100,
+      },
+      end: {
+        attributes: { customOptions: { type: 'color' } },
+        name: 'gradientStart',
+        original: {
+          value: '#F091C9',
+        },
+        path: [
+          'spectrum',
+          'gradient',
+          'end',
+        ],
+        value: '#F091C9',
+      },
+      primary: {
+        attributes: { customOptions: { type: 'color' } },
+        name: 'spectrumPrimary',
+        original: {
+          value: '#F091C9',
+        },
+        path: [
+          'spectrum',
+          'primary',
+        ],
+        value: '#F091C9',
+      },
+      start: {
+        attributes: { customOptions: { type: 'color' } },
+        name: 'gradientStart',
+        original: {
+          value: '#F091C9',
+        },
+        path: [
+          'spectrum',
+          'gradient',
+          'start',
+        ],
+        value: '#F091C9',
+      },
+      type: {
+        attributes: { customOptions: { type: 'color' } },
+        name: 'gradientStart',
+        original: {
+          value: 'linear',
+        },
+        path: [
+          'spectrum',
+          'gradient',
+          'type',
+        ],
+        value: 'linear',
+      },
+    },
+  },
+};
+
 describe('registerHtmlFormat', () => {
   it('should call the formatBuilder function ', () => {
     jest.spyOn(formatBuilder, 'formatBuilder');
@@ -147,5 +219,22 @@ describe('registerHtmlFormat', () => {
     const output = register.formatter(dictionary);
 
     expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerHtmlFormat.snap.html'));
+  });
+});
+
+describe('registerSpectrumHtmlFormat', () => {
+  it('should call the formatBuilder function ', () => {
+    jest.spyOn(formatBuilder, 'formatBuilder');
+    registerSpectrumHtmlFormat();
+
+    expect(formatBuilder.formatBuilder).toHaveBeenCalled();
+  });
+
+  it('should return the correct formatter template', () => {
+    const register = registerSpectrumHtmlFormat();
+
+    const output = register.formatter(spectrum);
+
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerSpectrumHtmlFormat.snap.html'));
   });
 });

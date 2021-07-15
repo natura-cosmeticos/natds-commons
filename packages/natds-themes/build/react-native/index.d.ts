@@ -152,17 +152,6 @@ export interface Typography {
 	fontWeight: FontWeight
 }
 
-export interface Spacing {
-	none: number
-	micro: number
-	tiny: number
-	small: number
-	standard: number
-	semi: number
-	large: number
-	xLarge: number
-}
-
 export interface Color {
 	primary: string
 	onPrimary: string
@@ -344,7 +333,6 @@ export interface Theme {
 	opacity: Opacity
 	size: Size
 	typography: Typography
-	spacing: Spacing
 	color: Color
 	asset: Asset
 	elevation: Elevation

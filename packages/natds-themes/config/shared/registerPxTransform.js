@@ -8,6 +8,7 @@ const notPxProps = [
   'opacity',
   'lineHeight',
   'asset',
+  'spectrum',
 ];
 
 export const registerPxTransform = () => ({

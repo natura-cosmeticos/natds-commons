@@ -221,6 +221,23 @@ describe('helpers', () => {
     });
   });
 
+  describe('isSpectrumProp', () => {
+    it('should returns true when is a spectrum property', () => {
+      const prop = {
+        path: ['spectrum', 'primary'],
+      };
+
+      expect(isPrivateProp(prop)).toBe(true);
+    });
+    it('should returns false when is not a spectrum private property', () => {
+      const prop = {
+        path: ['typography', 'lineHeight', 'small'],
+      };
+
+      expect(isPrivateProp(prop)).toBe(false);
+    });
+  });
+
   describe('readAsset', () => {
     beforeEach(() => {
       fs.readFileSync.mockReturnValue('<svg>natura-a-official</svg>');
