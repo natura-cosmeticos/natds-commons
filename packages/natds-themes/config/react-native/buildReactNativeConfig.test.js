@@ -2,24 +2,28 @@ import buildReactNativeConfig from './buildReactNativeConfig';
 
 const expectedConfig = {
   actions: ['create_type_definitions', 'custom_copy_assets'],
-  buildPath: 'build/react-native/pokemon/',
+  buildPath: 'build/react-native/',
   files: [
     {
-      destination: 'pikachu.json',
+      destination: 'pokemon/pikachu.json',
       filter: 'privateProperties',
       format: 'json/nested',
     },
     {
-      destination: 'pikachu.js',
+      destination: 'pokemon/pikachu.js',
       filter: 'privateProperties',
       format: 'javascript/module',
+    },
+    {
+      destination: 'spectrum/pokemon/spectrum-pikachu.json',
+      filter: 'spectrumProperties',
+      format: 'json/nested',
     },
   ],
   transforms: [
     'attribute/cti',
-    'name/cti/pascal',
-    'color/hex',
     'name/cti/camel-custom',
+    'color/hex',
     'asset/extension',
   ],
 };

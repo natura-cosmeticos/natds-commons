@@ -12,7 +12,7 @@ export const isSpDimension = isProp('fontSize');
 
 export const isUnitlessDimension = isOneOfProps(['opacity', 'lineHeight', 'letterSpacing']);
 
-export const isDimension = (property) => !isOneOfProps(['color', 'fontFamily', 'fontWeight', 'asset'])(property) && !isPrivateProp(property);
+export const isDimension = (property) => !isOneOfProps(['color', 'spectrum', 'fontFamily', 'fontWeight', 'asset'])(property) && !isPrivateProp(property);
 
 export const isDimensionWithUnit = (property) => (
   isDimension(property) && !isUnitlessDimension(property)

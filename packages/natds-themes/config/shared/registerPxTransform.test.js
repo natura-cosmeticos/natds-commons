@@ -63,6 +63,7 @@ describe('registerPxTransform', () => {
       'opacity',
       'lineHeight',
       'asset',
+      'spectrum',
     ]);
   });
 });

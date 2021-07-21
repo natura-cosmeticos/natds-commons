@@ -8,6 +8,7 @@ const types = {
   lineHeight: 'CGFloat',
   number: 'CGFloat',
   shadowOpacity: 'Float',
+  spectrum: 'UIColor',
   string: 'String',
 };
 

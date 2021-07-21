@@ -3,22 +3,29 @@ import * as textHelpers from '../shared/textHelpers';
 
 const expectedConfig = {
   actions: ['create_resources', 'custom_copy_assets'],
-  buildPath: 'build/android/pokemon/',
+  buildPath: 'build/android/',
   files: [
     {
-      destination: 'theme_attributes.xml',
+      destination: 'pokemon/theme_attributes.xml',
       filter: 'privateProperties',
       format: 'android/attributes',
     },
     {
       brandName: 'Pokemon',
-      destination: 'theme_pokemon_pikachu.xml',
+      destination: 'pokemon/theme_pokemon_pikachu.xml',
       filter: 'privateProperties',
       format: 'android/themes',
       mode: 'Pikachu',
     },
     {
-      destination: 'pikachu.js',
+      brandName: 'Pokemon',
+      destination: 'spectrum/pokemon/spectrum_pokemon_pikachu.xml',
+      filter: 'spectrumProperties',
+      format: 'android/spectrum',
+      mode: 'Pikachu',
+    },
+    {
+      destination: 'pokemon/pikachu.js',
       filter: 'privateProperties',
       format: 'javascript/module',
     },
@@ -38,6 +45,8 @@ describe('buildAndroidConfig', () => {
     const buildReactNativeConfigSpy = jest
       .spyOn(textHelpers, 'capitalizeWord')
       .mockImplementation(() => 'Pokemon')
+      .mockImplementationOnce(() => 'Pokemon')
+      .mockImplementationOnce(() => 'Pikachu')
       .mockImplementationOnce(() => 'Pokemon')
       .mockImplementationOnce(() => 'Pikachu');
 

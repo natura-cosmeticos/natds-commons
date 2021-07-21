@@ -5,12 +5,15 @@ const filePath = 'build/html/paths.json';
 
 const dataBuilderFunction = (dictionary, config) => {
   const brandName = config.buildPath.split('/')[2];
-  const mode = config.files[0].destination.split('.')[0];
 
-  return {
-    name: `${brandName} ${mode}`,
-    path: `/${brandName}/${config.files[0].destination}`,
-  };
+  return config.files.map((file) => {
+    const mode = file.destination.split('.')[0];
+
+    return {
+      name: `${brandName} ${mode}`,
+      path: `/${brandName}/${file.destination}`,
+    };
+  });
 };
 
 export const createPaths = (

@@ -1,0 +1,9 @@
+{{> fileHeader }}
+{{prepend}}
+{{#each data}}
+struct {{structName}}: {{structType}} {
+{{#each structItems}}
+  let {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
+}
+{{/each}}

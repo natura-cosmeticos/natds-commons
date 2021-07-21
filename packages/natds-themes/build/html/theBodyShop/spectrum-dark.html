@@ -1,0 +1,681 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color tokens</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .color-sample {
+      border: 1px solid #eaeaea;
+      height: 50px;
+    }
+
+    .opacity-sample {
+      background-color: #000000;
+    }
+
+    .size-sample {
+      background: #ffe5e5;
+    }
+
+    .spacing-sample {
+      height: 120px;
+      background-color: #f3f2f2;
+    }
+
+    .spacing-element {
+      background-color: #ffe5e5;
+    }
+
+    .spacing-inner-element {
+      background-color: #aba6a6;
+      height: 20px;
+    }
+
+    .borderRadius-sample {
+      background: #ffe5e5;
+      border: 1px solid #e83e8c;
+      height: 70px;
+      width: 100%;
+    }
+
+    .typography-sample {
+      background-color: #f3f2f2;
+      padding: 10px;
+    }
+    code {
+      white-space: nowrap;
+    }
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="wrapper" class="navbar-nav mr-auto">
+  
+      </ul>
+    </div>
+  </nav>
+  
+  <script>
+    const buildMenu = (tokens) => {
+      const wrapper = document.getElementById('wrapper')
+  
+      tokens.forEach(tokenInfo => {
+        const link = document.createElement('a');
+        link.classList = 'nav-link';
+        link.href = tokenInfo.path;
+        link.innerHTML = tokenInfo.name
+  
+        const item = document.createElement('li');
+        item.classList = 'nav-item'
+        item.appendChild(link);
+        wrapper.appendChild(item);
+      })
+    }
+    window.onload = () => {
+      fetch('../paths.json')
+      .then(response => response.json())
+      .then(buildMenu)
+    }
+  </script>  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h1>Spectrum</h1>
+        <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumDark: <code>#ffffff</code></p>
+        <div class="color-sample" style="background: #ffffff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLight: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray0: <code>#212529</code></p>
+        <div class="color-sample" style="background: #212529"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray1: <code>#343a40</code></p>
+        <div class="color-sample" style="background: #343a40"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray2: <code>#495057</code></p>
+        <div class="color-sample" style="background: #495057"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray3: <code>#868e96</code></p>
+        <div class="color-sample" style="background: #868e96"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray4: <code>#adb5bd</code></p>
+        <div class="color-sample" style="background: #adb5bd"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray5: <code>#ced4da</code></p>
+        <div class="color-sample" style="background: #ced4da"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray6: <code>#dee2e6</code></p>
+        <div class="color-sample" style="background: #dee2e6"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray7: <code>#e9ecef</code></p>
+        <div class="color-sample" style="background: #e9ecef"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray8: <code>#f1f3f5</code></p>
+        <div class="color-sample" style="background: #f1f3f5"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGray9: <code>#f8f9fa</code></p>
+        <div class="color-sample" style="background: #f8f9fa"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed0: <code>#c92a2a</code></p>
+        <div class="color-sample" style="background: #c92a2a"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed1: <code>#e03131</code></p>
+        <div class="color-sample" style="background: #e03131"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed2: <code>#f03e3e</code></p>
+        <div class="color-sample" style="background: #f03e3e"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed3: <code>#fa5252</code></p>
+        <div class="color-sample" style="background: #fa5252"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed4: <code>#ff6b6b</code></p>
+        <div class="color-sample" style="background: #ff6b6b"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed5: <code>#ff8787</code></p>
+        <div class="color-sample" style="background: #ff8787"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed6: <code>#ffa8a8</code></p>
+        <div class="color-sample" style="background: #ffa8a8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed7: <code>#ffc9c9</code></p>
+        <div class="color-sample" style="background: #ffc9c9"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed8: <code>#ffe3e3</code></p>
+        <div class="color-sample" style="background: #ffe3e3"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumRed9: <code>#fff5f5</code></p>
+        <div class="color-sample" style="background: #fff5f5"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink0: <code>#a61e4d</code></p>
+        <div class="color-sample" style="background: #a61e4d"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink1: <code>#c2255c</code></p>
+        <div class="color-sample" style="background: #c2255c"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink2: <code>#d6336c</code></p>
+        <div class="color-sample" style="background: #d6336c"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink3: <code>#e64980</code></p>
+        <div class="color-sample" style="background: #e64980"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink4: <code>#f06595</code></p>
+        <div class="color-sample" style="background: #f06595"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink5: <code>#f783ac</code></p>
+        <div class="color-sample" style="background: #f783ac"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink6: <code>#faa2c1</code></p>
+        <div class="color-sample" style="background: #faa2c1"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink7: <code>#fcc2d7</code></p>
+        <div class="color-sample" style="background: #fcc2d7"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink8: <code>#ffdeeb</code></p>
+        <div class="color-sample" style="background: #ffdeeb"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumPink9: <code>#fff0f6</code></p>
+        <div class="color-sample" style="background: #fff0f6"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape0: <code>#862e9c</code></p>
+        <div class="color-sample" style="background: #862e9c"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape1: <code>#9c36b5</code></p>
+        <div class="color-sample" style="background: #9c36b5"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape2: <code>#ae3ec9</code></p>
+        <div class="color-sample" style="background: #ae3ec9"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape3: <code>#be4bdb</code></p>
+        <div class="color-sample" style="background: #be4bdb"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape4: <code>#cc5de8</code></p>
+        <div class="color-sample" style="background: #cc5de8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape5: <code>#da77f2</code></p>
+        <div class="color-sample" style="background: #da77f2"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape6: <code>#e599f7</code></p>
+        <div class="color-sample" style="background: #e599f7"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape7: <code>#eebefa</code></p>
+        <div class="color-sample" style="background: #eebefa"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape8: <code>#f3d9fa</code></p>
+        <div class="color-sample" style="background: #f3d9fa"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGrape9: <code>#f8f0fc</code></p>
+        <div class="color-sample" style="background: #f8f0fc"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet0: <code>#5f3dc4</code></p>
+        <div class="color-sample" style="background: #5f3dc4"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet1: <code>#6741d9</code></p>
+        <div class="color-sample" style="background: #6741d9"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet2: <code>#7048e8</code></p>
+        <div class="color-sample" style="background: #7048e8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet3: <code>#7950f2</code></p>
+        <div class="color-sample" style="background: #7950f2"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet4: <code>#845ef7</code></p>
+        <div class="color-sample" style="background: #845ef7"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet5: <code>#9775fa</code></p>
+        <div class="color-sample" style="background: #9775fa"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet6: <code>#b197fc</code></p>
+        <div class="color-sample" style="background: #b197fc"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet7: <code>#d0bfff</code></p>
+        <div class="color-sample" style="background: #d0bfff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet8: <code>#e5dbff</code></p>
+        <div class="color-sample" style="background: #e5dbff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumViolet9: <code>#f3f0ff</code></p>
+        <div class="color-sample" style="background: #f3f0ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo0: <code>#364fc7</code></p>
+        <div class="color-sample" style="background: #364fc7"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo1: <code>#3b5bdb</code></p>
+        <div class="color-sample" style="background: #3b5bdb"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo2: <code>#4263eb</code></p>
+        <div class="color-sample" style="background: #4263eb"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo3: <code>#4c6ef5</code></p>
+        <div class="color-sample" style="background: #4c6ef5"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo4: <code>#5c7cfa</code></p>
+        <div class="color-sample" style="background: #5c7cfa"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo5: <code>#748ffc</code></p>
+        <div class="color-sample" style="background: #748ffc"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo6: <code>#91a7ff</code></p>
+        <div class="color-sample" style="background: #91a7ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo7: <code>#bac8ff</code></p>
+        <div class="color-sample" style="background: #bac8ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo8: <code>#dbe4ff</code></p>
+        <div class="color-sample" style="background: #dbe4ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumIndigo9: <code>#edf2ff</code></p>
+        <div class="color-sample" style="background: #edf2ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue0: <code>#1864ab</code></p>
+        <div class="color-sample" style="background: #1864ab"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue1: <code>#1971c2</code></p>
+        <div class="color-sample" style="background: #1971c2"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue2: <code>#1c7ed6</code></p>
+        <div class="color-sample" style="background: #1c7ed6"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue3: <code>#228be6</code></p>
+        <div class="color-sample" style="background: #228be6"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue4: <code>#339af0</code></p>
+        <div class="color-sample" style="background: #339af0"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue5: <code>#4dabf7</code></p>
+        <div class="color-sample" style="background: #4dabf7"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue6: <code>#74c0fc</code></p>
+        <div class="color-sample" style="background: #74c0fc"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue7: <code>#a5d8ff</code></p>
+        <div class="color-sample" style="background: #a5d8ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue8: <code>#d0ebff</code></p>
+        <div class="color-sample" style="background: #d0ebff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumBlue9: <code>#e7f5ff</code></p>
+        <div class="color-sample" style="background: #e7f5ff"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan0: <code>#0b7285</code></p>
+        <div class="color-sample" style="background: #0b7285"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan1: <code>#0c8599</code></p>
+        <div class="color-sample" style="background: #0c8599"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan2: <code>#1098ad</code></p>
+        <div class="color-sample" style="background: #1098ad"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan3: <code>#15aabf</code></p>
+        <div class="color-sample" style="background: #15aabf"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan4: <code>#22b8cf</code></p>
+        <div class="color-sample" style="background: #22b8cf"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan5: <code>#3bc9db</code></p>
+        <div class="color-sample" style="background: #3bc9db"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan6: <code>#66d9e8</code></p>
+        <div class="color-sample" style="background: #66d9e8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan7: <code>#99e9f2</code></p>
+        <div class="color-sample" style="background: #99e9f2"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan8: <code>#c5f6fa</code></p>
+        <div class="color-sample" style="background: #c5f6fa"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumCyan9: <code>#e3fafc</code></p>
+        <div class="color-sample" style="background: #e3fafc"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal0: <code>#087f5b</code></p>
+        <div class="color-sample" style="background: #087f5b"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal1: <code>#099268</code></p>
+        <div class="color-sample" style="background: #099268"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal2: <code>#0ca678</code></p>
+        <div class="color-sample" style="background: #0ca678"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal3: <code>#12b886</code></p>
+        <div class="color-sample" style="background: #12b886"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal4: <code>#20c997</code></p>
+        <div class="color-sample" style="background: #20c997"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal5: <code>#38d9a9</code></p>
+        <div class="color-sample" style="background: #38d9a9"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal6: <code>#63e6be</code></p>
+        <div class="color-sample" style="background: #63e6be"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal7: <code>#96f2d7</code></p>
+        <div class="color-sample" style="background: #96f2d7"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal8: <code>#c3fae8</code></p>
+        <div class="color-sample" style="background: #c3fae8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumTeal9: <code>#e6fcf5</code></p>
+        <div class="color-sample" style="background: #e6fcf5"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen0: <code>#2b8a3e</code></p>
+        <div class="color-sample" style="background: #2b8a3e"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen1: <code>#2f9e44</code></p>
+        <div class="color-sample" style="background: #2f9e44"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen2: <code>#37b24d</code></p>
+        <div class="color-sample" style="background: #37b24d"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen3: <code>#40c057</code></p>
+        <div class="color-sample" style="background: #40c057"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen4: <code>#51cf66</code></p>
+        <div class="color-sample" style="background: #51cf66"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen5: <code>#69db7c</code></p>
+        <div class="color-sample" style="background: #69db7c"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen6: <code>#8ce99a</code></p>
+        <div class="color-sample" style="background: #8ce99a"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen7: <code>#b2f2bb</code></p>
+        <div class="color-sample" style="background: #b2f2bb"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen8: <code>#d3f9d8</code></p>
+        <div class="color-sample" style="background: #d3f9d8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumGreen9: <code>#ebfbee</code></p>
+        <div class="color-sample" style="background: #ebfbee"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime0: <code>#5c940d</code></p>
+        <div class="color-sample" style="background: #5c940d"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime1: <code>#66a80f</code></p>
+        <div class="color-sample" style="background: #66a80f"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime2: <code>#74b816</code></p>
+        <div class="color-sample" style="background: #74b816"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime3: <code>#82c91e</code></p>
+        <div class="color-sample" style="background: #82c91e"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime4: <code>#94d82d</code></p>
+        <div class="color-sample" style="background: #94d82d"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime5: <code>#a9e34b</code></p>
+        <div class="color-sample" style="background: #a9e34b"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime6: <code>#c0eb75</code></p>
+        <div class="color-sample" style="background: #c0eb75"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime7: <code>#d8f5a2</code></p>
+        <div class="color-sample" style="background: #d8f5a2"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime8: <code>#e9fac8</code></p>
+        <div class="color-sample" style="background: #e9fac8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumLime9: <code>#f4fce3</code></p>
+        <div class="color-sample" style="background: #f4fce3"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow0: <code>#e67700</code></p>
+        <div class="color-sample" style="background: #e67700"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow1: <code>#f08c00</code></p>
+        <div class="color-sample" style="background: #f08c00"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow2: <code>#f59f00</code></p>
+        <div class="color-sample" style="background: #f59f00"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow3: <code>#fab005</code></p>
+        <div class="color-sample" style="background: #fab005"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow4: <code>#fcc419</code></p>
+        <div class="color-sample" style="background: #fcc419"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow5: <code>#ffd43b</code></p>
+        <div class="color-sample" style="background: #ffd43b"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow6: <code>#ffe066</code></p>
+        <div class="color-sample" style="background: #ffe066"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow7: <code>#ffec99</code></p>
+        <div class="color-sample" style="background: #ffec99"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow8: <code>#fff3bf</code></p>
+        <div class="color-sample" style="background: #fff3bf"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumYellow9: <code>#fff9db</code></p>
+        <div class="color-sample" style="background: #fff9db"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange0: <code>#d9480f</code></p>
+        <div class="color-sample" style="background: #d9480f"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange1: <code>#e8590c</code></p>
+        <div class="color-sample" style="background: #e8590c"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange2: <code>#f76707</code></p>
+        <div class="color-sample" style="background: #f76707"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange3: <code>#fd7e14</code></p>
+        <div class="color-sample" style="background: #fd7e14"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange4: <code>#ff922b</code></p>
+        <div class="color-sample" style="background: #ff922b"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange5: <code>#ffa94d</code></p>
+        <div class="color-sample" style="background: #ffa94d"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange6: <code>#ffc078</code></p>
+        <div class="color-sample" style="background: #ffc078"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange7: <code>#ffd8a8</code></p>
+        <div class="color-sample" style="background: #ffd8a8"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange8: <code>#ffe8cc</code></p>
+        <div class="color-sample" style="background: #ffe8cc"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumOrange9: <code>#fff4e6</code></p>
+        <div class="color-sample" style="background: #fff4e6"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandPrimary: <code>#062923</code></p>
+        <div class="color-sample" style="background: #062923"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandPrimaryDark: <code>#000000</code></p>
+        <div class="color-sample" style="background: #000000"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandPrimaryLight: <code>#30524B</code></p>
+        <div class="color-sample" style="background: #30524B"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandSecondary: <code>#D5CD61</code></p>
+        <div class="color-sample" style="background: #D5CD61"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandSecondaryDark: <code>#A19C31</code></p>
+        <div class="color-sample" style="background: #A19C31"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandSecondaryLight: <code>#FFFF91</code></p>
+        <div class="color-sample" style="background: #FFFF91"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandTertiary: <code>#9B6256</code></p>
+        <div class="color-sample" style="background: #9B6256"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandTertiaryDark: <code>#6A372D</code></p>
+        <div class="color-sample" style="background: #6A372D"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">spectrumColorBrandTertiaryLight: <code>#CE9083</code></p>
+        <div class="color-sample" style="background: #CE9083"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">gradient: <code></code></p>
+        <div class="color-sample" style="background: -gradient(deg,  0%,  100%);"></div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

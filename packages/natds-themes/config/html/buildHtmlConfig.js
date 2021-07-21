@@ -7,6 +7,11 @@ const buildHtmlConfig = (brand, mode) => ({
       filter: 'privateProperties',
       format: 'html/colors',
     },
+    {
+      destination: `spectrum-${mode}.html`,
+      filter: 'spectrumProperties',
+      format: 'html/spectrum',
+    },
   ],
   transformGroup: 'html',
   transforms: ['name/cti/camel-custom', 'asset/extension'],

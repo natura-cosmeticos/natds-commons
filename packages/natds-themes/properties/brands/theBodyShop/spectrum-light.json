@@ -1,0 +1,51 @@
+{
+  "spectrum": {
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "#062923"
+        },
+        "primaryDark": {
+          "value": "#000000"
+        },
+        "primaryLight": {
+          "value": "#30524B"
+        },
+        "secondary": {
+          "value": "#D5CD61"
+        },
+        "secondaryDark": {
+          "value": "#A19C31"
+        },
+        "secondaryLight": {
+          "value": "#FFFF91"
+        },
+        "tertiary": {
+          "value": "#9B6256"
+        },
+        "tertiaryDark": {
+          "value": "#6A372D"
+        },
+        "tertiaryLight": {
+          "value": "#CE9083"
+        },
+        "gradient": {
+          "primary": {
+            "type": {
+              "value": "linear"
+            },
+            "angle": {
+              "value": 101
+            },
+            "start": {
+              "value": "{spectrum.color.brand.primary.value}"
+            },
+            "end": {
+              "value": "{spectrum.color.brand.secondary.value}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

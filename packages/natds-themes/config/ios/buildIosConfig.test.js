@@ -16,6 +16,17 @@ const expectedConfig = {
       format: 'ios-swift/theme-protocol.swift',
     },
     {
+      destination: '/spectrum/SpectrumProtocol.swift',
+      filter: 'spectrumProperties',
+      format: 'ios-swift/spectrum-protocol.swift',
+    },
+    {
+      destination: '/spectrum/PokemonPikachuSpectrum.swift',
+      filter: 'spectrumProperties',
+      format: 'ios-swift/spectrum.swift',
+      themeName: 'PokemonPikachu',
+    },
+    {
       destination: 'PokemonPikachu.js',
       filter: 'privateProperties',
       format: 'javascript/module',

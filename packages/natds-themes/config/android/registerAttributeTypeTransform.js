@@ -5,6 +5,7 @@ const categoryTypes = {
   color: 'color',
   default: 'dimension',
   opacity: 'float',
+  spectrum: 'color',
 };
 
 const isStringTypeProp = isOneOfProps(['fontFamily', 'fontWeight']);

@@ -1,0 +1,9 @@
+{{> fileHeader }}
+
+
+
+struct {{themeName}}Spectrum: Spectrum {
+{{#each spectrum}}
+  let {{name}}{{#if attributes.customOptions.includeType}}: {{attributes.customOptions.type}}{{/if}} = {{value}}
+{{/each}}
+}

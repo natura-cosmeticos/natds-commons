@@ -83,5 +83,8 @@
     "ramda": "0.27.1",
     "style-dictionary": "3.0.1",
     "svgo": "2.3.0"
+  },
+  "dependencies": {
+    "open-color": "^1.8.0"
   }
 }

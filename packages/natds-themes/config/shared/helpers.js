@@ -18,12 +18,14 @@ import {
   prop,
   includes,
   any,
+  both,
 } from 'ramda';
 
 export const isProp = (propName) => pipe(prop('path'), includes(propName));
 export const flipIsProp = flip(uncurryN(2, isProp));
 export const isOneOfProps = (property) => (dic) => any(flipIsProp(dic))(property);
-export const isPrivateProp = isProp('platform');
+export const isPrivateProp = isOneOfProps(['platform', 'spectrum']);
+export const isSpectrumProp = both(isProp('spectrum'), pipe(isProp('gradient'), not));
 export const isAsset = isProp('asset');
 
 export const flattenProps = (properties) => {
