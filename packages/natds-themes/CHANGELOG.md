@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.6.2...@naturacosmeticos/natds-themes@0.7.0) (2021-07-21)
+
+
+### Features
+
+* **natds-themes:** add spectrum colors ([29480d5](https://github.com/natura-cosmeticos/natds-commons/commit/29480d550173468669838cca636306354ff2a56a))
+
+
+
+
+
 ## [0.6.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.6.2-alpha.1...@naturacosmeticos/natds-themes@0.6.2) (2021-06-29)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
