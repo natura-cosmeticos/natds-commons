@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import { compileTemplate, registerTemplateHeaderHelper } from '../shared/templateHelpers';
-import { createEncodedHashFromValue } from './helpers';
+import { compileTemplate, registerTemplateHeaderHelper } from '../shared/helpers';
+import { createEncodedHashFromValue } from './shared/helpers';
 
 const buildEncodedObjectFromValue = (value) => ({ [createEncodedHashFromValue(value)]: value });
 
@@ -13,7 +13,7 @@ const buildUniqueEncodedArray = (values) => {
 
 export const buildResourcesFromThemeValues = (resourceType) => {
   const outputPath = path.resolve(__dirname, '../../build/android');
-  const templatePath = path.resolve(__dirname, `./templates/${resourceType}.hbs`);
+  const templatePath = path.resolve(__dirname, `./formats/templates/${resourceType}.hbs`);
   const themeValues = fs.readFileSync(`${outputPath}/${resourceType}.json`);
 
   const template = compileTemplate(templatePath);

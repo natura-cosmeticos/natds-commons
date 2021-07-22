@@ -1,10 +1,11 @@
 import fs from 'fs';
 import path from 'path';
-import * as templateHelpers from '../shared/templateHelpers';
-import * as helpers from './helpers';
+import * as sharedHelpers from '../shared/helpers';
+import * as helpers from './shared/helpers';
 import { buildResourcesOutput, buildResourcesFromThemeValues } from './buildResourcesOutput';
 
 jest.mock('fs');
+jest.mock('../shared/helpers');
 
 describe('buildResourcesOutput', () => {
   beforeEach(() => {
@@ -15,8 +16,12 @@ describe('buildResourcesOutput', () => {
   });
 
   it('should register the template header', () => {
+    jest
+      .spyOn(sharedHelpers, 'compileTemplate')
+      .mockImplementation(() => jest.fn());
+
     const registerTemplateHeaderHelperSpy = jest
-      .spyOn(templateHelpers, 'registerTemplateHeaderHelper');
+      .spyOn(sharedHelpers, 'registerTemplateHeaderHelper');
 
     buildResourcesOutput();
 
@@ -25,13 +30,18 @@ describe('buildResourcesOutput', () => {
 
   it('should build resource files for android', () => {
     const templateSpy = jest.fn().mockReturnValue('A template');
-    const compileTemplateSpy = jest.spyOn(templateHelpers, 'compileTemplate').mockReturnValue(templateSpy);
-    const createEncodedHashFromValueSpy = jest.spyOn(helpers, 'createEncodedHashFromValue').mockReturnValue('encodedValue');
+    const compileTemplateSpy = jest
+      .spyOn(sharedHelpers, 'compileTemplate')
+      .mockImplementation(() => templateSpy);
+
+    const createEncodedHashFromValueSpy = jest
+      .spyOn(helpers, 'createEncodedHashFromValue')
+      .mockReturnValue('encodedValue');
 
     buildResourcesFromThemeValues('colors');
 
     const expectedDataPath = path.resolve(__dirname, '../../build/android/colors.json');
-    const expectedTemplatePath = path.resolve(__dirname, './templates/colors.hbs');
+    const expectedTemplatePath = path.resolve(__dirname, 'formats/templates/colors.hbs');
     const expectedResourcePath = path.resolve(__dirname, '../../build/android/colors.xml');
 
     expect(fs.readFileSync).toHaveBeenCalledWith(expectedDataPath);

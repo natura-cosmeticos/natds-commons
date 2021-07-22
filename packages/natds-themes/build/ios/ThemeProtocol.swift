@@ -23,10 +23,18 @@ protocol Theme {
 }
 
 protocol Tokens {
-  var assetBrandNeutralA: String { get }
-  var assetBrandNeutralB: String { get }
-  var assetBrandCustomA: String { get }
-  var assetBrandCustomB: String { get }
+  var assetBrandNeutralAFile: String { get }
+  var assetBrandNeutralAWidth: CGFloat { get }
+  var assetBrandNeutralAHeight: CGFloat { get }
+  var assetBrandNeutralBFile: String { get }
+  var assetBrandNeutralBWidth: CGFloat { get }
+  var assetBrandNeutralBHeight: CGFloat { get }
+  var assetBrandCustomAFile: String { get }
+  var assetBrandCustomAWidth: CGFloat { get }
+  var assetBrandCustomAHeight: CGFloat { get }
+  var assetBrandCustomBFile: String { get }
+  var assetBrandCustomBWidth: CGFloat { get }
+  var assetBrandCustomBHeight: CGFloat { get }
   var borderRadiusNone: CGFloat { get }
   var borderRadiusSmall: CGFloat { get }
   var borderRadiusMedium: CGFloat { get }

@@ -1,4 +1,4 @@
-import { capitalizeWord } from '../shared/textHelpers';
+import { capitalizeWord } from '../shared/helpers';
 
 const buildIosConfig = (brand, mode) => ({
   actions: ['custom_copy_assets'],

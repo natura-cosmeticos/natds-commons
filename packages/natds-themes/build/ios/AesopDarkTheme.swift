@@ -23,10 +23,18 @@ struct AesopDarkTheme: Theme {
 }
 
 struct AesopDarkTokens: Tokens {
-  let assetBrandNeutralA = "aesop-a-official-dark"
-  let assetBrandNeutralB = "aesop-a-official-dark"
-  let assetBrandCustomA = "aesop-a-custom"
-  let assetBrandCustomB = "aesop-a-custom"
+  let assetBrandNeutralAFile = "aesop-a-official-dark"
+  let assetBrandNeutralAWidth: CGFloat = 256
+  let assetBrandNeutralAHeight: CGFloat = 82
+  let assetBrandNeutralBFile = "aesop-a-official-dark"
+  let assetBrandNeutralBWidth: CGFloat = 256
+  let assetBrandNeutralBHeight: CGFloat = 82
+  let assetBrandCustomAFile = "aesop-a-custom"
+  let assetBrandCustomAWidth: CGFloat = 256
+  let assetBrandCustomAHeight: CGFloat = 82
+  let assetBrandCustomBFile = "aesop-a-custom"
+  let assetBrandCustomBWidth: CGFloat = 256
+  let assetBrandCustomBHeight: CGFloat = 82
   let borderRadiusNone: CGFloat = 0
   let borderRadiusSmall: CGFloat = 2
   let borderRadiusMedium: CGFloat = 4

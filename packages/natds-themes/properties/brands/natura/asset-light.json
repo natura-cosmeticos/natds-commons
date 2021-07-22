@@ -3,18 +3,50 @@
     "brand": {
       "neutral":{
         "a": {
-          "value": "natura-a-official"
+          "file": {
+            "value": "natura-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
         },
         "b": {
-          "value": "natura-b-official"
+          "file": {
+            "value": "natura-b-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 192
+          }
         }
       },
       "custom":{
         "a": {
-          "value": "natura-a-custom"
+          "file": {
+            "value": "natura-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
         },
         "b": {
-          "value": "natura-b-custom"
+          "file": {
+            "value": "natura-b-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 192
+          }
         }
       }
     }

@@ -23,6 +23,9 @@ const buildReactNativeConfig = (brand, mode) => ({
     'name/cti/camel-custom',
     'color/hex',
     'asset/extension',
+    'asset/svg-optimized',
+    'asset/svg-inline',
+    'asset/svg-fill-to-css',
   ],
 });
 

@@ -23,10 +23,18 @@ struct AvonLightTheme: Theme {
 }
 
 struct AvonLightTokens: Tokens {
-  let assetBrandNeutralA = "avon-a-official"
-  let assetBrandNeutralB = "avon-a-official"
-  let assetBrandCustomA = "avon-a-custom"
-  let assetBrandCustomB = "avon-a-custom"
+  let assetBrandNeutralAFile = "avon-a-official"
+  let assetBrandNeutralAWidth: CGFloat = 256
+  let assetBrandNeutralAHeight: CGFloat = 58
+  let assetBrandNeutralBFile = "avon-a-official"
+  let assetBrandNeutralBWidth: CGFloat = 256
+  let assetBrandNeutralBHeight: CGFloat = 58
+  let assetBrandCustomAFile = "avon-a-custom"
+  let assetBrandCustomAWidth: CGFloat = 256
+  let assetBrandCustomAHeight: CGFloat = 58
+  let assetBrandCustomBFile = "avon-a-custom"
+  let assetBrandCustomBWidth: CGFloat = 256
+  let assetBrandCustomBHeight: CGFloat = 58
   let borderRadiusNone: CGFloat = 0
   let borderRadiusSmall: CGFloat = 2
   let borderRadiusMedium: CGFloat = 4

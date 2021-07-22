@@ -132,10 +132,18 @@
   <attr name="colorOnWarning" format="color" />  
   <attr name="colorAlert" format="color" />  
   <attr name="colorOnAlert" format="color" />  
-  <attr name="assetBrandNeutralA" format="reference" />  
-  <attr name="assetBrandNeutralB" format="reference" />  
-  <attr name="assetBrandCustomA" format="reference" />  
-  <attr name="assetBrandCustomB" format="reference" />  
+  <attr name="assetBrandNeutralAFile" format="reference" />  
+  <attr name="assetBrandNeutralAWidth" format="reference" />  
+  <attr name="assetBrandNeutralAHeight" format="reference" />  
+  <attr name="assetBrandNeutralBFile" format="reference" />  
+  <attr name="assetBrandNeutralBWidth" format="reference" />  
+  <attr name="assetBrandNeutralBHeight" format="reference" />  
+  <attr name="assetBrandCustomAFile" format="reference" />  
+  <attr name="assetBrandCustomAWidth" format="reference" />  
+  <attr name="assetBrandCustomAHeight" format="reference" />  
+  <attr name="assetBrandCustomBFile" format="reference" />  
+  <attr name="assetBrandCustomBWidth" format="reference" />  
+  <attr name="assetBrandCustomBHeight" format="reference" />  
   <attr name="elevationNone" format="dimension" />  
   <attr name="elevationMicro" format="dimension" />  
   <attr name="elevationTiny" format="dimension" />  

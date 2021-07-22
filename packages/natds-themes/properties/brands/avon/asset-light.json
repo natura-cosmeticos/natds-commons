@@ -3,18 +3,50 @@
     "brand": {
       "neutral":{
         "a": {
-          "value": "avon-a-official"
+          "file": {
+            "value": "avon-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
         },
         "b": {
-          "value": "avon-a-official"
+          "file": {
+            "value": "avon-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
         }
       },
       "custom":{
         "a": {
-          "value": "avon-a-custom"
+          "file": {
+            "value": "avon-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
         },
         "b": {
-          "value": "avon-a-custom"
+          "file": {
+            "value": "avon-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
         }
       }
     }

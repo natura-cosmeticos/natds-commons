@@ -1,65 +1,43 @@
-import { registerHtmlFormat, registerSpectrumHtmlFormat } from '../html/registerHtmlFormat';
-import registerHtmlCreatePathsAction from '../html/registerCreatePathsAction';
-import { registerSpectrumFormat as registerAndroidSpectrumFormat, registerAttributesFormat } from '../android/registerAttributesFormat';
-import registerThemeFormatAndroid from '../android/registerThemeFormat';
-import { registerDpTransform } from '../android/registerDpTransform';
-import { registerAssetSnakeTransform } from '../android/registerAssetSnakeTransform';
-import { registerAttributeTypeTransform } from '../android/registerAttributeTypeTransform';
-import { registerCreateResourcesAction } from '../android/registerCreateResourcesAction';
-import {
-  registerThemeFormat,
-  registerThemeProtocolFormat,
-  registerSpectrumProtocolFormat,
-  registerSpectrumFormat,
-} from '../ios/registerFormats';
-import registerAttributeTypeTransformIos from '../ios/registerAttributeTypeTransform';
-import { registerValueStringLiteralTransform } from '../ios/registerValueStringLiteralTransform';
-import { registerTemplateHeaderHelper } from './templateHelpers';
-import { registerTypeDefinitionsAction } from './registerTypeDefinitionsAction';
-import { registerCopyAssetsAction } from './registerCopyAssetsAction';
-import { registerCamelTransform } from './registerCamelTransform';
-import { registerPxTransform } from './registerPxTransform';
-import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilter';
-import { registerAssetExtensionTransform } from './registerAssetExtensionTransform';
-import { registerAssetInlineTransform } from './registerAssetInlineTransform';
-import { registerOptimizeSvgTransform } from './registerOptimizeSvgTransform';
-import { registerSpectrumPropertiesFilter } from './registerSpectrumPropertiesFilter';
+import android from '../android';
+import html from '../html';
+import ios from '../ios';
+import reactNative from '../react-native';
+import css from '../css';
+import web from '../web';
+import shared from '.';
+import { registerTemplateHeaderHelper } from './helpers/templateHelpers';
 
 export const customFormats = [
-  registerHtmlFormat,
-  registerAndroidSpectrumFormat,
-  registerAttributesFormat,
-  registerThemeFormatAndroid,
-  registerThemeFormat,
-  registerThemeProtocolFormat,
-  registerSpectrumProtocolFormat,
-  registerSpectrumFormat,
-  registerSpectrumHtmlFormat,
+  ...android.formats,
+  ...ios.formats,
+  ...reactNative.formats,
+  ...web.formats,
+  ...css.formats,
+  ...html.formats,
 ];
 
 export const customActions = [
-  registerHtmlCreatePathsAction,
-  registerTypeDefinitionsAction,
-  registerCreateResourcesAction,
-  registerCopyAssetsAction,
+  ...android.actions,
+  ...ios.actions,
+  ...reactNative.actions,
+  ...web.actions,
+  ...css.actions,
+  ...html.actions,
+  ...shared.actions,
 ];
 
 export const customTransforms = [
-  registerCamelTransform,
-  registerDpTransform,
-  registerAttributeTypeTransform,
-  registerAttributeTypeTransformIos,
-  registerValueStringLiteralTransform,
-  registerPxTransform,
-  registerAssetExtensionTransform,
-  registerAssetSnakeTransform,
-  registerAssetInlineTransform,
-  registerOptimizeSvgTransform,
+  ...android.transforms,
+  ...ios.transforms,
+  ...reactNative.transforms,
+  ...web.transforms,
+  ...css.transforms,
+  ...html.transforms,
+  ...shared.transforms,
 ];
 
 export const customFilters = [
-  registerPrivatePropertiesFilter,
-  registerSpectrumPropertiesFilter,
+  ...shared.filters,
 ];
 
 registerTemplateHeaderHelper();

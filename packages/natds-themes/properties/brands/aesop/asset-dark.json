@@ -3,18 +3,50 @@
     "brand": {
       "neutral":{
         "a": {
-          "value": "aesop-a-official-dark"
+          "file": {
+            "value": "aesop-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
         },
         "b": {
-          "value": "aesop-a-official-dark"
+          "file": {
+            "value": "aesop-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
         }
       },
       "custom":{
         "a": {
-          "value": "aesop-a-custom"
+          "file": {
+            "value": "aesop-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
         },
         "b": {
-          "value": "aesop-a-custom"
+          "file": {
+            "value": "aesop-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
         }
       }
     }

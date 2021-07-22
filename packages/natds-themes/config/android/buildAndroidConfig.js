@@ -1,4 +1,4 @@
-import { capitalizeWord } from '../shared/textHelpers';
+import { capitalizeWord } from '../shared/helpers';
 
 const buildAndroidConfig = (brand, mode) => ({
   actions: ['create_resources', 'custom_copy_assets'],

@@ -23,10 +23,18 @@ struct TheBodyShopDarkTheme: Theme {
 }
 
 struct TheBodyShopDarkTokens: Tokens {
-  let assetBrandNeutralA = "thebodyshop-a-official-dark"
-  let assetBrandNeutralB = "thebodyshop-b-official-dark"
-  let assetBrandCustomA = "thebodyshop-a-custom"
-  let assetBrandCustomB = "thebodyshop-b-custom"
+  let assetBrandNeutralAFile = "thebodyshop-a-official-dark"
+  let assetBrandNeutralAWidth: CGFloat = 256
+  let assetBrandNeutralAHeight: CGFloat = 27
+  let assetBrandNeutralBFile = "thebodyshop-b-official-dark"
+  let assetBrandNeutralBWidth: CGFloat = 256
+  let assetBrandNeutralBHeight: CGFloat = 109
+  let assetBrandCustomAFile = "thebodyshop-a-custom"
+  let assetBrandCustomAWidth: CGFloat = 256
+  let assetBrandCustomAHeight: CGFloat = 27
+  let assetBrandCustomBFile = "thebodyshop-b-custom"
+  let assetBrandCustomBWidth: CGFloat = 256
+  let assetBrandCustomBHeight: CGFloat = 109
   let borderRadiusNone: CGFloat = 0
   let borderRadiusSmall: CGFloat = 2
   let borderRadiusMedium: CGFloat = 4

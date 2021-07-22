@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Jul 2021 19:33:02 GMT
+ * Generated on Wed, 28 Jul 2021 20:30:06 GMT
  */
 
 module.exports = {
@@ -1984,110 +1984,310 @@ module.exports = {
     "brand": {
       "neutral": {
         "a": {
-          "value": "avon-a-official",
-          "filePath": "properties/brands/avon/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-official"
+          "file": {
+            "value": "<svg width=\"256\" height=\"58\" viewBox=\"0 0 256 58\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M88.189 55.36 62.224 1.085h7.058a8.304 8.304 0 0 1 7.519 4.786l14.273 30.408L105.235 5.87a8.303 8.303 0 0 1 7.527-4.786h7.112L93.924 55.36h-5.735zM24.384 30.639a50.804 50.804 0 0 1 12.255 4.005l-7.071-14.901-5.184 10.896zm34.792 24.723H46.691C38.743 44.659 29.91 40.97 19.963 39.737l-5.6 10.837c-1.905 3.161-4.686 4.764-7.906 4.764H0L26.642 1.08h5.838l26.696 54.282zM250.807 1.084a5.713 5.713 0 0 0-5.712 5.716l.031 28.634-28.343-34.35h-8.409V55.36h5.211a5.71 5.71 0 0 0 5.712-5.717l-.031-28.574 23.219 28.253s4.548 6.038 11.19 6.038H256V1.084h-5.193zm-62.229 27.274a27.591 27.591 0 0 1-8.534 20.125 28.899 28.899 0 0 1-20.365 8.273 28.458 28.458 0 0 1-20.415-48.65C144.665 2.803 151.722 0 159.679 0c7.957 0 15.073 2.804 20.41 8.128a28.077 28.077 0 0 1 8.489 20.23zm-11.068 0a17.817 17.817 0 0 0-10.987-16.479 17.822 17.822 0 1 0 10.987 16.479z\" fill=\"url(#a)\"/><defs><pattern id=\"a\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\"><use xlink:href=\"#b\" transform=\"matrix(.00405 0 0 .01786 -.022 0)\"/></pattern><image id=\"b\" width=\"258\" height=\"56\" xlink:href=\"https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/avon-a-official-embed-image-0.png\"/></defs></svg>",
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-official"
+            },
+            "name": "assetBrandNeutralAFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "file",
+              "assetOptions": {
+                "extensions": [
+                  "svg"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "file"
+            ]
           },
-          "name": "assetBrandNeutralA",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "neutral",
-            "subitem": "a",
-            "assetOptions": {
-              "extensions": [
-                "svg"
-              ]
-            }
+          "width": {
+            "value": 256,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandNeutralAWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "width"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "width"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "neutral",
-            "a"
-          ]
+          "height": {
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandNeutralAHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "height"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "height"
+            ]
+          }
         },
         "b": {
-          "value": "avon-a-official",
-          "filePath": "properties/brands/avon/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-official"
+          "file": {
+            "value": "<svg width=\"256\" height=\"58\" viewBox=\"0 0 256 58\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M88.189 55.36 62.224 1.085h7.058a8.304 8.304 0 0 1 7.519 4.786l14.273 30.408L105.235 5.87a8.303 8.303 0 0 1 7.527-4.786h7.112L93.924 55.36h-5.735zM24.384 30.639a50.804 50.804 0 0 1 12.255 4.005l-7.071-14.901-5.184 10.896zm34.792 24.723H46.691C38.743 44.659 29.91 40.97 19.963 39.737l-5.6 10.837c-1.905 3.161-4.686 4.764-7.906 4.764H0L26.642 1.08h5.838l26.696 54.282zM250.807 1.084a5.713 5.713 0 0 0-5.712 5.716l.031 28.634-28.343-34.35h-8.409V55.36h5.211a5.71 5.71 0 0 0 5.712-5.717l-.031-28.574 23.219 28.253s4.548 6.038 11.19 6.038H256V1.084h-5.193zm-62.229 27.274a27.591 27.591 0 0 1-8.534 20.125 28.899 28.899 0 0 1-20.365 8.273 28.458 28.458 0 0 1-20.415-48.65C144.665 2.803 151.722 0 159.679 0c7.957 0 15.073 2.804 20.41 8.128a28.077 28.077 0 0 1 8.489 20.23zm-11.068 0a17.817 17.817 0 0 0-10.987-16.479 17.822 17.822 0 1 0 10.987 16.479z\" fill=\"url(#a)\"/><defs><pattern id=\"a\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\"><use xlink:href=\"#b\" transform=\"matrix(.00405 0 0 .01786 -.022 0)\"/></pattern><image id=\"b\" width=\"258\" height=\"56\" xlink:href=\"https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/avon-a-official-embed-image-0.png\"/></defs></svg>",
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-official"
+            },
+            "name": "assetBrandNeutralBFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "file",
+              "assetOptions": {
+                "extensions": [
+                  "svg"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "file"
+            ]
           },
-          "name": "assetBrandNeutralB",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "neutral",
-            "subitem": "b",
-            "assetOptions": {
-              "extensions": [
-                "svg"
-              ]
-            }
+          "width": {
+            "value": 256,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandNeutralBWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "width"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "width"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "neutral",
-            "b"
-          ]
+          "height": {
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandNeutralBHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "height"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "height"
+            ]
+          }
         }
       },
       "custom": {
         "a": {
-          "value": "avon-a-custom",
-          "filePath": "properties/brands/avon/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-custom"
+          "file": {
+            "value": "<svg width=\"256\" height=\"58\" viewBox=\"0 0 256 58\"  xmlns=\"http://www.w3.org/2000/svg\">\n    <style>\n      path @@@\n        fill: #000000\n      !!!\n    </style>\n    <path d=\"M88.189 55.36 62.224 1.085h7.058a8.304 8.304 0 0 1 7.519 4.786l14.273 30.408L105.235 5.87a8.303 8.303 0 0 1 7.527-4.786h7.112L93.924 55.36h-5.735zM24.384 30.639a50.804 50.804 0 0 1 12.255 4.005l-7.071-14.901-5.184 10.896zm34.792 24.723H46.691C38.743 44.659 29.91 40.97 19.963 39.737l-5.6 10.837c-1.905 3.161-4.686 4.764-7.906 4.764H0L26.642 1.08h5.838l26.696 54.282zM250.807 1.084a5.713 5.713 0 0 0-5.712 5.716l.031 28.634-28.343-34.35h-8.409V55.36h5.211a5.71 5.71 0 0 0 5.712-5.717l-.031-28.574 23.219 28.253s4.548 6.038 11.19 6.038H256V1.084h-5.193zm-62.229 27.274a27.591 27.591 0 0 1-8.534 20.125 28.9 28.9 0 0 1-20.365 8.273 28.573 28.573 0 0 1-20.415-8.295 28.417 28.417 0 0 1-6.22-31.107 28.418 28.418 0 0 1 6.22-9.249C144.665 2.805 151.722 0 159.679 0c7.957 0 15.073 2.804 20.41 8.128a28.077 28.077 0 0 1 8.489 20.23zm-11.068 0a17.817 17.817 0 0 0-10.987-16.479 17.822 17.822 0 1 0-6.844 34.284 17.851 17.851 0 0 0 17.831-17.805z\" /></svg>",
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-custom"
+            },
+            "name": "assetBrandCustomAFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "file",
+              "assetOptions": {
+                "extensions": [
+                  "svg"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "file"
+            ]
           },
-          "name": "assetBrandCustomA",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "custom",
-            "subitem": "a",
-            "assetOptions": {
-              "extensions": [
-                "svg"
-              ]
-            }
+          "width": {
+            "value": 256,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandCustomAWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "width"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "width"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "custom",
-            "a"
-          ]
+          "height": {
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandCustomAHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "height"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "height"
+            ]
+          }
         },
         "b": {
-          "value": "avon-a-custom",
-          "filePath": "properties/brands/avon/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-custom"
+          "file": {
+            "value": "<svg width=\"256\" height=\"58\" viewBox=\"0 0 256 58\"  xmlns=\"http://www.w3.org/2000/svg\">\n    <style>\n      path @@@\n        fill: #000000\n      !!!\n    </style>\n    <path d=\"M88.189 55.36 62.224 1.085h7.058a8.304 8.304 0 0 1 7.519 4.786l14.273 30.408L105.235 5.87a8.303 8.303 0 0 1 7.527-4.786h7.112L93.924 55.36h-5.735zM24.384 30.639a50.804 50.804 0 0 1 12.255 4.005l-7.071-14.901-5.184 10.896zm34.792 24.723H46.691C38.743 44.659 29.91 40.97 19.963 39.737l-5.6 10.837c-1.905 3.161-4.686 4.764-7.906 4.764H0L26.642 1.08h5.838l26.696 54.282zM250.807 1.084a5.713 5.713 0 0 0-5.712 5.716l.031 28.634-28.343-34.35h-8.409V55.36h5.211a5.71 5.71 0 0 0 5.712-5.717l-.031-28.574 23.219 28.253s4.548 6.038 11.19 6.038H256V1.084h-5.193zm-62.229 27.274a27.591 27.591 0 0 1-8.534 20.125 28.9 28.9 0 0 1-20.365 8.273 28.573 28.573 0 0 1-20.415-8.295 28.417 28.417 0 0 1-6.22-31.107 28.418 28.418 0 0 1 6.22-9.249C144.665 2.805 151.722 0 159.679 0c7.957 0 15.073 2.804 20.41 8.128a28.077 28.077 0 0 1 8.489 20.23zm-11.068 0a17.817 17.817 0 0 0-10.987-16.479 17.822 17.822 0 1 0-6.844 34.284 17.851 17.851 0 0 0 17.831-17.805z\" /></svg>",
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-custom"
+            },
+            "name": "assetBrandCustomBFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "file",
+              "assetOptions": {
+                "extensions": [
+                  "svg"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "file"
+            ]
           },
-          "name": "assetBrandCustomB",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "custom",
-            "subitem": "b",
-            "assetOptions": {
-              "extensions": [
-                "svg"
-              ]
-            }
+          "width": {
+            "value": 256,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandCustomBWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "width"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "width"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "custom",
-            "b"
-          ]
+          "height": {
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandCustomBHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "height"
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "height"
+            ]
+          }
         }
       }
     }
