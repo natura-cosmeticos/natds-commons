@@ -1,212 +1,266 @@
 declare const Themes: Themes.Themes
 
 declare namespace Themes {
-  export interface Gray {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+  export interface BorderRadius {
+	none: number
+	small: number
+	medium: number
+	large: number
 }
 
-export interface Red {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Default {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
+	lineHeight: number
 }
 
-export interface Pink {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Button {
+	default: Default
 }
 
-export interface Grape {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Heading1 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Violet {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Heading2 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Indigo {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Heading3 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Blue {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Heading4 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Cyan {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Heading5 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Teal {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Heading6 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Green {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Subtitle1 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Lime {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Subtitle2 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Yellow {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Body1 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Orange {
-	0: string
-	1: string
-	2: string
-	3: string
-	4: string
-	5: string
-	6: string
-	7: string
-	8: string
-	9: string
+export interface Body2 {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
 }
 
-export interface Brand {
+export interface Caption {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
+}
+
+export interface Overline {
+	fontSize: number
+	fontWeight: number
+	letterSpacing: number
+}
+
+export interface Opacity {
+	transparent: number
+	lower: number
+	veryLow: number
+	low: number
+	mediumLow: number
+	disabledLow: number
+	disabled: number
+	medium: number
+	mediumHigh: number
+	high: number
+	veryHigh: number
+	opaque: number
+}
+
+export interface Size {
+	none: number
+	micro: number
+	tiny: number
+	small: number
+	standard: number
+	semi: number
+	semiX: number
+	medium: number
+	mediumX: number
+	large: number
+	largeX: number
+	largeXX: number
+	largeXXX: number
+	huge: number
+	hugeX: number
+	hugeXX: number
+	hugeXXX: number
+	veryHuge: number
+}
+
+export interface FontFamily {
 	primary: string
-	primaryDark: string
-	primaryLight: string
 	secondary: string
-	secondaryDark: string
-	secondaryLight: string
-	tertiary: string
-	tertiaryDark: string
-	tertiaryLight: string
+	branding: string
+	code: string
+}
+
+export interface LineHeight {
+	reset: number
+	small: number
+	medium: number
+	large: number
+}
+
+export interface FontWeight {
+	regular: number
+	medium: number
+}
+
+export interface Typography {
+	fontFamily: FontFamily
+	lineHeight: LineHeight
+	fontWeight: FontWeight
 }
 
 export interface Color {
+	primary: string
+	onPrimary: string
+	primaryLight: string
+	onPrimaryLight: string
+	primaryDark: string
+	onPrimaryDark: string
+	secondary: string
+	onSecondary: string
+	secondaryLight: string
+	onSecondaryLight: string
+	secondaryDark: string
+	onSecondaryDark: string
+	background: string
+	onBackground: string
+	surface: string
+	onSurface: string
+	highlight: string
+	highEmphasis: string
+	mediumEmphasis: string
+	lowEmphasis: string
+	link: string
+	onLink: string
+	success: string
+	onSuccess: string
+	warning: string
+	onWarning: string
+	alert: string
+	onAlert: string
+}
+
+export interface A {
+	file: string
+	width: number
+	height: number
+}
+
+export interface B {
+	file: string
+	width: number
+	height: number
+}
+
+export interface Neutral {
+	a: A
+	b: B
+}
+
+export interface A {
+	file: string
+	width: number
+	height: number
+}
+
+export interface B {
+	file: string
+	width: number
+	height: number
+}
+
+export interface Custom {
+	a: A
+	b: B
+}
+
+export interface Brand {
+	neutral: Neutral
+	custom: Custom
+}
+
+export interface Asset {
 	brand: Brand
 }
 
-export interface Spectrum {
-	dark: string
-	light: string
-	gray: Gray
-	red: Red
-	pink: Pink
-	grape: Grape
-	violet: Violet
-	indigo: Indigo
-	blue: Blue
-	cyan: Cyan
-	teal: Teal
-	green: Green
-	lime: Lime
-	yellow: Yellow
-	orange: Orange
-	color: Color
+export interface Elevation {
+	none: string
+	micro: string
+	tiny: string
+	small: string
+	medium: string
+	large: string
+	largeX: string
+	largeXX: string
+	huge: string
+	hugeX: string
+	hugeXX: string
 }
 
 export interface Theme {
-	spectrum: Spectrum
+	borderRadius: BorderRadius
+	button: Button
+	heading1: Heading1
+	heading2: Heading2
+	heading3: Heading3
+	heading4: Heading4
+	heading5: Heading5
+	heading6: Heading6
+	subtitle1: Subtitle1
+	subtitle2: Subtitle2
+	body1: Body1
+	body2: Body2
+	caption: Caption
+	overline: Overline
+	opacity: Opacity
+	size: Size
+	typography: Typography
+	color: Color
+	asset: Asset
+	elevation: Elevation
 }
 
   export interface BrandThemes {
