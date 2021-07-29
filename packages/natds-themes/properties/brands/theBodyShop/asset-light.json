@@ -3,18 +3,50 @@
     "brand": {
       "neutral":{
         "a": {
-          "value": "thebodyshop-a-official"
+          "file": {
+            "value": "thebodyshop-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 27
+          }
         },
         "b": {
-          "value": "thebodyshop-b-official"
+          "file": {
+            "value": "thebodyshop-b-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 109
+          }
         }
       },
       "custom":{
         "a": {
-          "value": "thebodyshop-a-custom"
+          "file": {
+            "value": "thebodyshop-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 27
+          }
         },
         "b": {
-          "value": "thebodyshop-b-custom"
+          "file": {
+            "value": "thebodyshop-b-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 109
+          }
         }
       }
     }

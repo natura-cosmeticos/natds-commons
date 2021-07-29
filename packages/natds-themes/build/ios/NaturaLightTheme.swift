@@ -23,10 +23,18 @@ struct NaturaLightTheme: Theme {
 }
 
 struct NaturaLightTokens: Tokens {
-  let assetBrandNeutralA = "natura-a-official"
-  let assetBrandNeutralB = "natura-b-official"
-  let assetBrandCustomA = "natura-a-custom"
-  let assetBrandCustomB = "natura-b-custom"
+  let assetBrandNeutralAFile = "natura-a-official"
+  let assetBrandNeutralAWidth: CGFloat = 256
+  let assetBrandNeutralAHeight: CGFloat = 55
+  let assetBrandNeutralBFile = "natura-b-official"
+  let assetBrandNeutralBWidth: CGFloat = 256
+  let assetBrandNeutralBHeight: CGFloat = 192
+  let assetBrandCustomAFile = "natura-a-custom"
+  let assetBrandCustomAWidth: CGFloat = 256
+  let assetBrandCustomAHeight: CGFloat = 55
+  let assetBrandCustomBFile = "natura-b-custom"
+  let assetBrandCustomBWidth: CGFloat = 256
+  let assetBrandCustomBHeight: CGFloat = 192
   let borderRadiusNone: CGFloat = 0
   let borderRadiusSmall: CGFloat = 2
   let borderRadiusMedium: CGFloat = 4

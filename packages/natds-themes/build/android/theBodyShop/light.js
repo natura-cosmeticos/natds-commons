@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Jul 2021 19:33:05 GMT
+ * Generated on Wed, 28 Jul 2021 20:30:09 GMT
  */
 
 module.exports = {
@@ -2320,126 +2320,350 @@ module.exports = {
     "brand": {
       "neutral": {
         "a": {
-          "value": "thebodyshop_a_official",
-          "filePath": "properties/brands/theBodyShop/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "thebodyshop-a-official"
-          },
-          "name": "assetBrandNeutralA",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "neutral",
-            "subitem": "a",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "thebodyshop_a_official",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "thebodyshop-a-official"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandNeutralAFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "neutral",
-            "a"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandNeutralAWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "27dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 27
+            },
+            "name": "assetBrandNeutralAHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "height"
+            ]
+          }
         },
         "b": {
-          "value": "thebodyshop_b_official",
-          "filePath": "properties/brands/theBodyShop/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "thebodyshop-b-official"
-          },
-          "name": "assetBrandNeutralB",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "neutral",
-            "subitem": "b",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "thebodyshop_b_official",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "thebodyshop-b-official"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandNeutralBFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "neutral",
-            "b"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandNeutralBWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "109dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 109
+            },
+            "name": "assetBrandNeutralBHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "height"
+            ]
+          }
         }
       },
       "custom": {
         "a": {
-          "value": "thebodyshop_a_custom",
-          "filePath": "properties/brands/theBodyShop/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "thebodyshop-a-custom"
-          },
-          "name": "assetBrandCustomA",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "custom",
-            "subitem": "a",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "thebodyshop_a_custom",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "thebodyshop-a-custom"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandCustomAFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "custom",
-            "a"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandCustomAWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "27dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 27
+            },
+            "name": "assetBrandCustomAHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "height"
+            ]
+          }
         },
         "b": {
-          "value": "thebodyshop_b_custom",
-          "filePath": "properties/brands/theBodyShop/asset-light.json",
-          "isSource": true,
-          "original": {
-            "value": "thebodyshop-b-custom"
-          },
-          "name": "assetBrandCustomB",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "custom",
-            "subitem": "b",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "thebodyshop_b_custom",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": "thebodyshop-b-custom"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandCustomBFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "custom",
-            "b"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandCustomBWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "109dp",
+            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "isSource": true,
+            "original": {
+              "value": 109
+            },
+            "name": "assetBrandCustomBHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "height"
+            ]
+          }
         }
       }
     }

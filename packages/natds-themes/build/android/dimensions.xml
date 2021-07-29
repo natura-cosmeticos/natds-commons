@@ -73,9 +73,14 @@
     <dimen name="ssoteb49643ded2ddfa77eb3bbc3546a4429">256dp</dimen>
     <dimen name="ssot6c010c37f79973d02f1067604ef21513">1.25</dimen>
     <dimen name="ssotc81e728d9d4c2f636f067f89cc14862c">2</dimen>
+    <dimen name="ssotb22e8368f70c602cfc036846a1d13e99">82dp</dimen>
     <dimen name="ssot9007021639d44c5bd30ffb232bda4343">1dp</dimen>
     <dimen name="ssot09a347df6d10f1fb72e38600022968c5">3dp</dimen>
     <dimen name="ssotc20ced05ef7b5856ec3a02b846ef882e">6dp</dimen>
     <dimen name="ssot6a1ba413dd397360d66c72d3bedaf888">9dp</dimen>
     <dimen name="ssot5efa55b135027e50e8d8aa041e584a33">12dp</dimen>
+    <dimen name="ssot1c9973494e432529f954d0ce90ad51e5">58dp</dimen>
+    <dimen name="ssot7f49ed724a176205534a7d92e208901b">55dp</dimen>
+    <dimen name="ssot89e57eb584d9a3577eeeffba786fd62a">27dp</dimen>
+    <dimen name="ssot4b5e00e0a3a67d3b581c63bf093d6259">109dp</dimen>
 </resources>

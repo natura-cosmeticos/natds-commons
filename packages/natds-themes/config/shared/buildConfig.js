@@ -1,17 +1,18 @@
-import buildReactNativeConfig from '../react-native/buildReactNativeConfig';
-import { buildWebConfig, buildCssConfig } from '../web/buildWebConfig';
-import buildHtmlConfig from '../html/buildHtmlConfig';
-import buildAndroidConfig from '../android/buildAndroidConfig';
-import buildIosConfig from '../ios/buildIosConfig';
+import reactNative from '../react-native';
+import web from '../web';
+import html from '../html';
+import android from '../android';
+import ios from '../ios';
+import css from '../css';
 
 export const buildConfig = (brand, mode, platform) => ({
   platforms: {
-    android: buildAndroidConfig(brand, mode),
-    css: buildCssConfig(brand, mode),
-    html: buildHtmlConfig(brand, mode),
-    ios: buildIosConfig(brand, mode),
-    'react-native': buildReactNativeConfig(brand, mode),
-    web: buildWebConfig(brand, mode),
+    android: android.config(brand, mode),
+    css: css.config(brand, mode),
+    html: html.config(brand, mode),
+    ios: ios.config(brand, mode),
+    'react-native': reactNative.config(brand, mode),
+    web: web.config(brand, mode),
   },
   source: [
     `properties/globals/spectrum/spectrum-${mode}.js`,

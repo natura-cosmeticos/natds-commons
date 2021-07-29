@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Jul 2021 19:33:01 GMT
+ * Generated on Wed, 28 Jul 2021 20:30:04 GMT
  */
 
 module.exports = {
@@ -2320,126 +2320,350 @@ module.exports = {
     "brand": {
       "neutral": {
         "a": {
-          "value": "avon_a_official_dark",
-          "filePath": "properties/brands/avon/asset-dark.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-official-dark"
-          },
-          "name": "assetBrandNeutralA",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "neutral",
-            "subitem": "a",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "avon_a_official_dark",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-official-dark"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandNeutralAFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "neutral",
-            "a"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandNeutralAWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "58dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandNeutralAHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "a",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "a",
+              "height"
+            ]
+          }
         },
         "b": {
-          "value": "avon_a_official_dark",
-          "filePath": "properties/brands/avon/asset-dark.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-official-dark"
-          },
-          "name": "assetBrandNeutralB",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "neutral",
-            "subitem": "b",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "avon_a_official_dark",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-official-dark"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandNeutralBFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "neutral",
-            "b"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandNeutralBWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "58dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandNeutralBHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "neutral",
+              "subitem": "b",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "neutral",
+              "b",
+              "height"
+            ]
+          }
         }
       },
       "custom": {
         "a": {
-          "value": "avon_a_custom",
-          "filePath": "properties/brands/avon/asset-dark.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-custom"
-          },
-          "name": "assetBrandCustomA",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "custom",
-            "subitem": "a",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "avon_a_custom",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-custom"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandCustomAFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "custom",
-            "a"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandCustomAWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "58dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandCustomAHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "a",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "a",
+              "height"
+            ]
+          }
         },
         "b": {
-          "value": "avon_a_custom",
-          "filePath": "properties/brands/avon/asset-dark.json",
-          "isSource": true,
-          "original": {
-            "value": "avon-a-custom"
-          },
-          "name": "assetBrandCustomB",
-          "attributes": {
-            "category": "asset",
-            "type": "brand",
-            "item": "custom",
-            "subitem": "b",
-            "customOptions": {
-              "type": "reference"
+          "file": {
+            "value": "avon_a_custom",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": "avon-a-custom"
             },
-            "assetOptions": {
-              "extensions": [
-                "svg",
-                "png"
-              ]
-            }
+            "name": "assetBrandCustomBFile",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "file",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "svg",
+                  "png"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "file"
+            ]
           },
-          "path": [
-            "asset",
-            "brand",
-            "custom",
-            "b"
-          ]
+          "width": {
+            "value": "256dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 256
+            },
+            "name": "assetBrandCustomBWidth",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "width",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "width"
+            ]
+          },
+          "height": {
+            "value": "58dp",
+            "filePath": "properties/brands/avon/asset-dark.json",
+            "isSource": true,
+            "original": {
+              "value": 58
+            },
+            "name": "assetBrandCustomBHeight",
+            "attributes": {
+              "category": "asset",
+              "type": "brand",
+              "item": "custom",
+              "subitem": "b",
+              "state": "height",
+              "customOptions": {
+                "type": "reference"
+              }
+            },
+            "path": [
+              "asset",
+              "brand",
+              "custom",
+              "b",
+              "height"
+            ]
+          }
         }
       }
     }

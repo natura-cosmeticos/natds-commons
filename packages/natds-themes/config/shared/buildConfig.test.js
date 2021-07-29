@@ -1,9 +1,10 @@
 import { buildConfig } from './buildConfig';
-import * as buildReactNativeConfig from '../react-native/buildReactNativeConfig';
-import * as buildWebConfig from '../web/buildWebConfig';
-import * as buildHtmlConfig from '../html/buildHtmlConfig';
-import * as buildAndroidConfig from '../android/buildAndroidConfig';
-import * as buildIosConfig from '../ios/buildIosConfig';
+import buildReactNativeConfig from '../react-native';
+import buildWebConfig from '../web';
+import buildHtmlConfig from '../html';
+import buildCssConfig from '../css';
+import buildAndroidConfig from '../android';
+import buildIosConfig from '../ios';
 
 const expectedConfig = {
   platforms: {
@@ -28,12 +29,12 @@ const expectedConfig = {
 
 describe('buildConfig', () => {
   it('should return the global build configuration', () => {
-    const buildReactNativeConfigSpy = jest.spyOn(buildReactNativeConfig, 'default').mockImplementation(() => 'reactNativeConfig');
-    const buildReactDomConfigSpy = jest.spyOn(buildWebConfig, 'buildWebConfig').mockImplementation(() => 'webConfig');
-    const buildCssConfigSpy = jest.spyOn(buildWebConfig, 'buildCssConfig').mockImplementation(() => 'cssConfig');
-    const buildHtmlConfigSpy = jest.spyOn(buildHtmlConfig, 'default').mockImplementation(() => 'htmlConfig');
-    const buildAndroidConfigSpy = jest.spyOn(buildAndroidConfig, 'default').mockImplementation(() => 'androidConfig');
-    const buildIosConfigSpy = jest.spyOn(buildIosConfig, 'default').mockImplementation(() => 'iosConfig');
+    const buildReactNativeConfigSpy = jest.spyOn(buildReactNativeConfig, 'config').mockImplementation(() => 'reactNativeConfig');
+    const buildReactDomConfigSpy = jest.spyOn(buildWebConfig, 'config').mockImplementation(() => 'webConfig');
+    const buildCssConfigSpy = jest.spyOn(buildCssConfig, 'config').mockImplementation(() => 'cssConfig');
+    const buildHtmlConfigSpy = jest.spyOn(buildHtmlConfig, 'config').mockImplementation(() => 'htmlConfig');
+    const buildAndroidConfigSpy = jest.spyOn(buildAndroidConfig, 'config').mockImplementation(() => 'androidConfig');
+    const buildIosConfigSpy = jest.spyOn(buildIosConfig, 'config').mockImplementation(() => 'iosConfig');
 
     const config = buildConfig('pokemon', 'pikachu', 'ios');
 

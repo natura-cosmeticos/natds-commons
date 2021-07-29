@@ -1,5 +1,7 @@
 import buildAndroidConfig from './buildAndroidConfig';
-import * as textHelpers from '../shared/textHelpers';
+import * as textHelpers from '../shared/helpers';
+
+jest.mock('../shared/helpers');
 
 const expectedConfig = {
   actions: ['create_resources', 'custom_copy_assets'],

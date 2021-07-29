@@ -183,14 +183,38 @@ export interface Color {
 	onAlert: string
 }
 
+export interface A {
+	file: string
+	width: number
+	height: number
+}
+
+export interface B {
+	file: string
+	width: number
+	height: number
+}
+
 export interface Neutral {
-	a: string
-	b: string
+	a: A
+	b: B
+}
+
+export interface A {
+	file: string
+	width: number
+	height: number
+}
+
+export interface B {
+	file: string
+	width: number
+	height: number
 }
 
 export interface Custom {
-	a: string
-	b: string
+	a: A
+	b: B
 }
 
 export interface Brand {
