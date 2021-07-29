@@ -20,7 +20,7 @@ const doAction = (_dictionary, config) => {
 
   if (existsSync(path.join(__dirname, '../../', definitionsPath))) return false;
 
-  const jsonFile = config.files.find(({ destination }) => destination.includes('.json'));
+  const jsonFile = config.files.find(({ destination }) => destination.includes('.json') && !destination.includes('spectrum'));
   const jsonThemeFile = fs.readFileSync(`${config.buildPath}${jsonFile.destination}`);
   const typeDefinitions = json2ts.convert(jsonThemeFile);
   const templatePath = path.resolve(__dirname, '../templates/typeDefinitions.hbs');
