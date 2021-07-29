@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.7.0...@naturacosmeticos/natds-themes@0.8.0) (2021-07-29)
+
+
+### Bug Fixes
+
+* **natds-themes:** fix logo output for react native ([7db6f83](https://github.com/natura-cosmeticos/natds-commons/commit/7db6f83a810f4dae718bd9417e6fefea50322160))
+
+
+### BREAKING CHANGES
+
+* **natds-themes:** The asset contract has changed. Now the file name has a sufix 'file' to allow the adition of width
+and height properties
+
+
+
+
+
 # [0.7.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.6.2...@naturacosmeticos/natds-themes@0.7.0) (2021-07-21)
 
 
