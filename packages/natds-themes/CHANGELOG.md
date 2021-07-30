@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.8.1...@naturacosmeticos/natds-themes@0.8.2) (2021-07-30)
+
+
+### Bug Fixes
+
+* **natds-themes:** fix glob pattern to include spacing properties ([58837a6](https://github.com/natura-cosmeticos/natds-commons/commit/58837a6ada4128d0119e5e14d56e4f6afd9233f1))
+
+
+
+
+
 ## [0.8.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.8.0...@naturacosmeticos/natds-themes@0.8.1) (2021-07-29)
 
 
