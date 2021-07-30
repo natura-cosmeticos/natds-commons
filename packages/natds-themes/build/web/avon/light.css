@@ -83,6 +83,14 @@
   --typographyLineHeightLarge: 2;
   --typographyFontWeightRegular: 400;
   --typographyFontWeightMedium: 500;
+  --spacingNone: 0px;
+  --spacingMicro: 4px;
+  --spacingTiny: 8px;
+  --spacingSmall: 16px;
+  --spacingStandard: 24px;
+  --spacingSemi: 32px;
+  --spacingLarge: 48px;
+  --spacingXLarge: 64px;
   --colorPrimary: #7f28c4;
   --colorOnPrimary: #ffffff;
   --colorPrimaryLight: #b35bf8;

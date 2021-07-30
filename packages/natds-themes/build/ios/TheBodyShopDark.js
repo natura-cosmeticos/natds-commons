@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 29 Jul 2021 20:52:44 GMT
+ * Generated on Fri, 30 Jul 2021 17:41:08 GMT
  */
 
 module.exports = {
@@ -1836,6 +1836,176 @@ module.exports = {
           "medium"
         ]
       }
+    }
+  },
+  "spacing": {
+    "none": {
+      "value": 0,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 0
+      },
+      "name": "spacingNone",
+      "attributes": {
+        "category": "spacing",
+        "type": "none",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "none"
+      ]
+    },
+    "micro": {
+      "value": 4,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 4
+      },
+      "name": "spacingMicro",
+      "attributes": {
+        "category": "spacing",
+        "type": "micro",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "micro"
+      ]
+    },
+    "tiny": {
+      "value": 8,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 8
+      },
+      "name": "spacingTiny",
+      "attributes": {
+        "category": "spacing",
+        "type": "tiny",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "tiny"
+      ]
+    },
+    "small": {
+      "value": 16,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 16
+      },
+      "name": "spacingSmall",
+      "attributes": {
+        "category": "spacing",
+        "type": "small",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "small"
+      ]
+    },
+    "standard": {
+      "value": 24,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 24
+      },
+      "name": "spacingStandard",
+      "attributes": {
+        "category": "spacing",
+        "type": "standard",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "standard"
+      ]
+    },
+    "semi": {
+      "value": 32,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 32
+      },
+      "name": "spacingSemi",
+      "attributes": {
+        "category": "spacing",
+        "type": "semi",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "semi"
+      ]
+    },
+    "large": {
+      "value": 48,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 48
+      },
+      "name": "spacingLarge",
+      "attributes": {
+        "category": "spacing",
+        "type": "large",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "large"
+      ]
+    },
+    "xLarge": {
+      "value": 64,
+      "filePath": "properties/globals/spacing/spacing.js",
+      "isSource": true,
+      "original": {
+        "value": 64
+      },
+      "name": "spacingXLarge",
+      "attributes": {
+        "category": "spacing",
+        "type": "xLarge",
+        "customOptions": {
+          "includeType": true,
+          "type": "CGFloat"
+        }
+      },
+      "path": [
+        "spacing",
+        "xLarge"
+      ]
     }
   },
   "color": {
