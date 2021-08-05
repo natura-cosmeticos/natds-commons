@@ -8,7 +8,7 @@ const buildColors = (value) => {
 
   return value.reduce((acc, color, index) => ({
     ...acc,
-    ...{ [index]: { value: color } },
+    ...{ [index === 0 ? '50' : `${index}00`]: { value: color } },
   }
   ), {});
 };

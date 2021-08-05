@@ -16,11 +16,10 @@ const expectedConfig = {
     web: 'webConfig',
   },
   source: [
-    'properties/globals/spectrum/spectrum-pikachu.js',
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test|*light|*dark).js',
     'properties/brands/pokemon/pikachu.json',
-    'properties/brands/pokemon/spectrum-pikachu.json',
+    'properties/brands/pokemon/spectrum.json',
     'properties/brands/pokemon/asset-pikachu.json',
     'properties/platforms/ios/*.json',
     'properties/platforms/ios/!(*.test).js',
