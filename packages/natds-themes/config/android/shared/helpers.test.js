@@ -55,6 +55,15 @@ describe('helpers', () => {
     it('should return false if is not a color prop', () => {
       expect(isColor(prop)).toEqual(false);
     });
+
+    it('should return false if is a spectrum prop', () => {
+      const spectrum = {
+        ...prop,
+        path: ['spectrum', 'color', 'primary'],
+      };
+
+      expect(isColor(spectrum)).toEqual(false);
+    });
   });
 
   describe('isSpDimension', () => {

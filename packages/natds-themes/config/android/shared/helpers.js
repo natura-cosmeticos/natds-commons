@@ -1,13 +1,18 @@
 /* eslint-disable no-use-before-define */
 import CryptoJS from 'crypto-js';
-import { pipe, prop } from 'ramda';
+import {
+  pipe, prop, both, complement,
+} from 'ramda';
 import {
   toSnakeCase, isProp, isOneOfProps, isPrivateProp,
 } from '../../shared/helpers';
 
 export const createEncodedHashFromValue = (value) => `ssot${CryptoJS.MD5(value.toString())}`;
 
-export const isColor = isProp('color');
+export const isColor = (property) => both(
+  isProp('color'),
+  complement(isProp('spectrum')),
+)(property);
 
 export const isSpDimension = isProp('fontSize');
 

@@ -14,7 +14,12 @@ export const dataBuilder = (filterFn) => (dictionary) => mapFilteredValues(
 );
 
 const extractValuesForResourceOutput = (dictionary, config) => {
-  createOutputPathInfo(colorsOutputPath, dataBuilder(isColor), dictionary, config);
+  createOutputPathInfo(
+    colorsOutputPath,
+    dataBuilder(isColor),
+    dictionary,
+    config,
+  );
   createOutputPathInfo(dimensionsOutputPath, dataBuilder(isDimension), dictionary, config);
 };
 
