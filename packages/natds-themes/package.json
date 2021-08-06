@@ -65,6 +65,7 @@
     "copy:types:react-native": "cp ./build/react-native/index.d.ts ./react-native",
     "copy:assets:react-native": "node ./bin/copy-assets.js react-native ./react-native/assets",
     "fill:to:css:react-native": "babel-node --presets @babel/preset-env -e 'require(\"./config/react-native/convertFillToStyle.js\").convertFilToCss()'",
+    "parse:figma:tokens": "babel-node --presets @babel/preset-env -e 'require(\"./bin/parse-figma-json.js\")'",
     "html": "yarn build:outputs && http-server build/html",
     "html:watch": "nodemon --watch config -e .js,.json,.hbs,.html -x 'yarn html'",
     "lint": "eslint --ext .js ./",

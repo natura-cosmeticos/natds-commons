@@ -15,11 +15,10 @@ export const buildConfig = (brand, mode, platform) => ({
     web: web.config(brand, mode),
   },
   source: [
-    `properties/globals/spectrum/spectrum-${mode}.js`,
     'properties/globals/**/*.json',
     'properties/globals/**/!(*.test|*light|*dark).js',
     `properties/brands/${brand}/${mode}.json`,
-    `properties/brands/${brand}/spectrum-${mode}.json`,
+    `properties/brands/${brand}/spectrum.json`,
     `properties/brands/${brand}/asset-${mode}.json`,
     `properties/platforms/${platform}/*.json`,
     `properties/platforms/${platform}/!(*.test).js`,

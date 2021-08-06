@@ -1,4 +1,4 @@
-import spectrum from './spectrum-light';
+import spectrum from './spectrum';
 
 jest.mock('open-color/open-color.json', () => ({
   black: '#000000',
@@ -16,8 +16,8 @@ describe('spectrum-light', () => {
 
   it('should create the spectrum from open-color', () => {
     const expectedSpectrum = {
-      0: { value: '#f8f9fa' },
-      1: { value: '#212529' },
+      50: { value: '#f8f9fa' },
+      100: { value: '#212529' },
     };
 
     expect(spectrum.spectrum.gray).toEqual(expectedSpectrum);
