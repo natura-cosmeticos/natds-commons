@@ -17,7 +17,7 @@ describe('buildCss', () => {
     }
   });
 
-  it('should crate the css output', () => {
+  it('should create the css output', () => {
     const result = buildCss(data);
 
     expect(result).toEqual({
@@ -29,5 +29,26 @@ describe('buildCss', () => {
         },
       },
     });
+  });
+
+  it('should replace the font display to swap', () => {
+    const templateWithDisplay = {
+      ...data,
+      template: '@font-face {font-display: auto;}',
+    };
+
+    const expectedOutput = {
+      ...templateWithDisplay,
+      outputs: {
+        css: {
+          content: '@font-face {font-display: swap;}',
+          outputPath: 'folder/name/font-name.css',
+        },
+      },
+    };
+
+    const result = buildCss(templateWithDisplay);
+
+    expect(result).toEqual(expectedOutput);
   });
 });

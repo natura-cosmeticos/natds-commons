@@ -5,8 +5,10 @@ export const buildCss = (data) => {
 
   const { globalConfig: { fontName, outputPath }, template } = data;
 
+  const content = template.replace('font-display: auto;', 'font-display: swap;');
+
   const css = {
-    content: template,
+    content,
     outputPath: `${outputPath}/${fontName}.css`,
   };
 
