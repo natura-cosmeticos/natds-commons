@@ -1,0 +1,18 @@
+{
+  "typography": {
+    "fontFamily": {
+      "display": {
+        "value": "Druk Bold"
+      },
+      "headline": {
+        "value": "Recoleta"
+      },
+      "body": {
+        "value": "Work Sans"
+      },
+      "fallback": {
+        "value": "{platform.typography.fontFamily.primary.value}"
+      }
+    }
+  }
+}

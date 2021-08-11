@@ -1,0 +1,18 @@
+{
+  "typography": {
+    "fontFamily": {
+      "display": {
+        "value": "Zapf Humanist"
+      },
+      "headline": {
+        "value": "Suisse"
+      },
+      "body": {
+        "value": "Suisse"
+      },
+      "fallback": {
+        "value": "{platform.typography.fontFamily.primary.value}"
+      }
+    }
+  }
+}
