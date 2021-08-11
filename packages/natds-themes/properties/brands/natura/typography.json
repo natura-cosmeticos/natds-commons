@@ -1,0 +1,18 @@
+{
+  "typography": {
+    "fontFamily": {
+      "display": {
+        "value": "Helvetica Now - Display"
+      },
+      "headline": {
+        "value": "Helvetica Now - Text"
+      },
+      "body": {
+        "value": "Helvetica Now - Text"
+      },
+      "fallback": {
+        "value": "{platform.typography.fontFamily.primary.value}"
+      }
+    }
+  }
+}
