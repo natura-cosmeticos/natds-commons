@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.5.2...@naturacosmeticos/natds-icons@1.5.3) (2021-08-11)
+
+
+### Bug Fixes
+
+* **natds-icons:** change css font-display from auto to swap ([6caa165](https://github.com/natura-cosmeticos/natds-commons/commit/6caa165c88fd6cd412a26a06f37554e3b3efa9fe))
+
+
+
+
+
 ## [1.5.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.5.1...@naturacosmeticos/natds-icons@1.5.2) (2021-07-06)
 
 
