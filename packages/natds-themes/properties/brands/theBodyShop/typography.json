@@ -14,5 +14,20 @@
         "value": "{platform.typography.fontFamily.primary.value}"
       }
     }
+  },
+  "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "DrukCy-Bold"
+        },
+        "headline": {
+          "value": "Recoleta-Regular"
+        },
+        "body": {
+          "value": "WorkSans-Regular"
+        }
+      }
+    }
   }
 }

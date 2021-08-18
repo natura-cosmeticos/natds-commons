@@ -22,7 +22,7 @@ export const isDimension = (property) => !isOneOfProps(['color', 'spectrum', 'fo
 
 export const isDimensionWithUnit = (property) => (
   isDimension(property) && !isUnitlessDimension(property)
-);
+)
 
 export const mapFilteredValues = (props, filterFn, mapFn) => props.filter(filterFn).map(mapFn);
 

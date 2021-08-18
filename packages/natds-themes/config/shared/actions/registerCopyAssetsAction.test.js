@@ -138,7 +138,7 @@ describe('registerCopyAssetsAction', () => {
     });
 
     it('should log a message if the asset does not exits', () => {
-      path.resolve.mockReturnValue('assets/logo');
+      path.resolve.mockReturnValue('assets');
       const config = registerCopyAssetsAction();
       const logSpy = jest
         .spyOn(console, 'log')
@@ -148,8 +148,8 @@ describe('registerCopyAssetsAction', () => {
 
       config.do(dictionary, dictionaryConfig);
 
-      expect(logSpy).toHaveBeenNthCalledWith(1, 'Asset assets/logo/brand-horizontal.svg not found. Check if the file exists in the assets/logo path');
-      expect(logSpy).toHaveBeenNthCalledWith(2, 'Asset assets/logo/brand-vertical.svg not found. Check if the file exists in the assets/logo path');
+      expect(logSpy).toHaveBeenNthCalledWith(1, 'Asset assets/brand-horizontal.svg not found. Check if the file exists in the assets path');
+      expect(logSpy).toHaveBeenNthCalledWith(2, 'Asset assets/brand-vertical.svg not found. Check if the file exists in the assets path');
     });
 
     it('should copy the assets of the dictionary for the given platform', () => {
@@ -160,8 +160,8 @@ describe('registerCopyAssetsAction', () => {
 
       config.do(dictionary, dictionaryConfig);
 
-      expect(execSpy).toHaveBeenNthCalledWith(1, 'cp assets/logo/brand-horizontal.svg build/web/avon/assets/brand-horizontal.svg');
-      expect(execSpy).toHaveBeenNthCalledWith(2, 'cp assets/logo/brand-vertical.svg build/web/avon/assets/brand-vertical.svg');
+      expect(execSpy).toHaveBeenNthCalledWith(1, 'cp assets/brand-horizontal.svg build/web/avon/assets/brand-horizontal.svg');
+      expect(execSpy).toHaveBeenNthCalledWith(2, 'cp assets/brand-vertical.svg build/web/avon/assets/brand-vertical.svg');
     });
 
     it('should copy the assets for android changing the file name', () => {
@@ -171,8 +171,8 @@ describe('registerCopyAssetsAction', () => {
 
       config.do(dictionary, dictionaryConfig);
 
-      expect(execSpy).toHaveBeenNthCalledWith(1, 'cp assets/logo/brand-horizontal.svg build/android/avon/assets/brand_horizontal.svg');
-      expect(execSpy).toHaveBeenNthCalledWith(2, 'cp assets/logo/brand-vertical.svg build/android/avon/assets/brand_vertical.svg');
+      expect(execSpy).toHaveBeenNthCalledWith(1, 'cp assets/brand-horizontal.svg build/android/avon/assets/brand_horizontal.svg');
+      expect(execSpy).toHaveBeenNthCalledWith(2, 'cp assets/brand-vertical.svg build/android/avon/assets/brand_vertical.svg');
     });
 
     describe('png assets', () => {
@@ -197,11 +197,11 @@ describe('registerCopyAssetsAction', () => {
 
         config.do(dictionaryWithPng, dictionaryConfig);
 
-        expect(execSpy).toHaveBeenNthCalledWith(1, 'cp assets/logo/brand-horizontal.png build/web/avon/assets/brand-horizontal.png');
-        expect(execSpy).toHaveBeenNthCalledWith(2, 'cp assets/logo/1.5x/brand-horizontal.png build/web/avon/assets/1.5x/brand-horizontal.png');
-        expect(execSpy).toHaveBeenNthCalledWith(3, 'cp assets/logo/2x/brand-horizontal.png build/web/avon/assets/2x/brand-horizontal.png');
-        expect(execSpy).toHaveBeenNthCalledWith(4, 'cp assets/logo/3x/brand-horizontal.png build/web/avon/assets/3x/brand-horizontal.png');
-        expect(execSpy).toHaveBeenNthCalledWith(5, 'cp assets/logo/4x/brand-horizontal.png build/web/avon/assets/4x/brand-horizontal.png');
+        expect(execSpy).toHaveBeenNthCalledWith(1, 'cp assets/brand-horizontal.png build/web/avon/assets/brand-horizontal.png');
+        expect(execSpy).toHaveBeenNthCalledWith(2, 'cp assets/1.5x/brand-horizontal.png build/web/avon/assets/1.5x/brand-horizontal.png');
+        expect(execSpy).toHaveBeenNthCalledWith(3, 'cp assets/2x/brand-horizontal.png build/web/avon/assets/2x/brand-horizontal.png');
+        expect(execSpy).toHaveBeenNthCalledWith(4, 'cp assets/3x/brand-horizontal.png build/web/avon/assets/3x/brand-horizontal.png');
+        expect(execSpy).toHaveBeenNthCalledWith(5, 'cp assets/4x/brand-horizontal.png build/web/avon/assets/4x/brand-horizontal.png');
       });
     });
   });

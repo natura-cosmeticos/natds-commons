@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Sep 2021 14:07:38 GMT
+ * Generated on Thu, 09 Sep 2021 12:54:03 GMT
  */
 
 module.exports = {
@@ -87,7 +87,7 @@ module.exports = {
     }
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": {
         "value": "14sp",
         "filePath": "properties/globals/components/button.json",
@@ -95,10 +95,10 @@ module.exports = {
         "original": {
           "value": 14
         },
-        "name": "buttonDefaultFontSize",
+        "name": "buttonLabelFontSize",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "fontSize",
           "customOptions": {
             "type": "dimension"
@@ -106,30 +106,8 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "fontSize"
-        ]
-      },
-      "fontWeight": {
-        "value": "sans-serif-medium",
-        "filePath": "properties/globals/components/button.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "buttonDefaultFontWeight",
-        "attributes": {
-          "category": "button",
-          "type": "default",
-          "item": "fontWeight",
-          "customOptions": {
-            "type": "string"
-          }
-        },
-        "path": [
-          "button",
-          "default",
-          "fontWeight"
         ]
       },
       "letterSpacing": {
@@ -139,10 +117,10 @@ module.exports = {
         "original": {
           "value": "{platform.button.letterSpacing.value}"
         },
-        "name": "buttonDefaultLetterSpacing",
+        "name": "buttonLabelLetterSpacing",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "letterSpacing",
           "customOptions": {
             "type": "dimension"
@@ -150,7 +128,7 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "letterSpacing"
         ]
       },
@@ -161,10 +139,10 @@ module.exports = {
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
-        "name": "buttonDefaultLineHeight",
+        "name": "buttonLabelLineHeight",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "lineHeight",
           "customOptions": {
             "type": "dimension"
@@ -172,9 +150,59 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "lineHeight"
         ]
+      },
+      "fontFamily": {
+        "primary": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelFontFamilyPrimary",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fontFamily",
+            "subitem": "primary",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fontFamily",
+            "primary"
+          ]
+        },
+        "fallback": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelFontFamilyFallback",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fontFamily",
+            "subitem": "fallback",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fontFamily",
+            "fallback"
+          ]
+        }
       }
     }
   },
@@ -1615,6 +1643,94 @@ module.exports = {
           "fontFamily",
           "code"
         ]
+      },
+      "display": {
+        "value": "Montserrat",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Montserrat"
+        },
+        "name": "typographyFontFamilyDisplay",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "display",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "display"
+        ]
+      },
+      "headline": {
+        "value": "Montserrat",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Montserrat"
+        },
+        "name": "typographyFontFamilyHeadline",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "headline",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "headline"
+        ]
+      },
+      "body": {
+        "value": "Montserrat",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Montserrat"
+        },
+        "name": "typographyFontFamilyBody",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "body",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "body"
+        ]
+      },
+      "fallback": {
+        "value": "Roboto",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fontFamily.primary.value}"
+        },
+        "name": "typographyFontFamilyFallback",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "fallback",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "fallback"
+        ]
       }
     },
     "lineHeight": {
@@ -2479,6 +2595,97 @@ module.exports = {
     }
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "Montserrat_Regular",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Montserrat-Regular"
+          },
+          "name": "assetFontFileDisplay",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "display",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "display"
+          ]
+        },
+        "headline": {
+          "value": "Montserrat_Regular",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Montserrat-Regular"
+          },
+          "name": "assetFontFileHeadline",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "headline",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "headline"
+          ]
+        },
+        "body": {
+          "value": "Montserrat_Regular",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Montserrat-Regular"
+          },
+          "name": "assetFontFileBody",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "body",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "body"
+          ]
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {
@@ -2529,7 +2736,7 @@ module.exports = {
               "subitem": "a",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2555,7 +2762,7 @@ module.exports = {
               "subitem": "a",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2615,7 +2822,7 @@ module.exports = {
               "subitem": "b",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2641,7 +2848,7 @@ module.exports = {
               "subitem": "b",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2703,7 +2910,7 @@ module.exports = {
               "subitem": "a",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2729,7 +2936,7 @@ module.exports = {
               "subitem": "a",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2789,7 +2996,7 @@ module.exports = {
               "subitem": "b",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2815,7 +3022,7 @@ module.exports = {
               "subitem": "b",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [

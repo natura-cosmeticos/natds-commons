@@ -29,6 +29,8 @@ export const isPrivateProp = isOneOfProps(['platform', 'spectrum']);
 export const isSpectrumProp = both(isProp('spectrum'), negate(isProp('gradient')));
 export const isAsset = isProp('asset');
 export const isAssetFile = both(isAsset, isProp('file'));
+export const isLogoAssetFile = both(isAssetFile, isProp('brand'));
+export const isFontAssetFile = both(isAssetFile, isProp('font'));
 export const isCustomAsset = both(isAssetFile, isProp('custom'));
 
 export const flattenProps = (properties) => {
@@ -74,7 +76,7 @@ export const flatTokensAndComponents = ({ properties }) => {
   };
 };
 
-export const readAsset = (assetName) => fs.readFileSync(path.join(__dirname, '../../../assets/logo', assetName)).toString();
+export const readAsset = (assetName) => fs.readFileSync(path.join(__dirname, '../../../assets', assetName)).toString();
 
 export const execPattern = (pattern, data) => {
   const matches = [];
@@ -95,7 +97,7 @@ export const convertBase64ToExternalImage = (assetName) => (acc, item, index) =>
   const assetRemoteBaseUrl = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/';
   const imageName = `${assetName}-embed-image-${index}.png`;
 
-  fs.writeFileSync(path.join(__dirname, '../../../assets/logo', imageName), item.imageData, 'base64');
+  fs.writeFileSync(path.join(__dirname, '../../../assets', imageName), item.imageData, 'base64');
 
   return acc.replace(`data:image/png;base64,${item.imageData}`, `${assetRemoteBaseUrl}${imageName}`);
 };
