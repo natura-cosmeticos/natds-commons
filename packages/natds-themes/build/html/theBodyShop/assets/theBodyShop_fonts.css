@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Druk Bold';
+    src: url('DrukCy-Bold.eot');
+    src: url('DrukCy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DrukCy-Bold.woff2') format('woff2'),
+        url('DrukCy-Bold.woff') format('woff'),
+        url('DrukCy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Regular.eot');
+    src: url('Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Recoleta-Regular.woff2') format('woff2'),
+        url('Recoleta-Regular.woff') format('woff'),
+        url('Recoleta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('WorkSans-Regular.eot');
+    src: url('WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('WorkSans-Regular.woff2') format('woff2'),
+        url('WorkSans-Regular.woff') format('woff'),
+        url('WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,9 +1,33 @@
+/* eslint-disable id-length */
 /* eslint-disable mocha/max-top-level-suites */
 import path from 'path';
 import { registerHtmlFormat, registerSpectrumHtmlFormat } from './registerHtmlFormat';
 
 const dictionary = {
   properties: {
+    asset: {
+      brand: {
+        neutral: {
+          a: {
+            file: {
+              attributes: {},
+              name: 'assetBrandNeutralAFile',
+              original: {
+                value: 'logo.svg',
+              },
+              path: [
+                'asset',
+                'brand',
+                'neutral',
+                'a',
+                'file',
+              ],
+              value: 'logo.svg',
+            },
+          },
+        },
+      },
+    },
     borderRadius: {
       small: {
         attributes: {},
@@ -208,7 +232,7 @@ describe('registerHtmlFormat', () => {
   it('should return the correct formatter template', () => {
     const register = registerHtmlFormat();
 
-    const output = register.formatter(dictionary);
+    const output = register.formatter(dictionary, { brand: 'avon' });
 
     expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerHtmlFormat.snap.html'));
   });

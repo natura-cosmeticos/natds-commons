@@ -14,5 +14,20 @@
         "value": "{platform.typography.fontFamily.primary.value}"
       }
     }
+  },
+  "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "Montserrat-Regular"
+        },
+        "headline": {
+          "value": "Montserrat-Regular"
+        },
+        "body": {
+          "value": "Montserrat-Regular"
+        }
+      }
+    }
   }
 }

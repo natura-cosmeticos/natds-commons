@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { optimize } from 'svgo';
 import {
-  isAssetFile, readAsset, execPattern, convertBase64ToExternalImage,
+  isLogoAssetFile, readAsset, execPattern, convertBase64ToExternalImage,
 } from '../helpers';
 
 const plugins = [
@@ -53,7 +53,7 @@ const transformer = (token) => {
   }
 
   const optimizedAssetName = `${token.original.value}-optimized`;
-  const optimizedAssetPath = path.join(__dirname, '../../../assets/logo', optimizedAssetName);
+  const optimizedAssetPath = path.join(__dirname, '../../../assets', optimizedAssetName);
 
   fs.writeFileSync(`${optimizedAssetPath}.svg`, optimizedSvg);
 
@@ -61,7 +61,7 @@ const transformer = (token) => {
 };
 
 export const registerOptimizeSvgTransform = () => ({
-  matcher: isAssetFile,
+  matcher: isLogoAssetFile,
   name: 'asset/svg-optimized',
   transformer,
   type: 'value',

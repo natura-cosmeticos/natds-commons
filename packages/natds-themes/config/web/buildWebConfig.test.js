@@ -1,7 +1,8 @@
 import { buildWebConfig } from './buildWebConfig';
 
 const expectedWebConfig = {
-  actions: ['create_type_definitions', 'custom_copy_assets'],
+  actions: ['create_type_definitions', 'custom_copy_assets', 'create_type_face'],
+  brand: 'pokemon',
   buildPath: 'build/web/',
   files: [
     {

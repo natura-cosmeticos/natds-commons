@@ -14,5 +14,20 @@
         "value": "{platform.typography.fontFamily.primary.value}"
       }
     }
+  },
+  "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "ZapfHumanist601BT-Roman"
+        },
+        "headline": {
+          "value": "SuisseIntl-Regular"
+        },
+        "body": {
+          "value": "SuisseIntl-Regular"
+        }
+      }
+    }
   }
 }

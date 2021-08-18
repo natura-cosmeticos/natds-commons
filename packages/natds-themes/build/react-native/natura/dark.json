@@ -6,11 +6,14 @@
     "large": 8
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "fontFamily": {
+        "primary": "Roboto",
+        "fallback": "Roboto"
+      }
     }
   },
   "heading1": {
@@ -112,7 +115,11 @@
       "primary": "Roboto",
       "secondary": "sans-serif",
       "branding": "Helvetica Now",
-      "code": "Roboto Mono"
+      "code": "Roboto Mono",
+      "display": "Helvetica Now Display",
+      "headline": "Helvetica Now Text",
+      "body": "Helvetica Now Text",
+      "fallback": "Roboto"
     },
     "lineHeight": {
       "reset": 1,
@@ -166,6 +173,13 @@
     "onAlert": "#ffffff"
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": "HelveticaNowDisplay-Regular",
+        "headline": "HelveticaNowText-Regular",
+        "body": "HelveticaNowText-Regular"
+      }
+    },
     "brand": {
       "neutral": {
         "a": {

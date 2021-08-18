@@ -3,10 +3,11 @@
   --borderRadiusSmall: 2px;
   --borderRadiusMedium: 4px;
   --borderRadiusLarge: 8px;
-  --buttonDefaultFontSize: 14px;
-  --buttonDefaultFontWeight: 500;
-  --buttonDefaultLetterSpacing: 1.23px;
-  --buttonDefaultLineHeight: 1.5;
+  --buttonLabelFontSize: 14px;
+  --buttonLabelLetterSpacing: 1.23px;
+  --buttonLabelLineHeight: 1.5;
+  --buttonLabelFontFamilyPrimary: Roboto;
+  --buttonLabelFontFamilyFallback: Roboto;
   --heading1FontSize: 96px;
   --heading1FontWeight: 400;
   --heading1LetterSpacing: 0px;
@@ -77,6 +78,10 @@
   --typographyFontFamilySecondary: sans-serif;
   --typographyFontFamilyBranding: Helvetica Now;
   --typographyFontFamilyCode: Roboto Mono;
+  --typographyFontFamilyDisplay: Druk Bold;
+  --typographyFontFamilyHeadline: Recoleta;
+  --typographyFontFamilyBody: Work Sans;
+  --typographyFontFamilyFallback: Roboto;
   --typographyLineHeightReset: 1;
   --typographyLineHeightSmall: 1.25;
   --typographyLineHeightMedium: 1.5;
@@ -119,6 +124,9 @@
   --colorOnWarning: #333333;
   --colorAlert: #e74627;
   --colorOnAlert: #ffffff;
+  --assetFontFileDisplay: "DrukCy-Bold";
+  --assetFontFileHeadline: "Recoleta-Regular";
+  --assetFontFileBody: "WorkSans-Regular";
   --assetBrandNeutralAFile: "thebodyshop-a-official-dark";
   --assetBrandNeutralAWidth: "256";
   --assetBrandNeutralAHeight: "27";

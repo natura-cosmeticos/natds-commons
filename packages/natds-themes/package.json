@@ -59,7 +59,7 @@
     "clean": "rm -rf ./build && rm -rf ./dist && rm -rf ./react-native",
     "copy:types": "yarn copy:types:web && yarn copy:types:react-native",
     "copy:assets": "yarn copy:assets:web && yarn copy:assets:react-native",
-    "copy:svg:background:web": "cp assets/logo/**-embed-image-**.png ./dist/assets",
+    "copy:svg:background:web": "cp assets/**-embed-image-**.png ./dist/assets",
     "copy:types:web": "cp ./build/web/index.d.ts ./dist",
     "copy:assets:web": "node ./bin/copy-assets.js web ./dist/assets && yarn copy:svg:background:web",
     "copy:types:react-native": "cp ./build/react-native/index.d.ts ./react-native",

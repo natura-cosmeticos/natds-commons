@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 13 Aug 2021 14:55:40 GMT
+ * Generated on Tue, 07 Sep 2021 18:24:42 GMT
  */
 
 module.exports = {
@@ -75,7 +75,7 @@ module.exports = {
     }
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": {
         "value": 14,
         "filePath": "properties/globals/components/button.json",
@@ -83,35 +83,16 @@ module.exports = {
         "original": {
           "value": 14
         },
-        "name": "buttonDefaultFontSize",
+        "name": "buttonLabelFontSize",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "fontSize"
         },
         "path": [
           "button",
-          "default",
+          "label",
           "fontSize"
-        ]
-      },
-      "fontWeight": {
-        "value": 500,
-        "filePath": "properties/globals/components/button.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "buttonDefaultFontWeight",
-        "attributes": {
-          "category": "button",
-          "type": "default",
-          "item": "fontWeight"
-        },
-        "path": [
-          "button",
-          "default",
-          "fontWeight"
         ]
       },
       "letterSpacing": {
@@ -121,15 +102,15 @@ module.exports = {
         "original": {
           "value": "{platform.button.letterSpacing.value}"
         },
-        "name": "buttonDefaultLetterSpacing",
+        "name": "buttonLabelLetterSpacing",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "letterSpacing"
         },
         "path": [
           "button",
-          "default",
+          "label",
           "letterSpacing"
         ]
       },
@@ -140,17 +121,61 @@ module.exports = {
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
-        "name": "buttonDefaultLineHeight",
+        "name": "buttonLabelLineHeight",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "lineHeight"
         },
         "path": [
           "button",
-          "default",
+          "label",
           "lineHeight"
         ]
+      },
+      "fontFamily": {
+        "primary": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelFontFamilyPrimary",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fontFamily",
+            "subitem": "primary"
+          },
+          "path": [
+            "button",
+            "label",
+            "fontFamily",
+            "primary"
+          ]
+        },
+        "fallback": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelFontFamilyFallback",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fontFamily",
+            "subitem": "fallback"
+          },
+          "path": [
+            "button",
+            "label",
+            "fontFamily",
+            "fallback"
+          ]
+        }
       }
     }
   },
@@ -1381,6 +1406,82 @@ module.exports = {
           "fontFamily",
           "code"
         ]
+      },
+      "display": {
+        "value": "Zapf Humanist",
+        "filePath": "properties/brands/aesop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Zapf Humanist"
+        },
+        "name": "typographyFontFamilyDisplay",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "display"
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "display"
+        ]
+      },
+      "headline": {
+        "value": "Suisse",
+        "filePath": "properties/brands/aesop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Suisse"
+        },
+        "name": "typographyFontFamilyHeadline",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "headline"
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "headline"
+        ]
+      },
+      "body": {
+        "value": "Suisse",
+        "filePath": "properties/brands/aesop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Suisse"
+        },
+        "name": "typographyFontFamilyBody",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "body"
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "body"
+        ]
+      },
+      "fallback": {
+        "value": "Roboto",
+        "filePath": "properties/brands/aesop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fontFamily.primary.value}"
+        },
+        "name": "typographyFontFamilyFallback",
+        "attributes": {
+          "category": "typography",
+          "type": "fontFamily",
+          "item": "fallback"
+        },
+        "path": [
+          "typography",
+          "fontFamily",
+          "fallback"
+        ]
       }
     },
     "lineHeight": {
@@ -2119,6 +2220,97 @@ module.exports = {
     }
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "ZapfHumanist601BT-Roman",
+          "filePath": "properties/brands/aesop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "ZapfHumanist601BT-Roman"
+          },
+          "name": "assetFontFileDisplay",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "display",
+            "assetOptions": {
+              "extensions": [
+                "ttf",
+                "eot",
+                "woff",
+                "woff2"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "display"
+          ]
+        },
+        "headline": {
+          "value": "SuisseIntl-Regular",
+          "filePath": "properties/brands/aesop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "SuisseIntl-Regular"
+          },
+          "name": "assetFontFileHeadline",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "headline",
+            "assetOptions": {
+              "extensions": [
+                "ttf",
+                "eot",
+                "woff",
+                "woff2"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "headline"
+          ]
+        },
+        "body": {
+          "value": "SuisseIntl-Regular",
+          "filePath": "properties/brands/aesop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "SuisseIntl-Regular"
+          },
+          "name": "assetFontFileBody",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "body",
+            "assetOptions": {
+              "extensions": [
+                "ttf",
+                "eot",
+                "woff",
+                "woff2"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "body"
+          ]
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {

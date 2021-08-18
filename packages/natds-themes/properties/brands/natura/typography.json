@@ -2,16 +2,31 @@
   "typography": {
     "fontFamily": {
       "display": {
-        "value": "Helvetica Now - Display"
+        "value": "Helvetica Now Display"
       },
       "headline": {
-        "value": "Helvetica Now - Text"
+        "value": "Helvetica Now Text"
       },
       "body": {
-        "value": "Helvetica Now - Text"
+        "value": "Helvetica Now Text"
       },
       "fallback": {
         "value": "{platform.typography.fontFamily.primary.value}"
+      }
+    }
+  },
+  "asset": {
+    "font": {
+      "file":{
+        "display": {
+          "value": "HelveticaNowDisplay-Regular"
+        },
+        "headline": {
+          "value": "HelveticaNowText-Regular"
+        },
+        "body": {
+          "value": "HelveticaNowText-Regular"
+        }
       }
     }
   }

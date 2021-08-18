@@ -8,15 +8,20 @@ declare namespace Themes {
 	large: number
 }
 
-export interface Default {
+export interface FontFamily {
+	primary: string
+	fallback: string
+}
+
+export interface Label {
 	fontSize: number
-	fontWeight: number
 	letterSpacing: number
 	lineHeight: number
+	fontFamily: FontFamily
 }
 
 export interface Button {
-	default: Default
+	label: Label
 }
 
 export interface Heading1 {
@@ -132,6 +137,10 @@ export interface FontFamily {
 	secondary: string
 	branding: string
 	code: string
+	display: string
+	headline: string
+	body: string
+	fallback: string
 }
 
 export interface LineHeight {
@@ -194,6 +203,16 @@ export interface Color {
 	onAlert: string
 }
 
+export interface File {
+	display: string
+	headline: string
+	body: string
+}
+
+export interface Font {
+	file: File
+}
+
 export interface A {
 	file: string
 	width: number
@@ -234,6 +253,7 @@ export interface Brand {
 }
 
 export interface Asset {
+	font: Font
 	brand: Brand
 }
 

@@ -1,4 +1,4 @@
-import { isAssetFile, readAsset } from '../helpers';
+import { isLogoAssetFile, readAsset } from '../helpers';
 
 const transformer = (token) => {
   const assetName = `${token.value}.svg`;
@@ -8,7 +8,7 @@ const transformer = (token) => {
 };
 
 export const registerAssetInlineTransform = () => ({
-  matcher: isAssetFile,
+  matcher: isLogoAssetFile,
   name: 'asset/svg-inline',
   transformer,
   type: 'value',

@@ -1,5 +1,6 @@
 export const buildWebConfig = (brand, mode) => ({
-  actions: ['create_type_definitions', 'custom_copy_assets'],
+  actions: ['create_type_definitions', 'custom_copy_assets', 'create_type_face'],
+  brand,
   buildPath: 'build/web/',
   files: [
     {
