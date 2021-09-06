@@ -1,17 +1,45 @@
 {
   "typography": {
-    "fontFamily": {
-      "display": {
-        "value": "Druk Bold"
+    "display": {
+      "fontFamily": {
+        "value": "Druk Cy"
       },
-      "headline": {
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headline": {
+      "fontFamily": {
         "value": "Recoleta"
       },
-      "body": {
-        "value": "Work Sans"
+      "fontWeight": {
+        "value": 600
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Work Sans"
+        },
+        "fontWeight": {
+          "value": 400
+        }
       },
-      "fallback": {
-        "value": "{platform.typography.fontFamily.primary.value}"
+      "bold": {
+        "fontFamily": {
+          "value": "Work Sans"
+        },
+        "fontWeight": {
+          "value": 700
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "{platform.typography.fallback.fontFamily.value}"
+      },
+      "fontWeight": {
+        "value": "{platform.typography.fallback.fontWeight.value}"
       }
     }
   },
@@ -22,10 +50,15 @@
           "value": "DrukCy-Bold"
         },
         "headline": {
-          "value": "Recoleta-Regular"
+          "value": "Recoleta-SemiBold"
         },
         "body": {
-          "value": "WorkSans-Regular"
+          "regular": {
+            "value": "WorkSans-Regular"
+          },
+          "bold": {
+            "value": "WorkSans-Bold"
+          }
         }
       }
     }

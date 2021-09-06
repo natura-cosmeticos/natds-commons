@@ -5,7 +5,7 @@
         url('Montserrat-Regular.woff2') format('woff2'),
         url('Montserrat-Regular.woff') format('woff'),
         url('Montserrat-Regular.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }

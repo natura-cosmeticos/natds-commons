@@ -1,31 +1,64 @@
 {
   "typography": {
-    "fontFamily": {
-      "display": {
+    "display": {
+      "fontFamily": {
         "value": "Helvetica Now Display"
       },
-      "headline": {
-        "value": "Helvetica Now Text"
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Helvetica Now Display"
       },
-      "body": {
-        "value": "Helvetica Now Text"
+      "fontWeight": {
+        "value": 500
+      }
+    },
+    "body": {
+      "regular":{
+        "fontFamily": {
+          "value": "Helvetica Now Display"
+        },
+        "fontWeight": {
+          "value": 400
+        }
       },
-      "fallback": {
-        "value": "{platform.typography.fontFamily.primary.value}"
+      "bold":{
+        "fontFamily": {
+          "value": "Helvetica Now Display"
+        },
+        "fontWeight": {
+          "value": 700
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "{platform.typography.fallback.fontFamily.value}"
+      },
+      "fontWeight": {
+        "value": "{platform.typography.fallback.fontWeight.value}"
       }
     }
   },
   "asset": {
     "font": {
-      "file":{
+      "file": {
         "display": {
-          "value": "HelveticaNowDisplay-Regular"
+          "value": "HelveticaNowDisplay-Bd"
         },
         "headline": {
-          "value": "HelveticaNowText-Regular"
+          "value": "HelveticaNowDisplay-Md"
         },
         "body": {
-          "value": "HelveticaNowText-Regular"
+          "regular": {
+            "value": "HelveticaNowDisplay-Regular"
+          },
+          "bold": {
+            "value": "HelveticaNowDisplay-Bd"
+          }
         }
       }
     }

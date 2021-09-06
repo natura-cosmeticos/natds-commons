@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Sep 2021 12:54:02 GMT
+ * Generated on Thu, 09 Sep 2021 12:55:06 GMT
  */
 
 module.exports = {
@@ -154,20 +154,20 @@ module.exports = {
           "lineHeight"
         ]
       },
-      "fontFamily": {
-        "primary": {
-          "value": "Roboto",
+      "primary": {
+        "fontFamily": {
+          "value": "Montserrat",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontFamily.primary.value}"
+            "value": "{typography.body.regular.fontFamily.value}"
           },
-          "name": "buttonLabelFontFamilyPrimary",
+          "name": "buttonLabelPrimaryFontFamily",
           "attributes": {
             "category": "button",
             "type": "label",
-            "item": "fontFamily",
-            "subitem": "primary",
+            "item": "primary",
+            "subitem": "fontFamily",
             "customOptions": {
               "type": "string"
             }
@@ -175,23 +175,23 @@ module.exports = {
           "path": [
             "button",
             "label",
-            "fontFamily",
-            "primary"
+            "primary",
+            "fontFamily"
           ]
         },
-        "fallback": {
-          "value": "Roboto",
+        "fontWeight": {
+          "value": "sans-serif",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontFamily.primary.value}"
+            "value": "{typography.body.regular.fontWeight.value}"
           },
-          "name": "buttonLabelFontFamilyFallback",
+          "name": "buttonLabelPrimaryFontWeight",
           "attributes": {
             "category": "button",
             "type": "label",
-            "item": "fontFamily",
-            "subitem": "fallback",
+            "item": "primary",
+            "subitem": "fontWeight",
             "customOptions": {
               "type": "string"
             }
@@ -199,8 +199,58 @@ module.exports = {
           "path": [
             "button",
             "label",
-            "fontFamily",
-            "fallback"
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "buttonLabelFallbackFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "buttonLabelFallbackFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontWeight"
           ]
         }
       }
@@ -1643,94 +1693,6 @@ module.exports = {
           "fontFamily",
           "code"
         ]
-      },
-      "display": {
-        "value": "Montserrat",
-        "filePath": "properties/brands/avon/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "Montserrat"
-        },
-        "name": "typographyFontFamilyDisplay",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "display",
-          "customOptions": {
-            "type": "string"
-          }
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "display"
-        ]
-      },
-      "headline": {
-        "value": "Montserrat",
-        "filePath": "properties/brands/avon/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "Montserrat"
-        },
-        "name": "typographyFontFamilyHeadline",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "headline",
-          "customOptions": {
-            "type": "string"
-          }
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "headline"
-        ]
-      },
-      "body": {
-        "value": "Montserrat",
-        "filePath": "properties/brands/avon/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "Montserrat"
-        },
-        "name": "typographyFontFamilyBody",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "body",
-          "customOptions": {
-            "type": "string"
-          }
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "body"
-        ]
-      },
-      "fallback": {
-        "value": "Roboto",
-        "filePath": "properties/brands/avon/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "{platform.typography.fontFamily.primary.value}"
-        },
-        "name": "typographyFontFamilyFallback",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "fallback",
-          "customOptions": {
-            "type": "string"
-          }
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "fallback"
-        ]
       }
     },
     "lineHeight": {
@@ -1829,7 +1791,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.regular.value}"
+          "value": 400
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -1851,7 +1813,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.medium.value}"
+          "value": 500
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -1866,6 +1828,246 @@ module.exports = {
           "typography",
           "fontWeight",
           "medium"
+        ]
+      }
+    },
+    "display": {
+      "fontFamily": {
+        "value": "Montserrat",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Montserrat"
+        },
+        "name": "typographyDisplayFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif-bold",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "typographyDisplayFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontWeight"
+        ]
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Montserrat",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Montserrat"
+        },
+        "name": "typographyHeadlineFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif-semibold",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 600
+        },
+        "name": "typographyHeadlineFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontWeight"
+        ]
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Montserrat",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Montserrat"
+          },
+          "name": "typographyBodyRegularFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 400
+          },
+          "name": "typographyBodyRegularFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontWeight"
+          ]
+        }
+      },
+      "bold": {
+        "fontFamily": {
+          "value": "Montserrat",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Montserrat"
+          },
+          "name": "typographyBodyBoldFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-bold",
+          "filePath": "properties/brands/avon/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 700
+          },
+          "name": "typographyBodyBoldFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "Roboto",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "typographyFallbackFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif",
+        "filePath": "properties/brands/avon/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "typographyFallbackFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontWeight"
         ]
       }
     }
@@ -2598,11 +2800,11 @@ module.exports = {
     "font": {
       "file": {
         "display": {
-          "value": "Montserrat_Regular",
+          "value": "Montserrat_Bold",
           "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
-            "value": "Montserrat-Regular"
+            "value": "Montserrat-Bold"
           },
           "name": "assetFontFileDisplay",
           "attributes": {
@@ -2627,11 +2829,11 @@ module.exports = {
           ]
         },
         "headline": {
-          "value": "Montserrat_Regular",
+          "value": "Montserrat_SemiBold",
           "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
-            "value": "Montserrat-Regular"
+            "value": "Montserrat-SemiBold"
           },
           "name": "assetFontFileHeadline",
           "attributes": {
@@ -2656,33 +2858,68 @@ module.exports = {
           ]
         },
         "body": {
-          "value": "Montserrat_Regular",
-          "filePath": "properties/brands/avon/typography.json",
-          "isSource": true,
-          "original": {
-            "value": "Montserrat-Regular"
-          },
-          "name": "assetFontFileBody",
-          "attributes": {
-            "category": "asset",
-            "type": "font",
-            "item": "file",
-            "subitem": "body",
-            "customOptions": {
-              "type": "reference"
+          "regular": {
+            "value": "Montserrat_Regular",
+            "filePath": "properties/brands/avon/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "Montserrat-Regular"
             },
-            "assetOptions": {
-              "extensions": [
-                "ttf"
-              ]
-            }
+            "name": "assetFontFileBodyRegular",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "regular",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "ttf"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "regular"
+            ]
           },
-          "path": [
-            "asset",
-            "font",
-            "file",
-            "body"
-          ]
+          "bold": {
+            "value": "Montserrat_Bold",
+            "filePath": "properties/brands/avon/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "Montserrat-Bold"
+            },
+            "name": "assetFontFileBodyBold",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "bold",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "ttf"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "bold"
+            ]
+          }
         }
       }
     },

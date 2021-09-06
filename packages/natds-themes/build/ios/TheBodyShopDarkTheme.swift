@@ -24,8 +24,9 @@ struct TheBodyShopDarkTheme: Theme {
 
 struct TheBodyShopDarkTokens: Tokens {
   let assetFontFileDisplay = "DrukCy-Bold"
-  let assetFontFileHeadline = "Recoleta-Regular"
-  let assetFontFileBody = "WorkSans-Regular"
+  let assetFontFileHeadline = "Recoleta-SemiBold"
+  let assetFontFileBodyRegular = "WorkSans-Regular"
+  let assetFontFileBodyBold = "WorkSans-Bold"
   let assetBrandNeutralAFile = "thebodyshop-a-official-dark"
   let assetBrandNeutralAWidth: CGFloat = 256
   let assetBrandNeutralAHeight: CGFloat = 27
@@ -167,23 +168,31 @@ struct TheBodyShopDarkTokens: Tokens {
   let typographyFontFamilySecondary = "sans-serif"
   let typographyFontFamilyBranding = "Helvetica Now"
   let typographyFontFamilyCode = "SF Mono"
-  let typographyFontFamilyDisplay = "Druk Bold"
-  let typographyFontFamilyHeadline = "Recoleta"
-  let typographyFontFamilyBody = "Work Sans"
-  let typographyFontFamilyFallback = "San Francisco"
   let typographyLineHeightReset: CGFloat = 1
   let typographyLineHeightSmall: CGFloat = 1.25
   let typographyLineHeightMedium: CGFloat = 1.5
   let typographyLineHeightLarge: CGFloat = 2
   let typographyFontWeightRegular: UIFont.Weight = .regular
   let typographyFontWeightMedium: UIFont.Weight = .medium
+  let typographyDisplayFontFamily = "Druk Cy"
+  let typographyDisplayFontWeight: UIFont.Weight = .bold
+  let typographyHeadlineFontFamily = "Recoleta"
+  let typographyHeadlineFontWeight: UIFont.Weight = .semibold
+  let typographyBodyRegularFontFamily = "Work Sans"
+  let typographyBodyRegularFontWeight: UIFont.Weight = .regular
+  let typographyBodyBoldFontFamily = "Work Sans"
+  let typographyBodyBoldFontWeight: UIFont.Weight = .bold
+  let typographyFallbackFontFamily = "San Francisco"
+  let typographyFallbackFontWeight: UIFont.Weight = .regular
 }
 struct TheBodyShopDarkComponents: Components {
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5
-  let buttonLabelFontFamilyPrimary = "San Francisco"
-  let buttonLabelFontFamilyFallback = "San Francisco"
+  let buttonLabelPrimaryFontFamily = "Work Sans"
+  let buttonLabelPrimaryFontWeight: UIFont.Weight = .regular
+  let buttonLabelFallbackFontFamily = "San Francisco"
+  let buttonLabelFallbackFontWeight: UIFont.Weight = .regular
   let heading1FontSize: CGFloat = 96
   let heading1FontWeight: UIFont.Weight = .regular
   let heading1LetterSpacing: CGFloat = 0

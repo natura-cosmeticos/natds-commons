@@ -145,11 +145,14 @@
     <item name="assetBrandNeutralBFile">@drawable/natura_b_official</item>
     <item name="assetBrandCustomAFile">@drawable/natura_a_custom</item>
     <item name="assetBrandCustomBFile">@drawable/natura_b_custom</item>
-    <item name="assetFontFileDisplay">@font/HelveticaNowDisplay_Regular</item>
-    <item name="assetFontFileHeadline">@font/HelveticaNowText_Regular</item>
-    <item name="assetFontFileBody">@font/HelveticaNowText_Regular</item>
-    <item name="buttonLabelFontFamilyPrimary">Roboto</item>
-    <item name="buttonLabelFontFamilyFallback">Roboto</item>
+    <item name="assetFontFileDisplay">@font/HelveticaNowDisplay_Bd</item>
+    <item name="assetFontFileHeadline">@font/HelveticaNowDisplay_Md</item>
+    <item name="assetFontFileBodyRegular">@font/HelveticaNowDisplay_Regular</item>
+    <item name="assetFontFileBodyBold">@font/HelveticaNowDisplay_Bd</item>
+    <item name="buttonLabelPrimaryFontFamily">Helvetica Now Display</item>
+    <item name="buttonLabelPrimaryFontWeight">sans-serif</item>
+    <item name="buttonLabelFallbackFontFamily">Roboto</item>
+    <item name="buttonLabelFallbackFontWeight">sans-serif</item>
     <item name="heading1FontWeight">sans-serif</item>
     <item name="heading2FontWeight">sans-serif</item>
     <item name="heading3FontWeight">sans-serif</item>
@@ -166,11 +169,17 @@
     <item name="typographyFontFamilySecondary">sans-serif</item>
     <item name="typographyFontFamilyBranding">Helvetica Now</item>
     <item name="typographyFontFamilyCode">Roboto Mono</item>
-    <item name="typographyFontFamilyDisplay">Helvetica Now Display</item>
-    <item name="typographyFontFamilyHeadline">Helvetica Now Text</item>
-    <item name="typographyFontFamilyBody">Helvetica Now Text</item>
-    <item name="typographyFontFamilyFallback">Roboto</item>
     <item name="typographyFontWeightRegular">sans-serif</item>
     <item name="typographyFontWeightMedium">sans-serif-medium</item>
+    <item name="typographyDisplayFontFamily">Helvetica Now Display</item>
+    <item name="typographyDisplayFontWeight">sans-serif-bold</item>
+    <item name="typographyHeadlineFontFamily">Helvetica Now Display</item>
+    <item name="typographyHeadlineFontWeight">sans-serif-medium</item>
+    <item name="typographyBodyRegularFontFamily">Helvetica Now Display</item>
+    <item name="typographyBodyRegularFontWeight">sans-serif</item>
+    <item name="typographyBodyBoldFontFamily">Helvetica Now Display</item>
+    <item name="typographyBodyBoldFontWeight">sans-serif-bold</item>
+    <item name="typographyFallbackFontFamily">Roboto</item>
+    <item name="typographyFallbackFontWeight">sans-serif</item>
   </style>
 </resources>

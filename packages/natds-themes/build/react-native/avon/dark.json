@@ -10,9 +10,13 @@
       "fontSize": 14,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
-      "fontFamily": {
-        "primary": "Roboto",
-        "fallback": "Roboto"
+      "primary": {
+        "fontFamily": "Montserrat",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
       }
     }
   },
@@ -115,11 +119,7 @@
       "primary": "Roboto",
       "secondary": "sans-serif",
       "branding": "Helvetica Now",
-      "code": "Roboto Mono",
-      "display": "Montserrat",
-      "headline": "Montserrat",
-      "body": "Montserrat",
-      "fallback": "Roboto"
+      "code": "Roboto Mono"
     },
     "lineHeight": {
       "reset": 1,
@@ -130,6 +130,28 @@
     "fontWeight": {
       "regular": 400,
       "medium": 500
+    },
+    "display": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 700
+    },
+    "headline": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 600
+    },
+    "body": {
+      "regular": {
+        "fontFamily": "Montserrat",
+        "fontWeight": 400
+      },
+      "bold": {
+        "fontFamily": "Montserrat",
+        "fontWeight": 700
+      }
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
     }
   },
   "spacing": {
@@ -175,9 +197,12 @@
   "asset": {
     "font": {
       "file": {
-        "display": "Montserrat-Regular",
-        "headline": "Montserrat-Regular",
-        "body": "Montserrat-Regular"
+        "display": "Montserrat-Bold",
+        "headline": "Montserrat-SemiBold",
+        "body": {
+          "regular": "Montserrat-Regular",
+          "bold": "Montserrat-Bold"
+        }
       }
     },
     "brand": {

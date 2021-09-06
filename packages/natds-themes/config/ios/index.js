@@ -1,6 +1,7 @@
 import config from './buildIosConfig';
 import { registerAttributeTypeTransform } from './transforms/registerAttributeTypeTransform';
 import { registerValueStringLiteralTransform } from './transforms/registerValueStringLiteralTransform';
+import { registerFontWeightTransform } from './transforms/registerFontWeightTransform';
 import {
   registerSpectrumFormat,
   registerThemeFormat,
@@ -17,5 +18,9 @@ export default {
     registerThemeProtocolFormat,
     registerSpectrumProtocolFormat,
   ],
-  transforms: [registerAttributeTypeTransform, registerValueStringLiteralTransform],
+  transforms: [
+    registerAttributeTypeTransform, 
+    registerValueStringLiteralTransform,
+    registerFontWeightTransform,
+  ],
 };

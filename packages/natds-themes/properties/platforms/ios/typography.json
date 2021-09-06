@@ -14,12 +14,12 @@
           "value": "SF Mono"
         }
       },
-      "fontWeight": {
-        "regular": {
-          "value": ".regular"
+      "fallback": {
+        "fontFamily": {
+          "value": "San Francisco"
         },
-        "medium": {
-          "value": ".medium"
+        "fontWeight": {
+          "value": 400
         }
       }
     },

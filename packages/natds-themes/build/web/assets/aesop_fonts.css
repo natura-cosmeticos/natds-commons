@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Zapf Humanist';
+    font-family: 'Zapf Humanist 601';
     src: url('ZapfHumanist601BT-Roman.eot');
     src: url('ZapfHumanist601BT-Roman.eot?#iefix') format('embedded-opentype'),
         url('ZapfHumanist601BT-Roman.woff2') format('woff2'),
         url('ZapfHumanist601BT-Roman.woff') format('woff'),
         url('ZapfHumanist601BT-Roman.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -18,7 +18,7 @@
         url('SuisseIntl-Regular.woff2') format('woff2'),
         url('SuisseIntl-Regular.woff') format('woff'),
         url('SuisseIntl-Regular.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }

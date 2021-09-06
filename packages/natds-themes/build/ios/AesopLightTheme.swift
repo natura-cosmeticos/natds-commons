@@ -25,7 +25,8 @@ struct AesopLightTheme: Theme {
 struct AesopLightTokens: Tokens {
   let assetFontFileDisplay = "ZapfHumanist601BT-Roman"
   let assetFontFileHeadline = "SuisseIntl-Regular"
-  let assetFontFileBody = "SuisseIntl-Regular"
+  let assetFontFileBodyRegular = "SuisseIntl-Regular"
+  let assetFontFileBodyBold = "SuisseIntl-Regular"
   let assetBrandNeutralAFile = "aesop-a-official"
   let assetBrandNeutralAWidth: CGFloat = 256
   let assetBrandNeutralAHeight: CGFloat = 82
@@ -167,23 +168,31 @@ struct AesopLightTokens: Tokens {
   let typographyFontFamilySecondary = "sans-serif"
   let typographyFontFamilyBranding = "Helvetica Now"
   let typographyFontFamilyCode = "SF Mono"
-  let typographyFontFamilyDisplay = "Zapf Humanist"
-  let typographyFontFamilyHeadline = "Suisse"
-  let typographyFontFamilyBody = "Suisse"
-  let typographyFontFamilyFallback = "San Francisco"
   let typographyLineHeightReset: CGFloat = 1
   let typographyLineHeightSmall: CGFloat = 1.25
   let typographyLineHeightMedium: CGFloat = 1.5
   let typographyLineHeightLarge: CGFloat = 2
   let typographyFontWeightRegular: UIFont.Weight = .regular
   let typographyFontWeightMedium: UIFont.Weight = .medium
+  let typographyDisplayFontFamily = "Zapf Humanist 601"
+  let typographyDisplayFontWeight: UIFont.Weight = .regular
+  let typographyHeadlineFontFamily = "Suisse Int'l"
+  let typographyHeadlineFontWeight: UIFont.Weight = .regular
+  let typographyBodyRegularFontFamily = "Suisse Int'l"
+  let typographyBodyRegularFontWeight: UIFont.Weight = .regular
+  let typographyBodyBoldFontFamily = "Suisse Int'l"
+  let typographyBodyBoldFontWeight: UIFont.Weight = .bold
+  let typographyFallbackFontFamily = "San Francisco"
+  let typographyFallbackFontWeight: UIFont.Weight = .regular
 }
 struct AesopLightComponents: Components {
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5
-  let buttonLabelFontFamilyPrimary = "San Francisco"
-  let buttonLabelFontFamilyFallback = "San Francisco"
+  let buttonLabelPrimaryFontFamily = "Suisse Int'l"
+  let buttonLabelPrimaryFontWeight: UIFont.Weight = .regular
+  let buttonLabelFallbackFontFamily = "San Francisco"
+  let buttonLabelFallbackFontWeight: UIFont.Weight = .regular
   let heading1FontSize: CGFloat = 96
   let heading1FontWeight: UIFont.Weight = .regular
   let heading1LetterSpacing: CGFloat = 0

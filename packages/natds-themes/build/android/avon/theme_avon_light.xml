@@ -145,11 +145,14 @@
     <item name="assetBrandNeutralBFile">@drawable/avon_a_official</item>
     <item name="assetBrandCustomAFile">@drawable/avon_a_custom</item>
     <item name="assetBrandCustomBFile">@drawable/avon_a_custom</item>
-    <item name="assetFontFileDisplay">@font/Montserrat_Regular</item>
-    <item name="assetFontFileHeadline">@font/Montserrat_Regular</item>
-    <item name="assetFontFileBody">@font/Montserrat_Regular</item>
-    <item name="buttonLabelFontFamilyPrimary">Roboto</item>
-    <item name="buttonLabelFontFamilyFallback">Roboto</item>
+    <item name="assetFontFileDisplay">@font/Montserrat_Bold</item>
+    <item name="assetFontFileHeadline">@font/Montserrat_SemiBold</item>
+    <item name="assetFontFileBodyRegular">@font/Montserrat_Regular</item>
+    <item name="assetFontFileBodyBold">@font/Montserrat_Bold</item>
+    <item name="buttonLabelPrimaryFontFamily">Montserrat</item>
+    <item name="buttonLabelPrimaryFontWeight">sans-serif</item>
+    <item name="buttonLabelFallbackFontFamily">Roboto</item>
+    <item name="buttonLabelFallbackFontWeight">sans-serif</item>
     <item name="heading1FontWeight">sans-serif</item>
     <item name="heading2FontWeight">sans-serif</item>
     <item name="heading3FontWeight">sans-serif</item>
@@ -166,11 +169,17 @@
     <item name="typographyFontFamilySecondary">sans-serif</item>
     <item name="typographyFontFamilyBranding">Helvetica Now</item>
     <item name="typographyFontFamilyCode">Roboto Mono</item>
-    <item name="typographyFontFamilyDisplay">Montserrat</item>
-    <item name="typographyFontFamilyHeadline">Montserrat</item>
-    <item name="typographyFontFamilyBody">Montserrat</item>
-    <item name="typographyFontFamilyFallback">Roboto</item>
     <item name="typographyFontWeightRegular">sans-serif</item>
     <item name="typographyFontWeightMedium">sans-serif-medium</item>
+    <item name="typographyDisplayFontFamily">Montserrat</item>
+    <item name="typographyDisplayFontWeight">sans-serif-bold</item>
+    <item name="typographyHeadlineFontFamily">Montserrat</item>
+    <item name="typographyHeadlineFontWeight">sans-serif-semibold</item>
+    <item name="typographyBodyRegularFontFamily">Montserrat</item>
+    <item name="typographyBodyRegularFontWeight">sans-serif</item>
+    <item name="typographyBodyBoldFontFamily">Montserrat</item>
+    <item name="typographyBodyBoldFontWeight">sans-serif-bold</item>
+    <item name="typographyFallbackFontFamily">Roboto</item>
+    <item name="typographyFallbackFontWeight">sans-serif</item>
   </style>
 </resources>
