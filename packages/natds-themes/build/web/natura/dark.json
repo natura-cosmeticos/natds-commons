@@ -10,9 +10,13 @@
       "fontSize": 14,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
-      "fontFamily": {
-        "primary": "Roboto",
-        "fallback": "Roboto"
+      "primary": {
+        "fontFamily": "Helvetica Now Display",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
       }
     }
   },
@@ -115,11 +119,7 @@
       "primary": "Roboto",
       "secondary": "sans-serif",
       "branding": "Helvetica Now",
-      "code": "Roboto Mono",
-      "display": "Helvetica Now Display",
-      "headline": "Helvetica Now Text",
-      "body": "Helvetica Now Text",
-      "fallback": "Roboto"
+      "code": "Roboto Mono"
     },
     "lineHeight": {
       "reset": 1,
@@ -130,6 +130,28 @@
     "fontWeight": {
       "regular": 400,
       "medium": 500
+    },
+    "display": {
+      "fontFamily": "Helvetica Now Display",
+      "fontWeight": 700
+    },
+    "headline": {
+      "fontFamily": "Helvetica Now Display",
+      "fontWeight": 500
+    },
+    "body": {
+      "regular": {
+        "fontFamily": "Helvetica Now Display",
+        "fontWeight": 400
+      },
+      "bold": {
+        "fontFamily": "Helvetica Now Display",
+        "fontWeight": 700
+      }
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
     }
   },
   "spacing": {
@@ -175,9 +197,12 @@
   "asset": {
     "font": {
       "file": {
-        "display": "HelveticaNowDisplay-Regular",
-        "headline": "HelveticaNowText-Regular",
-        "body": "HelveticaNowText-Regular"
+        "display": "HelveticaNowDisplay-Bd",
+        "headline": "HelveticaNowDisplay-Md",
+        "body": {
+          "regular": "HelveticaNowDisplay-Regular",
+          "bold": "HelveticaNowDisplay-Bd"
+        }
       }
     },
     "brand": {

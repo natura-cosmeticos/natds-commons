@@ -39,6 +39,7 @@ const expectedConfig = {
     'size/attrType',
     'asset/extension',
     'asset/snake',
+    'value/font-weight-android',
   ],
 };
 

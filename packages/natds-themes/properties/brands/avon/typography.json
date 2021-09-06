@@ -1,17 +1,45 @@
 {
   "typography": {
-    "fontFamily": {
-      "display": {
+    "display": {
+      "fontFamily": {
         "value": "Montserrat"
       },
-      "headline": {
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headline": {
+      "fontFamily": {
         "value": "Montserrat"
       },
-      "body": {
-        "value": "Montserrat"
+      "fontWeight": {
+        "value": 600
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Montserrat"
+        },
+        "fontWeight": {
+          "value": 400
+        }
       },
-      "fallback": {
-        "value": "{platform.typography.fontFamily.primary.value}"
+      "bold": {
+        "fontFamily": {
+          "value": "Montserrat"
+        },
+        "fontWeight": {
+          "value": 700
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "{platform.typography.fallback.fontFamily.value}"
+      },
+      "fontWeight": {
+        "value": "{platform.typography.fallback.fontWeight.value}"
       }
     }
   },
@@ -19,13 +47,18 @@
     "font": {
       "file": {
         "display": {
-          "value": "Montserrat-Regular"
+          "value": "Montserrat-Bold"
         },
         "headline": {
-          "value": "Montserrat-Regular"
+          "value": "Montserrat-SemiBold"
         },
         "body": {
-          "value": "Montserrat-Regular"
+          "regular":{
+            "value": "Montserrat-Regular"
+          },
+          "bold":{
+            "value": "Montserrat-Bold"
+          }
         }
       }
     }

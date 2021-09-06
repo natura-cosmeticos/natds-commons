@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 07 Sep 2021 18:24:57 GMT
+ * Generated on Tue, 07 Sep 2021 18:26:34 GMT
  */
 
 module.exports = {
@@ -133,47 +133,91 @@ module.exports = {
           "lineHeight"
         ]
       },
-      "fontFamily": {
-        "primary": {
-          "value": "Roboto",
+      "primary": {
+        "fontFamily": {
+          "value": "Work Sans",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontFamily.primary.value}"
+            "value": "{typography.body.regular.fontFamily.value}"
           },
-          "name": "buttonLabelFontFamilyPrimary",
+          "name": "buttonLabelPrimaryFontFamily",
           "attributes": {
             "category": "button",
             "type": "label",
-            "item": "fontFamily",
-            "subitem": "primary"
+            "item": "primary",
+            "subitem": "fontFamily"
           },
           "path": [
             "button",
             "label",
-            "fontFamily",
-            "primary"
+            "primary",
+            "fontFamily"
           ]
         },
-        "fallback": {
-          "value": "Roboto",
+        "fontWeight": {
+          "value": 400,
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontFamily.primary.value}"
+            "value": "{typography.body.regular.fontWeight.value}"
           },
-          "name": "buttonLabelFontFamilyFallback",
+          "name": "buttonLabelPrimaryFontWeight",
           "attributes": {
             "category": "button",
             "type": "label",
-            "item": "fontFamily",
-            "subitem": "fallback"
+            "item": "primary",
+            "subitem": "fontWeight"
           },
           "path": [
             "button",
             "label",
-            "fontFamily",
-            "fallback"
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "buttonLabelFallbackFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "buttonLabelFallbackFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontWeight"
           ]
         }
       }
@@ -1406,82 +1450,6 @@ module.exports = {
           "fontFamily",
           "code"
         ]
-      },
-      "display": {
-        "value": "Druk Bold",
-        "filePath": "properties/brands/theBodyShop/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "Druk Bold"
-        },
-        "name": "typographyFontFamilyDisplay",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "display"
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "display"
-        ]
-      },
-      "headline": {
-        "value": "Recoleta",
-        "filePath": "properties/brands/theBodyShop/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "Recoleta"
-        },
-        "name": "typographyFontFamilyHeadline",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "headline"
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "headline"
-        ]
-      },
-      "body": {
-        "value": "Work Sans",
-        "filePath": "properties/brands/theBodyShop/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "Work Sans"
-        },
-        "name": "typographyFontFamilyBody",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "body"
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "body"
-        ]
-      },
-      "fallback": {
-        "value": "Roboto",
-        "filePath": "properties/brands/theBodyShop/typography.json",
-        "isSource": true,
-        "original": {
-          "value": "{platform.typography.fontFamily.primary.value}"
-        },
-        "name": "typographyFontFamilyFallback",
-        "attributes": {
-          "category": "typography",
-          "type": "fontFamily",
-          "item": "fallback"
-        },
-        "path": [
-          "typography",
-          "fontFamily",
-          "fallback"
-        ]
       }
     },
     "lineHeight": {
@@ -1568,7 +1536,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.regular.value}"
+          "value": 400
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -1587,7 +1555,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.medium.value}"
+          "value": 500
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -1599,6 +1567,216 @@ module.exports = {
           "typography",
           "fontWeight",
           "medium"
+        ]
+      }
+    },
+    "display": {
+      "fontFamily": {
+        "value": "Druk Cy",
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Druk Cy"
+        },
+        "name": "typographyDisplayFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 700,
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "typographyDisplayFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontWeight"
+        ]
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Recoleta",
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Recoleta"
+        },
+        "name": "typographyHeadlineFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 600
+        },
+        "name": "typographyHeadlineFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontWeight"
+        ]
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Work Sans",
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Work Sans"
+          },
+          "name": "typographyBodyRegularFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 400
+          },
+          "name": "typographyBodyRegularFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontWeight"
+          ]
+        }
+      },
+      "bold": {
+        "fontFamily": {
+          "value": "Work Sans",
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Work Sans"
+          },
+          "name": "typographyBodyBoldFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 700,
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 700
+          },
+          "name": "typographyBodyBoldFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "Arial",
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "typographyFallbackFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "typographyFallbackFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontWeight"
         ]
       }
     }
@@ -2252,11 +2430,11 @@ module.exports = {
           ]
         },
         "headline": {
-          "value": "Recoleta-Regular",
+          "value": "Recoleta-SemiBold",
           "filePath": "properties/brands/theBodyShop/typography.json",
           "isSource": true,
           "original": {
-            "value": "Recoleta-Regular"
+            "value": "Recoleta-SemiBold"
           },
           "name": "assetFontFileHeadline",
           "attributes": {
@@ -2281,33 +2459,68 @@ module.exports = {
           ]
         },
         "body": {
-          "value": "WorkSans-Regular",
-          "filePath": "properties/brands/theBodyShop/typography.json",
-          "isSource": true,
-          "original": {
-            "value": "WorkSans-Regular"
+          "regular": {
+            "value": "WorkSans-Regular",
+            "filePath": "properties/brands/theBodyShop/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "WorkSans-Regular"
+            },
+            "name": "assetFontFileBodyRegular",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "regular",
+              "assetOptions": {
+                "extensions": [
+                  "ttf",
+                  "eot",
+                  "woff",
+                  "woff2"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "regular"
+            ]
           },
-          "name": "assetFontFileBody",
-          "attributes": {
-            "category": "asset",
-            "type": "font",
-            "item": "file",
-            "subitem": "body",
-            "assetOptions": {
-              "extensions": [
-                "ttf",
-                "eot",
-                "woff",
-                "woff2"
-              ]
-            }
-          },
-          "path": [
-            "asset",
-            "font",
-            "file",
-            "body"
-          ]
+          "bold": {
+            "value": "WorkSans-Bold",
+            "filePath": "properties/brands/theBodyShop/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "WorkSans-Bold"
+            },
+            "name": "assetFontFileBodyBold",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "bold",
+              "assetOptions": {
+                "extensions": [
+                  "ttf",
+                  "eot",
+                  "woff",
+                  "woff2"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "bold"
+            ]
+          }
         }
       }
     },

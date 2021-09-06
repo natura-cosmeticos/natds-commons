@@ -40,6 +40,7 @@ const buildIosConfig = (brand, mode) => ({
     'attribute/type',
     'value/string-literal',
     'asset/extension',
+    'value/font-weight-ios',
   ],
 });
 

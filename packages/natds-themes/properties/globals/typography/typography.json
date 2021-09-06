@@ -30,10 +30,10 @@
     },
     "fontWeight": {
       "regular": {
-        "value": "{platform.typography.fontWeight.regular.value}"
+        "value": 400
       },
       "medium": {
-        "value": "{platform.typography.fontWeight.medium.value}"
+        "value": 500
       }
     }
   }

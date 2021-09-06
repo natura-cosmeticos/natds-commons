@@ -23,9 +23,10 @@ struct NaturaLightTheme: Theme {
 }
 
 struct NaturaLightTokens: Tokens {
-  let assetFontFileDisplay = "HelveticaNowDisplay-Regular"
-  let assetFontFileHeadline = "HelveticaNowText-Regular"
-  let assetFontFileBody = "HelveticaNowText-Regular"
+  let assetFontFileDisplay = "HelveticaNowDisplay-Bd"
+  let assetFontFileHeadline = "HelveticaNowDisplay-Md"
+  let assetFontFileBodyRegular = "HelveticaNowDisplay-Regular"
+  let assetFontFileBodyBold = "HelveticaNowDisplay-Bd"
   let assetBrandNeutralAFile = "natura-a-official"
   let assetBrandNeutralAWidth: CGFloat = 256
   let assetBrandNeutralAHeight: CGFloat = 55
@@ -167,23 +168,31 @@ struct NaturaLightTokens: Tokens {
   let typographyFontFamilySecondary = "sans-serif"
   let typographyFontFamilyBranding = "Helvetica Now"
   let typographyFontFamilyCode = "SF Mono"
-  let typographyFontFamilyDisplay = "Helvetica Now Display"
-  let typographyFontFamilyHeadline = "Helvetica Now Text"
-  let typographyFontFamilyBody = "Helvetica Now Text"
-  let typographyFontFamilyFallback = "San Francisco"
   let typographyLineHeightReset: CGFloat = 1
   let typographyLineHeightSmall: CGFloat = 1.25
   let typographyLineHeightMedium: CGFloat = 1.5
   let typographyLineHeightLarge: CGFloat = 2
   let typographyFontWeightRegular: UIFont.Weight = .regular
   let typographyFontWeightMedium: UIFont.Weight = .medium
+  let typographyDisplayFontFamily = "Helvetica Now Display"
+  let typographyDisplayFontWeight: UIFont.Weight = .bold
+  let typographyHeadlineFontFamily = "Helvetica Now Display"
+  let typographyHeadlineFontWeight: UIFont.Weight = .medium
+  let typographyBodyRegularFontFamily = "Helvetica Now Display"
+  let typographyBodyRegularFontWeight: UIFont.Weight = .regular
+  let typographyBodyBoldFontFamily = "Helvetica Now Display"
+  let typographyBodyBoldFontWeight: UIFont.Weight = .bold
+  let typographyFallbackFontFamily = "San Francisco"
+  let typographyFallbackFontWeight: UIFont.Weight = .regular
 }
 struct NaturaLightComponents: Components {
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5
-  let buttonLabelFontFamilyPrimary = "San Francisco"
-  let buttonLabelFontFamilyFallback = "San Francisco"
+  let buttonLabelPrimaryFontFamily = "Helvetica Now Display"
+  let buttonLabelPrimaryFontWeight: UIFont.Weight = .regular
+  let buttonLabelFallbackFontFamily = "San Francisco"
+  let buttonLabelFallbackFontWeight: UIFont.Weight = .regular
   let heading1FontSize: CGFloat = 96
   let heading1FontWeight: UIFont.Weight = .regular
   let heading1LetterSpacing: CGFloat = 0

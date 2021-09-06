@@ -13,13 +13,13 @@
         "code": {
           "value": "Roboto Mono"
         }
-      },
-      "fontWeight": {
-        "regular": {
-          "value": 400
+      },      
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial"
         },
-        "medium": {
-          "value": 500
+        "fontWeight": {
+          "value": 400
         }
       }
     },

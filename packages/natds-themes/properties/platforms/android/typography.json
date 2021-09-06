@@ -14,12 +14,12 @@
           "value": "Roboto Mono"
         }
       },
-      "fontWeight": {
-        "regular": {
-          "value": "sans-serif"
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto"
         },
-        "medium": {
-          "value": "sans-serif-medium"
+        "fontWeight": {
+          "value": 400
         }
       }
     },

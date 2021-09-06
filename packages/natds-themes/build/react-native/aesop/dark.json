@@ -10,9 +10,13 @@
       "fontSize": 14,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
-      "fontFamily": {
-        "primary": "Roboto",
-        "fallback": "Roboto"
+      "primary": {
+        "fontFamily": "Suisse Int'l",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
       }
     }
   },
@@ -115,11 +119,7 @@
       "primary": "Roboto",
       "secondary": "sans-serif",
       "branding": "Helvetica Now",
-      "code": "Roboto Mono",
-      "display": "Zapf Humanist",
-      "headline": "Suisse",
-      "body": "Suisse",
-      "fallback": "Roboto"
+      "code": "Roboto Mono"
     },
     "lineHeight": {
       "reset": 1,
@@ -130,6 +130,28 @@
     "fontWeight": {
       "regular": 400,
       "medium": 500
+    },
+    "display": {
+      "fontFamily": "Zapf Humanist 601",
+      "fontWeight": 400
+    },
+    "headline": {
+      "fontFamily": "Suisse Int'l",
+      "fontWeight": 400
+    },
+    "body": {
+      "regular": {
+        "fontFamily": "Suisse Int'l",
+        "fontWeight": 400
+      },
+      "bold": {
+        "fontFamily": "Suisse Int'l",
+        "fontWeight": 700
+      }
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
     }
   },
   "spacing": {
@@ -177,7 +199,10 @@
       "file": {
         "display": "ZapfHumanist601BT-Roman",
         "headline": "SuisseIntl-Regular",
-        "body": "SuisseIntl-Regular"
+        "body": {
+          "regular": "SuisseIntl-Regular",
+          "bold": "SuisseIntl-Regular"
+        }
       }
     },
     "brand": {

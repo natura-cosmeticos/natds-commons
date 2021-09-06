@@ -1,17 +1,45 @@
 {
   "typography": {
-    "fontFamily": {
-      "display": {
-        "value": "Zapf Humanist"
+    "display": {
+      "fontFamily": {
+        "value": "Zapf Humanist 601"
       },
-      "headline": {
-        "value": "Suisse"
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Suisse Int'l"
       },
-      "body": {
-        "value": "Suisse"
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Suisse Int'l"
+        },
+        "fontWeight": {
+          "value": 400
+        }
       },
-      "fallback": {
-        "value": "{platform.typography.fontFamily.primary.value}"
+      "bold": {
+        "fontFamily": {
+          "value": "Suisse Int'l"
+        },
+        "fontWeight": {
+          "value": 700
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "{platform.typography.fallback.fontFamily.value}"
+      },
+      "fontWeight": {
+        "value": "{platform.typography.fallback.fontWeight.value}"
       }
     }
   },
@@ -25,7 +53,12 @@
           "value": "SuisseIntl-Regular"
         },
         "body": {
-          "value": "SuisseIntl-Regular"
+          "regular": {
+            "value": "SuisseIntl-Regular"
+          },
+          "bold": {
+            "value": "SuisseIntl-Regular"
+          }
         }
       }
     }
