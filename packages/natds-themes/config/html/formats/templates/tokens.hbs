@@ -60,6 +60,14 @@
     code {
       white-space: nowrap;
     }
+
+    {{#each typography}}
+      .{{name}} {
+        font-family: {{fontFamily}};
+        font-weight: {{fontWeight}};
+      }  
+    {{/each}}
+    
   </style>
   {{> navigation }}
   <div class="container-fluid mt-5">
@@ -142,10 +150,10 @@
         <hr>
         <h3>Font Family</h1>
       </div>
-      {{#each tokens.typography.fontFamily}}
+      {{#each typography}}
       <div class="color col-12 col-sm-6 col-md-4">
-        <p class="color-name mt-5 mb-1">{{name}}: <code>{{value}}</code></p>
-        <p class="typography-sample" style="font-family: {{value}}">
+        <p class="color-name mt-5 mb-1">{{name}}: <code>{{fontFamily}}</code></p>
+        <p class="typography-sample {{name}}">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
