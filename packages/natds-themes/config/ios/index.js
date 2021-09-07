@@ -19,7 +19,7 @@ export default {
     registerSpectrumProtocolFormat,
   ],
   transforms: [
-    registerAttributeTypeTransform, 
+    registerAttributeTypeTransform,
     registerValueStringLiteralTransform,
     registerFontWeightTransform,
   ],

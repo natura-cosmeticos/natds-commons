@@ -123,6 +123,38 @@ const dictionary = {
       },
     },
     typography: {
+      body: {
+        bold: {
+          fontFamily: {
+            name: 'typographyBodyBoldFontFamily',
+            value: 'font C',
+          },
+          fontWeight: {
+            name: 'typographyBodyBoldFontWeight',
+            value: 400,
+          },
+        },
+        regular: {
+          fontFamily: {
+            name: 'typographyBodyRegularFontFamily',
+            value: 'font C',
+          },
+          fontWeight: {
+            name: 'typographyBodyRegularFontWeight',
+            value: 400,
+          },
+        },
+      },
+      display: {
+        fontFamily: {
+          name: 'typographyDisplayFontFamily',
+          value: 'font A',
+        },
+        fontWeight: {
+          name: 'typographyDisplayFontWeight',
+          value: 400,
+        },
+      },
       fontFamily: {
         small: {
           attributes: {},
@@ -136,6 +168,16 @@ const dictionary = {
             'small',
           ],
           value: 14,
+        },
+      },
+      headline: {
+        fontFamily: {
+          name: 'typographyHeadlineFontFamily',
+          value: 'font B',
+        },
+        fontWeight: {
+          name: 'typographyHeadlineFontWeight',
+          value: 400,
         },
       },
       lineHeight: {

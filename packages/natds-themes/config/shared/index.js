@@ -9,6 +9,7 @@ import { registerCamelTransform } from './transforms/registerCamelTransform';
 import { registerOptimizeSvgTransform } from './transforms/registerOptimizeSvgTransform';
 import { registerPxTransform } from './transforms/registerPxTransform';
 import { registerFillToCssTransform } from './transforms/registerFillToCssTransform';
+import { registerFontFamilyStringTransform } from './transforms/registerFontFamilyStringTransform';
 
 export default {
   actions: [
@@ -24,5 +25,6 @@ export default {
     registerOptimizeSvgTransform,
     registerPxTransform,
     registerFillToCssTransform,
+    registerFontFamilyStringTransform,
   ],
 };

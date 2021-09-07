@@ -1,4 +1,4 @@
-import { registerFontWeightTransform } from './registerFontWeightTransform'
+import { registerFontWeightTransform } from './registerFontWeightTransform';
 
 describe('registerFontWeightTransform', () => {
   it('should return the transformer config', () => {
