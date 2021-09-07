@@ -28,6 +28,7 @@ export interface Label {
 
 export interface Button {
 	label: Label
+	borderRadius: number
 }
 
 export interface Heading1 {

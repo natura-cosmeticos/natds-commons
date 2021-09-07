@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 07 Sep 2021 18:30:21 GMT
+ * Generated on Tue, 07 Sep 2021 19:19:29 GMT
  */
 
 module.exports = {
@@ -254,6 +254,26 @@ module.exports = {
           ]
         }
       }
+    },
+    "borderRadius": {
+      "value": "4dpdp",
+      "filePath": "properties/globals/components/button.json",
+      "isSource": true,
+      "original": {
+        "value": "{borderRadius.medium.value}"
+      },
+      "name": "buttonBorderRadius",
+      "attributes": {
+        "category": "button",
+        "type": "borderRadius",
+        "customOptions": {
+          "type": "dimension"
+        }
+      },
+      "path": [
+        "button",
+        "borderRadius"
+      ]
     }
   },
   "heading1": {

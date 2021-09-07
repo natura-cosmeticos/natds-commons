@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 07 Sep 2021 18:30:27 GMT
+ * Generated on Tue, 07 Sep 2021 19:19:35 GMT
  */
 
 module.exports = {
@@ -221,6 +221,23 @@ module.exports = {
           ]
         }
       }
+    },
+    "borderRadius": {
+      "value": 4,
+      "filePath": "properties/globals/components/button.json",
+      "isSource": true,
+      "original": {
+        "value": "{borderRadius.medium.value}"
+      },
+      "name": "buttonBorderRadius",
+      "attributes": {
+        "category": "button",
+        "type": "borderRadius"
+      },
+      "path": [
+        "button",
+        "borderRadius"
+      ]
     }
   },
   "heading1": {

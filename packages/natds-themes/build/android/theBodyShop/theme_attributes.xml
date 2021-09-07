@@ -31,6 +31,7 @@
   <attr name="buttonLabelPrimaryFontWeight" format="string" />  
   <attr name="buttonLabelFallbackFontFamily" format="string" />  
   <attr name="buttonLabelFallbackFontWeight" format="string" />  
+  <attr name="buttonBorderRadius" format="dimension" />  
   <attr name="heading1FontSize" format="dimension" />  
   <attr name="heading1FontWeight" format="string" />  
   <attr name="heading1LetterSpacing" format="dimension" />  

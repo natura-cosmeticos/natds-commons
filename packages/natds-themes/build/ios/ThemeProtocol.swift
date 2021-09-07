@@ -194,6 +194,7 @@ protocol Components {
   var buttonLabelPrimaryFontWeight: UIFont.Weight { get }
   var buttonLabelFallbackFontFamily: String { get }
   var buttonLabelFallbackFontWeight: UIFont.Weight { get }
+  var buttonBorderRadius: CGFloat { get }
   var heading1FontSize: CGFloat { get }
   var heading1FontWeight: UIFont.Weight { get }
   var heading1LetterSpacing: CGFloat { get }

@@ -10,6 +10,7 @@
   --buttonLabelPrimaryFontWeight: 400;
   --buttonLabelFallbackFontFamily: "Arial";
   --buttonLabelFallbackFontWeight: 400;
+  --buttonBorderRadius: 4px;
   --heading1FontSize: 96px;
   --heading1FontWeight: 400;
   --heading1LetterSpacing: 0px;

@@ -56,6 +56,7 @@
     <item name="buttonLabelFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="buttonLabelLetterSpacing">@dimen/ssotcbbe59f3826d96d11375dfb0c3469776</item>
     <item name="buttonLabelLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
+    <item name="buttonBorderRadius">@dimen/ssot008c27527d9558c8f46d91a46dd940aa</item>
     <item name="heading1FontSize">@dimen/ssotf2046c63a9b28031d75d8188b83abee7</item>
     <item name="heading1LetterSpacing">@dimen/ssot4d14337480bb336de0920801c674fab1</item>
     <item name="heading2FontSize">@dimen/ssot60977ec4a159daafe46990041221ada9</item>

@@ -9,6 +9,7 @@ export const buttonLabelPrimaryFontFamily = "Suisse Int'l";
 export const buttonLabelPrimaryFontWeight = 400;
 export const buttonLabelFallbackFontFamily = "Arial";
 export const buttonLabelFallbackFontWeight = 400;
+export const buttonBorderRadius = 4;
 export const heading1FontSize = 96;
 export const heading1FontWeight = 400;
 export const heading1LetterSpacing = 0;

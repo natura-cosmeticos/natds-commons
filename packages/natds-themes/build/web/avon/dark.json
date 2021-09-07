@@ -18,7 +18,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "heading1": {
     "fontSize": 96,

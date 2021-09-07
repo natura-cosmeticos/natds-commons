@@ -193,6 +193,7 @@ struct AesopLightComponents: Components {
   let buttonLabelPrimaryFontWeight: UIFont.Weight = .regular
   let buttonLabelFallbackFontFamily = "San Francisco"
   let buttonLabelFallbackFontWeight: UIFont.Weight = .regular
+  let buttonBorderRadius: CGFloat = 4
   let heading1FontSize: CGFloat = 96
   let heading1FontWeight: UIFont.Weight = .regular
   let heading1LetterSpacing: CGFloat = 0
