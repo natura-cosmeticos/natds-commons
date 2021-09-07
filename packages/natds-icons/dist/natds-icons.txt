@@ -3,6 +3,7 @@ filled_action_cancel
 filled_action_check
 filled_action_clock
 filled_action_delete
+filled_action_dislike
 filled_action_love
 filled_action_newrequest
 filled_action_rating
@@ -16,6 +17,7 @@ filled_brand_linkedin
 filled_brand_naturarosacea
 filled_brand_pinterest
 filled_brand_spotify
+filled_brand_thebodyshop
 filled_brand_twitter
 filled_brand_whatsapp
 filled_brand_youtube
@@ -46,6 +48,7 @@ filled_navigation_setbottom
 filled_navigation_setleft
 filled_navigation_setright
 filled_navigation_settop
+filled_place_local
 filled_place_truck
 filled_product_brandsproduct
 filled_social_myprofile
@@ -65,6 +68,7 @@ outlined_action_copy
 outlined_action_copylink
 outlined_action_cycle
 outlined_action_delete
+outlined_action_dislike
 outlined_action_done
 outlined_action_download
 outlined_action_edit
@@ -114,6 +118,7 @@ outlined_alert_info
 outlined_alert_notification
 outlined_alert_notificationsbadge
 outlined_alert_warning
+outlined_brand_thebodyshop
 outlined_communication_chat
 outlined_communication_email
 outlined_communication_help
