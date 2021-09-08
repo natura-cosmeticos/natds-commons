@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Sep 2021 12:56:19 GMT
+ * Generated on Thu, 09 Sep 2021 12:57:25 GMT
  */
 
 module.exports = {
@@ -135,11 +135,11 @@ module.exports = {
       },
       "primary": {
         "fontFamily": {
-          "value": "Helvetica Now Display",
+          "value": "Roboto",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.body.regular.fontFamily.value}"
+            "value": "{typography.fontFamily.primary.value}"
           },
           "name": "buttonLabelPrimaryFontFamily",
           "attributes": {
@@ -160,7 +160,7 @@ module.exports = {
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.body.regular.fontWeight.value}"
+            "value": "{typography.fontWeight.regular.value}"
           },
           "name": "buttonLabelPrimaryFontWeight",
           "attributes": {

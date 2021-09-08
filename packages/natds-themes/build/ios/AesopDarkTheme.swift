@@ -189,7 +189,7 @@ struct AesopDarkComponents: Components {
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5
-  let buttonLabelPrimaryFontFamily = "Suisse Int'l"
+  let buttonLabelPrimaryFontFamily = "San Francisco"
   let buttonLabelPrimaryFontWeight: UIFont.Weight = .regular
   let buttonLabelFallbackFontFamily = "San Francisco"
   let buttonLabelFallbackFontWeight: UIFont.Weight = .regular

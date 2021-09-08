@@ -11,7 +11,7 @@
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
       "primary": {
-        "fontFamily": "Suisse Int'l",
+        "fontFamily": "Roboto",
         "fontWeight": 400
       },
       "fallback": {

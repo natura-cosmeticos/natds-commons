@@ -12,10 +12,10 @@
       },
       "primary": {
         "fontFamily": {
-          "value": "{typography.body.regular.fontFamily.value}"
+          "value": "{typography.fontFamily.primary.value}"
         },
         "fontWeight": {
-          "value": "{typography.body.regular.fontWeight.value}"
+          "value": "{typography.fontWeight.regular.value}"
         }
       },
       "fallback": {

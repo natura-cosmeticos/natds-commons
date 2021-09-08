@@ -149,7 +149,7 @@
     <item name="assetFontFileHeadline">@font/Montserrat_SemiBold</item>
     <item name="assetFontFileBodyRegular">@font/Montserrat_Regular</item>
     <item name="assetFontFileBodyBold">@font/Montserrat_Bold</item>
-    <item name="buttonLabelPrimaryFontFamily">Montserrat</item>
+    <item name="buttonLabelPrimaryFontFamily">Roboto</item>
     <item name="buttonLabelPrimaryFontWeight">sans-serif</item>
     <item name="buttonLabelFallbackFontFamily">Roboto</item>
     <item name="buttonLabelFallbackFontWeight">sans-serif</item>

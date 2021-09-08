@@ -149,7 +149,7 @@
     <item name="assetFontFileHeadline">@font/Recoleta_SemiBold</item>
     <item name="assetFontFileBodyRegular">@font/WorkSans_Regular</item>
     <item name="assetFontFileBodyBold">@font/WorkSans_Bold</item>
-    <item name="buttonLabelPrimaryFontFamily">Work Sans</item>
+    <item name="buttonLabelPrimaryFontFamily">Roboto</item>
     <item name="buttonLabelPrimaryFontWeight">sans-serif</item>
     <item name="buttonLabelFallbackFontFamily">Roboto</item>
     <item name="buttonLabelFallbackFontWeight">sans-serif</item>

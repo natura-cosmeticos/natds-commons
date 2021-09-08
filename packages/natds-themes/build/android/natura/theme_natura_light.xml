@@ -149,7 +149,7 @@
     <item name="assetFontFileHeadline">@font/HelveticaNowDisplay_Md</item>
     <item name="assetFontFileBodyRegular">@font/HelveticaNowDisplay_Regular</item>
     <item name="assetFontFileBodyBold">@font/HelveticaNowDisplay_Bd</item>
-    <item name="buttonLabelPrimaryFontFamily">Helvetica Now Display</item>
+    <item name="buttonLabelPrimaryFontFamily">Roboto</item>
     <item name="buttonLabelPrimaryFontWeight">sans-serif</item>
     <item name="buttonLabelFallbackFontFamily">Roboto</item>
     <item name="buttonLabelFallbackFontWeight">sans-serif</item>

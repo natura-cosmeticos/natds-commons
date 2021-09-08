@@ -11,7 +11,7 @@
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
       "primary": {
-        "fontFamily": "Helvetica Now Display",
+        "fontFamily": "Roboto",
         "fontWeight": 400
       },
       "fallback": {
