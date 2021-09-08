@@ -121,6 +121,10 @@
   content: "\ea04";
 }
 
+.natds-icons-filled-action-dislike::before {
+  content: "\eb0f";
+}
+
 .natds-icons-filled-action-love::before {
   content: "\ea05";
 }
@@ -171,6 +175,10 @@
 
 .natds-icons-filled-brand-spotify::before {
   content: "\ea0f";
+}
+
+.natds-icons-filled-brand-thebodyshop::before {
+  content: "\eb10";
 }
 
 .natds-icons-filled-brand-twitter::before {
@@ -293,6 +301,10 @@
   content: "\ea29";
 }
 
+.natds-icons-filled-place-local::before {
+  content: "\eb11";
+}
+
 .natds-icons-filled-place-truck::before {
   content: "\eaf3";
 }
@@ -367,6 +379,10 @@
 
 .natds-icons-outlined-action-delete::before {
   content: "\ea3b";
+}
+
+.natds-icons-outlined-action-dislike::before {
+  content: "\eb12";
 }
 
 .natds-icons-outlined-action-done::before {
@@ -563,6 +579,10 @@
 
 .natds-icons-outlined-alert-warning::before {
   content: "\ea69";
+}
+
+.natds-icons-outlined-brand-thebodyshop::before {
+  content: "\eb13";
 }
 
 .natds-icons-outlined-communication-chat::before {

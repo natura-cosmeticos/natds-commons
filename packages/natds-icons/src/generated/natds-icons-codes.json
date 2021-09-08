@@ -14,6 +14,9 @@
 	"filled-action-delete": [
 		""
 	],
+	"filled-action-dislike": [
+		""
+	],
 	"filled-action-love": [
 		""
 	],
@@ -52,6 +55,9 @@
 	],
 	"filled-brand-spotify": [
 		""
+	],
+	"filled-brand-thebodyshop": [
+		""
 	],
 	"filled-brand-twitter": [
 		""
@@ -143,6 +149,9 @@
 	"filled-navigation-settop": [
 		""
 	],
+	"filled-place-local": [
+		""
+	],
 	"filled-place-truck": [
 		""
 	],
@@ -199,6 +208,9 @@
 	],
 	"outlined-action-delete": [
 		""
+	],
+	"outlined-action-dislike": [
+		""
 	],
 	"outlined-action-done": [
 		""
@@ -346,6 +358,9 @@
 	],
 	"outlined-alert-warning": [
 		""
+	],
+	"outlined-brand-thebodyshop": [
+		""
 	],
 	"outlined-communication-chat": [
 		""

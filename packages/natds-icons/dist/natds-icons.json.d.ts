@@ -4,6 +4,7 @@ interface RootObject {
   'filled-action-check': string;
   'filled-action-clock': string;
   'filled-action-delete': string;
+  'filled-action-dislike': string;
   'filled-action-love': string;
   'filled-action-newrequest': string;
   'filled-action-rating': string;
@@ -17,6 +18,7 @@ interface RootObject {
   'filled-brand-naturarosacea': string;
   'filled-brand-pinterest': string;
   'filled-brand-spotify': string;
+  'filled-brand-thebodyshop': string;
   'filled-brand-twitter': string;
   'filled-brand-whatsapp': string;
   'filled-brand-youtube': string;
@@ -47,6 +49,7 @@ interface RootObject {
   'filled-navigation-setleft': string;
   'filled-navigation-setright': string;
   'filled-navigation-settop': string;
+  'filled-place-local': string;
   'filled-place-truck': string;
   'filled-product-brandsproduct': string;
   'filled-social-myprofile': string;
@@ -66,6 +69,7 @@ interface RootObject {
   'outlined-action-copylink': string;
   'outlined-action-cycle': string;
   'outlined-action-delete': string;
+  'outlined-action-dislike': string;
   'outlined-action-done': string;
   'outlined-action-download': string;
   'outlined-action-edit': string;
@@ -115,6 +119,7 @@ interface RootObject {
   'outlined-alert-notification': string;
   'outlined-alert-notificationsbadge': string;
   'outlined-alert-warning': string;
+  'outlined-brand-thebodyshop': string;
   'outlined-communication-chat': string;
   'outlined-communication-email': string;
   'outlined-communication-help': string;

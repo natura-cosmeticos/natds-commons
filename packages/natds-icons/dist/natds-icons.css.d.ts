@@ -22,6 +22,7 @@ declare const styles: {
   readonly "natds-icons-filled-action-check": string;
   readonly "natds-icons-filled-action-clock": string;
   readonly "natds-icons-filled-action-delete": string;
+  readonly "natds-icons-filled-action-dislike": string;
   readonly "natds-icons-filled-action-love": string;
   readonly "natds-icons-filled-action-newrequest": string;
   readonly "natds-icons-filled-action-rating": string;
@@ -35,6 +36,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-naturarosacea": string;
   readonly "natds-icons-filled-brand-pinterest": string;
   readonly "natds-icons-filled-brand-spotify": string;
+  readonly "natds-icons-filled-brand-thebodyshop": string;
   readonly "natds-icons-filled-brand-twitter": string;
   readonly "natds-icons-filled-brand-whatsapp": string;
   readonly "natds-icons-filled-brand-youtube": string;
@@ -65,6 +67,7 @@ declare const styles: {
   readonly "natds-icons-filled-navigation-setleft": string;
   readonly "natds-icons-filled-navigation-setright": string;
   readonly "natds-icons-filled-navigation-settop": string;
+  readonly "natds-icons-filled-place-local": string;
   readonly "natds-icons-filled-place-truck": string;
   readonly "natds-icons-filled-product-brandsproduct": string;
   readonly "natds-icons-filled-social-myprofile": string;
@@ -84,6 +87,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-copylink": string;
   readonly "natds-icons-outlined-action-cycle": string;
   readonly "natds-icons-outlined-action-delete": string;
+  readonly "natds-icons-outlined-action-dislike": string;
   readonly "natds-icons-outlined-action-done": string;
   readonly "natds-icons-outlined-action-download": string;
   readonly "natds-icons-outlined-action-edit": string;
@@ -133,6 +137,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-notification": string;
   readonly "natds-icons-outlined-alert-notificationsbadge": string;
   readonly "natds-icons-outlined-alert-warning": string;
+  readonly "natds-icons-outlined-brand-thebodyshop": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;
   readonly "natds-icons-outlined-communication-help": string;
