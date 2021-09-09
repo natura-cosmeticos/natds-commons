@@ -16,8 +16,9 @@ const expectedConfig = {
     web: 'webConfig',
   },
   source: [
-    'properties/globals/**/*.json',
+    'properties/globals/**/!(*light|*dark).json',
     'properties/globals/**/!(*.test|*light|*dark).js',
+    'properties/globals/color/pikachu.json',
     'properties/brands/pokemon/pikachu.json',
     'properties/brands/pokemon/spectrum.json',
     'properties/brands/pokemon/typography.json',

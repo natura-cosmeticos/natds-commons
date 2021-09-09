@@ -15,8 +15,9 @@ export const buildConfig = (brand, mode, platform) => ({
     web: web.config(brand, mode),
   },
   source: [
-    'properties/globals/**/*.json',
+    'properties/globals/**/!(*light|*dark).json',
     'properties/globals/**/!(*.test|*light|*dark).js',
+    `properties/globals/color/${mode}.json`,
     `properties/brands/${brand}/${mode}.json`,
     `properties/brands/${brand}/spectrum.json`,
     `properties/brands/${brand}/typography.json`,

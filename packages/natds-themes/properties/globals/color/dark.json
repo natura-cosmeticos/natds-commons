@@ -1,0 +1,36 @@
+{
+  "color": {
+    "neutral":{
+      "50":{
+        "value": "{spectrum.gray.900.value}"
+      },
+      "100":{
+        "value": "{spectrum.gray.800.value}"
+      },
+      "200":{
+        "value": "{spectrum.gray.700.value}"
+      },
+      "300":{
+        "value": "{spectrum.gray.600.value}"
+      },
+      "400":{
+        "value": "{spectrum.gray.500.value}"
+      },
+      "500":{
+        "value": "{spectrum.gray.400.value}"
+      },
+      "600":{
+        "value": "{spectrum.gray.300.value}"
+      },
+      "700":{
+        "value": "{spectrum.gray.200.value}"
+      },
+      "800":{
+        "value": "{spectrum.gray.100.value}"
+      },
+      "900":{
+        "value": "{spectrum.gray.50.value}"
+      }
+    }
+  }
+}

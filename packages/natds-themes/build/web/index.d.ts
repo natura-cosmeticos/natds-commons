@@ -26,8 +26,117 @@ export interface Label {
 	fallback: Fallback
 }
 
+export interface Enable {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Disable {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Hover {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Focu {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Color {
+	enable: Enable
+	disable: Disable
+	hover: Hover
+	focus: Focu
+}
+
+export interface Contained {
+	color: Color
+}
+
+export interface Enable {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Disable {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Hover {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Focu {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Color {
+	enable: Enable
+	disable: Disable
+	hover: Hover
+	focus: Focu
+}
+
+export interface Outlined {
+	color: Color
+}
+
+export interface Enable {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Disable {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Hover {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Focu {
+	background: string
+	border: string
+	label: string
+}
+
+export interface Color {
+	enable: Enable
+	disable: Disable
+	hover: Hover
+	focus: Focu
+}
+
+export interface Text {
+	color: Color
+}
+
 export interface Button {
 	label: Label
+	borderRadius: number
+	contained: Contained
+	outlined: Outlined
+	text: Text
 }
 
 export interface Heading1 {
@@ -208,13 +317,31 @@ export interface Spacing {
 	xLarge: number
 }
 
+export interface Neutral {
+	50: string
+	100: string
+	200: string
+	300: string
+	400: string
+	500: string
+	600: string
+	700: string
+	800: string
+	900: string
+}
+
 export interface Color {
+	neutral: Neutral
 	primary: string
 	onPrimary: string
 	primaryLight: string
 	onPrimaryLight: string
+	primaryLightest: string
+	onPrimaryLightest: string
 	primaryDark: string
 	onPrimaryDark: string
+	primaryDarkest: string
+	onPrimaryDarkest: string
 	secondary: string
 	onSecondary: string
 	secondaryLight: string

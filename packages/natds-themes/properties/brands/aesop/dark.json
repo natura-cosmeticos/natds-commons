@@ -12,10 +12,22 @@
     "onPrimaryLight": {
       "value": "#000000"
     },
+    "primaryLightest": {
+      "value": "{spectrum.color.brand.a.darkest.value}"
+    },
+    "onPrimaryLightest": {
+      "value": "#000000"
+    },
     "primaryDark": {
       "value": "#BEBEBE"
     },
     "onPrimaryDark": {
+      "value": "#000000"
+    },
+    "primaryDarkest": {
+      "value": "{spectrum.color.brand.a.lightest.value}"
+    },
+    "onPrimaryDarkest": {
       "value": "#000000"
     },
     "secondary": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Sep 2021 13:29:12 GMT
+ * Generated on Mon, 13 Sep 2021 13:36:21 GMT
  */
 
 module.exports = {
@@ -252,6 +252,998 @@ module.exports = {
             "fallback",
             "fontWeight"
           ]
+        }
+      }
+    },
+    "borderRadius": {
+      "value": "4dpdp",
+      "filePath": "properties/globals/components/button.json",
+      "isSource": true,
+      "original": {
+        "value": "{borderRadius.medium.value}"
+      },
+      "name": "buttonBorderRadius",
+      "attributes": {
+        "category": "button",
+        "type": "borderRadius",
+        "customOptions": {
+          "type": "dimension"
+        }
+      },
+      "path": [
+        "button",
+        "borderRadius"
+      ]
+    },
+    "contained": {
+      "color": {
+        "enable": {
+          "background": {
+            "value": "#BE9AE2",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.value}"
+            },
+            "name": "buttonContainedColorEnableBackground",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "enable",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "enable",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonContainedColorEnableBorder",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "enable",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "enable",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#000000",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.onPrimary.value}"
+            },
+            "name": "buttonContainedColorEnableLabel",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "enable",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "enable",
+              "label"
+            ]
+          }
+        },
+        "disable": {
+          "background": {
+            "value": "#777777",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "name": "buttonContainedColorDisableBackground",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "disable",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "disable",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonContainedColorDisableBorder",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "disable",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "disable",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonContainedColorDisableLabel",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "disable",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "disable",
+              "label"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#8D6BB0",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primaryDark.value}"
+            },
+            "name": "buttonContainedColorHoverBackground",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "hover",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonContainedColorHoverBorder",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "hover",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "hover",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#000000",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.onPrimaryDark.value}"
+            },
+            "name": "buttonContainedColorHoverLabel",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "hover",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "hover",
+              "label"
+            ]
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "#9672D6",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primaryDarkest.value}"
+            },
+            "name": "buttonContainedColorFocusBackground",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "focus",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "focus",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonContainedColorFocusBorder",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "focus",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "focus",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#000000",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.onPrimaryDarkest.value}"
+            },
+            "name": "buttonContainedColorFocusLabel",
+            "attributes": {
+              "category": "button",
+              "type": "contained",
+              "item": "color",
+              "subitem": "focus",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "contained",
+              "color",
+              "focus",
+              "label"
+            ]
+          }
+        }
+      }
+    },
+    "outlined": {
+      "color": {
+        "enable": {
+          "background": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonOutlinedColorEnableBackground",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "enable",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "enable",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#BE9AE2",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.value}"
+            },
+            "name": "buttonOutlinedColorEnableBorder",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "enable",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "enable",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonOutlinedColorEnableLabel",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "enable",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "enable",
+              "label"
+            ]
+          }
+        },
+        "disable": {
+          "background": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonOutlinedColorDisableBackground",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "disable",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "disable",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#777777",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "name": "buttonOutlinedColorDisableBorder",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "disable",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "disable",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#BBBBBB",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.mediumEmphasis.value}"
+            },
+            "name": "buttonOutlinedColorDisableLabel",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "disable",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "disable",
+              "label"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#343a40",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.neutral.100.value}"
+            },
+            "name": "buttonOutlinedColorHoverBackground",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "hover",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#BE9AE2",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.value}"
+            },
+            "name": "buttonOutlinedColorHoverBorder",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "hover",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "hover",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonOutlinedColorHoverLabel",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "hover",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "hover",
+              "label"
+            ]
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "#495057",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.neutral.200.value}"
+            },
+            "name": "buttonOutlinedColorFocusBackground",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "focus",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "focus",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#BE9AE2",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.primary.value}"
+            },
+            "name": "buttonOutlinedColorFocusBorder",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "focus",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "focus",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonOutlinedColorFocusLabel",
+            "attributes": {
+              "category": "button",
+              "type": "outlined",
+              "item": "color",
+              "subitem": "focus",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "outlined",
+              "color",
+              "focus",
+              "label"
+            ]
+          }
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "enable": {
+          "background": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonTextColorEnableBackground",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "enable",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "enable",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonTextColorEnableBorder",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "enable",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "enable",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonTextColorEnableLabel",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "enable",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "enable",
+              "label"
+            ]
+          }
+        },
+        "disable": {
+          "background": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonTextColorDisableBackground",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "disable",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "disable",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonTextColorDisableBorder",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "disable",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "disable",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#BBBBBB",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.mediumEmphasis.value}"
+            },
+            "name": "buttonTextColorDisableLabel",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "disable",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "disable",
+              "label"
+            ]
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#343a40",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.neutral.100.value}"
+            },
+            "name": "buttonTextColorHoverBackground",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "hover",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "hover",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonTextColorHoverBorder",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "hover",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "hover",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonTextColorHoverLabel",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "hover",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "hover",
+              "label"
+            ]
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "#495057",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.neutral.200.value}"
+            },
+            "name": "buttonTextColorFocusBackground",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "focus",
+              "state": "background",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "focus",
+              "background"
+            ]
+          },
+          "border": {
+            "value": "#FFFFFF00",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "#FFFFFF00"
+            },
+            "name": "buttonTextColorFocusBorder",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "focus",
+              "state": "border",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "focus",
+              "border"
+            ]
+          },
+          "label": {
+            "value": "#FAFAFA",
+            "filePath": "properties/globals/components/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.highEmphasis.value}"
+            },
+            "name": "buttonTextColorFocusLabel",
+            "attributes": {
+              "category": "button",
+              "type": "text",
+              "item": "color",
+              "subitem": "focus",
+              "state": "label",
+              "customOptions": {
+                "type": "dimension"
+              }
+            },
+            "path": [
+              "button",
+              "text",
+              "color",
+              "focus",
+              "label"
+            ]
+          }
         }
       }
     }
@@ -2235,6 +3227,228 @@ module.exports = {
     }
   },
   "color": {
+    "neutral": {
+      "50": {
+        "value": "#212529",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.900.value}"
+        },
+        "name": "colorNeutral50",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "50",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "50"
+        ]
+      },
+      "100": {
+        "value": "#343a40",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.800.value}"
+        },
+        "name": "colorNeutral100",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "100",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "100"
+        ]
+      },
+      "200": {
+        "value": "#495057",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.700.value}"
+        },
+        "name": "colorNeutral200",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "200",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "200"
+        ]
+      },
+      "300": {
+        "value": "#868e96",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.600.value}"
+        },
+        "name": "colorNeutral300",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "300",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "300"
+        ]
+      },
+      "400": {
+        "value": "#adb5bd",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.500.value}"
+        },
+        "name": "colorNeutral400",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "400",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "400"
+        ]
+      },
+      "500": {
+        "value": "#ced4da",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.400.value}"
+        },
+        "name": "colorNeutral500",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "500",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "500"
+        ]
+      },
+      "600": {
+        "value": "#dee2e6",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.300.value}"
+        },
+        "name": "colorNeutral600",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "600",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "600"
+        ]
+      },
+      "700": {
+        "value": "#e9ecef",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.200.value}"
+        },
+        "name": "colorNeutral700",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "700",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "700"
+        ]
+      },
+      "800": {
+        "value": "#f1f3f5",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.100.value}"
+        },
+        "name": "colorNeutral800",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "800",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "800"
+        ]
+      },
+      "900": {
+        "value": "#f8f9fa",
+        "filePath": "properties/globals/color/dark.json",
+        "isSource": true,
+        "original": {
+          "value": "{spectrum.gray.50.value}"
+        },
+        "name": "colorNeutral900",
+        "attributes": {
+          "category": "color",
+          "type": "neutral",
+          "item": "900",
+          "customOptions": {
+            "type": "color"
+          }
+        },
+        "path": [
+          "color",
+          "neutral",
+          "900"
+        ]
+      }
+    },
     "primary": {
       "value": "#BE9AE2",
       "filePath": "properties/brands/avon/dark.json",
@@ -2315,6 +3529,46 @@ module.exports = {
         "onPrimaryLight"
       ]
     },
+    "primaryLightest": {
+      "value": "#442184",
+      "filePath": "properties/brands/avon/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.color.brand.a.darkest.value}"
+      },
+      "name": "colorPrimaryLightest",
+      "attributes": {
+        "category": "color",
+        "type": "primaryLightest",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "primaryLightest"
+      ]
+    },
+    "onPrimaryLightest": {
+      "value": "#000000",
+      "filePath": "properties/brands/avon/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnPrimaryLightest",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryLightest",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onPrimaryLightest"
+      ]
+    },
     "primaryDark": {
       "value": "#8D6BB0",
       "filePath": "properties/brands/avon/dark.json",
@@ -2353,6 +3607,46 @@ module.exports = {
       "path": [
         "color",
         "onPrimaryDark"
+      ]
+    },
+    "primaryDarkest": {
+      "value": "#9672D6",
+      "filePath": "properties/brands/avon/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.color.brand.a.lightest.value}"
+      },
+      "name": "colorPrimaryDarkest",
+      "attributes": {
+        "category": "color",
+        "type": "primaryDarkest",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "primaryDarkest"
+      ]
+    },
+    "onPrimaryDarkest": {
+      "value": "#000000",
+      "filePath": "properties/brands/avon/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "#000000"
+      },
+      "name": "colorOnPrimaryDarkest",
+      "attributes": {
+        "category": "color",
+        "type": "onPrimaryDarkest",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "onPrimaryDarkest"
       ]
     },
     "secondary": {
