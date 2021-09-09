@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.8.3...@naturacosmeticos/natds-themes@0.9.0) (2021-09-09)
+
+
+### Features
+
+* **natds-themes:** add button tokens ([6fa5662](https://github.com/natura-cosmeticos/natds-commons/commit/6fa56626fe05ddecd7cd917f538d3b502988254c))
+* **natds-themes:** add custom font support ([fb27bc9](https://github.com/natura-cosmeticos/natds-commons/commit/fb27bc9b6ea6ecf273bf55a9ec7350dead764f39))
+* **natds-themes:** add custom font support ([47f05fd](https://github.com/natura-cosmeticos/natds-commons/commit/47f05fd636a913db1cb4a9f2320e913c0b9f12ff))
+
+
+
+
+
 ## [0.8.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.8.2...@naturacosmeticos/natds-themes@0.8.3) (2021-08-06)
 
 
