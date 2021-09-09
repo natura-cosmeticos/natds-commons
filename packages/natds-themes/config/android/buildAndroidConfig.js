@@ -36,6 +36,7 @@ const buildAndroidConfig = (brand, mode) => ({
     'size/attrType',
     'asset/extension',
     'asset/snake',
+    'value/font-weight-android',
   ],
 });
 

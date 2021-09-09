@@ -1,7 +1,6 @@
-import { isOneOfProps } from '../../shared/helpers';
+import { isOneOfProps, isAssetFile } from '../../shared/helpers';
 
 const categoryTypes = {
-  asset: 'reference',
   color: 'color',
   default: 'dimension',
   opacity: 'float',
@@ -10,11 +9,18 @@ const categoryTypes = {
 
 const isStringTypeProp = (prop) => isOneOfProps(['fontFamily', 'fontWeight'])(prop);
 
+export const getType = (prop) => {
+  if (isStringTypeProp(prop)) return 'string';
+  if (isAssetFile(prop)) return 'reference';
+
+  return categoryTypes[prop.attributes.category] || categoryTypes.default;
+};
+
 export const registerAttributeTypeTransform = () => ({
   name: 'size/attrType',
   transformer: (prop) => ({
     customOptions: {
-      type: isStringTypeProp(prop) ? 'string' : categoryTypes[prop.attributes.category] || categoryTypes.default,
+      type: getType(prop),
     },
   }),
   transitive: true,

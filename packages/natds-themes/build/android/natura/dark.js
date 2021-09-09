@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Sep 2021 14:07:39 GMT
+ * Generated on Thu, 09 Sep 2021 12:57:24 GMT
  */
 
 module.exports = {
@@ -87,7 +87,7 @@ module.exports = {
     }
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": {
         "value": "14sp",
         "filePath": "properties/globals/components/button.json",
@@ -95,10 +95,10 @@ module.exports = {
         "original": {
           "value": 14
         },
-        "name": "buttonDefaultFontSize",
+        "name": "buttonLabelFontSize",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "fontSize",
           "customOptions": {
             "type": "dimension"
@@ -106,30 +106,8 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "fontSize"
-        ]
-      },
-      "fontWeight": {
-        "value": "sans-serif-medium",
-        "filePath": "properties/globals/components/button.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "buttonDefaultFontWeight",
-        "attributes": {
-          "category": "button",
-          "type": "default",
-          "item": "fontWeight",
-          "customOptions": {
-            "type": "string"
-          }
-        },
-        "path": [
-          "button",
-          "default",
-          "fontWeight"
         ]
       },
       "letterSpacing": {
@@ -139,10 +117,10 @@ module.exports = {
         "original": {
           "value": "{platform.button.letterSpacing.value}"
         },
-        "name": "buttonDefaultLetterSpacing",
+        "name": "buttonLabelLetterSpacing",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "letterSpacing",
           "customOptions": {
             "type": "dimension"
@@ -150,7 +128,7 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "letterSpacing"
         ]
       },
@@ -161,10 +139,10 @@ module.exports = {
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
-        "name": "buttonDefaultLineHeight",
+        "name": "buttonLabelLineHeight",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "lineHeight",
           "customOptions": {
             "type": "dimension"
@@ -172,9 +150,109 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "lineHeight"
         ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "buttonLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "buttonLabelFallbackFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "buttonLabelFallbackFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
       }
     }
   },
@@ -1713,7 +1791,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.regular.value}"
+          "value": 400
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -1735,7 +1813,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.medium.value}"
+          "value": 500
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -1750,6 +1828,246 @@ module.exports = {
           "typography",
           "fontWeight",
           "medium"
+        ]
+      }
+    },
+    "display": {
+      "fontFamily": {
+        "value": "Helvetica Now Display",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Helvetica Now Display"
+        },
+        "name": "typographyDisplayFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif-bold",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "typographyDisplayFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontWeight"
+        ]
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Helvetica Now Display",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Helvetica Now Display"
+        },
+        "name": "typographyHeadlineFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif-medium",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 500
+        },
+        "name": "typographyHeadlineFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontWeight"
+        ]
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Helvetica Now Display",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Helvetica Now Display"
+          },
+          "name": "typographyBodyRegularFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 400
+          },
+          "name": "typographyBodyRegularFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontWeight"
+          ]
+        }
+      },
+      "bold": {
+        "fontFamily": {
+          "value": "Helvetica Now Display",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Helvetica Now Display"
+          },
+          "name": "typographyBodyBoldFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-bold",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 700
+          },
+          "name": "typographyBodyBoldFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "Roboto",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "typographyFallbackFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "typographyFallbackFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontWeight"
         ]
       }
     }
@@ -2479,6 +2797,132 @@ module.exports = {
     }
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "HelveticaNowDisplay_Bd",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "HelveticaNowDisplay-Bd"
+          },
+          "name": "assetFontFileDisplay",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "display",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "display"
+          ]
+        },
+        "headline": {
+          "value": "HelveticaNowDisplay_Md",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "HelveticaNowDisplay-Md"
+          },
+          "name": "assetFontFileHeadline",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "headline",
+            "customOptions": {
+              "type": "reference"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "headline"
+          ]
+        },
+        "body": {
+          "regular": {
+            "value": "HelveticaNowDisplay_Regular",
+            "filePath": "properties/brands/natura/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "HelveticaNowDisplay-Regular"
+            },
+            "name": "assetFontFileBodyRegular",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "regular",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "ttf"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": "HelveticaNowDisplay_Bd",
+            "filePath": "properties/brands/natura/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "HelveticaNowDisplay-Bd"
+            },
+            "name": "assetFontFileBodyBold",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "bold",
+              "customOptions": {
+                "type": "reference"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "ttf"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "bold"
+            ]
+          }
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {
@@ -2529,7 +2973,7 @@ module.exports = {
               "subitem": "a",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2555,7 +2999,7 @@ module.exports = {
               "subitem": "a",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2615,7 +3059,7 @@ module.exports = {
               "subitem": "b",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2641,7 +3085,7 @@ module.exports = {
               "subitem": "b",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2703,7 +3147,7 @@ module.exports = {
               "subitem": "a",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2729,7 +3173,7 @@ module.exports = {
               "subitem": "a",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2789,7 +3233,7 @@ module.exports = {
               "subitem": "b",
               "state": "width",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [
@@ -2815,7 +3259,7 @@ module.exports = {
               "subitem": "b",
               "state": "height",
               "customOptions": {
-                "type": "reference"
+                "type": "dimension"
               }
             },
             "path": [

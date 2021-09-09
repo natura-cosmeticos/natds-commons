@@ -1,7 +1,7 @@
 import path from 'path';
-import { allPass, filter } from 'ramda';
+import { allPass, filter, complement } from 'ramda';
 import {
-  flattenProps, isAssetFile, isAsset, negate, formatBuilder,
+  flattenProps, isLogoAssetFile, formatBuilder, isFontAssetFile,
 } from '../../shared/helpers';
 import {
   isDimension, createEncodedHashFromValue, isColor, mapFilteredValues,
@@ -15,19 +15,21 @@ const templateDataBuilder = (
   const props = flattenProps(properties);
 
   const filterPropsWithoutPrefix = allPass([
-    negate(isColor),
-    negate(isDimension),
-    negate(isAsset),
+    complement(isColor),
+    complement(isDimension),
+    complement(isLogoAssetFile),
+    complement(isFontAssetFile),
   ]);
 
   return {
     brandName,
     colors: mapFilteredValues(props, isColor, encodeValue),
     dimensions: mapFilteredValues(props, isDimension, encodeValue),
-    drawables: filter(isAssetFile),
+    drawables: filter(isLogoAssetFile)(props),
+    fonts: filter(isFontAssetFile)(props),
     materialMode: mode === 'Light' ? 'Light' : 'DayNight',
     mode,
-    properties: filter(filterPropsWithoutPrefix),
+    properties: filter(filterPropsWithoutPrefix)(props),
   };
 };
 

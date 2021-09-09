@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="assets/avon_fonts.css" rel="stylesheet">
+
+
 
 </head>
 
@@ -57,6 +60,24 @@
     code {
       white-space: nowrap;
     }
+
+      .typographyDisplayFontFamily {
+        font-family: font A;
+        font-weight: 400;
+      }  
+      .typographyHeadlineFontFamily {
+        font-family: font B;
+        font-weight: 400;
+      }  
+      .typographyBodyRegularFontFamily {
+        font-family: font C;
+        font-weight: 400;
+      }  
+      .typographyBodyBoldFontFamily {
+        font-family: font C;
+        font-weight: 400;
+      }  
+    
   </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -138,13 +159,39 @@
         <div class="borderRadius-sample" style="border-radius: 8px"></div>
       </div>
       <div class="col-12 mt-5">
+        <h1>Logo</h1>
+        <hr>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">assetBrandNeutralAFile</p>
+        <div class="logo-sample ">logo.svg</div>
+      </div>
+      <div class="col-12 mt-5">
         <h1>Typography</h1>
         <hr>
         <h3>Font Family</h1>
       </div>
       <div class="color col-12 col-sm-6 col-md-4">
-        <p class="color-name mt-5 mb-1">typographyFontFamilySmall: <code>14</code></p>
-        <p class="typography-sample" style="font-family: 14">
+        <p class="color-name mt-5 mb-1">typographyDisplayFontFamily: <code>font A</code></p>
+        <p class="typography-sample typographyDisplayFontFamily">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-5 mb-1">typographyHeadlineFontFamily: <code>font B</code></p>
+        <p class="typography-sample typographyHeadlineFontFamily">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-5 mb-1">typographyBodyRegularFontFamily: <code>font C</code></p>
+        <p class="typography-sample typographyBodyRegularFontFamily">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4">
+        <p class="color-name mt-5 mb-1">typographyBodyBoldFontFamily: <code>font C</code></p>
+        <p class="typography-sample typographyBodyBoldFontFamily">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>

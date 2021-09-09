@@ -1,9 +1,33 @@
+/* eslint-disable id-length */
 /* eslint-disable mocha/max-top-level-suites */
 import path from 'path';
 import { registerHtmlFormat, registerSpectrumHtmlFormat } from './registerHtmlFormat';
 
 const dictionary = {
   properties: {
+    asset: {
+      brand: {
+        neutral: {
+          a: {
+            file: {
+              attributes: {},
+              name: 'assetBrandNeutralAFile',
+              original: {
+                value: 'logo.svg',
+              },
+              path: [
+                'asset',
+                'brand',
+                'neutral',
+                'a',
+                'file',
+              ],
+              value: 'logo.svg',
+            },
+          },
+        },
+      },
+    },
     borderRadius: {
       small: {
         attributes: {},
@@ -99,6 +123,38 @@ const dictionary = {
       },
     },
     typography: {
+      body: {
+        bold: {
+          fontFamily: {
+            name: 'typographyBodyBoldFontFamily',
+            value: 'font C',
+          },
+          fontWeight: {
+            name: 'typographyBodyBoldFontWeight',
+            value: 400,
+          },
+        },
+        regular: {
+          fontFamily: {
+            name: 'typographyBodyRegularFontFamily',
+            value: 'font C',
+          },
+          fontWeight: {
+            name: 'typographyBodyRegularFontWeight',
+            value: 400,
+          },
+        },
+      },
+      display: {
+        fontFamily: {
+          name: 'typographyDisplayFontFamily',
+          value: 'font A',
+        },
+        fontWeight: {
+          name: 'typographyDisplayFontWeight',
+          value: 400,
+        },
+      },
       fontFamily: {
         small: {
           attributes: {},
@@ -112,6 +168,16 @@ const dictionary = {
             'small',
           ],
           value: 14,
+        },
+      },
+      headline: {
+        fontFamily: {
+          name: 'typographyHeadlineFontFamily',
+          value: 'font B',
+        },
+        fontWeight: {
+          name: 'typographyHeadlineFontWeight',
+          value: 400,
         },
       },
       lineHeight: {
@@ -208,7 +274,7 @@ describe('registerHtmlFormat', () => {
   it('should return the correct formatter template', () => {
     const register = registerHtmlFormat();
 
-    const output = register.formatter(dictionary);
+    const output = register.formatter(dictionary, { brand: 'avon' });
 
     expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerHtmlFormat.snap.html'));
   });

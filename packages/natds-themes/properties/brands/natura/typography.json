@@ -1,0 +1,66 @@
+{
+  "typography": {
+    "display": {
+      "fontFamily": {
+        "value": "Helvetica Now Display"
+      },
+      "fontWeight": {
+        "value": 700
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Helvetica Now Display"
+      },
+      "fontWeight": {
+        "value": 500
+      }
+    },
+    "body": {
+      "regular":{
+        "fontFamily": {
+          "value": "Helvetica Now Display"
+        },
+        "fontWeight": {
+          "value": 400
+        }
+      },
+      "bold":{
+        "fontFamily": {
+          "value": "Helvetica Now Display"
+        },
+        "fontWeight": {
+          "value": 700
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "{platform.typography.fallback.fontFamily.value}"
+      },
+      "fontWeight": {
+        "value": "{platform.typography.fallback.fontWeight.value}"
+      }
+    }
+  },
+  "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "HelveticaNowDisplay-Bd"
+        },
+        "headline": {
+          "value": "HelveticaNowDisplay-Md"
+        },
+        "body": {
+          "regular": {
+            "value": "HelveticaNowDisplay-Regular"
+          },
+          "bold": {
+            "value": "HelveticaNowDisplay-Bd"
+          }
+        }
+      }
+    }
+  }
+}

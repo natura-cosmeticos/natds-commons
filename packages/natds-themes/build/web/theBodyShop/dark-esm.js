@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Sep 2021 14:07:42 GMT
+ * Generated on Thu, 09 Sep 2021 12:57:29 GMT
  */
 
 module.exports = {
@@ -75,7 +75,7 @@ module.exports = {
     }
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": {
         "value": 14,
         "filePath": "properties/globals/components/button.json",
@@ -83,35 +83,16 @@ module.exports = {
         "original": {
           "value": 14
         },
-        "name": "buttonDefaultFontSize",
+        "name": "buttonLabelFontSize",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "fontSize"
         },
         "path": [
           "button",
-          "default",
+          "label",
           "fontSize"
-        ]
-      },
-      "fontWeight": {
-        "value": 500,
-        "filePath": "properties/globals/components/button.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "buttonDefaultFontWeight",
-        "attributes": {
-          "category": "button",
-          "type": "default",
-          "item": "fontWeight"
-        },
-        "path": [
-          "button",
-          "default",
-          "fontWeight"
         ]
       },
       "letterSpacing": {
@@ -121,15 +102,15 @@ module.exports = {
         "original": {
           "value": "{platform.button.letterSpacing.value}"
         },
-        "name": "buttonDefaultLetterSpacing",
+        "name": "buttonLabelLetterSpacing",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "letterSpacing"
         },
         "path": [
           "button",
-          "default",
+          "label",
           "letterSpacing"
         ]
       },
@@ -140,17 +121,105 @@ module.exports = {
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
-        "name": "buttonDefaultLineHeight",
+        "name": "buttonLabelLineHeight",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "lineHeight"
         },
         "path": [
           "button",
-          "default",
+          "label",
           "lineHeight"
         ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "button",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "buttonLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "button",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "buttonLabelFallbackFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "buttonLabelFallbackFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
       }
     }
   },
@@ -1467,7 +1536,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.regular.value}"
+          "value": 400
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -1486,7 +1555,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.medium.value}"
+          "value": 500
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -1498,6 +1567,216 @@ module.exports = {
           "typography",
           "fontWeight",
           "medium"
+        ]
+      }
+    },
+    "display": {
+      "fontFamily": {
+        "value": "Druk Cy",
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Druk Cy"
+        },
+        "name": "typographyDisplayFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 700,
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "typographyDisplayFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontWeight"
+        ]
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Recoleta",
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Recoleta"
+        },
+        "name": "typographyHeadlineFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 600,
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 600
+        },
+        "name": "typographyHeadlineFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontWeight"
+        ]
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Work Sans",
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Work Sans"
+          },
+          "name": "typographyBodyRegularFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 400
+          },
+          "name": "typographyBodyRegularFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontWeight"
+          ]
+        }
+      },
+      "bold": {
+        "fontFamily": {
+          "value": "Work Sans",
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Work Sans"
+          },
+          "name": "typographyBodyBoldFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 700,
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 700
+          },
+          "name": "typographyBodyBoldFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "Arial",
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "typographyFallbackFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontFamily"
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "filePath": "properties/brands/theBodyShop/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "typographyFallbackFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontWeight"
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontWeight"
         ]
       }
     }
@@ -2119,6 +2398,132 @@ module.exports = {
     }
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "DrukCy-Bold",
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "DrukCy-Bold"
+          },
+          "name": "assetFontFileDisplay",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "display",
+            "assetOptions": {
+              "extensions": [
+                "ttf",
+                "eot",
+                "woff",
+                "woff2"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "display"
+          ]
+        },
+        "headline": {
+          "value": "Recoleta-SemiBold",
+          "filePath": "properties/brands/theBodyShop/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Recoleta-SemiBold"
+          },
+          "name": "assetFontFileHeadline",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "headline",
+            "assetOptions": {
+              "extensions": [
+                "ttf",
+                "eot",
+                "woff",
+                "woff2"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "headline"
+          ]
+        },
+        "body": {
+          "regular": {
+            "value": "WorkSans-Regular",
+            "filePath": "properties/brands/theBodyShop/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "WorkSans-Regular"
+            },
+            "name": "assetFontFileBodyRegular",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "regular",
+              "assetOptions": {
+                "extensions": [
+                  "ttf",
+                  "eot",
+                  "woff",
+                  "woff2"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": "WorkSans-Bold",
+            "filePath": "properties/brands/theBodyShop/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "WorkSans-Bold"
+            },
+            "name": "assetFontFileBodyBold",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "bold",
+              "assetOptions": {
+                "extensions": [
+                  "ttf",
+                  "eot",
+                  "woff",
+                  "woff2"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "bold"
+            ]
+          }
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Sep 2021 14:07:39 GMT
+ * Generated on Thu, 09 Sep 2021 12:57:25 GMT
  */
 
 module.exports = {
@@ -91,7 +91,7 @@ module.exports = {
     }
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": {
         "value": 14,
         "filePath": "properties/globals/components/button.json",
@@ -99,10 +99,10 @@ module.exports = {
         "original": {
           "value": 14
         },
-        "name": "buttonDefaultFontSize",
+        "name": "buttonLabelFontSize",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "fontSize",
           "customOptions": {
             "includeType": true,
@@ -111,31 +111,8 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "fontSize"
-        ]
-      },
-      "fontWeight": {
-        "value": ".medium",
-        "filePath": "properties/globals/components/button.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "buttonDefaultFontWeight",
-        "attributes": {
-          "category": "button",
-          "type": "default",
-          "item": "fontWeight",
-          "customOptions": {
-            "includeType": true,
-            "type": "UIFont.Weight"
-          }
-        },
-        "path": [
-          "button",
-          "default",
-          "fontWeight"
         ]
       },
       "letterSpacing": {
@@ -145,10 +122,10 @@ module.exports = {
         "original": {
           "value": "{platform.button.letterSpacing.value}"
         },
-        "name": "buttonDefaultLetterSpacing",
+        "name": "buttonLabelLetterSpacing",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "letterSpacing",
           "customOptions": {
             "includeType": true,
@@ -157,7 +134,7 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "letterSpacing"
         ]
       },
@@ -168,10 +145,10 @@ module.exports = {
         "original": {
           "value": "{typography.lineHeight.medium.value}"
         },
-        "name": "buttonDefaultLineHeight",
+        "name": "buttonLabelLineHeight",
         "attributes": {
           "category": "button",
-          "type": "default",
+          "type": "label",
           "item": "lineHeight",
           "customOptions": {
             "includeType": true,
@@ -180,9 +157,113 @@ module.exports = {
         },
         "path": [
           "button",
-          "default",
+          "label",
           "lineHeight"
         ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "buttonLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "buttonLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "buttonLabelFallbackFontFamily",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/button.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "buttonLabelFallbackFontWeight",
+          "attributes": {
+            "category": "button",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "button",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
       }
     }
   },
@@ -1795,7 +1876,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.regular.value}"
+          "value": 400
         },
         "name": "typographyFontWeightRegular",
         "attributes": {
@@ -1818,7 +1899,7 @@ module.exports = {
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
-          "value": "{platform.typography.fontWeight.medium.value}"
+          "value": 500
         },
         "name": "typographyFontWeightMedium",
         "attributes": {
@@ -1834,6 +1915,256 @@ module.exports = {
           "typography",
           "fontWeight",
           "medium"
+        ]
+      }
+    },
+    "display": {
+      "fontFamily": {
+        "value": "\"Helvetica Now Display\"",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Helvetica Now Display"
+        },
+        "name": "typographyDisplayFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontFamily",
+          "customOptions": {
+            "includeType": false,
+            "type": "String"
+          }
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": ".bold",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "typographyDisplayFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "display",
+          "item": "fontWeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "UIFont.Weight"
+          }
+        },
+        "path": [
+          "typography",
+          "display",
+          "fontWeight"
+        ]
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "\"Helvetica Now Display\"",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "Helvetica Now Display"
+        },
+        "name": "typographyHeadlineFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontFamily",
+          "customOptions": {
+            "includeType": false,
+            "type": "String"
+          }
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": ".medium",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": 500
+        },
+        "name": "typographyHeadlineFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "headline",
+          "item": "fontWeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "UIFont.Weight"
+          }
+        },
+        "path": [
+          "typography",
+          "headline",
+          "fontWeight"
+        ]
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "\"Helvetica Now Display\"",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Helvetica Now Display"
+          },
+          "name": "typographyBodyRegularFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 400
+          },
+          "name": "typographyBodyRegularFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "regular",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "regular",
+            "fontWeight"
+          ]
+        }
+      },
+      "bold": {
+        "fontFamily": {
+          "value": "\"Helvetica Now Display\"",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "Helvetica Now Display"
+          },
+          "name": "typographyBodyBoldFontFamily",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".bold",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": 700
+          },
+          "name": "typographyBodyBoldFontWeight",
+          "attributes": {
+            "category": "typography",
+            "type": "body",
+            "item": "bold",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "typography",
+            "body",
+            "bold",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "\"San Francisco\"",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "typographyFallbackFontFamily",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontFamily",
+          "customOptions": {
+            "includeType": false,
+            "type": "String"
+          }
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": ".regular",
+        "filePath": "properties/brands/natura/typography.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "typographyFallbackFontWeight",
+        "attributes": {
+          "category": "typography",
+          "type": "fallback",
+          "item": "fontWeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "UIFont.Weight"
+          }
+        },
+        "path": [
+          "typography",
+          "fallback",
+          "fontWeight"
         ]
       }
     }
@@ -2599,6 +2930,136 @@ module.exports = {
     }
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "\"HelveticaNowDisplay-Bd\"",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "HelveticaNowDisplay-Bd"
+          },
+          "name": "assetFontFileDisplay",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "display",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "display"
+          ]
+        },
+        "headline": {
+          "value": "\"HelveticaNowDisplay-Md\"",
+          "filePath": "properties/brands/natura/typography.json",
+          "isSource": true,
+          "original": {
+            "value": "HelveticaNowDisplay-Md"
+          },
+          "name": "assetFontFileHeadline",
+          "attributes": {
+            "category": "asset",
+            "type": "font",
+            "item": "file",
+            "subitem": "headline",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            },
+            "assetOptions": {
+              "extensions": [
+                "ttf"
+              ]
+            }
+          },
+          "path": [
+            "asset",
+            "font",
+            "file",
+            "headline"
+          ]
+        },
+        "body": {
+          "regular": {
+            "value": "\"HelveticaNowDisplay-Regular\"",
+            "filePath": "properties/brands/natura/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "HelveticaNowDisplay-Regular"
+            },
+            "name": "assetFontFileBodyRegular",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "regular",
+              "customOptions": {
+                "includeType": false,
+                "type": "String"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "ttf"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "regular"
+            ]
+          },
+          "bold": {
+            "value": "\"HelveticaNowDisplay-Bd\"",
+            "filePath": "properties/brands/natura/typography.json",
+            "isSource": true,
+            "original": {
+              "value": "HelveticaNowDisplay-Bd"
+            },
+            "name": "assetFontFileBodyBold",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "file",
+              "subitem": "body",
+              "state": "bold",
+              "customOptions": {
+                "includeType": false,
+                "type": "String"
+              },
+              "assetOptions": {
+                "extensions": [
+                  "ttf"
+                ]
+              }
+            },
+            "path": [
+              "asset",
+              "font",
+              "file",
+              "body",
+              "bold"
+            ]
+          }
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {

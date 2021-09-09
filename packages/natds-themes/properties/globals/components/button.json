@@ -1,17 +1,30 @@
 {
   "button": {
-    "default": {
+    "label": {
       "fontSize": {
         "value": 14
-      },
-      "fontWeight": {
-        "value": "{typography.fontWeight.medium.value}"
       },
       "letterSpacing": {
         "value": "{platform.button.letterSpacing.value}"
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "fontWeight": {
+          "value": "{typography.fontWeight.regular.value}"
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "fontWeight": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        }
       }
     }
   }

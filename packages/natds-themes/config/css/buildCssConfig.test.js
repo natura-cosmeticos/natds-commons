@@ -27,6 +27,7 @@ const expectedCssConfig = {
     'color/hex',
     'unit/px',
     'asset/extension',
+    'fontFamily/string',
   ],
 };
 

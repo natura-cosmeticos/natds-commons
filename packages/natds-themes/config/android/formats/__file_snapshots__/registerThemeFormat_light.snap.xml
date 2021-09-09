@@ -25,5 +25,6 @@
     <item name="assetBrandNeutralAWidth">@dimen/ssot3644a684f98ea8fe223c713b77189a77</item>
     <item name="sizeTiny">@dimen/ssot9a2af777528e7da0358e7be79a4981c2</item>
     <item name="spacingSmall">@dimen/ssot9a2af777528e7da0358e7be79a4981c2</item>
+    <item name="assetBrandNeutralAFile">@drawable/asset_name</item>
   </style>
 </resources>

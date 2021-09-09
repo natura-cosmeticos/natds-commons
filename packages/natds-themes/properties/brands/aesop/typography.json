@@ -1,0 +1,66 @@
+{
+  "typography": {
+    "display": {
+      "fontFamily": {
+        "value": "Zapf Humanist 601"
+      },
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "headline": {
+      "fontFamily": {
+        "value": "Suisse Int'l"
+      },
+      "fontWeight": {
+        "value": 400
+      }
+    },
+    "body": {
+      "regular": {
+        "fontFamily": {
+          "value": "Suisse Int'l"
+        },
+        "fontWeight": {
+          "value": 400
+        }
+      },
+      "bold": {
+        "fontFamily": {
+          "value": "Suisse Int'l"
+        },
+        "fontWeight": {
+          "value": 700
+        }
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "{platform.typography.fallback.fontFamily.value}"
+      },
+      "fontWeight": {
+        "value": "{platform.typography.fallback.fontWeight.value}"
+      }
+    }
+  },
+  "asset": {
+    "font": {
+      "file": {
+        "display": {
+          "value": "ZapfHumanist601BT-Roman"
+        },
+        "headline": {
+          "value": "SuisseIntl-Regular"
+        },
+        "body": {
+          "regular": {
+            "value": "SuisseIntl-Regular"
+          },
+          "bold": {
+            "value": "SuisseIntl-Regular"
+          }
+        }
+      }
+    }
+  }
+}

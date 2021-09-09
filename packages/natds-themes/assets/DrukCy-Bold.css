@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Druk Cy';
+    src: url('DrukCy-Bold.eot');
+    src: url('DrukCy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DrukCy-Bold.woff2') format('woff2'),
+        url('DrukCy-Bold.woff') format('woff'),
+        url('DrukCy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+

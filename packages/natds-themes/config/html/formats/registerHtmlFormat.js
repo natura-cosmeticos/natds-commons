@@ -5,15 +5,45 @@ import {
   flattenProps, isProp, splitTokensAndComponents, formatBuilder,
 } from '../../shared/helpers';
 
-const templateDataBuilder = ({ properties }) => {
+const templateDataBuilder = ({ properties }, config) => {
   const { tokens, components } = splitTokensAndComponents(properties);
   const { button, ...typographyElements } = components;
+  const { asset, ...otherTokens } = tokens;
+  const { brand } = asset;
+
+  const { display, headline, body } = tokens.typography;
+
+  const typography = [
+    {
+      fontFamily: display.fontFamily.value,
+      fontWeight: display.fontWeight.value,
+      name: display.fontFamily.name,
+    },
+    {
+      fontFamily: headline.fontFamily.value,
+      fontWeight: headline.fontWeight.value,
+      name: headline.fontFamily.name,
+    },
+    {
+      fontFamily: body.regular.fontFamily.value,
+      fontWeight: body.regular.fontWeight.value,
+      name: body.regular.fontFamily.name,
+    },
+    {
+      fontFamily: body.bold.fontFamily.value,
+      fontWeight: body.bold.fontWeight.value,
+      name: body.bold.fontFamily.name,
+    },
+  ];
 
   return ({
+    brand: flattenProps(brand),
+    brandName: config.brand,
     components: {
       button,
     },
-    tokens,
+    tokens: otherTokens,
+    typography,
     typographyElements,
   });
 };

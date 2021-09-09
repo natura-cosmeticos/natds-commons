@@ -3,6 +3,8 @@ import * as helpers from '../helpers';
 
 jest.mock('../helpers');
 
+const prop = { path: ['asset', 'brand', 'a', 'file'] };
+
 describe('registerAssetExtensionTransform', () => {
   it('should return the transform config', () => {
     const config = registerAssetExtensionTransform();
@@ -18,12 +20,28 @@ describe('registerAssetExtensionTransform', () => {
     expect(config).toMatchObject(expectedConfig);
   });
 
-  it('should add the extensions by platform', () => {
+  it('should add the logo extensions by platform', () => {
+    helpers
+      .isProp
+      .mockReturnValue(() => true);
+
     const config = registerAssetExtensionTransform();
 
-    const result = config.transformer({}, { buildPath: 'build/android/avon' });
+    const result = config.transformer(prop, { buildPath: 'build/android/avon' });
 
     expect(result).toEqual({ assetOptions: { extensions: ['svg', 'png'] } });
+  });
+
+  it('should add the font extensions by platform', () => {
+    helpers
+      .isProp
+      .mockReturnValue(() => false);
+
+    const config = registerAssetExtensionTransform();
+
+    const result = config.transformer(prop, { buildPath: 'build/android/avon' });
+
+    expect(result).toEqual({ assetOptions: { extensions: ['ttf'] } });
   });
 
   it('should match only assets', () => {
@@ -34,7 +52,6 @@ describe('registerAssetExtensionTransform', () => {
       .mockImplementation(isAssetSpy);
 
     const config = registerAssetExtensionTransform();
-    const prop = { path: ['asset', 'brand', 'a', 'file'] };
 
     config.matcher(prop);
 

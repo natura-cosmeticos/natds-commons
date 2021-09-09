@@ -6,11 +6,18 @@
     "large": 8
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
     }
   },
   "heading1": {
@@ -123,6 +130,28 @@
     "fontWeight": {
       "regular": 400,
       "medium": 500
+    },
+    "display": {
+      "fontFamily": "Druk Cy",
+      "fontWeight": 700
+    },
+    "headline": {
+      "fontFamily": "Recoleta",
+      "fontWeight": 600
+    },
+    "body": {
+      "regular": {
+        "fontFamily": "Work Sans",
+        "fontWeight": 400
+      },
+      "bold": {
+        "fontFamily": "Work Sans",
+        "fontWeight": 700
+      }
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
     }
   },
   "spacing": {
@@ -166,6 +195,16 @@
     "onAlert": "#ffffff"
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": "DrukCy-Bold",
+        "headline": "Recoleta-SemiBold",
+        "body": {
+          "regular": "WorkSans-Regular",
+          "bold": "WorkSans-Bold"
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {
