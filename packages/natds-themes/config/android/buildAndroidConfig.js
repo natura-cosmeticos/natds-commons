@@ -18,7 +18,7 @@ const buildAndroidConfig = (brand, mode) => ({
     },
     {
       brandName: capitalizeWord(brand),
-      destination: `spectrum/${brand}/spectrum_${brand}_${mode}.xml`,
+      destination: `spectrum/${brand}/spectrum_${brand}.xml`,
       filter: 'spectrumProperties',
       format: 'android/spectrum',
       mode: capitalizeWord(mode),

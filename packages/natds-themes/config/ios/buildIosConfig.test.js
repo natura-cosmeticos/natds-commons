@@ -21,10 +21,10 @@ const expectedConfig = {
       format: 'ios-swift/spectrum-protocol.swift',
     },
     {
-      destination: '/spectrum/PokemonPikachuSpectrum.swift',
+      destination: '/spectrum/PokemonSpectrum.swift',
       filter: 'spectrumProperties',
       format: 'ios-swift/spectrum.swift',
-      themeName: 'PokemonPikachu',
+      themeName: 'Pokemon',
     },
     {
       destination: 'PokemonPikachu.js',

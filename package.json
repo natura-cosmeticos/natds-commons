@@ -23,6 +23,7 @@
     "release:ci": "yarn release --conventional-graduate --create-release github --yes",
     "start": "lerna run start --stream",
     "start:icons": "lerna run html --scope=@naturacosmeticos/natds-icons",
+    "start:themes": "lerna run start --scope=@naturacosmeticos/natds-themes",
     "test:unit": "jest --colors --collectCoverage --testPathIgnorePatterns=regression --testPathIgnorePatterns=inputs",
     "build:icons": "yarn build --scope=@naturacosmeticos/natds-icons",
     "regression": "jest --colors --testPathPattern=regression",
