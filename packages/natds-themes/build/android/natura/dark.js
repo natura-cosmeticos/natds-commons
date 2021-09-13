@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Sep 2021 16:52:47 GMT
+ * Generated on Mon, 13 Sep 2021 18:51:39 GMT
  */
 
 module.exports = {
@@ -84,6 +84,176 @@ module.exports = {
         "borderRadius",
         "large"
       ]
+    }
+  },
+  "badge": {
+    "label": {
+      "fontSize": {
+        "value": "12spsp",
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "badgeLabelFontSize",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.0333333333,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "badgeLabelLetterSpacing",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "badgeLabelLineHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "badgeLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "badgeLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "badgeLabelFallbackFontFamily",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "badgeLabelFallbackFontWeight",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
     }
   },
   "button": {

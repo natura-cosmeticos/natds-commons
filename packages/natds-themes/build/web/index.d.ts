@@ -26,6 +26,28 @@ export interface Label {
 	fallback: Fallback
 }
 
+export interface Badge {
+	label: Label
+}
+
+export interface Primary {
+	fontFamily: string
+	fontWeight: number
+}
+
+export interface Fallback {
+	fontFamily: string
+	fontWeight: number
+}
+
+export interface Label {
+	fontSize: number
+	letterSpacing: number
+	lineHeight: number
+	primary: Primary
+	fallback: Fallback
+}
+
 export interface Enable {
 	background: string
 	border: string
@@ -441,6 +463,7 @@ export interface Elevation {
 
 export interface Theme {
 	borderRadius: BorderRadius
+	badge: Badge
 	button: Button
 	heading1: Heading1
 	heading2: Heading2

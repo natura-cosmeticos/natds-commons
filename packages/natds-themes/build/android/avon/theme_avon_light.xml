@@ -103,6 +103,9 @@
     <item name="borderRadiusSmall">@dimen/ssote01661eca1c156941ef9b3d972d887ac</item>
     <item name="borderRadiusMedium">@dimen/ssotf27085d5046e1bad7cde812c270a5623</item>
     <item name="borderRadiusLarge">@dimen/ssot9a2af777528e7da0358e7be79a4981c2</item>
+    <item name="badgeLabelFontSize">@dimen/ssot92656e793163648f2e5b9b021ea197c4</item>
+    <item name="badgeLabelLetterSpacing">@dimen/ssot40f3f3640647251fc4da2ce46193df95</item>
+    <item name="badgeLabelLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
     <item name="buttonLabelFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="buttonLabelLetterSpacing">@dimen/ssotcbbe59f3826d96d11375dfb0c3469776</item>
     <item name="buttonLabelLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
@@ -200,6 +203,10 @@
     <item name="assetFontFileHeadline">@font/Montserrat_SemiBold</item>
     <item name="assetFontFileBodyRegular">@font/Montserrat_Regular</item>
     <item name="assetFontFileBodyBold">@font/Montserrat_Bold</item>
+    <item name="badgeLabelPrimaryFontFamily">Roboto</item>
+    <item name="badgeLabelPrimaryFontWeight">sans-serif</item>
+    <item name="badgeLabelFallbackFontFamily">Roboto</item>
+    <item name="badgeLabelFallbackFontWeight">sans-serif</item>
     <item name="buttonLabelPrimaryFontFamily">Roboto</item>
     <item name="buttonLabelPrimaryFontWeight">sans-serif</item>
     <item name="buttonLabelFallbackFontFamily">Roboto</item>
