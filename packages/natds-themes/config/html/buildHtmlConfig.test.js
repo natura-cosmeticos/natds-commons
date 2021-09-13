@@ -11,7 +11,7 @@ const expectedConfig = {
       format: 'html/colors',
     },
     {
-      destination: 'spectrum-pikachu.html',
+      destination: 'spectrum.html',
       filter: 'spectrumProperties',
       format: 'html/spectrum',
     },

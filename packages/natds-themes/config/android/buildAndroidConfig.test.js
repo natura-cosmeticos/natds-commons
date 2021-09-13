@@ -21,7 +21,7 @@ const expectedConfig = {
     },
     {
       brandName: 'Pokemon',
-      destination: 'spectrum/pokemon/spectrum_pokemon_pikachu.xml',
+      destination: 'spectrum/pokemon/spectrum_pokemon.xml',
       filter: 'spectrumProperties',
       format: 'android/spectrum',
       mode: 'Pikachu',

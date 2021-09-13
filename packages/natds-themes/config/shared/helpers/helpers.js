@@ -101,3 +101,15 @@ export const convertBase64ToExternalImage = (assetName) => (acc, item, index) =>
 
   return acc.replace(`data:image/png;base64,${item.imageData}`, `${assetRemoteBaseUrl}${imageName}`);
 };
+
+export const buildColors = (value) => {
+  if (!Array.isArray(value)) {
+    return { value };
+  }
+
+  return value.reduce((acc, color, index) => ({
+    ...acc,
+    ...{ [index === 0 ? '50' : `${index}00`]: { value: color } },
+  }
+  ), {});
+};

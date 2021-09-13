@@ -15,7 +15,7 @@ const expectedConfig = {
       format: 'javascript/module',
     },
     {
-      destination: 'spectrum/pokemon/spectrum-pikachu.json',
+      destination: 'spectrum/pokemon/spectrum.json',
       filter: 'spectrumProperties',
       format: 'json/nested',
     },

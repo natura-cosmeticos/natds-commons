@@ -11,7 +11,7 @@ export const buildCssConfig = (brand, mode) => ({
       },
     },
     {
-      destination: `spectrum/${brand}/spectrum-${mode}.css`,
+      destination: `spectrum/${brand}/spectrum.css`,
       filter: 'spectrumProperties',
       format: 'css/variables',
       options: {

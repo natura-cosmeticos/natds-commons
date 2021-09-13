@@ -20,26 +20,6 @@
 protocol Spectrum {
   var spectrumDark: UIColor { get }
   var spectrumLight: UIColor { get }
-  var spectrumGray50: UIColor { get }
-  var spectrumGray100: UIColor { get }
-  var spectrumGray200: UIColor { get }
-  var spectrumGray300: UIColor { get }
-  var spectrumGray400: UIColor { get }
-  var spectrumGray500: UIColor { get }
-  var spectrumGray600: UIColor { get }
-  var spectrumGray700: UIColor { get }
-  var spectrumGray800: UIColor { get }
-  var spectrumGray900: UIColor { get }
-  var spectrumRed50: UIColor { get }
-  var spectrumRed100: UIColor { get }
-  var spectrumRed200: UIColor { get }
-  var spectrumRed300: UIColor { get }
-  var spectrumRed400: UIColor { get }
-  var spectrumRed500: UIColor { get }
-  var spectrumRed600: UIColor { get }
-  var spectrumRed700: UIColor { get }
-  var spectrumRed800: UIColor { get }
-  var spectrumRed900: UIColor { get }
   var spectrumPink50: UIColor { get }
   var spectrumPink100: UIColor { get }
   var spectrumPink200: UIColor { get }
@@ -165,5 +145,25 @@ protocol Spectrum {
   var spectrumColorBrandCMain: UIColor { get }
   var spectrumColorBrandCDark: UIColor { get }
   var spectrumColorBrandCDarkest: UIColor { get }
+  var spectrumGray50: UIColor { get }
+  var spectrumGray100: UIColor { get }
+  var spectrumGray200: UIColor { get }
+  var spectrumGray300: UIColor { get }
+  var spectrumGray400: UIColor { get }
+  var spectrumGray500: UIColor { get }
+  var spectrumGray600: UIColor { get }
+  var spectrumGray700: UIColor { get }
+  var spectrumGray800: UIColor { get }
+  var spectrumGray900: UIColor { get }
+  var spectrumRed50: UIColor { get }
+  var spectrumRed100: UIColor { get }
+  var spectrumRed200: UIColor { get }
+  var spectrumRed300: UIColor { get }
+  var spectrumRed400: UIColor { get }
+  var spectrumRed500: UIColor { get }
+  var spectrumRed600: UIColor { get }
+  var spectrumRed700: UIColor { get }
+  var spectrumRed800: UIColor { get }
+  var spectrumRed900: UIColor { get }
 }
 
