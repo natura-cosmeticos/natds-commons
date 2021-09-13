@@ -3,6 +3,13 @@
   --borderRadiusSmall: 2px;
   --borderRadiusMedium: 4px;
   --borderRadiusLarge: 8px;
+  --badgeLabelFontSize: 12px;
+  --badgeLabelLetterSpacing: 0.38px;
+  --badgeLabelLineHeight: 1.5;
+  --badgeLabelPrimaryFontFamily: "Roboto";
+  --badgeLabelPrimaryFontWeight: 400;
+  --badgeLabelFallbackFontFamily: "Arial";
+  --badgeLabelFallbackFontWeight: 400;
   --buttonLabelFontSize: 14px;
   --buttonLabelLetterSpacing: 1.23px;
   --buttonLabelLineHeight: 1.5;

@@ -200,6 +200,13 @@ struct NaturaDarkTokens: Tokens {
   let typographyFallbackFontWeight: UIFont.Weight = .regular
 }
 struct NaturaDarkComponents: Components {
+  let badgeLabelFontSize: CGFloat = 12
+  let badgeLabelLetterSpacing: CGFloat = 0.16
+  let badgeLabelLineHeight: CGFloat = 1.5
+  let badgeLabelPrimaryFontFamily = "San Francisco"
+  let badgeLabelPrimaryFontWeight: UIFont.Weight = .regular
+  let badgeLabelFallbackFontFamily = "San Francisco"
+  let badgeLabelFallbackFontWeight: UIFont.Weight = .regular
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5

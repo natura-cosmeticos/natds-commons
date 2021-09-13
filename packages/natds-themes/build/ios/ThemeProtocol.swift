@@ -201,6 +201,13 @@ protocol Tokens {
 }
 
 protocol Components {
+  var badgeLabelFontSize: CGFloat { get }
+  var badgeLabelLetterSpacing: CGFloat { get }
+  var badgeLabelLineHeight: CGFloat { get }
+  var badgeLabelPrimaryFontFamily: String { get }
+  var badgeLabelPrimaryFontWeight: UIFont.Weight { get }
+  var badgeLabelFallbackFontFamily: String { get }
+  var badgeLabelFallbackFontWeight: UIFont.Weight { get }
   var buttonLabelFontSize: CGFloat { get }
   var buttonLabelLetterSpacing: CGFloat { get }
   var buttonLabelLineHeight: CGFloat { get }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Sep 2021 13:36:42 GMT
+ * Generated on Mon, 13 Sep 2021 18:51:41 GMT
  */
 
 module.exports = {
@@ -88,6 +88,183 @@ module.exports = {
         "borderRadius",
         "large"
       ]
+    }
+  },
+  "badge": {
+    "label": {
+      "fontSize": {
+        "value": 12,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "badgeLabelFontSize",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "badge",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.16,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "badgeLabelLetterSpacing",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "badge",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "badgeLabelLineHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "badge",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "badgeLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "badgeLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "badgeLabelFallbackFontFamily",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "badgeLabelFallbackFontWeight",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "badge",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
     }
   },
   "button": {
