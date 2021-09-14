@@ -211,6 +211,14 @@ struct TheBodyShopDarkComponents: Components {
   let badgeStandardBorderRadius: CGFloat = 8
   let badgeDotHeight: CGFloat = 8
   let badgeDotBorderRadius: CGFloat = 4
+  let badgeColorPrimaryLabel = "#000000"
+  let badgeColorPrimaryBackground = "#7CC4BC"
+  let badgeColorSecondaryLabel = "#000000"
+  let badgeColorSecondaryBackground = "#F3F1A5"
+  let badgeColorSuccessLabel = "#FFFFFF"
+  let badgeColorSuccessBackground = "#569A32"
+  let badgeColorAlertLabel = "#FFFFFF"
+  let badgeColorAlertBackground = "#E74627"
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5

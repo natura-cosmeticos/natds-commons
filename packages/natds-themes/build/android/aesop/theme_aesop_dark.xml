@@ -21,6 +21,14 @@
 -->
 <resources>
   <style name="Theme.Aesop.Dark" parent="Theme.MaterialComponents.DayNight">
+    <item name="badgeColorPrimaryLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
+    <item name="badgeColorPrimaryBackground">@color/ssotab5f4078553b4e7aa97fb938a24dea8b</item>
+    <item name="badgeColorSecondaryLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
+    <item name="badgeColorSecondaryBackground">@color/ssot0b810e5ef84d62c0871338a5ea1d230a</item>
+    <item name="badgeColorSuccessLabel">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>
+    <item name="badgeColorSuccessBackground">@color/ssot5f3b2baa1770dae9b24db5309ba5541c</item>
+    <item name="badgeColorAlertLabel">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>
+    <item name="badgeColorAlertBackground">@color/ssote57d6ad7ffae602db2515d2f9f42a48f</item>
     <item name="buttonContainedColorEnableBackground">@color/ssotab5f4078553b4e7aa97fb938a24dea8b</item>
     <item name="buttonContainedColorEnableBorder">@color/ssot80ecbb2bf909dedd4251680e217975b8</item>
     <item name="buttonContainedColorEnableLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>

@@ -35,6 +35,14 @@
   <attr name="badgeStandardBorderRadius" format="dimension" />  
   <attr name="badgeDotHeight" format="dimension" />  
   <attr name="badgeDotBorderRadius" format="dimension" />  
+  <attr name="badgeColorPrimaryLabel" format="color" />  
+  <attr name="badgeColorPrimaryBackground" format="color" />  
+  <attr name="badgeColorSecondaryLabel" format="color" />  
+  <attr name="badgeColorSecondaryBackground" format="color" />  
+  <attr name="badgeColorSuccessLabel" format="color" />  
+  <attr name="badgeColorSuccessBackground" format="color" />  
+  <attr name="badgeColorAlertLabel" format="color" />  
+  <attr name="badgeColorAlertBackground" format="color" />  
   <attr name="buttonLabelFontSize" format="dimension" />  
   <attr name="buttonLabelLetterSpacing" format="dimension" />  
   <attr name="buttonLabelLineHeight" format="dimension" />  

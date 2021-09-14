@@ -139,6 +139,41 @@
       border-color: {{components.button.text.color.disable.border.value}};
     }
     
+    .ds-badge {
+      font-size: {{components.badge.label.fontSize.value}};
+      letter-spacing: {{components.badge.label.letterSpacing.value}};
+      line-height: {{components.badge.label.lineHeight.value}};
+      font-family: {{components.badge.label.primary.fontFamily.value}};
+      font-weight: {{components.badge.label.primary.fontWeight.value}};
+    }
+    .ds-badge.ds-standard {
+      height: {{components.badge.standard.height.value}};
+      border-radius: {{components.badge.standard.borderRadius.value}};
+    }
+    
+    .ds-badge.ds-dot {
+      height: {{components.badge.dot.height.value}};
+      width: {{components.badge.dot.height.value}};
+      border-radius: {{components.badge.dot.borderRadius.value}};
+    }
+    
+    .ds-badge.ds-primary {
+      background-color: {{components.badge.color.primary.background.value}};
+      color: {{components.badge.color.primary.label.value}};
+    }
+    .ds-badge.ds-secondary {
+      background-color: {{components.badge.color.secondary.background.value}};
+      color: {{components.badge.color.secondary.label.value}};
+    }
+    .ds-badge.ds-success {
+      background-color: {{components.badge.color.success.background.value}};
+      color: {{components.badge.color.success.label.value}};
+    }
+    .ds-badge.ds-alert {
+      background-color: {{components.badge.color.alert.background.value}};
+      color: {{components.badge.color.alert.label.value}};
+    }
+    
   </style>
   {{> navigation }}
   <div class="container-fluid mt-5">
@@ -266,6 +301,18 @@
         <button class="button outlined disable">outlined</button>
         <button class="button text">text</button>
         <button class="button text disable">text</button>
+      </div>
+    </div>
+      <h2 class="color-name col-12 mt-3 mb-1">Badge</h2>
+      <div class="button-wrapper col-12">
+        <span class="ds-badge ds-standard ds-primary">+99</span>
+        <span class="ds-badge ds-dot ds-primary"></span>
+        <span class="ds-badge ds-standard ds-secondary">+99</span>
+        <span class="ds-badge ds-dot ds-secondary"></span>
+        <span class="ds-badge ds-standard ds-success">+99</span>
+        <span class="ds-badge ds-dot ds-success"></span>
+        <span class="ds-badge ds-standard ds-alert">+99</span>
+        <span class="ds-badge ds-dot ds-alert"></span>
       </div>
     </div>
     <hr>

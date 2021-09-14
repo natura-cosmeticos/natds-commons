@@ -211,6 +211,14 @@ struct AvonLightComponents: Components {
   let badgeStandardBorderRadius: CGFloat = 8
   let badgeDotHeight: CGFloat = 8
   let badgeDotBorderRadius: CGFloat = 4
+  let badgeColorPrimaryLabel = "#FFFFFF"
+  let badgeColorPrimaryBackground = "#7F28C4"
+  let badgeColorSecondaryLabel = "#FFFFFF"
+  let badgeColorSecondaryBackground = "#E2197C"
+  let badgeColorSuccessLabel = "#FFFFFF"
+  let badgeColorSuccessBackground = "#569A32"
+  let badgeColorAlertLabel = "#FFFFFF"
+  let badgeColorAlertBackground = "#E74627"
   let buttonLabelFontSize: CGFloat = 14
   let buttonLabelLetterSpacing: CGFloat = 0.44
   let buttonLabelLineHeight: CGFloat = 1.5

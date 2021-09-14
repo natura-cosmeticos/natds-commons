@@ -212,6 +212,14 @@ protocol Components {
   var badgeStandardBorderRadius: CGFloat { get }
   var badgeDotHeight: CGFloat { get }
   var badgeDotBorderRadius: CGFloat { get }
+  var badgeColorPrimaryLabel: UIColor { get }
+  var badgeColorPrimaryBackground: UIColor { get }
+  var badgeColorSecondaryLabel: UIColor { get }
+  var badgeColorSecondaryBackground: UIColor { get }
+  var badgeColorSuccessLabel: UIColor { get }
+  var badgeColorSuccessBackground: UIColor { get }
+  var badgeColorAlertLabel: UIColor { get }
+  var badgeColorAlertBackground: UIColor { get }
   var buttonLabelFontSize: CGFloat { get }
   var buttonLabelLetterSpacing: CGFloat { get }
   var buttonLabelLineHeight: CGFloat { get }

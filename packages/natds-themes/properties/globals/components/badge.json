@@ -42,6 +42,40 @@
       "borderRadius": {
         "value": "{private.borderRadius.circle.tiny.value}"
       }
+    },
+    "color": {
+      "primary": {
+        "label": {
+          "value": "{color.onPrimary.value}"
+        },
+        "background": {
+          "value": "{color.primary.value}"
+        }
+      },
+      "secondary": {
+        "label": {
+          "value": "{color.onSecondary.value}"
+        },
+        "background": {
+          "value": "{color.secondary.value}"
+        }
+      },
+      "success": {
+        "label": {
+          "value": "{color.onSuccess.value}"
+        },
+        "background": {
+          "value": "{color.success.value}"
+        }
+      },
+      "alert": {
+        "label": {
+          "value": "{color.onAlert.value}"
+        },
+        "background": {
+          "value": "{color.alert.value}"
+        }
+      }
     }
   }
 }
