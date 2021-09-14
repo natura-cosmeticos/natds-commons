@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 Sep 2021 21:13:09 GMT
+ * Generated on Thu, 16 Sep 2021 19:53:41 GMT
  */
 
 module.exports = {
@@ -300,6 +300,184 @@ module.exports = {
           "dot",
           "borderRadius"
         ]
+      }
+    },
+    "color": {
+      "primary": {
+        "label": {
+          "value": "#000000",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onPrimary.value}"
+          },
+          "name": "badgeColorPrimaryLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "primary",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "primary",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#be9ae2",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary.value}"
+          },
+          "name": "badgeColorPrimaryBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "primary",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "primary",
+            "background"
+          ]
+        }
+      },
+      "secondary": {
+        "label": {
+          "value": "#000000",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onSecondary.value}"
+          },
+          "name": "badgeColorSecondaryLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "secondary",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#f593c4",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary.value}"
+          },
+          "name": "badgeColorSecondaryBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "secondary",
+            "background"
+          ]
+        }
+      },
+      "success": {
+        "label": {
+          "value": "#ffffff",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onSuccess.value}"
+          },
+          "name": "badgeColorSuccessLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "success",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "success",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#569a32",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.value}"
+          },
+          "name": "badgeColorSuccessBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "success",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "success",
+            "background"
+          ]
+        }
+      },
+      "alert": {
+        "label": {
+          "value": "#ffffff",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onAlert.value}"
+          },
+          "name": "badgeColorAlertLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "alert",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "alert",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#e74627",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.alert.value}"
+          },
+          "name": "badgeColorAlertBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "alert",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "alert",
+            "background"
+          ]
+        }
       }
     }
   },

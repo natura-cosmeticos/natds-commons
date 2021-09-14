@@ -26,6 +26,24 @@
     "dot": {
       "height": 8,
       "borderRadius": 4
+    },
+    "color": {
+      "primary": {
+        "label": "#000000",
+        "background": "#f1f1f0"
+      },
+      "secondary": {
+        "label": "#000000",
+        "background": "#ddcb91"
+      },
+      "success": {
+        "label": "#ffffff",
+        "background": "#569a32"
+      },
+      "alert": {
+        "label": "#ffffff",
+        "background": "#e74627"
+      }
     }
   },
   "button": {

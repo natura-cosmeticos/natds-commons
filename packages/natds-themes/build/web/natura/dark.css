@@ -14,6 +14,14 @@
   --badgeStandardBorderRadius: 8px;
   --badgeDotHeight: 8px;
   --badgeDotBorderRadius: 4px;
+  --badgeColorPrimaryLabel: #333333;
+  --badgeColorPrimaryBackground: #f4ab34;
+  --badgeColorSecondaryLabel: #000000;
+  --badgeColorSecondaryBackground: #ff6b0b;
+  --badgeColorSuccessLabel: #ffffff;
+  --badgeColorSuccessBackground: #569a32;
+  --badgeColorAlertLabel: #ffffff;
+  --badgeColorAlertBackground: #e74627;
   --buttonLabelFontSize: 14px;
   --buttonLabelLetterSpacing: 1.23px;
   --buttonLabelLineHeight: 1.5;
