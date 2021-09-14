@@ -10,6 +10,10 @@
   --badgeLabelPrimaryFontWeight: 400;
   --badgeLabelFallbackFontFamily: "Arial";
   --badgeLabelFallbackFontWeight: 400;
+  --badgeStandardHeight: 16px;
+  --badgeStandardBorderRadius: 8px;
+  --badgeDotHeight: 8px;
+  --badgeDotBorderRadius: 4px;
   --buttonLabelFontSize: 14px;
   --buttonLabelLetterSpacing: 1.23px;
   --buttonLabelLineHeight: 1.5;

@@ -25,7 +25,7 @@ export const negate = (func) => pipe(func, not);
 export const isProp = (propName) => pipe(prop('path'), includes(propName));
 export const flipIsProp = flip(uncurryN(2, isProp));
 export const isOneOfProps = (property) => (dic) => any(flipIsProp(dic))(property);
-export const isPrivateProp = isOneOfProps(['platform', 'spectrum']);
+export const isPrivateProp = isOneOfProps(['platform', 'spectrum', 'private']);
 export const isSpectrumProp = both(isProp('spectrum'), negate(isProp('gradient')));
 export const isAsset = isProp('asset');
 export const isAssetFile = both(isAsset, isProp('file'));

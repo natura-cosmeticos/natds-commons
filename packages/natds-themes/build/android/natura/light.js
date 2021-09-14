@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 13 Sep 2021 20:24:32 GMT
+ * Generated on Wed, 15 Sep 2021 19:20:16 GMT
  */
 
 module.exports = {
@@ -89,7 +89,7 @@ module.exports = {
   "badge": {
     "label": {
       "fontSize": {
-        "value": "12spsp",
+        "value": "12sp",
         "filePath": "properties/globals/components/badge.json",
         "isSource": true,
         "original": {
@@ -253,6 +253,98 @@ module.exports = {
             "fontWeight"
           ]
         }
+      }
+    },
+    "standard": {
+      "height": {
+        "value": "16dp",
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.small.value}"
+        },
+        "name": "badgeStandardHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "standard",
+          "item": "height",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "standard",
+          "height"
+        ]
+      },
+      "borderRadius": {
+        "value": 8,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{private.borderRadius.circle.small.value}"
+        },
+        "name": "badgeStandardBorderRadius",
+        "attributes": {
+          "category": "badge",
+          "type": "standard",
+          "item": "borderRadius",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "standard",
+          "borderRadius"
+        ]
+      }
+    },
+    "dot": {
+      "height": {
+        "value": "8dp",
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.tiny.value}"
+        },
+        "name": "badgeDotHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "height",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "dot",
+          "height"
+        ]
+      },
+      "borderRadius": {
+        "value": 4,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{private.borderRadius.circle.tiny.value}"
+        },
+        "name": "badgeDotBorderRadius",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "borderRadius",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "badge",
+          "dot",
+          "borderRadius"
+        ]
       }
     }
   },
@@ -426,7 +518,7 @@ module.exports = {
       }
     },
     "borderRadius": {
-      "value": "4dpdp",
+      "value": "4dp",
       "filePath": "properties/globals/components/button.json",
       "isSource": true,
       "original": {
@@ -463,7 +555,7 @@ module.exports = {
               "subitem": "enable",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -489,7 +581,7 @@ module.exports = {
               "subitem": "enable",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -515,7 +607,7 @@ module.exports = {
               "subitem": "enable",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -543,7 +635,7 @@ module.exports = {
               "subitem": "disable",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -569,7 +661,7 @@ module.exports = {
               "subitem": "disable",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -595,7 +687,7 @@ module.exports = {
               "subitem": "disable",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -623,7 +715,7 @@ module.exports = {
               "subitem": "hover",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -649,7 +741,7 @@ module.exports = {
               "subitem": "hover",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -675,7 +767,7 @@ module.exports = {
               "subitem": "hover",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -703,7 +795,7 @@ module.exports = {
               "subitem": "focus",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -729,7 +821,7 @@ module.exports = {
               "subitem": "focus",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -755,7 +847,7 @@ module.exports = {
               "subitem": "focus",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -787,7 +879,7 @@ module.exports = {
               "subitem": "enable",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -813,7 +905,7 @@ module.exports = {
               "subitem": "enable",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -839,7 +931,7 @@ module.exports = {
               "subitem": "enable",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -867,7 +959,7 @@ module.exports = {
               "subitem": "disable",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -893,7 +985,7 @@ module.exports = {
               "subitem": "disable",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -919,7 +1011,7 @@ module.exports = {
               "subitem": "disable",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -947,7 +1039,7 @@ module.exports = {
               "subitem": "hover",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -973,7 +1065,7 @@ module.exports = {
               "subitem": "hover",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -999,7 +1091,7 @@ module.exports = {
               "subitem": "hover",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1027,7 +1119,7 @@ module.exports = {
               "subitem": "focus",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1053,7 +1145,7 @@ module.exports = {
               "subitem": "focus",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1079,7 +1171,7 @@ module.exports = {
               "subitem": "focus",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1111,7 +1203,7 @@ module.exports = {
               "subitem": "enable",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1137,7 +1229,7 @@ module.exports = {
               "subitem": "enable",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1163,7 +1255,7 @@ module.exports = {
               "subitem": "enable",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1191,7 +1283,7 @@ module.exports = {
               "subitem": "disable",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1217,7 +1309,7 @@ module.exports = {
               "subitem": "disable",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1243,7 +1335,7 @@ module.exports = {
               "subitem": "disable",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1271,7 +1363,7 @@ module.exports = {
               "subitem": "hover",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1297,7 +1389,7 @@ module.exports = {
               "subitem": "hover",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1323,7 +1415,7 @@ module.exports = {
               "subitem": "hover",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1351,7 +1443,7 @@ module.exports = {
               "subitem": "focus",
               "state": "background",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1377,7 +1469,7 @@ module.exports = {
               "subitem": "focus",
               "state": "border",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [
@@ -1403,7 +1495,7 @@ module.exports = {
               "subitem": "focus",
               "state": "label",
               "customOptions": {
-                "type": "dimension"
+                "type": "color"
               }
             },
             "path": [

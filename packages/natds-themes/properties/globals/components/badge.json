@@ -26,6 +26,22 @@
           "value": "{platform.typography.fallback.fontWeight.value}"
         }
       }
+    },
+    "standard": {
+      "height": {
+        "value": "{size.small.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.small.value}"
+      }
+    },
+    "dot": {
+      "height": {
+        "value": "{size.tiny.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.tiny.value}"
+      }
     }
   }
 }
