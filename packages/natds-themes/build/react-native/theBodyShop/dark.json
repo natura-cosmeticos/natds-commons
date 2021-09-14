@@ -18,6 +18,14 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
+    },
+    "standard": {
+      "height": 16,
+      "borderRadius": 8
+    },
+    "dot": {
+      "height": 8,
+      "borderRadius": 4
     }
   },
   "button": {

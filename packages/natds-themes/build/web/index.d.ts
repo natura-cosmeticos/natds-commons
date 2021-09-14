@@ -26,8 +26,20 @@ export interface Label {
 	fallback: Fallback
 }
 
+export interface Standard {
+	height: number
+	borderRadius: number
+}
+
+export interface Dot {
+	height: number
+	borderRadius: number
+}
+
 export interface Badge {
 	label: Label
+	standard: Standard
+	dot: Dot
 }
 
 export interface Primary {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Sep 2021 19:50:26 GMT
+ * Generated on Wed, 15 Sep 2021 19:19:47 GMT
  */
 
 module.exports = {
@@ -220,6 +220,86 @@ module.exports = {
             "fontWeight"
           ]
         }
+      }
+    },
+    "standard": {
+      "height": {
+        "value": 16,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.small.value}"
+        },
+        "name": "badgeStandardHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "standard",
+          "item": "height"
+        },
+        "path": [
+          "badge",
+          "standard",
+          "height"
+        ]
+      },
+      "borderRadius": {
+        "value": 8,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{private.borderRadius.circle.small.value}"
+        },
+        "name": "badgeStandardBorderRadius",
+        "attributes": {
+          "category": "badge",
+          "type": "standard",
+          "item": "borderRadius"
+        },
+        "path": [
+          "badge",
+          "standard",
+          "borderRadius"
+        ]
+      }
+    },
+    "dot": {
+      "height": {
+        "value": 8,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.tiny.value}"
+        },
+        "name": "badgeDotHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "height"
+        },
+        "path": [
+          "badge",
+          "dot",
+          "height"
+        ]
+      },
+      "borderRadius": {
+        "value": 4,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{private.borderRadius.circle.tiny.value}"
+        },
+        "name": "badgeDotBorderRadius",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "borderRadius"
+        },
+        "path": [
+          "badge",
+          "dot",
+          "borderRadius"
+        ]
       }
     }
   },

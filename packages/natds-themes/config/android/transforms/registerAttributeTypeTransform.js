@@ -1,19 +1,19 @@
-import { isOneOfProps, isAssetFile } from '../../shared/helpers';
-
-const categoryTypes = {
-  color: 'color',
-  default: 'dimension',
-  opacity: 'float',
-  spectrum: 'color',
-};
+import { isOneOfProps, isAssetFile, isProp } from '../../shared/helpers';
 
 const isStringTypeProp = (prop) => isOneOfProps(['fontFamily', 'fontWeight'])(prop);
 
-export const getType = (prop) => {
-  if (isStringTypeProp(prop)) return 'string';
-  if (isAssetFile(prop)) return 'reference';
+const rules = [
+  { rule: isStringTypeProp, type: 'string' },
+  { rule: isAssetFile, type: 'reference' },
+  { rule: isProp('color'), type: 'color' },
+  { rule: isProp('opacity'), type: 'float' },
+  { rule: isProp('spectrum'), type: 'color' },
+];
 
-  return categoryTypes[prop.attributes.category] || categoryTypes.default;
+export const getType = (prop) => {
+  const match = rules.find((rule) => rule.rule(prop));
+
+  return match ? match.type : 'dimension';
 };
 
 export const registerAttributeTypeTransform = () => ({

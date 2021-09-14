@@ -1,7 +1,4 @@
 import { registerAttributeTypeTransform, getType } from './registerAttributeTypeTransform';
-import * as helpers from '../../shared/helpers';
-
-jest.mock('../../shared/helpers');
 
 describe('registerAttributeTypeTransform', () => {
   afterEach(() => {
@@ -19,8 +16,6 @@ describe('registerAttributeTypeTransform', () => {
   });
 
   it('should add the type of the attribute for dimensions', () => {
-    jest.spyOn(helpers, 'isOneOfProps').mockReturnValue(() => false);
-
     const transformConfig = registerAttributeTypeTransform();
 
     const prop = {
@@ -46,8 +41,6 @@ describe('registerAttributeTypeTransform', () => {
   });
 
   it('should add the type of the attribute for string', () => {
-    jest.spyOn(helpers, 'isOneOfProps').mockReturnValue(() => true);
-
     const transformConfig = registerAttributeTypeTransform();
 
     const prop = {
@@ -74,8 +67,6 @@ describe('registerAttributeTypeTransform', () => {
 
   describe('getType', () => {
     it('should return the type for the prop when is string', () => {
-      jest.spyOn(helpers, 'isOneOfProps').mockReturnValue(() => true);
-
       const prop = {
         attributes: { category: 'fontFamily' },
         path: [
@@ -88,9 +79,6 @@ describe('registerAttributeTypeTransform', () => {
     });
 
     it('should return the type for the prop when is an asset', () => {
-      jest.spyOn(helpers, 'isOneOfProps').mockReturnValue(() => false);
-      jest.spyOn(helpers, 'isAssetFile').mockReturnValue(true);
-
       const prop = {
         attributes: { category: 'asset' },
         path: [
@@ -103,9 +91,6 @@ describe('registerAttributeTypeTransform', () => {
     });
 
     it('should return the type for the prop when is an color', () => {
-      jest.spyOn(helpers, 'isOneOfProps').mockReturnValue(() => false);
-      jest.spyOn(helpers, 'isAssetFile').mockReturnValue(false);
-
       const prop = {
         attributes: { category: 'color' },
         path: [
@@ -118,9 +103,6 @@ describe('registerAttributeTypeTransform', () => {
     });
 
     it('should return the type for the prop when is an dimension', () => {
-      helpers.isOneOfProps.mockReturnValue(() => false);
-      helpers.isAssetFile.mockReturnValue(false);
-
       const prop = {
         attributes: { category: 'spacing' },
         path: [
