@@ -67,6 +67,77 @@
         font-weight: {{fontWeight}};
       }  
     {{/each}}
+
+    .button {
+      border-radius: {{components.button.borderRadius.value}};
+      border: 1px solid black;
+    }
+
+    .button-wrapper{
+        background-color: {{tokens.color.surface.value}};
+    }
+
+    .contained{
+      background-color: {{components.button.contained.color.enable.background.value}};
+      color: {{components.button.contained.color.enable.label.value}};
+      border-color: {{components.button.contained.color.enable.border.value}};
+    }
+    .contained:hover{
+      background-color: {{components.button.contained.color.hover.background.value}};
+      color: {{components.button.contained.color.hover.label.value}};
+      border-color: {{components.button.contained.color.hover.border.value}};
+    }
+    .contained:focus{
+      background-color: {{components.button.contained.color.focus.background.value}};
+      color: {{components.button.contained.color.focus.label.value}};
+      border-color: {{components.button.contained.color.focus.border.value}};
+    }
+    .contained.disable{
+      background-color: {{components.button.contained.color.disable.background.value}};
+      color: {{components.button.contained.color.disable.label.value}};
+      border-color: {{components.button.contained.color.disable.border.value}};
+    }
+    .outlined{
+      background-color: {{components.button.outlined.color.enable.background.value}};
+      color: {{components.button.outlined.color.enable.label.value}};
+      border-color: {{components.button.outlined.color.enable.border.value}};
+    }
+    .outlined:hover{
+      background-color: {{components.button.outlined.color.hover.background.value}};
+      color: {{components.button.outlined.color.hover.label.value}};
+      border-color: {{components.button.outlined.color.hover.border.value}};
+    }
+    .outlined:focus{
+      background-color: {{components.button.outlined.color.focus.background.value}};
+      color: {{components.button.outlined.color.focus.label.value}};
+      border-color: {{components.button.outlined.color.focus.border.value}};
+    }
+    .outlined.disable{
+      background-color: {{components.button.outlined.color.disable.background.value}};
+      color: {{components.button.outlined.color.disable.label.value}};
+      border-color: {{components.button.outlined.color.disable.border.value}};
+    }
+    
+    .text{
+      background-color: {{components.button.text.color.enable.background.value}};
+      color: {{components.button.text.color.enable.label.value}};
+      border-color: {{components.button.text.color.enable.border.value}};
+    }
+    .text:hover{
+      background-color: {{components.button.text.color.hover.background.value}};
+      color: {{components.button.text.color.hover.label.value}};
+      border-color: {{components.button.text.color.hover.border.value}};
+    }
+    .text:focus{
+      background-color: {{components.button.text.color.focus.background.value}};
+      color: {{components.button.text.color.focus.label.value}};
+      border-color: {{components.button.text.color.focus.border.value}};
+    }
+    .text.disable{
+      background-color: {{components.button.text.color.disable.background.value}};
+      color: {{components.button.text.color.disable.label.value}};
+      border-color: {{components.button.text.color.disable.border.value}};
+    }
     
   </style>
   {{> navigation }}
@@ -183,6 +254,19 @@
         </p>
       </div>
       {{/each}}
+      <div class="col-12 mt-5">
+        <h1>Components</h1>
+        <hr>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">Button</h2>
+      <div class="button-wrapper col-12">
+        <button class="button contained">contained</button>
+        <button class="button contained disable">contained</button>
+        <button class="button outlined">outlined</button>
+        <button class="button outlined disable">outlined</button>
+        <button class="button text">text</button>
+        <button class="button text disable">text</button>
+      </div>
     </div>
     <hr>
   </div>

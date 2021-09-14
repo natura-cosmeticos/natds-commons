@@ -22,6 +22,7 @@ const expectedConfig = {
     'asset/extension',
     'asset/svg-optimized',
     'asset/svg-inline',
+    'unit/px',
     'fontFamily/string',
   ],
 };

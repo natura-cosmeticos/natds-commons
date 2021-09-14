@@ -77,6 +77,77 @@
         font-family: "Helvetica Now Display";
         font-weight: 700;
       }  
+
+    .button {
+      border-radius: 4px;
+      border: 1px solid black;
+    }
+
+    .button-wrapper{
+        background-color: #333333;
+    }
+
+    .contained{
+      background-color: #F4AB34;
+      color: #333333;
+      border-color: #FFFFFF00;
+    }
+    .contained:hover{
+      background-color: #EF8426;
+      color: #333333;
+      border-color: #FFFFFF00;
+    }
+    .contained:focus{
+      background-color: #F8C675;
+      color: #333333;
+      border-color: #FFFFFF00;
+    }
+    .contained.disable{
+      background-color: #777777;
+      color: #FAFAFA;
+      border-color: #FFFFFF00;
+    }
+    .outlined{
+      background-color: #FFFFFF00;
+      color: #FAFAFA;
+      border-color: #F4AB34;
+    }
+    .outlined:hover{
+      background-color: #343a40;
+      color: #FAFAFA;
+      border-color: #F4AB34;
+    }
+    .outlined:focus{
+      background-color: #495057;
+      color: #FAFAFA;
+      border-color: #F4AB34;
+    }
+    .outlined.disable{
+      background-color: #FFFFFF00;
+      color: #BBBBBB;
+      border-color: #777777;
+    }
+    
+    .text{
+      background-color: #FFFFFF00;
+      color: #FAFAFA;
+      border-color: #FFFFFF00;
+    }
+    .text:hover{
+      background-color: #343a40;
+      color: #FAFAFA;
+      border-color: #FFFFFF00;
+    }
+    .text:focus{
+      background-color: #495057;
+      color: #FAFAFA;
+      border-color: #FFFFFF00;
+    }
+    .text.disable{
+      background-color: #FFFFFF00;
+      color: #BBBBBB;
+      border-color: #FFFFFF00;
+    }
     
   </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -120,6 +191,10 @@
         <hr>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">: <code></code></p>
+        <div class="color-sample" style="background: "></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-5 mb-1">colorPrimary: <code>#F4AB34</code></p>
         <div class="color-sample" style="background: #F4AB34"></div>
       </div>
@@ -136,11 +211,27 @@
         <div class="color-sample" style="background: #333333"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">colorPrimaryLightest: <code>#A67423</code></p>
+        <div class="color-sample" style="background: #A67423"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">colorOnPrimaryLightest: <code>#333333</code></p>
+        <div class="color-sample" style="background: #333333"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-5 mb-1">colorPrimaryDark: <code>#EF8426</code></p>
         <div class="color-sample" style="background: #EF8426"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
         <p class="color-name mt-5 mb-1">colorOnPrimaryDark: <code>#333333</code></p>
+        <div class="color-sample" style="background: #333333"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">colorPrimaryDarkest: <code>#F8C675</code></p>
+        <div class="color-sample" style="background: #F8C675"></div>
+      </div>
+      <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="color-name mt-5 mb-1">colorOnPrimaryDarkest: <code>#333333</code></p>
         <div class="color-sample" style="background: #333333"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
@@ -336,134 +427,134 @@
         <hr>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeNone: <code>0</code></p>
-        <div class="size-sample" style="height: 0px"></div>
+        <p class="color-name mt-5 mb-1">sizeNone: <code>0px</code></p>
+        <div class="size-sample" style="height: 0pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeMicro: <code>4</code></p>
-        <div class="size-sample" style="height: 4px"></div>
+        <p class="color-name mt-5 mb-1">sizeMicro: <code>4px</code></p>
+        <div class="size-sample" style="height: 4pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeTiny: <code>8</code></p>
-        <div class="size-sample" style="height: 8px"></div>
+        <p class="color-name mt-5 mb-1">sizeTiny: <code>8px</code></p>
+        <div class="size-sample" style="height: 8pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeSmall: <code>16</code></p>
-        <div class="size-sample" style="height: 16px"></div>
+        <p class="color-name mt-5 mb-1">sizeSmall: <code>16px</code></p>
+        <div class="size-sample" style="height: 16pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeStandard: <code>24</code></p>
-        <div class="size-sample" style="height: 24px"></div>
+        <p class="color-name mt-5 mb-1">sizeStandard: <code>24px</code></p>
+        <div class="size-sample" style="height: 24pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeSemi: <code>32</code></p>
-        <div class="size-sample" style="height: 32px"></div>
+        <p class="color-name mt-5 mb-1">sizeSemi: <code>32px</code></p>
+        <div class="size-sample" style="height: 32pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeSemiX: <code>40</code></p>
-        <div class="size-sample" style="height: 40px"></div>
+        <p class="color-name mt-5 mb-1">sizeSemiX: <code>40px</code></p>
+        <div class="size-sample" style="height: 40pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeMedium: <code>48</code></p>
-        <div class="size-sample" style="height: 48px"></div>
+        <p class="color-name mt-5 mb-1">sizeMedium: <code>48px</code></p>
+        <div class="size-sample" style="height: 48pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeMediumX: <code>56</code></p>
-        <div class="size-sample" style="height: 56px"></div>
+        <p class="color-name mt-5 mb-1">sizeMediumX: <code>56px</code></p>
+        <div class="size-sample" style="height: 56pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeLarge: <code>64</code></p>
-        <div class="size-sample" style="height: 64px"></div>
+        <p class="color-name mt-5 mb-1">sizeLarge: <code>64px</code></p>
+        <div class="size-sample" style="height: 64pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeLargeX: <code>72</code></p>
-        <div class="size-sample" style="height: 72px"></div>
+        <p class="color-name mt-5 mb-1">sizeLargeX: <code>72px</code></p>
+        <div class="size-sample" style="height: 72pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeLargeXX: <code>80</code></p>
-        <div class="size-sample" style="height: 80px"></div>
+        <p class="color-name mt-5 mb-1">sizeLargeXX: <code>80px</code></p>
+        <div class="size-sample" style="height: 80pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeLargeXXX: <code>88</code></p>
-        <div class="size-sample" style="height: 88px"></div>
+        <p class="color-name mt-5 mb-1">sizeLargeXXX: <code>88px</code></p>
+        <div class="size-sample" style="height: 88pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeHuge: <code>96</code></p>
-        <div class="size-sample" style="height: 96px"></div>
+        <p class="color-name mt-5 mb-1">sizeHuge: <code>96px</code></p>
+        <div class="size-sample" style="height: 96pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeHugeX: <code>128</code></p>
-        <div class="size-sample" style="height: 128px"></div>
+        <p class="color-name mt-5 mb-1">sizeHugeX: <code>128px</code></p>
+        <div class="size-sample" style="height: 128pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeHugeXX: <code>144</code></p>
-        <div class="size-sample" style="height: 144px"></div>
+        <p class="color-name mt-5 mb-1">sizeHugeXX: <code>144px</code></p>
+        <div class="size-sample" style="height: 144pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeHugeXXX: <code>192</code></p>
-        <div class="size-sample" style="height: 192px"></div>
+        <p class="color-name mt-5 mb-1">sizeHugeXXX: <code>192px</code></p>
+        <div class="size-sample" style="height: 192pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">sizeVeryHuge: <code>256</code></p>
-        <div class="size-sample" style="height: 256px"></div>
+        <p class="color-name mt-5 mb-1">sizeVeryHuge: <code>256px</code></p>
+        <div class="size-sample" style="height: 256pxpx"></div>
       </div>
       <div class="col-12 mt-5">
         <h1>Spacing</h1>
         <hr>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingNone: <code>0</code></p>
+        <p class="color-name mt-5 mb-1">spacingNone: <code>0px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 0px"></div>
+          <div class="spacing-element" style="height: 0pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingMicro: <code>4</code></p>
+        <p class="color-name mt-5 mb-1">spacingMicro: <code>4px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 4px"></div>
+          <div class="spacing-element" style="height: 4pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingTiny: <code>8</code></p>
+        <p class="color-name mt-5 mb-1">spacingTiny: <code>8px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 8px"></div>
+          <div class="spacing-element" style="height: 8pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingSmall: <code>16</code></p>
+        <p class="color-name mt-5 mb-1">spacingSmall: <code>16px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 16px"></div>
+          <div class="spacing-element" style="height: 16pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingStandard: <code>24</code></p>
+        <p class="color-name mt-5 mb-1">spacingStandard: <code>24px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 24px"></div>
+          <div class="spacing-element" style="height: 24pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingSemi: <code>32</code></p>
+        <p class="color-name mt-5 mb-1">spacingSemi: <code>32px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 32px"></div>
+          <div class="spacing-element" style="height: 32pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingLarge: <code>48</code></p>
+        <p class="color-name mt-5 mb-1">spacingLarge: <code>48px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 48px"></div>
+          <div class="spacing-element" style="height: 48pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">spacingXLarge: <code>64</code></p>
+        <p class="color-name mt-5 mb-1">spacingXLarge: <code>64px</code></p>
         <div class="spacing-sample">
-          <div class="spacing-element" style="height: 64px"></div>
+          <div class="spacing-element" style="height: 64pxpx"></div>
           <div class="spacing-inner-element"></div>
         </div>
       </div>
@@ -472,20 +563,20 @@
         <hr>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">borderRadiusNone: <code>0</code></p>
-        <div class="borderRadius-sample" style="border-radius: 0px"></div>
+        <p class="color-name mt-5 mb-1">borderRadiusNone: <code>0px</code></p>
+        <div class="borderRadius-sample" style="border-radius: 0pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">borderRadiusSmall: <code>2</code></p>
-        <div class="borderRadius-sample" style="border-radius: 2px"></div>
+        <p class="color-name mt-5 mb-1">borderRadiusSmall: <code>2px</code></p>
+        <div class="borderRadius-sample" style="border-radius: 2pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">borderRadiusMedium: <code>4</code></p>
-        <div class="borderRadius-sample" style="border-radius: 4px"></div>
+        <p class="color-name mt-5 mb-1">borderRadiusMedium: <code>4px</code></p>
+        <div class="borderRadius-sample" style="border-radius: 4pxpx"></div>
       </div>
       <div class="color col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="color-name mt-5 mb-1">borderRadiusLarge: <code>8</code></p>
-        <div class="borderRadius-sample" style="border-radius: 8px"></div>
+        <p class="color-name mt-5 mb-1">borderRadiusLarge: <code>8px</code></p>
+        <div class="borderRadius-sample" style="border-radius: 8pxpx"></div>
       </div>
       <div class="col-12 mt-5">
         <h1>Logo</h1>
@@ -602,123 +693,136 @@
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">heading1</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">heading1FontSize: <code>96</code></p>
+        <p class="color-name mt-1 mb-1">heading1FontSize: <code>96px</code></p>
         <p class="color-name mt-1 mb-1">heading1FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">heading1LetterSpacing: <code>0</code></p>
+        <p class="color-name mt-1 mb-1">heading1LetterSpacing: <code>0px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 96px; font-weight: 400; letter-spacing: 0">
+          style="font-size: 96pxpx; font-weight: 400; letter-spacing: 0px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">heading2</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">heading2FontSize: <code>60</code></p>
+        <p class="color-name mt-1 mb-1">heading2FontSize: <code>60px</code></p>
         <p class="color-name mt-1 mb-1">heading2FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">heading2LetterSpacing: <code>0</code></p>
+        <p class="color-name mt-1 mb-1">heading2LetterSpacing: <code>0px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 60px; font-weight: 400; letter-spacing: 0">
+          style="font-size: 60pxpx; font-weight: 400; letter-spacing: 0px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">heading3</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">heading3FontSize: <code>48</code></p>
+        <p class="color-name mt-1 mb-1">heading3FontSize: <code>48px</code></p>
         <p class="color-name mt-1 mb-1">heading3FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">heading3LetterSpacing: <code>0</code></p>
+        <p class="color-name mt-1 mb-1">heading3LetterSpacing: <code>0px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 48px; font-weight: 400; letter-spacing: 0">
+          style="font-size: 48pxpx; font-weight: 400; letter-spacing: 0px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">heading4</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">heading4FontSize: <code>34</code></p>
+        <p class="color-name mt-1 mb-1">heading4FontSize: <code>34px</code></p>
         <p class="color-name mt-1 mb-1">heading4FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">heading4LetterSpacing: <code>0.27</code></p>
+        <p class="color-name mt-1 mb-1">heading4LetterSpacing: <code>0.27px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 34px; font-weight: 400; letter-spacing: 0.27">
+          style="font-size: 34pxpx; font-weight: 400; letter-spacing: 0.27px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">heading5</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">heading5FontSize: <code>24</code></p>
+        <p class="color-name mt-1 mb-1">heading5FontSize: <code>24px</code></p>
         <p class="color-name mt-1 mb-1">heading5FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">heading5LetterSpacing: <code>0</code></p>
+        <p class="color-name mt-1 mb-1">heading5LetterSpacing: <code>0px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 24px; font-weight: 400; letter-spacing: 0">
+          style="font-size: 24pxpx; font-weight: 400; letter-spacing: 0px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">heading6</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">heading6FontSize: <code>20</code></p>
+        <p class="color-name mt-1 mb-1">heading6FontSize: <code>20px</code></p>
         <p class="color-name mt-1 mb-1">heading6FontWeight: <code>500</code></p>
-        <p class="color-name mt-1 mb-1">heading6LetterSpacing: <code>0.24</code></p>
+        <p class="color-name mt-1 mb-1">heading6LetterSpacing: <code>0.24px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 20px; font-weight: 500; letter-spacing: 0.24">
+          style="font-size: 20pxpx; font-weight: 500; letter-spacing: 0.24px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">subtitle1</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">subtitle1FontSize: <code>16</code></p>
+        <p class="color-name mt-1 mb-1">subtitle1FontSize: <code>16px</code></p>
         <p class="color-name mt-1 mb-1">subtitle1FontWeight: <code>500</code></p>
-        <p class="color-name mt-1 mb-1">subtitle1LetterSpacing: <code>0.13</code></p>
+        <p class="color-name mt-1 mb-1">subtitle1LetterSpacing: <code>0.13px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 16px; font-weight: 500; letter-spacing: 0.13">
+          style="font-size: 16pxpx; font-weight: 500; letter-spacing: 0.13px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">subtitle2</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">subtitle2FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">subtitle2FontSize: <code>14px</code></p>
         <p class="color-name mt-1 mb-1">subtitle2FontWeight: <code>500</code></p>
-        <p class="color-name mt-1 mb-1">subtitle2LetterSpacing: <code>0.11</code></p>
+        <p class="color-name mt-1 mb-1">subtitle2LetterSpacing: <code>0.11px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 14px; font-weight: 500; letter-spacing: 0.11">
+          style="font-size: 14pxpx; font-weight: 500; letter-spacing: 0.11px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">body1</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">body1FontSize: <code>16</code></p>
+        <p class="color-name mt-1 mb-1">body1FontSize: <code>16px</code></p>
         <p class="color-name mt-1 mb-1">body1FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">body1LetterSpacing: <code>0.51</code></p>
+        <p class="color-name mt-1 mb-1">body1LetterSpacing: <code>0.51px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 16px; font-weight: 400; letter-spacing: 0.51">
+          style="font-size: 16pxpx; font-weight: 400; letter-spacing: 0.51px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">body2</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">body2FontSize: <code>14</code></p>
+        <p class="color-name mt-1 mb-1">body2FontSize: <code>14px</code></p>
         <p class="color-name mt-1 mb-1">body2FontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">body2LetterSpacing: <code>0.22</code></p>
+        <p class="color-name mt-1 mb-1">body2LetterSpacing: <code>0.22px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 14px; font-weight: 400; letter-spacing: 0.22">
+          style="font-size: 14pxpx; font-weight: 400; letter-spacing: 0.22px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">caption</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">captionFontSize: <code>12</code></p>
+        <p class="color-name mt-1 mb-1">captionFontSize: <code>12px</code></p>
         <p class="color-name mt-1 mb-1">captionFontWeight: <code>400</code></p>
-        <p class="color-name mt-1 mb-1">captionLetterSpacing: <code>0.38</code></p>
+        <p class="color-name mt-1 mb-1">captionLetterSpacing: <code>0.38px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 12px; font-weight: 400; letter-spacing: 0.38">
+          style="font-size: 12pxpx; font-weight: 400; letter-spacing: 0.38px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
       <h2 class="color-name col-12 mt-3 mb-1">overline</h2>
       <div class="color col-12">
-        <p class="color-name mt-1 mb-1">overlineFontSize: <code>12</code></p>
+        <p class="color-name mt-1 mb-1">overlineFontSize: <code>12px</code></p>
         <p class="color-name mt-1 mb-1">overlineFontWeight: <code>500</code></p>
-        <p class="color-name mt-1 mb-1">overlineLetterSpacing: <code>1.92</code></p>
+        <p class="color-name mt-1 mb-1">overlineLetterSpacing: <code>1.92px</code></p>
         <p class="typography-sample mt-2"
-          style="font-size: 12px; font-weight: 500; letter-spacing: 1.92">
+          style="font-size: 12pxpx; font-weight: 500; letter-spacing: 1.92px">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
+      </div>
+      <div class="col-12 mt-5">
+        <h1>Components</h1>
+        <hr>
+      </div>
+      <h2 class="color-name col-12 mt-3 mb-1">Button</h2>
+      <div class="button-wrapper col-12">
+        <button class="button contained">contained</button>
+        <button class="button contained disable">contained</button>
+        <button class="button outlined">outlined</button>
+        <button class="button outlined disable">outlined</button>
+        <button class="button text">text</button>
+        <button class="button text disable">text</button>
       </div>
     </div>
     <hr>
