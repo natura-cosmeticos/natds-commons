@@ -4,7 +4,7 @@ export const buildWebConfig = (brand, mode) => ({
   buildPath: 'build/web/',
   files: [
     {
-      destination: `spectrum/${brand}/spectrum-${mode}.json`,
+      destination: `spectrum/${brand}/spectrum.json`,
       filter: 'spectrumProperties',
       format: 'json/nested',
       options: { showFileHeader: false },
@@ -22,7 +22,7 @@ export const buildWebConfig = (brand, mode) => ({
       options: { showFileHeader: false },
     },
     {
-      destination: `spectrum/${brand}/spectrum-${mode}.js`,
+      destination: `spectrum/${brand}/spectrum.js`,
       filter: 'spectrumProperties',
       format: 'javascript/es6',
       options: { showFileHeader: false },

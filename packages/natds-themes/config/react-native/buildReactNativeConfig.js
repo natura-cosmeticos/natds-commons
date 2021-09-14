@@ -13,7 +13,7 @@ const buildReactNativeConfig = (brand, mode) => ({
       format: 'javascript/module',
     },
     {
-      destination: `spectrum/${brand}/spectrum-${mode}.json`,
+      destination: `spectrum/${brand}/spectrum.json`,
       filter: 'spectrumProperties',
       format: 'json/nested',
     },

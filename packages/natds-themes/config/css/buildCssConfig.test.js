@@ -13,7 +13,7 @@ const expectedCssConfig = {
       },
     },
     {
-      destination: 'spectrum/pokemon/spectrum-pikachu.css',
+      destination: 'spectrum/pokemon/spectrum.css',
       filter: 'spectrumProperties',
       format: 'css/variables',
       options: {
