@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.9.0...@naturacosmeticos/natds-themes@0.10.0) (2021-09-14)
+
+
+### Features
+
+* **natds-themes:** add button color and border tokens ([5b95c68](https://github.com/natura-cosmeticos/natds-commons/commit/5b95c68d74bc0377d81240e1a8f6bc51cf252a8e))
+
+
+
+
+
 # [0.9.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.8.3...@naturacosmeticos/natds-themes@0.9.0) (2021-09-09)
 
 
