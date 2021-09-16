@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Sep 2021 20:11:25 GMT
+ * Generated on Fri, 17 Sep 2021 20:54:46 GMT
  */
 
 module.exports = {
@@ -1084,7 +1084,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.100.value}"
+              "value": "{color.neutral100.value}"
             },
             "name": "buttonOutlinedColorHoverBackground",
             "attributes": {
@@ -1155,7 +1155,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.200.value}"
+              "value": "{color.neutral200.value}"
             },
             "name": "buttonOutlinedColorFocusBackground",
             "attributes": {
@@ -1372,7 +1372,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.100.value}"
+              "value": "{color.neutral100.value}"
             },
             "name": "buttonTextColorHoverBackground",
             "attributes": {
@@ -1443,7 +1443,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.200.value}"
+              "value": "{color.neutral200.value}"
             },
             "name": "buttonTextColorFocusBackground",
             "attributes": {
@@ -3208,197 +3208,175 @@ module.exports = {
     }
   },
   "color": {
-    "neutral": {
-      "50": {
-        "value": "#131313",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.900.value}"
-        },
-        "name": "colorNeutral50",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "50"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "50"
-        ]
+    "neutral50": {
+      "value": "#131313",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.900.value}"
       },
-      "100": {
-        "value": "#333333",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.800.value}"
-        },
-        "name": "colorNeutral100",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "100"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "100"
-        ]
+      "name": "colorNeutral50",
+      "attributes": {
+        "category": "color",
+        "type": "neutral50"
       },
-      "200": {
-        "value": "#515151",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.700.value}"
-        },
-        "name": "colorNeutral200",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "200"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "200"
-        ]
+      "path": [
+        "color",
+        "neutral50"
+      ]
+    },
+    "neutral100": {
+      "value": "#333333",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.800.value}"
       },
-      "300": {
-        "value": "#646464",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.600.value}"
-        },
-        "name": "colorNeutral300",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "300"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "300"
-        ]
+      "name": "colorNeutral100",
+      "attributes": {
+        "category": "color",
+        "type": "neutral100"
       },
-      "400": {
-        "value": "#8B8B8B",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.500.value}"
-        },
-        "name": "colorNeutral400",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "400"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "400"
-        ]
+      "path": [
+        "color",
+        "neutral100"
+      ]
+    },
+    "neutral200": {
+      "value": "#515151",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.700.value}"
       },
-      "500": {
-        "value": "#ACACAC",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.400.value}"
-        },
-        "name": "colorNeutral500",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "500"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "500"
-        ]
+      "name": "colorNeutral200",
+      "attributes": {
+        "category": "color",
+        "type": "neutral200"
       },
-      "600": {
-        "value": "#D1D1D1",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.300.value}"
-        },
-        "name": "colorNeutral600",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "600"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "600"
-        ]
+      "path": [
+        "color",
+        "neutral200"
+      ]
+    },
+    "neutral300": {
+      "value": "#646464",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.600.value}"
       },
-      "700": {
-        "value": "#E3E3E3",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.200.value}"
-        },
-        "name": "colorNeutral700",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "700"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "700"
-        ]
+      "name": "colorNeutral300",
+      "attributes": {
+        "category": "color",
+        "type": "neutral300"
       },
-      "800": {
-        "value": "#EEEEEE",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.100.value}"
-        },
-        "name": "colorNeutral800",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "800"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "800"
-        ]
+      "path": [
+        "color",
+        "neutral300"
+      ]
+    },
+    "neutral400": {
+      "value": "#8B8B8B",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.500.value}"
       },
-      "900": {
-        "value": "#F7F7F7",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.50.value}"
-        },
-        "name": "colorNeutral900",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "900"
-        },
-        "path": [
-          "color",
-          "neutral",
-          "900"
-        ]
-      }
+      "name": "colorNeutral400",
+      "attributes": {
+        "category": "color",
+        "type": "neutral400"
+      },
+      "path": [
+        "color",
+        "neutral400"
+      ]
+    },
+    "neutral500": {
+      "value": "#ACACAC",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.400.value}"
+      },
+      "name": "colorNeutral500",
+      "attributes": {
+        "category": "color",
+        "type": "neutral500"
+      },
+      "path": [
+        "color",
+        "neutral500"
+      ]
+    },
+    "neutral600": {
+      "value": "#D1D1D1",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.300.value}"
+      },
+      "name": "colorNeutral600",
+      "attributes": {
+        "category": "color",
+        "type": "neutral600"
+      },
+      "path": [
+        "color",
+        "neutral600"
+      ]
+    },
+    "neutral700": {
+      "value": "#E3E3E3",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.200.value}"
+      },
+      "name": "colorNeutral700",
+      "attributes": {
+        "category": "color",
+        "type": "neutral700"
+      },
+      "path": [
+        "color",
+        "neutral700"
+      ]
+    },
+    "neutral800": {
+      "value": "#EEEEEE",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.100.value}"
+      },
+      "name": "colorNeutral800",
+      "attributes": {
+        "category": "color",
+        "type": "neutral800"
+      },
+      "path": [
+        "color",
+        "neutral800"
+      ]
+    },
+    "neutral900": {
+      "value": "#F7F7F7",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.50.value}"
+      },
+      "name": "colorNeutral900",
+      "attributes": {
+        "category": "color",
+        "type": "neutral900"
+      },
+      "path": [
+        "color",
+        "neutral900"
+      ]
     },
     "primary": {
       "value": "#f1f1f0",

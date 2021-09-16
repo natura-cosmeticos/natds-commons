@@ -279,18 +279,16 @@
     "xLarge": 64
   },
   "color": {
-    "neutral": {
-      "50": "#F7F7F7",
-      "100": "#EEEEEE",
-      "200": "#E3E3E3",
-      "300": "#D1D1D1",
-      "400": "#ACACAC",
-      "500": "#8B8B8B",
-      "600": "#646464",
-      "700": "#515151",
-      "800": "#333333",
-      "900": "#131313"
-    },
+    "neutral50": "#F7F7F7",
+    "neutral100": "#EEEEEE",
+    "neutral200": "#E3E3E3",
+    "neutral300": "#D1D1D1",
+    "neutral400": "#ACACAC",
+    "neutral500": "#8B8B8B",
+    "neutral600": "#646464",
+    "neutral700": "#515151",
+    "neutral800": "#333333",
+    "neutral900": "#131313",
     "primary": "#262625",
     "onPrimary": "#ffffff",
     "primaryLight": "#4e4e4d",
