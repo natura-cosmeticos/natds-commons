@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.10.0...@naturacosmeticos/natds-themes@0.11.0) (2021-09-16)
+
+
+### Features
+
+* **natds-themes:** add badge tokens ([f5850c0](https://github.com/natura-cosmeticos/natds-commons/commit/f5850c0cd3e44c9304b0e1d7fbd9c600cf37dfd7))
+
+
+
+
+
 # [0.10.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.9.0...@naturacosmeticos/natds-themes@0.10.0) (2021-09-14)
 
 
