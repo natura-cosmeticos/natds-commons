@@ -6,7 +6,7 @@ const expectedWebConfig = {
   buildPath: 'build/web/',
   files: [
     {
-      destination: 'spectrum/pokemon/spectrum-pikachu.json',
+      destination: 'spectrum/pokemon/spectrum.json',
       filter: 'spectrumProperties',
       format: 'json/nested',
       options: { showFileHeader: false },
@@ -28,7 +28,7 @@ const expectedWebConfig = {
       },
     },
     {
-      destination: 'spectrum/pokemon/spectrum-pikachu.js',
+      destination: 'spectrum/pokemon/spectrum.js',
       filter: 'spectrumProperties',
       format: 'javascript/es6',
       options: { showFileHeader: false },

@@ -67,7 +67,7 @@
     "fill:to:css:react-native": "babel-node --presets @babel/preset-env -e 'require(\"./config/react-native/convertFillToStyle.js\").convertFilToCss()'",
     "parse:figma:tokens": "babel-node --presets @babel/preset-env -e 'require(\"./bin/parse-figma-json.js\")'",
     "html": "yarn build:outputs && http-server build/html",
-    "html:watch": "nodemon --watch config -e .js,.json,.hbs,.html -x 'yarn html'",
+    "html:watch": "nodemon --watch config --watch properties -e .js,.json,.hbs,.html -x 'yarn html'",
     "lint": "eslint --ext .js ./",
     "lint:fix": "yarn lint --fix",
     "rollup:build": "rollup -c",

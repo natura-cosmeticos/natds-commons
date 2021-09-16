@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 14 Sep 2021 16:52:42 GMT
+ * Generated on Thu, 16 Sep 2021 19:53:39 GMT
  */
 
 module.exports = {
@@ -72,6 +72,413 @@ module.exports = {
         "borderRadius",
         "large"
       ]
+    }
+  },
+  "badge": {
+    "label": {
+      "fontSize": {
+        "value": 12,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "badgeLabelFontSize",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "fontSize"
+        },
+        "path": [
+          "badge",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.38,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "badgeLabelLetterSpacing",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "badge",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "badgeLabelLineHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "label",
+          "item": "lineHeight"
+        },
+        "path": [
+          "badge",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "badgeLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "badge",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "badgeLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "badge",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "badgeLabelFallbackFontFamily",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "badge",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "badgeLabelFallbackFontWeight",
+          "attributes": {
+            "category": "badge",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "badge",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "standard": {
+      "height": {
+        "value": 16,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.small.value}"
+        },
+        "name": "badgeStandardHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "standard",
+          "item": "height"
+        },
+        "path": [
+          "badge",
+          "standard",
+          "height"
+        ]
+      },
+      "borderRadius": {
+        "value": 8,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{private.borderRadius.circle.small.value}"
+        },
+        "name": "badgeStandardBorderRadius",
+        "attributes": {
+          "category": "badge",
+          "type": "standard",
+          "item": "borderRadius"
+        },
+        "path": [
+          "badge",
+          "standard",
+          "borderRadius"
+        ]
+      }
+    },
+    "dot": {
+      "height": {
+        "value": 8,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.tiny.value}"
+        },
+        "name": "badgeDotHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "height"
+        },
+        "path": [
+          "badge",
+          "dot",
+          "height"
+        ]
+      },
+      "borderRadius": {
+        "value": 4,
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{private.borderRadius.circle.tiny.value}"
+        },
+        "name": "badgeDotBorderRadius",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "borderRadius"
+        },
+        "path": [
+          "badge",
+          "dot",
+          "borderRadius"
+        ]
+      }
+    },
+    "color": {
+      "primary": {
+        "label": {
+          "value": "#ffffff",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onPrimary.value}"
+          },
+          "name": "badgeColorPrimaryLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "primary",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "primary",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#262625",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.primary.value}"
+          },
+          "name": "badgeColorPrimaryBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "primary",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "primary",
+            "background"
+          ]
+        }
+      },
+      "secondary": {
+        "label": {
+          "value": "#ffffff",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onSecondary.value}"
+          },
+          "name": "badgeColorSecondaryLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "secondary",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#a6662b",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.secondary.value}"
+          },
+          "name": "badgeColorSecondaryBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "secondary",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "secondary",
+            "background"
+          ]
+        }
+      },
+      "success": {
+        "label": {
+          "value": "#ffffff",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onSuccess.value}"
+          },
+          "name": "badgeColorSuccessLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "success",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "success",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#569a32",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.success.value}"
+          },
+          "name": "badgeColorSuccessBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "success",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "success",
+            "background"
+          ]
+        }
+      },
+      "alert": {
+        "label": {
+          "value": "#ffffff",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.onAlert.value}"
+          },
+          "name": "badgeColorAlertLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "alert",
+            "subitem": "label"
+          },
+          "path": [
+            "badge",
+            "color",
+            "alert",
+            "label"
+          ]
+        },
+        "background": {
+          "value": "#e74627",
+          "filePath": "properties/globals/components/badge.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.alert.value}"
+          },
+          "name": "badgeColorAlertBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "alert",
+            "subitem": "background"
+          },
+          "path": [
+            "badge",
+            "color",
+            "alert",
+            "background"
+          ]
+        }
+      }
     }
   },
   "button": {

@@ -21,10 +21,10 @@ const buildIosConfig = (brand, mode) => ({
       format: 'ios-swift/spectrum-protocol.swift',
     },
     {
-      destination: `/spectrum/${capitalizeWord(brand)}${capitalizeWord(mode)}Spectrum.swift`,
+      destination: `/spectrum/${capitalizeWord(brand)}Spectrum.swift`,
       filter: 'spectrumProperties',
       format: 'ios-swift/spectrum.swift',
-      themeName: `${capitalizeWord(brand)}${capitalizeWord(mode)}`,
+      themeName: `${capitalizeWord(brand)}`,
     },
     {
       destination: `${capitalizeWord(brand)}${capitalizeWord(mode)}.js`,

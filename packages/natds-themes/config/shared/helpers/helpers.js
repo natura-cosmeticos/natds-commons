@@ -25,7 +25,7 @@ export const negate = (func) => pipe(func, not);
 export const isProp = (propName) => pipe(prop('path'), includes(propName));
 export const flipIsProp = flip(uncurryN(2, isProp));
 export const isOneOfProps = (property) => (dic) => any(flipIsProp(dic))(property);
-export const isPrivateProp = isOneOfProps(['platform', 'spectrum']);
+export const isPrivateProp = isOneOfProps(['platform', 'spectrum', 'private']);
 export const isSpectrumProp = both(isProp('spectrum'), negate(isProp('gradient')));
 export const isAsset = isProp('asset');
 export const isAssetFile = both(isAsset, isProp('file'));
@@ -100,4 +100,16 @@ export const convertBase64ToExternalImage = (assetName) => (acc, item, index) =>
   fs.writeFileSync(path.join(__dirname, '../../../assets', imageName), item.imageData, 'base64');
 
   return acc.replace(`data:image/png;base64,${item.imageData}`, `${assetRemoteBaseUrl}${imageName}`);
+};
+
+export const buildColors = (value) => {
+  if (!Array.isArray(value)) {
+    return { value };
+  }
+
+  return value.reduce((acc, color, index) => ({
+    ...acc,
+    ...{ [index === 0 ? '50' : `${index}00`]: { value: color } },
+  }
+  ), {});
 };

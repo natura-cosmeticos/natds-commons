@@ -20,6 +20,7 @@ export const buildConfig = (brand, mode, platform) => ({
     `properties/globals/color/${mode}.json`,
     `properties/brands/${brand}/${mode}.json`,
     `properties/brands/${brand}/spectrum.json`,
+    `properties/brands/${brand}/spectrum.js`,
     `properties/brands/${brand}/typography.json`,
     `properties/brands/${brand}/asset-${mode}.json`,
     `properties/platforms/${platform}/*.json`,

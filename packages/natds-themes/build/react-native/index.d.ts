@@ -26,6 +26,68 @@ export interface Label {
 	fallback: Fallback
 }
 
+export interface Standard {
+	height: number
+	borderRadius: number
+}
+
+export interface Dot {
+	height: number
+	borderRadius: number
+}
+
+export interface Primary {
+	label: string
+	background: string
+}
+
+export interface Secondary {
+	label: string
+	background: string
+}
+
+export interface Succes {
+	label: string
+	background: string
+}
+
+export interface Alert {
+	label: string
+	background: string
+}
+
+export interface Color {
+	primary: Primary
+	secondary: Secondary
+	success: Succes
+	alert: Alert
+}
+
+export interface Badge {
+	label: Label
+	standard: Standard
+	dot: Dot
+	color: Color
+}
+
+export interface Primary {
+	fontFamily: string
+	fontWeight: number
+}
+
+export interface Fallback {
+	fontFamily: string
+	fontWeight: number
+}
+
+export interface Label {
+	fontSize: number
+	letterSpacing: number
+	lineHeight: number
+	primary: Primary
+	fallback: Fallback
+}
+
 export interface Enable {
 	background: string
 	border: string
@@ -540,6 +602,7 @@ export interface Elevation {
 
 export interface Theme {
 	borderRadius: BorderRadius
+	badge: Badge
 	button: Button
 	heading1: Heading1
 	heading2: Heading2

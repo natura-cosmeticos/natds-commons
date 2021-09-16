@@ -5,6 +5,47 @@
     "medium": 4,
     "large": 8
   },
+  "badge": {
+    "label": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "standard": {
+      "height": 16,
+      "borderRadius": 8
+    },
+    "dot": {
+      "height": 8,
+      "borderRadius": 4
+    },
+    "color": {
+      "primary": {
+        "label": "#ffffff",
+        "background": "#7f28c4"
+      },
+      "secondary": {
+        "label": "#ffffff",
+        "background": "#e2197c"
+      },
+      "success": {
+        "label": "#ffffff",
+        "background": "#569a32"
+      },
+      "alert": {
+        "label": "#ffffff",
+        "background": "#e74627"
+      }
+    }
+  },
   "button": {
     "label": {
       "fontSize": 14,

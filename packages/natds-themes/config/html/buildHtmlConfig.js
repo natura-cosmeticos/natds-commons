@@ -9,7 +9,7 @@ const buildHtmlConfig = (brand, mode) => ({
       format: 'html/colors',
     },
     {
-      destination: `spectrum-${mode}.html`,
+      destination: 'spectrum.html',
       filter: 'spectrumProperties',
       format: 'html/spectrum',
     },
