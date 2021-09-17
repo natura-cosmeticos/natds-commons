@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 Sep 2021 12:34:36 GMT
+ * Generated on Tue, 21 Sep 2021 20:07:30 GMT
  */
 
 module.exports = {
@@ -1709,6 +1709,1152 @@ module.exports = {
             ]
           }
         }
+      }
+    }
+  },
+  "checkbox": {
+    "label": {
+      "fontSize": {
+        "value": "14sp",
+        "filePath": "properties/globals/components/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.fontSize.value}"
+        },
+        "name": "checkboxLabelFontSize",
+        "attributes": {
+          "category": "checkbox",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "checkbox",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.03125,
+        "filePath": "properties/globals/components/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.letterSpacing.value}"
+        },
+        "name": "checkboxLabelLetterSpacing",
+        "attributes": {
+          "category": "checkbox",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "checkbox",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/checkbox.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "checkboxLabelLineHeight",
+        "attributes": {
+          "category": "checkbox",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "checkbox",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/checkbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "checkboxLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "checkbox",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "checkbox",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-medium",
+          "filePath": "properties/globals/components/checkbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "checkboxLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "checkbox",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "checkbox",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/checkbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "checkboxLabelFallbackFontFamily",
+          "attributes": {
+            "category": "checkbox",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "checkbox",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/checkbox.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "checkboxLabelFallbackFontWeight",
+          "attributes": {
+            "category": "checkbox",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "checkbox",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "dialog": {
+    "title": {
+      "fontSize": {
+        "value": "20sp",
+        "filePath": "properties/globals/components/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.fontSize.value}"
+        },
+        "name": "dialogTitleFontSize",
+        "attributes": {
+          "category": "dialog",
+          "type": "title",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "dialog",
+          "title",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.0125,
+        "filePath": "properties/globals/components/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.letterSpacing.value}"
+        },
+        "name": "dialogTitleLetterSpacing",
+        "attributes": {
+          "category": "dialog",
+          "type": "title",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "dialog",
+          "title",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "dialogTitleLineHeight",
+        "attributes": {
+          "category": "dialog",
+          "type": "title",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "dialog",
+          "title",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "dialogTitlePrimaryFontFamily",
+          "attributes": {
+            "category": "dialog",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "title",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-medium",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "dialogTitlePrimaryFontWeight",
+          "attributes": {
+            "category": "dialog",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "title",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "dialogTitleFallbackFontFamily",
+          "attributes": {
+            "category": "dialog",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "title",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "dialogTitleFallbackFontWeight",
+          "attributes": {
+            "category": "dialog",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "title",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "body": {
+      "fontSize": {
+        "value": "16sp",
+        "filePath": "properties/globals/components/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.fontSize.value}"
+        },
+        "name": "dialogBodyFontSize",
+        "attributes": {
+          "category": "dialog",
+          "type": "body",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "dialog",
+          "body",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.03125,
+        "filePath": "properties/globals/components/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.letterSpacing.value}"
+        },
+        "name": "dialogBodyLetterSpacing",
+        "attributes": {
+          "category": "dialog",
+          "type": "body",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "dialog",
+          "body",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/dialog.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "dialogBodyLineHeight",
+        "attributes": {
+          "category": "dialog",
+          "type": "body",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "dialog",
+          "body",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "dialogBodyPrimaryFontFamily",
+          "attributes": {
+            "category": "dialog",
+            "type": "body",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "body",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "dialogBodyPrimaryFontWeight",
+          "attributes": {
+            "category": "dialog",
+            "type": "body",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "body",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "dialogBodyFallbackFontFamily",
+          "attributes": {
+            "category": "dialog",
+            "type": "body",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "body",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "dialogBodyFallbackFontWeight",
+          "attributes": {
+            "category": "dialog",
+            "type": "body",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "dialog",
+            "body",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "radioButton": {
+    "label": {
+      "fontSize": {
+        "value": "14sp",
+        "filePath": "properties/globals/components/radioButton.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.fontSize.value}"
+        },
+        "name": "radioButtonLabelFontSize",
+        "attributes": {
+          "category": "radioButton",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "radioButton",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.03125,
+        "filePath": "properties/globals/components/radioButton.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.letterSpacing.value}"
+        },
+        "name": "radioButtonLabelLetterSpacing",
+        "attributes": {
+          "category": "radioButton",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "radioButton",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/radioButton.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "radioButtonLabelLineHeight",
+        "attributes": {
+          "category": "radioButton",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "radioButton",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/radioButton.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "radioButtonLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "radioButton",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "radioButton",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-medium",
+          "filePath": "properties/globals/components/radioButton.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "radioButtonLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "radioButton",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "radioButton",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/radioButton.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "radioButtonLabelFallbackFontFamily",
+          "attributes": {
+            "category": "radioButton",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "radioButton",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/radioButton.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "radioButtonLabelFallbackFontWeight",
+          "attributes": {
+            "category": "radioButton",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "radioButton",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "tag": {
+    "label": {
+      "fontSize": {
+        "value": "12sp",
+        "filePath": "properties/globals/components/tag.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "tagLabelFontSize",
+        "attributes": {
+          "category": "tag",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "tag",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.0333333333,
+        "filePath": "properties/globals/components/tag.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "tagLabelLetterSpacing",
+        "attributes": {
+          "category": "tag",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "tag",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/tag.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "tagLabelLineHeight",
+        "attributes": {
+          "category": "tag",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "tag",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/tag.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "tagLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "tag",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "tag",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-medium",
+          "filePath": "properties/globals/components/tag.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "tagLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "tag",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "tag",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/tag.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "tagLabelFallbackFontFamily",
+          "attributes": {
+            "category": "tag",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "tag",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/tag.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "tagLabelFallbackFontWeight",
+          "attributes": {
+            "category": "tag",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "tag",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "textField": {
+    "primary": {
+      "fontFamily": {
+        "value": "Roboto",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "name": "textFieldPrimaryFontFamily",
+        "attributes": {
+          "category": "textField",
+          "type": "primary",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "textField",
+          "primary",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif-medium",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.fontWeight.medium.value}"
+        },
+        "name": "textFieldPrimaryFontWeight",
+        "attributes": {
+          "category": "textField",
+          "type": "primary",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "textField",
+          "primary",
+          "fontWeight"
+        ]
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "Roboto",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "textFieldFallbackFontFamily",
+        "attributes": {
+          "category": "textField",
+          "type": "fallback",
+          "item": "fontFamily",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "textField",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": "sans-serif",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "textFieldFallbackFontWeight",
+        "attributes": {
+          "category": "textField",
+          "type": "fallback",
+          "item": "fontWeight",
+          "customOptions": {
+            "type": "string"
+          }
+        },
+        "path": [
+          "textField",
+          "fallback",
+          "fontWeight"
+        ]
+      }
+    },
+    "label": {
+      "fontSize": {
+        "value": "14sp",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle2.fontSize.value}"
+        },
+        "name": "textFieldLabelFontSize",
+        "attributes": {
+          "category": "textField",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.00714285714,
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle2.letterSpacing.value}"
+        },
+        "name": "textFieldLabelLetterSpacing",
+        "attributes": {
+          "category": "textField",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "textFieldLabelLineHeight",
+        "attributes": {
+          "category": "textField",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "label",
+          "lineHeight"
+        ]
+      }
+    },
+    "content": {
+      "fontSize": {
+        "value": "16sp",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.fontSize.value}"
+        },
+        "name": "textFieldContentFontSize",
+        "attributes": {
+          "category": "textField",
+          "type": "content",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "content",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.03125,
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.letterSpacing.value}"
+        },
+        "name": "textFieldContentLetterSpacing",
+        "attributes": {
+          "category": "textField",
+          "type": "content",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "content",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "textFieldContentLineHeight",
+        "attributes": {
+          "category": "textField",
+          "type": "content",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "content",
+          "lineHeight"
+        ]
+      }
+    },
+    "helperText": {
+      "fontSize": {
+        "value": "12sp",
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "textFieldHelperTextFontSize",
+        "attributes": {
+          "category": "textField",
+          "type": "helperText",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "helperText",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.0333333333,
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "textFieldHelperTextLetterSpacing",
+        "attributes": {
+          "category": "textField",
+          "type": "helperText",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "helperText",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/textField.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "textFieldHelperTextLineHeight",
+        "attributes": {
+          "category": "textField",
+          "type": "helperText",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "textField",
+          "helperText",
+          "lineHeight"
+        ]
       }
     }
   },

@@ -134,6 +134,104 @@
       }
     }
   },
+  "checkbox": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "dialog": {
+    "title": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.25,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "body": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "radioButton": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "tag": {
+    "label": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.25,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "textField": {
+    "primary": {
+      "fontFamily": "Roboto",
+      "fontWeight": 500
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
+    },
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 0.11,
+      "lineHeight": 1.25
+    },
+    "content": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.25
+    },
+    "helperText": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.25
+    }
+  },
   "heading1": {
     "fontSize": 96,
     "fontWeight": 400,
