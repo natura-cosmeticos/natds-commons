@@ -15,25 +15,37 @@ const config = {
 };
 
 const tokens = {
-  borderRadius: {
-    none: 0,
+  button: {
+    borderRadius: 4,
   },
   color: {
     primary: '#000000',
   },
 };
 
-const expectedTypes = `export interface BorderRadius {
-\tnone: number
-}
+const splitTokens = {
+  components: {
+    button: {
+      borderRadius: 4,
+    },
+  },
+  tokens: {
+    color: {
+      primary: '#000000',
+    },
+  },
+};
 
-export interface Color {
-\tprimary: string
+const expectedTypes = `
+ export interface Theme {
+  color: Color
+  button: Button
 }
-
-export interface Theme {
-\tborderRadius: BorderRadius
-\tcolor: Color
+ export interface Button {
+  borderRadius: number
+}
+ export interface Color {
+  primary: string
 }`;
 
 describe('registerTypeDefinitionsAction', () => {
@@ -44,6 +56,7 @@ describe('registerTypeDefinitionsAction', () => {
   describe('do action', () => {
     let typesTemplateSpy;
     let compileTemplateSpy;
+    let splitTokensAndComponentsSpy;
 
     beforeEach(() => {
       fs.readFileSync.mockImplementation(() => JSON.stringify(tokens));
@@ -55,6 +68,10 @@ describe('registerTypeDefinitionsAction', () => {
       compileTemplateSpy = jest
         .spyOn(templateHelpers, 'compileTemplate')
         .mockReturnValue(typesTemplateSpy);
+
+      splitTokensAndComponentsSpy = jest
+        .spyOn(templateHelpers, 'splitTokensAndComponents')
+        .mockReturnValue(splitTokens);
     });
 
     it('should return false if definitions already exist', () => {
@@ -78,6 +95,7 @@ describe('registerTypeDefinitionsAction', () => {
       it('should create token definitions from json output with fixes', () => {
         registerTypeDefinitionsAction().do(null, config);
 
+        expect(splitTokensAndComponentsSpy).toHaveBeenCalledWith(tokens);
         expect(typesTemplateSpy).toHaveBeenCalledWith({ brands, tokensTypes: expectedTypes });
       });
 

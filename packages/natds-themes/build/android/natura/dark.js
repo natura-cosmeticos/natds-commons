@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Sep 2021 20:11:32 GMT
+ * Generated on Fri, 17 Sep 2021 20:54:54 GMT
  */
 
 module.exports = {
@@ -1231,7 +1231,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.100.value}"
+              "value": "{color.neutral100.value}"
             },
             "name": "buttonOutlinedColorHoverBackground",
             "attributes": {
@@ -1311,7 +1311,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.200.value}"
+              "value": "{color.neutral200.value}"
             },
             "name": "buttonOutlinedColorFocusBackground",
             "attributes": {
@@ -1555,7 +1555,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.100.value}"
+              "value": "{color.neutral100.value}"
             },
             "name": "buttonTextColorHoverBackground",
             "attributes": {
@@ -1635,7 +1635,7 @@ module.exports = {
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
-              "value": "{color.neutral.200.value}"
+              "value": "{color.neutral200.value}"
             },
             "name": "buttonTextColorFocusBackground",
             "attributes": {
@@ -3691,227 +3691,205 @@ module.exports = {
     }
   },
   "color": {
-    "neutral": {
-      "50": {
-        "value": "#212529",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.900.value}"
-        },
-        "name": "colorNeutral50",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "50",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "50"
-        ]
+    "neutral50": {
+      "value": "#212529",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.900.value}"
       },
-      "100": {
-        "value": "#343a40",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.800.value}"
-        },
-        "name": "colorNeutral100",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "100",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "100"
-        ]
+      "name": "colorNeutral50",
+      "attributes": {
+        "category": "color",
+        "type": "neutral50",
+        "customOptions": {
+          "type": "color"
+        }
       },
-      "200": {
-        "value": "#495057",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.700.value}"
-        },
-        "name": "colorNeutral200",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "200",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "200"
-        ]
+      "path": [
+        "color",
+        "neutral50"
+      ]
+    },
+    "neutral100": {
+      "value": "#343a40",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.800.value}"
       },
-      "300": {
-        "value": "#868e96",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.600.value}"
-        },
-        "name": "colorNeutral300",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "300",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "300"
-        ]
+      "name": "colorNeutral100",
+      "attributes": {
+        "category": "color",
+        "type": "neutral100",
+        "customOptions": {
+          "type": "color"
+        }
       },
-      "400": {
-        "value": "#adb5bd",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.500.value}"
-        },
-        "name": "colorNeutral400",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "400",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "400"
-        ]
+      "path": [
+        "color",
+        "neutral100"
+      ]
+    },
+    "neutral200": {
+      "value": "#495057",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.700.value}"
       },
-      "500": {
-        "value": "#ced4da",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.400.value}"
-        },
-        "name": "colorNeutral500",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "500",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "500"
-        ]
+      "name": "colorNeutral200",
+      "attributes": {
+        "category": "color",
+        "type": "neutral200",
+        "customOptions": {
+          "type": "color"
+        }
       },
-      "600": {
-        "value": "#dee2e6",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.300.value}"
-        },
-        "name": "colorNeutral600",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "600",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "600"
-        ]
+      "path": [
+        "color",
+        "neutral200"
+      ]
+    },
+    "neutral300": {
+      "value": "#868e96",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.600.value}"
       },
-      "700": {
-        "value": "#e9ecef",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.200.value}"
-        },
-        "name": "colorNeutral700",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "700",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "700"
-        ]
+      "name": "colorNeutral300",
+      "attributes": {
+        "category": "color",
+        "type": "neutral300",
+        "customOptions": {
+          "type": "color"
+        }
       },
-      "800": {
-        "value": "#f1f3f5",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.100.value}"
-        },
-        "name": "colorNeutral800",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "800",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "800"
-        ]
+      "path": [
+        "color",
+        "neutral300"
+      ]
+    },
+    "neutral400": {
+      "value": "#adb5bd",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.500.value}"
       },
-      "900": {
-        "value": "#f8f9fa",
-        "filePath": "properties/globals/color/dark.json",
-        "isSource": true,
-        "original": {
-          "value": "{spectrum.gray.50.value}"
-        },
-        "name": "colorNeutral900",
-        "attributes": {
-          "category": "color",
-          "type": "neutral",
-          "item": "900",
-          "customOptions": {
-            "type": "color"
-          }
-        },
-        "path": [
-          "color",
-          "neutral",
-          "900"
-        ]
-      }
+      "name": "colorNeutral400",
+      "attributes": {
+        "category": "color",
+        "type": "neutral400",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "neutral400"
+      ]
+    },
+    "neutral500": {
+      "value": "#ced4da",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.400.value}"
+      },
+      "name": "colorNeutral500",
+      "attributes": {
+        "category": "color",
+        "type": "neutral500",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "neutral500"
+      ]
+    },
+    "neutral600": {
+      "value": "#dee2e6",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.300.value}"
+      },
+      "name": "colorNeutral600",
+      "attributes": {
+        "category": "color",
+        "type": "neutral600",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "neutral600"
+      ]
+    },
+    "neutral700": {
+      "value": "#e9ecef",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.200.value}"
+      },
+      "name": "colorNeutral700",
+      "attributes": {
+        "category": "color",
+        "type": "neutral700",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "neutral700"
+      ]
+    },
+    "neutral800": {
+      "value": "#f1f3f5",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.100.value}"
+      },
+      "name": "colorNeutral800",
+      "attributes": {
+        "category": "color",
+        "type": "neutral800",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "neutral800"
+      ]
+    },
+    "neutral900": {
+      "value": "#f8f9fa",
+      "filePath": "properties/globals/color/dark.json",
+      "isSource": true,
+      "original": {
+        "value": "{spectrum.gray.50.value}"
+      },
+      "name": "colorNeutral900",
+      "attributes": {
+        "category": "color",
+        "type": "neutral900",
+        "customOptions": {
+          "type": "color"
+        }
+      },
+      "path": [
+        "color",
+        "neutral900"
+      ]
     },
     "primary": {
       "value": "#F4AB34",

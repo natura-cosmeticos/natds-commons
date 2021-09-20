@@ -1,7 +1,8 @@
+/* eslint-disable max-statements */
 import fs, { existsSync } from 'fs';
 import path from 'path';
-import json2ts from 'json2ts';
-import { compileTemplate } from '../helpers';
+import JsonToTS from 'json-to-ts';
+import { compileTemplate, splitTokensAndComponents } from '../helpers';
 import { brands } from '../constants';
 
 const buildDefinitionPath = (config) => {
@@ -13,7 +14,7 @@ const buildDefinitionPath = (config) => {
 const fixTypeDefinitions = (types) => types
   .replace('RootObject', 'Theme')
   .replace(/;/gm, '')
-  .replace(/(BorderRadiu)(\s|\n)/gm, '$1s$2');
+  .replace(/interface/gm, '\n export interface');
 
 const doAction = (_dictionary, config) => {
   const definitionsPath = buildDefinitionPath(config);
@@ -22,9 +23,15 @@ const doAction = (_dictionary, config) => {
 
   const jsonFile = config.files.find(({ destination }) => destination.includes('.json') && !destination.includes('spectrum'));
   const jsonThemeFile = fs.readFileSync(`${config.buildPath}${jsonFile.destination}`);
-  const typeDefinitions = json2ts.convert(jsonThemeFile);
   const templatePath = path.resolve(__dirname, '../templates/typeDefinitions.hbs');
   const typesTemplate = compileTemplate(templatePath);
+
+  const { tokens, components } = splitTokensAndComponents(JSON.parse(jsonThemeFile));
+
+  const theme = { ...tokens, ...components };
+
+  const typeDefinitions = JsonToTS(theme)
+    .reduce((types, typeInterface) => types.concat(typeInterface), '');
 
   const tokensTypes = fixTypeDefinitions(typeDefinitions);
 
