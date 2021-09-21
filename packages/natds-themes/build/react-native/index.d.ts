@@ -13,6 +13,11 @@ declare namespace Themes {
   typography: Typography
   badge: Badge
   button: Button
+  checkbox: Checkbox
+  dialog: Dialog
+  radioButton: Checkbox
+  tag: Checkbox
+  textField: TextField
   heading1: Heading1
   heading2: Heading1
   heading3: Heading1
@@ -30,6 +35,25 @@ declare namespace Themes {
   fontSize: number
   fontWeight: number
   letterSpacing: number
+}
+ export interface TextField {
+  primary: Display
+  fallback: Display
+  label: Label2
+  content: Label2
+  helperText: Label2
+}
+ export interface Label2 {
+  fontSize: number
+  letterSpacing: number
+  lineHeight: number
+}
+ export interface Dialog {
+  title: Label
+  body: Label
+}
+ export interface Checkbox {
+  label: Label
 }
  export interface Button {
   label: Label
