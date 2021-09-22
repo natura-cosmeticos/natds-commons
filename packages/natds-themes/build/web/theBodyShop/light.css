@@ -26,9 +26,9 @@
   --buttonLabelLetterSpacing: 1.23px;
   --buttonLabelLineHeight: 1.5;
   --buttonLabelPrimaryFontFamily: "Roboto";
-  --buttonLabelPrimaryFontWeight: 400;
+  --buttonLabelPrimaryFontWeight: 500;
   --buttonLabelFallbackFontFamily: "Arial";
-  --buttonLabelFallbackFontWeight: 400;
+  --buttonLabelFallbackFontWeight: 500;
   --buttonBorderRadius: 4px;
   --buttonContainedColorEnableBackground: #004236;
   --buttonContainedColorEnableBorder: #FFFFFF00;
