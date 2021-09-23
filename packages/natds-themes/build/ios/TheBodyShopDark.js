@@ -90,6 +90,459 @@ module.exports = {
       ]
     }
   },
+  "avatar": {
+    "standard": {
+      "fontSize": {
+        "value": 12,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "avatarStandardFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "standard",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "standard",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": 0
+        },
+        "name": "avatarStandardLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "standard",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "standard",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarStandardLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "standard",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "standard",
+          "lineHeight"
+        ]
+      }
+    },
+    "semi": {
+      "fontSize": {
+        "value": 14,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.fontSize.value}"
+        },
+        "name": "avatarSemiFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "semi",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "semi",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.16,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.letterSpacing.value}"
+        },
+        "name": "avatarSemiLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "semi",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "semi",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarSemiLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "semi",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "semi",
+          "lineHeight"
+        ]
+      }
+    },
+    "semiX": {
+      "fontSize": {
+        "value": 20,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.fontSize.value}"
+        },
+        "name": "avatarSemiXFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "semiX",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "semiX",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.12,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.letterSpacing.value}"
+        },
+        "name": "avatarSemiXLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "semiX",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "semiX",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarSemiXLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "semiX",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "semiX",
+          "lineHeight"
+        ]
+      }
+    },
+    "medium": {
+      "fontSize": {
+        "value": 24,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading5.fontSize.value}"
+        },
+        "name": "avatarMediumFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "medium",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "medium",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading5.letterSpacing.value}"
+        },
+        "name": "avatarMediumLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "medium",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "medium",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarMediumLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "medium",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "medium",
+          "lineHeight"
+        ]
+      }
+    },
+    "largeXXX": {
+      "fontSize": {
+        "value": 48,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading3.fontSize.value}"
+        },
+        "name": "avatarLargeXXXFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "largeXXX",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "largeXXX",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading3.letterSpacing.value}"
+        },
+        "name": "avatarLargeXXXLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "largeXXX",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "largeXXX",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarLargeXXXLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "largeXXX",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "avatar",
+          "largeXXX",
+          "lineHeight"
+        ]
+      }
+    },
+    "primary": {
+      "fontFamily": {
+        "value": "\"San Francisco\"",
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "name": "avatarPrimaryFontFamily",
+        "attributes": {
+          "category": "avatar",
+          "type": "primary",
+          "item": "fontFamily",
+          "customOptions": {
+            "includeType": false,
+            "type": "String"
+          }
+        },
+        "path": [
+          "avatar",
+          "primary",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": ".regular",
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.fontWeight.regular.value}"
+        },
+        "name": "avatarPrimaryFontWeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "primary",
+          "item": "fontWeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "UIFont.Weight"
+          }
+        },
+        "path": [
+          "avatar",
+          "primary",
+          "fontWeight"
+        ]
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "\"San Francisco\"",
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "avatarFallbackFontFamily",
+        "attributes": {
+          "category": "avatar",
+          "type": "fallback",
+          "item": "fontFamily",
+          "customOptions": {
+            "includeType": false,
+            "type": "String"
+          }
+        },
+        "path": [
+          "avatar",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": ".regular",
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "avatarFallbackFontWeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "fallback",
+          "item": "fontWeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "UIFont.Weight"
+          }
+        },
+        "path": [
+          "avatar",
+          "fallback",
+          "fontWeight"
+        ]
+      }
+    }
+  },
   "badge": {
     "label": {
       "fontSize": {
@@ -188,11 +641,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".regular",
-          "filePath": "properties/globals/components/badge.json",
+          "value": ".medium",
+          "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.regular.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "badgeLabelPrimaryFontWeight",
           "attributes": {
@@ -240,11 +693,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".regular",
-          "filePath": "properties/globals/components/badge.json",
+          "value": ".medium",
+          "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{platform.typography.fallback.fontWeight.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "badgeLabelFallbackFontWeight",
           "attributes": {
@@ -671,11 +1124,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".medium",
+          "value": ".regular",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{typography.fontWeight.regular.value}"
           },
           "name": "buttonLabelPrimaryFontWeight",
           "attributes": {
@@ -723,11 +1176,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".medium",
+          "value": ".regular",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{platform.typography.fallback.fontWeight.value}"
           },
           "name": "buttonLabelFallbackFontWeight",
           "attributes": {
@@ -1956,6 +2409,358 @@ module.exports = {
       }
     }
   },
+  "counter": {
+    "label": {
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "counterLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "counter",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".medium",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "counterLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "counter",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "counterLabelFallbackFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "counter",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "counterLabelFallbackFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "counter",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
+      "fontSize": {
+        "value": 14,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle2.fontSize.value}"
+        },
+        "name": "counterLabelFontSize",
+        "attributes": {
+          "category": "counter",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "counter",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.08,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle2.letterSpacing.value}"
+        },
+        "name": "counterLabelLetterSpacing",
+        "attributes": {
+          "category": "counter",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "counter",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "counterLabelLineHeight",
+        "attributes": {
+          "category": "counter",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "counter",
+          "label",
+          "lineHeight"
+        ]
+      }
+    },
+    "content": {
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "counterContentPrimaryFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "counter",
+            "content",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "counterContentPrimaryFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "counter",
+            "content",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "counterContentFallbackFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "counter",
+            "content",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "counterContentFallbackFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "counter",
+            "content",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
+      "fontSize": {
+        "value": 16,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.fontSize.value}"
+        },
+        "name": "counterContentFontSize",
+        "attributes": {
+          "category": "counter",
+          "type": "content",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "counter",
+          "content",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.32,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.letterSpacing.value}"
+        },
+        "name": "counterContentLetterSpacing",
+        "attributes": {
+          "category": "counter",
+          "type": "content",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "counter",
+          "content",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "counterContentLineHeight",
+        "attributes": {
+          "category": "counter",
+          "type": "content",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "counter",
+          "content",
+          "lineHeight"
+        ]
+      }
+    }
+  },
   "dialog": {
     "title": {
       "fontSize": {
@@ -2485,6 +3290,744 @@ module.exports = {
       }
     }
   },
+  "rating": {
+    "counter": {
+      "label": {
+        "fontSize": {
+          "value": 14,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.fontSize.value}"
+          },
+          "name": "ratingCounterLabelFontSize",
+          "attributes": {
+            "category": "rating",
+            "type": "counter",
+            "item": "label",
+            "subitem": "fontSize",
+            "customOptions": {
+              "includeType": true,
+              "type": "CGFloat"
+            }
+          },
+          "path": [
+            "rating",
+            "counter",
+            "label",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.16,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.letterSpacing.value}"
+          },
+          "name": "ratingCounterLabelLetterSpacing",
+          "attributes": {
+            "category": "rating",
+            "type": "counter",
+            "item": "label",
+            "subitem": "letterSpacing",
+            "customOptions": {
+              "includeType": true,
+              "type": "CGFloat"
+            }
+          },
+          "path": [
+            "rating",
+            "counter",
+            "label",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "ratingCounterLabelLineHeight",
+          "attributes": {
+            "category": "rating",
+            "type": "counter",
+            "item": "label",
+            "subitem": "lineHeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "CGFloat"
+            }
+          },
+          "path": [
+            "rating",
+            "counter",
+            "label",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "\"San Francisco\"",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "ratingCounterLabelPrimaryFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontFamily",
+              "customOptions": {
+                "includeType": false,
+                "type": "String"
+              }
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": ".regular",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "ratingCounterLabelPrimaryFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontWeight",
+              "customOptions": {
+                "includeType": true,
+                "type": "UIFont.Weight"
+              }
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "\"San Francisco\"",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "ratingCounterLabelFallbackFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontFamily",
+              "customOptions": {
+                "includeType": false,
+                "type": "String"
+              }
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": ".regular",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "ratingCounterLabelFallbackFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontWeight",
+              "customOptions": {
+                "includeType": true,
+                "type": "UIFont.Weight"
+              }
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      }
+    },
+    "input": {
+      "label": {
+        "fontSize": {
+          "value": 12,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{caption.fontSize.value}"
+          },
+          "name": "ratingInputLabelFontSize",
+          "attributes": {
+            "category": "rating",
+            "type": "input",
+            "item": "label",
+            "subitem": "fontSize",
+            "customOptions": {
+              "includeType": true,
+              "type": "CGFloat"
+            }
+          },
+          "path": [
+            "rating",
+            "input",
+            "label",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.16,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{caption.letterSpacing.value}"
+          },
+          "name": "ratingInputLabelLetterSpacing",
+          "attributes": {
+            "category": "rating",
+            "type": "input",
+            "item": "label",
+            "subitem": "letterSpacing",
+            "customOptions": {
+              "includeType": true,
+              "type": "CGFloat"
+            }
+          },
+          "path": [
+            "rating",
+            "input",
+            "label",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "ratingInputLabelLineHeight",
+          "attributes": {
+            "category": "rating",
+            "type": "input",
+            "item": "label",
+            "subitem": "lineHeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "CGFloat"
+            }
+          },
+          "path": [
+            "rating",
+            "input",
+            "label",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "\"San Francisco\"",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "ratingInputLabelPrimaryFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontFamily",
+              "customOptions": {
+                "includeType": false,
+                "type": "String"
+              }
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": ".regular",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "ratingInputLabelPrimaryFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontWeight",
+              "customOptions": {
+                "includeType": true,
+                "type": "UIFont.Weight"
+              }
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "\"San Francisco\"",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "ratingInputLabelFallbackFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontFamily",
+              "customOptions": {
+                "includeType": false,
+                "type": "String"
+              }
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": ".regular",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "ratingInputLabelFallbackFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontWeight",
+              "customOptions": {
+                "includeType": true,
+                "type": "UIFont.Weight"
+              }
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "shortcut": {
+    "label": {
+      "fontSize": {
+        "value": 12,
+        "filePath": "properties/globals/components/shortcut.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "shortcutLabelFontSize",
+        "attributes": {
+          "category": "shortcut",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "shortcut",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.16,
+        "filePath": "properties/globals/components/shortcut.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "shortcutLabelLetterSpacing",
+        "attributes": {
+          "category": "shortcut",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "shortcut",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/shortcut.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "shortcutLabelLineHeight",
+        "attributes": {
+          "category": "shortcut",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "shortcut",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "shortcutLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "shortcutLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "shortcutLabelFallbackFontFamily",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "shortcutLabelFallbackFontWeight",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "tab": {
+    "label": {
+      "fontSize": {
+        "value": 14,
+        "filePath": "properties/globals/components/tab.json",
+        "isSource": true,
+        "original": {
+          "value": "{button.label.fontSize.value}"
+        },
+        "name": "tabLabelFontSize",
+        "attributes": {
+          "category": "tab",
+          "type": "label",
+          "item": "fontSize",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "tab",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.44,
+        "filePath": "properties/globals/components/tab.json",
+        "isSource": true,
+        "original": {
+          "value": "{button.label.letterSpacing.value}"
+        },
+        "name": "tabLabelLetterSpacing",
+        "attributes": {
+          "category": "tab",
+          "type": "label",
+          "item": "letterSpacing",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "tab",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/tab.json",
+        "isSource": true,
+        "original": {
+          "value": "{button.label.lineHeight.value}"
+        },
+        "name": "tabLabelLineHeight",
+        "attributes": {
+          "category": "tab",
+          "type": "label",
+          "item": "lineHeight",
+          "customOptions": {
+            "includeType": true,
+            "type": "CGFloat"
+          }
+        },
+        "path": [
+          "tab",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "tabLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "tab",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".medium",
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "tabLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "tab",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "tabLabelFallbackFontFamily",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "tab",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "tabLabelFallbackFontWeight",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "tab",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
   "tag": {
     "label": {
       "fontSize": {
@@ -2663,103 +4206,111 @@ module.exports = {
     }
   },
   "textField": {
-    "primary": {
-      "fontFamily": {
-        "value": "\"San Francisco\"",
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontFamily.primary.value}"
-        },
-        "name": "textFieldPrimaryFontFamily",
-        "attributes": {
-          "category": "textField",
-          "type": "primary",
-          "item": "fontFamily",
-          "customOptions": {
-            "includeType": false,
-            "type": "String"
-          }
-        },
-        "path": [
-          "textField",
-          "primary",
-          "fontFamily"
-        ]
-      },
-      "fontWeight": {
-        "value": ".medium",
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "textFieldPrimaryFontWeight",
-        "attributes": {
-          "category": "textField",
-          "type": "primary",
-          "item": "fontWeight",
-          "customOptions": {
-            "includeType": true,
-            "type": "UIFont.Weight"
-          }
-        },
-        "path": [
-          "textField",
-          "primary",
-          "fontWeight"
-        ]
-      }
-    },
-    "fallback": {
-      "fontFamily": {
-        "value": "\"San Francisco\"",
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{platform.typography.fallback.fontFamily.value}"
-        },
-        "name": "textFieldFallbackFontFamily",
-        "attributes": {
-          "category": "textField",
-          "type": "fallback",
-          "item": "fontFamily",
-          "customOptions": {
-            "includeType": false,
-            "type": "String"
-          }
-        },
-        "path": [
-          "textField",
-          "fallback",
-          "fontFamily"
-        ]
-      },
-      "fontWeight": {
-        "value": ".regular",
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{platform.typography.fallback.fontWeight.value}"
-        },
-        "name": "textFieldFallbackFontWeight",
-        "attributes": {
-          "category": "textField",
-          "type": "fallback",
-          "item": "fontWeight",
-          "customOptions": {
-            "includeType": true,
-            "type": "UIFont.Weight"
-          }
-        },
-        "path": [
-          "textField",
-          "fallback",
-          "fontWeight"
-        ]
-      }
-    },
     "label": {
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "textFieldLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "textField",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".medium",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "textFieldLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "textField",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "textFieldLabelFallbackFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "textField",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "textFieldLabelFallbackFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "textField",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
       "fontSize": {
         "value": 14,
         "filePath": "properties/globals/components/textField.json",
@@ -2831,6 +4382,110 @@ module.exports = {
       }
     },
     "content": {
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "textFieldContentPrimaryFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "textField",
+            "content",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "textFieldContentPrimaryFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "textField",
+            "content",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "textFieldContentFallbackFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "textField",
+            "content",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "textFieldContentFallbackFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "textField",
+            "content",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
       "fontSize": {
         "value": 16,
         "filePath": "properties/globals/components/textField.json",
@@ -2902,6 +4557,110 @@ module.exports = {
       }
     },
     "helperText": {
+      "primary": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "textFieldHelperTextPrimaryFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "textFieldHelperTextPrimaryFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "\"San Francisco\"",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "textFieldHelperTextFallbackFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "includeType": false,
+              "type": "String"
+            }
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": ".regular",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "textFieldHelperTextFallbackFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "includeType": true,
+              "type": "UIFont.Weight"
+            }
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
       "fontSize": {
         "value": 12,
         "filePath": "properties/globals/components/textField.json",

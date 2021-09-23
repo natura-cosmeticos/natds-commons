@@ -5,6 +5,41 @@
     "medium": 4,
     "large": 8
   },
+  "avatar": {
+    "standard": {
+      "fontSize": 12,
+      "letterSpacing": 0,
+      "lineHeight": 1.5
+    },
+    "semi": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5
+    },
+    "semiX": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.5
+    },
+    "medium": {
+      "fontSize": 24,
+      "letterSpacing": 0,
+      "lineHeight": 1.5
+    },
+    "largeXXX": {
+      "fontSize": 48,
+      "letterSpacing": 0,
+      "lineHeight": 1.5
+    },
+    "primary": {
+      "fontFamily": "Roboto",
+      "fontWeight": 400
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
+    }
+  },
   "badge": {
     "label": {
       "fontSize": 12,
@@ -149,6 +184,34 @@
       }
     }
   },
+  "counter": {
+    "label": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 14,
+      "letterSpacing": 0.11,
+      "lineHeight": 1.25
+    },
+    "content": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.25
+    }
+  },
   "dialog": {
     "title": {
       "fontSize": 20,
@@ -192,6 +255,68 @@
       }
     }
   },
+  "rating": {
+    "counter": {
+      "label": {
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    },
+    "input": {
+      "label": {
+        "fontSize": 12,
+        "letterSpacing": 0.38,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    }
+  },
+  "shortcut": {
+    "label": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "tab": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 1.23,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
   "tag": {
     "label": {
       "fontSize": 12,
@@ -208,25 +333,41 @@
     }
   },
   "textField": {
-    "primary": {
-      "fontFamily": "Roboto",
-      "fontWeight": 500
-    },
-    "fallback": {
-      "fontFamily": "Arial",
-      "fontWeight": 400
-    },
     "label": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
       "fontSize": 14,
       "letterSpacing": 0.11,
       "lineHeight": 1.25
     },
     "content": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
       "fontSize": 16,
       "letterSpacing": 0.51,
       "lineHeight": 1.25
     },
     "helperText": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
       "fontSize": 12,
       "letterSpacing": 0.38,
       "lineHeight": 1.25

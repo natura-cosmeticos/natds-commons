@@ -74,6 +74,383 @@ module.exports = {
       ]
     }
   },
+  "avatar": {
+    "standard": {
+      "fontSize": {
+        "value": 12,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "avatarStandardFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "standard",
+          "item": "fontSize"
+        },
+        "path": [
+          "avatar",
+          "standard",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": 0
+        },
+        "name": "avatarStandardLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "standard",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "avatar",
+          "standard",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarStandardLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "standard",
+          "item": "lineHeight"
+        },
+        "path": [
+          "avatar",
+          "standard",
+          "lineHeight"
+        ]
+      }
+    },
+    "semi": {
+      "fontSize": {
+        "value": 14,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.fontSize.value}"
+        },
+        "name": "avatarSemiFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "semi",
+          "item": "fontSize"
+        },
+        "path": [
+          "avatar",
+          "semi",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.22,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.letterSpacing.value}"
+        },
+        "name": "avatarSemiLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "semi",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "avatar",
+          "semi",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarSemiLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "semi",
+          "item": "lineHeight"
+        },
+        "path": [
+          "avatar",
+          "semi",
+          "lineHeight"
+        ]
+      }
+    },
+    "semiX": {
+      "fontSize": {
+        "value": 20,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.fontSize.value}"
+        },
+        "name": "avatarSemiXFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "semiX",
+          "item": "fontSize"
+        },
+        "path": [
+          "avatar",
+          "semiX",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.24,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.letterSpacing.value}"
+        },
+        "name": "avatarSemiXLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "semiX",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "avatar",
+          "semiX",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarSemiXLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "semiX",
+          "item": "lineHeight"
+        },
+        "path": [
+          "avatar",
+          "semiX",
+          "lineHeight"
+        ]
+      }
+    },
+    "medium": {
+      "fontSize": {
+        "value": 24,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading5.fontSize.value}"
+        },
+        "name": "avatarMediumFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "medium",
+          "item": "fontSize"
+        },
+        "path": [
+          "avatar",
+          "medium",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading5.letterSpacing.value}"
+        },
+        "name": "avatarMediumLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "medium",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "avatar",
+          "medium",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarMediumLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "medium",
+          "item": "lineHeight"
+        },
+        "path": [
+          "avatar",
+          "medium",
+          "lineHeight"
+        ]
+      }
+    },
+    "largeXXX": {
+      "fontSize": {
+        "value": 48,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading3.fontSize.value}"
+        },
+        "name": "avatarLargeXXXFontSize",
+        "attributes": {
+          "category": "avatar",
+          "type": "largeXXX",
+          "item": "fontSize"
+        },
+        "path": [
+          "avatar",
+          "largeXXX",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading3.letterSpacing.value}"
+        },
+        "name": "avatarLargeXXXLetterSpacing",
+        "attributes": {
+          "category": "avatar",
+          "type": "largeXXX",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "avatar",
+          "largeXXX",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "avatarLargeXXXLineHeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "largeXXX",
+          "item": "lineHeight"
+        },
+        "path": [
+          "avatar",
+          "largeXXX",
+          "lineHeight"
+        ]
+      }
+    },
+    "primary": {
+      "fontFamily": {
+        "value": "Roboto",
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "name": "avatarPrimaryFontFamily",
+        "attributes": {
+          "category": "avatar",
+          "type": "primary",
+          "item": "fontFamily"
+        },
+        "path": [
+          "avatar",
+          "primary",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.fontWeight.regular.value}"
+        },
+        "name": "avatarPrimaryFontWeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "primary",
+          "item": "fontWeight"
+        },
+        "path": [
+          "avatar",
+          "primary",
+          "fontWeight"
+        ]
+      }
+    },
+    "fallback": {
+      "fontFamily": {
+        "value": "Arial",
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "name": "avatarFallbackFontFamily",
+        "attributes": {
+          "category": "avatar",
+          "type": "fallback",
+          "item": "fontFamily"
+        },
+        "path": [
+          "avatar",
+          "fallback",
+          "fontFamily"
+        ]
+      },
+      "fontWeight": {
+        "value": 400,
+        "filePath": "properties/globals/components/avatar.json",
+        "isSource": true,
+        "original": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        },
+        "name": "avatarFallbackFontWeight",
+        "attributes": {
+          "category": "avatar",
+          "type": "fallback",
+          "item": "fontWeight"
+        },
+        "path": [
+          "avatar",
+          "fallback",
+          "fontWeight"
+        ]
+      }
+    }
+  },
   "badge": {
     "label": {
       "fontSize": {
@@ -1660,6 +2037,302 @@ module.exports = {
       }
     }
   },
+  "counter": {
+    "label": {
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "counterLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "counter",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 500,
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "counterLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "counter",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "counterLabelFallbackFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "counter",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "counterLabelFallbackFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "counter",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
+      "fontSize": {
+        "value": 14,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle2.fontSize.value}"
+        },
+        "name": "counterLabelFontSize",
+        "attributes": {
+          "category": "counter",
+          "type": "label",
+          "item": "fontSize"
+        },
+        "path": [
+          "counter",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.11,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle2.letterSpacing.value}"
+        },
+        "name": "counterLabelLetterSpacing",
+        "attributes": {
+          "category": "counter",
+          "type": "label",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "counter",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "counterLabelLineHeight",
+        "attributes": {
+          "category": "counter",
+          "type": "label",
+          "item": "lineHeight"
+        },
+        "path": [
+          "counter",
+          "label",
+          "lineHeight"
+        ]
+      }
+    },
+    "content": {
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "counterContentPrimaryFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "counter",
+            "content",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "counterContentPrimaryFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "counter",
+            "content",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "counterContentFallbackFontFamily",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "counter",
+            "content",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "counterContentFallbackFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "counter",
+            "content",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
+      "fontSize": {
+        "value": 16,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.fontSize.value}"
+        },
+        "name": "counterContentFontSize",
+        "attributes": {
+          "category": "counter",
+          "type": "content",
+          "item": "fontSize"
+        },
+        "path": [
+          "counter",
+          "content",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.51,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.letterSpacing.value}"
+        },
+        "name": "counterContentLetterSpacing",
+        "attributes": {
+          "category": "counter",
+          "type": "content",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "counter",
+          "content",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/counter.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "counterContentLineHeight",
+        "attributes": {
+          "category": "counter",
+          "type": "content",
+          "item": "lineHeight"
+        },
+        "path": [
+          "counter",
+          "content",
+          "lineHeight"
+        ]
+      }
+    }
+  },
   "dialog": {
     "title": {
       "fontSize": {
@@ -2105,6 +2778,632 @@ module.exports = {
       }
     }
   },
+  "rating": {
+    "counter": {
+      "label": {
+        "fontSize": {
+          "value": 14,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.fontSize.value}"
+          },
+          "name": "ratingCounterLabelFontSize",
+          "attributes": {
+            "category": "rating",
+            "type": "counter",
+            "item": "label",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "rating",
+            "counter",
+            "label",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.22,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.letterSpacing.value}"
+          },
+          "name": "ratingCounterLabelLetterSpacing",
+          "attributes": {
+            "category": "rating",
+            "type": "counter",
+            "item": "label",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "rating",
+            "counter",
+            "label",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "ratingCounterLabelLineHeight",
+          "attributes": {
+            "category": "rating",
+            "type": "counter",
+            "item": "label",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "rating",
+            "counter",
+            "label",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "ratingCounterLabelPrimaryFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontFamily"
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": 400,
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "ratingCounterLabelPrimaryFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontWeight"
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "Arial",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "ratingCounterLabelFallbackFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontFamily"
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": 400,
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "ratingCounterLabelFallbackFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "counter",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontWeight"
+            },
+            "path": [
+              "rating",
+              "counter",
+              "label",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      }
+    },
+    "input": {
+      "label": {
+        "fontSize": {
+          "value": 12,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{caption.fontSize.value}"
+          },
+          "name": "ratingInputLabelFontSize",
+          "attributes": {
+            "category": "rating",
+            "type": "input",
+            "item": "label",
+            "subitem": "fontSize"
+          },
+          "path": [
+            "rating",
+            "input",
+            "label",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.38,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{caption.letterSpacing.value}"
+          },
+          "name": "ratingInputLabelLetterSpacing",
+          "attributes": {
+            "category": "rating",
+            "type": "input",
+            "item": "label",
+            "subitem": "letterSpacing"
+          },
+          "path": [
+            "rating",
+            "input",
+            "label",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/rating.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "ratingInputLabelLineHeight",
+          "attributes": {
+            "category": "rating",
+            "type": "input",
+            "item": "label",
+            "subitem": "lineHeight"
+          },
+          "path": [
+            "rating",
+            "input",
+            "label",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "ratingInputLabelPrimaryFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontFamily"
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": 400,
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "ratingInputLabelPrimaryFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "primary",
+              "state": "fontWeight"
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "Arial",
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "ratingInputLabelFallbackFontFamily",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontFamily"
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": 400,
+            "filePath": "properties/globals/components/rating.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "ratingInputLabelFallbackFontWeight",
+            "attributes": {
+              "category": "rating",
+              "type": "input",
+              "item": "label",
+              "subitem": "fallback",
+              "state": "fontWeight"
+            },
+            "path": [
+              "rating",
+              "input",
+              "label",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "shortcut": {
+    "label": {
+      "fontSize": {
+        "value": 12,
+        "filePath": "properties/globals/components/shortcut.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.fontSize.value}"
+        },
+        "name": "shortcutLabelFontSize",
+        "attributes": {
+          "category": "shortcut",
+          "type": "label",
+          "item": "fontSize"
+        },
+        "path": [
+          "shortcut",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.38,
+        "filePath": "properties/globals/components/shortcut.json",
+        "isSource": true,
+        "original": {
+          "value": "{caption.letterSpacing.value}"
+        },
+        "name": "shortcutLabelLetterSpacing",
+        "attributes": {
+          "category": "shortcut",
+          "type": "label",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "shortcut",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/shortcut.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "shortcutLabelLineHeight",
+        "attributes": {
+          "category": "shortcut",
+          "type": "label",
+          "item": "lineHeight"
+        },
+        "path": [
+          "shortcut",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "shortcutLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "shortcutLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "shortcutLabelFallbackFontFamily",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/shortcut.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "shortcutLabelFallbackFontWeight",
+          "attributes": {
+            "category": "shortcut",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "shortcut",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "tab": {
+    "label": {
+      "fontSize": {
+        "value": 14,
+        "filePath": "properties/globals/components/tab.json",
+        "isSource": true,
+        "original": {
+          "value": "{button.label.fontSize.value}"
+        },
+        "name": "tabLabelFontSize",
+        "attributes": {
+          "category": "tab",
+          "type": "label",
+          "item": "fontSize"
+        },
+        "path": [
+          "tab",
+          "label",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 1.23,
+        "filePath": "properties/globals/components/tab.json",
+        "isSource": true,
+        "original": {
+          "value": "{button.label.letterSpacing.value}"
+        },
+        "name": "tabLabelLetterSpacing",
+        "attributes": {
+          "category": "tab",
+          "type": "label",
+          "item": "letterSpacing"
+        },
+        "path": [
+          "tab",
+          "label",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/tab.json",
+        "isSource": true,
+        "original": {
+          "value": "{button.label.lineHeight.value}"
+        },
+        "name": "tabLabelLineHeight",
+        "attributes": {
+          "category": "tab",
+          "type": "label",
+          "item": "lineHeight"
+        },
+        "path": [
+          "tab",
+          "label",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "tabLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "tab",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 500,
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "tabLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "tab",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "tabLabelFallbackFontFamily",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "tab",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/tab.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "tabLabelFallbackFontWeight",
+          "attributes": {
+            "category": "tab",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "tab",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
   "tag": {
     "label": {
       "fontSize": {
@@ -2255,87 +3554,95 @@ module.exports = {
     }
   },
   "textField": {
-    "primary": {
-      "fontFamily": {
-        "value": "Roboto",
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontFamily.primary.value}"
-        },
-        "name": "textFieldPrimaryFontFamily",
-        "attributes": {
-          "category": "textField",
-          "type": "primary",
-          "item": "fontFamily"
-        },
-        "path": [
-          "textField",
-          "primary",
-          "fontFamily"
-        ]
-      },
-      "fontWeight": {
-        "value": 500,
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{typography.fontWeight.medium.value}"
-        },
-        "name": "textFieldPrimaryFontWeight",
-        "attributes": {
-          "category": "textField",
-          "type": "primary",
-          "item": "fontWeight"
-        },
-        "path": [
-          "textField",
-          "primary",
-          "fontWeight"
-        ]
-      }
-    },
-    "fallback": {
-      "fontFamily": {
-        "value": "Arial",
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{platform.typography.fallback.fontFamily.value}"
-        },
-        "name": "textFieldFallbackFontFamily",
-        "attributes": {
-          "category": "textField",
-          "type": "fallback",
-          "item": "fontFamily"
-        },
-        "path": [
-          "textField",
-          "fallback",
-          "fontFamily"
-        ]
-      },
-      "fontWeight": {
-        "value": 400,
-        "filePath": "properties/globals/components/textField.json",
-        "isSource": true,
-        "original": {
-          "value": "{platform.typography.fallback.fontWeight.value}"
-        },
-        "name": "textFieldFallbackFontWeight",
-        "attributes": {
-          "category": "textField",
-          "type": "fallback",
-          "item": "fontWeight"
-        },
-        "path": [
-          "textField",
-          "fallback",
-          "fontWeight"
-        ]
-      }
-    },
     "label": {
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "textFieldLabelPrimaryFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "textField",
+            "label",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 500,
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "textFieldLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "textField",
+            "label",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "textFieldLabelFallbackFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "textField",
+            "label",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "textFieldLabelFallbackFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "label",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "textField",
+            "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
       "fontSize": {
         "value": 14,
         "filePath": "properties/globals/components/textField.json",
@@ -2395,6 +3702,94 @@ module.exports = {
       }
     },
     "content": {
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "textFieldContentPrimaryFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "textField",
+            "content",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "textFieldContentPrimaryFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "textField",
+            "content",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "textFieldContentFallbackFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "textField",
+            "content",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "textFieldContentFallbackFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "textField",
+            "content",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
       "fontSize": {
         "value": 16,
         "filePath": "properties/globals/components/textField.json",
@@ -2454,6 +3849,94 @@ module.exports = {
       }
     },
     "helperText": {
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "textFieldHelperTextPrimaryFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "primary",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "textFieldHelperTextPrimaryFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "primary",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Arial",
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "textFieldHelperTextFallbackFontFamily",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "fallback",
+            "subitem": "fontFamily"
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": 400,
+          "filePath": "properties/globals/components/textField.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "textFieldHelperTextFallbackFontWeight",
+          "attributes": {
+            "category": "textField",
+            "type": "helperText",
+            "item": "fallback",
+            "subitem": "fontWeight"
+          },
+          "path": [
+            "textField",
+            "helperText",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      },
       "fontSize": {
         "value": 12,
         "filePath": "properties/globals/components/textField.json",

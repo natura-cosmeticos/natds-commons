@@ -1,0 +1,31 @@
+{
+  "tab": {
+    "label": {
+      "fontSize": {
+        "value": "{button.label.fontSize.value}"
+      },
+      "letterSpacing": {
+        "value": "{button.label.letterSpacing.value}"
+      },
+      "lineHeight": {
+        "value": "{button.label.lineHeight.value}"
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "fontWeight": {
+          "value": "{typography.fontWeight.medium.value}"
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "fontWeight": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        }
+      }
+    }
+  }
+}
