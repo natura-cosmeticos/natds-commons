@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 21 Sep 2021 20:36:32 GMT
+ * Generated on Wed, 22 Sep 2021 18:35:58 GMT
  */
 
 module.exports = {
@@ -671,11 +671,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".regular",
+          "value": ".medium",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.regular.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "buttonLabelPrimaryFontWeight",
           "attributes": {
@@ -723,11 +723,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".regular",
+          "value": ".medium",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{platform.typography.fallback.fontWeight.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "buttonLabelFallbackFontWeight",
           "attributes": {
