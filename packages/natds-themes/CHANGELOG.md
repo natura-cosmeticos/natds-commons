@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.12.0...@naturacosmeticos/natds-themes@0.12.1) (2021-09-23)
+
+
+### Bug Fixes
+
+* **natds-themes:** change button's font weight to medium ([66b43a4](https://github.com/natura-cosmeticos/natds-commons/commit/66b43a4565f1092b2acfdd16d2f058336ddab635))
+
+
+
+
+
 # [0.12.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.11.1...@naturacosmeticos/natds-themes@0.12.0) (2021-09-21)
 
 
