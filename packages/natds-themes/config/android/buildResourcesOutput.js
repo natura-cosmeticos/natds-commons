@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { compileTemplate, registerTemplateHeaderHelper } from '../shared/helpers';
-import { createEncodedHashFromValue } from './shared/helpers';
+import { createEncodedHashFromValue } from './helpers/helpers';
 
 const buildEncodedObjectFromValue = (value) => ({ [createEncodedHashFromValue(value)]: value });
 

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import * as sharedHelpers from '../shared/helpers';
-import * as helpers from './shared/helpers';
+import * as helpers from './helpers/helpers';
 import { buildResourcesOutput, buildResourcesFromThemeValues } from './buildResourcesOutput';
 
 jest.mock('fs');

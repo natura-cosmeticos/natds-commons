@@ -5,7 +5,7 @@ import {
 } from '../../shared/helpers';
 import {
   isDimension, createEncodedHashFromValue, isColor, mapFilteredValues,
-} from '../shared/helpers';
+} from '../helpers/helpers';
 
 const encodeValue = (item) => ({ ...item, value: createEncodedHashFromValue(item.value) });
 

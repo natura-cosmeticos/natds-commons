@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 23 Sep 2021 19:52:10 GMT
+ * Generated on Fri, 24 Sep 2021 15:17:35 GMT
  */
 
 module.exports = {
@@ -769,7 +769,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -849,7 +849,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -929,7 +929,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1009,7 +1009,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1067,7 +1067,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1147,7 +1147,7 @@ module.exports = {
         },
         "disable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1391,7 +1391,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1417,7 +1417,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1471,7 +1471,7 @@ module.exports = {
         },
         "disable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1497,7 +1497,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1577,7 +1577,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1657,7 +1657,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {

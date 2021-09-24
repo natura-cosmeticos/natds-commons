@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { registerCreateResourcesAction, dataBuilder } from './registerCreateResourcesAction';
 import * as sharedHelpers from '../../shared/helpers';
-import * as helpers from '../shared/helpers';
+import * as helpers from '../helpers/helpers';
 
 jest.mock('fs');
 jest.mock('../../shared/helpers');
