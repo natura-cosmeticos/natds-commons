@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.12.1...@naturacosmeticos/natds-themes@0.12.2) (2021-09-24)
+
+
+### Bug Fixes
+
+* **natds-themes:** create alpha transformer for Android colors ([#286](https://github.com/natura-cosmeticos/natds-commons/issues/286)) ([4df8a3c](https://github.com/natura-cosmeticos/natds-commons/commit/4df8a3c3980638ef744d4e3144d052af870343ae))
+
+
+
+
+
 ## [0.12.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.12.0...@naturacosmeticos/natds-themes@0.12.1) (2021-09-23)
 
 
