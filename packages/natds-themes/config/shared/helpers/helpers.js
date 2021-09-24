@@ -32,6 +32,7 @@ export const isAssetFile = both(isAsset, isProp('file'));
 export const isLogoAssetFile = both(isAssetFile, isProp('brand'));
 export const isFontAssetFile = both(isAssetFile, isProp('font'));
 export const isCustomAsset = both(isAssetFile, isProp('custom'));
+export const hasAlpha = (value) => value.length === 9;
 
 export const flattenProps = (properties) => {
   const isProperty = has('name');

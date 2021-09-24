@@ -1,5 +1,5 @@
 import { registerDpTransform } from './registerDpTransform';
-import * as helpers from '../shared/helpers';
+import * as helpers from '../helpers/helpers';
 
 describe('registerDpTransform', () => {
   it('should return the transform config', () => {

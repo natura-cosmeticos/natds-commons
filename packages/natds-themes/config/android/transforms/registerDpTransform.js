@@ -1,4 +1,4 @@
-import { isDimensionWithUnit, isSpDimension } from '../shared/helpers';
+import { isDimensionWithUnit, isSpDimension } from '../helpers/helpers';
 
 export const registerDpTransform = () => ({
   matcher: isDimensionWithUnit,

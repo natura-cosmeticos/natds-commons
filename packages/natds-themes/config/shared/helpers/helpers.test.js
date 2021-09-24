@@ -10,6 +10,7 @@ import {
   readAsset,
   execPattern,
   convertBase64ToExternalImage,
+  hasAlpha,
 } from './helpers';
 
 jest.mock('fs');
@@ -276,6 +277,19 @@ describe('helpers', () => {
 
       expect(result).toBe(expectedResult);
       expect(fs.writeFileSync).toHaveBeenCalledWith('a/path/natura-a-official-embed-image-0.png', 'something', 'base64');
+    });
+  });
+
+  describe('hasAlpha', () => {
+    it('should return true if the given color has alpha channel', () => {
+      const expectedResult = hasAlpha('#FFFFFF00');
+
+      expect(expectedResult).toEqual(true);
+    });
+    it('should return false if the given color has not alpha channel', () => {
+      const expectedResult = hasAlpha('#FFFFFF');
+
+      expect(expectedResult).toEqual(false);
     });
   });
 });

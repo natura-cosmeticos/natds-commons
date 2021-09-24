@@ -3,6 +3,7 @@ import { registerAssetSnakeTransform } from './transforms/registerAssetSnakeTran
 import { registerAttributeTypeTransform } from './transforms/registerAttributeTypeTransform';
 import { registerDpTransform } from './transforms/registerDpTransform';
 import { registerFontWeightTransform } from './transforms/registerFontWeightTransform';
+import { registerAlphaTransform } from './transforms/registerAlphaTransform';
 import { registerAttributesFormat, registerSpectrumFormat } from './formats/registerAttributesFormat';
 import registerAndroidThemeFormat from './formats/registerThemeFormat';
 import { registerCreateResourcesAction } from './actions/registerCreateResourcesAction';
@@ -16,5 +17,6 @@ export default {
     registerAttributeTypeTransform,
     registerAssetSnakeTransform,
     registerFontWeightTransform,
+    registerAlphaTransform,
   ],
 };

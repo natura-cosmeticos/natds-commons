@@ -1,5 +1,5 @@
 import { isAssetFile } from '../../shared/helpers';
-import { propValueToSnakeCase } from '../shared/helpers';
+import { propValueToSnakeCase } from '../helpers/helpers';
 
 export const registerAssetSnakeTransform = () => ({
   matcher: isAssetFile,

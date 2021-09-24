@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { prop } from 'ramda';
-import { isDimension, isColor, mapFilteredValues } from '../shared/helpers';
+import { isDimension, isColor, mapFilteredValues } from '../helpers/helpers';
 import { createOutputPathInfo } from '../../shared/helpers';
 
 const outputPath = 'build/android';

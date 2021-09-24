@@ -40,6 +40,7 @@ const expectedConfig = {
     'asset/extension',
     'asset/snake',
     'value/font-weight-android',
+    'color/android-alpha',
   ],
 };
 
