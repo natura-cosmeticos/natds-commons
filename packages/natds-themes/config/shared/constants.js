@@ -3,6 +3,7 @@ export const brands = [
   'avon',
   'natura',
   'theBodyShop',
+  'natdsTest',
 ];
 
 export const modes = [
