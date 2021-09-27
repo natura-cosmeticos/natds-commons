@@ -1,0 +1,31 @@
+{
+  "expansionPanel": {
+    "title": {
+      "fontSize": {
+        "value": "{subtitle1.fontSize.value}"
+      },
+      "letterSpacing": {
+        "value": "{subtitle1.letterSpacing.value}"
+      },
+      "lineHeight": {
+        "value": "{typography.lineHeight.medium.value}"
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "fontWeight": {
+          "value": "{typography.fontWeight.regular.value}"
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "fontWeight": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        }
+      }
+    }
+  }
+}

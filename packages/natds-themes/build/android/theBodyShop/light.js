@@ -86,6 +86,514 @@ module.exports = {
       ]
     }
   },
+  "alert": {
+    "title": {
+      "fontSize": {
+        "value": "20sp",
+        "filePath": "properties/globals/components/alert.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.fontSize.value}"
+        },
+        "name": "alertTitleFontSize",
+        "attributes": {
+          "category": "alert",
+          "type": "title",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "alert",
+          "title",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.0125,
+        "filePath": "properties/globals/components/alert.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.letterSpacing.value}"
+        },
+        "name": "alertTitleLetterSpacing",
+        "attributes": {
+          "category": "alert",
+          "type": "title",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "alert",
+          "title",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/alert.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "alertTitleLineHeight",
+        "attributes": {
+          "category": "alert",
+          "type": "title",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "alert",
+          "title",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "alertTitlePrimaryFontFamily",
+          "attributes": {
+            "category": "alert",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "title",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-medium",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "alertTitlePrimaryFontWeight",
+          "attributes": {
+            "category": "alert",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "title",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "alertTitleFallbackFontFamily",
+          "attributes": {
+            "category": "alert",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "title",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "alertTitleFallbackFontWeight",
+          "attributes": {
+            "category": "alert",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "title",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    },
+    "content": {
+      "fontSize": {
+        "value": "16sp",
+        "filePath": "properties/globals/components/alert.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.fontSize.value}"
+        },
+        "name": "alertContentFontSize",
+        "attributes": {
+          "category": "alert",
+          "type": "content",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "alert",
+          "content",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.03125,
+        "filePath": "properties/globals/components/alert.json",
+        "isSource": true,
+        "original": {
+          "value": "{body1.letterSpacing.value}"
+        },
+        "name": "alertContentLetterSpacing",
+        "attributes": {
+          "category": "alert",
+          "type": "content",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "alert",
+          "content",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/alert.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "alertContentLineHeight",
+        "attributes": {
+          "category": "alert",
+          "type": "content",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "alert",
+          "content",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "alertContentPrimaryFontFamily",
+          "attributes": {
+            "category": "alert",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "content",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "alertContentPrimaryFontWeight",
+          "attributes": {
+            "category": "alert",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "content",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "alertContentFallbackFontFamily",
+          "attributes": {
+            "category": "alert",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "content",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/alert.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "alertContentFallbackFontWeight",
+          "attributes": {
+            "category": "alert",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "alert",
+            "content",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "appBarTop": {
+    "title": {
+      "fontSize": {
+        "value": "20sp",
+        "filePath": "properties/globals/components/appBarTop.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.fontSize.value}"
+        },
+        "name": "appBarTopTitleFontSize",
+        "attributes": {
+          "category": "appBarTop",
+          "type": "title",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "appBarTop",
+          "title",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.0125,
+        "filePath": "properties/globals/components/appBarTop.json",
+        "isSource": true,
+        "original": {
+          "value": "{heading6.letterSpacing.value}"
+        },
+        "name": "appBarTopTitleLetterSpacing",
+        "attributes": {
+          "category": "appBarTop",
+          "type": "title",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "appBarTop",
+          "title",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.25,
+        "filePath": "properties/globals/components/appBarTop.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.small.value}"
+        },
+        "name": "appBarTopTitleLineHeight",
+        "attributes": {
+          "category": "appBarTop",
+          "type": "title",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "appBarTop",
+          "title",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/appBarTop.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "appBarTopTitlePrimaryFontFamily",
+          "attributes": {
+            "category": "appBarTop",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "appBarTop",
+            "title",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif-medium",
+          "filePath": "properties/globals/components/appBarTop.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.medium.value}"
+          },
+          "name": "appBarTopTitlePrimaryFontWeight",
+          "attributes": {
+            "category": "appBarTop",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "appBarTop",
+            "title",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/appBarTop.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "appBarTopTitleFallbackFontFamily",
+          "attributes": {
+            "category": "appBarTop",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "appBarTop",
+            "title",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/appBarTop.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "appBarTopTitleFallbackFontWeight",
+          "attributes": {
+            "category": "appBarTop",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "appBarTop",
+            "title",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
   "avatar": {
     "standard": {
       "fontSize": {
@@ -2992,6 +3500,910 @@ module.exports = {
       }
     }
   },
+  "expansionPanel": {
+    "title": {
+      "fontSize": {
+        "value": "16sp",
+        "filePath": "properties/globals/components/expansionPanel.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle1.fontSize.value}"
+        },
+        "name": "expansionPanelTitleFontSize",
+        "attributes": {
+          "category": "expansionPanel",
+          "type": "title",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "expansionPanel",
+          "title",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.009375,
+        "filePath": "properties/globals/components/expansionPanel.json",
+        "isSource": true,
+        "original": {
+          "value": "{subtitle1.letterSpacing.value}"
+        },
+        "name": "expansionPanelTitleLetterSpacing",
+        "attributes": {
+          "category": "expansionPanel",
+          "type": "title",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "expansionPanel",
+          "title",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/expansionPanel.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "expansionPanelTitleLineHeight",
+        "attributes": {
+          "category": "expansionPanel",
+          "type": "title",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "expansionPanel",
+          "title",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/expansionPanel.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "expansionPanelTitlePrimaryFontFamily",
+          "attributes": {
+            "category": "expansionPanel",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "expansionPanel",
+            "title",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/expansionPanel.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "expansionPanelTitlePrimaryFontWeight",
+          "attributes": {
+            "category": "expansionPanel",
+            "type": "title",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "expansionPanel",
+            "title",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/expansionPanel.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "expansionPanelTitleFallbackFontFamily",
+          "attributes": {
+            "category": "expansionPanel",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "expansionPanel",
+            "title",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/expansionPanel.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "expansionPanelTitleFallbackFontWeight",
+          "attributes": {
+            "category": "expansionPanel",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "expansionPanel",
+            "title",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "navigationDrawer": {
+    "header": {
+      "title": {
+        "fontSize": {
+          "value": "20sp",
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{heading6.fontSize.value}"
+          },
+          "name": "navigationDrawerHeaderTitleFontSize",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "header",
+            "item": "title",
+            "subitem": "fontSize",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "header",
+            "title",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.0125,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{heading6.letterSpacing.value}"
+          },
+          "name": "navigationDrawerHeaderTitleLetterSpacing",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "header",
+            "item": "title",
+            "subitem": "letterSpacing",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "header",
+            "title",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.25,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.small.value}"
+          },
+          "name": "navigationDrawerHeaderTitleLineHeight",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "header",
+            "item": "title",
+            "subitem": "lineHeight",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "header",
+            "title",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "navigationDrawerHeaderTitlePrimaryFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "title",
+              "subitem": "primary",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "title",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif-medium",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.medium.value}"
+            },
+            "name": "navigationDrawerHeaderTitlePrimaryFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "title",
+              "subitem": "primary",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "title",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "navigationDrawerHeaderTitleFallbackFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "title",
+              "subitem": "fallback",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "title",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "navigationDrawerHeaderTitleFallbackFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "title",
+              "subitem": "fallback",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "title",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      },
+      "subtitle": {
+        "fontSize": {
+          "value": "14sp",
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.fontSize.value}"
+          },
+          "name": "navigationDrawerHeaderSubtitleFontSize",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "header",
+            "item": "subtitle",
+            "subitem": "fontSize",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "header",
+            "subtitle",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.03125,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.letterSpacing.value}"
+          },
+          "name": "navigationDrawerHeaderSubtitleLetterSpacing",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "header",
+            "item": "subtitle",
+            "subitem": "letterSpacing",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "header",
+            "subtitle",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "navigationDrawerHeaderSubtitleLineHeight",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "header",
+            "item": "subtitle",
+            "subitem": "lineHeight",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "header",
+            "subtitle",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "navigationDrawerHeaderSubtitlePrimaryFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "subtitle",
+              "subitem": "primary",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "subtitle",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "navigationDrawerHeaderSubtitlePrimaryFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "subtitle",
+              "subitem": "primary",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "subtitle",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "navigationDrawerHeaderSubtitleFallbackFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "subtitle",
+              "subitem": "fallback",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "subtitle",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "navigationDrawerHeaderSubtitleFallbackFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "header",
+              "item": "subtitle",
+              "subitem": "fallback",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "header",
+              "subtitle",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      }
+    },
+    "section": {
+      "title": {
+        "fontSize": {
+          "value": "12sp",
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{caption.fontSize.value}"
+          },
+          "name": "navigationDrawerSectionTitleFontSize",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "section",
+            "item": "title",
+            "subitem": "fontSize",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "section",
+            "title",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.0333333333,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{caption.letterSpacing.value}"
+          },
+          "name": "navigationDrawerSectionTitleLetterSpacing",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "section",
+            "item": "title",
+            "subitem": "letterSpacing",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "section",
+            "title",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "navigationDrawerSectionTitleLineHeight",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "section",
+            "item": "title",
+            "subitem": "lineHeight",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "section",
+            "title",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "navigationDrawerSectionTitlePrimaryFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "title",
+              "subitem": "primary",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "title",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "navigationDrawerSectionTitlePrimaryFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "title",
+              "subitem": "primary",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "title",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "navigationDrawerSectionTitleFallbackFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "title",
+              "subitem": "fallback",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "title",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "navigationDrawerSectionTitleFallbackFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "title",
+              "subitem": "fallback",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "title",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      },
+      "item": {
+        "fontSize": {
+          "value": "14sp",
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.fontSize.value}"
+          },
+          "name": "navigationDrawerSectionItemFontSize",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "section",
+            "item": "item",
+            "subitem": "fontSize",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "section",
+            "item",
+            "fontSize"
+          ]
+        },
+        "letterSpacing": {
+          "value": 0.03125,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{body2.letterSpacing.value}"
+          },
+          "name": "navigationDrawerSectionItemLetterSpacing",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "section",
+            "item": "item",
+            "subitem": "letterSpacing",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "section",
+            "item",
+            "letterSpacing"
+          ]
+        },
+        "lineHeight": {
+          "value": 1.5,
+          "filePath": "properties/globals/components/navigationDrawer.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.lineHeight.medium.value}"
+          },
+          "name": "navigationDrawerSectionItemLineHeight",
+          "attributes": {
+            "category": "navigationDrawer",
+            "type": "section",
+            "item": "item",
+            "subitem": "lineHeight",
+            "customOptions": {
+              "type": "dimension"
+            }
+          },
+          "path": [
+            "navigationDrawer",
+            "section",
+            "item",
+            "lineHeight"
+          ]
+        },
+        "primary": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontFamily.primary.value}"
+            },
+            "name": "navigationDrawerSectionItemPrimaryFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "item",
+              "subitem": "primary",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "item",
+              "primary",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{typography.fontWeight.regular.value}"
+            },
+            "name": "navigationDrawerSectionItemPrimaryFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "item",
+              "subitem": "primary",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "item",
+              "primary",
+              "fontWeight"
+            ]
+          }
+        },
+        "fallback": {
+          "fontFamily": {
+            "value": "Roboto",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontFamily.value}"
+            },
+            "name": "navigationDrawerSectionItemFallbackFontFamily",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "item",
+              "subitem": "fallback",
+              "state": "fontFamily",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "item",
+              "fallback",
+              "fontFamily"
+            ]
+          },
+          "fontWeight": {
+            "value": "sans-serif",
+            "filePath": "properties/globals/components/navigationDrawer.json",
+            "isSource": true,
+            "original": {
+              "value": "{platform.typography.fallback.fontWeight.value}"
+            },
+            "name": "navigationDrawerSectionItemFallbackFontWeight",
+            "attributes": {
+              "category": "navigationDrawer",
+              "type": "section",
+              "item": "item",
+              "subitem": "fallback",
+              "state": "fontWeight",
+              "customOptions": {
+                "type": "string"
+              }
+            },
+            "path": [
+              "navigationDrawer",
+              "section",
+              "item",
+              "fallback",
+              "fontWeight"
+            ]
+          }
+        }
+      }
+    }
+  },
   "radioButton": {
     "label": {
       "fontSize": {
@@ -3695,6 +5107,176 @@ module.exports = {
           "path": [
             "shortcut",
             "label",
+            "fallback",
+            "fontWeight"
+          ]
+        }
+      }
+    }
+  },
+  "snackbar": {
+    "content": {
+      "fontSize": {
+        "value": "14sp",
+        "filePath": "properties/globals/components/snackbar.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.fontSize.value}"
+        },
+        "name": "snackbarContentFontSize",
+        "attributes": {
+          "category": "snackbar",
+          "type": "content",
+          "item": "fontSize",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "snackbar",
+          "content",
+          "fontSize"
+        ]
+      },
+      "letterSpacing": {
+        "value": 0.03125,
+        "filePath": "properties/globals/components/snackbar.json",
+        "isSource": true,
+        "original": {
+          "value": "{body2.letterSpacing.value}"
+        },
+        "name": "snackbarContentLetterSpacing",
+        "attributes": {
+          "category": "snackbar",
+          "type": "content",
+          "item": "letterSpacing",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "snackbar",
+          "content",
+          "letterSpacing"
+        ]
+      },
+      "lineHeight": {
+        "value": 1.5,
+        "filePath": "properties/globals/components/snackbar.json",
+        "isSource": true,
+        "original": {
+          "value": "{typography.lineHeight.medium.value}"
+        },
+        "name": "snackbarContentLineHeight",
+        "attributes": {
+          "category": "snackbar",
+          "type": "content",
+          "item": "lineHeight",
+          "customOptions": {
+            "type": "dimension"
+          }
+        },
+        "path": [
+          "snackbar",
+          "content",
+          "lineHeight"
+        ]
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/snackbar.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontFamily.primary.value}"
+          },
+          "name": "snackbarContentPrimaryFontFamily",
+          "attributes": {
+            "category": "snackbar",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "snackbar",
+            "content",
+            "primary",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/snackbar.json",
+          "isSource": true,
+          "original": {
+            "value": "{typography.fontWeight.regular.value}"
+          },
+          "name": "snackbarContentPrimaryFontWeight",
+          "attributes": {
+            "category": "snackbar",
+            "type": "content",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "snackbar",
+            "content",
+            "primary",
+            "fontWeight"
+          ]
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/snackbar.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
+          },
+          "name": "snackbarContentFallbackFontFamily",
+          "attributes": {
+            "category": "snackbar",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "snackbar",
+            "content",
+            "fallback",
+            "fontFamily"
+          ]
+        },
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/snackbar.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
+          },
+          "name": "snackbarContentFallbackFontWeight",
+          "attributes": {
+            "category": "snackbar",
+            "type": "content",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
+          },
+          "path": [
+            "snackbar",
+            "content",
             "fallback",
             "fontWeight"
           ]
