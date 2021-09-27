@@ -201,6 +201,25 @@ protocol Tokens {
 }
 
 protocol Components {
+  var avatarStandardFontSize: CGFloat { get }
+  var avatarStandardLetterSpacing: CGFloat { get }
+  var avatarStandardLineHeight: CGFloat { get }
+  var avatarSemiFontSize: CGFloat { get }
+  var avatarSemiLetterSpacing: CGFloat { get }
+  var avatarSemiLineHeight: CGFloat { get }
+  var avatarSemiXFontSize: CGFloat { get }
+  var avatarSemiXLetterSpacing: CGFloat { get }
+  var avatarSemiXLineHeight: CGFloat { get }
+  var avatarMediumFontSize: CGFloat { get }
+  var avatarMediumLetterSpacing: CGFloat { get }
+  var avatarMediumLineHeight: CGFloat { get }
+  var avatarLargeXXXFontSize: CGFloat { get }
+  var avatarLargeXXXLetterSpacing: CGFloat { get }
+  var avatarLargeXXXLineHeight: CGFloat { get }
+  var avatarPrimaryFontFamily: String { get }
+  var avatarPrimaryFontWeight: UIFont.Weight { get }
+  var avatarFallbackFontFamily: String { get }
+  var avatarFallbackFontWeight: UIFont.Weight { get }
   var badgeLabelFontSize: CGFloat { get }
   var badgeLabelLetterSpacing: CGFloat { get }
   var badgeLabelLineHeight: CGFloat { get }
@@ -271,6 +290,20 @@ protocol Components {
   var checkboxLabelPrimaryFontWeight: UIFont.Weight { get }
   var checkboxLabelFallbackFontFamily: String { get }
   var checkboxLabelFallbackFontWeight: UIFont.Weight { get }
+  var counterLabelPrimaryFontFamily: String { get }
+  var counterLabelPrimaryFontWeight: UIFont.Weight { get }
+  var counterLabelFallbackFontFamily: String { get }
+  var counterLabelFallbackFontWeight: UIFont.Weight { get }
+  var counterLabelFontSize: CGFloat { get }
+  var counterLabelLetterSpacing: CGFloat { get }
+  var counterLabelLineHeight: CGFloat { get }
+  var counterContentPrimaryFontFamily: String { get }
+  var counterContentPrimaryFontWeight: UIFont.Weight { get }
+  var counterContentFallbackFontFamily: String { get }
+  var counterContentFallbackFontWeight: UIFont.Weight { get }
+  var counterContentFontSize: CGFloat { get }
+  var counterContentLetterSpacing: CGFloat { get }
+  var counterContentLineHeight: CGFloat { get }
   var dialogTitleFontSize: CGFloat { get }
   var dialogTitleLetterSpacing: CGFloat { get }
   var dialogTitleLineHeight: CGFloat { get }
@@ -292,6 +325,34 @@ protocol Components {
   var radioButtonLabelPrimaryFontWeight: UIFont.Weight { get }
   var radioButtonLabelFallbackFontFamily: String { get }
   var radioButtonLabelFallbackFontWeight: UIFont.Weight { get }
+  var ratingCounterLabelFontSize: CGFloat { get }
+  var ratingCounterLabelLetterSpacing: CGFloat { get }
+  var ratingCounterLabelLineHeight: CGFloat { get }
+  var ratingCounterLabelPrimaryFontFamily: String { get }
+  var ratingCounterLabelPrimaryFontWeight: UIFont.Weight { get }
+  var ratingCounterLabelFallbackFontFamily: String { get }
+  var ratingCounterLabelFallbackFontWeight: UIFont.Weight { get }
+  var ratingInputLabelFontSize: CGFloat { get }
+  var ratingInputLabelLetterSpacing: CGFloat { get }
+  var ratingInputLabelLineHeight: CGFloat { get }
+  var ratingInputLabelPrimaryFontFamily: String { get }
+  var ratingInputLabelPrimaryFontWeight: UIFont.Weight { get }
+  var ratingInputLabelFallbackFontFamily: String { get }
+  var ratingInputLabelFallbackFontWeight: UIFont.Weight { get }
+  var shortcutLabelFontSize: CGFloat { get }
+  var shortcutLabelLetterSpacing: CGFloat { get }
+  var shortcutLabelLineHeight: CGFloat { get }
+  var shortcutLabelPrimaryFontFamily: String { get }
+  var shortcutLabelPrimaryFontWeight: UIFont.Weight { get }
+  var shortcutLabelFallbackFontFamily: String { get }
+  var shortcutLabelFallbackFontWeight: UIFont.Weight { get }
+  var tabLabelFontSize: CGFloat { get }
+  var tabLabelLetterSpacing: CGFloat { get }
+  var tabLabelLineHeight: CGFloat { get }
+  var tabLabelPrimaryFontFamily: String { get }
+  var tabLabelPrimaryFontWeight: UIFont.Weight { get }
+  var tabLabelFallbackFontFamily: String { get }
+  var tabLabelFallbackFontWeight: UIFont.Weight { get }
   var tagLabelFontSize: CGFloat { get }
   var tagLabelLetterSpacing: CGFloat { get }
   var tagLabelLineHeight: CGFloat { get }
@@ -299,16 +360,24 @@ protocol Components {
   var tagLabelPrimaryFontWeight: UIFont.Weight { get }
   var tagLabelFallbackFontFamily: String { get }
   var tagLabelFallbackFontWeight: UIFont.Weight { get }
-  var textFieldPrimaryFontFamily: String { get }
-  var textFieldPrimaryFontWeight: UIFont.Weight { get }
-  var textFieldFallbackFontFamily: String { get }
-  var textFieldFallbackFontWeight: UIFont.Weight { get }
+  var textFieldLabelPrimaryFontFamily: String { get }
+  var textFieldLabelPrimaryFontWeight: UIFont.Weight { get }
+  var textFieldLabelFallbackFontFamily: String { get }
+  var textFieldLabelFallbackFontWeight: UIFont.Weight { get }
   var textFieldLabelFontSize: CGFloat { get }
   var textFieldLabelLetterSpacing: CGFloat { get }
   var textFieldLabelLineHeight: CGFloat { get }
+  var textFieldContentPrimaryFontFamily: String { get }
+  var textFieldContentPrimaryFontWeight: UIFont.Weight { get }
+  var textFieldContentFallbackFontFamily: String { get }
+  var textFieldContentFallbackFontWeight: UIFont.Weight { get }
   var textFieldContentFontSize: CGFloat { get }
   var textFieldContentLetterSpacing: CGFloat { get }
   var textFieldContentLineHeight: CGFloat { get }
+  var textFieldHelperTextPrimaryFontFamily: String { get }
+  var textFieldHelperTextPrimaryFontWeight: UIFont.Weight { get }
+  var textFieldHelperTextFallbackFontFamily: String { get }
+  var textFieldHelperTextFallbackFontWeight: UIFont.Weight { get }
   var textFieldHelperTextFontSize: CGFloat { get }
   var textFieldHelperTextLetterSpacing: CGFloat { get }
   var textFieldHelperTextLineHeight: CGFloat { get }

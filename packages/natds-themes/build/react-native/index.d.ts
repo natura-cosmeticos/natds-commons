@@ -11,11 +11,16 @@ declare namespace Themes {
   size: Size
   spacing: Spacing
   typography: Typography
+  avatar: Avatar
   badge: Badge
   button: Button
   checkbox: Checkbox
+  counter: Counter
   dialog: Dialog
   radioButton: Checkbox
+  rating: Rating
+  shortcut: Checkbox
+  tab: Checkbox
   tag: Checkbox
   textField: TextField
   heading1: Heading1
@@ -37,20 +42,21 @@ declare namespace Themes {
   letterSpacing: number
 }
  export interface TextField {
-  primary: Display
-  fallback: Display
-  label: Label2
-  content: Label2
-  helperText: Label2
+  label: Label
+  content: Label
+  helperText: Label
 }
- export interface Label2 {
-  fontSize: number
-  letterSpacing: number
-  lineHeight: number
+ export interface Rating {
+  counter: Checkbox
+  input: Checkbox
 }
  export interface Dialog {
   title: Label
   body: Label
+}
+ export interface Counter {
+  label: Label
+  content: Label
 }
  export interface Checkbox {
   label: Label
@@ -78,8 +84,8 @@ declare namespace Themes {
 }
  export interface Badge {
   label: Label
-  standard: Standard
-  dot: Standard
+  standard: Standard2
+  dot: Standard2
   color: Color2
 }
  export interface Color2 {
@@ -92,7 +98,7 @@ declare namespace Themes {
   label: string
   background: string
 }
- export interface Standard {
+ export interface Standard2 {
   height: number
   borderRadius: number
 }
@@ -102,6 +108,20 @@ declare namespace Themes {
   lineHeight: number
   primary: Display
   fallback: Display
+}
+ export interface Avatar {
+  standard: Standard
+  semi: Standard
+  semiX: Standard
+  medium: Standard
+  largeXXX: Standard
+  primary: Display
+  fallback: Display
+}
+ export interface Standard {
+  fontSize: number
+  letterSpacing: number
+  lineHeight: number
 }
  export interface Typography {
   fontFamily: FontFamily

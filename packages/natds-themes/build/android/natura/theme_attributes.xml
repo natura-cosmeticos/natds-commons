@@ -24,6 +24,25 @@
   <attr name="borderRadiusSmall" format="dimension" />  
   <attr name="borderRadiusMedium" format="dimension" />  
   <attr name="borderRadiusLarge" format="dimension" />  
+  <attr name="avatarStandardFontSize" format="dimension" />  
+  <attr name="avatarStandardLetterSpacing" format="dimension" />  
+  <attr name="avatarStandardLineHeight" format="dimension" />  
+  <attr name="avatarSemiFontSize" format="dimension" />  
+  <attr name="avatarSemiLetterSpacing" format="dimension" />  
+  <attr name="avatarSemiLineHeight" format="dimension" />  
+  <attr name="avatarSemiXFontSize" format="dimension" />  
+  <attr name="avatarSemiXLetterSpacing" format="dimension" />  
+  <attr name="avatarSemiXLineHeight" format="dimension" />  
+  <attr name="avatarMediumFontSize" format="dimension" />  
+  <attr name="avatarMediumLetterSpacing" format="dimension" />  
+  <attr name="avatarMediumLineHeight" format="dimension" />  
+  <attr name="avatarLargeXXXFontSize" format="dimension" />  
+  <attr name="avatarLargeXXXLetterSpacing" format="dimension" />  
+  <attr name="avatarLargeXXXLineHeight" format="dimension" />  
+  <attr name="avatarPrimaryFontFamily" format="string" />  
+  <attr name="avatarPrimaryFontWeight" format="string" />  
+  <attr name="avatarFallbackFontFamily" format="string" />  
+  <attr name="avatarFallbackFontWeight" format="string" />  
   <attr name="badgeLabelFontSize" format="dimension" />  
   <attr name="badgeLabelLetterSpacing" format="dimension" />  
   <attr name="badgeLabelLineHeight" format="dimension" />  
@@ -94,6 +113,20 @@
   <attr name="checkboxLabelPrimaryFontWeight" format="string" />  
   <attr name="checkboxLabelFallbackFontFamily" format="string" />  
   <attr name="checkboxLabelFallbackFontWeight" format="string" />  
+  <attr name="counterLabelPrimaryFontFamily" format="string" />  
+  <attr name="counterLabelPrimaryFontWeight" format="string" />  
+  <attr name="counterLabelFallbackFontFamily" format="string" />  
+  <attr name="counterLabelFallbackFontWeight" format="string" />  
+  <attr name="counterLabelFontSize" format="dimension" />  
+  <attr name="counterLabelLetterSpacing" format="dimension" />  
+  <attr name="counterLabelLineHeight" format="dimension" />  
+  <attr name="counterContentPrimaryFontFamily" format="string" />  
+  <attr name="counterContentPrimaryFontWeight" format="string" />  
+  <attr name="counterContentFallbackFontFamily" format="string" />  
+  <attr name="counterContentFallbackFontWeight" format="string" />  
+  <attr name="counterContentFontSize" format="dimension" />  
+  <attr name="counterContentLetterSpacing" format="dimension" />  
+  <attr name="counterContentLineHeight" format="dimension" />  
   <attr name="dialogTitleFontSize" format="dimension" />  
   <attr name="dialogTitleLetterSpacing" format="dimension" />  
   <attr name="dialogTitleLineHeight" format="dimension" />  
@@ -115,6 +148,34 @@
   <attr name="radioButtonLabelPrimaryFontWeight" format="string" />  
   <attr name="radioButtonLabelFallbackFontFamily" format="string" />  
   <attr name="radioButtonLabelFallbackFontWeight" format="string" />  
+  <attr name="ratingCounterLabelFontSize" format="dimension" />  
+  <attr name="ratingCounterLabelLetterSpacing" format="dimension" />  
+  <attr name="ratingCounterLabelLineHeight" format="dimension" />  
+  <attr name="ratingCounterLabelPrimaryFontFamily" format="string" />  
+  <attr name="ratingCounterLabelPrimaryFontWeight" format="string" />  
+  <attr name="ratingCounterLabelFallbackFontFamily" format="string" />  
+  <attr name="ratingCounterLabelFallbackFontWeight" format="string" />  
+  <attr name="ratingInputLabelFontSize" format="dimension" />  
+  <attr name="ratingInputLabelLetterSpacing" format="dimension" />  
+  <attr name="ratingInputLabelLineHeight" format="dimension" />  
+  <attr name="ratingInputLabelPrimaryFontFamily" format="string" />  
+  <attr name="ratingInputLabelPrimaryFontWeight" format="string" />  
+  <attr name="ratingInputLabelFallbackFontFamily" format="string" />  
+  <attr name="ratingInputLabelFallbackFontWeight" format="string" />  
+  <attr name="shortcutLabelFontSize" format="dimension" />  
+  <attr name="shortcutLabelLetterSpacing" format="dimension" />  
+  <attr name="shortcutLabelLineHeight" format="dimension" />  
+  <attr name="shortcutLabelPrimaryFontFamily" format="string" />  
+  <attr name="shortcutLabelPrimaryFontWeight" format="string" />  
+  <attr name="shortcutLabelFallbackFontFamily" format="string" />  
+  <attr name="shortcutLabelFallbackFontWeight" format="string" />  
+  <attr name="tabLabelFontSize" format="dimension" />  
+  <attr name="tabLabelLetterSpacing" format="dimension" />  
+  <attr name="tabLabelLineHeight" format="dimension" />  
+  <attr name="tabLabelPrimaryFontFamily" format="string" />  
+  <attr name="tabLabelPrimaryFontWeight" format="string" />  
+  <attr name="tabLabelFallbackFontFamily" format="string" />  
+  <attr name="tabLabelFallbackFontWeight" format="string" />  
   <attr name="tagLabelFontSize" format="dimension" />  
   <attr name="tagLabelLetterSpacing" format="dimension" />  
   <attr name="tagLabelLineHeight" format="dimension" />  
@@ -122,16 +183,24 @@
   <attr name="tagLabelPrimaryFontWeight" format="string" />  
   <attr name="tagLabelFallbackFontFamily" format="string" />  
   <attr name="tagLabelFallbackFontWeight" format="string" />  
-  <attr name="textFieldPrimaryFontFamily" format="string" />  
-  <attr name="textFieldPrimaryFontWeight" format="string" />  
-  <attr name="textFieldFallbackFontFamily" format="string" />  
-  <attr name="textFieldFallbackFontWeight" format="string" />  
+  <attr name="textFieldLabelPrimaryFontFamily" format="string" />  
+  <attr name="textFieldLabelPrimaryFontWeight" format="string" />  
+  <attr name="textFieldLabelFallbackFontFamily" format="string" />  
+  <attr name="textFieldLabelFallbackFontWeight" format="string" />  
   <attr name="textFieldLabelFontSize" format="dimension" />  
   <attr name="textFieldLabelLetterSpacing" format="dimension" />  
   <attr name="textFieldLabelLineHeight" format="dimension" />  
+  <attr name="textFieldContentPrimaryFontFamily" format="string" />  
+  <attr name="textFieldContentPrimaryFontWeight" format="string" />  
+  <attr name="textFieldContentFallbackFontFamily" format="string" />  
+  <attr name="textFieldContentFallbackFontWeight" format="string" />  
   <attr name="textFieldContentFontSize" format="dimension" />  
   <attr name="textFieldContentLetterSpacing" format="dimension" />  
   <attr name="textFieldContentLineHeight" format="dimension" />  
+  <attr name="textFieldHelperTextPrimaryFontFamily" format="string" />  
+  <attr name="textFieldHelperTextPrimaryFontWeight" format="string" />  
+  <attr name="textFieldHelperTextFallbackFontFamily" format="string" />  
+  <attr name="textFieldHelperTextFallbackFontWeight" format="string" />  
   <attr name="textFieldHelperTextFontSize" format="dimension" />  
   <attr name="textFieldHelperTextLetterSpacing" format="dimension" />  
   <attr name="textFieldHelperTextLineHeight" format="dimension" />  
