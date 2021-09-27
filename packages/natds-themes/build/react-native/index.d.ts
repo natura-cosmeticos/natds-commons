@@ -311,6 +311,7 @@ declare namespace Themes {
     avon: BrandThemes
     natura: BrandThemes
     theBodyShop: BrandThemes
+    natdsTest: BrandThemes
   }
 }
 
