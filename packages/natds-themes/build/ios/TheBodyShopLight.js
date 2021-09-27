@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Sep 2021 16:46:29 GMT
+ * Generated on Mon, 27 Sep 2021 20:15:20 GMT
  */
 
 module.exports = {
@@ -641,11 +641,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".medium",
-          "filePath": "properties/globals/components/button.json",
+          "value": ".regular",
+          "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{typography.fontWeight.regular.value}"
           },
           "name": "badgeLabelPrimaryFontWeight",
           "attributes": {
@@ -693,11 +693,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".medium",
-          "filePath": "properties/globals/components/button.json",
+          "value": ".regular",
+          "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{platform.typography.fallback.fontWeight.value}"
           },
           "name": "badgeLabelFallbackFontWeight",
           "attributes": {
@@ -1124,11 +1124,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".regular",
+          "value": ".medium",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.regular.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "buttonLabelPrimaryFontWeight",
           "attributes": {
@@ -1176,11 +1176,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": ".regular",
+          "value": ".medium",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{platform.typography.fallback.fontWeight.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "buttonLabelFallbackFontWeight",
           "attributes": {

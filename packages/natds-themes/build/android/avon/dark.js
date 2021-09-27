@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Sep 2021 16:46:19 GMT
+ * Generated on Mon, 27 Sep 2021 20:15:04 GMT
  */
 
 module.exports = {
@@ -614,11 +614,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": "sans-serif-medium",
-          "filePath": "properties/globals/components/button.json",
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{typography.fontWeight.regular.value}"
           },
           "name": "badgeLabelPrimaryFontWeight",
           "attributes": {
@@ -664,11 +664,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": "sans-serif-medium",
-          "filePath": "properties/globals/components/button.json",
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{platform.typography.fallback.fontWeight.value}"
           },
           "name": "badgeLabelFallbackFontWeight",
           "attributes": {
@@ -735,86 +735,21 @@ module.exports = {
         ]
       }
     },
-    "contained": {
-      "color": {
-        "enable": {
-          "background": {
-            "value": "#BE9AE2",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "{color.primary.value}"
-            },
-            "name": "buttonContainedColorEnableBackground",
-            "attributes": {
-              "category": "button",
-              "type": "contained",
-              "item": "color",
-              "subitem": "enable",
-              "state": "background",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "contained",
-              "color",
-              "enable",
-              "background"
-            ]
-          },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonContainedColorEnableBorder",
-            "attributes": {
-              "category": "button",
-              "type": "contained",
-              "item": "color",
-              "subitem": "enable",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "contained",
-              "color",
-              "enable",
-              "border"
-            ]
-          },
-          "label": {
-            "value": "#000000",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "{color.onPrimary.value}"
-            },
-            "name": "buttonContainedColorEnableLabel",
-            "attributes": {
-              "category": "button",
-              "type": "contained",
-              "item": "color",
-              "subitem": "enable",
-              "state": "label",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "contained",
-              "color",
-              "enable",
-              "label"
-            ]
+    "dot": {
+      "height": {
+        "value": "8dp",
+        "filePath": "properties/globals/components/badge.json",
+        "isSource": true,
+        "original": {
+          "value": "{size.tiny.value}"
+        },
+        "name": "badgeDotHeight",
+        "attributes": {
+          "category": "badge",
+          "type": "dot",
+          "item": "height",
+          "customOptions": {
+            "type": "dimension"
           }
         },
         "path": [
@@ -855,31 +790,15 @@ module.exports = {
           "original": {
             "value": "{color.onPrimary.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonContainedColorDisableBorder",
-            "attributes": {
-              "category": "button",
-              "type": "contained",
-              "item": "color",
-              "subitem": "disable",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "contained",
-              "color",
-              "disable",
-              "border"
-            ]
+          "name": "badgeColorPrimaryLabel",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "primary",
+            "subitem": "label",
+            "customOptions": {
+              "type": "color"
+            }
           },
           "path": [
             "badge",
@@ -895,31 +814,15 @@ module.exports = {
           "original": {
             "value": "{color.primary.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonContainedColorHoverBorder",
-            "attributes": {
-              "category": "button",
-              "type": "contained",
-              "item": "color",
-              "subitem": "hover",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "contained",
-              "color",
-              "hover",
-              "border"
-            ]
+          "name": "badgeColorPrimaryBackground",
+          "attributes": {
+            "category": "badge",
+            "type": "color",
+            "item": "primary",
+            "subitem": "background",
+            "customOptions": {
+              "type": "color"
+            }
           },
           "path": [
             "badge",
@@ -1175,11 +1078,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": "sans-serif",
+          "value": "sans-serif-medium",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.regular.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "buttonLabelPrimaryFontWeight",
           "attributes": {
@@ -1225,11 +1128,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": "sans-serif",
+          "value": "sans-serif-medium",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
-            "value": "{platform.typography.fallback.fontWeight.value}"
+            "value": "{typography.fontWeight.medium.value}"
           },
           "name": "buttonLabelFallbackFontWeight",
           "attributes": {
@@ -1300,7 +1203,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1380,7 +1283,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1460,7 +1363,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1540,7 +1443,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1598,7 +1501,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1678,7 +1581,7 @@ module.exports = {
         },
         "disable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1922,7 +1825,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1948,7 +1851,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2002,7 +1905,7 @@ module.exports = {
         },
         "disable": {
           "background": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2028,7 +1931,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2108,7 +2011,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2188,7 +2091,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#FFFFFF00",
+            "value": "#00FFFFFF",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2447,31 +2350,15 @@ module.exports = {
           "original": {
             "value": "{typography.fontWeight.medium.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonContainedColorFocusBorder",
-            "attributes": {
-              "category": "button",
-              "type": "contained",
-              "item": "color",
-              "subitem": "focus",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "contained",
-              "color",
-              "focus",
-              "border"
-            ]
+          "name": "counterLabelPrimaryFontWeight",
+          "attributes": {
+            "category": "counter",
+            "type": "label",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
           },
           "path": [
             "counter",
@@ -2648,36 +2535,14 @@ module.exports = {
             "fontWeight"
           ]
         }
-      }
-    },
-    "outlined": {
-      "color": {
-        "enable": {
-          "background": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonOutlinedColorEnableBackground",
-            "attributes": {
-              "category": "button",
-              "type": "outlined",
-              "item": "color",
-              "subitem": "enable",
-              "state": "background",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "outlined",
-              "color",
-              "enable",
-              "background"
-            ]
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
           },
           "name": "counterContentFallbackFontFamily",
           "attributes": {
@@ -2696,32 +2561,12 @@ module.exports = {
             "fontFamily"
           ]
         },
-        "disable": {
-          "background": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonOutlinedColorDisableBackground",
-            "attributes": {
-              "category": "button",
-              "type": "outlined",
-              "item": "color",
-              "subitem": "disable",
-              "state": "background",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "outlined",
-              "color",
-              "disable",
-              "background"
-            ]
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/counter.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
           },
           "name": "counterContentFallbackFontWeight",
           "attributes": {
@@ -2926,62 +2771,24 @@ module.exports = {
             "fontWeight"
           ]
         }
-      }
-    },
-    "text": {
-      "color": {
-        "enable": {
-          "background": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonTextColorEnableBackground",
-            "attributes": {
-              "category": "button",
-              "type": "text",
-              "item": "color",
-              "subitem": "enable",
-              "state": "background",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "text",
-              "color",
-              "enable",
-              "background"
-            ]
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "Roboto",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontFamily.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonTextColorEnableBorder",
-            "attributes": {
-              "category": "button",
-              "type": "text",
-              "item": "color",
-              "subitem": "enable",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "text",
-              "color",
-              "enable",
-              "border"
-            ]
+          "name": "dialogTitleFallbackFontFamily",
+          "attributes": {
+            "category": "dialog",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
           },
           "path": [
             "dialog",
@@ -2990,58 +2797,22 @@ module.exports = {
             "fontFamily"
           ]
         },
-        "disable": {
-          "background": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonTextColorDisableBackground",
-            "attributes": {
-              "category": "button",
-              "type": "text",
-              "item": "color",
-              "subitem": "disable",
-              "state": "background",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "text",
-              "color",
-              "disable",
-              "background"
-            ]
+        "fontWeight": {
+          "value": "sans-serif",
+          "filePath": "properties/globals/components/dialog.json",
+          "isSource": true,
+          "original": {
+            "value": "{platform.typography.fallback.fontWeight.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonTextColorDisableBorder",
-            "attributes": {
-              "category": "button",
-              "type": "text",
-              "item": "color",
-              "subitem": "disable",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "text",
-              "color",
-              "disable",
-              "border"
-            ]
+          "name": "dialogTitleFallbackFontWeight",
+          "attributes": {
+            "category": "dialog",
+            "type": "title",
+            "item": "fallback",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
           },
           "path": [
             "dialog",
@@ -3127,31 +2898,15 @@ module.exports = {
           "original": {
             "value": "{typography.fontFamily.primary.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonTextColorHoverBorder",
-            "attributes": {
-              "category": "button",
-              "type": "text",
-              "item": "color",
-              "subitem": "hover",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "text",
-              "color",
-              "hover",
-              "border"
-            ]
+          "name": "dialogBodyPrimaryFontFamily",
+          "attributes": {
+            "category": "dialog",
+            "type": "body",
+            "item": "primary",
+            "subitem": "fontFamily",
+            "customOptions": {
+              "type": "string"
+            }
           },
           "path": [
             "dialog",
@@ -3167,31 +2922,15 @@ module.exports = {
           "original": {
             "value": "{typography.fontWeight.regular.value}"
           },
-          "border": {
-            "value": "#00FFFFFF",
-            "filePath": "properties/globals/components/button.json",
-            "isSource": true,
-            "original": {
-              "value": "#FFFFFF00"
-            },
-            "name": "buttonTextColorFocusBorder",
-            "attributes": {
-              "category": "button",
-              "type": "text",
-              "item": "color",
-              "subitem": "focus",
-              "state": "border",
-              "customOptions": {
-                "type": "color"
-              }
-            },
-            "path": [
-              "button",
-              "text",
-              "color",
-              "focus",
-              "border"
-            ]
+          "name": "dialogBodyPrimaryFontWeight",
+          "attributes": {
+            "category": "dialog",
+            "type": "body",
+            "item": "primary",
+            "subitem": "fontWeight",
+            "customOptions": {
+              "type": "string"
+            }
           },
           "path": [
             "dialog",
