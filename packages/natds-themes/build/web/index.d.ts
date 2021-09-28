@@ -11,15 +11,20 @@ declare namespace Themes {
   size: Size
   spacing: Spacing
   typography: Typography
+  alert: Alert
+  appBarTop: AppBarTop
   avatar: Avatar
   badge: Badge
   button: Button
   checkbox: Checkbox
   counter: Counter
   dialog: Dialog
+  expansionPanel: AppBarTop
+  navigationDrawer: NavigationDrawer
   radioButton: Checkbox
   rating: Rating
   shortcut: Checkbox
+  snackbar: Snackbar
   tab: Checkbox
   tag: Checkbox
   textField: TextField
@@ -42,27 +47,42 @@ declare namespace Themes {
   letterSpacing: number
 }
  export interface TextField {
-  label: Label
-  content: Label
-  helperText: Label
+  label: Title
+  content: Title
+  helperText: Title
+}
+ export interface Snackbar {
+  content: Title
 }
  export interface Rating {
   counter: Checkbox
   input: Checkbox
 }
+ export interface NavigationDrawer {
+  header: Header
+  section: Section
+}
+ export interface Section {
+  title: Title
+  item: Title
+}
+ export interface Header {
+  title: Title
+  subtitle: Title
+}
  export interface Dialog {
-  title: Label
-  body: Label
+  title: Title
+  body: Title
 }
  export interface Counter {
-  label: Label
-  content: Label
+  label: Title
+  content: Title
 }
  export interface Checkbox {
-  label: Label
+  label: Title
 }
  export interface Button {
-  label: Label
+  label: Title
   borderRadius: number
   contained: Contained
   outlined: Contained
@@ -83,7 +103,7 @@ declare namespace Themes {
   label: string
 }
  export interface Badge {
-  label: Label
+  label: Title
   standard: Standard2
   dot: Standard2
   color: Color2
@@ -102,13 +122,6 @@ declare namespace Themes {
   height: number
   borderRadius: number
 }
- export interface Label {
-  fontSize: number
-  letterSpacing: number
-  lineHeight: number
-  primary: Display
-  fallback: Display
-}
  export interface Avatar {
   standard: Standard
   semi: Standard
@@ -122,6 +135,20 @@ declare namespace Themes {
   fontSize: number
   letterSpacing: number
   lineHeight: number
+}
+ export interface AppBarTop {
+  title: Title
+}
+ export interface Alert {
+  title: Title
+  content: Title
+}
+ export interface Title {
+  fontSize: number
+  letterSpacing: number
+  lineHeight: number
+  primary: Display
+  fallback: Display
 }
  export interface Typography {
   fontFamily: FontFamily
