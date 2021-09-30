@@ -23,14 +23,14 @@ import androidNaturaDark from '../../tokens/android/natura/dark';
 import androidNaturaLight from '../../tokens/android/natura/light';
 import androidTheBodyShopDark from '../../tokens/android/theBodyShop/dark';
 import androidTheBodyShopLight from '../../tokens/android/theBodyShop/light';
-import iosAesopDark from '../../tokens/ios/AesopDark';
-import iosAesopLight from '../../tokens/ios/AesopLight';
-import iosAvonDark from '../../tokens/ios/AvonDark';
-import iosAvonLight from '../../tokens/ios/AvonLight';
-import iosNaturaDark from '../../tokens/ios/NaturaDark';
-import iosNaturaLight from '../../tokens/ios/NaturaLight';
-import iosTheBodyShopDark from '../../tokens/ios/TheBodyShopDark';
-import iosTheBodyShopLight from '../../tokens/ios/TheBodyShopLight';
+import iosAesopDark from '../../tokens/ios/search/AesopDark';
+import iosAesopLight from '../../tokens/ios/search/AesopLight';
+import iosAvonDark from '../../tokens/ios/search/AvonDark';
+import iosAvonLight from '../../tokens/ios/search/AvonLight';
+import iosNaturaDark from '../../tokens/ios/search/NaturaDark';
+import iosNaturaLight from '../../tokens/ios/search/NaturaLight';
+import iosTheBodyShopDark from '../../tokens/ios/search/TheBodyShopDark';
+import iosTheBodyShopLight from '../../tokens/ios/search/TheBodyShopLight';
 import { buildTokensForBrand } from '../helpers';
 
 export const tokens = {

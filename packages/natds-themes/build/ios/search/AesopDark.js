@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Sep 2021 20:16:48 GMT
+ * Generated on Thu, 30 Sep 2021 19:42:10 GMT
  */
 
 module.exports = {
@@ -1347,7 +1347,7 @@ module.exports = {
     "color": {
       "primary": {
         "label": {
-          "value": "\"#333333\"",
+          "value": "\"#000000\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1372,7 +1372,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "\"#F4AB34\"",
+          "value": "\"#F1F1F0\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1424,7 +1424,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "\"#FF6B0B\"",
+          "value": "\"#DDCB91\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1756,7 +1756,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "\"#F4AB34\"",
+            "value": "\"#F1F1F0\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1810,7 +1810,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#000000\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1839,7 +1839,7 @@ module.exports = {
         },
         "disable": {
           "background": {
-            "value": "\"#BBBBBB\"",
+            "value": "\"#777777\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1893,7 +1893,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1922,7 +1922,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "\"#EF8426\"",
+            "value": "\"#BEBEBE\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1976,7 +1976,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#000000\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2005,7 +2005,7 @@ module.exports = {
         },
         "focus": {
           "background": {
-            "value": "\"#A67423\"",
+            "value": "\"#747474\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2059,7 +2059,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#000000\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2119,7 +2119,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#F4AB34\"",
+            "value": "\"#F1F1F0\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2146,7 +2146,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2202,7 +2202,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#BBBBBB\"",
+            "value": "\"#777777\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2229,7 +2229,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#777777\"",
+            "value": "\"#BBBBBB\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2258,7 +2258,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "\"#f1f3f5\"",
+            "value": "\"#333333\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2285,7 +2285,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#F4AB34\"",
+            "value": "\"#F1F1F0\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2312,7 +2312,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2341,7 +2341,7 @@ module.exports = {
         },
         "focus": {
           "background": {
-            "value": "\"#e9ecef\"",
+            "value": "\"#515151\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2368,7 +2368,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#F4AB34\"",
+            "value": "\"#F1F1F0\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2395,7 +2395,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2482,7 +2482,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2565,7 +2565,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#777777\"",
+            "value": "\"#BBBBBB\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2594,7 +2594,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "\"#f1f3f5\"",
+            "value": "\"#333333\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2648,7 +2648,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2677,7 +2677,7 @@ module.exports = {
         },
         "focus": {
           "background": {
-            "value": "\"#e9ecef\"",
+            "value": "\"#515151\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2731,7 +2731,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#333333\"",
+            "value": "\"#FAFAFA\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -8030,11 +8030,11 @@ module.exports = {
     },
     "display": {
       "fontFamily": {
-        "value": "\"Helvetica Now Display\"",
-        "filePath": "properties/brands/natura/typography.json",
+        "value": "\"Zapf Humanist 601\"",
+        "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
-          "value": "Helvetica Now Display"
+          "value": "Zapf Humanist 601"
         },
         "name": "typographyDisplayFontFamily",
         "attributes": {
@@ -8053,11 +8053,11 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": ".bold",
-        "filePath": "properties/brands/natura/typography.json",
+        "value": ".regular",
+        "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
-          "value": 700
+          "value": 400
         },
         "name": "typographyDisplayFontWeight",
         "attributes": {
@@ -8078,11 +8078,11 @@ module.exports = {
     },
     "headline": {
       "fontFamily": {
-        "value": "\"Helvetica Now Display\"",
-        "filePath": "properties/brands/natura/typography.json",
+        "value": "\"Suisse Int'l\"",
+        "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
-          "value": "Helvetica Now Display"
+          "value": "Suisse Int'l"
         },
         "name": "typographyHeadlineFontFamily",
         "attributes": {
@@ -8101,11 +8101,11 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": ".medium",
-        "filePath": "properties/brands/natura/typography.json",
+        "value": ".regular",
+        "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
-          "value": 500
+          "value": 400
         },
         "name": "typographyHeadlineFontWeight",
         "attributes": {
@@ -8127,11 +8127,11 @@ module.exports = {
     "body": {
       "regular": {
         "fontFamily": {
-          "value": "\"Helvetica Now Display\"",
-          "filePath": "properties/brands/natura/typography.json",
+          "value": "\"Suisse Int'l\"",
+          "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
-            "value": "Helvetica Now Display"
+            "value": "Suisse Int'l"
           },
           "name": "typographyBodyRegularFontFamily",
           "attributes": {
@@ -8153,7 +8153,7 @@ module.exports = {
         },
         "fontWeight": {
           "value": ".regular",
-          "filePath": "properties/brands/natura/typography.json",
+          "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
             "value": 400
@@ -8179,11 +8179,11 @@ module.exports = {
       },
       "bold": {
         "fontFamily": {
-          "value": "\"Helvetica Now Display\"",
-          "filePath": "properties/brands/natura/typography.json",
+          "value": "\"Suisse Int'l\"",
+          "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
-            "value": "Helvetica Now Display"
+            "value": "Suisse Int'l"
           },
           "name": "typographyBodyBoldFontFamily",
           "attributes": {
@@ -8205,7 +8205,7 @@ module.exports = {
         },
         "fontWeight": {
           "value": ".bold",
-          "filePath": "properties/brands/natura/typography.json",
+          "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
             "value": 700
@@ -8233,7 +8233,7 @@ module.exports = {
     "fallback": {
       "fontFamily": {
         "value": "\"San Francisco\"",
-        "filePath": "properties/brands/natura/typography.json",
+        "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
           "value": "{platform.typography.fallback.fontFamily.value}"
@@ -8256,7 +8256,7 @@ module.exports = {
       },
       "fontWeight": {
         "value": ".regular",
-        "filePath": "properties/brands/natura/typography.json",
+        "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
           "value": "{platform.typography.fallback.fontWeight.value}"
@@ -8451,11 +8451,11 @@ module.exports = {
   },
   "color": {
     "neutral50": {
-      "value": "\"#f8f9fa\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#131313\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.50.value}"
+        "value": "{spectrum.gray.900.value}"
       },
       "name": "colorNeutral50",
       "attributes": {
@@ -8472,11 +8472,11 @@ module.exports = {
       ]
     },
     "neutral100": {
-      "value": "\"#f1f3f5\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.100.value}"
+        "value": "{spectrum.gray.800.value}"
       },
       "name": "colorNeutral100",
       "attributes": {
@@ -8493,11 +8493,11 @@ module.exports = {
       ]
     },
     "neutral200": {
-      "value": "\"#e9ecef\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#515151\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.200.value}"
+        "value": "{spectrum.gray.700.value}"
       },
       "name": "colorNeutral200",
       "attributes": {
@@ -8514,11 +8514,11 @@ module.exports = {
       ]
     },
     "neutral300": {
-      "value": "\"#dee2e6\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#646464\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.300.value}"
+        "value": "{spectrum.gray.600.value}"
       },
       "name": "colorNeutral300",
       "attributes": {
@@ -8535,11 +8535,11 @@ module.exports = {
       ]
     },
     "neutral400": {
-      "value": "\"#ced4da\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#8B8B8B\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.400.value}"
+        "value": "{spectrum.gray.500.value}"
       },
       "name": "colorNeutral400",
       "attributes": {
@@ -8556,11 +8556,11 @@ module.exports = {
       ]
     },
     "neutral500": {
-      "value": "\"#adb5bd\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#ACACAC\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.500.value}"
+        "value": "{spectrum.gray.400.value}"
       },
       "name": "colorNeutral500",
       "attributes": {
@@ -8577,11 +8577,11 @@ module.exports = {
       ]
     },
     "neutral600": {
-      "value": "\"#868e96\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#D1D1D1\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.600.value}"
+        "value": "{spectrum.gray.300.value}"
       },
       "name": "colorNeutral600",
       "attributes": {
@@ -8598,11 +8598,11 @@ module.exports = {
       ]
     },
     "neutral700": {
-      "value": "\"#495057\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#E3E3E3\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.700.value}"
+        "value": "{spectrum.gray.200.value}"
       },
       "name": "colorNeutral700",
       "attributes": {
@@ -8619,11 +8619,11 @@ module.exports = {
       ]
     },
     "neutral800": {
-      "value": "\"#343a40\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#EEEEEE\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.800.value}"
+        "value": "{spectrum.gray.100.value}"
       },
       "name": "colorNeutral800",
       "attributes": {
@@ -8640,11 +8640,11 @@ module.exports = {
       ]
     },
     "neutral900": {
-      "value": "\"#212529\"",
-      "filePath": "properties/globals/color/light.json",
+      "value": "\"#F7F7F7\"",
+      "filePath": "properties/globals/color/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.gray.900.value}"
+        "value": "{spectrum.gray.50.value}"
       },
       "name": "colorNeutral900",
       "attributes": {
@@ -8661,11 +8661,11 @@ module.exports = {
       ]
     },
     "primary": {
-      "value": "\"#F4AB34\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#F1F1F0\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#F4AB34"
+        "value": "#F1F1F0"
       },
       "name": "colorPrimary",
       "attributes": {
@@ -8682,11 +8682,11 @@ module.exports = {
       ]
     },
     "onPrimary": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#000000"
       },
       "name": "colorOnPrimary",
       "attributes": {
@@ -8703,11 +8703,11 @@ module.exports = {
       ]
     },
     "primaryLight": {
-      "value": "\"#FEFDE8\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#FFFFFF\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FEFDE8"
+        "value": "#FFFFFF"
       },
       "name": "colorPrimaryLight",
       "attributes": {
@@ -8724,11 +8724,11 @@ module.exports = {
       ]
     },
     "onPrimaryLight": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryLight",
       "attributes": {
@@ -8745,11 +8745,11 @@ module.exports = {
       ]
     },
     "primaryLightest": {
-      "value": "\"#F8C675\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#232323\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.color.brand.a.lightest.value}"
+        "value": "{spectrum.color.brand.a.darkest.value}"
       },
       "name": "colorPrimaryLightest",
       "attributes": {
@@ -8766,11 +8766,11 @@ module.exports = {
       ]
     },
     "onPrimaryLightest": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryLightest",
       "attributes": {
@@ -8787,11 +8787,11 @@ module.exports = {
       ]
     },
     "primaryDark": {
-      "value": "\"#EF8426\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#BEBEBE\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#EF8426"
+        "value": "#BEBEBE"
       },
       "name": "colorPrimaryDark",
       "attributes": {
@@ -8808,11 +8808,11 @@ module.exports = {
       ]
     },
     "onPrimaryDark": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryDark",
       "attributes": {
@@ -8829,11 +8829,11 @@ module.exports = {
       ]
     },
     "primaryDarkest": {
-      "value": "\"#A67423\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#747474\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "{spectrum.color.brand.a.darkest.value}"
+        "value": "{spectrum.color.brand.a.lightest.value}"
       },
       "name": "colorPrimaryDarkest",
       "attributes": {
@@ -8850,11 +8850,11 @@ module.exports = {
       ]
     },
     "onPrimaryDarkest": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryDarkest",
       "attributes": {
@@ -8871,11 +8871,11 @@ module.exports = {
       ]
     },
     "secondary": {
-      "value": "\"#FF6B0B\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#DDCB91\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FF6B0B"
+        "value": "#DDCB91"
       },
       "name": "colorSecondary",
       "attributes": {
@@ -8893,7 +8893,7 @@ module.exports = {
     },
     "onSecondary": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8913,11 +8913,11 @@ module.exports = {
       ]
     },
     "secondaryLight": {
-      "value": "\"#FFF8E1\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#FFFEC2\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FFF8E1"
+        "value": "#FFFEC2"
       },
       "name": "colorSecondaryLight",
       "attributes": {
@@ -8935,7 +8935,7 @@ module.exports = {
     },
     "onSecondaryLight": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8955,11 +8955,11 @@ module.exports = {
       ]
     },
     "secondaryDark": {
-      "value": "\"#FF5808\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#AA9A63\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FF5808"
+        "value": "#AA9A63"
       },
       "name": "colorSecondaryDark",
       "attributes": {
@@ -8977,7 +8977,7 @@ module.exports = {
     },
     "onSecondaryDark": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8997,11 +8997,11 @@ module.exports = {
       ]
     },
     "background": {
-      "value": "\"#FAFAFA\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#121212\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FAFAFA"
+        "value": "#121212"
       },
       "name": "colorBackground",
       "attributes": {
@@ -9018,11 +9018,11 @@ module.exports = {
       ]
     },
     "onBackground": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#FFFFFF\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#FFFFFF"
       },
       "name": "colorOnBackground",
       "attributes": {
@@ -9039,11 +9039,11 @@ module.exports = {
       ]
     },
     "surface": {
-      "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FFFFFF"
+        "value": "#333333"
       },
       "name": "colorSurface",
       "attributes": {
@@ -9060,11 +9060,11 @@ module.exports = {
       ]
     },
     "onSurface": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#FFFFFF\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#FFFFFF"
       },
       "name": "colorOnSurface",
       "attributes": {
@@ -9081,11 +9081,11 @@ module.exports = {
       ]
     },
     "highlight": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#FFFFFF\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#FFFFFF"
       },
       "name": "colorHighlight",
       "attributes": {
@@ -9102,11 +9102,11 @@ module.exports = {
       ]
     },
     "highEmphasis": {
-      "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#FAFAFA\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#333333"
+        "value": "#FAFAFA"
       },
       "name": "colorHighEmphasis",
       "attributes": {
@@ -9123,11 +9123,11 @@ module.exports = {
       ]
     },
     "mediumEmphasis": {
-      "value": "\"#777777\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#BBBBBB\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#777777"
+        "value": "#BBBBBB"
       },
       "name": "colorMediumEmphasis",
       "attributes": {
@@ -9144,11 +9144,11 @@ module.exports = {
       ]
     },
     "lowEmphasis": {
-      "value": "\"#BBBBBB\"",
-      "filePath": "properties/brands/natura/light.json",
+      "value": "\"#777777\"",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
-        "value": "#BBBBBB"
+        "value": "#777777"
       },
       "name": "colorLowEmphasis",
       "attributes": {
@@ -9166,7 +9166,7 @@ module.exports = {
     },
     "link": {
       "value": "\"#227BBD\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#227BBD"
@@ -9187,7 +9187,7 @@ module.exports = {
     },
     "onLink": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9208,7 +9208,7 @@ module.exports = {
     },
     "success": {
       "value": "\"#569A32\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#569A32"
@@ -9229,7 +9229,7 @@ module.exports = {
     },
     "onSuccess": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9250,7 +9250,7 @@ module.exports = {
     },
     "warning": {
       "value": "\"#FCC433\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#FCC433"
@@ -9271,7 +9271,7 @@ module.exports = {
     },
     "onWarning": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9292,7 +9292,7 @@ module.exports = {
     },
     "alert": {
       "value": "\"#E74627\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#E74627"
@@ -9313,7 +9313,7 @@ module.exports = {
     },
     "onAlert": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/natura/light.json",
+      "filePath": "properties/brands/aesop/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9337,11 +9337,11 @@ module.exports = {
     "font": {
       "file": {
         "display": {
-          "value": "\"HelveticaNowDisplay-Bd\"",
-          "filePath": "properties/brands/natura/typography.json",
+          "value": "\"ZapfHumanist601BT-Roman\"",
+          "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
-            "value": "HelveticaNowDisplay-Bd"
+            "value": "ZapfHumanist601BT-Roman"
           },
           "name": "assetFontFileDisplay",
           "attributes": {
@@ -9367,11 +9367,11 @@ module.exports = {
           ]
         },
         "headline": {
-          "value": "\"HelveticaNowDisplay-Md\"",
-          "filePath": "properties/brands/natura/typography.json",
+          "value": "\"SuisseIntl-Regular\"",
+          "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
-            "value": "HelveticaNowDisplay-Md"
+            "value": "SuisseIntl-Regular"
           },
           "name": "assetFontFileHeadline",
           "attributes": {
@@ -9398,11 +9398,11 @@ module.exports = {
         },
         "body": {
           "regular": {
-            "value": "\"HelveticaNowDisplay-Regular\"",
-            "filePath": "properties/brands/natura/typography.json",
+            "value": "\"SuisseIntl-Regular\"",
+            "filePath": "properties/brands/aesop/typography.json",
             "isSource": true,
             "original": {
-              "value": "HelveticaNowDisplay-Regular"
+              "value": "SuisseIntl-Regular"
             },
             "name": "assetFontFileBodyRegular",
             "attributes": {
@@ -9430,11 +9430,11 @@ module.exports = {
             ]
           },
           "bold": {
-            "value": "\"HelveticaNowDisplay-Bd\"",
-            "filePath": "properties/brands/natura/typography.json",
+            "value": "\"SuisseIntl-Regular\"",
+            "filePath": "properties/brands/aesop/typography.json",
             "isSource": true,
             "original": {
-              "value": "HelveticaNowDisplay-Bd"
+              "value": "SuisseIntl-Regular"
             },
             "name": "assetFontFileBodyBold",
             "attributes": {
@@ -9468,11 +9468,11 @@ module.exports = {
       "neutral": {
         "a": {
           "file": {
-            "value": "\"natura-a-official\"",
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": "\"aesop-a-official-dark\"",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "natura-a-official"
+              "value": "aesop-a-official-dark"
             },
             "name": "assetBrandNeutralAFile",
             "attributes": {
@@ -9501,7 +9501,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9527,11 +9527,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 55,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": 82,
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 55
+              "value": 82
             },
             "name": "assetBrandNeutralAHeight",
             "attributes": {
@@ -9556,11 +9556,11 @@ module.exports = {
         },
         "b": {
           "file": {
-            "value": "\"natura-b-official\"",
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": "\"aesop-a-official-dark\"",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "natura-b-official"
+              "value": "aesop-a-official-dark"
             },
             "name": "assetBrandNeutralBFile",
             "attributes": {
@@ -9589,7 +9589,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9615,11 +9615,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 192,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": 82,
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 192
+              "value": 82
             },
             "name": "assetBrandNeutralBHeight",
             "attributes": {
@@ -9646,11 +9646,11 @@ module.exports = {
       "custom": {
         "a": {
           "file": {
-            "value": "\"natura-a-custom\"",
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": "\"aesop-a-custom\"",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "natura-a-custom"
+              "value": "aesop-a-custom"
             },
             "name": "assetBrandCustomAFile",
             "attributes": {
@@ -9679,7 +9679,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9705,11 +9705,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 55,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": 82,
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 55
+              "value": 82
             },
             "name": "assetBrandCustomAHeight",
             "attributes": {
@@ -9734,11 +9734,11 @@ module.exports = {
         },
         "b": {
           "file": {
-            "value": "\"natura-b-custom\"",
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": "\"aesop-a-custom\"",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "natura-b-custom"
+              "value": "aesop-a-custom"
             },
             "name": "assetBrandCustomBFile",
             "attributes": {
@@ -9767,7 +9767,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9793,11 +9793,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 192,
-            "filePath": "properties/brands/natura/asset-light.json",
+            "value": 82,
+            "filePath": "properties/brands/aesop/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 192
+              "value": 82
             },
             "name": "assetBrandCustomBHeight",
             "attributes": {

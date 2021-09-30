@@ -5,29 +5,29 @@ const expectedConfig = {
   buildPath: 'build/ios/',
   files: [
     {
-      destination: 'PokemonPikachuTheme.swift',
+      destination: 'theme/Pokemon/PokemonPikachuTheme.swift',
       filter: 'privateProperties',
       format: 'ios-swift/theme.swift',
       themeName: 'PokemonPikachu',
     },
     {
-      destination: 'ThemeProtocol.swift',
+      destination: 'theme/ThemeProtocol.swift',
       filter: 'privateProperties',
       format: 'ios-swift/theme-protocol.swift',
     },
     {
-      destination: '/spectrum/SpectrumProtocol.swift',
+      destination: 'spectrum/SpectrumProtocol.swift',
       filter: 'spectrumProperties',
       format: 'ios-swift/spectrum-protocol.swift',
     },
     {
-      destination: '/spectrum/PokemonSpectrum.swift',
+      destination: 'spectrum/PokemonSpectrum.swift',
       filter: 'spectrumProperties',
       format: 'ios-swift/spectrum.swift',
       themeName: 'Pokemon',
     },
     {
-      destination: 'PokemonPikachu.js',
+      destination: 'search/PokemonPikachu.js',
       filter: 'privateProperties',
       format: 'javascript/module',
     },

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Sep 2021 20:16:42 GMT
+ * Generated on Thu, 30 Sep 2021 19:42:19 GMT
  */
 
 module.exports = {
@@ -1347,7 +1347,7 @@ module.exports = {
     "color": {
       "primary": {
         "label": {
-          "value": "\"#000000\"",
+          "value": "\"#333333\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1372,7 +1372,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "\"#BE9AE2\"",
+          "value": "\"#F4AB34\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1424,7 +1424,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "\"#F593C4\"",
+          "value": "\"#FF6B0B\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1756,7 +1756,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "\"#BE9AE2\"",
+            "value": "\"#F4AB34\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1810,7 +1810,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#000000\"",
+            "value": "\"#333333\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1922,7 +1922,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "\"#8D6BB0\"",
+            "value": "\"#EF8426\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1976,7 +1976,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#000000\"",
+            "value": "\"#333333\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2005,7 +2005,7 @@ module.exports = {
         },
         "focus": {
           "background": {
-            "value": "\"#9672D6\"",
+            "value": "\"#F8C675\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2059,7 +2059,7 @@ module.exports = {
             ]
           },
           "label": {
-            "value": "\"#000000\"",
+            "value": "\"#333333\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2119,7 +2119,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#BE9AE2\"",
+            "value": "\"#F4AB34\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2285,7 +2285,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#BE9AE2\"",
+            "value": "\"#F4AB34\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2368,7 +2368,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#BE9AE2\"",
+            "value": "\"#F4AB34\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -8030,11 +8030,11 @@ module.exports = {
     },
     "display": {
       "fontFamily": {
-        "value": "\"Montserrat\"",
-        "filePath": "properties/brands/avon/typography.json",
+        "value": "\"Helvetica Now Display\"",
+        "filePath": "properties/brands/natura/typography.json",
         "isSource": true,
         "original": {
-          "value": "Montserrat"
+          "value": "Helvetica Now Display"
         },
         "name": "typographyDisplayFontFamily",
         "attributes": {
@@ -8054,7 +8054,7 @@ module.exports = {
       },
       "fontWeight": {
         "value": ".bold",
-        "filePath": "properties/brands/avon/typography.json",
+        "filePath": "properties/brands/natura/typography.json",
         "isSource": true,
         "original": {
           "value": 700
@@ -8078,11 +8078,11 @@ module.exports = {
     },
     "headline": {
       "fontFamily": {
-        "value": "\"Montserrat\"",
-        "filePath": "properties/brands/avon/typography.json",
+        "value": "\"Helvetica Now Display\"",
+        "filePath": "properties/brands/natura/typography.json",
         "isSource": true,
         "original": {
-          "value": "Montserrat"
+          "value": "Helvetica Now Display"
         },
         "name": "typographyHeadlineFontFamily",
         "attributes": {
@@ -8101,11 +8101,11 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": ".semibold",
-        "filePath": "properties/brands/avon/typography.json",
+        "value": ".medium",
+        "filePath": "properties/brands/natura/typography.json",
         "isSource": true,
         "original": {
-          "value": 600
+          "value": 500
         },
         "name": "typographyHeadlineFontWeight",
         "attributes": {
@@ -8127,11 +8127,11 @@ module.exports = {
     "body": {
       "regular": {
         "fontFamily": {
-          "value": "\"Montserrat\"",
-          "filePath": "properties/brands/avon/typography.json",
+          "value": "\"Helvetica Now Display\"",
+          "filePath": "properties/brands/natura/typography.json",
           "isSource": true,
           "original": {
-            "value": "Montserrat"
+            "value": "Helvetica Now Display"
           },
           "name": "typographyBodyRegularFontFamily",
           "attributes": {
@@ -8153,7 +8153,7 @@ module.exports = {
         },
         "fontWeight": {
           "value": ".regular",
-          "filePath": "properties/brands/avon/typography.json",
+          "filePath": "properties/brands/natura/typography.json",
           "isSource": true,
           "original": {
             "value": 400
@@ -8179,11 +8179,11 @@ module.exports = {
       },
       "bold": {
         "fontFamily": {
-          "value": "\"Montserrat\"",
-          "filePath": "properties/brands/avon/typography.json",
+          "value": "\"Helvetica Now Display\"",
+          "filePath": "properties/brands/natura/typography.json",
           "isSource": true,
           "original": {
-            "value": "Montserrat"
+            "value": "Helvetica Now Display"
           },
           "name": "typographyBodyBoldFontFamily",
           "attributes": {
@@ -8205,7 +8205,7 @@ module.exports = {
         },
         "fontWeight": {
           "value": ".bold",
-          "filePath": "properties/brands/avon/typography.json",
+          "filePath": "properties/brands/natura/typography.json",
           "isSource": true,
           "original": {
             "value": 700
@@ -8233,7 +8233,7 @@ module.exports = {
     "fallback": {
       "fontFamily": {
         "value": "\"San Francisco\"",
-        "filePath": "properties/brands/avon/typography.json",
+        "filePath": "properties/brands/natura/typography.json",
         "isSource": true,
         "original": {
           "value": "{platform.typography.fallback.fontFamily.value}"
@@ -8256,7 +8256,7 @@ module.exports = {
       },
       "fontWeight": {
         "value": ".regular",
-        "filePath": "properties/brands/avon/typography.json",
+        "filePath": "properties/brands/natura/typography.json",
         "isSource": true,
         "original": {
           "value": "{platform.typography.fallback.fontWeight.value}"
@@ -8661,11 +8661,11 @@ module.exports = {
       ]
     },
     "primary": {
-      "value": "\"#BE9AE2\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#F4AB34\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#BE9AE2"
+        "value": "#F4AB34"
       },
       "name": "colorPrimary",
       "attributes": {
@@ -8682,11 +8682,11 @@ module.exports = {
       ]
     },
     "onPrimary": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#333333"
       },
       "name": "colorOnPrimary",
       "attributes": {
@@ -8703,11 +8703,11 @@ module.exports = {
       ]
     },
     "primaryLight": {
-      "value": "\"#F1CBFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#FEFDE8\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#F1CBFF"
+        "value": "#FEFDE8"
       },
       "name": "colorPrimaryLight",
       "attributes": {
@@ -8724,11 +8724,11 @@ module.exports = {
       ]
     },
     "onPrimaryLight": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#333333"
       },
       "name": "colorOnPrimaryLight",
       "attributes": {
@@ -8745,8 +8745,8 @@ module.exports = {
       ]
     },
     "primaryLightest": {
-      "value": "\"#442184\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#A67423\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "{spectrum.color.brand.a.darkest.value}"
@@ -8766,11 +8766,11 @@ module.exports = {
       ]
     },
     "onPrimaryLightest": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#333333"
       },
       "name": "colorOnPrimaryLightest",
       "attributes": {
@@ -8787,11 +8787,11 @@ module.exports = {
       ]
     },
     "primaryDark": {
-      "value": "\"#8D6BB0\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#EF8426\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#8D6BB0"
+        "value": "#EF8426"
       },
       "name": "colorPrimaryDark",
       "attributes": {
@@ -8808,11 +8808,11 @@ module.exports = {
       ]
     },
     "onPrimaryDark": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#333333"
       },
       "name": "colorOnPrimaryDark",
       "attributes": {
@@ -8829,8 +8829,8 @@ module.exports = {
       ]
     },
     "primaryDarkest": {
-      "value": "\"#9672D6\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#F8C675\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "{spectrum.color.brand.a.lightest.value}"
@@ -8850,11 +8850,11 @@ module.exports = {
       ]
     },
     "onPrimaryDarkest": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#333333\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#333333"
       },
       "name": "colorOnPrimaryDarkest",
       "attributes": {
@@ -8871,11 +8871,11 @@ module.exports = {
       ]
     },
     "secondary": {
-      "value": "\"#F593C4\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#FF6B0B\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#F593C4"
+        "value": "#FF6B0B"
       },
       "name": "colorSecondary",
       "attributes": {
@@ -8893,7 +8893,7 @@ module.exports = {
     },
     "onSecondary": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8913,11 +8913,11 @@ module.exports = {
       ]
     },
     "secondaryLight": {
-      "value": "\"#FFC5F7\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#FFF8E1\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#FFC5F7"
+        "value": "#FFF8E1"
       },
       "name": "colorSecondaryLight",
       "attributes": {
@@ -8935,7 +8935,7 @@ module.exports = {
     },
     "onSecondaryLight": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8955,11 +8955,11 @@ module.exports = {
       ]
     },
     "secondaryDark": {
-      "value": "\"#C16394\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "value": "\"#FF5808\"",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
-        "value": "#C16394"
+        "value": "#FF5808"
       },
       "name": "colorSecondaryDark",
       "attributes": {
@@ -8977,7 +8977,7 @@ module.exports = {
     },
     "onSecondaryDark": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8998,7 +8998,7 @@ module.exports = {
     },
     "background": {
       "value": "\"#121212\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#121212"
@@ -9019,7 +9019,7 @@ module.exports = {
     },
     "onBackground": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9040,7 +9040,7 @@ module.exports = {
     },
     "surface": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9061,7 +9061,7 @@ module.exports = {
     },
     "onSurface": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9082,7 +9082,7 @@ module.exports = {
     },
     "highlight": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9103,7 +9103,7 @@ module.exports = {
     },
     "highEmphasis": {
       "value": "\"#FAFAFA\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FAFAFA"
@@ -9124,7 +9124,7 @@ module.exports = {
     },
     "mediumEmphasis": {
       "value": "\"#BBBBBB\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#BBBBBB"
@@ -9145,7 +9145,7 @@ module.exports = {
     },
     "lowEmphasis": {
       "value": "\"#777777\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#777777"
@@ -9166,7 +9166,7 @@ module.exports = {
     },
     "link": {
       "value": "\"#227BBD\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#227BBD"
@@ -9187,7 +9187,7 @@ module.exports = {
     },
     "onLink": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9208,7 +9208,7 @@ module.exports = {
     },
     "success": {
       "value": "\"#569A32\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#569A32"
@@ -9229,7 +9229,7 @@ module.exports = {
     },
     "onSuccess": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9250,7 +9250,7 @@ module.exports = {
     },
     "warning": {
       "value": "\"#FCC433\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FCC433"
@@ -9271,7 +9271,7 @@ module.exports = {
     },
     "onWarning": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9292,7 +9292,7 @@ module.exports = {
     },
     "alert": {
       "value": "\"#E74627\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#E74627"
@@ -9313,7 +9313,7 @@ module.exports = {
     },
     "onAlert": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/avon/dark.json",
+      "filePath": "properties/brands/natura/dark.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9337,11 +9337,11 @@ module.exports = {
     "font": {
       "file": {
         "display": {
-          "value": "\"Montserrat-Bold\"",
-          "filePath": "properties/brands/avon/typography.json",
+          "value": "\"HelveticaNowDisplay-Bd\"",
+          "filePath": "properties/brands/natura/typography.json",
           "isSource": true,
           "original": {
-            "value": "Montserrat-Bold"
+            "value": "HelveticaNowDisplay-Bd"
           },
           "name": "assetFontFileDisplay",
           "attributes": {
@@ -9367,11 +9367,11 @@ module.exports = {
           ]
         },
         "headline": {
-          "value": "\"Montserrat-SemiBold\"",
-          "filePath": "properties/brands/avon/typography.json",
+          "value": "\"HelveticaNowDisplay-Md\"",
+          "filePath": "properties/brands/natura/typography.json",
           "isSource": true,
           "original": {
-            "value": "Montserrat-SemiBold"
+            "value": "HelveticaNowDisplay-Md"
           },
           "name": "assetFontFileHeadline",
           "attributes": {
@@ -9398,11 +9398,11 @@ module.exports = {
         },
         "body": {
           "regular": {
-            "value": "\"Montserrat-Regular\"",
-            "filePath": "properties/brands/avon/typography.json",
+            "value": "\"HelveticaNowDisplay-Regular\"",
+            "filePath": "properties/brands/natura/typography.json",
             "isSource": true,
             "original": {
-              "value": "Montserrat-Regular"
+              "value": "HelveticaNowDisplay-Regular"
             },
             "name": "assetFontFileBodyRegular",
             "attributes": {
@@ -9430,11 +9430,11 @@ module.exports = {
             ]
           },
           "bold": {
-            "value": "\"Montserrat-Bold\"",
-            "filePath": "properties/brands/avon/typography.json",
+            "value": "\"HelveticaNowDisplay-Bd\"",
+            "filePath": "properties/brands/natura/typography.json",
             "isSource": true,
             "original": {
-              "value": "Montserrat-Bold"
+              "value": "HelveticaNowDisplay-Bd"
             },
             "name": "assetFontFileBodyBold",
             "attributes": {
@@ -9468,11 +9468,11 @@ module.exports = {
       "neutral": {
         "a": {
           "file": {
-            "value": "\"avon-a-official-dark\"",
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": "\"natura-a-official-dark\"",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "avon-a-official-dark"
+              "value": "natura-a-official-dark"
             },
             "name": "assetBrandNeutralAFile",
             "attributes": {
@@ -9501,7 +9501,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9527,11 +9527,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 58,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": 55,
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 58
+              "value": 55
             },
             "name": "assetBrandNeutralAHeight",
             "attributes": {
@@ -9556,11 +9556,11 @@ module.exports = {
         },
         "b": {
           "file": {
-            "value": "\"avon-a-official-dark\"",
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": "\"natura-b-official-dark\"",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "avon-a-official-dark"
+              "value": "natura-b-official-dark"
             },
             "name": "assetBrandNeutralBFile",
             "attributes": {
@@ -9589,7 +9589,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9615,11 +9615,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 58,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": 192,
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 58
+              "value": 192
             },
             "name": "assetBrandNeutralBHeight",
             "attributes": {
@@ -9646,11 +9646,11 @@ module.exports = {
       "custom": {
         "a": {
           "file": {
-            "value": "\"avon-a-custom\"",
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": "\"natura-a-custom\"",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "avon-a-custom"
+              "value": "natura-a-custom"
             },
             "name": "assetBrandCustomAFile",
             "attributes": {
@@ -9679,7 +9679,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9705,11 +9705,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 58,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": 55,
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 58
+              "value": 55
             },
             "name": "assetBrandCustomAHeight",
             "attributes": {
@@ -9734,11 +9734,11 @@ module.exports = {
         },
         "b": {
           "file": {
-            "value": "\"avon-a-custom\"",
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": "\"natura-b-custom\"",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": "avon-a-custom"
+              "value": "natura-b-custom"
             },
             "name": "assetBrandCustomBFile",
             "attributes": {
@@ -9767,7 +9767,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9793,11 +9793,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 58,
-            "filePath": "properties/brands/avon/asset-dark.json",
+            "value": 192,
+            "filePath": "properties/brands/natura/asset-dark.json",
             "isSource": true,
             "original": {
-              "value": 58
+              "value": 192
             },
             "name": "assetBrandCustomBHeight",
             "attributes": {
