@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Sep 2021 20:16:53 GMT
+ * Generated on Thu, 30 Sep 2021 19:42:17 GMT
  */
 
 module.exports = {
@@ -1372,7 +1372,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "\"#004236\"",
+          "value": "\"#7F28C4\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1399,7 +1399,7 @@ module.exports = {
       },
       "secondary": {
         "label": {
-          "value": "\"#000000\"",
+          "value": "\"#FFFFFF\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1424,7 +1424,7 @@ module.exports = {
           ]
         },
         "background": {
-          "value": "\"#D6CE4B\"",
+          "value": "\"#E2197C\"",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1756,7 +1756,7 @@ module.exports = {
       "color": {
         "enable": {
           "background": {
-            "value": "\"#004236\"",
+            "value": "\"#7F28C4\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -1922,7 +1922,7 @@ module.exports = {
         },
         "hover": {
           "background": {
-            "value": "\"#001D10\"",
+            "value": "\"#4B0092\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2005,7 +2005,7 @@ module.exports = {
         },
         "focus": {
           "background": {
-            "value": "\"#041C18\"",
+            "value": "\"#442184\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2119,7 +2119,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#004236\"",
+            "value": "\"#7F28C4\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2285,7 +2285,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#004236\"",
+            "value": "\"#7F28C4\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -2368,7 +2368,7 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "\"#004236\"",
+            "value": "\"#7F28C4\"",
             "filePath": "properties/globals/components/button.json",
             "isSource": true,
             "original": {
@@ -8030,11 +8030,11 @@ module.exports = {
     },
     "display": {
       "fontFamily": {
-        "value": "\"Druk Cy\"",
-        "filePath": "properties/brands/theBodyShop/typography.json",
+        "value": "\"Montserrat\"",
+        "filePath": "properties/brands/avon/typography.json",
         "isSource": true,
         "original": {
-          "value": "Druk Cy"
+          "value": "Montserrat"
         },
         "name": "typographyDisplayFontFamily",
         "attributes": {
@@ -8054,7 +8054,7 @@ module.exports = {
       },
       "fontWeight": {
         "value": ".bold",
-        "filePath": "properties/brands/theBodyShop/typography.json",
+        "filePath": "properties/brands/avon/typography.json",
         "isSource": true,
         "original": {
           "value": 700
@@ -8078,11 +8078,11 @@ module.exports = {
     },
     "headline": {
       "fontFamily": {
-        "value": "\"Recoleta\"",
-        "filePath": "properties/brands/theBodyShop/typography.json",
+        "value": "\"Montserrat\"",
+        "filePath": "properties/brands/avon/typography.json",
         "isSource": true,
         "original": {
-          "value": "Recoleta"
+          "value": "Montserrat"
         },
         "name": "typographyHeadlineFontFamily",
         "attributes": {
@@ -8102,7 +8102,7 @@ module.exports = {
       },
       "fontWeight": {
         "value": ".semibold",
-        "filePath": "properties/brands/theBodyShop/typography.json",
+        "filePath": "properties/brands/avon/typography.json",
         "isSource": true,
         "original": {
           "value": 600
@@ -8127,11 +8127,11 @@ module.exports = {
     "body": {
       "regular": {
         "fontFamily": {
-          "value": "\"Work Sans\"",
-          "filePath": "properties/brands/theBodyShop/typography.json",
+          "value": "\"Montserrat\"",
+          "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
-            "value": "Work Sans"
+            "value": "Montserrat"
           },
           "name": "typographyBodyRegularFontFamily",
           "attributes": {
@@ -8153,7 +8153,7 @@ module.exports = {
         },
         "fontWeight": {
           "value": ".regular",
-          "filePath": "properties/brands/theBodyShop/typography.json",
+          "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
             "value": 400
@@ -8179,11 +8179,11 @@ module.exports = {
       },
       "bold": {
         "fontFamily": {
-          "value": "\"Work Sans\"",
-          "filePath": "properties/brands/theBodyShop/typography.json",
+          "value": "\"Montserrat\"",
+          "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
-            "value": "Work Sans"
+            "value": "Montserrat"
           },
           "name": "typographyBodyBoldFontFamily",
           "attributes": {
@@ -8205,7 +8205,7 @@ module.exports = {
         },
         "fontWeight": {
           "value": ".bold",
-          "filePath": "properties/brands/theBodyShop/typography.json",
+          "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
             "value": 700
@@ -8233,7 +8233,7 @@ module.exports = {
     "fallback": {
       "fontFamily": {
         "value": "\"San Francisco\"",
-        "filePath": "properties/brands/theBodyShop/typography.json",
+        "filePath": "properties/brands/avon/typography.json",
         "isSource": true,
         "original": {
           "value": "{platform.typography.fallback.fontFamily.value}"
@@ -8256,7 +8256,7 @@ module.exports = {
       },
       "fontWeight": {
         "value": ".regular",
-        "filePath": "properties/brands/theBodyShop/typography.json",
+        "filePath": "properties/brands/avon/typography.json",
         "isSource": true,
         "original": {
           "value": "{platform.typography.fallback.fontWeight.value}"
@@ -8661,11 +8661,11 @@ module.exports = {
       ]
     },
     "primary": {
-      "value": "\"#004236\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#7F28C4\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#004236"
+        "value": "#7F28C4"
       },
       "name": "colorPrimary",
       "attributes": {
@@ -8683,7 +8683,7 @@ module.exports = {
     },
     "onPrimary": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -8703,11 +8703,11 @@ module.exports = {
       ]
     },
     "primaryLight": {
-      "value": "\"#356D60\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#B35BF8\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#356D60"
+        "value": "#B35BF8"
       },
       "name": "colorPrimaryLight",
       "attributes": {
@@ -8724,11 +8724,11 @@ module.exports = {
       ]
     },
     "onPrimaryLight": {
-      "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#FFFFFF"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryLight",
       "attributes": {
@@ -8745,8 +8745,8 @@ module.exports = {
       ]
     },
     "primaryLightest": {
-      "value": "\"#566D69\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#9672D6\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "{spectrum.color.brand.a.lightest.value}"
@@ -8766,11 +8766,11 @@ module.exports = {
       ]
     },
     "onPrimaryLightest": {
-      "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#000000\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#FFFFFF"
+        "value": "#000000"
       },
       "name": "colorOnPrimaryLightest",
       "attributes": {
@@ -8787,11 +8787,11 @@ module.exports = {
       ]
     },
     "primaryDark": {
-      "value": "\"#001D10\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#4B0092\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#001D10"
+        "value": "#4B0092"
       },
       "name": "colorPrimaryDark",
       "attributes": {
@@ -8809,7 +8809,7 @@ module.exports = {
     },
     "onPrimaryDark": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -8829,8 +8829,8 @@ module.exports = {
       ]
     },
     "primaryDarkest": {
-      "value": "\"#041C18\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#442184\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "{spectrum.color.brand.a.darkest.value}"
@@ -8851,7 +8851,7 @@ module.exports = {
     },
     "onPrimaryDarkest": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -8871,11 +8871,11 @@ module.exports = {
       ]
     },
     "secondary": {
-      "value": "\"#D6CE4B\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#E2197C\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#D6CE4B"
+        "value": "#E2197C"
       },
       "name": "colorSecondary",
       "attributes": {
@@ -8892,11 +8892,11 @@ module.exports = {
       ]
     },
     "onSecondary": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#FFFFFF\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#FFFFFF"
       },
       "name": "colorOnSecondary",
       "attributes": {
@@ -8913,11 +8913,11 @@ module.exports = {
       ]
     },
     "secondaryLight": {
-      "value": "\"#FFFF7C\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#FF5EAB\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#FFFF7C"
+        "value": "#FF5EAB"
       },
       "name": "colorSecondaryLight",
       "attributes": {
@@ -8935,7 +8935,7 @@ module.exports = {
     },
     "onSecondaryLight": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -8955,11 +8955,11 @@ module.exports = {
       ]
     },
     "secondaryDark": {
-      "value": "\"#A29D12\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#AA0050\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#A29D12"
+        "value": "#AA0050"
       },
       "name": "colorSecondaryDark",
       "attributes": {
@@ -8976,11 +8976,11 @@ module.exports = {
       ]
     },
     "onSecondaryDark": {
-      "value": "\"#000000\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "value": "\"#FFFFFF\"",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
-        "value": "#000000"
+        "value": "#FFFFFF"
       },
       "name": "colorOnSecondaryDark",
       "attributes": {
@@ -8998,7 +8998,7 @@ module.exports = {
     },
     "background": {
       "value": "\"#FAFAFA\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FAFAFA"
@@ -9019,7 +9019,7 @@ module.exports = {
     },
     "onBackground": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9040,7 +9040,7 @@ module.exports = {
     },
     "surface": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9061,7 +9061,7 @@ module.exports = {
     },
     "onSurface": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9082,7 +9082,7 @@ module.exports = {
     },
     "highlight": {
       "value": "\"#000000\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#000000"
@@ -9103,7 +9103,7 @@ module.exports = {
     },
     "highEmphasis": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9124,7 +9124,7 @@ module.exports = {
     },
     "mediumEmphasis": {
       "value": "\"#777777\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#777777"
@@ -9145,7 +9145,7 @@ module.exports = {
     },
     "lowEmphasis": {
       "value": "\"#BBBBBB\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#BBBBBB"
@@ -9166,7 +9166,7 @@ module.exports = {
     },
     "link": {
       "value": "\"#227BBD\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#227BBD"
@@ -9187,7 +9187,7 @@ module.exports = {
     },
     "onLink": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9208,7 +9208,7 @@ module.exports = {
     },
     "success": {
       "value": "\"#569A32\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#569A32"
@@ -9229,7 +9229,7 @@ module.exports = {
     },
     "onSuccess": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9250,7 +9250,7 @@ module.exports = {
     },
     "warning": {
       "value": "\"#FCC433\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FCC433"
@@ -9271,7 +9271,7 @@ module.exports = {
     },
     "onWarning": {
       "value": "\"#333333\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#333333"
@@ -9292,7 +9292,7 @@ module.exports = {
     },
     "alert": {
       "value": "\"#E74627\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#E74627"
@@ -9313,7 +9313,7 @@ module.exports = {
     },
     "onAlert": {
       "value": "\"#FFFFFF\"",
-      "filePath": "properties/brands/theBodyShop/light.json",
+      "filePath": "properties/brands/avon/light.json",
       "isSource": true,
       "original": {
         "value": "#FFFFFF"
@@ -9337,11 +9337,11 @@ module.exports = {
     "font": {
       "file": {
         "display": {
-          "value": "\"DrukCy-Bold\"",
-          "filePath": "properties/brands/theBodyShop/typography.json",
+          "value": "\"Montserrat-Bold\"",
+          "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
-            "value": "DrukCy-Bold"
+            "value": "Montserrat-Bold"
           },
           "name": "assetFontFileDisplay",
           "attributes": {
@@ -9367,11 +9367,11 @@ module.exports = {
           ]
         },
         "headline": {
-          "value": "\"Recoleta-SemiBold\"",
-          "filePath": "properties/brands/theBodyShop/typography.json",
+          "value": "\"Montserrat-SemiBold\"",
+          "filePath": "properties/brands/avon/typography.json",
           "isSource": true,
           "original": {
-            "value": "Recoleta-SemiBold"
+            "value": "Montserrat-SemiBold"
           },
           "name": "assetFontFileHeadline",
           "attributes": {
@@ -9398,11 +9398,11 @@ module.exports = {
         },
         "body": {
           "regular": {
-            "value": "\"WorkSans-Regular\"",
-            "filePath": "properties/brands/theBodyShop/typography.json",
+            "value": "\"Montserrat-Regular\"",
+            "filePath": "properties/brands/avon/typography.json",
             "isSource": true,
             "original": {
-              "value": "WorkSans-Regular"
+              "value": "Montserrat-Regular"
             },
             "name": "assetFontFileBodyRegular",
             "attributes": {
@@ -9430,11 +9430,11 @@ module.exports = {
             ]
           },
           "bold": {
-            "value": "\"WorkSans-Bold\"",
-            "filePath": "properties/brands/theBodyShop/typography.json",
+            "value": "\"Montserrat-Bold\"",
+            "filePath": "properties/brands/avon/typography.json",
             "isSource": true,
             "original": {
-              "value": "WorkSans-Bold"
+              "value": "Montserrat-Bold"
             },
             "name": "assetFontFileBodyBold",
             "attributes": {
@@ -9468,11 +9468,11 @@ module.exports = {
       "neutral": {
         "a": {
           "file": {
-            "value": "\"thebodyshop-a-official\"",
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": "\"avon-a-official\"",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": "thebodyshop-a-official"
+              "value": "avon-a-official"
             },
             "name": "assetBrandNeutralAFile",
             "attributes": {
@@ -9501,7 +9501,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9527,11 +9527,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 27,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": 27
+              "value": 58
             },
             "name": "assetBrandNeutralAHeight",
             "attributes": {
@@ -9556,11 +9556,11 @@ module.exports = {
         },
         "b": {
           "file": {
-            "value": "\"thebodyshop-b-official\"",
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": "\"avon-a-official\"",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": "thebodyshop-b-official"
+              "value": "avon-a-official"
             },
             "name": "assetBrandNeutralBFile",
             "attributes": {
@@ -9589,7 +9589,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9615,11 +9615,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 109,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": 109
+              "value": 58
             },
             "name": "assetBrandNeutralBHeight",
             "attributes": {
@@ -9646,11 +9646,11 @@ module.exports = {
       "custom": {
         "a": {
           "file": {
-            "value": "\"thebodyshop-a-custom\"",
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": "\"avon-a-custom\"",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": "thebodyshop-a-custom"
+              "value": "avon-a-custom"
             },
             "name": "assetBrandCustomAFile",
             "attributes": {
@@ -9679,7 +9679,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9705,11 +9705,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 27,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": 27
+              "value": 58
             },
             "name": "assetBrandCustomAHeight",
             "attributes": {
@@ -9734,11 +9734,11 @@ module.exports = {
         },
         "b": {
           "file": {
-            "value": "\"thebodyshop-b-custom\"",
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": "\"avon-a-custom\"",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": "thebodyshop-b-custom"
+              "value": "avon-a-custom"
             },
             "name": "assetBrandCustomBFile",
             "attributes": {
@@ -9767,7 +9767,7 @@ module.exports = {
           },
           "width": {
             "value": 256,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
               "value": 256
@@ -9793,11 +9793,11 @@ module.exports = {
             ]
           },
           "height": {
-            "value": 109,
-            "filePath": "properties/brands/theBodyShop/asset-light.json",
+            "value": 58,
+            "filePath": "properties/brands/avon/asset-light.json",
             "isSource": true,
             "original": {
-              "value": 109
+              "value": 58
             },
             "name": "assetBrandCustomBHeight",
             "attributes": {
