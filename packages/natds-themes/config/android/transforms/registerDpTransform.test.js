@@ -32,6 +32,26 @@ describe('registerDpTransform', () => {
 
     expect(config.transformer(prop)).toEqual('8dp');
   });
+  it('should return the value when it has already been append the unit.', () => {
+    jest.spyOn(helpers, 'isSpDimension').mockReturnValue(false);
+
+    const config = registerDpTransform();
+
+    const prop = {
+      attributes: { category: 'spacing' },
+      name: 'spacingSmall',
+      original: {
+        value: 8,
+      },
+      path: [
+        'spacing',
+        'small',
+      ],
+      value: '8dp',
+    };
+
+    expect(config.transformer(prop)).toEqual('8dp');
+  });
 
   it('should append the sp unit to the value when isSpDimension is true', () => {
     jest.spyOn(helpers, 'isSpDimension').mockReturnValue(true);

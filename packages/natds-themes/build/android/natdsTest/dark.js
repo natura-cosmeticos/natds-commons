@@ -1221,7 +1221,7 @@ module.exports = {
         ]
       },
       "borderRadius": {
-        "value": 8,
+        "value": "8dp",
         "filePath": "properties/globals/components/badge.json",
         "isSource": true,
         "original": {
@@ -1267,7 +1267,7 @@ module.exports = {
         ]
       },
       "borderRadius": {
-        "value": 4,
+        "value": "4dp",
         "filePath": "properties/globals/components/badge.json",
         "isSource": true,
         "original": {
