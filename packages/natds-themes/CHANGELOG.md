@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.0...@naturacosmeticos/natds-themes@0.14.1) (2021-09-30)
+
+
+### Bug Fixes
+
+* **natds-themes:** change ios ouput paths ([157ace1](https://github.com/natura-cosmeticos/natds-commons/commit/157ace1140bad0c0c3ed0e871a6ceea33d270586))
+
+
+
+
+
 # [0.14.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.13.1...@naturacosmeticos/natds-themes@0.14.0) (2021-09-28)
 
 
