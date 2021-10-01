@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.3...@naturacosmeticos/natds-themes@0.14.4) (2021-10-01)
+
+
+### Bug Fixes
+
+* **natds-themes:** convert font-weight to string for react native platform ([#291](https://github.com/natura-cosmeticos/natds-commons/issues/291)) ([28dfdc1](https://github.com/natura-cosmeticos/natds-commons/commit/28dfdc1fbcc82c1443d12a1dea24664b42bc7d47))
+
+
+
+
+
 ## [0.14.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.2...@naturacosmeticos/natds-themes@0.14.3) (2021-10-01)
 
 
