@@ -195,7 +195,7 @@ struct AesopDarkTokens: Tokens {
   let typographyBodyRegularFontFamily = "Suisse Int'l"
   let typographyBodyRegularFontWeight: UIFont.Weight = .regular
   let typographyBodyBoldFontFamily = "Suisse Int'l"
-  let typographyBodyBoldFontWeight: UIFont.Weight = .bold
+  let typographyBodyBoldFontWeight: UIFont.Weight = .regular
   let typographyFallbackFontFamily = "San Francisco"
   let typographyFallbackFontWeight: UIFont.Weight = .regular
 }

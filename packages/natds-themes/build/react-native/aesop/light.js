@@ -156,7 +156,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/alert.json",
           "isSource": true,
           "original": {
@@ -200,7 +200,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/alert.json",
           "isSource": true,
           "original": {
@@ -303,7 +303,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/alert.json",
           "isSource": true,
           "original": {
@@ -347,7 +347,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/alert.json",
           "isSource": true,
           "original": {
@@ -452,7 +452,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/appBarTop.json",
           "isSource": true,
           "original": {
@@ -496,7 +496,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/appBarTop.json",
           "isSource": true,
           "original": {
@@ -836,7 +836,7 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": 400,
+        "value": "400",
         "filePath": "properties/globals/components/avatar.json",
         "isSource": true,
         "original": {
@@ -876,7 +876,7 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": 400,
+        "value": "400",
         "filePath": "properties/globals/components/avatar.json",
         "isSource": true,
         "original": {
@@ -978,7 +978,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1022,7 +1022,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/badge.json",
           "isSource": true,
           "original": {
@@ -1385,7 +1385,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
@@ -1429,7 +1429,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/button.json",
           "isSource": true,
           "original": {
@@ -2415,7 +2415,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/checkbox.json",
           "isSource": true,
           "original": {
@@ -2459,7 +2459,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/checkbox.json",
           "isSource": true,
           "original": {
@@ -2507,7 +2507,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/counter.json",
           "isSource": true,
           "original": {
@@ -2551,7 +2551,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/counter.json",
           "isSource": true,
           "original": {
@@ -2654,7 +2654,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/counter.json",
           "isSource": true,
           "original": {
@@ -2698,7 +2698,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/counter.json",
           "isSource": true,
           "original": {
@@ -2860,7 +2860,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/dialog.json",
           "isSource": true,
           "original": {
@@ -2904,7 +2904,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/dialog.json",
           "isSource": true,
           "original": {
@@ -3007,7 +3007,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/dialog.json",
           "isSource": true,
           "original": {
@@ -3051,7 +3051,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/dialog.json",
           "isSource": true,
           "original": {
@@ -3156,7 +3156,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/expansionPanel.json",
           "isSource": true,
           "original": {
@@ -3200,7 +3200,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/expansionPanel.json",
           "isSource": true,
           "original": {
@@ -3314,7 +3314,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 500,
+            "value": "500",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3362,7 +3362,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3475,7 +3475,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3523,7 +3523,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3638,7 +3638,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3686,7 +3686,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3799,7 +3799,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3847,7 +3847,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/navigationDrawer.json",
             "isSource": true,
             "original": {
@@ -3955,7 +3955,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/radioButton.json",
           "isSource": true,
           "original": {
@@ -3999,7 +3999,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/radioButton.json",
           "isSource": true,
           "original": {
@@ -4113,7 +4113,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/rating.json",
             "isSource": true,
             "original": {
@@ -4161,7 +4161,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/rating.json",
             "isSource": true,
             "original": {
@@ -4276,7 +4276,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/rating.json",
             "isSource": true,
             "original": {
@@ -4324,7 +4324,7 @@ module.exports = {
             ]
           },
           "fontWeight": {
-            "value": 400,
+            "value": "400",
             "filePath": "properties/globals/components/rating.json",
             "isSource": true,
             "original": {
@@ -4432,7 +4432,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/shortcut.json",
           "isSource": true,
           "original": {
@@ -4476,7 +4476,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/shortcut.json",
           "isSource": true,
           "original": {
@@ -4581,7 +4581,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/snackbar.json",
           "isSource": true,
           "original": {
@@ -4625,7 +4625,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/snackbar.json",
           "isSource": true,
           "original": {
@@ -4730,7 +4730,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/tab.json",
           "isSource": true,
           "original": {
@@ -4774,7 +4774,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/tab.json",
           "isSource": true,
           "original": {
@@ -4879,7 +4879,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/tag.json",
           "isSource": true,
           "original": {
@@ -4923,7 +4923,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/tag.json",
           "isSource": true,
           "original": {
@@ -4971,7 +4971,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": "500",
           "filePath": "properties/globals/components/textField.json",
           "isSource": true,
           "original": {
@@ -5015,7 +5015,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/textField.json",
           "isSource": true,
           "original": {
@@ -5118,7 +5118,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/textField.json",
           "isSource": true,
           "original": {
@@ -5162,7 +5162,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/textField.json",
           "isSource": true,
           "original": {
@@ -5265,7 +5265,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/textField.json",
           "isSource": true,
           "original": {
@@ -5309,7 +5309,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/globals/components/textField.json",
           "isSource": true,
           "original": {
@@ -5408,7 +5408,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5461,7 +5461,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5514,7 +5514,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5567,7 +5567,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5620,7 +5620,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5673,7 +5673,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 500,
+      "value": "500",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5726,7 +5726,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 500,
+      "value": "500",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5779,7 +5779,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 500,
+      "value": "500",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5832,7 +5832,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5885,7 +5885,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5938,7 +5938,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 400,
+      "value": "400",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -5991,7 +5991,7 @@ module.exports = {
       ]
     },
     "fontWeight": {
-      "value": 500,
+      "value": "500",
       "filePath": "properties/globals/components/typography.json",
       "isSource": true,
       "original": {
@@ -6698,7 +6698,7 @@ module.exports = {
     },
     "fontWeight": {
       "regular": {
-        "value": 400,
+        "value": "400",
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
@@ -6717,7 +6717,7 @@ module.exports = {
         ]
       },
       "medium": {
-        "value": 500,
+        "value": "500",
         "filePath": "properties/globals/typography/typography.json",
         "isSource": true,
         "original": {
@@ -6757,7 +6757,7 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": 400,
+        "value": "400",
         "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
@@ -6797,7 +6797,7 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": 400,
+        "value": "400",
         "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {
@@ -6840,7 +6840,7 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 400,
+          "value": "400",
           "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
@@ -6884,11 +6884,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 700,
+          "value": "400",
           "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
-            "value": 700
+            "value": 400
           },
           "name": "typographyBodyBoldFontWeight",
           "attributes": {
@@ -6927,7 +6927,7 @@ module.exports = {
         ]
       },
       "fontWeight": {
-        "value": 400,
+        "value": "400",
         "filePath": "properties/brands/aesop/typography.json",
         "isSource": true,
         "original": {

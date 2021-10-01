@@ -30,7 +30,7 @@
           "value": "Suisse Int'l"
         },
         "fontWeight": {
-          "value": 700
+          "value": 400
         }
       }
     },
@@ -64,3 +64,4 @@
     }
   }
 }
+
