@@ -6884,11 +6884,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 700,
+          "value": 400,
           "filePath": "properties/brands/aesop/typography.json",
           "isSource": true,
           "original": {
-            "value": 700
+            "value": 400
           },
           "name": "typographyBodyBoldFontWeight",
           "attributes": {

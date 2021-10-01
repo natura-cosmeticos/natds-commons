@@ -428,7 +428,7 @@
     <item name="typographyBodyRegularFontFamily">Suisse Int'l</item>
     <item name="typographyBodyRegularFontWeight">sans-serif</item>
     <item name="typographyBodyBoldFontFamily">Suisse Int'l</item>
-    <item name="typographyBodyBoldFontWeight">sans-serif-bold</item>
+    <item name="typographyBodyBoldFontWeight">sans-serif</item>
     <item name="typographyFallbackFontFamily">Roboto</item>
     <item name="typographyFallbackFontWeight">sans-serif</item>
   </style>
