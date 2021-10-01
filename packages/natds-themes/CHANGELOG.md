@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.1...@naturacosmeticos/natds-themes@0.14.2) (2021-10-01)
+
+
+### Bug Fixes
+
+* **natds-themes:** add unit measure to border radius circle output ([#288](https://github.com/natura-cosmeticos/natds-commons/issues/288)) ([b6983d9](https://github.com/natura-cosmeticos/natds-commons/commit/b6983d9ab7d8eee5f8a78a45187385a1105160f5))
+
+
+
+
+
 ## [0.14.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.0...@naturacosmeticos/natds-themes@0.14.1) (2021-09-30)
 
 
