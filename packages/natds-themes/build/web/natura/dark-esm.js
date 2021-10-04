@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Oct 2021 20:13:51 GMT
+ * Generated on Mon, 04 Oct 2021 17:48:26 GMT
  */
 
 module.exports = {
@@ -2415,11 +2415,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": 400,
           "filePath": "properties/globals/components/checkbox.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{typography.fontWeight.regular.value}"
           },
           "name": "checkboxLabelPrimaryFontWeight",
           "attributes": {
@@ -3955,11 +3955,11 @@ module.exports = {
           ]
         },
         "fontWeight": {
-          "value": 500,
+          "value": 400,
           "filePath": "properties/globals/components/radioButton.json",
           "isSource": true,
           "original": {
-            "value": "{typography.fontWeight.medium.value}"
+            "value": "{typography.fontWeight.regular.value}"
           },
           "name": "radioButtonLabelPrimaryFontWeight",
           "attributes": {
