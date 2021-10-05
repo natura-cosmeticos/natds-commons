@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.4...@naturacosmeticos/natds-themes@0.14.5) (2021-10-05)
+
+
+### Bug Fixes
+
+* **natds-themes:** change fontWeight from medium to regular for Checkbox and RadioButton components ([#292](https://github.com/natura-cosmeticos/natds-commons/issues/292)) ([0e2dd97](https://github.com/natura-cosmeticos/natds-commons/commit/0e2dd9784e37bef99f83c9d9093760e9c8f99e34))
+
+
+
+
+
 ## [0.14.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.3...@naturacosmeticos/natds-themes@0.14.4) (2021-10-01)
 
 
