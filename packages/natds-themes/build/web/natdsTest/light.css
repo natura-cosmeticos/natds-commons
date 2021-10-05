@@ -110,7 +110,7 @@
   --checkboxLabelLetterSpacing: 0.22px;
   --checkboxLabelLineHeight: 1.5;
   --checkboxLabelPrimaryFontFamily: "Roboto";
-  --checkboxLabelPrimaryFontWeight: 500;
+  --checkboxLabelPrimaryFontWeight: 400;
   --checkboxLabelFallbackFontFamily: "Arial";
   --checkboxLabelFallbackFontWeight: 400;
   --counterLabelPrimaryFontFamily: "Roboto";
@@ -180,7 +180,7 @@
   --radioButtonLabelLetterSpacing: 0.22px;
   --radioButtonLabelLineHeight: 1.5;
   --radioButtonLabelPrimaryFontFamily: "Roboto";
-  --radioButtonLabelPrimaryFontWeight: 500;
+  --radioButtonLabelPrimaryFontWeight: 400;
   --radioButtonLabelFallbackFontFamily: "Arial";
   --radioButtonLabelFallbackFontWeight: 400;
   --ratingCounterLabelFontSize: 14px;
