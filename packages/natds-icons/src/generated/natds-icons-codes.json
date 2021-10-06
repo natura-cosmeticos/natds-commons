@@ -77,6 +77,12 @@
 	"filled-content-quote": [
 		""
 	],
+	"filled-content-wifi": [
+		""
+	],
+	"filled-content-world": [
+		""
+	],
 	"filled-default-mockup": [
 		""
 	],
@@ -541,6 +547,9 @@
 	],
 	"outlined-content-wifi": [
 		""
+	],
+	"outlined-content-world": [
+		""
 	],
 	"outlined-default-mockup": [
 		""

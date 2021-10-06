@@ -205,6 +205,14 @@
   content: "\ea15";
 }
 
+.natds-icons-filled-content-wifi::before {
+  content: "\eb14";
+}
+
+.natds-icons-filled-content-world::before {
+  content: "\eb15";
+}
+
 .natds-icons-filled-default-mockup::before {
   content: "\ea16";
 }
@@ -823,6 +831,10 @@
 
 .natds-icons-outlined-content-wifi::before {
   content: "\ea95";
+}
+
+.natds-icons-outlined-content-world::before {
+  content: "\eb16";
 }
 
 .natds-icons-outlined-default-mockup::before {

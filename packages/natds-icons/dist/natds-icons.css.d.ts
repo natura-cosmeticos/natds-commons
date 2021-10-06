@@ -43,6 +43,8 @@ declare const styles: {
   readonly "natds-icons-filled-content-channel": string;
   readonly "natds-icons-filled-content-divulgation": string;
   readonly "natds-icons-filled-content-quote": string;
+  readonly "natds-icons-filled-content-wifi": string;
+  readonly "natds-icons-filled-content-world": string;
   readonly "natds-icons-filled-default-mockup": string;
   readonly "natds-icons-filled-finance-charging": string;
   readonly "natds-icons-filled-finance-invoice": string;
@@ -198,6 +200,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-virtualmirror": string;
   readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;
+  readonly "natds-icons-outlined-content-world": string;
   readonly "natds-icons-outlined-default-mockup": string;
   readonly "natds-icons-outlined-finance-bag": string;
   readonly "natds-icons-outlined-finance-bank": string;

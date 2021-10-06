@@ -25,6 +25,8 @@ interface RootObject {
   'filled-content-channel': string;
   'filled-content-divulgation': string;
   'filled-content-quote': string;
+  'filled-content-wifi': string;
+  'filled-content-world': string;
   'filled-default-mockup': string;
   'filled-finance-charging': string;
   'filled-finance-invoice': string;
@@ -180,6 +182,7 @@ interface RootObject {
   'outlined-content-virtualmirror': string;
   'outlined-content-wellness': string;
   'outlined-content-wifi': string;
+  'outlined-content-world': string;
   'outlined-default-mockup': string;
   'outlined-finance-bag': string;
   'outlined-finance-bank': string;
