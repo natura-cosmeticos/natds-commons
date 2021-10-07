@@ -428,7 +428,7 @@ struct AesopDarkComponents: Components {
   let textFieldLabelFallbackFontWeight: UIFont.Weight = .regular
   let textFieldLabelFontSize: CGFloat = 14
   let textFieldLabelLetterSpacing: CGFloat = 0.08
-  let textFieldLabelLineHeight: CGFloat = 1.25
+  let textFieldLabelLineHeight: CGFloat = 1.5
   let textFieldContentPrimaryFontFamily = "San Francisco"
   let textFieldContentPrimaryFontWeight: UIFont.Weight = .regular
   let textFieldContentFallbackFontFamily = "San Francisco"

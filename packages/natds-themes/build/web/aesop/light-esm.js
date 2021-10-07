@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 07 Oct 2021 13:17:16 GMT
+ * Generated on Thu, 07 Oct 2021 13:57:35 GMT
  */
 
 module.exports = {
@@ -5075,11 +5075,11 @@ module.exports = {
         ]
       },
       "lineHeight": {
-        "value": 1.25,
+        "value": 1.5,
         "filePath": "properties/globals/components/textField.json",
         "isSource": true,
         "original": {
-          "value": "{typography.lineHeight.small.value}"
+          "value": "{typography.lineHeight.medium.value}"
         },
         "name": "textFieldLabelLineHeight",
         "attributes": {

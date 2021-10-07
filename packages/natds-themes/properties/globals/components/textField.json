@@ -24,7 +24,7 @@
         "value": "{subtitle2.letterSpacing.value}"
       },
       "lineHeight": {
-        "value": "{typography.lineHeight.small.value}"
+        "value": "{typography.lineHeight.medium.value}"
       }
     },
     "content": {
