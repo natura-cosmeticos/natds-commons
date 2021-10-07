@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.5...@naturacosmeticos/natds-themes@0.15.0) (2021-10-07)
+
+
+### Bug Fixes
+
+* **natds-themes:** change text field label line height to medium ([#294](https://github.com/natura-cosmeticos/natds-commons/issues/294)) ([7aa97c1](https://github.com/natura-cosmeticos/natds-commons/commit/7aa97c1f2f0f674b8b6d3849d04fb8b9932123b2))
+
+
+### Features
+
+* **natds-icons:** add icons ([#293](https://github.com/natura-cosmeticos/natds-commons/issues/293)) ([1b535c9](https://github.com/natura-cosmeticos/natds-commons/commit/1b535c9e40d1661d5928e493ee52c0e970b805c9))
+
+
+
+
+
 ## [0.14.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.14.4...@naturacosmeticos/natds-themes@0.14.5) (2021-10-05)
 
 
