@@ -328,9 +328,10 @@ declare namespace Themes {
   export interface Themes {
     aesop: BrandThemes
     avon: BrandThemes
+    biome: BrandThemes
+    natdsTest: BrandThemes
     natura: BrandThemes
     theBodyShop: BrandThemes
-    natdsTest: BrandThemes
   }
 }
 
