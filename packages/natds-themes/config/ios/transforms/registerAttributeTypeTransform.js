@@ -1,14 +1,14 @@
 import { flipIsProp, isProp } from '../../shared/helpers';
 
 const types = {
-  color: 'UIColor',
+  color: 'String',
   float: 'CGFloat',
   fontWeight: 'UIFont.Weight',
   int: 'CGFloat',
   lineHeight: 'CGFloat',
   number: 'CGFloat',
   shadowOpacity: 'Float',
-  spectrum: 'UIColor',
+  spectrum: 'String',
   string: 'String',
 };
 

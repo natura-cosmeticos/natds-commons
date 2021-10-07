@@ -46,8 +46,8 @@ const themeProtocolDataBuilder = (dictionary) => {
 
   const prepend = `
 protocol Theme {
-  var tokens: Tokens
-  var components: Components
+  var tokens: Tokens { get }
+  var components: Components { get }
 }
 `;
 

@@ -18,8 +18,8 @@
  */
 
 protocol Theme {
-  var tokens: Tokens
-  var components: Components
+  var tokens: Tokens { get }
+  var components: Components { get }
 }
 
 protocol Tokens {
@@ -43,48 +43,48 @@ protocol Tokens {
   var borderRadiusSmall: CGFloat { get }
   var borderRadiusMedium: CGFloat { get }
   var borderRadiusLarge: CGFloat { get }
-  var colorNeutral50: UIColor { get }
-  var colorNeutral100: UIColor { get }
-  var colorNeutral200: UIColor { get }
-  var colorNeutral300: UIColor { get }
-  var colorNeutral400: UIColor { get }
-  var colorNeutral500: UIColor { get }
-  var colorNeutral600: UIColor { get }
-  var colorNeutral700: UIColor { get }
-  var colorNeutral800: UIColor { get }
-  var colorNeutral900: UIColor { get }
-  var colorPrimary: UIColor { get }
-  var colorOnPrimary: UIColor { get }
-  var colorPrimaryLight: UIColor { get }
-  var colorOnPrimaryLight: UIColor { get }
-  var colorPrimaryLightest: UIColor { get }
-  var colorOnPrimaryLightest: UIColor { get }
-  var colorPrimaryDark: UIColor { get }
-  var colorOnPrimaryDark: UIColor { get }
-  var colorPrimaryDarkest: UIColor { get }
-  var colorOnPrimaryDarkest: UIColor { get }
-  var colorSecondary: UIColor { get }
-  var colorOnSecondary: UIColor { get }
-  var colorSecondaryLight: UIColor { get }
-  var colorOnSecondaryLight: UIColor { get }
-  var colorSecondaryDark: UIColor { get }
-  var colorOnSecondaryDark: UIColor { get }
-  var colorBackground: UIColor { get }
-  var colorOnBackground: UIColor { get }
-  var colorSurface: UIColor { get }
-  var colorOnSurface: UIColor { get }
-  var colorHighlight: UIColor { get }
-  var colorHighEmphasis: UIColor { get }
-  var colorMediumEmphasis: UIColor { get }
-  var colorLowEmphasis: UIColor { get }
-  var colorLink: UIColor { get }
-  var colorOnLink: UIColor { get }
-  var colorSuccess: UIColor { get }
-  var colorOnSuccess: UIColor { get }
-  var colorWarning: UIColor { get }
-  var colorOnWarning: UIColor { get }
-  var colorAlert: UIColor { get }
-  var colorOnAlert: UIColor { get }
+  var colorNeutral50: String { get }
+  var colorNeutral100: String { get }
+  var colorNeutral200: String { get }
+  var colorNeutral300: String { get }
+  var colorNeutral400: String { get }
+  var colorNeutral500: String { get }
+  var colorNeutral600: String { get }
+  var colorNeutral700: String { get }
+  var colorNeutral800: String { get }
+  var colorNeutral900: String { get }
+  var colorPrimary: String { get }
+  var colorOnPrimary: String { get }
+  var colorPrimaryLight: String { get }
+  var colorOnPrimaryLight: String { get }
+  var colorPrimaryLightest: String { get }
+  var colorOnPrimaryLightest: String { get }
+  var colorPrimaryDark: String { get }
+  var colorOnPrimaryDark: String { get }
+  var colorPrimaryDarkest: String { get }
+  var colorOnPrimaryDarkest: String { get }
+  var colorSecondary: String { get }
+  var colorOnSecondary: String { get }
+  var colorSecondaryLight: String { get }
+  var colorOnSecondaryLight: String { get }
+  var colorSecondaryDark: String { get }
+  var colorOnSecondaryDark: String { get }
+  var colorBackground: String { get }
+  var colorOnBackground: String { get }
+  var colorSurface: String { get }
+  var colorOnSurface: String { get }
+  var colorHighlight: String { get }
+  var colorHighEmphasis: String { get }
+  var colorMediumEmphasis: String { get }
+  var colorLowEmphasis: String { get }
+  var colorLink: String { get }
+  var colorOnLink: String { get }
+  var colorSuccess: String { get }
+  var colorOnSuccess: String { get }
+  var colorWarning: String { get }
+  var colorOnWarning: String { get }
+  var colorAlert: String { get }
+  var colorOnAlert: String { get }
   var elevationNoneShadowColor: String { get }
   var elevationNoneShadowOffsetWidth: CGFloat { get }
   var elevationNoneShadowOffsetHeight: CGFloat { get }
@@ -252,14 +252,14 @@ protocol Components {
   var badgeStandardBorderRadius: CGFloat { get }
   var badgeDotHeight: CGFloat { get }
   var badgeDotBorderRadius: CGFloat { get }
-  var badgeColorPrimaryLabel: UIColor { get }
-  var badgeColorPrimaryBackground: UIColor { get }
-  var badgeColorSecondaryLabel: UIColor { get }
-  var badgeColorSecondaryBackground: UIColor { get }
-  var badgeColorSuccessLabel: UIColor { get }
-  var badgeColorSuccessBackground: UIColor { get }
-  var badgeColorAlertLabel: UIColor { get }
-  var badgeColorAlertBackground: UIColor { get }
+  var badgeColorPrimaryLabel: String { get }
+  var badgeColorPrimaryBackground: String { get }
+  var badgeColorSecondaryLabel: String { get }
+  var badgeColorSecondaryBackground: String { get }
+  var badgeColorSuccessLabel: String { get }
+  var badgeColorSuccessBackground: String { get }
+  var badgeColorAlertLabel: String { get }
+  var badgeColorAlertBackground: String { get }
   var buttonLabelFontSize: CGFloat { get }
   var buttonLabelLetterSpacing: CGFloat { get }
   var buttonLabelLineHeight: CGFloat { get }
@@ -268,42 +268,42 @@ protocol Components {
   var buttonLabelFallbackFontFamily: String { get }
   var buttonLabelFallbackFontWeight: UIFont.Weight { get }
   var buttonBorderRadius: CGFloat { get }
-  var buttonContainedColorEnableBackground: UIColor { get }
-  var buttonContainedColorEnableBorder: UIColor { get }
-  var buttonContainedColorEnableLabel: UIColor { get }
-  var buttonContainedColorDisableBackground: UIColor { get }
-  var buttonContainedColorDisableBorder: UIColor { get }
-  var buttonContainedColorDisableLabel: UIColor { get }
-  var buttonContainedColorHoverBackground: UIColor { get }
-  var buttonContainedColorHoverBorder: UIColor { get }
-  var buttonContainedColorHoverLabel: UIColor { get }
-  var buttonContainedColorFocusBackground: UIColor { get }
-  var buttonContainedColorFocusBorder: UIColor { get }
-  var buttonContainedColorFocusLabel: UIColor { get }
-  var buttonOutlinedColorEnableBackground: UIColor { get }
-  var buttonOutlinedColorEnableBorder: UIColor { get }
-  var buttonOutlinedColorEnableLabel: UIColor { get }
-  var buttonOutlinedColorDisableBackground: UIColor { get }
-  var buttonOutlinedColorDisableBorder: UIColor { get }
-  var buttonOutlinedColorDisableLabel: UIColor { get }
-  var buttonOutlinedColorHoverBackground: UIColor { get }
-  var buttonOutlinedColorHoverBorder: UIColor { get }
-  var buttonOutlinedColorHoverLabel: UIColor { get }
-  var buttonOutlinedColorFocusBackground: UIColor { get }
-  var buttonOutlinedColorFocusBorder: UIColor { get }
-  var buttonOutlinedColorFocusLabel: UIColor { get }
-  var buttonTextColorEnableBackground: UIColor { get }
-  var buttonTextColorEnableBorder: UIColor { get }
-  var buttonTextColorEnableLabel: UIColor { get }
-  var buttonTextColorDisableBackground: UIColor { get }
-  var buttonTextColorDisableBorder: UIColor { get }
-  var buttonTextColorDisableLabel: UIColor { get }
-  var buttonTextColorHoverBackground: UIColor { get }
-  var buttonTextColorHoverBorder: UIColor { get }
-  var buttonTextColorHoverLabel: UIColor { get }
-  var buttonTextColorFocusBackground: UIColor { get }
-  var buttonTextColorFocusBorder: UIColor { get }
-  var buttonTextColorFocusLabel: UIColor { get }
+  var buttonContainedColorEnableBackground: String { get }
+  var buttonContainedColorEnableBorder: String { get }
+  var buttonContainedColorEnableLabel: String { get }
+  var buttonContainedColorDisableBackground: String { get }
+  var buttonContainedColorDisableBorder: String { get }
+  var buttonContainedColorDisableLabel: String { get }
+  var buttonContainedColorHoverBackground: String { get }
+  var buttonContainedColorHoverBorder: String { get }
+  var buttonContainedColorHoverLabel: String { get }
+  var buttonContainedColorFocusBackground: String { get }
+  var buttonContainedColorFocusBorder: String { get }
+  var buttonContainedColorFocusLabel: String { get }
+  var buttonOutlinedColorEnableBackground: String { get }
+  var buttonOutlinedColorEnableBorder: String { get }
+  var buttonOutlinedColorEnableLabel: String { get }
+  var buttonOutlinedColorDisableBackground: String { get }
+  var buttonOutlinedColorDisableBorder: String { get }
+  var buttonOutlinedColorDisableLabel: String { get }
+  var buttonOutlinedColorHoverBackground: String { get }
+  var buttonOutlinedColorHoverBorder: String { get }
+  var buttonOutlinedColorHoverLabel: String { get }
+  var buttonOutlinedColorFocusBackground: String { get }
+  var buttonOutlinedColorFocusBorder: String { get }
+  var buttonOutlinedColorFocusLabel: String { get }
+  var buttonTextColorEnableBackground: String { get }
+  var buttonTextColorEnableBorder: String { get }
+  var buttonTextColorEnableLabel: String { get }
+  var buttonTextColorDisableBackground: String { get }
+  var buttonTextColorDisableBorder: String { get }
+  var buttonTextColorDisableLabel: String { get }
+  var buttonTextColorHoverBackground: String { get }
+  var buttonTextColorHoverBorder: String { get }
+  var buttonTextColorHoverLabel: String { get }
+  var buttonTextColorFocusBackground: String { get }
+  var buttonTextColorFocusBorder: String { get }
+  var buttonTextColorFocusLabel: String { get }
   var checkboxLabelFontSize: CGFloat { get }
   var checkboxLabelLetterSpacing: CGFloat { get }
   var checkboxLabelLineHeight: CGFloat { get }
