@@ -24,6 +24,8 @@ filled_brand_youtube
 filled_content_channel
 filled_content_divulgation
 filled_content_quote
+filled_content_wifi
+filled_content_world
 filled_default_mockup
 filled_finance_charging
 filled_finance_invoice
@@ -179,6 +181,7 @@ outlined_content_unavailable
 outlined_content_virtualmirror
 outlined_content_wellness
 outlined_content_wifi
+outlined_content_world
 outlined_default_mockup
 outlined_finance_bag
 outlined_finance_bank
