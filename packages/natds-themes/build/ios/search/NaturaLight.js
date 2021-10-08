@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 07 Oct 2021 14:54:33 GMT
+ * Generated on Thu, 07 Oct 2021 21:04:29 GMT
  */
 
 module.exports = {
@@ -1361,7 +1361,7 @@ module.exports = {
             "subitem": "label",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1386,7 +1386,7 @@ module.exports = {
             "subitem": "background",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1413,7 +1413,7 @@ module.exports = {
             "subitem": "label",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1438,7 +1438,7 @@ module.exports = {
             "subitem": "background",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1465,7 +1465,7 @@ module.exports = {
             "subitem": "label",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1490,7 +1490,7 @@ module.exports = {
             "subitem": "background",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1517,7 +1517,7 @@ module.exports = {
             "subitem": "label",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1542,7 +1542,7 @@ module.exports = {
             "subitem": "background",
             "customOptions": {
               "includeType": false,
-              "type": "UIColor"
+              "type": "String"
             }
           },
           "path": [
@@ -1771,7 +1771,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1798,7 +1798,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1825,7 +1825,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1854,7 +1854,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1881,7 +1881,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1908,7 +1908,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1937,7 +1937,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1964,7 +1964,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -1991,7 +1991,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2020,7 +2020,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2047,7 +2047,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2074,7 +2074,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2107,7 +2107,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2134,7 +2134,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2161,7 +2161,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2190,7 +2190,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2217,7 +2217,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2244,7 +2244,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2273,7 +2273,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2300,7 +2300,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2327,7 +2327,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2356,7 +2356,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2383,7 +2383,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2410,7 +2410,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2443,7 +2443,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2470,7 +2470,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2497,7 +2497,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2526,7 +2526,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2553,7 +2553,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2580,7 +2580,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2609,7 +2609,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2636,7 +2636,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2663,7 +2663,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2692,7 +2692,7 @@ module.exports = {
               "state": "background",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2719,7 +2719,7 @@ module.exports = {
               "state": "border",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -2746,7 +2746,7 @@ module.exports = {
               "state": "label",
               "customOptions": {
                 "includeType": false,
-                "type": "UIColor"
+                "type": "String"
               }
             },
             "path": [
@@ -8463,7 +8463,7 @@ module.exports = {
         "type": "neutral50",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8484,7 +8484,7 @@ module.exports = {
         "type": "neutral100",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8505,7 +8505,7 @@ module.exports = {
         "type": "neutral200",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8526,7 +8526,7 @@ module.exports = {
         "type": "neutral300",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8547,7 +8547,7 @@ module.exports = {
         "type": "neutral400",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8568,7 +8568,7 @@ module.exports = {
         "type": "neutral500",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8589,7 +8589,7 @@ module.exports = {
         "type": "neutral600",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8610,7 +8610,7 @@ module.exports = {
         "type": "neutral700",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8631,7 +8631,7 @@ module.exports = {
         "type": "neutral800",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8652,7 +8652,7 @@ module.exports = {
         "type": "neutral900",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8673,7 +8673,7 @@ module.exports = {
         "type": "primary",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8694,7 +8694,7 @@ module.exports = {
         "type": "onPrimary",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8715,7 +8715,7 @@ module.exports = {
         "type": "primaryLight",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8736,7 +8736,7 @@ module.exports = {
         "type": "onPrimaryLight",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8757,7 +8757,7 @@ module.exports = {
         "type": "primaryLightest",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8778,7 +8778,7 @@ module.exports = {
         "type": "onPrimaryLightest",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8799,7 +8799,7 @@ module.exports = {
         "type": "primaryDark",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8820,7 +8820,7 @@ module.exports = {
         "type": "onPrimaryDark",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8841,7 +8841,7 @@ module.exports = {
         "type": "primaryDarkest",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8862,7 +8862,7 @@ module.exports = {
         "type": "onPrimaryDarkest",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8883,7 +8883,7 @@ module.exports = {
         "type": "secondary",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8904,7 +8904,7 @@ module.exports = {
         "type": "onSecondary",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8925,7 +8925,7 @@ module.exports = {
         "type": "secondaryLight",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8946,7 +8946,7 @@ module.exports = {
         "type": "onSecondaryLight",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8967,7 +8967,7 @@ module.exports = {
         "type": "secondaryDark",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -8988,7 +8988,7 @@ module.exports = {
         "type": "onSecondaryDark",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9009,7 +9009,7 @@ module.exports = {
         "type": "background",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9030,7 +9030,7 @@ module.exports = {
         "type": "onBackground",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9051,7 +9051,7 @@ module.exports = {
         "type": "surface",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9072,7 +9072,7 @@ module.exports = {
         "type": "onSurface",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9093,7 +9093,7 @@ module.exports = {
         "type": "highlight",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9114,7 +9114,7 @@ module.exports = {
         "type": "highEmphasis",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9135,7 +9135,7 @@ module.exports = {
         "type": "mediumEmphasis",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9156,7 +9156,7 @@ module.exports = {
         "type": "lowEmphasis",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9177,7 +9177,7 @@ module.exports = {
         "type": "link",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9198,7 +9198,7 @@ module.exports = {
         "type": "onLink",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9219,7 +9219,7 @@ module.exports = {
         "type": "success",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9240,7 +9240,7 @@ module.exports = {
         "type": "onSuccess",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9261,7 +9261,7 @@ module.exports = {
         "type": "warning",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9282,7 +9282,7 @@ module.exports = {
         "type": "onWarning",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9303,7 +9303,7 @@ module.exports = {
         "type": "alert",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
@@ -9324,7 +9324,7 @@ module.exports = {
         "type": "onAlert",
         "customOptions": {
           "includeType": false,
-          "type": "UIColor"
+          "type": "String"
         }
       },
       "path": [
