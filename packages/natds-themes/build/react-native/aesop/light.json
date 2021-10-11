@@ -12,11 +12,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     },
     "content": {
@@ -25,11 +25,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -40,11 +40,11 @@
       "lineHeight": 1.25,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -76,11 +76,11 @@
     },
     "primary": {
       "fontFamily": "Roboto",
-      "fontWeight": "400"
+      "fontWeight": 400
     },
     "fallback": {
       "fontFamily": "Arial",
-      "fontWeight": "400"
+      "fontWeight": 400
     }
   },
   "badge": {
@@ -90,11 +90,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     },
     "standard": {
@@ -131,11 +131,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "500"
+        "fontWeight": 500
       }
     },
     "borderRadius": 4,
@@ -219,11 +219,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -231,11 +231,11 @@
     "label": {
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fontSize": 14,
       "letterSpacing": 0.11,
@@ -244,11 +244,11 @@
     "content": {
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fontSize": 16,
       "letterSpacing": 0.51,
@@ -262,11 +262,11 @@
       "lineHeight": 1.25,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     },
     "body": {
@@ -275,11 +275,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -290,11 +290,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -306,11 +306,11 @@
         "lineHeight": 1.25,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": "500"
+          "fontWeight": 500
         },
         "fallback": {
           "fontFamily": "Arial",
-          "fontWeight": "400"
+          "fontWeight": 400
         }
       },
       "subtitle": {
@@ -319,11 +319,11 @@
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": "400"
+          "fontWeight": 400
         },
         "fallback": {
           "fontFamily": "Arial",
-          "fontWeight": "400"
+          "fontWeight": 400
         }
       }
     },
@@ -334,11 +334,11 @@
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": "400"
+          "fontWeight": 400
         },
         "fallback": {
           "fontFamily": "Arial",
-          "fontWeight": "400"
+          "fontWeight": 400
         }
       },
       "item": {
@@ -347,11 +347,11 @@
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": "400"
+          "fontWeight": 400
         },
         "fallback": {
           "fontFamily": "Arial",
-          "fontWeight": "400"
+          "fontWeight": 400
         }
       }
     }
@@ -363,11 +363,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -379,11 +379,11 @@
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": "400"
+          "fontWeight": 400
         },
         "fallback": {
           "fontFamily": "Arial",
-          "fontWeight": "400"
+          "fontWeight": 400
         }
       }
     },
@@ -394,11 +394,11 @@
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": "400"
+          "fontWeight": 400
         },
         "fallback": {
           "fontFamily": "Arial",
-          "fontWeight": "400"
+          "fontWeight": 400
         }
       }
     }
@@ -410,11 +410,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -425,11 +425,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -440,11 +440,11 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -455,11 +455,11 @@
       "lineHeight": 1.25,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     }
   },
@@ -467,11 +467,11 @@
     "label": {
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "500"
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fontSize": 14,
       "letterSpacing": 0.11,
@@ -480,11 +480,11 @@
     "content": {
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fontSize": 16,
       "letterSpacing": 0.51,
@@ -493,11 +493,11 @@
     "helperText": {
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "fontSize": 12,
       "letterSpacing": 0.38,
@@ -506,62 +506,62 @@
   },
   "heading1": {
     "fontSize": 96,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0
   },
   "heading2": {
     "fontSize": 60,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0
   },
   "heading3": {
     "fontSize": 48,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0
   },
   "heading4": {
     "fontSize": 34,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0.27
   },
   "heading5": {
     "fontSize": 24,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0
   },
   "heading6": {
     "fontSize": 20,
-    "fontWeight": "500",
+    "fontWeight": 500,
     "letterSpacing": 0.24
   },
   "subtitle1": {
     "fontSize": 16,
-    "fontWeight": "500",
+    "fontWeight": 500,
     "letterSpacing": 0.13
   },
   "subtitle2": {
     "fontSize": 14,
-    "fontWeight": "500",
+    "fontWeight": 500,
     "letterSpacing": 0.11
   },
   "body1": {
     "fontSize": 16,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0.51
   },
   "body2": {
     "fontSize": 14,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0.22
   },
   "caption": {
     "fontSize": 12,
-    "fontWeight": "400",
+    "fontWeight": 400,
     "letterSpacing": 0.38
   },
   "overline": {
     "fontSize": 12,
-    "fontWeight": "500",
+    "fontWeight": 500,
     "letterSpacing": 1.92
   },
   "opacity": {
@@ -612,30 +612,30 @@
       "large": 2
     },
     "fontWeight": {
-      "regular": "400",
-      "medium": "500"
+      "regular": 400,
+      "medium": 500
     },
     "display": {
       "fontFamily": "Zapf Humanist 601",
-      "fontWeight": "400"
+      "fontWeight": 400
     },
     "headline": {
       "fontFamily": "Suisse Int'l",
-      "fontWeight": "400"
+      "fontWeight": 400
     },
     "body": {
       "regular": {
         "fontFamily": "Suisse Int'l",
-        "fontWeight": "400"
+        "fontWeight": 400
       },
       "bold": {
         "fontFamily": "Suisse Int'l",
-        "fontWeight": "400"
+        "fontWeight": 400
       }
     },
     "fallback": {
       "fontFamily": "Arial",
-      "fontWeight": "400"
+      "fontWeight": 400
     }
   },
   "spacing": {

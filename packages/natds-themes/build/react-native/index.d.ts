@@ -43,7 +43,7 @@ declare namespace Themes {
 }
  export interface Heading1 {
   fontSize: number
-  fontWeight: string
+  fontWeight: number
   letterSpacing: number
 }
  export interface TextField {
@@ -165,11 +165,11 @@ declare namespace Themes {
 }
  export interface Display {
   fontFamily: string
-  fontWeight: string
+  fontWeight: number
 }
  export interface FontWeight {
-  regular: string
-  medium: string
+  regular: number
+  medium: number
 }
  export interface LineHeight {
   reset: number
