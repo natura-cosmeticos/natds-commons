@@ -26,7 +26,6 @@ const buildReactNativeConfig = (brand, mode) => ({
     'asset/svg-optimized',
     'asset/svg-inline',
     'asset/svg-fill-to-css',
-    'value/font-weight-rn',
   ],
 });
 
