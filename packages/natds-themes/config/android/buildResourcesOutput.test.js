@@ -40,9 +40,9 @@ describe('buildResourcesOutput', () => {
 
     buildResourcesFromThemeValues('colors');
 
-    const expectedDataPath = path.resolve(__dirname, '../../build/android/colors.json');
+    const expectedDataPath = path.resolve(__dirname, '../../build/android/theme/colors.json');
     const expectedTemplatePath = path.resolve(__dirname, 'formats/templates/colors.hbs');
-    const expectedResourcePath = path.resolve(__dirname, '../../build/android/colors.xml');
+    const expectedResourcePath = path.resolve(__dirname, '../../build/android/theme/colors.xml');
 
     expect(fs.readFileSync).toHaveBeenCalledWith(expectedDataPath);
     expect(compileTemplateSpy).toHaveBeenCalledWith(expectedTemplatePath);

@@ -12,7 +12,13 @@ export const compileTemplate = (templatePath) => {
 export const registerTemplateHeaderHelper = () => {
   const template = fs.readFileSync(path.resolve(__dirname, '../templates/fileHeader.hbs')).toString();
 
-  Handlebars.registerHelper('date', () => new Date().toDateString());
+  Handlebars.registerHelper('natdsThemesVersion', () => {
+    const packageJsonString = fs
+      .readFileSync(path.resolve('package.json'))
+      .toString();
+
+    return JSON.parse(packageJsonString).version;
+  });
 
   Handlebars.registerPartial('fileHeader', template);
 };

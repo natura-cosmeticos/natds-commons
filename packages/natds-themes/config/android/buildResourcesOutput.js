@@ -12,15 +12,17 @@ const buildUniqueEncodedArray = (values) => {
 };
 
 export const buildResourcesFromThemeValues = (resourceType) => {
-  const outputPath = path.resolve(__dirname, '../../build/android');
+  const outputPath = path.resolve(__dirname, '../../build/android/theme');
   const templatePath = path.resolve(__dirname, `./formats/templates/${resourceType}.hbs`);
-  const themeValues = fs.readFileSync(`${outputPath}/${resourceType}.json`);
+  const resourceFilePath = `${outputPath}/${resourceType}.json`;
+  const themeValues = fs.readFileSync(resourceFilePath);
 
   const template = compileTemplate(templatePath);
 
   const colorsXml = template({ [resourceType]: buildUniqueEncodedArray(themeValues) });
 
   fs.writeFileSync(`${outputPath}/${resourceType}.xml`, colorsXml);
+  fs.unlinkSync(resourceFilePath);
 };
 
 export const buildResourcesOutput = () => {
