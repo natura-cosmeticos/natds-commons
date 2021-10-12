@@ -1,7 +1,7 @@
 import {
   queryByTestId, getByTestId, fireEvent,
 } from '@testing-library/dom';
-import { Form, onInputSearch } from '../src/Form';
+import { Form, onInputSearch, onFormSubmit } from '../src/Form';
 import * as Search from '../src/Search';
 import * as RadioGroup from '../src/RadioGroup';
 import * as helpers from '../src/helpers';
@@ -53,6 +53,14 @@ describe('Form', () => {
     fireEvent.change(getByTestId(form, 'platform'), { target: { name: 'platform', value: 'android' } });
 
     expect(searchActionSpy).toHaveBeenCalledWith({ platform: 'android' });
+  });
+
+  it('should prevent the default form submission', () => {
+    const preventDefaultMock = jest.fn();
+
+    onFormSubmit({ preventDefault: preventDefaultMock });
+
+    expect(preventDefaultMock).toHaveBeenCalled();
   });
 
   describe('radio group', () => {

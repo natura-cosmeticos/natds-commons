@@ -1,29 +1,9 @@
 import {
-  pipe, unless, map, objOf, zipObj, mapObjIndexed, isNil,
-  filter, prop, contains, toLower, anyPass, toString, has,
-  none, not, values, when, ifElse, identity, is, flatten,
-  until,
+  pipe, unless, objOf, zipObj, mapObjIndexed, isNil,
+  pickBy, or, contains, toLower, toString,
 } from 'ramda';
 
-export const flattenProps = (properties) => {
-  const isProperty = has('name');
-  const isNotItem = pipe(isProperty, not);
-  const isFlat = none(isNotItem);
-  const isNotArray = pipe(is(Array), not);
-  const getItemFromNestedObject = map(ifElse(isProperty, identity, values));
-  const toArray = when(isNotArray, values);
-
-  const getPropertyValues = pipe(
-    toArray,
-    getItemFromNestedObject,
-    flatten,
-  );
-
-  return until(isFlat, getPropertyValues)(values(properties));
-};
-
 export const buildTokensForBrand = (brand) => pipe(
-  map(flattenProps),
   zipObj(['light', 'dark']),
   objOf(brand),
 );
@@ -46,13 +26,15 @@ export const createElement = (element, attributes, content, className) => {
   return el;
 };
 
-const searchRules = (search) => anyPass([
-  pipe(prop('name'), toLower, contains(toLower(search))),
-  pipe(prop('value'), toString, toLower, contains(toLower(search))),
-]);
+const compareToSearch = (search) => pipe(toString, toLower, contains(toLower(search)));
+
+const searchRules = (search) => (value, key) => or(
+  compareToSearch(search)(key),
+  compareToSearch(search)(value),
+);
 
 export const filterTokens = (tokens, search) => {
   if (!search) return tokens;
 
-  return filter(searchRules(search), tokens);
+  return pickBy(searchRules(search), tokens);
 };

@@ -1,4 +1,6 @@
-import { pipe, join, map } from 'ramda';
+import {
+  pipe, join, mapObjIndexed, values,
+} from 'ramda';
 import { createElement } from './helpers';
 import { store } from './store';
 import jss from './styles/jss';
@@ -28,7 +30,8 @@ const tableSheet = jss.createStyleSheet(tableStyles);
 const tableHeading = '<thead><th>Name</th><th>Value</th></thead>';
 
 const renderBody = pipe(
-  map((item) => `<tr><td>${item.name}</td><td>${item.value}</td></tr>`),
+  mapObjIndexed((value, name) => `<tr><td>${name}</td><td>${value}</td></tr>`),
+  values,
   join(''),
 );
 
@@ -40,7 +43,6 @@ export const Table = () => {
   store.subscribe(() => {
     tableBody.innerHTML = renderBody(store.getState().selectedTokens);
   });
-
   tableBody.innerHTML = renderBody(store.getState().selectedTokens);
   table.appendChild(tableBody);
 

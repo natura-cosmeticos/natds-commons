@@ -23,9 +23,11 @@ export const onInputSearch = ({ target }) => store.dispatch(
   searchAction({ search: target.value }),
 );
 
-const onFormChange = ({ target }) => store.dispatch(
-  searchAction({ [target.name]: target.value }),
+const onFormChange = (event) => store.dispatch(
+  searchAction({ [event.target.name]: event.target.value }),
 );
+
+export const onFormSubmit = (event) => event.preventDefault();
 
 export const Form = () => {
   const form = createElement('form');
@@ -38,6 +40,7 @@ export const Form = () => {
   form.appendChild(RadioGroup('mode', modes, state.mode, 'Modes'));
 
   form.addEventListener('change', onFormChange);
+  form.addEventListener('submit', onFormSubmit);
 
   return form;
 };
