@@ -3,7 +3,7 @@ import { prop } from 'ramda';
 import { isDimension, isColor, mapFilteredValues } from '../helpers/helpers';
 import { createOutputPathInfo } from '../../shared/helpers';
 
-const outputPath = 'build/android';
+const outputPath = 'build/android/theme';
 const colorsOutputPath = `${outputPath}/colors.json`;
 const dimensionsOutputPath = `${outputPath}/dimensions.json`;
 
