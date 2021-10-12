@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.15.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.15.3...@naturacosmeticos/natds-themes@0.15.4) (2021-10-12)
+
+
+### Bug Fixes
+
+* **natds-themes:** change suisse font file to include latin characters ([a89e9c1](https://github.com/natura-cosmeticos/natds-commons/commit/a89e9c148eda0534f7b15e1e315fbd196750db85))
+
+
+
+
+
 ## [0.15.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.15.2...@naturacosmeticos/natds-themes@0.15.3) (2021-10-12)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
