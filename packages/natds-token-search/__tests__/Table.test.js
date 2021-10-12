@@ -2,6 +2,7 @@ import { store } from '../src/store';
 import { Table } from '../src/Table';
 
 const allTokens = {
+  borderRadius: 8,
   color: '#ffffff',
   opacity: 1,
 };
