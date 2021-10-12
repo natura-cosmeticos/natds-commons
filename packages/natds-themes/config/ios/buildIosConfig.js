@@ -27,9 +27,9 @@ const buildIosConfig = (brand, mode) => ({
       themeName: `${capitalizeWord(brand)}`,
     },
     {
-      destination: `search/${capitalizeWord(brand)}${capitalizeWord(mode)}.js`,
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: `search/${brand}/${mode}.json`,
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
   ],
   transformGroup: 'ios-swift',

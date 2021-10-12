@@ -8,9 +8,9 @@ const buildReactNativeConfig = (brand, mode) => ({
       format: 'json/nested',
     },
     {
-      destination: `${brand}/${mode}.js`,
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: `search/${brand}/${mode}.json`,
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
     {
       destination: `spectrum/${brand}/spectrum.json`,

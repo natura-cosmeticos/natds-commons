@@ -34,9 +34,9 @@ const expectedWebConfig = {
       options: { showFileHeader: false },
     },
     {
-      destination: 'pokemon/pikachu-esm.js',
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: 'search/pokemon/pikachu.json',
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
   ],
   transforms: [

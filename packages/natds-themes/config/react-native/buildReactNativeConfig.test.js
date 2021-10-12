@@ -10,9 +10,9 @@ const expectedConfig = {
       format: 'json/nested',
     },
     {
-      destination: 'pokemon/pikachu.js',
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: 'search/pokemon/pikachu.json',
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
     {
       destination: 'spectrum/pokemon/spectrum.json',

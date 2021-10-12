@@ -27,9 +27,9 @@ const expectedConfig = {
       mode: 'Pikachu',
     },
     {
-      destination: 'search/pokemon/pikachu.js',
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: 'search/pokemon/pikachu.json',
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
   ],
   transforms: [

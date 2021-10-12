@@ -24,9 +24,9 @@ const buildAndroidConfig = (brand, mode) => ({
       mode: capitalizeWord(mode),
     },
     {
-      destination: `search/${brand}/${mode}.js`,
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: `search/${brand}/${mode}.json`,
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
   ],
   transforms: [
