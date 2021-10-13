@@ -1,16 +1,11 @@
 import { store } from '../src/store';
 import { Table } from '../src/Table';
 
-const allTokens = [
-  {
-    name: 'color',
-    value: '#ffffff',
-  },
-  {
-    name: 'opacity',
-    value: 1,
-  },
-];
+const allTokens = {
+  borderRadius: 8,
+  color: '#ffffff',
+  opacity: 1,
+};
 
 const state = {
   allTokens,
@@ -34,7 +29,7 @@ describe('Table', () => {
   it('should update table on store changes', () => {
     const table = Table();
 
-    jest.spyOn(store, 'getState').mockReturnValue({ ...state, selectedTokens: [allTokens[0]] });
+    jest.spyOn(store, 'getState').mockReturnValue({ ...state, selectedTokens: { color: '#ffffff' } });
     store.dispatch({ type: 'ACTION' });
 
     expect(table).toMatchSnapshot();

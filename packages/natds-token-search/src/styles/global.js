@@ -14,7 +14,7 @@ export const reset = {
       fontSize: '100%',
       margin: '0',
       padding: '0',
-      verticalAlign: 'baseline',
+      verticalAlign: 'middle',
     },
     table: {
       borderCollapse: 'collapse',

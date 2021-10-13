@@ -27,9 +27,9 @@ const expectedConfig = {
       themeName: 'Pokemon',
     },
     {
-      destination: 'search/PokemonPikachu.js',
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: 'search/pokemon/pikachu.json',
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
   ],
   transformGroup: 'ios-swift',

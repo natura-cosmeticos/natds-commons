@@ -2,6 +2,7 @@ import { registerCopyAssetsAction } from './actions/registerCopyAssetsAction';
 import { registerTypeDefinitionsAction } from './actions/registerTypeDefinitionsAction';
 import { registerCreateTypefaceAction } from './actions/registerCreateTypefaceAction';
 import { registerPrivatePropertiesFilter } from './filters/registerPrivatePropertiesFilter';
+import { registerTokenSearchPropertiesFilter } from './filters/registerTokenSearchPropertiesFilter';
 import { registerSpectrumPropertiesFilter } from './filters/registerSpectrumPropertiesFilter';
 import { registerAssetExtensionTransform } from './transforms/registerAssetExtensionTransform';
 import { registerAssetInlineTransform } from './transforms/registerAssetInlineTransform';
@@ -17,7 +18,11 @@ export default {
     registerCopyAssetsAction,
     registerCreateTypefaceAction,
   ],
-  filters: [registerPrivatePropertiesFilter, registerSpectrumPropertiesFilter],
+  filters: [
+    registerPrivatePropertiesFilter,
+    registerSpectrumPropertiesFilter,
+    registerTokenSearchPropertiesFilter,
+  ],
   transforms: [
     registerAssetExtensionTransform,
     registerAssetInlineTransform,

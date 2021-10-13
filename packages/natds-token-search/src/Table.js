@@ -1,4 +1,6 @@
-import { pipe, join, map } from 'ramda';
+import {
+  pipe, join, mapObjIndexed, values,
+} from 'ramda';
 import { createElement } from './helpers';
 import { store } from './store';
 import jss from './styles/jss';
@@ -6,6 +8,22 @@ import { color } from './styles/global';
 
 const tableStyles = {
   tokenTable: {
+    '& .opacity': {
+      backgroundColor: '#D51BE5',
+      display: 'inline-block',
+      height: '100%',
+      width: '50%',
+
+    },
+    '& .opacity-wrapper': {
+      backgroundColor: '#eaeaea',
+      textAlign: 'center',
+    },
+    '& .preview': {
+      border: '1px solid #eaeaea',
+      height: 24,
+      width: '100%',
+    },
     '& td, & th': {
       border: [1, 'solid', color.gray],
       fontSize: 16,
@@ -25,10 +43,23 @@ const tableStyles = {
 
 const tableSheet = jss.createStyleSheet(tableStyles);
 
-const tableHeading = '<thead><th>Name</th><th>Value</th></thead>';
+const tableHeading = '<thead><th>Name</th><th>Value</th><th>Preview</th></thead>';
+
+const buildPreview = (name, value) => {
+  if (name.includes('color')) {
+    return `<div class="preview color" style="background-color: ${value.replace(/"/g, '')}"></div>`;
+  }
+
+  if (name.includes('opacity')) {
+    return `<div class="preview opacity-wrapper"><span class="opacity" style="opacity: ${value}"></span></div>`;
+  }
+
+  return '';
+};
 
 const renderBody = pipe(
-  map((item) => `<tr><td>${item.name}</td><td>${item.value}</td></tr>`),
+  mapObjIndexed((value, name) => `<tr><td>${name}</td><td>${value}</td><td>${buildPreview(name, value)}</td></tr>`),
+  values,
   join(''),
 );
 
@@ -40,7 +71,6 @@ export const Table = () => {
   store.subscribe(() => {
     tableBody.innerHTML = renderBody(store.getState().selectedTokens);
   });
-
   tableBody.innerHTML = renderBody(store.getState().selectedTokens);
   table.appendChild(tableBody);
 

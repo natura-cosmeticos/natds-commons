@@ -28,9 +28,9 @@ export const buildWebConfig = (brand, mode) => ({
       options: { showFileHeader: false },
     },
     {
-      destination: `${brand}/${mode}-esm.js`,
-      filter: 'privateProperties',
-      format: 'javascript/module',
+      destination: `search/${brand}/${mode}.json`,
+      filter: 'tokenSearchProperties',
+      format: 'json/flat',
     },
   ],
   transforms: [

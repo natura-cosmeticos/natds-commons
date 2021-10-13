@@ -12,15 +12,33 @@ exports[`Table should render table 1`] = `
       <th>
         Value
       </th>
+      <th>
+        Preview
+      </th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>
+        borderRadius
+      </td>
+      <td>
+        8
+      </td>
+      <td />
+    </tr>
     <tr>
       <td>
         color
       </td>
       <td>
         #ffffff
+      </td>
+      <td>
+        <div
+          class="preview color"
+          style="background-color: #ffffff"
+        />
       </td>
     </tr>
     <tr>
@@ -29,6 +47,16 @@ exports[`Table should render table 1`] = `
       </td>
       <td>
         1
+      </td>
+      <td>
+        <div
+          class="preview opacity-wrapper"
+        >
+          <span
+            class="opacity"
+            style="opacity: 1"
+          />
+        </div>
       </td>
     </tr>
   </tbody>
@@ -47,6 +75,9 @@ exports[`Table should update table on store changes 1`] = `
       <th>
         Value
       </th>
+      <th>
+        Preview
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -56,6 +87,12 @@ exports[`Table should update table on store changes 1`] = `
       </td>
       <td>
         #ffffff
+      </td>
+      <td>
+        <div
+          class="preview color"
+          style="background-color: #ffffff"
+        />
       </td>
     </tr>
   </tbody>
