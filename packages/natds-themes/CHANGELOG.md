@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.1...@naturacosmeticos/natds-themes@0.16.2) (2021-10-14)
+
+
+### Bug Fixes
+
+* **natds-themes:** update aesop surface color ([#301](https://github.com/natura-cosmeticos/natds-commons/issues/301)) ([ae2387c](https://github.com/natura-cosmeticos/natds-commons/commit/ae2387c4a18337ba9a7680025b843b53bd14ba0d))
+
+
+
+
+
 ## [0.16.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.0...@naturacosmeticos/natds-themes@0.16.1) (2021-10-14)
 
 
