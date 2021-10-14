@@ -1,9 +1,10 @@
 export const brands = [
   'aesop',
   'avon',
+  'biome',
+  'natdsTest',
   'natura',
   'theBodyShop',
-  'natdsTest',
 ];
 
 export const modes = [

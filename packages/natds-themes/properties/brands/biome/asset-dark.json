@@ -1,0 +1,54 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "biome-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
+        },
+        "b": {
+          "file": {
+            "value": "natura-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "biome-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
+        },
+        "b": {
+          "file": {
+            "value": "natura-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 82
+          }
+        }
+      }
+    }
+  }
+}

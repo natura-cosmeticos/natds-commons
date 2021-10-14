@@ -1,0 +1,100 @@
+{
+  "color": {
+    "primary": {
+      "value": "#DACABB"
+    },
+    "onPrimary": {
+      "value": "#333333"
+    },
+    "primaryLight": {
+      "value": "#FFFDED"
+    },
+    "onPrimaryLight": {
+      "value": "#333333"
+    },
+    "primaryLightest": {
+      "value": "#FFFDED"
+    },
+    "onPrimaryLightest": {
+      "value": "#FFFFFF"
+    },
+    "primaryDark": {
+      "value": "#A8998B"
+    },
+    "onPrimaryDark": {
+      "value": "#333333"
+    },
+    "primaryDarkest": {
+      "value": "#A8998B"
+    },
+    "onPrimaryDarkest": {
+      "value": "#FFFFFF"
+    },
+    "secondary": {
+      "value": "#00892F"
+    },
+    "onSecondary": {
+      "value": "#FFFFFF"
+    },
+    "secondaryLight": {
+      "value": "#4CBA5C"
+    },
+    "onSecondaryLight": {
+      "value": "#000000"
+    },
+    "secondaryDark": {
+      "value": "#005A00"
+    },
+    "onSecondaryDark": {
+      "value": "#FFFFFF"
+    },
+    "background": {
+      "value": "#FAFAFA"
+    },
+    "onBackground": {
+      "value": "#333333"
+    },
+    "surface": {
+      "value": "#FFFFFF"
+    },
+    "onSurface": {
+      "value": "#333333"
+    },
+    "highlight": {
+      "value": "#000000"
+    },
+    "highEmphasis": {
+      "value": "#333333"
+    },
+    "mediumEmphasis": {
+      "value": "#777777"
+    },
+    "lowEmphasis": {
+      "value": "#BBBBBB"
+    },
+    "link": {
+      "value": "#227BBD"
+    },
+    "onLink": {
+      "value": "#FFFFFF"
+    },
+    "success": {
+      "value": "#569A32"
+    },
+    "onSuccess": {
+      "value": "#FFFFFF"
+    },
+    "warning": {
+      "value": "#FCC433"
+    },
+    "onWarning": {
+      "value": "#333333"
+    },
+    "alert": {
+      "value": "#E74627"
+    },
+    "onAlert": {
+      "value": "#FFFFFF"
+    }
+  }
+}
