@@ -75,7 +75,7 @@ describe('Form', () => {
       const form = Form();
 
       expect(queryByTestId(form, 'brand')).toBeTruthy();
-      expect(radioGroupSpy.mock.calls[1]).toEqual(['brand', ['aesop', 'avon', 'natura', 'theBodyShop'], 'natura', 'Brands']);
+      expect(radioGroupSpy.mock.calls[1]).toEqual(['brand', ['aesop', 'avon', 'biome', 'natura', 'theBodyShop'], 'natura', 'Brands']);
     });
 
     it('should render the form mode radio group', () => {

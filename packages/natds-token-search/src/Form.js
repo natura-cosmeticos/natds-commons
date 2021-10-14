@@ -6,6 +6,7 @@ import { Search } from './Search';
 const brands = [
   'aesop',
   'avon',
+  'biome',
   'natura',
   'theBodyShop',
 ];
