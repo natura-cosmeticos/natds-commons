@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.16.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.15.5...@naturacosmeticos/natds-themes@0.16.0) (2021-10-14)
+
+
+### Features
+
+* **natds-themes:** create Biome theme ([#295](https://github.com/natura-cosmeticos/natds-commons/issues/295)) ([c189c37](https://github.com/natura-cosmeticos/natds-commons/commit/c189c377a39c626b7cdc7819efa518ab549b6bb0))
+
+
+
+
+
 ## [0.15.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.15.4...@naturacosmeticos/natds-themes@0.15.5) (2021-10-13)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
