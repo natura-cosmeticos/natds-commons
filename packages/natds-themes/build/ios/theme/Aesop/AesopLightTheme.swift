@@ -72,7 +72,7 @@ struct AesopLightTokens: Tokens {
   let colorOnSecondaryDark = "#FFFFFF"
   let colorBackground = "#FAFAFA"
   let colorOnBackground = "#333333"
-  let colorSurface = "#FFFFFF"
+  let colorSurface = "#FFFEF2"
   let colorOnSurface = "#333333"
   let colorHighlight = "#000000"
   let colorHighEmphasis = "#333333"
