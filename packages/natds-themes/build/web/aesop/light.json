@@ -677,7 +677,7 @@
     "onSecondaryDark": "#ffffff",
     "background": "#fafafa",
     "onBackground": "#333333",
-    "surface": "#fffef2",
+    "surface": "#ffffff",
     "onSurface": "#333333",
     "highlight": "#000000",
     "highEmphasis": "#333333",
