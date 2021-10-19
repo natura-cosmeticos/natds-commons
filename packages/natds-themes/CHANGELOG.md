@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.3...@naturacosmeticos/natds-themes@0.16.4) (2021-10-19)
+
+
+### Bug Fixes
+
+* **natds-themes:** change font file naming convention, change android output structure ([deb90e1](https://github.com/natura-cosmeticos/natds-commons/commit/deb90e17a4247413602a2ca83c392db48dccf1f7))
+
+
+
+
+
 ## [0.16.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.2...@naturacosmeticos/natds-themes@0.16.3) (2021-10-18)
 
 
