@@ -14,14 +14,14 @@ const expectedConfig = {
     },
     {
       brandName: 'Pokemon',
-      destination: 'theme/pokemon/theme_pokemon_pikachu.xml',
+      destination: 'theme/theme_pokemon_pikachu_ssot.xml',
       filter: 'privateProperties',
       format: 'android/themes',
       mode: 'Pikachu',
     },
     {
       brandName: 'Pokemon',
-      destination: 'spectrum/pokemon/spectrum_pokemon.xml',
+      destination: 'spectrum/spectrum_pokemon_ssot.xml',
       filter: 'spectrumProperties',
       format: 'android/spectrum',
       mode: 'Pikachu',

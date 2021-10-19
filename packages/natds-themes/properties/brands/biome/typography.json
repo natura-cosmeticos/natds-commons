@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "Roboto-Regular"
+          "value": "roboto_regular"
         },
         "headline": {
-          "value": "Roboto-Regular"
+          "value": "roboto_regular"
         },
         "body": {
           "regular": {
-            "value": "Roboto-Regular"
+            "value": "roboto_regular"
           },
           "bold": {
-            "value": "Roboto-Medium"
+            "value": "roboto_medium"
           }
         }
       }

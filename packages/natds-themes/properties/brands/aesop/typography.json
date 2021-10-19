@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "ZapfHumanist601BT-Roman"
+          "value": "zapf_humanist601bt_roman"
         },
         "headline": {
-          "value": "SuisseIntl-Regular"
+          "value": "suisse_intl_regular"
         },
         "body": {
           "regular": {
-            "value": "SuisseIntl-Regular"
+            "value": "suisse_intl_regular"
           },
           "bold": {
-            "value": "SuisseIntl-Regular"
+            "value": "suisse_intl_regular"
           }
         }
       }

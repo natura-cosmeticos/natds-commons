@@ -382,10 +382,10 @@
   --colorOnWarning: #333333;
   --colorAlert: #e74627;
   --colorOnAlert: #ffffff;
-  --assetFontFileDisplay: "Roboto-Regular";
-  --assetFontFileHeadline: "Roboto-Regular";
-  --assetFontFileBodyRegular: "Roboto-Regular";
-  --assetFontFileBodyBold: "Roboto-Medium";
+  --assetFontFileDisplay: "roboto_regular";
+  --assetFontFileHeadline: "roboto_regular";
+  --assetFontFileBodyRegular: "roboto_regular";
+  --assetFontFileBodyBold: "roboto_medium";
   --assetBrandNeutralAFile: "biome-a-official-dark";
   --assetBrandNeutralAWidth: "256";
   --assetBrandNeutralAHeight: "82";

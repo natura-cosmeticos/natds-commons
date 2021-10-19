@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Zapf Humanist 601';
+    src: url('zapf_humanist601bt_roman.eot');
+    src: url('zapf_humanist601bt_roman.eot?#iefix') format('embedded-opentype'),
+        url('zapf_humanist601bt_roman.woff2') format('woff2'),
+        url('zapf_humanist601bt_roman.woff') format('woff'),
+        url('zapf_humanist601bt_roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+

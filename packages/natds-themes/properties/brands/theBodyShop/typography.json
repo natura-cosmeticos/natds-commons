@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "DrukCy-Bold"
+          "value": "druk_cy_bold"
         },
         "headline": {
-          "value": "Recoleta-SemiBold"
+          "value": "recoleta_semi_bold"
         },
         "body": {
           "regular": {
-            "value": "WorkSans-Regular"
+            "value": "work_sans_regular"
           },
           "bold": {
-            "value": "WorkSans-Bold"
+            "value": "work_sans_bold"
           }
         }
       }

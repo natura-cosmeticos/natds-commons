@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Zapf Humanist 601';
-    src: url('ZapfHumanist601BT-Roman.eot');
-    src: url('ZapfHumanist601BT-Roman.eot?#iefix') format('embedded-opentype'),
-        url('ZapfHumanist601BT-Roman.woff2') format('woff2'),
-        url('ZapfHumanist601BT-Roman.woff') format('woff'),
-        url('ZapfHumanist601BT-Roman.ttf') format('truetype');
+    src: url('zapf_humanist601bt_roman.eot');
+    src: url('zapf_humanist601bt_roman.eot?#iefix') format('embedded-opentype'),
+        url('zapf_humanist601bt_roman.woff2') format('woff2'),
+        url('zapf_humanist601bt_roman.woff') format('woff'),
+        url('zapf_humanist601bt_roman.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: "Suisse Int'l";
-    src: url('SuisseIntl-Regular.eot');
-    src: url('SuisseIntl-Regular.eot?#iefix') format('embedded-opentype'),
-        url('SuisseIntl-Regular.woff2') format('woff2'),
-        url('SuisseIntl-Regular.woff') format('woff'),
-        url('SuisseIntl-Regular.ttf') format('truetype');
+    src: url('suisse_intl_regular.eot');
+    src: url('suisse_intl_regular.eot?#iefix') format('embedded-opentype'),
+        url('suisse_intl_regular.woff2') format('woff2'),
+        url('suisse_intl_regular.woff') format('woff'),
+        url('suisse_intl_regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;

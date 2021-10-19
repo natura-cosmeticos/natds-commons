@@ -11,14 +11,14 @@ const buildAndroidConfig = (brand, mode) => ({
     },
     {
       brandName: capitalizeWord(brand),
-      destination: `theme/${brand}/theme_${brand}_${mode}.xml`,
+      destination: `theme/theme_${brand}_${mode}_ssot.xml`,
       filter: 'privateProperties',
       format: 'android/themes',
       mode: capitalizeWord(mode),
     },
     {
       brandName: capitalizeWord(brand),
-      destination: `spectrum/${brand}/spectrum_${brand}.xml`,
+      destination: `spectrum/spectrum_${brand}_ssot.xml`,
       filter: 'spectrumProperties',
       format: 'android/spectrum',
       mode: capitalizeWord(mode),

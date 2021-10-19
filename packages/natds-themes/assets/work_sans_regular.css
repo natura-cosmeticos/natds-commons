@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('work_sans_regular.eot');
+    src: url('work_sans_regular.eot?#iefix') format('embedded-opentype'),
+        url('work_sans_regular.woff2') format('woff2'),
+        url('work_sans_regular.woff') format('woff'),
+        url('work_sans_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

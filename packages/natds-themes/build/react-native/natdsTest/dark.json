@@ -695,11 +695,11 @@
   "asset": {
     "font": {
       "file": {
-        "display": "Montserrat-Bold",
-        "headline": "Montserrat-SemiBold",
+        "display": "montserrat_bold",
+        "headline": "montserrat_semi_bold",
         "body": {
-          "regular": "Montserrat-Regular",
-          "bold": "Montserrat-Bold"
+          "regular": "montserrat_regular",
+          "bold": "montserrat_bold"
         }
       }
     },

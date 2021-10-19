@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('recoleta_semi_bold.eot');
+    src: url('recoleta_semi_bold.eot?#iefix') format('embedded-opentype'),
+        url('recoleta_semi_bold.woff2') format('woff2'),
+        url('recoleta_semi_bold.woff') format('woff'),
+        url('recoleta_semi_bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -382,10 +382,10 @@
   --colorOnWarning: #333333;
   --colorAlert: #e74627;
   --colorOnAlert: #ffffff;
-  --assetFontFileDisplay: "Montserrat-Bold";
-  --assetFontFileHeadline: "Montserrat-SemiBold";
-  --assetFontFileBodyRegular: "Montserrat-Regular";
-  --assetFontFileBodyBold: "Montserrat-Bold";
+  --assetFontFileDisplay: "montserrat_bold";
+  --assetFontFileHeadline: "montserrat_semi_bold";
+  --assetFontFileBodyRegular: "montserrat_regular";
+  --assetFontFileBodyBold: "montserrat_bold";
   --assetBrandNeutralAFile: "avon-a-official-dark";
   --assetBrandNeutralAWidth: "256";
   --assetBrandNeutralAHeight: "58";

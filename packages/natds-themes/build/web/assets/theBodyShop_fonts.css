@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Druk Cy';
-    src: url('DrukCy-Bold.eot');
-    src: url('DrukCy-Bold.eot?#iefix') format('embedded-opentype'),
-        url('DrukCy-Bold.woff2') format('woff2'),
-        url('DrukCy-Bold.woff') format('woff'),
-        url('DrukCy-Bold.ttf') format('truetype');
+    src: url('druk_cy_bold.eot');
+    src: url('druk_cy_bold.eot?#iefix') format('embedded-opentype'),
+        url('druk_cy_bold.woff2') format('woff2'),
+        url('druk_cy_bold.woff') format('woff'),
+        url('druk_cy_bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-SemiBold.eot');
-    src: url('Recoleta-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-SemiBold.woff2') format('woff2'),
-        url('Recoleta-SemiBold.woff') format('woff'),
-        url('Recoleta-SemiBold.ttf') format('truetype');
+    src: url('recoleta_semi_bold.eot');
+    src: url('recoleta_semi_bold.eot?#iefix') format('embedded-opentype'),
+        url('recoleta_semi_bold.woff2') format('woff2'),
+        url('recoleta_semi_bold.woff') format('woff'),
+        url('recoleta_semi_bold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -26,11 +26,11 @@
 
 @font-face {
     font-family: 'Work Sans';
-    src: url('WorkSans-Regular.eot');
-    src: url('WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('WorkSans-Regular.woff2') format('woff2'),
-        url('WorkSans-Regular.woff') format('woff'),
-        url('WorkSans-Regular.ttf') format('truetype');
+    src: url('work_sans_regular.eot');
+    src: url('work_sans_regular.eot?#iefix') format('embedded-opentype'),
+        url('work_sans_regular.woff2') format('woff2'),
+        url('work_sans_regular.woff') format('woff'),
+        url('work_sans_regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -38,11 +38,11 @@
 
 @font-face {
     font-family: 'Work Sans';
-    src: url('WorkSans-Bold.eot');
-    src: url('WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('WorkSans-Bold.woff2') format('woff2'),
-        url('WorkSans-Bold.woff') format('woff'),
-        url('WorkSans-Bold.ttf') format('truetype');
+    src: url('work_sans_bold.eot');
+    src: url('work_sans_bold.eot?#iefix') format('embedded-opentype'),
+        url('work_sans_bold.woff2') format('woff2'),
+        url('work_sans_bold.woff') format('woff'),
+        url('work_sans_bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;

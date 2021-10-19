@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "Montserrat-Bold"
+          "value": "montserrat_bold"
         },
         "headline": {
-          "value": "Montserrat-SemiBold"
+          "value": "montserrat_semi_bold"
         },
         "body": {
           "regular":{
-            "value": "Montserrat-Regular"
+            "value": "montserrat_regular"
           },
           "bold":{
-            "value": "Montserrat-Bold"
+            "value": "montserrat_bold"
           }
         }
       }
