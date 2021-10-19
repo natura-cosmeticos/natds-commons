@@ -695,11 +695,11 @@
   "asset": {
     "font": {
       "file": {
-        "display": "Roboto-Regular",
-        "headline": "Roboto-Regular",
+        "display": "roboto_regular",
+        "headline": "roboto_regular",
         "body": {
-          "regular": "Roboto-Regular",
-          "bold": "Roboto-Medium"
+          "regular": "roboto_regular",
+          "bold": "roboto_medium"
         }
       }
     },

@@ -382,10 +382,10 @@
   --colorOnWarning: #333333;
   --colorAlert: #e74627;
   --colorOnAlert: #ffffff;
-  --assetFontFileDisplay: "HelveticaNowDisplay-Bd";
-  --assetFontFileHeadline: "HelveticaNowDisplay-Md";
-  --assetFontFileBodyRegular: "HelveticaNowDisplay-Regular";
-  --assetFontFileBodyBold: "HelveticaNowDisplay-Bd";
+  --assetFontFileDisplay: "helvetica_now_display_bd";
+  --assetFontFileHeadline: "helvetica_now_display_md";
+  --assetFontFileBodyRegular: "helvetica_now_display_regular";
+  --assetFontFileBodyBold: "helvetica_now_display_bd";
   --assetBrandNeutralAFile: "natura-a-official";
   --assetBrandNeutralAWidth: "256";
   --assetBrandNeutralAHeight: "55";

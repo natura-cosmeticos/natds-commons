@@ -382,10 +382,10 @@
   --colorOnWarning: #333333;
   --colorAlert: #e74627;
   --colorOnAlert: #ffffff;
-  --assetFontFileDisplay: "DrukCy-Bold";
-  --assetFontFileHeadline: "Recoleta-SemiBold";
-  --assetFontFileBodyRegular: "WorkSans-Regular";
-  --assetFontFileBodyBold: "WorkSans-Bold";
+  --assetFontFileDisplay: "druk_cy_bold";
+  --assetFontFileHeadline: "recoleta_semi_bold";
+  --assetFontFileBodyRegular: "work_sans_regular";
+  --assetFontFileBodyBold: "work_sans_bold";
   --assetBrandNeutralAFile: "thebodyshop-a-official-dark";
   --assetBrandNeutralAWidth: "256";
   --assetBrandNeutralAHeight: "27";

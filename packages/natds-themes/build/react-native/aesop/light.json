@@ -695,11 +695,11 @@
   "asset": {
     "font": {
       "file": {
-        "display": "ZapfHumanist601BT-Roman",
-        "headline": "SuisseIntl-Regular",
+        "display": "zapf_humanist601bt_roman",
+        "headline": "suisse_intl_regular",
         "body": {
-          "regular": "SuisseIntl-Regular",
-          "bold": "SuisseIntl-Regular"
+          "regular": "suisse_intl_regular",
+          "bold": "suisse_intl_regular"
         }
       }
     },

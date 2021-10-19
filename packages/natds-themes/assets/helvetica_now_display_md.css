@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('helvetica_now_display_md.eot');
+    src: url('helvetica_now_display_md.eot?#iefix') format('embedded-opentype'),
+        url('helvetica_now_display_md.woff2') format('woff2'),
+        url('helvetica_now_display_md.woff') format('woff'),
+        url('helvetica_now_display_md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

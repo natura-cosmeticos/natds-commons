@@ -695,11 +695,11 @@
   "asset": {
     "font": {
       "file": {
-        "display": "DrukCy-Bold",
-        "headline": "Recoleta-SemiBold",
+        "display": "druk_cy_bold",
+        "headline": "recoleta_semi_bold",
         "body": {
-          "regular": "WorkSans-Regular",
-          "bold": "WorkSans-Bold"
+          "regular": "work_sans_regular",
+          "bold": "work_sans_bold"
         }
       }
     },
