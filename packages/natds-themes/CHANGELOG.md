@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.16.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.4...@naturacosmeticos/natds-themes@0.16.5) (2021-10-21)
+
+
+### Bug Fixes
+
+* **natds-themes:** add missing baoba assets ([7c93730](https://github.com/natura-cosmeticos/natds-commons/commit/7c93730a35e929a833e08e665cb3183e5919d795))
+
+
+
+
+
 ## [0.16.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.3...@naturacosmeticos/natds-themes@0.16.4) (2021-10-19)
 
 
