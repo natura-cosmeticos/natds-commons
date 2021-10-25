@@ -6,6 +6,8 @@ import {
   isDimension,
   isDimensionWithUnit,
   isUnitlessDimension,
+  filterSearchAndFontFamilyProps,
+  filterPrivateAndFontFamilyProps,
 } from './helpers';
 
 const prop = {
@@ -144,7 +146,7 @@ describe('helpers', () => {
       expect(result).toEqual(false);
     });
 
-    it('should return false if it not a private prop', () => {
+    it('should return false if it is a private prop', () => {
       const privateProp = {
         ...prop,
         path: ['platform', 'spacing', 'small'],
@@ -153,6 +155,65 @@ describe('helpers', () => {
       const result = isDimension(privateProp);
 
       expect(result).toEqual(false);
+    });
+  });
+
+  describe('filterPrivateAndFontFamilyProps', () => {
+    it('should return false if it is a private prop', () => {
+      const privateProp = {
+        ...prop,
+        path: ['platform', 'spacing', 'small'],
+      };
+
+      const result = filterPrivateAndFontFamilyProps(privateProp);
+
+      expect(result).toEqual(false);
+    });
+
+    it('should return false if it is a font family prop', () => {
+      const privateProp = {
+        ...prop,
+        path: ['typography', 'fontFamily', 'small'],
+      };
+
+      const result = filterPrivateAndFontFamilyProps(privateProp);
+
+      expect(result).toEqual(false);
+    });
+
+    it('should return true if it is an allowed prop', () => {
+      const privateProp = {
+        ...prop,
+        path: ['typography', 'lineHeight', 'small'],
+      };
+
+      const result = filterPrivateAndFontFamilyProps(privateProp);
+
+      expect(result).toEqual(true);
+    });
+  });
+
+  describe('filterSearchAndFontFamilyProps', () => {
+    it('should return false if it is a font family prop', () => {
+      const privateProp = {
+        ...prop,
+        path: ['typography', 'fontFamily', 'small'],
+      };
+
+      const result = filterSearchAndFontFamilyProps(privateProp);
+
+      expect(result).toEqual(false);
+    });
+
+    it('should return true if it is an allowed prop', () => {
+      const privateProp = {
+        ...prop,
+        path: ['typography', 'lineHeight', 'small'],
+      };
+
+      const result = filterSearchAndFontFamilyProps(privateProp);
+
+      expect(result).toEqual(true);
     });
   });
 });

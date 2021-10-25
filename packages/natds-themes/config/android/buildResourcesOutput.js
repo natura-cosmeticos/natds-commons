@@ -21,12 +21,12 @@ export const buildResourcesFromThemeValues = (resourceType) => {
 
   const colorsXml = template({ [resourceType]: buildUniqueEncodedArray(themeValues) });
 
-  fs.writeFileSync(`${outputPath}/${resourceType}.xml`, colorsXml);
+  fs.writeFileSync(`${outputPath}/${resourceType}_ssot.xml`, colorsXml);
   fs.unlinkSync(resourceFilePath);
 };
 
 export const buildResourcesOutput = () => {
   registerTemplateHeaderHelper();
   buildResourcesFromThemeValues('colors');
-  buildResourcesFromThemeValues('dimensions');
+  buildResourcesFromThemeValues('dimens');
 };
