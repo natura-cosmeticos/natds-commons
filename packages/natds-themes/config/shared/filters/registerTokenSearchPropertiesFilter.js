@@ -1,3 +1,5 @@
+import { isProp } from '../helpers';
+
 const tokenCategories = [
   'size',
   'spacing',
@@ -6,10 +8,13 @@ const tokenCategories = [
   'color',
   'elevation',
   'opacity',
+  'asset',
 ];
 
+export const isTokenSearchProp = (prop) => tokenCategories.includes(prop.attributes.category) && !isProp('brand')(prop);
+
 export const registerTokenSearchPropertiesFilter = () => ({
-  matcher: ({ attributes: { category } }) => tokenCategories.includes(category),
+  matcher: isTokenSearchProp,
   name: 'tokenSearchProperties',
 });
 

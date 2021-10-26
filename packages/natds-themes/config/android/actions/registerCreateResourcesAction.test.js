@@ -24,7 +24,7 @@ describe('registerCreateResourcesAction', () => {
       createPathsAction.do({}, {});
 
       expect(createOutputPathInfoSpy).toHaveBeenNthCalledWith(1, 'build/android/theme/colors.json', expect.any(Function), {}, {});
-      expect(createOutputPathInfoSpy).toHaveBeenNthCalledWith(2, 'build/android/theme/dimensions.json', expect.any(Function), {}, {});
+      expect(createOutputPathInfoSpy).toHaveBeenNthCalledWith(2, 'build/android/theme/dimens.json', expect.any(Function), {}, {});
     });
   });
 
@@ -35,7 +35,7 @@ describe('registerCreateResourcesAction', () => {
       createPathsAction.undo();
 
       expect(fs.unlinkSync).toHaveBeenNthCalledWith(1, 'build/android/theme/colors.json');
-      expect(fs.unlinkSync).toHaveBeenNthCalledWith(2, 'build/android/theme/dimensions.json');
+      expect(fs.unlinkSync).toHaveBeenNthCalledWith(2, 'build/android/theme/dimens.json');
     });
   });
 

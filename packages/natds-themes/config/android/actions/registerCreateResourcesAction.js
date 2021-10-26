@@ -5,7 +5,7 @@ import { createOutputPathInfo } from '../../shared/helpers';
 
 const outputPath = 'build/android/theme';
 const colorsOutputPath = `${outputPath}/colors.json`;
-const dimensionsOutputPath = `${outputPath}/dimensions.json`;
+const dimensionsOutputPath = `${outputPath}/dimens.json`;
 
 export const dataBuilder = (filterFn) => (dictionary) => mapFilteredValues(
   dictionary.allProperties,

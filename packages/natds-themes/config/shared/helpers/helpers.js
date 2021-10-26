@@ -33,6 +33,7 @@ export const isLogoAssetFile = both(isAssetFile, isProp('brand'));
 export const isFontAssetFile = both(isAssetFile, isProp('font'));
 export const isCustomAsset = both(isAssetFile, isProp('custom'));
 export const hasAlpha = (value) => value.length === 9;
+export const isFontFamilyProp = isProp('fontFamily');
 
 export const flattenProps = (properties) => {
   const isProperty = has('name');
@@ -104,9 +105,7 @@ export const convertBase64ToExternalImage = (assetName) => (acc, item, index) =>
 };
 
 export const buildColors = (value) => {
-  if (!Array.isArray(value)) {
-    return { value };
-  }
+  if (!Array.isArray(value)) return { value };
 
   return value.reduce((acc, color, index) => ({
     ...acc,

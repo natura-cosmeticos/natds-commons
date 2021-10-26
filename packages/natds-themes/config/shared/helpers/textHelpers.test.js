@@ -1,4 +1,4 @@
-import { capitalizeWord, arrayToCamelCase } from './textHelpers';
+import { capitalizeWord, arrayToCamelCase, camelToSnakeCase } from './textHelpers';
 
 describe('textHelpers', () => {
   describe('capitalizeWord', () => {
@@ -14,6 +14,14 @@ describe('textHelpers', () => {
       const array = ['an', 'array', 'of', 'words'];
 
       expect(arrayToCamelCase(array)).toEqual('anArrayOfWords');
+    });
+  });
+
+  describe('camelToSnakeCase', () => {
+    it('should convert the given string to a snake case string', () => {
+      const string = 'sampleSmallText';
+
+      expect(camelToSnakeCase(string)).toEqual('sample_small_text');
     });
   });
 });
