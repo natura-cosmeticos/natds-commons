@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { checkDir } from '.';
 import {
   isPrivateProp,
   isProp,
@@ -290,6 +291,28 @@ describe('helpers', () => {
       const expectedResult = hasAlpha('#FFFFFF');
 
       expect(expectedResult).toEqual(false);
+    });
+  });
+
+  describe('checkDir', () => {
+    afterEach(() => {
+      jest.resetAllMocks();
+    });
+
+    it('should call mkdirSync with given path when it dont exists', () => {
+      fs.existsSync.mockReturnValue(false);
+
+      checkDir('some/path');
+
+      expect(fs.mkdirSync).toHaveBeenCalledWith('some/path', { recursive: true });
+    });
+
+    it('should not call mkdirSync when the given path already exists', () => {
+      fs.existsSync.mockReturnValue(true);
+
+      checkDir('some/path');
+
+      expect(fs.mkdirSync).not.toHaveBeenCalled();
     });
   });
 });

@@ -27,9 +27,9 @@ describe('registerAssetExtensionTransform', () => {
 
     const config = registerAssetExtensionTransform();
 
-    const result = config.transformer(prop, { buildPath: 'build/android/avon' });
+    const result = config.transformer(prop, { buildPath: 'build/web/avon' });
 
-    expect(result).toEqual({ assetOptions: { extensions: ['svg', 'png'] } });
+    expect(result).toEqual({ assetOptions: { extensions: ['svg'] } });
   });
 
   it('should add the font extensions by platform', () => {
@@ -39,9 +39,9 @@ describe('registerAssetExtensionTransform', () => {
 
     const config = registerAssetExtensionTransform();
 
-    const result = config.transformer(prop, { buildPath: 'build/android/avon' });
+    const result = config.transformer(prop, { buildPath: 'build/web/avon' });
 
-    expect(result).toEqual({ assetOptions: { extensions: ['ttf'] } });
+    expect(result).toEqual({ assetOptions: { extensions: ['ttf', 'eot', 'woff', 'woff2'] } });
   });
 
   it('should match only assets', () => {

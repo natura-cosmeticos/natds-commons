@@ -5,7 +5,7 @@ export const buildAndroidConfig = (brand, mode) => {
   const brandName = camelToSnakeCase(brand);
 
   return {
-    actions: ['create_resources', 'custom_copy_assets'],
+    actions: ['create_resources', 'convert_drawables', 'custom_copy_assets'],
     buildPath: 'build/android/',
     files: [
       {

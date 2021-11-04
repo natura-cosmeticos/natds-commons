@@ -9,8 +9,9 @@ import {
 import { isAssetFile, flattenProps } from '../helpers/helpers';
 import { toSnakeCase } from '../helpers';
 
-const assetsSourcePath = 'assets';
-const pngSizes = ['1.5x', '2x', '3x', '4x'];
+export const assetsSourcePath = 'assets';
+
+export const pngSizes = ['1.5x', '2x', '3x', '4x'];
 
 const buildPath = (basePath) => pipe(concat([resolve(basePath)]), join('/'), of);
 const buildFileName = curryN(2, pipe(pair, join('.')));
