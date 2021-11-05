@@ -455,7 +455,7 @@
       "lineHeight": 1.25,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": 500
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
