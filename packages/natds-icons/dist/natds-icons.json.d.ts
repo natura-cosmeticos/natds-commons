@@ -22,6 +22,7 @@ interface RootObject {
   'filled-brand-twitter': string;
   'filled-brand-whatsapp': string;
   'filled-brand-youtube': string;
+  'filled-communication-noconnection': string;
   'filled-content-channel': string;
   'filled-content-divulgation': string;
   'filled-content-quote': string;
@@ -126,6 +127,7 @@ interface RootObject {
   'outlined-communication-email': string;
   'outlined-communication-help': string;
   'outlined-communication-message': string;
+  'outlined-communication-noconnection': string;
   'outlined-communication-occurrence': string;
   'outlined-communication-phoneringing': string;
   'outlined-communication-readEmail': string;

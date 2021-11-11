@@ -40,6 +40,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-twitter": string;
   readonly "natds-icons-filled-brand-whatsapp": string;
   readonly "natds-icons-filled-brand-youtube": string;
+  readonly "natds-icons-filled-communication-noconnection": string;
   readonly "natds-icons-filled-content-channel": string;
   readonly "natds-icons-filled-content-divulgation": string;
   readonly "natds-icons-filled-content-quote": string;
@@ -144,6 +145,7 @@ declare const styles: {
   readonly "natds-icons-outlined-communication-email": string;
   readonly "natds-icons-outlined-communication-help": string;
   readonly "natds-icons-outlined-communication-message": string;
+  readonly "natds-icons-outlined-communication-noconnection": string;
   readonly "natds-icons-outlined-communication-occurrence": string;
   readonly "natds-icons-outlined-communication-phoneringing": string;
   readonly "natds-icons-outlined-communication-readEmail": string;
