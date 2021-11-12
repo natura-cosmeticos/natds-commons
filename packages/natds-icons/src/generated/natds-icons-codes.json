@@ -68,6 +68,9 @@
 	"filled-brand-youtube": [
 		""
 	],
+	"filled-communication-noconnection": [
+		""
+	],
 	"filled-content-channel": [
 		""
 	],
@@ -379,6 +382,9 @@
 	],
 	"outlined-communication-message": [
 		""
+	],
+	"outlined-communication-noconnection": [
+		""
 	],
 	"outlined-communication-occurrence": [
 		""

@@ -193,6 +193,10 @@
   content: "\ea12";
 }
 
+.natds-icons-filled-communication-noconnection::before {
+  content: "\eb17";
+}
+
 .natds-icons-filled-content-channel::before {
   content: "\ea13";
 }
@@ -607,6 +611,10 @@
 
 .natds-icons-outlined-communication-message::before {
   content: "\ea6d";
+}
+
+.natds-icons-outlined-communication-noconnection::before {
+  content: "\eb18";
 }
 
 .natds-icons-outlined-communication-occurrence::before {
