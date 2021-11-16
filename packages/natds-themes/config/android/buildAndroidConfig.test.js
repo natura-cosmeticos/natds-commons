@@ -6,7 +6,7 @@ jest.mock('../shared/helpers');
 describe('buildAndroidConfig', () => {
   it('should return the android config for the given brand and mode', () => {
     const expectedConfig = {
-      actions: ['create_resources', 'custom_copy_assets'],
+      actions: ['create_resources', 'convert_drawables', 'custom_copy_assets'],
       buildPath: 'build/android/',
       files: [
         {

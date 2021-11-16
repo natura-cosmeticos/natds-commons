@@ -7,11 +7,19 @@ import { registerAlphaTransform } from './transforms/registerAlphaTransform';
 import { registerAttributesFormat, registerSpectrumFormat } from './formats/registerAttributesFormat';
 import registerAndroidThemeFormat from './formats/registerThemeFormat';
 import { registerCreateResourcesAction } from './actions/registerCreateResourcesAction';
+import { registerConvertDrawablesAction } from './actions/registerConvertDrawablesAction';
 
 export default {
-  actions: [registerCreateResourcesAction],
+  actions: [
+    registerCreateResourcesAction,
+    registerConvertDrawablesAction,
+  ],
   config: androidConfig,
-  formats: [registerAndroidThemeFormat, registerAttributesFormat, registerSpectrumFormat],
+  formats: [
+    registerAndroidThemeFormat,
+    registerAttributesFormat,
+    registerSpectrumFormat,
+  ],
   transforms: [
     registerDpTransform,
     registerAttributeTypeTransform,

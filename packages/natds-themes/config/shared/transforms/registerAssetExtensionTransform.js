@@ -1,7 +1,7 @@
 import { isAssetFile, isProp } from '../helpers';
 
 const extensions = {
-  android: ['svg', 'png'],
+  android: [],
   css: ['svg'],
   html: ['svg'],
   ios: ['pdf'],

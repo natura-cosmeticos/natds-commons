@@ -34,6 +34,7 @@ export const isFontAssetFile = both(isAssetFile, isProp('font'));
 export const isCustomAsset = both(isAssetFile, isProp('custom'));
 export const hasAlpha = (value) => value.length === 9;
 export const isFontFamilyProp = isProp('fontFamily');
+export const checkDir = (dir) => !fs.existsSync(dir) && fs.mkdirSync(dir, { recursive: true });
 
 export const flattenProps = (properties) => {
   const isProperty = has('name');
