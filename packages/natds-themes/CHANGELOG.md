@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.7...@naturacosmeticos/natds-themes@0.17.0) (2021-11-16)
+
+
+### Features
+
+* **natds-icons:** add icons ([#310](https://github.com/natura-cosmeticos/natds-commons/issues/310)) ([2ccdcb8](https://github.com/natura-cosmeticos/natds-commons/commit/2ccdcb83f34c8d4d3189a45b2f1251204911c335))
+* **natds-themes:** convert android assets ([#308](https://github.com/natura-cosmeticos/natds-commons/issues/308)) ([0f26a6f](https://github.com/natura-cosmeticos/natds-commons/commit/0f26a6f987653338542ad05fb99af26ab8230ede))
+
+
+
+
+
 ## [0.16.7](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.16.6...@naturacosmeticos/natds-themes@0.16.7) (2021-11-05)
 
 
