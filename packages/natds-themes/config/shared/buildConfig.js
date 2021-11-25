@@ -22,6 +22,7 @@ export const buildConfig = (brand, mode, platform) => ({
     `properties/brands/${brand}/spectrum.json`,
     `properties/brands/${brand}/spectrum.js`,
     `properties/brands/${brand}/typography.json`,
+    `properties/brands/${brand}/components/*.json`,
     `properties/brands/${brand}/asset-${mode}.json`,
     `properties/platforms/${platform}/*.json`,
     `properties/platforms/${platform}/!(*.test).js`,

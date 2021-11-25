@@ -28,7 +28,7 @@
       }
     },
     "borderRadius": {
-      "value": "{borderRadius.medium.value}"
+      "value": "{private.button.borderRadius.value}"
     },
     "contained": {
       "color": {

@@ -106,6 +106,8 @@
   --buttonTextColorFocusBackground: #E3E3E3;
   --buttonTextColorFocusBorder: #FFFFFF00;
   --buttonTextColorFocusLabel: #333333;
+  --cardBorderRadiusEnable: 4px;
+  --cardBorderRadiusDisable: 0px;
   --checkboxLabelFontSize: 14px;
   --checkboxLabelLetterSpacing: 0.22px;
   --checkboxLabelLineHeight: 1.5;
@@ -113,6 +115,7 @@
   --checkboxLabelPrimaryFontWeight: 400;
   --checkboxLabelFallbackFontFamily: "Arial";
   --checkboxLabelFallbackFontWeight: 400;
+  --checkboxBorderRadius: 2px;
   --counterLabelPrimaryFontFamily: "Roboto";
   --counterLabelPrimaryFontWeight: 500;
   --counterLabelFallbackFontFamily: "Arial";
@@ -127,6 +130,7 @@
   --counterContentFontSize: 16px;
   --counterContentLetterSpacing: 0.51px;
   --counterContentLineHeight: 1.25;
+  --counterBorderRadius: 4px;
   --dialogTitleFontSize: 20px;
   --dialogTitleLetterSpacing: 0.24px;
   --dialogTitleLineHeight: 1.25;
@@ -141,6 +145,7 @@
   --dialogBodyPrimaryFontWeight: 400;
   --dialogBodyFallbackFontFamily: "Arial";
   --dialogBodyFallbackFontWeight: 400;
+  --dialogBorderRadius: 4px;
   --expansionPanelTitleFontSize: 16px;
   --expansionPanelTitleLetterSpacing: 0.13px;
   --expansionPanelTitleLineHeight: 1.5;
@@ -246,6 +251,7 @@
   --textFieldHelperTextFontSize: 12px;
   --textFieldHelperTextLetterSpacing: 0.38px;
   --textFieldHelperTextLineHeight: 1.25;
+  --textFieldBorderRadius: 4px;
   --heading1FontSize: 96px;
   --heading1FontWeight: 400;
   --heading1LetterSpacing: 0px;
