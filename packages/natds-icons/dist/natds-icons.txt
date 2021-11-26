@@ -6,7 +6,9 @@ filled_action_delete
 filled_action_dislike
 filled_action_love
 filled_action_newrequest
+filled_action_privacy
 filled_action_rating
+filled_action_register
 filled_action_request
 filled_action_subtract
 filled_brand_avonshorthand
@@ -25,6 +27,7 @@ filled_communication_noconnection
 filled_content_channel
 filled_content_divulgation
 filled_content_quote
+filled_content_violence
 filled_content_wifi
 filled_content_world
 filled_default_mockup
@@ -54,6 +57,7 @@ filled_navigation_settop
 filled_place_local
 filled_place_truck
 filled_product_brandsproduct
+filled_product_fashion
 filled_social_myprofile
 filled_toggle_indeterminatecheckbox
 outlined_action_add
@@ -93,9 +97,11 @@ outlined_action_newrequest
 outlined_action_order
 outlined_action_phone
 outlined_action_print
+outlined_action_privacy
 outlined_action_qr
 outlined_action_rating
 outlined_action_recycle
+outlined_action_register
 outlined_action_request
 outlined_action_requestspecial
 outlined_action_runningclock
@@ -121,6 +127,7 @@ outlined_alert_info
 outlined_alert_notification
 outlined_alert_notificationsbadge
 outlined_alert_warning
+outlined_avon_desenvolve
 outlined_brand_thebodyshop
 outlined_communication_chat
 outlined_communication_email
@@ -180,6 +187,7 @@ outlined_content_store
 outlined_content_sun
 outlined_content_sunandcloud
 outlined_content_unavailable
+outlined_content_violence
 outlined_content_virtualmirror
 outlined_content_wellness
 outlined_content_wifi
@@ -250,6 +258,7 @@ outlined_product_dailycare
 outlined_product_ekos
 outlined_product_erlenmeyer
 outlined_product_face
+outlined_product_fashion
 outlined_product_hair
 outlined_product_lashes
 outlined_product_liner

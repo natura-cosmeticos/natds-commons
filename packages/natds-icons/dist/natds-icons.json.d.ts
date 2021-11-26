@@ -7,7 +7,9 @@ interface RootObject {
   'filled-action-dislike': string;
   'filled-action-love': string;
   'filled-action-newrequest': string;
+  'filled-action-privacy': string;
   'filled-action-rating': string;
+  'filled-action-register': string;
   'filled-action-request': string;
   'filled-action-subtract': string;
   'filled-brand-avonshorthand': string;
@@ -26,6 +28,7 @@ interface RootObject {
   'filled-content-channel': string;
   'filled-content-divulgation': string;
   'filled-content-quote': string;
+  'filled-content-violence': string;
   'filled-content-wifi': string;
   'filled-content-world': string;
   'filled-default-mockup': string;
@@ -55,6 +58,7 @@ interface RootObject {
   'filled-place-local': string;
   'filled-place-truck': string;
   'filled-product-brandsproduct': string;
+  'filled-product-fashion': string;
   'filled-social-myprofile': string;
   'filled-toggle-indeterminatecheckbox': string;
   'outlined-action-add': string;
@@ -94,9 +98,11 @@ interface RootObject {
   'outlined-action-order': string;
   'outlined-action-phone': string;
   'outlined-action-print': string;
+  'outlined-action-privacy': string;
   'outlined-action-qr': string;
   'outlined-action-rating': string;
   'outlined-action-recycle': string;
+  'outlined-action-register': string;
   'outlined-action-request': string;
   'outlined-action-requestspecial': string;
   'outlined-action-runningclock': string;
@@ -122,6 +128,7 @@ interface RootObject {
   'outlined-alert-notification': string;
   'outlined-alert-notificationsbadge': string;
   'outlined-alert-warning': string;
+  'outlined-avon-desenvolve': string;
   'outlined-brand-thebodyshop': string;
   'outlined-communication-chat': string;
   'outlined-communication-email': string;
@@ -181,6 +188,7 @@ interface RootObject {
   'outlined-content-sun': string;
   'outlined-content-sunandcloud': string;
   'outlined-content-unavailable': string;
+  'outlined-content-violence': string;
   'outlined-content-virtualmirror': string;
   'outlined-content-wellness': string;
   'outlined-content-wifi': string;
@@ -251,6 +259,7 @@ interface RootObject {
   'outlined-product-ekos': string;
   'outlined-product-erlenmeyer': string;
   'outlined-product-face': string;
+  'outlined-product-fashion': string;
   'outlined-product-hair': string;
   'outlined-product-lashes': string;
   'outlined-product-liner': string;
