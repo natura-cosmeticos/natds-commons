@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.8.0...@naturacosmeticos/natds-icons@1.9.0) (2021-11-26)
+
+
+### Features
+
+* **natds-icons:** add icons ([#312](https://github.com/natura-cosmeticos/natds-commons/issues/312)) ([215c033](https://github.com/natura-cosmeticos/natds-commons/commit/215c0335c35bf6177699ed2c363f494f409095ed))
+
+
+
+
+
 # [1.8.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.7.0...@naturacosmeticos/natds-icons@1.8.0) (2021-11-12)
 
 
