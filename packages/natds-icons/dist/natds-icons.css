@@ -133,8 +133,16 @@
   content: "\ea06";
 }
 
+.natds-icons-filled-action-privacy::before {
+  content: "\eb19";
+}
+
 .natds-icons-filled-action-rating::before {
   content: "\ea07";
+}
+
+.natds-icons-filled-action-register::before {
+  content: "\eb1a";
 }
 
 .natds-icons-filled-action-request::before {
@@ -207,6 +215,10 @@
 
 .natds-icons-filled-content-quote::before {
   content: "\ea15";
+}
+
+.natds-icons-filled-content-violence::before {
+  content: "\eb1b";
 }
 
 .natds-icons-filled-content-wifi::before {
@@ -323,6 +335,10 @@
 
 .natds-icons-filled-product-brandsproduct::before {
   content: "\ea2a";
+}
+
+.natds-icons-filled-product-fashion::before {
+  content: "\eb1c";
 }
 
 .natds-icons-filled-social-myprofile::before {
@@ -481,6 +497,10 @@
   content: "\ea4f";
 }
 
+.natds-icons-outlined-action-privacy::before {
+  content: "\eb1d";
+}
+
 .natds-icons-outlined-action-qr::before {
   content: "\ea50";
 }
@@ -491,6 +511,10 @@
 
 .natds-icons-outlined-action-recycle::before {
   content: "\ea52";
+}
+
+.natds-icons-outlined-action-register::before {
+  content: "\eb1e";
 }
 
 .natds-icons-outlined-action-request::before {
@@ -591,6 +615,10 @@
 
 .natds-icons-outlined-alert-warning::before {
   content: "\ea69";
+}
+
+.natds-icons-outlined-avon-desenvolve::before {
+  content: "\eb1f";
 }
 
 .natds-icons-outlined-brand-thebodyshop::before {
@@ -827,6 +855,10 @@
 
 .natds-icons-outlined-content-unavailable::before {
   content: "\eb00";
+}
+
+.natds-icons-outlined-content-violence::before {
+  content: "\eb20";
 }
 
 .natds-icons-outlined-content-virtualmirror::before {
@@ -1107,6 +1139,10 @@
 
 .natds-icons-outlined-product-face::before {
   content: "\eacd";
+}
+
+.natds-icons-outlined-product-fashion::before {
+  content: "\eb21";
 }
 
 .natds-icons-outlined-product-hair::before {

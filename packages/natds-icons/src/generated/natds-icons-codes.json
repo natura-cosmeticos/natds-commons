@@ -23,8 +23,14 @@
 	"filled-action-newrequest": [
 		""
 	],
+	"filled-action-privacy": [
+		""
+	],
 	"filled-action-rating": [
 		""
+	],
+	"filled-action-register": [
+		""
 	],
 	"filled-action-request": [
 		""
@@ -79,6 +85,9 @@
 	],
 	"filled-content-quote": [
 		""
+	],
+	"filled-content-violence": [
+		""
 	],
 	"filled-content-wifi": [
 		""
@@ -166,6 +175,9 @@
 	],
 	"filled-product-brandsproduct": [
 		""
+	],
+	"filled-product-fashion": [
+		""
 	],
 	"filled-social-myprofile": [
 		""
@@ -284,6 +296,9 @@
 	"outlined-action-print": [
 		""
 	],
+	"outlined-action-privacy": [
+		""
+	],
 	"outlined-action-qr": [
 		""
 	],
@@ -292,6 +307,9 @@
 	],
 	"outlined-action-recycle": [
 		""
+	],
+	"outlined-action-register": [
+		""
 	],
 	"outlined-action-request": [
 		""
@@ -367,6 +385,9 @@
 	],
 	"outlined-alert-warning": [
 		""
+	],
+	"outlined-avon-desenvolve": [
+		""
 	],
 	"outlined-brand-thebodyshop": [
 		""
@@ -544,6 +565,9 @@
 	],
 	"outlined-content-unavailable": [
 		""
+	],
+	"outlined-content-violence": [
+		""
 	],
 	"outlined-content-virtualmirror": [
 		""
@@ -754,6 +778,9 @@
 	],
 	"outlined-product-face": [
 		""
+	],
+	"outlined-product-fashion": [
+		""
 	],
 	"outlined-product-hair": [
 		""

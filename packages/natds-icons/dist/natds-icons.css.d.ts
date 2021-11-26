@@ -25,7 +25,9 @@ declare const styles: {
   readonly "natds-icons-filled-action-dislike": string;
   readonly "natds-icons-filled-action-love": string;
   readonly "natds-icons-filled-action-newrequest": string;
+  readonly "natds-icons-filled-action-privacy": string;
   readonly "natds-icons-filled-action-rating": string;
+  readonly "natds-icons-filled-action-register": string;
   readonly "natds-icons-filled-action-request": string;
   readonly "natds-icons-filled-action-subtract": string;
   readonly "natds-icons-filled-brand-avonshorthand": string;
@@ -44,6 +46,7 @@ declare const styles: {
   readonly "natds-icons-filled-content-channel": string;
   readonly "natds-icons-filled-content-divulgation": string;
   readonly "natds-icons-filled-content-quote": string;
+  readonly "natds-icons-filled-content-violence": string;
   readonly "natds-icons-filled-content-wifi": string;
   readonly "natds-icons-filled-content-world": string;
   readonly "natds-icons-filled-default-mockup": string;
@@ -73,6 +76,7 @@ declare const styles: {
   readonly "natds-icons-filled-place-local": string;
   readonly "natds-icons-filled-place-truck": string;
   readonly "natds-icons-filled-product-brandsproduct": string;
+  readonly "natds-icons-filled-product-fashion": string;
   readonly "natds-icons-filled-social-myprofile": string;
   readonly "natds-icons-filled-toggle-indeterminatecheckbox": string;
   readonly "natds-icons-outlined-action-add": string;
@@ -112,9 +116,11 @@ declare const styles: {
   readonly "natds-icons-outlined-action-order": string;
   readonly "natds-icons-outlined-action-phone": string;
   readonly "natds-icons-outlined-action-print": string;
+  readonly "natds-icons-outlined-action-privacy": string;
   readonly "natds-icons-outlined-action-qr": string;
   readonly "natds-icons-outlined-action-rating": string;
   readonly "natds-icons-outlined-action-recycle": string;
+  readonly "natds-icons-outlined-action-register": string;
   readonly "natds-icons-outlined-action-request": string;
   readonly "natds-icons-outlined-action-requestspecial": string;
   readonly "natds-icons-outlined-action-runningclock": string;
@@ -140,6 +146,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-notification": string;
   readonly "natds-icons-outlined-alert-notificationsbadge": string;
   readonly "natds-icons-outlined-alert-warning": string;
+  readonly "natds-icons-outlined-avon-desenvolve": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;
@@ -199,6 +206,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-sun": string;
   readonly "natds-icons-outlined-content-sunandcloud": string;
   readonly "natds-icons-outlined-content-unavailable": string;
+  readonly "natds-icons-outlined-content-violence": string;
   readonly "natds-icons-outlined-content-virtualmirror": string;
   readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;
@@ -269,6 +277,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-ekos": string;
   readonly "natds-icons-outlined-product-erlenmeyer": string;
   readonly "natds-icons-outlined-product-face": string;
+  readonly "natds-icons-outlined-product-fashion": string;
   readonly "natds-icons-outlined-product-hair": string;
   readonly "natds-icons-outlined-product-lashes": string;
   readonly "natds-icons-outlined-product-liner": string;
