@@ -621,6 +621,10 @@
   content: "\eb1f";
 }
 
+.natds-icons-outlined-brand-avondesenvolve::before {
+  content: "\eb22";
+}
+
 .natds-icons-outlined-brand-thebodyshop::before {
   content: "\eb13";
 }
