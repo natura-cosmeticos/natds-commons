@@ -147,6 +147,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-notificationsbadge": string;
   readonly "natds-icons-outlined-alert-warning": string;
   readonly "natds-icons-outlined-avon-desenvolve": string;
+  readonly "natds-icons-outlined-brand-avondesenvolve": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;

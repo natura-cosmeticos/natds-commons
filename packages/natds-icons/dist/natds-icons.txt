@@ -128,6 +128,7 @@ outlined_alert_notification
 outlined_alert_notificationsbadge
 outlined_alert_warning
 outlined_avon_desenvolve
+outlined_brand_avondesenvolve
 outlined_brand_thebodyshop
 outlined_communication_chat
 outlined_communication_email
