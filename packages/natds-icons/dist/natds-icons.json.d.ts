@@ -128,7 +128,6 @@ interface RootObject {
   'outlined-alert-notification': string;
   'outlined-alert-notificationsbadge': string;
   'outlined-alert-warning': string;
-  'outlined-avon-desenvolve': string;
   'outlined-brand-avondesenvolve': string;
   'outlined-brand-thebodyshop': string;
   'outlined-communication-chat': string;
