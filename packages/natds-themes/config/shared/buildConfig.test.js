@@ -23,6 +23,7 @@ const expectedConfig = {
     'properties/brands/pokemon/spectrum.json',
     'properties/brands/pokemon/spectrum.js',
     'properties/brands/pokemon/typography.json',
+    'properties/brands/pokemon/components/*.json',
     'properties/brands/pokemon/asset-pikachu.json',
     'properties/platforms/ios/*.json',
     'properties/platforms/ios/!(*.test).js',

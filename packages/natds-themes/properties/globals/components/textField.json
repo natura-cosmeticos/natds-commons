@@ -80,6 +80,9 @@
       "lineHeight": {
         "value": "{typography.lineHeight.small.value}"
       }
+    },
+    "borderRadius": {
+      "value": "{borderRadius.medium.value}"
     }
   }
 }

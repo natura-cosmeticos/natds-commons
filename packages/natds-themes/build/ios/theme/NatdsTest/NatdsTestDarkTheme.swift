@@ -267,7 +267,7 @@ struct NatdsTestDarkComponents: Components {
   let buttonLabelPrimaryFontWeight: UIFont.Weight = .medium
   let buttonLabelFallbackFontFamily = "San Francisco"
   let buttonLabelFallbackFontWeight: UIFont.Weight = .medium
-  let buttonBorderRadius: CGFloat = 4
+  let buttonBorderRadius: CGFloat = 0
   let buttonContainedColorEnableBackground = "#BE9AE2"
   let buttonContainedColorEnableBorder = "#FFFFFF00"
   let buttonContainedColorEnableLabel = "#000000"
@@ -304,6 +304,8 @@ struct NatdsTestDarkComponents: Components {
   let buttonTextColorFocusBackground = "#495057"
   let buttonTextColorFocusBorder = "#FFFFFF00"
   let buttonTextColorFocusLabel = "#FAFAFA"
+  let cardBorderRadiusEnable: CGFloat = 4
+  let cardBorderRadiusDisable: CGFloat = 0
   let checkboxLabelFontSize: CGFloat = 14
   let checkboxLabelLetterSpacing: CGFloat = 0.16
   let checkboxLabelLineHeight: CGFloat = 1.5
@@ -311,6 +313,7 @@ struct NatdsTestDarkComponents: Components {
   let checkboxLabelPrimaryFontWeight: UIFont.Weight = .regular
   let checkboxLabelFallbackFontFamily = "San Francisco"
   let checkboxLabelFallbackFontWeight: UIFont.Weight = .regular
+  let checkboxBorderRadius: CGFloat = 2
   let counterLabelPrimaryFontFamily = "San Francisco"
   let counterLabelPrimaryFontWeight: UIFont.Weight = .medium
   let counterLabelFallbackFontFamily = "San Francisco"
@@ -325,6 +328,7 @@ struct NatdsTestDarkComponents: Components {
   let counterContentFontSize: CGFloat = 16
   let counterContentLetterSpacing: CGFloat = 0.32
   let counterContentLineHeight: CGFloat = 1.25
+  let counterBorderRadius: CGFloat = 4
   let dialogTitleFontSize: CGFloat = 20
   let dialogTitleLetterSpacing: CGFloat = 0.12
   let dialogTitleLineHeight: CGFloat = 1.25
@@ -339,6 +343,7 @@ struct NatdsTestDarkComponents: Components {
   let dialogBodyPrimaryFontWeight: UIFont.Weight = .regular
   let dialogBodyFallbackFontFamily = "San Francisco"
   let dialogBodyFallbackFontWeight: UIFont.Weight = .regular
+  let dialogBorderRadius: CGFloat = 4
   let expansionPanelTitleFontSize: CGFloat = 16
   let expansionPanelTitleLetterSpacing: CGFloat = 0.08
   let expansionPanelTitleLineHeight: CGFloat = 1.5
@@ -444,6 +449,7 @@ struct NatdsTestDarkComponents: Components {
   let textFieldHelperTextFontSize: CGFloat = 12
   let textFieldHelperTextLetterSpacing: CGFloat = 0.16
   let textFieldHelperTextLineHeight: CGFloat = 1.25
+  let textFieldBorderRadius: CGFloat = 4
   let heading1FontSize: CGFloat = 96
   let heading1FontWeight: UIFont.Weight = .regular
   let heading1LetterSpacing: CGFloat = 0

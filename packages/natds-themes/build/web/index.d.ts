@@ -16,17 +16,18 @@ declare namespace Themes {
   avatar: Avatar
   badge: Badge
   button: Button
+  card: Card
   checkbox: Checkbox
   counter: Counter
   dialog: Dialog
   expansionPanel: AppBarTop
   navigationDrawer: NavigationDrawer
-  radioButton: Checkbox
+  radioButton: RadioButton
   rating: Rating
-  shortcut: Checkbox
+  shortcut: RadioButton
   snackbar: Snackbar
-  tab: Checkbox
-  tag: Checkbox
+  tab: RadioButton
+  tag: RadioButton
   textField: TextField
   heading1: Heading1
   heading2: Heading1
@@ -50,13 +51,17 @@ declare namespace Themes {
   label: Title
   content: Title
   helperText: Title
+  borderRadius: number
 }
  export interface Snackbar {
   content: Title
 }
  export interface Rating {
-  counter: Checkbox
-  input: Checkbox
+  counter: RadioButton
+  input: RadioButton
+}
+ export interface RadioButton {
+  label: Title
 }
  export interface NavigationDrawer {
   header: Header
@@ -73,13 +78,23 @@ declare namespace Themes {
  export interface Dialog {
   title: Title
   body: Title
+  borderRadius: number
 }
  export interface Counter {
   label: Title
   content: Title
+  borderRadius: number
 }
  export interface Checkbox {
   label: Title
+  borderRadius: number
+}
+ export interface Card {
+  borderRadius: BorderRadius2
+}
+ export interface BorderRadius2 {
+  enable: number
+  disable: number
 }
  export interface Button {
   label: Title

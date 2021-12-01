@@ -116,11 +116,14 @@
   <attr name="buttonTextColorFocusBackground" format="color" />  
   <attr name="buttonTextColorFocusBorder" format="color" />  
   <attr name="buttonTextColorFocusLabel" format="color" />  
+  <attr name="cardBorderRadiusEnable" format="dimension" />  
+  <attr name="cardBorderRadiusDisable" format="dimension" />  
   <attr name="checkboxLabelFontSize" format="dimension" />  
   <attr name="checkboxLabelLetterSpacing" format="dimension" />  
   <attr name="checkboxLabelLineHeight" format="dimension" />  
   <attr name="checkboxLabelPrimaryFontWeight" format="string" />  
   <attr name="checkboxLabelFallbackFontWeight" format="string" />  
+  <attr name="checkboxBorderRadius" format="dimension" />  
   <attr name="counterLabelPrimaryFontWeight" format="string" />  
   <attr name="counterLabelFallbackFontWeight" format="string" />  
   <attr name="counterLabelFontSize" format="dimension" />  
@@ -131,6 +134,7 @@
   <attr name="counterContentFontSize" format="dimension" />  
   <attr name="counterContentLetterSpacing" format="dimension" />  
   <attr name="counterContentLineHeight" format="dimension" />  
+  <attr name="counterBorderRadius" format="dimension" />  
   <attr name="dialogTitleFontSize" format="dimension" />  
   <attr name="dialogTitleLetterSpacing" format="dimension" />  
   <attr name="dialogTitleLineHeight" format="dimension" />  
@@ -141,6 +145,7 @@
   <attr name="dialogBodyLineHeight" format="dimension" />  
   <attr name="dialogBodyPrimaryFontWeight" format="string" />  
   <attr name="dialogBodyFallbackFontWeight" format="string" />  
+  <attr name="dialogBorderRadius" format="dimension" />  
   <attr name="expansionPanelTitleFontSize" format="dimension" />  
   <attr name="expansionPanelTitleLetterSpacing" format="dimension" />  
   <attr name="expansionPanelTitleLineHeight" format="dimension" />  
@@ -216,6 +221,7 @@
   <attr name="textFieldHelperTextFontSize" format="dimension" />  
   <attr name="textFieldHelperTextLetterSpacing" format="dimension" />  
   <attr name="textFieldHelperTextLineHeight" format="dimension" />  
+  <attr name="textFieldBorderRadius" format="dimension" />  
   <attr name="heading1FontSize" format="dimension" />  
   <attr name="heading1FontWeight" format="string" />  
   <attr name="heading1LetterSpacing" format="dimension" />  
