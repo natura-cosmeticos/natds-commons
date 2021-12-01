@@ -215,6 +215,7 @@ struct NaturaLightComponents: Components {
   let alertContentPrimaryFontWeight: UIFont.Weight = .regular
   let alertContentFallbackFontFamily = "San Francisco"
   let alertContentFallbackFontWeight: UIFont.Weight = .regular
+  let alertBorderRadius: CGFloat = 4
   let appBarTopTitleFontSize: CGFloat = 20
   let appBarTopTitleLetterSpacing: CGFloat = 0.12
   let appBarTopTitleLineHeight: CGFloat = 1.25
@@ -351,6 +352,7 @@ struct NaturaLightComponents: Components {
   let expansionPanelTitlePrimaryFontWeight: UIFont.Weight = .regular
   let expansionPanelTitleFallbackFontFamily = "San Francisco"
   let expansionPanelTitleFallbackFontWeight: UIFont.Weight = .regular
+  let expansionPanelBorderRadius: CGFloat = 4
   let navigationDrawerHeaderTitleFontSize: CGFloat = 20
   let navigationDrawerHeaderTitleLetterSpacing: CGFloat = 0.12
   let navigationDrawerHeaderTitleLineHeight: CGFloat = 1.25
@@ -379,6 +381,10 @@ struct NaturaLightComponents: Components {
   let navigationDrawerSectionItemPrimaryFontWeight: UIFont.Weight = .regular
   let navigationDrawerSectionItemFallbackFontFamily = "San Francisco"
   let navigationDrawerSectionItemFallbackFontWeight: UIFont.Weight = .regular
+  let progressIndicatorStandardBorderRadius: CGFloat = 12
+  let progressIndicatorSemiBorderRadius: CGFloat = 16
+  let progressIndicatorMediumBorderRadius: CGFloat = 24
+  let progressIndicatorLargeBorderRadius: CGFloat = 32
   let radioButtonLabelFontSize: CGFloat = 14
   let radioButtonLabelLetterSpacing: CGFloat = 0.16
   let radioButtonLabelLineHeight: CGFloat = 1.5
@@ -386,6 +392,7 @@ struct NaturaLightComponents: Components {
   let radioButtonLabelPrimaryFontWeight: UIFont.Weight = .regular
   let radioButtonLabelFallbackFontFamily = "San Francisco"
   let radioButtonLabelFallbackFontWeight: UIFont.Weight = .regular
+  let radioButtonBorderRadius: CGFloat = 12
   let ratingCounterLabelFontSize: CGFloat = 14
   let ratingCounterLabelLetterSpacing: CGFloat = 0.16
   let ratingCounterLabelLineHeight: CGFloat = 1.5
@@ -407,6 +414,7 @@ struct NaturaLightComponents: Components {
   let shortcutLabelPrimaryFontWeight: UIFont.Weight = .regular
   let shortcutLabelFallbackFontFamily = "San Francisco"
   let shortcutLabelFallbackFontWeight: UIFont.Weight = .regular
+  let shortcutBorderRadius: CGFloat = 28
   let snackbarContentFontSize: CGFloat = 14
   let snackbarContentLetterSpacing: CGFloat = 0.16
   let snackbarContentLineHeight: CGFloat = 1.5

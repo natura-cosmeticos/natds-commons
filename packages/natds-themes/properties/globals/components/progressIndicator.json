@@ -1,0 +1,24 @@
+{
+  "progressIndicator": {
+    "standard": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.standard.value}"
+      }
+    },
+    "semi": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.semi.value}"
+      }
+    },
+    "medium": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.medium.value}"
+      }
+    },
+    "large": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.large.value}"
+      }
+    }
+  }
+}

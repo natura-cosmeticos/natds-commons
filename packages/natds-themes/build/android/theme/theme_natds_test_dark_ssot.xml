@@ -118,6 +118,7 @@
     <item name="alertContentFontSize">@dimen/ssote60ad958761d5e3b0ddae458b2921e7a</item>
     <item name="alertContentLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="alertContentLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
+    <item name="alertBorderRadius">@dimen/ssotf27085d5046e1bad7cde812c270a5623</item>
     <item name="appBarTopTitleFontSize">@dimen/ssot8298654a55f82a1143ca80c02f6ff0c5</item>
     <item name="appBarTopTitleLetterSpacing">@dimen/ssoteca51910c1e79a9c75faab952a52ee38</item>
     <item name="appBarTopTitleLineHeight">@dimen/ssot6c010c37f79973d02f1067604ef21513</item>
@@ -170,6 +171,7 @@
     <item name="expansionPanelTitleFontSize">@dimen/ssote60ad958761d5e3b0ddae458b2921e7a</item>
     <item name="expansionPanelTitleLetterSpacing">@dimen/ssot2c18afe60933e3530f4310384a2a0014</item>
     <item name="expansionPanelTitleLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
+    <item name="expansionPanelBorderRadius">@dimen/ssotf27085d5046e1bad7cde812c270a5623</item>
     <item name="navigationDrawerHeaderTitleFontSize">@dimen/ssot8298654a55f82a1143ca80c02f6ff0c5</item>
     <item name="navigationDrawerHeaderTitleLetterSpacing">@dimen/ssoteca51910c1e79a9c75faab952a52ee38</item>
     <item name="navigationDrawerHeaderTitleLineHeight">@dimen/ssot6c010c37f79973d02f1067604ef21513</item>
@@ -182,9 +184,14 @@
     <item name="navigationDrawerSectionItemFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="navigationDrawerSectionItemLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="navigationDrawerSectionItemLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
+    <item name="progressIndicatorStandardBorderRadius">@dimen/ssot5efa55b135027e50e8d8aa041e584a33</item>
+    <item name="progressIndicatorSemiBorderRadius">@dimen/ssot6062b73dd0475d674cc3152dfe654910</item>
+    <item name="progressIndicatorMediumBorderRadius">@dimen/ssota678d4b111a732673d83a948f471edbb</item>
+    <item name="progressIndicatorLargeBorderRadius">@dimen/ssotcfe0f06af91644b1d873c65d1b63ce66</item>
     <item name="radioButtonLabelFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="radioButtonLabelLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="radioButtonLabelLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
+    <item name="radioButtonBorderRadius">@dimen/ssot5efa55b135027e50e8d8aa041e584a33</item>
     <item name="ratingCounterLabelFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="ratingCounterLabelLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="ratingCounterLabelLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
@@ -194,6 +201,7 @@
     <item name="shortcutLabelFontSize">@dimen/ssotc44d0948764dbf2c5666b7e8309c73cb</item>
     <item name="shortcutLabelLetterSpacing">@dimen/ssot40f3f3640647251fc4da2ce46193df95</item>
     <item name="shortcutLabelLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
+    <item name="shortcutBorderRadius">@dimen/ssot2df86dd876f2b3a92462c3835ad5a32b</item>
     <item name="snackbarContentFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="snackbarContentLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="snackbarContentLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>

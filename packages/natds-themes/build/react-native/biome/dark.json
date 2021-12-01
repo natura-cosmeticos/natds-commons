@@ -31,7 +31,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "appBarTop": {
     "title": {
@@ -305,7 +306,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "navigationDrawer": {
     "header": {
@@ -365,6 +367,20 @@
       }
     }
   },
+  "progressIndicator": {
+    "standard": {
+      "borderRadius": 12
+    },
+    "semi": {
+      "borderRadius": 16
+    },
+    "medium": {
+      "borderRadius": 24
+    },
+    "large": {
+      "borderRadius": 32
+    }
+  },
   "radioButton": {
     "label": {
       "fontSize": 14,
@@ -378,7 +394,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 12
   },
   "rating": {
     "counter": {
@@ -425,7 +442,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 28
   },
   "snackbar": {
     "content": {

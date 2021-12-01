@@ -20,14 +20,15 @@ declare namespace Themes {
   checkbox: Checkbox
   counter: Counter
   dialog: Dialog
-  expansionPanel: AppBarTop
+  expansionPanel: ExpansionPanel
   navigationDrawer: NavigationDrawer
-  radioButton: RadioButton
+  progressIndicator: ProgressIndicator
+  radioButton: Checkbox
   rating: Rating
-  shortcut: RadioButton
+  shortcut: Checkbox
   snackbar: Snackbar
-  tab: RadioButton
-  tag: RadioButton
+  tab: Counter2
+  tag: Counter2
   textField: TextField
   heading1: Heading1
   heading2: Heading1
@@ -57,11 +58,20 @@ declare namespace Themes {
   content: Title
 }
  export interface Rating {
-  counter: RadioButton
-  input: RadioButton
+  counter: Counter2
+  input: Counter2
 }
- export interface RadioButton {
+ export interface Counter2 {
   label: Title
+}
+ export interface ProgressIndicator {
+  standard: Standard3
+  semi: Standard3
+  medium: Standard3
+  large: Standard3
+}
+ export interface Standard3 {
+  borderRadius: number
 }
  export interface NavigationDrawer {
   header: Header
@@ -74,6 +84,10 @@ declare namespace Themes {
  export interface Header {
   title: Title
   subtitle: Title
+}
+ export interface ExpansionPanel {
+  title: Title
+  borderRadius: number
 }
  export interface Dialog {
   title: Title
@@ -157,6 +171,7 @@ declare namespace Themes {
  export interface Alert {
   title: Title
   content: Title
+  borderRadius: number
 }
  export interface Title {
   fontSize: number

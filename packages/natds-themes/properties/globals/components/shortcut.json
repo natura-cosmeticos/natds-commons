@@ -26,6 +26,9 @@
           "value": "{platform.typography.fallback.fontWeight.value}"
         }
       }
+    },
+    "borderRadius": {
+      "value": "{private.shortcut.borderRadius.value}"
     }
   }
 }
