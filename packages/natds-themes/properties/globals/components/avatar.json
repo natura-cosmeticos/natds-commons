@@ -9,6 +9,9 @@
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.standard.value}"
       }
     },
     "semi": {
@@ -20,6 +23,9 @@
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.semi.value}"
       }
     },
     "semiX": {
@@ -31,6 +37,9 @@
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.semiX.value}"
       }
     },
     "medium": {
@@ -42,6 +51,9 @@
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.medium.value}"
       }
     },
     "largeXXX": {
@@ -53,6 +65,9 @@
       },
       "lineHeight": {
         "value": "{typography.lineHeight.medium.value}"
+      },
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.largeXXX.value}"
       }
     },
     "primary": {

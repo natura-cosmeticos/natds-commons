@@ -1,0 +1,19 @@
+{
+  "iconButton": {
+    "semi": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.semi.value}"
+      }
+    },
+    "semiX": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.semiX.value}"
+      }
+    },
+    "medium": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.medium.value}"
+      }
+    }
+  }
+}

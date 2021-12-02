@@ -21,6 +21,9 @@ declare namespace Themes {
   counter: Counter
   dialog: Dialog
   expansionPanel: ExpansionPanel
+  iconButton: IconButton
+  image: Card
+  menuItem: Semi
   navigationDrawer: NavigationDrawer
   progressIndicator: ProgressIndicator
   radioButton: Checkbox
@@ -28,7 +31,7 @@ declare namespace Themes {
   shortcut: Checkbox
   snackbar: Snackbar
   tab: Counter2
-  tag: Counter2
+  tag: Tag
   textField: TextField
   heading1: Heading1
   heading2: Heading1
@@ -54,8 +57,14 @@ declare namespace Themes {
   helperText: Title
   borderRadius: number
 }
+ export interface Tag {
+  label: Title
+  small: Card
+  standard: Card
+}
  export interface Snackbar {
   content: Title
+  borderRadius: number
 }
  export interface Rating {
   counter: Counter2
@@ -65,13 +74,10 @@ declare namespace Themes {
   label: Title
 }
  export interface ProgressIndicator {
-  standard: Standard3
-  semi: Standard3
-  medium: Standard3
-  large: Standard3
-}
- export interface Standard3 {
-  borderRadius: number
+  standard: Semi
+  semi: Semi
+  medium: Semi
+  large: Semi
 }
  export interface NavigationDrawer {
   header: Header
@@ -84,6 +90,14 @@ declare namespace Themes {
  export interface Header {
   title: Title
   subtitle: Title
+}
+ export interface IconButton {
+  semi: Semi
+  semiX: Semi
+  medium: Semi
+}
+ export interface Semi {
+  borderRadius: number
 }
  export interface ExpansionPanel {
   title: Title
@@ -164,6 +178,7 @@ declare namespace Themes {
   fontSize: number
   letterSpacing: number
   lineHeight: number
+  borderRadius: number
 }
  export interface AppBarTop {
   title: Title
