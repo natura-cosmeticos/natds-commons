@@ -216,6 +216,7 @@ protocol Components {
   var alertContentPrimaryFontWeight: UIFont.Weight { get }
   var alertContentFallbackFontFamily: String { get }
   var alertContentFallbackFontWeight: UIFont.Weight { get }
+  var alertBorderRadius: CGFloat { get }
   var appBarTopTitleFontSize: CGFloat { get }
   var appBarTopTitleLetterSpacing: CGFloat { get }
   var appBarTopTitleLineHeight: CGFloat { get }
@@ -352,6 +353,7 @@ protocol Components {
   var expansionPanelTitlePrimaryFontWeight: UIFont.Weight { get }
   var expansionPanelTitleFallbackFontFamily: String { get }
   var expansionPanelTitleFallbackFontWeight: UIFont.Weight { get }
+  var expansionPanelBorderRadius: CGFloat { get }
   var navigationDrawerHeaderTitleFontSize: CGFloat { get }
   var navigationDrawerHeaderTitleLetterSpacing: CGFloat { get }
   var navigationDrawerHeaderTitleLineHeight: CGFloat { get }
@@ -380,6 +382,10 @@ protocol Components {
   var navigationDrawerSectionItemPrimaryFontWeight: UIFont.Weight { get }
   var navigationDrawerSectionItemFallbackFontFamily: String { get }
   var navigationDrawerSectionItemFallbackFontWeight: UIFont.Weight { get }
+  var progressIndicatorStandardBorderRadius: CGFloat { get }
+  var progressIndicatorSemiBorderRadius: CGFloat { get }
+  var progressIndicatorMediumBorderRadius: CGFloat { get }
+  var progressIndicatorLargeBorderRadius: CGFloat { get }
   var radioButtonLabelFontSize: CGFloat { get }
   var radioButtonLabelLetterSpacing: CGFloat { get }
   var radioButtonLabelLineHeight: CGFloat { get }
@@ -387,6 +393,7 @@ protocol Components {
   var radioButtonLabelPrimaryFontWeight: UIFont.Weight { get }
   var radioButtonLabelFallbackFontFamily: String { get }
   var radioButtonLabelFallbackFontWeight: UIFont.Weight { get }
+  var radioButtonBorderRadius: CGFloat { get }
   var ratingCounterLabelFontSize: CGFloat { get }
   var ratingCounterLabelLetterSpacing: CGFloat { get }
   var ratingCounterLabelLineHeight: CGFloat { get }
@@ -408,6 +415,7 @@ protocol Components {
   var shortcutLabelPrimaryFontWeight: UIFont.Weight { get }
   var shortcutLabelFallbackFontFamily: String { get }
   var shortcutLabelFallbackFontWeight: UIFont.Weight { get }
+  var shortcutBorderRadius: CGFloat { get }
   var snackbarContentFontSize: CGFloat { get }
   var snackbarContentLetterSpacing: CGFloat { get }
   var snackbarContentLineHeight: CGFloat { get }

@@ -35,6 +35,7 @@
   <attr name="alertContentLineHeight" format="dimension" />  
   <attr name="alertContentPrimaryFontWeight" format="string" />  
   <attr name="alertContentFallbackFontWeight" format="string" />  
+  <attr name="alertBorderRadius" format="dimension" />  
   <attr name="appBarTopTitleFontSize" format="dimension" />  
   <attr name="appBarTopTitleLetterSpacing" format="dimension" />  
   <attr name="appBarTopTitleLineHeight" format="dimension" />  
@@ -151,6 +152,7 @@
   <attr name="expansionPanelTitleLineHeight" format="dimension" />  
   <attr name="expansionPanelTitlePrimaryFontWeight" format="string" />  
   <attr name="expansionPanelTitleFallbackFontWeight" format="string" />  
+  <attr name="expansionPanelBorderRadius" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleFontSize" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleLetterSpacing" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleLineHeight" format="dimension" />  
@@ -171,11 +173,16 @@
   <attr name="navigationDrawerSectionItemLineHeight" format="dimension" />  
   <attr name="navigationDrawerSectionItemPrimaryFontWeight" format="string" />  
   <attr name="navigationDrawerSectionItemFallbackFontWeight" format="string" />  
+  <attr name="progressIndicatorStandardBorderRadius" format="dimension" />  
+  <attr name="progressIndicatorSemiBorderRadius" format="dimension" />  
+  <attr name="progressIndicatorMediumBorderRadius" format="dimension" />  
+  <attr name="progressIndicatorLargeBorderRadius" format="dimension" />  
   <attr name="radioButtonLabelFontSize" format="dimension" />  
   <attr name="radioButtonLabelLetterSpacing" format="dimension" />  
   <attr name="radioButtonLabelLineHeight" format="dimension" />  
   <attr name="radioButtonLabelPrimaryFontWeight" format="string" />  
   <attr name="radioButtonLabelFallbackFontWeight" format="string" />  
+  <attr name="radioButtonBorderRadius" format="dimension" />  
   <attr name="ratingCounterLabelFontSize" format="dimension" />  
   <attr name="ratingCounterLabelLetterSpacing" format="dimension" />  
   <attr name="ratingCounterLabelLineHeight" format="dimension" />  
@@ -191,6 +198,7 @@
   <attr name="shortcutLabelLineHeight" format="dimension" />  
   <attr name="shortcutLabelPrimaryFontWeight" format="string" />  
   <attr name="shortcutLabelFallbackFontWeight" format="string" />  
+  <attr name="shortcutBorderRadius" format="dimension" />  
   <attr name="snackbarContentFontSize" format="dimension" />  
   <attr name="snackbarContentLetterSpacing" format="dimension" />  
   <attr name="snackbarContentLineHeight" format="dimension" />  

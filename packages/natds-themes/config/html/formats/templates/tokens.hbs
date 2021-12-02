@@ -173,6 +173,20 @@
       background-color: {{components.badge.color.alert.background.value}};
       color: {{components.badge.color.alert.label.value}};
     }
+    .ds-shortcut {
+      background-color: {{tokens.color.primary.value}};
+      color: {{tokens.color.highEmphasis.value}};
+      font-family: {{components.shortcut.label.primary.fontFamily.value}};
+      font-weight: {{components.shortcut.label.primary.fontWeight.value}};
+      height: {{tokens.size.mediumX.value}};
+      letter-spacing: {{components.shortcut.label.letterSpacing.value}};
+      line-height: {{components.shortcut.label.lineHeight.value}};
+      width: {{tokens.size.mediumX.value}};
+      border-radius: {{components.shortcut.borderRadius.value}};
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     
   </style>
   {{> navigation }}
@@ -315,6 +329,10 @@
         <span class="ds-badge ds-dot ds-alert"></span>
       </div>
     </div>
+      <h2 class="color-name col-12 mt-3 mb-1">Shortcut</h2>
+      <div class="button-wrapper col-12">
+        <div class="ds-shortcut">DS</div>
+      </div>
     <hr>
   </div>
 

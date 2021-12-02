@@ -7,7 +7,9 @@ import {
 
 const templateDataBuilder = ({ properties }, config) => {
   const { tokens, components } = splitTokensAndComponents(properties);
-  const { button, badge, ...typographyElements } = components;
+  const {
+    button, badge, shortcut, ...typographyElements
+  } = components;
   const { asset, ...otherTokens } = tokens;
   const { brand } = asset;
 
@@ -42,6 +44,7 @@ const templateDataBuilder = ({ properties }, config) => {
     components: {
       badge,
       button,
+      shortcut,
     },
     tokens: otherTokens,
     typography,
