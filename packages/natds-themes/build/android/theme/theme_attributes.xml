@@ -44,18 +44,23 @@
   <attr name="avatarStandardFontSize" format="dimension" />  
   <attr name="avatarStandardLetterSpacing" format="dimension" />  
   <attr name="avatarStandardLineHeight" format="dimension" />  
+  <attr name="avatarStandardBorderRadius" format="dimension" />  
   <attr name="avatarSemiFontSize" format="dimension" />  
   <attr name="avatarSemiLetterSpacing" format="dimension" />  
   <attr name="avatarSemiLineHeight" format="dimension" />  
+  <attr name="avatarSemiBorderRadius" format="dimension" />  
   <attr name="avatarSemiXFontSize" format="dimension" />  
   <attr name="avatarSemiXLetterSpacing" format="dimension" />  
   <attr name="avatarSemiXLineHeight" format="dimension" />  
+  <attr name="avatarSemiXBorderRadius" format="dimension" />  
   <attr name="avatarMediumFontSize" format="dimension" />  
   <attr name="avatarMediumLetterSpacing" format="dimension" />  
   <attr name="avatarMediumLineHeight" format="dimension" />  
+  <attr name="avatarMediumBorderRadius" format="dimension" />  
   <attr name="avatarLargeXXXFontSize" format="dimension" />  
   <attr name="avatarLargeXXXLetterSpacing" format="dimension" />  
   <attr name="avatarLargeXXXLineHeight" format="dimension" />  
+  <attr name="avatarLargeXXXBorderRadius" format="dimension" />  
   <attr name="avatarPrimaryFontWeight" format="string" />  
   <attr name="avatarFallbackFontWeight" format="string" />  
   <attr name="badgeLabelFontSize" format="dimension" />  
@@ -153,6 +158,12 @@
   <attr name="expansionPanelTitlePrimaryFontWeight" format="string" />  
   <attr name="expansionPanelTitleFallbackFontWeight" format="string" />  
   <attr name="expansionPanelBorderRadius" format="dimension" />  
+  <attr name="iconButtonSemiBorderRadius" format="dimension" />  
+  <attr name="iconButtonSemiXBorderRadius" format="dimension" />  
+  <attr name="iconButtonMediumBorderRadius" format="dimension" />  
+  <attr name="imageBorderRadiusEnable" format="dimension" />  
+  <attr name="imageBorderRadiusDisable" format="dimension" />  
+  <attr name="menuItemBorderRadius" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleFontSize" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleLetterSpacing" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleLineHeight" format="dimension" />  
@@ -204,6 +215,7 @@
   <attr name="snackbarContentLineHeight" format="dimension" />  
   <attr name="snackbarContentPrimaryFontWeight" format="string" />  
   <attr name="snackbarContentFallbackFontWeight" format="string" />  
+  <attr name="snackbarBorderRadius" format="dimension" />  
   <attr name="tabLabelFontSize" format="dimension" />  
   <attr name="tabLabelLetterSpacing" format="dimension" />  
   <attr name="tabLabelLineHeight" format="dimension" />  
@@ -214,6 +226,10 @@
   <attr name="tagLabelLineHeight" format="dimension" />  
   <attr name="tagLabelPrimaryFontWeight" format="string" />  
   <attr name="tagLabelFallbackFontWeight" format="string" />  
+  <attr name="tagSmallBorderRadiusEnable" format="dimension" />  
+  <attr name="tagSmallBorderRadiusDisable" format="dimension" />  
+  <attr name="tagStandardBorderRadiusEnable" format="dimension" />  
+  <attr name="tagStandardBorderRadiusDisable" format="dimension" />  
   <attr name="textFieldLabelPrimaryFontWeight" format="string" />  
   <attr name="textFieldLabelFallbackFontWeight" format="string" />  
   <attr name="textFieldLabelFontSize" format="dimension" />  

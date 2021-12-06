@@ -53,27 +53,32 @@
     "standard": {
       "fontSize": 12,
       "letterSpacing": 0,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 12
     },
     "semi": {
       "fontSize": 14,
       "letterSpacing": 0.22,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 16
     },
     "semiX": {
       "fontSize": 20,
       "letterSpacing": 0.24,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 20
     },
     "medium": {
       "fontSize": 24,
       "letterSpacing": 0,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 24
     },
     "largeXXX": {
       "fontSize": 48,
       "letterSpacing": 0,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 44
     },
     "primary": {
       "fontFamily": "Roboto",
@@ -309,6 +314,26 @@
     },
     "borderRadius": 4
   },
+  "iconButton": {
+    "semi": {
+      "borderRadius": 16
+    },
+    "semiX": {
+      "borderRadius": 20
+    },
+    "medium": {
+      "borderRadius": 24
+    }
+  },
+  "image": {
+    "borderRadius": {
+      "enable": 4,
+      "disable": 0
+    }
+  },
+  "menuItem": {
+    "borderRadius": 4
+  },
   "navigationDrawer": {
     "header": {
       "title": {
@@ -458,7 +483,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "tab": {
     "label": {
@@ -487,6 +513,18 @@
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
+      }
+    },
+    "small": {
+      "borderRadius": {
+        "enable": 8,
+        "disable": 0
+      }
+    },
+    "standard": {
+      "borderRadius": {
+        "enable": 12,
+        "disable": 0
       }
     }
   },

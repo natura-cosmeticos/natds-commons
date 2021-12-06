@@ -26,6 +26,26 @@
           "value": "{platform.typography.fallback.fontWeight.value}"
         }
       }
+    },
+    "small": {
+      "borderRadius": {
+        "enable": {
+          "value": "{private.borderRadius.circle.small.value}"
+        },
+        "disable": {
+          "value": "{borderRadius.none.value}"
+        }
+      }
+    },
+    "standard": {
+      "borderRadius": {
+        "enable": {
+          "value": "{private.borderRadius.circle.standard.value}"
+        },
+        "disable": {
+          "value": "{borderRadius.none.value}"
+        }
+      }
     }
   }
 }

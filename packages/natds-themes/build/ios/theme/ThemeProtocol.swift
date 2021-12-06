@@ -227,18 +227,23 @@ protocol Components {
   var avatarStandardFontSize: CGFloat { get }
   var avatarStandardLetterSpacing: CGFloat { get }
   var avatarStandardLineHeight: CGFloat { get }
+  var avatarStandardBorderRadius: CGFloat { get }
   var avatarSemiFontSize: CGFloat { get }
   var avatarSemiLetterSpacing: CGFloat { get }
   var avatarSemiLineHeight: CGFloat { get }
+  var avatarSemiBorderRadius: CGFloat { get }
   var avatarSemiXFontSize: CGFloat { get }
   var avatarSemiXLetterSpacing: CGFloat { get }
   var avatarSemiXLineHeight: CGFloat { get }
+  var avatarSemiXBorderRadius: CGFloat { get }
   var avatarMediumFontSize: CGFloat { get }
   var avatarMediumLetterSpacing: CGFloat { get }
   var avatarMediumLineHeight: CGFloat { get }
+  var avatarMediumBorderRadius: CGFloat { get }
   var avatarLargeXXXFontSize: CGFloat { get }
   var avatarLargeXXXLetterSpacing: CGFloat { get }
   var avatarLargeXXXLineHeight: CGFloat { get }
+  var avatarLargeXXXBorderRadius: CGFloat { get }
   var avatarPrimaryFontFamily: String { get }
   var avatarPrimaryFontWeight: UIFont.Weight { get }
   var avatarFallbackFontFamily: String { get }
@@ -354,6 +359,12 @@ protocol Components {
   var expansionPanelTitleFallbackFontFamily: String { get }
   var expansionPanelTitleFallbackFontWeight: UIFont.Weight { get }
   var expansionPanelBorderRadius: CGFloat { get }
+  var iconButtonSemiBorderRadius: CGFloat { get }
+  var iconButtonSemiXBorderRadius: CGFloat { get }
+  var iconButtonMediumBorderRadius: CGFloat { get }
+  var imageBorderRadiusEnable: CGFloat { get }
+  var imageBorderRadiusDisable: CGFloat { get }
+  var menuItemBorderRadius: CGFloat { get }
   var navigationDrawerHeaderTitleFontSize: CGFloat { get }
   var navigationDrawerHeaderTitleLetterSpacing: CGFloat { get }
   var navigationDrawerHeaderTitleLineHeight: CGFloat { get }
@@ -423,6 +434,7 @@ protocol Components {
   var snackbarContentPrimaryFontWeight: UIFont.Weight { get }
   var snackbarContentFallbackFontFamily: String { get }
   var snackbarContentFallbackFontWeight: UIFont.Weight { get }
+  var snackbarBorderRadius: CGFloat { get }
   var tabLabelFontSize: CGFloat { get }
   var tabLabelLetterSpacing: CGFloat { get }
   var tabLabelLineHeight: CGFloat { get }
@@ -437,6 +449,10 @@ protocol Components {
   var tagLabelPrimaryFontWeight: UIFont.Weight { get }
   var tagLabelFallbackFontFamily: String { get }
   var tagLabelFallbackFontWeight: UIFont.Weight { get }
+  var tagSmallBorderRadiusEnable: CGFloat { get }
+  var tagSmallBorderRadiusDisable: CGFloat { get }
+  var tagStandardBorderRadiusEnable: CGFloat { get }
+  var tagStandardBorderRadiusDisable: CGFloat { get }
   var textFieldLabelPrimaryFontFamily: String { get }
   var textFieldLabelPrimaryFontWeight: UIFont.Weight { get }
   var textFieldLabelFallbackFontFamily: String { get }

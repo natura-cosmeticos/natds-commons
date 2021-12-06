@@ -1,0 +1,12 @@
+{
+  "image": {
+    "borderRadius": {
+      "enable": {
+        "value": "{borderRadius.medium.value}"
+      },
+      "disable": {
+        "value": "{borderRadius.none.value}"
+      }
+    }
+  }
+}
