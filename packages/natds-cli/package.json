@@ -31,5 +31,8 @@
   },
   "bugs": {
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
