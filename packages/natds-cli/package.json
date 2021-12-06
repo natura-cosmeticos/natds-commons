@@ -1,5 +1,5 @@
 {
-  "name": "natds-cli",
+  "name": "@naturacosmeticos/natds-cli",
   "version": "0.1.1",
   "description": "A CLI with helper scripts",
   "keywords": [
@@ -31,5 +31,8 @@
   },
   "bugs": {
     "url": "https://github.com/natura-cosmeticos/natds-commons/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
