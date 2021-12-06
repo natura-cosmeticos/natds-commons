@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.19.0...@naturacosmeticos/natds-themes@0.20.0) (2021-12-06)
+
+
+### Features
+
+* **natds-themes:** add borderRadius tokens for pack 3 ([#320](https://github.com/natura-cosmeticos/natds-commons/issues/320)) ([9967937](https://github.com/natura-cosmeticos/natds-commons/commit/996793766c09265a791ac1232353c7ca6899d4c4))
+
+
+
+
+
 # [0.19.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.18.0...@naturacosmeticos/natds-themes@0.19.0) (2021-12-02)
 
 
