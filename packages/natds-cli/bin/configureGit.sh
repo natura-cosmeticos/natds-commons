@@ -2,7 +2,6 @@
 set -e
 
 git init
-git remote rm origin
 git remote add origin "https://${GITHUB_TOKEN}@github.com/natura-cosmeticos/${BITRISEIO_GIT_REPOSITORY_SLUG}"
 
 git fetch --quiet
