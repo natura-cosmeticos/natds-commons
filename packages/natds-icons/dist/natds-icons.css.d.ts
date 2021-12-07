@@ -248,12 +248,16 @@ declare const styles: {
   readonly "natds-icons-outlined-media-play": string;
   readonly "natds-icons-outlined-navigation-arrowbottom": string;
   readonly "natds-icons-outlined-navigation-arrowleft": string;
+  readonly "natds-icons-outlined-navigation-arrowleft-alt": string;
   readonly "natds-icons-outlined-navigation-arrowright": string;
+  readonly "natds-icons-outlined-navigation-arrowright-alt": string;
   readonly "natds-icons-outlined-navigation-arrowtop": string;
   readonly "natds-icons-outlined-navigation-close": string;
   readonly "natds-icons-outlined-navigation-directionbottom": string;
   readonly "natds-icons-outlined-navigation-directionleft": string;
+  readonly "natds-icons-outlined-navigation-directionleft-alt": string;
   readonly "natds-icons-outlined-navigation-directionright": string;
+  readonly "natds-icons-outlined-navigation-directionright-alt": string;
   readonly "natds-icons-outlined-navigation-directiontop": string;
   readonly "natds-icons-outlined-navigation-exit": string;
   readonly "natds-icons-outlined-navigation-goback": string;

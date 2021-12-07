@@ -692,8 +692,14 @@
 	"outlined-navigation-arrowleft": [
 		""
 	],
+	"outlined-navigation-arrowleft-alt": [
+		""
+	],
 	"outlined-navigation-arrowright": [
 		""
+	],
+	"outlined-navigation-arrowright-alt": [
+		""
 	],
 	"outlined-navigation-arrowtop": [
 		""
@@ -707,8 +713,14 @@
 	"outlined-navigation-directionleft": [
 		""
 	],
+	"outlined-navigation-directionleft-alt": [
+		""
+	],
 	"outlined-navigation-directionright": [
 		""
+	],
+	"outlined-navigation-directionright-alt": [
+		""
 	],
 	"outlined-navigation-directiontop": [
 		""

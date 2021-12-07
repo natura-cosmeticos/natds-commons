@@ -30,7 +30,6 @@ describe('icons input', () => {
 
     const isAllowedStyleName = words[0] === 'filled' || words[0] === 'outlined';
 
-    expect(words.length).toEqual(3);
     expect(isAllowedStyleName).toBeTruthy();
   });
 
