@@ -1025,8 +1025,16 @@
   content: "\eab0";
 }
 
+.natds-icons-outlined-navigation-arrowleft-alt::before {
+  content: "\eb23";
+}
+
 .natds-icons-outlined-navigation-arrowright::before {
   content: "\eab1";
+}
+
+.natds-icons-outlined-navigation-arrowright-alt::before {
+  content: "\eb24";
 }
 
 .natds-icons-outlined-navigation-arrowtop::before {
@@ -1045,8 +1053,16 @@
   content: "\eab5";
 }
 
+.natds-icons-outlined-navigation-directionleft-alt::before {
+  content: "\eb25";
+}
+
 .natds-icons-outlined-navigation-directionright::before {
   content: "\eab6";
+}
+
+.natds-icons-outlined-navigation-directionright-alt::before {
+  content: "\eb26";
 }
 
 .natds-icons-outlined-navigation-directiontop::before {

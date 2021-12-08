@@ -230,12 +230,16 @@ interface RootObject {
   'outlined-media-play': string;
   'outlined-navigation-arrowbottom': string;
   'outlined-navigation-arrowleft': string;
+  'outlined-navigation-arrowleft-alt': string;
   'outlined-navigation-arrowright': string;
+  'outlined-navigation-arrowright-alt': string;
   'outlined-navigation-arrowtop': string;
   'outlined-navigation-close': string;
   'outlined-navigation-directionbottom': string;
   'outlined-navigation-directionleft': string;
+  'outlined-navigation-directionleft-alt': string;
   'outlined-navigation-directionright': string;
+  'outlined-navigation-directionright-alt': string;
   'outlined-navigation-directiontop': string;
   'outlined-navigation-exit': string;
   'outlined-navigation-goback': string;
