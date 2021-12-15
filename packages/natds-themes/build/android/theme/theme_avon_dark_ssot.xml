@@ -352,7 +352,7 @@
     <item name="dialogTitleFallbackFontWeight">sans-serif</item>
     <item name="dialogBodyPrimaryFontWeight">sans-serif</item>
     <item name="dialogBodyFallbackFontWeight">sans-serif</item>
-    <item name="expansionPanelTitlePrimaryFontWeight">sans-serif</item>
+    <item name="expansionPanelTitlePrimaryFontWeight">sans-serif-medium</item>
     <item name="expansionPanelTitleFallbackFontWeight">sans-serif</item>
     <item name="navigationDrawerHeaderTitlePrimaryFontWeight">sans-serif-medium</item>
     <item name="navigationDrawerHeaderTitleFallbackFontWeight">sans-serif</item>

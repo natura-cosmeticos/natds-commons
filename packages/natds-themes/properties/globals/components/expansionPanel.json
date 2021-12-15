@@ -15,7 +15,7 @@
           "value": "{typography.fontFamily.primary.value}"
         },
         "fontWeight": {
-          "value": "{typography.fontWeight.regular.value}"
+          "value": "{typography.fontWeight.medium.value}"
         }
       },
       "fallback": {
