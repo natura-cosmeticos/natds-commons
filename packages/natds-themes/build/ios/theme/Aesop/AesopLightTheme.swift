@@ -354,7 +354,7 @@ struct AesopLightComponents: Components {
   let expansionPanelTitleLetterSpacing: CGFloat = 0.08
   let expansionPanelTitleLineHeight: CGFloat = 1.5
   let expansionPanelTitlePrimaryFontFamily = "San Francisco"
-  let expansionPanelTitlePrimaryFontWeight: UIFont.Weight = .regular
+  let expansionPanelTitlePrimaryFontWeight: UIFont.Weight = .medium
   let expansionPanelTitleFallbackFontFamily = "San Francisco"
   let expansionPanelTitleFallbackFontWeight: UIFont.Weight = .regular
   let expansionPanelBorderRadius: CGFloat = 4
