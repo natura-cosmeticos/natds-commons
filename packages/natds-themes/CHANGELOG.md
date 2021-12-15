@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.20.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.20.0...@naturacosmeticos/natds-themes@0.20.1) (2021-12-15)
+
+
+### Bug Fixes
+
+* **natds-icons:** naming of arrow icons ([#323](https://github.com/natura-cosmeticos/natds-commons/issues/323)) ([8c942ed](https://github.com/natura-cosmeticos/natds-commons/commit/8c942ed54d84eb23802c5db57bd927ab158ec4c8))
+* **natds-themes:** updates expansion panel font-weight title ([#327](https://github.com/natura-cosmeticos/natds-commons/issues/327)) ([38e8fb8](https://github.com/natura-cosmeticos/natds-commons/commit/38e8fb8942865b1a7960cb09042172b77f9080a1))
+
+
+
+
+
 # [0.20.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.19.0...@naturacosmeticos/natds-themes@0.20.0) (2021-12-06)
 
 
