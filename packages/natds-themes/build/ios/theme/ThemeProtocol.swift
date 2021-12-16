@@ -179,14 +179,30 @@ protocol Tokens {
   var spacingSemi: CGFloat { get }
   var spacingLarge: CGFloat { get }
   var spacingXLarge: CGFloat { get }
-  var typographyFontFamilyPrimary: String { get }
-  var typographyFontFamilySecondary: String { get }
-  var typographyFontFamilyBranding: String { get }
-  var typographyFontFamilyCode: String { get }
+  var typographyFontSizeLevel1: CGFloat { get }
+  var typographyFontSizeLevel2: CGFloat { get }
+  var typographyFontSizeLevel3: CGFloat { get }
+  var typographyFontSizeLevel4: CGFloat { get }
+  var typographyFontSizeLevel5: CGFloat { get }
+  var typographyFontSizeLevel6: CGFloat { get }
+  var typographyFontSizeLevel7: CGFloat { get }
+  var typographyFontSizeLevel8: CGFloat { get }
+  var typographyFontSizeLevel9: CGFloat { get }
+  var typographyFontSizeLevel10: CGFloat { get }
+  var typographyFontSizeLevel11: CGFloat { get }
+  var typographyFontSizeLevel12: CGFloat { get }
+  var typographyFontSizeLevel13: CGFloat { get }
+  var typographyFontSizeLevel14: CGFloat { get }
+  var typographyFontSizeLevel15: CGFloat { get }
+  var typographyFontSizeLevel16: CGFloat { get }
   var typographyLineHeightReset: CGFloat { get }
   var typographyLineHeightSmall: CGFloat { get }
   var typographyLineHeightMedium: CGFloat { get }
   var typographyLineHeightLarge: CGFloat { get }
+  var typographyFontFamilyPrimary: String { get }
+  var typographyFontFamilySecondary: String { get }
+  var typographyFontFamilyBranding: String { get }
+  var typographyFontFamilyCode: String { get }
   var typographyFontWeightRegular: UIFont.Weight { get }
   var typographyFontWeightMedium: UIFont.Weight { get }
   var typographyDisplayFontFamily: String { get }
@@ -199,6 +215,13 @@ protocol Tokens {
   var typographyBodyBoldFontWeight: UIFont.Weight { get }
   var typographyFallbackFontFamily: String { get }
   var typographyFallbackFontWeight: UIFont.Weight { get }
+  var typographyLetterSpacingAuto: CGFloat { get }
+  var typographyLetterSpacingNone: CGFloat { get }
+  var typographyLetterSpacingTiny: CGFloat { get }
+  var typographyLetterSpacingSmall: CGFloat { get }
+  var typographyLetterSpacingMedium: CGFloat { get }
+  var typographyLetterSpacingLarge: CGFloat { get }
+  var typographyLetterSpacingHuge: CGFloat { get }
 }
 
 protocol Components {

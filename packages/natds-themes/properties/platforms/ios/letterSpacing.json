@@ -1,0 +1,27 @@
+{
+  "typography": {
+    "letterSpacing": {
+      "auto": {
+        "value": 0
+      },
+      "none": {
+        "value": 0
+      },
+      "tiny": {
+        "value": 0.13
+      },
+      "small": {
+        "value": 0.26
+      },
+      "medium": {
+        "value": 0.51
+      },
+      "large": {
+        "value": 1.41
+      },
+      "huge": {
+        "value": 2.56
+      }
+    }
+  }
+}

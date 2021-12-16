@@ -1,0 +1,54 @@
+{
+  "typography": {
+    "fontSize": {
+      "level1": {
+        "value": 13
+      },
+      "level2": {
+        "value": 14
+      },
+      "level3": {
+        "value": 16
+      },
+      "level4": {
+        "value": 18
+      },
+      "level5": {
+        "value": 20
+      },
+      "level6": {
+        "value": 23
+      },
+      "level7": {
+        "value": 26
+      },
+      "level8": {
+        "value": 29
+      },
+      "level9": {
+        "value": 32
+      },
+      "level10": {
+        "value": 36
+      },
+      "level11": {
+        "value": 41
+      },
+      "level12": {
+        "value": 46
+      },
+      "level13": {
+        "value": 52
+      },
+      "level14": {
+        "value": 58
+      },
+      "level15": {
+        "value": 66
+      },
+      "level16": {
+        "value": 74
+      }
+    }
+  }
+}
