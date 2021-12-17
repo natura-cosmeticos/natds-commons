@@ -17,6 +17,9 @@
 	"filled-action-dislike": [
 		""
 	],
+	"filled-action-increase": [
+		""
+	],
 	"filled-action-love": [
 		""
 	],
@@ -52,6 +55,9 @@
 	],
 	"filled-brand-linkedin": [
 		""
+	],
+	"filled-brand-messenger": [
+		""
 	],
 	"filled-brand-naturarosacea": [
 		""
@@ -260,6 +266,9 @@
 	"outlined-action-history": [
 		""
 	],
+	"outlined-action-increase": [
+		""
+	],
 	"outlined-action-lightoff": [
 		""
 	],
@@ -391,6 +400,9 @@
 	],
 	"outlined-brand-avondesenvolve": [
 		""
+	],
+	"outlined-brand-messenger": [
+		""
 	],
 	"outlined-brand-thebodyshop": [
 		""

@@ -5,6 +5,7 @@ interface RootObject {
   'filled-action-clock': string;
   'filled-action-delete': string;
   'filled-action-dislike': string;
+  'filled-action-increase': string;
   'filled-action-love': string;
   'filled-action-newrequest': string;
   'filled-action-privacy': string;
@@ -17,6 +18,7 @@ interface RootObject {
   'filled-brand-google': string;
   'filled-brand-instagram': string;
   'filled-brand-linkedin': string;
+  'filled-brand-messenger': string;
   'filled-brand-naturarosacea': string;
   'filled-brand-pinterest': string;
   'filled-brand-spotify': string;
@@ -86,6 +88,7 @@ interface RootObject {
   'outlined-action-gridsquare': string;
   'outlined-action-help': string;
   'outlined-action-history': string;
+  'outlined-action-increase': string;
   'outlined-action-lightoff': string;
   'outlined-action-lighton': string;
   'outlined-action-like': string;
@@ -130,6 +133,7 @@ interface RootObject {
   'outlined-alert-warning': string;
   'outlined-avon-desenvolve': string;
   'outlined-brand-avondesenvolve': string;
+  'outlined-brand-messenger': string;
   'outlined-brand-thebodyshop': string;
   'outlined-communication-chat': string;
   'outlined-communication-email': string;

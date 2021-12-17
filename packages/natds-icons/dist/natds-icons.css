@@ -125,6 +125,10 @@
   content: "\eb0f";
 }
 
+.natds-icons-filled-action-increase::before {
+  content: "\eb27";
+}
+
 .natds-icons-filled-action-love::before {
   content: "\ea05";
 }
@@ -171,6 +175,10 @@
 
 .natds-icons-filled-brand-linkedin::before {
   content: "\ea0c";
+}
+
+.natds-icons-filled-brand-messenger::before {
+  content: "\eb28";
 }
 
 .natds-icons-filled-brand-naturarosacea::before {
@@ -449,6 +457,10 @@
   content: "\ea43";
 }
 
+.natds-icons-outlined-action-increase::before {
+  content: "\eb29";
+}
+
 .natds-icons-outlined-action-lightoff::before {
   content: "\ea44";
 }
@@ -623,6 +635,10 @@
 
 .natds-icons-outlined-brand-avondesenvolve::before {
   content: "\eb22";
+}
+
+.natds-icons-outlined-brand-messenger::before {
+  content: "\eb2a";
 }
 
 .natds-icons-outlined-brand-thebodyshop::before {

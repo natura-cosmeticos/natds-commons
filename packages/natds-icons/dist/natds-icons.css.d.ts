@@ -23,6 +23,7 @@ declare const styles: {
   readonly "natds-icons-filled-action-clock": string;
   readonly "natds-icons-filled-action-delete": string;
   readonly "natds-icons-filled-action-dislike": string;
+  readonly "natds-icons-filled-action-increase": string;
   readonly "natds-icons-filled-action-love": string;
   readonly "natds-icons-filled-action-newrequest": string;
   readonly "natds-icons-filled-action-privacy": string;
@@ -35,6 +36,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-google": string;
   readonly "natds-icons-filled-brand-instagram": string;
   readonly "natds-icons-filled-brand-linkedin": string;
+  readonly "natds-icons-filled-brand-messenger": string;
   readonly "natds-icons-filled-brand-naturarosacea": string;
   readonly "natds-icons-filled-brand-pinterest": string;
   readonly "natds-icons-filled-brand-spotify": string;
@@ -104,6 +106,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-gridsquare": string;
   readonly "natds-icons-outlined-action-help": string;
   readonly "natds-icons-outlined-action-history": string;
+  readonly "natds-icons-outlined-action-increase": string;
   readonly "natds-icons-outlined-action-lightoff": string;
   readonly "natds-icons-outlined-action-lighton": string;
   readonly "natds-icons-outlined-action-like": string;
@@ -148,6 +151,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-warning": string;
   readonly "natds-icons-outlined-avon-desenvolve": string;
   readonly "natds-icons-outlined-brand-avondesenvolve": string;
+  readonly "natds-icons-outlined-brand-messenger": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;
