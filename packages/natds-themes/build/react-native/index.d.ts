@@ -47,8 +47,10 @@ declare namespace Themes {
   overline: Heading1
 }
  export interface Heading1 {
+  fontFamily: string
   fontSize: number
   fontWeight: number
+  lineHeight: number
   letterSpacing: number
 }
  export interface TextField {

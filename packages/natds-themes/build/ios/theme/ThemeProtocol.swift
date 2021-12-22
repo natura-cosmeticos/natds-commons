@@ -498,41 +498,65 @@ protocol Components {
   var textFieldHelperTextLetterSpacing: CGFloat { get }
   var textFieldHelperTextLineHeight: CGFloat { get }
   var textFieldBorderRadius: CGFloat { get }
+  var heading1FontFamily: String { get }
   var heading1FontSize: CGFloat { get }
   var heading1FontWeight: UIFont.Weight { get }
+  var heading1LineHeight: CGFloat { get }
   var heading1LetterSpacing: CGFloat { get }
+  var heading2FontFamily: String { get }
   var heading2FontSize: CGFloat { get }
   var heading2FontWeight: UIFont.Weight { get }
+  var heading2LineHeight: CGFloat { get }
   var heading2LetterSpacing: CGFloat { get }
+  var heading3FontFamily: String { get }
   var heading3FontSize: CGFloat { get }
   var heading3FontWeight: UIFont.Weight { get }
+  var heading3LineHeight: CGFloat { get }
   var heading3LetterSpacing: CGFloat { get }
+  var heading4FontFamily: String { get }
   var heading4FontSize: CGFloat { get }
   var heading4FontWeight: UIFont.Weight { get }
+  var heading4LineHeight: CGFloat { get }
   var heading4LetterSpacing: CGFloat { get }
+  var heading5FontFamily: String { get }
   var heading5FontSize: CGFloat { get }
   var heading5FontWeight: UIFont.Weight { get }
+  var heading5LineHeight: CGFloat { get }
   var heading5LetterSpacing: CGFloat { get }
+  var heading6FontFamily: String { get }
   var heading6FontSize: CGFloat { get }
   var heading6FontWeight: UIFont.Weight { get }
+  var heading6LineHeight: CGFloat { get }
   var heading6LetterSpacing: CGFloat { get }
+  var subtitle1FontFamily: String { get }
   var subtitle1FontSize: CGFloat { get }
   var subtitle1FontWeight: UIFont.Weight { get }
+  var subtitle1LineHeight: CGFloat { get }
   var subtitle1LetterSpacing: CGFloat { get }
+  var subtitle2FontFamily: String { get }
   var subtitle2FontSize: CGFloat { get }
   var subtitle2FontWeight: UIFont.Weight { get }
+  var subtitle2LineHeight: CGFloat { get }
   var subtitle2LetterSpacing: CGFloat { get }
+  var body1FontFamily: String { get }
   var body1FontSize: CGFloat { get }
   var body1FontWeight: UIFont.Weight { get }
+  var body1LineHeight: CGFloat { get }
   var body1LetterSpacing: CGFloat { get }
+  var body2FontFamily: String { get }
   var body2FontSize: CGFloat { get }
   var body2FontWeight: UIFont.Weight { get }
+  var body2LineHeight: CGFloat { get }
   var body2LetterSpacing: CGFloat { get }
+  var captionFontFamily: String { get }
   var captionFontSize: CGFloat { get }
   var captionFontWeight: UIFont.Weight { get }
+  var captionLineHeight: CGFloat { get }
   var captionLetterSpacing: CGFloat { get }
+  var overlineFontFamily: String { get }
   var overlineFontSize: CGFloat { get }
   var overlineFontWeight: UIFont.Weight { get }
+  var overlineLineHeight: CGFloat { get }
   var overlineLetterSpacing: CGFloat { get }
 }
 
