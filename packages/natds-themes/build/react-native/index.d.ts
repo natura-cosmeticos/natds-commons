@@ -196,13 +196,24 @@ declare namespace Themes {
   fallback: Display
 }
  export interface Typography {
-  fontFamily: FontFamily
+  fontSize: FontSize
   lineHeight: LineHeight
+  fontFamily: FontFamily
   fontWeight: FontWeight
   display: Display
   headline: Display
   body: Body2
   fallback: Display
+  letterSpacing: LetterSpacing
+}
+ export interface LetterSpacing {
+  auto: number
+  none: number
+  tiny: number
+  small: number
+  medium: number
+  large: number
+  huge: number
 }
  export interface Body2 {
   regular: Display
@@ -216,17 +227,35 @@ declare namespace Themes {
   regular: number
   medium: number
 }
+ export interface FontFamily {
+  primary: string
+  secondary: string
+  branding: string
+  code: string
+}
  export interface LineHeight {
   reset: number
   small: number
   medium: number
   large: number
 }
- export interface FontFamily {
-  primary: string
-  secondary: string
-  branding: string
-  code: string
+ export interface FontSize {
+  level1: number
+  level2: number
+  level3: number
+  level4: number
+  level5: number
+  level6: number
+  level7: number
+  level8: number
+  level9: number
+  level10: number
+  level11: number
+  level12: number
+  level13: number
+  level14: number
+  level15: number
+  level16: number
 }
  export interface Spacing {
   none: number

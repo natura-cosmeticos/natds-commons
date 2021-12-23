@@ -14,20 +14,6 @@
         "value": "{platform.typography.fontFamily.code.value}"
       }
     },
-    "lineHeight": {
-      "reset": {
-        "value": 1
-      },
-      "small": {
-        "value": 1.25
-      },
-      "medium": {
-        "value": 1.5
-      },
-      "large": {
-        "value": 2.0
-      }
-    },
     "fontWeight": {
       "regular": {
         "value": 400

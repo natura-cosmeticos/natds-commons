@@ -312,6 +312,22 @@
   <attr name="sizeHugeXX" format="dimension" />  
   <attr name="sizeHugeXXX" format="dimension" />  
   <attr name="sizeVeryHuge" format="dimension" />  
+  <attr name="typographyFontSizeLevel1" format="dimension" />  
+  <attr name="typographyFontSizeLevel2" format="dimension" />  
+  <attr name="typographyFontSizeLevel3" format="dimension" />  
+  <attr name="typographyFontSizeLevel4" format="dimension" />  
+  <attr name="typographyFontSizeLevel5" format="dimension" />  
+  <attr name="typographyFontSizeLevel6" format="dimension" />  
+  <attr name="typographyFontSizeLevel7" format="dimension" />  
+  <attr name="typographyFontSizeLevel8" format="dimension" />  
+  <attr name="typographyFontSizeLevel9" format="dimension" />  
+  <attr name="typographyFontSizeLevel10" format="dimension" />  
+  <attr name="typographyFontSizeLevel11" format="dimension" />  
+  <attr name="typographyFontSizeLevel12" format="dimension" />  
+  <attr name="typographyFontSizeLevel13" format="dimension" />  
+  <attr name="typographyFontSizeLevel14" format="dimension" />  
+  <attr name="typographyFontSizeLevel15" format="dimension" />  
+  <attr name="typographyFontSizeLevel16" format="dimension" />  
   <attr name="typographyLineHeightReset" format="dimension" />  
   <attr name="typographyLineHeightSmall" format="dimension" />  
   <attr name="typographyLineHeightMedium" format="dimension" />  
@@ -323,6 +339,13 @@
   <attr name="typographyBodyRegularFontWeight" format="string" />  
   <attr name="typographyBodyBoldFontWeight" format="string" />  
   <attr name="typographyFallbackFontWeight" format="string" />  
+  <attr name="typographyLetterSpacingAuto" format="dimension" />  
+  <attr name="typographyLetterSpacingNone" format="dimension" />  
+  <attr name="typographyLetterSpacingTiny" format="dimension" />  
+  <attr name="typographyLetterSpacingSmall" format="dimension" />  
+  <attr name="typographyLetterSpacingMedium" format="dimension" />  
+  <attr name="typographyLetterSpacingLarge" format="dimension" />  
+  <attr name="typographyLetterSpacingHuge" format="dimension" />  
   <attr name="spacingNone" format="dimension" />  
   <attr name="spacingMicro" format="dimension" />  
   <attr name="spacingTiny" format="dimension" />  
