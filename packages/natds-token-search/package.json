@@ -9,7 +9,7 @@
     "tokens"
   ],
   "author": "Ariel Flor <arielwb@gmail.com>",
-  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-token-search#readme",
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/main/packages/natds-token-search#readme",
   "license": "ISC",
   "main": "lib/natds-token-search.js",
   "directories": {
