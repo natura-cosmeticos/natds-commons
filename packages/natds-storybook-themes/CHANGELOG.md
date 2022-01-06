@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.68](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.67...@naturacosmeticos/natds-storybook-themes@0.13.68) (2022-01-06)
+
+
+### Bug Fixes
+
+* update main branch ([#339](https://github.com/natura-cosmeticos/natds-commons/issues/339)) ([377cc9b](https://github.com/natura-cosmeticos/natds-commons/commit/377cc9b9cc2bb8dfb7e42fbc2b9cd08ddbf8301a))
+
+
+
+
+
 ## [0.13.67](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-storybook-themes@0.13.66...@naturacosmeticos/natds-storybook-themes@0.13.67) (2021-12-23)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-storybook-themes
