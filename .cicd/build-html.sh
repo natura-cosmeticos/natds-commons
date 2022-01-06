@@ -5,7 +5,7 @@ set -e
 
 FOLDER_NAME=${BRANCH//[\/]/-}
 
-[[ $1 = "master" ]] && OUTPUT_PATH=public || OUTPUT_PATH="public/${FOLDER_NAME}"
+[[ $1 = "main" ]] && OUTPUT_PATH=public || OUTPUT_PATH="public/${FOLDER_NAME}"
 
 echo "Verifying $1"
 

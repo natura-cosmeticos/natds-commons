@@ -7,7 +7,7 @@
     "natds"
   ],
   "author": "arielwb <arielwb@gmail.com>",
-  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/master/packages/natds-lint#readme",
+  "homepage": "https://github.com/natura-cosmeticos/natds-commons/tree/main/packages/natds-lint#readme",
   "license": "ISC",
   "main": "index.js",
   "directories": {
