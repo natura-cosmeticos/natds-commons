@@ -215,13 +215,6 @@ protocol Tokens {
   var typographyBodyBoldFontWeight: UIFont.Weight { get }
   var typographyFallbackFontFamily: String { get }
   var typographyFallbackFontWeight: UIFont.Weight { get }
-  var typographyLetterSpacingAuto: CGFloat { get }
-  var typographyLetterSpacingNone: CGFloat { get }
-  var typographyLetterSpacingTiny: CGFloat { get }
-  var typographyLetterSpacingSmall: CGFloat { get }
-  var typographyLetterSpacingMedium: CGFloat { get }
-  var typographyLetterSpacingLarge: CGFloat { get }
-  var typographyLetterSpacingHuge: CGFloat { get }
 }
 
 protocol Components {

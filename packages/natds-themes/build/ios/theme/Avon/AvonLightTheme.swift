@@ -215,13 +215,6 @@ struct AvonLightTokens: Tokens {
   let typographyBodyBoldFontWeight: UIFont.Weight = .bold
   let typographyFallbackFontFamily = "San Francisco"
   let typographyFallbackFontWeight: UIFont.Weight = .regular
-  let typographyLetterSpacingAuto: CGFloat = 0
-  let typographyLetterSpacingNone: CGFloat = 0
-  let typographyLetterSpacingTiny: CGFloat = 0.13
-  let typographyLetterSpacingSmall: CGFloat = 0.26
-  let typographyLetterSpacingMedium: CGFloat = 0.51
-  let typographyLetterSpacingLarge: CGFloat = 1.41
-  let typographyLetterSpacingHuge: CGFloat = 2.56
 }
 struct AvonLightComponents: Components {
   let alertTitleFontSize: CGFloat = 20

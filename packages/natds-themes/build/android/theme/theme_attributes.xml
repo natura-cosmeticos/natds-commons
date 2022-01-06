@@ -351,13 +351,6 @@
   <attr name="typographyBodyRegularFontWeight" format="string" />  
   <attr name="typographyBodyBoldFontWeight" format="string" />  
   <attr name="typographyFallbackFontWeight" format="string" />  
-  <attr name="typographyLetterSpacingAuto" format="dimension" />  
-  <attr name="typographyLetterSpacingNone" format="dimension" />  
-  <attr name="typographyLetterSpacingTiny" format="dimension" />  
-  <attr name="typographyLetterSpacingSmall" format="dimension" />  
-  <attr name="typographyLetterSpacingMedium" format="dimension" />  
-  <attr name="typographyLetterSpacingLarge" format="dimension" />  
-  <attr name="typographyLetterSpacingHuge" format="dimension" />  
   <attr name="spacingNone" format="dimension" />  
   <attr name="spacingMicro" format="dimension" />  
   <attr name="spacingTiny" format="dimension" />  

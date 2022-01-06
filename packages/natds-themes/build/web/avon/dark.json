@@ -744,15 +744,6 @@
     "fallback": {
       "fontFamily": "Arial",
       "fontWeight": 400
-    },
-    "letterSpacing": {
-      "auto": 0,
-      "none": 0,
-      "tiny": 0.13,
-      "small": 0.26,
-      "medium": 0.51,
-      "large": 1.41,
-      "huge": 2.56
     }
   },
   "spacing": {

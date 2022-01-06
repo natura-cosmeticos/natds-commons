@@ -323,13 +323,6 @@
     <item name="typographyLineHeightSmall">@dimen/ssot6c010c37f79973d02f1067604ef21513</item>
     <item name="typographyLineHeightMedium">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
     <item name="typographyLineHeightLarge">@dimen/ssotc81e728d9d4c2f636f067f89cc14862c</item>
-    <item name="typographyLetterSpacingAuto">@dimen/ssotcfcd208495d565ef66e7dff9f98764da</item>
-    <item name="typographyLetterSpacingNone">@dimen/ssotcfcd208495d565ef66e7dff9f98764da</item>
-    <item name="typographyLetterSpacingTiny">@dimen/ssot2c18afe60933e3530f4310384a2a0014</item>
-    <item name="typographyLetterSpacingSmall">@dimen/ssot5ea7ab590db704175de1258006bad424</item>
-    <item name="typographyLetterSpacingMedium">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
-    <item name="typographyLetterSpacingLarge">@dimen/ssote46561181e51cf5aa1f6325abc4669b0</item>
-    <item name="typographyLetterSpacingHuge">@dimen/ssot7832453f6a831f958883ec0c1d0a81b1</item>
     <item name="spacingNone">@dimen/ssot2df86dd876f2b3a92462c3835ad5a32b</item>
     <item name="spacingMicro">@dimen/ssotf27085d5046e1bad7cde812c270a5623</item>
     <item name="spacingTiny">@dimen/ssot9a2af777528e7da0358e7be79a4981c2</item>

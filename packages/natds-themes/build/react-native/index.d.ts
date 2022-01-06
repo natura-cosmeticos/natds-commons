@@ -206,16 +206,6 @@ declare namespace Themes {
   headline: Display
   body: Body2
   fallback: Display
-  letterSpacing: LetterSpacing
-}
- export interface LetterSpacing {
-  auto: number
-  none: number
-  tiny: number
-  small: number
-  medium: number
-  large: number
-  huge: number
 }
  export interface Body2 {
   regular: Display
