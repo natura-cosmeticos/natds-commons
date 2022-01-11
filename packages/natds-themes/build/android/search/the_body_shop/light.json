@@ -49,6 +49,8 @@
   "typographyFontSizeLevel14": "58sp",
   "typographyFontSizeLevel15": "66sp",
   "typographyFontSizeLevel16": "74sp",
+  "typographyFontSizeLevel17": "83sp",
+  "typographyLineHeightAuto": 1,
   "typographyLineHeightReset": 1,
   "typographyLineHeightSmall": 1.25,
   "typographyLineHeightMedium": 1.5,

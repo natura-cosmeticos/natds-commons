@@ -226,6 +226,7 @@ declare namespace Themes {
   code: string
 }
  export interface LineHeight {
+  auto: number
   reset: number
   small: number
   medium: number
@@ -248,6 +249,7 @@ declare namespace Themes {
   level14: number
   level15: number
   level16: number
+  level17: number
 }
  export interface Spacing {
   none: number

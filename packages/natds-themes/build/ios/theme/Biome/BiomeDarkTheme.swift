@@ -195,6 +195,8 @@ struct BiomeDarkTokens: Tokens {
   let typographyFontSizeLevel14: CGFloat = 58
   let typographyFontSizeLevel15: CGFloat = 66
   let typographyFontSizeLevel16: CGFloat = 74
+  let typographyFontSizeLevel17: CGFloat = 83
+  let typographyLineHeightAuto: CGFloat = 1
   let typographyLineHeightReset: CGFloat = 1
   let typographyLineHeightSmall: CGFloat = 1.25
   let typographyLineHeightMedium: CGFloat = 1.5

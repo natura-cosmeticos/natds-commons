@@ -195,6 +195,8 @@ protocol Tokens {
   var typographyFontSizeLevel14: CGFloat { get }
   var typographyFontSizeLevel15: CGFloat { get }
   var typographyFontSizeLevel16: CGFloat { get }
+  var typographyFontSizeLevel17: CGFloat { get }
+  var typographyLineHeightAuto: CGFloat { get }
   var typographyLineHeightReset: CGFloat { get }
   var typographyLineHeightSmall: CGFloat { get }
   var typographyLineHeightMedium: CGFloat { get }

@@ -340,6 +340,8 @@
   <attr name="typographyFontSizeLevel14" format="dimension" />  
   <attr name="typographyFontSizeLevel15" format="dimension" />  
   <attr name="typographyFontSizeLevel16" format="dimension" />  
+  <attr name="typographyFontSizeLevel17" format="dimension" />  
+  <attr name="typographyLineHeightAuto" format="dimension" />  
   <attr name="typographyLineHeightReset" format="dimension" />  
   <attr name="typographyLineHeightSmall" format="dimension" />  
   <attr name="typographyLineHeightMedium" format="dimension" />  

@@ -53,7 +53,7 @@
     <dimen name="ssotb0649c0d1fb1f2d296bcf17157df135b">-0.00833333333</dimen>
     <dimen name="ssot46994ee971b1bd98b70a4bdf487cc2cb">34sp</dimen>
     <dimen name="ssot34a266ca53a2d6527c8995fdbc4e66cf">0.00735294118</dimen>
-    <dimen name="ssot7832453f6a831f958883ec0c1d0a81b1">0.17286</dimen>
+    <dimen name="ssota9046a77671373478ab80aef894d6f2d">0.166666667</dimen>
     <dimen name="ssote38502749f773d33ee02de5c2f61d6f3">0.04</dimen>
     <dimen name="ssot37d5c0b6b354bc3c790d2696b42756c9">0.08</dimen>
     <dimen name="ssotb1659515b9d1a59ebbc790e01084a8f0">0.12</dimen>
@@ -90,6 +90,7 @@
     <dimen name="ssot3a484004b7cba606d7ee6ec26d485a55">58sp</dimen>
     <dimen name="ssotecc6a3c734b3661111216d8b2cc6b363">66sp</dimen>
     <dimen name="ssotad160afb480df3d0d55154120431044b">74sp</dimen>
+    <dimen name="ssot378baec0f3928b10da39378f95e4389a">83sp</dimen>
     <dimen name="ssotc81e728d9d4c2f636f067f89cc14862c">2</dimen>
     <dimen name="ssotb22e8368f70c602cfc036846a1d13e99">82dp</dimen>
     <dimen name="ssot9007021639d44c5bd30ffb232bda4343">1dp</dimen>

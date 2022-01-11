@@ -272,7 +272,7 @@
     <item name="captionLetterSpacing">@dimen/ssot40f3f3640647251fc4da2ce46193df95</item>
     <item name="overlineFontSize">@dimen/ssotc44d0948764dbf2c5666b7e8309c73cb</item>
     <item name="overlineLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
-    <item name="overlineLetterSpacing">@dimen/ssot7832453f6a831f958883ec0c1d0a81b1</item>
+    <item name="overlineLetterSpacing">@dimen/ssota9046a77671373478ab80aef894d6f2d</item>
     <item name="opacityTransparent">@dimen/ssotcfcd208495d565ef66e7dff9f98764da</item>
     <item name="opacityLower">@dimen/ssote38502749f773d33ee02de5c2f61d6f3</item>
     <item name="opacityVeryLow">@dimen/ssot37d5c0b6b354bc3c790d2696b42756c9</item>
@@ -319,6 +319,8 @@
     <item name="typographyFontSizeLevel14">@dimen/ssot3a484004b7cba606d7ee6ec26d485a55</item>
     <item name="typographyFontSizeLevel15">@dimen/ssotecc6a3c734b3661111216d8b2cc6b363</item>
     <item name="typographyFontSizeLevel16">@dimen/ssotad160afb480df3d0d55154120431044b</item>
+    <item name="typographyFontSizeLevel17">@dimen/ssot378baec0f3928b10da39378f95e4389a</item>
+    <item name="typographyLineHeightAuto">@dimen/ssotc4ca4238a0b923820dcc509a6f75849b</item>
     <item name="typographyLineHeightReset">@dimen/ssotc4ca4238a0b923820dcc509a6f75849b</item>
     <item name="typographyLineHeightSmall">@dimen/ssot6c010c37f79973d02f1067604ef21513</item>
     <item name="typographyLineHeightMedium">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>

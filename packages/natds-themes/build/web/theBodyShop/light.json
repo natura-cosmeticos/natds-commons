@@ -705,9 +705,11 @@
       "level13": 52,
       "level14": 58,
       "level15": 66,
-      "level16": 74
+      "level16": 74,
+      "level17": 83
     },
     "lineHeight": {
+      "auto": 1,
       "reset": 1,
       "small": 1.25,
       "medium": 1.5,
