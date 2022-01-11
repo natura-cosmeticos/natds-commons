@@ -571,63 +571,87 @@
     "borderRadius": 4
   },
   "heading1": {
+    "fontFamily": "Work Sans",
     "fontSize": 96,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading2": {
+    "fontFamily": "Work Sans",
     "fontSize": 60,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading3": {
+    "fontFamily": "Work Sans",
     "fontSize": 48,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading4": {
+    "fontFamily": "Work Sans",
     "fontSize": 34,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.27
   },
   "heading5": {
+    "fontFamily": "Work Sans",
     "fontSize": 24,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading6": {
+    "fontFamily": "Work Sans",
     "fontSize": 20,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 0.24
   },
   "subtitle1": {
+    "fontFamily": "Work Sans",
     "fontSize": 16,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 0.13
   },
   "subtitle2": {
+    "fontFamily": "Work Sans",
     "fontSize": 14,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 0.11
   },
   "body1": {
+    "fontFamily": "Work Sans",
     "fontSize": 16,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.51
   },
   "body2": {
+    "fontFamily": "Work Sans",
     "fontSize": 14,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.22
   },
   "caption": {
+    "fontFamily": "Work Sans",
     "fontSize": 12,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.38
   },
   "overline": {
+    "fontFamily": "Work Sans",
     "fontSize": 12,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 1.92
   },
   "opacity": {
@@ -681,9 +705,11 @@
       "level13": 52,
       "level14": 58,
       "level15": 66,
-      "level16": 74
+      "level16": 74,
+      "level17": 83
     },
     "lineHeight": {
+      "auto": 1,
       "reset": 1,
       "small": 1.25,
       "medium": 1.5,
@@ -720,15 +746,6 @@
     "fallback": {
       "fontFamily": "Arial",
       "fontWeight": 400
-    },
-    "letterSpacing": {
-      "auto": 0,
-      "none": 0,
-      "tiny": 0.13,
-      "small": 0.26,
-      "medium": 0.51,
-      "large": 1.41,
-      "huge": 2.56
     }
   },
   "spacing": {

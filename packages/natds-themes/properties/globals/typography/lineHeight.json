@@ -1,6 +1,9 @@
 {
   "typography": {
     "lineHeight": {
+      "auto": {
+        "value": 1
+      },
       "reset": {
         "value": 1
       },

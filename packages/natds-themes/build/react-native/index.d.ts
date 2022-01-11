@@ -47,8 +47,10 @@ declare namespace Themes {
   overline: Heading1
 }
  export interface Heading1 {
+  fontFamily: string
   fontSize: number
   fontWeight: number
+  lineHeight: number
   letterSpacing: number
 }
  export interface TextField {
@@ -204,16 +206,6 @@ declare namespace Themes {
   headline: Display
   body: Body2
   fallback: Display
-  letterSpacing: LetterSpacing
-}
- export interface LetterSpacing {
-  auto: number
-  none: number
-  tiny: number
-  small: number
-  medium: number
-  large: number
-  huge: number
 }
  export interface Body2 {
   regular: Display
@@ -234,6 +226,7 @@ declare namespace Themes {
   code: string
 }
  export interface LineHeight {
+  auto: number
   reset: number
   small: number
   medium: number
@@ -256,6 +249,7 @@ declare namespace Themes {
   level14: number
   level15: number
   level16: number
+  level17: number
 }
  export interface Spacing {
   none: number
