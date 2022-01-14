@@ -29,7 +29,7 @@ const expectedConfig = {
     {
       destination: 'search/pokemon/pikachu.json',
       filter: 'tokenSearchProperties',
-      format: 'json/flat',
+      format: 'tokenSearch/template',
     },
   ],
   transformGroup: 'ios-swift',

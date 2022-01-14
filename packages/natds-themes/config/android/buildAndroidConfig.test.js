@@ -31,7 +31,7 @@ describe('buildAndroidConfig', () => {
         {
           destination: 'search/pokemon/pikachu.json',
           filter: expect.any(Function),
-          format: 'json/flat',
+          format: 'tokenSearch/template',
         },
       ],
       transforms: [
