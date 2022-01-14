@@ -1,4 +1,4 @@
-import { capitalizeWord, camelToSnakeCase } from '../shared/helpers';
+import { capitalizeWord, camelToSnakeCase, filterDeprecatedToken } from '../shared/helpers';
 import { filterPrivateAndFontFamilyProps, filterSearchAndFontFamilyProps } from './helpers/helpers';
 
 export const buildAndroidConfig = (brand, mode) => {
@@ -30,7 +30,12 @@ export const buildAndroidConfig = (brand, mode) => {
       {
         destination: `search/${brandName}/${mode}.json`,
         filter: filterSearchAndFontFamilyProps,
-        format: 'tokenSearch/template',
+        format: 'json/flat',
+      },
+      {
+        destination: `search/${brandName}/${mode}-deprecated.json`,
+        filter: filterDeprecatedToken,
+        format: 'json/flat',
       },
     ],
     transforms: [

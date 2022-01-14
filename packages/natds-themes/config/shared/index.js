@@ -11,7 +11,6 @@ import { registerOptimizeSvgTransform } from './transforms/registerOptimizeSvgTr
 import { registerPxTransform } from './transforms/registerPxTransform';
 import { registerFillToCssTransform } from './transforms/registerFillToCssTransform';
 import { registerFontFamilyStringTransform } from './transforms/registerFontFamilyStringTransform';
-import { registerTokenSearchFormat } from './formats/registerTokenSearchFormat';
 
 export default {
   actions: [
@@ -23,9 +22,6 @@ export default {
     registerPrivatePropertiesFilter,
     registerSpectrumPropertiesFilter,
     registerTokenSearchPropertiesFilter,
-  ],
-  formats: [
-    registerTokenSearchFormat,
   ],
   transforms: [
     registerAssetExtensionTransform,

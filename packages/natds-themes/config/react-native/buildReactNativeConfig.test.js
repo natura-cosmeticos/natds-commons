@@ -12,7 +12,12 @@ const expectedConfig = {
     {
       destination: 'search/pokemon/pikachu.json',
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
+      format: 'json/flat',
+    },
+    {
+      destination: 'search/pokemon/pikachu-deprecated.json',
+      filter: expect.any(Function),
+      format: 'json/flat',
     },
     {
       destination: 'spectrum/pokemon/spectrum.json',

@@ -1,3 +1,5 @@
+import { filterDeprecatedToken } from '../shared/helpers';
+
 export const buildWebConfig = (brand, mode) => ({
   actions: ['create_type_definitions', 'custom_copy_assets', 'create_type_face'],
   brand,
@@ -30,7 +32,12 @@ export const buildWebConfig = (brand, mode) => ({
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
+      format: 'json/flat',
+    },
+    {
+      destination: `search/${brand}/${mode}-deprecated.json`,
+      filter: filterDeprecatedToken,
+      format: 'json/flat',
     },
   ],
   transforms: [

@@ -1,4 +1,4 @@
-import { capitalizeWord } from '../shared/helpers';
+import { capitalizeWord, filterDeprecatedToken } from '../shared/helpers';
 
 const buildIosConfig = (brand, mode) => ({
   actions: ['custom_copy_assets'],
@@ -29,7 +29,12 @@ const buildIosConfig = (brand, mode) => ({
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
+      format: 'json/flat',
+    },
+    {
+      destination: `search/${brand}/${mode}-deprecated.json`,
+      filter: filterDeprecatedToken,
+      format: 'json/flat',
     },
   ],
   transformGroup: 'ios-swift',
