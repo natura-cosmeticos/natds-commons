@@ -36,7 +36,7 @@ const expectedWebConfig = {
     {
       destination: 'search/pokemon/pikachu.json',
       filter: 'tokenSearchProperties',
-      format: 'json/flat',
+      format: 'tokenSearch/template',
     },
   ],
   transforms: [

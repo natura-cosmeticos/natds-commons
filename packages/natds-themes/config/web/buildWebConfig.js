@@ -30,7 +30,7 @@ export const buildWebConfig = (brand, mode) => ({
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'json/flat',
+      format: 'tokenSearch/template',
     },
   ],
   transforms: [

@@ -30,7 +30,7 @@ export const buildAndroidConfig = (brand, mode) => {
       {
         destination: `search/${brandName}/${mode}.json`,
         filter: filterSearchAndFontFamilyProps,
-        format: 'json/flat',
+        format: 'tokenSearch/template',
       },
     ],
     transforms: [

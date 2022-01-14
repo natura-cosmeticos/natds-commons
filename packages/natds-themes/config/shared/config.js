@@ -14,6 +14,7 @@ export const customFormats = [
   ...web.formats,
   ...css.formats,
   ...html.formats,
+  ...shared.formats,
 ];
 
 export const customActions = [

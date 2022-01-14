@@ -29,7 +29,7 @@ const buildIosConfig = (brand, mode) => ({
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'json/flat',
+      format: 'tokenSearch/template',
     },
   ],
   transformGroup: 'ios-swift',
