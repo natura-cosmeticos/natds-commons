@@ -20,7 +20,12 @@ exports[`Table should render table 1`] = `
   <tbody>
     <tr>
       <td>
-        borderRadius
+        borderRadius 
+        <span
+          class="deprecated"
+        >
+          deprecated
+        </span>
       </td>
       <td>
         8

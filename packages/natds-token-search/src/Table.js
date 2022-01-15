@@ -8,6 +8,13 @@ import { color } from './styles/global';
 
 const tableStyles = {
   tokenTable: {
+    '& .deprecated': {
+      backgroundColor: 'red',
+      borderRadius: 8,
+      color: 'white',
+      fontSize: 12,
+      padding: [0, 8],
+    },
     '& .opacity': {
       backgroundColor: '#D51BE5',
       display: 'inline-block',
@@ -45,6 +52,16 @@ const tableSheet = jss.createStyleSheet(tableStyles);
 
 const tableHeading = '<thead><th>Name</th><th>Value</th><th>Preview</th></thead>';
 
+const buildNamePreview = (name) => {
+  const { deprecatedTokens } = store.getState();
+
+  if (Object.keys(deprecatedTokens).includes(name)) {
+    return `<td>${name} <span class="deprecated">deprecated</span></td>`;
+  }
+
+  return `<td>${name}</td>`;
+};
+
 const buildPreview = (name, value) => {
   if (name.includes('color')) {
     return `<div class="preview color" style="background-color: ${value.replace(/"/g, '')}"></div>`;
@@ -58,7 +75,7 @@ const buildPreview = (name, value) => {
 };
 
 const renderBody = pipe(
-  mapObjIndexed((value, name) => `<tr><td>${name}</td><td>${value}</td><td>${buildPreview(name, value)}</td></tr>`),
+  mapObjIndexed((value, name) => `<tr>${buildNamePreview(name)}<td>${value}</td><td>${buildPreview(name, value)}</td></tr>`),
   values,
   join(''),
 );
