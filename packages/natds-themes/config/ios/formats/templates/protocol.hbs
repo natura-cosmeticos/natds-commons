@@ -3,6 +3,9 @@
 {{#each data}}
 protocol {{protocolName}} {
 {{#each protocolItems}}
+  {{#if deprecated}}
+  @available(*, deprecated, message: "{{deprecated_comment}}")
+  {{/if}}
   var {{name}}: {{attributes.customOptions.type}} { get }
 {{/each}}
 }

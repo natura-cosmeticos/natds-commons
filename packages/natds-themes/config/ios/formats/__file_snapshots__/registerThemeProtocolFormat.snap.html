@@ -25,6 +25,7 @@ protocol Theme {
 
 protocol Tokens {
   var borderRadiusSmall:  { get }
+  @available(*, deprecated, message: "replace with another color")
   var colorPrimary:  { get }
   var elevationTiny:  { get }
   var opacityOpaque:  { get }

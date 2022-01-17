@@ -8,6 +8,8 @@ const dictionary = {
     color: {
       primary: {
         attributes: { customOptions: { type: 'color' } },
+        deprecated: true,
+        deprecated_comment: 'replace with another color',
         name: 'colorPrimary',
         original: {
           value: '#F091C9',

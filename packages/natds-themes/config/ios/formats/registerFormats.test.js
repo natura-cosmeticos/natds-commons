@@ -26,6 +26,8 @@ const dictionary = {
     color: {
       primary: {
         attributes: {},
+        deprecated: true,
+        deprecated_comment: 'replace with another color',
         name: 'colorPrimary',
         original: {
           value: '"#F091C9"',

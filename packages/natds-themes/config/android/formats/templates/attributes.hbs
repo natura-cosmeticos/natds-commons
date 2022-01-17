@@ -4,6 +4,9 @@
 -->
 <resources>
   {{#each properties}}
+    {{#if deprecated}}
+  <!-- TODO: The attribute {{name}} is deprecated. Please, {{deprecated_comment}} instead.  -->
+    {{/if}}
   <attr name="{{name}}" format="{{attributes.customOptions.type}}" />  
   {{/each}}
 </resources>
