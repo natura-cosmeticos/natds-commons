@@ -1,7 +1,0 @@
-{{> fileHeader }}
-
-protocol Spectrum {
-{{#each spectrum}}
-  var {{name}}: {{attributes.customOptions.type}} { get }
-{{/each}}
-}
