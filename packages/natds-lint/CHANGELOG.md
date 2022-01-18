@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/eslint-config-natds@0.0.2...@naturacosmeticos/eslint-config-natds@0.0.3) (2022-01-18)
+
+
+### Bug Fixes
+
+* **natds-lint:** updates lint rules ([#344](https://github.com/natura-cosmeticos/natds-commons/issues/344)) ([a4dbe16](https://github.com/natura-cosmeticos/natds-commons/commit/a4dbe16c0090ce953e9a70efb2ebd3a8985d49a3))
+
+
+
+
+
 ## [0.0.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/eslint-config-natds@0.0.1...@naturacosmeticos/eslint-config-natds@0.0.2) (2022-01-18)
 
 
