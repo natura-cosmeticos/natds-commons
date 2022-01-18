@@ -7,9 +7,14 @@ const allTokens = {
   opacity: 1,
 };
 
+const deprecatedTokens = {
+  borderRadius: 8,
+};
+
 const state = {
   allTokens,
   brand: 'natura',
+  deprecatedTokens,
   mode: 'light',
   platform: 'web',
   search: null,

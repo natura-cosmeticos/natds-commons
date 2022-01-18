@@ -2,13 +2,19 @@
   "typography": {
     "fontFamily": {
       "primary": {
-        "value": "{platform.typography.fontFamily.primary.value}"
+        "value": "{platform.typography.fontFamily.primary.value}",
+        "deprecated": true,
+        "deprecated_comment": "replace with Headline, Display or Body"
       },
       "secondary": {
-        "value": "sans-serif"
+        "value": "sans-serif",
+        "deprecated": true,
+        "deprecated_comment": "replace with Headline, Display or Body"
       },
       "branding": {
-        "value": "Helvetica Now"
+        "value": "Helvetica Now",
+        "deprecated": true,
+        "deprecated_comment": "replace with Headline, Display or Body"
       },
       "code": {
         "value": "{platform.typography.fontFamily.code.value}"

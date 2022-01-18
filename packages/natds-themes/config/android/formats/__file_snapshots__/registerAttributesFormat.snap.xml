@@ -21,6 +21,7 @@
  */
 -->
 <resources>
+  <!-- TODO: The attribute colorPrimary is deprecated. Please, replace with another color instead.  -->
   <attr name="colorPrimary" format="color" />  
   <attr name="sizeTiny" format="dimension" />  
   <attr name="spacingSmall" format="dimension" />  

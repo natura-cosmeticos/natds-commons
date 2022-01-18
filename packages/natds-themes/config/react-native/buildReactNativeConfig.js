@@ -10,7 +10,7 @@ const buildReactNativeConfig = (brand, mode) => ({
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'json/flat',
+      format: 'tokenSearch/template',
     },
     {
       destination: `spectrum/${brand}/spectrum.json`,

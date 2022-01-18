@@ -201,8 +201,11 @@ protocol Tokens {
   var typographyLineHeightSmall: CGFloat { get }
   var typographyLineHeightMedium: CGFloat { get }
   var typographyLineHeightLarge: CGFloat { get }
+  @available(*, deprecated, message: "replace with Headline, Display or Body")
   var typographyFontFamilyPrimary: String { get }
+  @available(*, deprecated, message: "replace with Headline, Display or Body")
   var typographyFontFamilySecondary: String { get }
+  @available(*, deprecated, message: "replace with Headline, Display or Body")
   var typographyFontFamilyBranding: String { get }
   var typographyFontFamilyCode: String { get }
   var typographyFontWeightRegular: UIFont.Weight { get }
