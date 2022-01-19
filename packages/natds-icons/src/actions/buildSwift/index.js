@@ -1,1 +1,1 @@
-export * from './buildSwift';
+export * from './buildSwift'

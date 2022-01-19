@@ -16,7 +16,8 @@ module.exports = {
     "**/build/**",
     "**/dist/**",
     "**/node_modules/**",
-    "packages/natds-token-search/tokens",
+    "packages/natds-themes/react-native",
+    "packages/natds-token-search/tokens"
   ],
   "overrides": [
     {

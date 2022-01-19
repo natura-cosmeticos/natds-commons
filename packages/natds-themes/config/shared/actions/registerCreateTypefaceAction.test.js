@@ -1,8 +1,8 @@
-import fs from 'fs';
-import { registerCreateTypefaceAction } from './registerCreateTypefaceAction';
-import * as helpers from '../helpers/helpers';
+import fs from 'fs'
+import { registerCreateTypefaceAction } from './registerCreateTypefaceAction'
+import * as helpers from '../helpers/helpers'
 
-jest.mock('fs');
+jest.mock('fs')
 
 const dictionary = {
   properties: {
@@ -12,117 +12,117 @@ const dictionary = {
           file: {
             attributes: {
               assetOptions: {
-                extensions: ['ttf'],
+                extensions: ['ttf']
               },
               category: 'asset',
               customOptions: {
-                type: 'reference',
+                type: 'reference'
               },
               item: 'font',
-              type: 'display',
+              type: 'display'
             },
             filePath: 'properties/brands/theBodyShop/asset.json',
             isSource: true,
             name: 'assetFontDisplayFile',
             original: {
-              value: 'Helvetica',
+              value: 'Helvetica'
             },
             path: [
               'asset',
               'font',
               'display',
-              'file',
+              'file'
             ],
-            value: 'Helvetica',
-          },
+            value: 'Helvetica'
+          }
         },
         headline: {
           file: {
             attributes: {
               assetOptions: {
-                extensions: ['ttf'],
+                extensions: ['ttf']
               },
               category: 'asset',
               customOptions: {
-                type: 'reference',
+                type: 'reference'
               },
               item: 'font',
-              type: 'display',
+              type: 'display'
             },
             filePath: 'properties/brands/theBodyShop/asset.json',
             isSource: true,
             name: 'assetFontHeadlineFile',
             original: {
-              value: 'Comic Sans',
+              value: 'Comic Sans'
             },
             path: [
               'asset',
               'font',
               'headline',
-              'file',
+              'file'
             ],
-            value: 'Comic Sans',
-          },
-        },
-      },
+            value: 'Comic Sans'
+          }
+        }
+      }
     },
     borderRadius: {
       none: {
         attributes: {
           category: 'borderRadius',
           customOptions: {
-            type: 'dimension',
+            type: 'dimension'
           },
-          type: 'none',
+          type: 'none'
         },
         name: 'borderRadiusNone',
         original: {
-          value: 0,
+          value: 0
         },
         path: [
           'borderRadius',
-          'none',
+          'none'
         ],
-        value: '0dp',
-      },
-    },
-  },
-};
+        value: '0dp'
+      }
+    }
+  }
+}
 
 const config = {
   brand: 'avon',
-  buildPath: 'build/',
-};
+  buildPath: 'build/'
+}
 
 describe('registerCreateTypefaceAction', () => {
   it('should return the action config on do', () => {
-    const action = registerCreateTypefaceAction();
+    const action = registerCreateTypefaceAction()
 
     const expectedAction = {
       do: expect.any(Function),
       name: 'create_type_face',
-      undo: expect.any(Function),
-    };
+      undo: expect.any(Function)
+    }
 
-    expect(action).toEqual(expectedAction);
-  });
+    expect(action).toEqual(expectedAction)
+  })
 
   it('should create the typeface for web', () => {
-    const writeFileSpy = jest.fn();
+    const writeFileSpy = jest.fn()
 
-    fs.writeFileSync.mockImplementation(writeFileSpy);
+    fs.writeFileSync.mockImplementation(writeFileSpy)
 
     jest
       .spyOn(helpers, 'readAsset')
       .mockImplementation((fontName) => {
-        const font = fontName.split('.')[0];
+        const font = fontName.split('.')[0]
 
         return `
 @font-face {
   font-family: '${font}';
   src: url('${font}.eot');
-}`;
-      });
+}`
+      })
 
     const expectedFontFace = `
 @font-face {
@@ -133,21 +133,21 @@ describe('registerCreateTypefaceAction', () => {
 @font-face {
   font-family: 'Comic Sans';
   src: url('Comic Sans.eot');
-}`;
+}`
 
-    const action = registerCreateTypefaceAction();
+    const action = registerCreateTypefaceAction()
 
-    action.do(dictionary, config);
+    action.do(dictionary, config)
 
-    expect(fs.writeFileSync).toHaveBeenCalledWith('build/assets/avon_fonts.css', expectedFontFace);
-  });
+    expect(fs.writeFileSync).toHaveBeenCalledWith('build/assets/avon_fonts.css', expectedFontFace)
+  })
 
   it('should remove typeface on undo', () => {
-    fs.unlinkSync.mockImplementation(jest.fn());
-    const action = registerCreateTypefaceAction();
+    fs.unlinkSync.mockImplementation(jest.fn())
+    const action = registerCreateTypefaceAction()
 
-    action.undo(dictionary, config);
+    action.undo(dictionary, config)
 
-    expect(fs.unlinkSync).toHaveBeenCalledWith('build/assets/avon_fonts.css');
-  });
-});
+    expect(fs.unlinkSync).toHaveBeenCalledWith('build/assets/avon_fonts.css')
+  })
+})

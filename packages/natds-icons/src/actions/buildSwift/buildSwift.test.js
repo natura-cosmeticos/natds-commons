@@ -1,36 +1,36 @@
-import { buildSwift } from './buildSwift';
-import * as helpers from './helpers';
+import { buildSwift } from './buildSwift'
+import * as helpers from './helpers'
 
 const data = {
   globalConfig: {
     fontName: 'font-name',
-    outputPath: 'folder/name',
-  },
-};
+    outputPath: 'folder/name'
+  }
+}
 
 describe('buildSwift', () => {
-  let getIconStringSpy;
-  let getUnicodeIconStringSpy;
+  let getIconStringSpy
+  let getUnicodeIconStringSpy
 
   beforeEach(() => {
     getIconStringSpy = jest
       .spyOn(helpers, 'getIconString')
-      .mockReturnValue('case IconName = "icon-name"');
+      .mockReturnValue('case IconName = "icon-name"')
 
     getUnicodeIconStringSpy = jest
       .spyOn(helpers, 'getUnicodeIconString')
-      .mockReturnValue('case .IconName: return "\\u{EA0A}"');
-  });
+      .mockReturnValue('case .IconName: return "\\u{EA0A}"')
+  })
 
   it('should call helper functions', () => {
-    buildSwift(data);
+    buildSwift(data)
 
-    expect(getIconStringSpy).toHaveBeenCalledWith(data);
-    expect(getUnicodeIconStringSpy).toHaveBeenCalledWith(data);
-  });
+    expect(getIconStringSpy).toHaveBeenCalledWith(data)
+    expect(getUnicodeIconStringSpy).toHaveBeenCalledWith(data)
+  })
 
   it('should return the swift output', () => {
-    const result = buildSwift(data);
+    const result = buildSwift(data)
 
     const content = `
 public enum Icon: String, CaseIterable {
@@ -44,20 +44,20 @@ extension Icon {
     }
   }
 }
-`;
+`
 
     const expectedSwiftOutput = {
       swift: {
         content,
-        outputPath: 'folder/name/font-name.swift',
-      },
-    };
+        outputPath: 'folder/name/font-name.swift'
+      }
+    }
 
     expect(result).toEqual({
       ...data,
       outputs: {
-        ...expectedSwiftOutput,
-      },
-    });
-  });
-});
+        ...expectedSwiftOutput
+      }
+    })
+  })
+})

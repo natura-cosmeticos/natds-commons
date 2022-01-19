@@ -1,4 +1,4 @@
-import { buildWebConfig } from './buildWebConfig';
+import { buildWebConfig } from './buildWebConfig'
 
 const expectedWebConfig = {
   actions: ['create_type_definitions', 'custom_copy_assets', 'create_type_face'],
@@ -9,35 +9,35 @@ const expectedWebConfig = {
       destination: 'spectrum/pokemon/spectrum.json',
       filter: 'spectrumProperties',
       format: 'json/nested',
-      options: { showFileHeader: false },
+      options: { showFileHeader: false }
     },
     {
       destination: 'pokemon/pikachu.json',
       filter: 'privateProperties',
       format: 'json/nested',
       options: {
-        showFileHeader: false,
-      },
+        showFileHeader: false
+      }
     },
     {
       destination: 'pokemon/pikachu.js',
       filter: 'privateProperties',
       format: 'javascript/es6',
       options: {
-        showFileHeader: false,
-      },
+        showFileHeader: false
+      }
     },
     {
       destination: 'spectrum/pokemon/spectrum.js',
       filter: 'spectrumProperties',
       format: 'javascript/es6',
-      options: { showFileHeader: false },
+      options: { showFileHeader: false }
     },
     {
       destination: 'search/pokemon/pikachu.json',
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
-    },
+      format: 'tokenSearch/template'
+    }
   ],
   transforms: [
     'attribute/cti',
@@ -45,14 +45,14 @@ const expectedWebConfig = {
     'color/hex',
     'asset/extension',
     'asset/svg-optimized',
-    'asset/svg-inline',
-  ],
-};
+    'asset/svg-inline'
+  ]
+}
 
 describe('buildWebConfig', () => {
   it('should return the react dom config for the given brand and mode', () => {
-    const config = buildWebConfig('pokemon', 'pikachu');
+    const config = buildWebConfig('pokemon', 'pikachu')
 
-    expect(config).toEqual(expectedWebConfig);
-  });
-});
+    expect(config).toEqual(expectedWebConfig)
+  })
+})

@@ -1,18 +1,18 @@
-import DtsCreator from 'typed-css-modules';
+import DtsCreator from 'typed-css-modules'
 
 export const buildCssDts = (data) => {
-  const { globalConfig: { fontName, outputPath }, outputs: { css } } = data;
-  const filePath = `${outputPath}/${fontName}.css`;
+  const { globalConfig: { fontName, outputPath }, outputs: { css } } = data
+  const filePath = `${outputPath}/${fontName}.css`
 
-  const creator = new DtsCreator();
+  const creator = new DtsCreator()
 
   return creator
     .create(filePath, css.content)
     .then((content) => {
-      content.writeFile();
+      content.writeFile()
 
-      return data;
-    });
-};
+      return data
+    })
+}
 
-export default buildCssDts;
+export default buildCssDts

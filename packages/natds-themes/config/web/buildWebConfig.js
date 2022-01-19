@@ -7,31 +7,31 @@ export const buildWebConfig = (brand, mode) => ({
       destination: `spectrum/${brand}/spectrum.json`,
       filter: 'spectrumProperties',
       format: 'json/nested',
-      options: { showFileHeader: false },
+      options: { showFileHeader: false }
     },
     {
       destination: `${brand}/${mode}.json`,
       filter: 'privateProperties',
       format: 'json/nested',
-      options: { showFileHeader: false },
+      options: { showFileHeader: false }
     },
     {
       destination: `${brand}/${mode}.js`,
       filter: 'privateProperties',
       format: 'javascript/es6',
-      options: { showFileHeader: false },
+      options: { showFileHeader: false }
     },
     {
       destination: `spectrum/${brand}/spectrum.js`,
       filter: 'spectrumProperties',
       format: 'javascript/es6',
-      options: { showFileHeader: false },
+      options: { showFileHeader: false }
     },
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
-    },
+      format: 'tokenSearch/template'
+    }
   ],
   transforms: [
     'attribute/cti',
@@ -39,8 +39,8 @@ export const buildWebConfig = (brand, mode) => ({
     'color/hex',
     'asset/extension',
     'asset/svg-optimized',
-    'asset/svg-inline',
-  ],
-});
+    'asset/svg-inline'
+  ]
+})
 
-export default buildWebConfig;
+export default buildWebConfig

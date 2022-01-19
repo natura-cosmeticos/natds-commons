@@ -1,31 +1,31 @@
-import { registerCopyAssetsAction } from './actions/registerCopyAssetsAction';
-import { registerTypeDefinitionsAction } from './actions/registerTypeDefinitionsAction';
-import { registerCreateTypefaceAction } from './actions/registerCreateTypefaceAction';
-import { registerPrivatePropertiesFilter } from './filters/registerPrivatePropertiesFilter';
-import { registerTokenSearchPropertiesFilter } from './filters/registerTokenSearchPropertiesFilter';
-import { registerSpectrumPropertiesFilter } from './filters/registerSpectrumPropertiesFilter';
-import { registerAssetExtensionTransform } from './transforms/registerAssetExtensionTransform';
-import { registerAssetInlineTransform } from './transforms/registerAssetInlineTransform';
-import { registerCamelTransform } from './transforms/registerCamelTransform';
-import { registerOptimizeSvgTransform } from './transforms/registerOptimizeSvgTransform';
-import { registerPxTransform } from './transforms/registerPxTransform';
-import { registerFillToCssTransform } from './transforms/registerFillToCssTransform';
-import { registerFontFamilyStringTransform } from './transforms/registerFontFamilyStringTransform';
-import { registerTokenSearchFormat } from './formats/registerTokenSearchFormat';
+import { registerCopyAssetsAction } from './actions/registerCopyAssetsAction'
+import { registerTypeDefinitionsAction } from './actions/registerTypeDefinitionsAction'
+import { registerCreateTypefaceAction } from './actions/registerCreateTypefaceAction'
+import { registerPrivatePropertiesFilter } from './filters/registerPrivatePropertiesFilter'
+import { registerTokenSearchPropertiesFilter } from './filters/registerTokenSearchPropertiesFilter'
+import { registerSpectrumPropertiesFilter } from './filters/registerSpectrumPropertiesFilter'
+import { registerAssetExtensionTransform } from './transforms/registerAssetExtensionTransform'
+import { registerAssetInlineTransform } from './transforms/registerAssetInlineTransform'
+import { registerCamelTransform } from './transforms/registerCamelTransform'
+import { registerOptimizeSvgTransform } from './transforms/registerOptimizeSvgTransform'
+import { registerPxTransform } from './transforms/registerPxTransform'
+import { registerFillToCssTransform } from './transforms/registerFillToCssTransform'
+import { registerFontFamilyStringTransform } from './transforms/registerFontFamilyStringTransform'
+import { registerTokenSearchFormat } from './formats/registerTokenSearchFormat'
 
 export default {
   actions: [
     registerTypeDefinitionsAction,
     registerCopyAssetsAction,
-    registerCreateTypefaceAction,
+    registerCreateTypefaceAction
   ],
   filters: [
     registerPrivatePropertiesFilter,
     registerSpectrumPropertiesFilter,
-    registerTokenSearchPropertiesFilter,
+    registerTokenSearchPropertiesFilter
   ],
   formats: [
-    registerTokenSearchFormat,
+    registerTokenSearchFormat
   ],
   transforms: [
     registerAssetExtensionTransform,
@@ -34,6 +34,6 @@ export default {
     registerOptimizeSvgTransform,
     registerPxTransform,
     registerFillToCssTransform,
-    registerFontFamilyStringTransform,
-  ],
-};
+    registerFontFamilyStringTransform
+  ]
+}

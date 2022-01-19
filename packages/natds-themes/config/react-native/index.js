@@ -1,8 +1,8 @@
-import config from './buildReactNativeConfig';
+import config from './buildReactNativeConfig'
 
 export default {
   actions: [],
   config,
   formats: [],
-  transforms: [],
-};
+  transforms: []
+}

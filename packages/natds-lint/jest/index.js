@@ -1,14 +1,14 @@
 module.exports = {
   extends: [
-    'plugin:jest/recommended',
+    'plugin:jest/recommended'
   ],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['jest'],
   rules: {},
   env: {
-    'jest/globals': true,
-  },
+    'jest/globals': true
+  }
 }

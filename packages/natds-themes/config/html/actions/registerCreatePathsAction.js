@@ -1,34 +1,34 @@
-import fs from 'fs';
-import { createOutputPathInfo } from '../../shared/helpers';
+import fs from 'fs'
+import { createOutputPathInfo } from '../../shared/helpers'
 
-const filePath = 'build/html/paths.json';
+const filePath = 'build/html/paths.json'
 
 export const dataBuilderFunction = (dictionary, config) => {
-  const brandName = config.buildPath.split('/')[2];
+  const brandName = config.buildPath.split('/')[2]
 
   return config.files.map((file) => {
-    const mode = file.destination.split('.')[0];
+    const mode = file.destination.split('.')[0]
 
     return {
       name: `${brandName} ${mode}`,
-      path: `/${brandName}/${file.destination}`,
-    };
-  });
-};
+      path: `/${brandName}/${file.destination}`
+    }
+  })
+}
 
 export const createPaths = (
   dictionary,
-  config,
-) => createOutputPathInfo(filePath, dataBuilderFunction, dictionary, config);
+  config
+) => createOutputPathInfo(filePath, dataBuilderFunction, dictionary, config)
 
-export const deletePaths = () => fs.unlinkSync(filePath);
+export const deletePaths = () => fs.unlinkSync(filePath)
 
 const registerCreatePathsAction = () => (
   {
     do: createPaths,
     name: 'create_paths_html',
-    undo: deletePaths,
+    undo: deletePaths
   }
-);
+)
 
-export default registerCreatePathsAction;
+export default registerCreatePathsAction

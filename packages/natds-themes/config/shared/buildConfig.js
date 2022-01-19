@@ -1,9 +1,9 @@
-import reactNative from '../react-native';
-import web from '../web';
-import html from '../html';
-import android from '../android';
-import ios from '../ios';
-import css from '../css';
+import reactNative from '../react-native'
+import web from '../web'
+import html from '../html'
+import android from '../android'
+import ios from '../ios'
+import css from '../css'
 
 export const buildConfig = (brand, mode, platform) => ({
   platforms: {
@@ -12,7 +12,7 @@ export const buildConfig = (brand, mode, platform) => ({
     html: html.config(brand, mode),
     ios: ios.config(brand, mode),
     'react-native': reactNative.config(brand, mode),
-    web: web.config(brand, mode),
+    web: web.config(brand, mode)
   },
   source: [
     'properties/globals/**/!(*light|*dark).json',
@@ -25,8 +25,8 @@ export const buildConfig = (brand, mode, platform) => ({
     `properties/brands/${brand}/components/*.json`,
     `properties/brands/${brand}/asset-${mode}.json`,
     `properties/platforms/${platform}/*.json`,
-    `properties/platforms/${platform}/!(*.test).js`,
-  ],
-});
+    `properties/platforms/${platform}/!(*.test).js`
+  ]
+})
 
-export default buildConfig;
+export default buildConfig

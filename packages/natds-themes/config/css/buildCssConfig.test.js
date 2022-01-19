@@ -1,4 +1,4 @@
-import { buildCssConfig } from './buildCssConfig';
+import { buildCssConfig } from './buildCssConfig'
 
 const expectedCssConfig = {
   actions: ['custom_copy_assets'],
@@ -9,17 +9,17 @@ const expectedCssConfig = {
       filter: 'privateProperties',
       format: 'css/variables',
       options: {
-        showFileHeader: false,
-      },
+        showFileHeader: false
+      }
     },
     {
       destination: 'spectrum/pokemon/spectrum.css',
       filter: 'spectrumProperties',
       format: 'css/variables',
       options: {
-        showFileHeader: false,
-      },
-    },
+        showFileHeader: false
+      }
+    }
   ],
   transforms: [
     'attribute/cti',
@@ -27,14 +27,14 @@ const expectedCssConfig = {
     'color/hex',
     'unit/px',
     'asset/extension',
-    'fontFamily/string',
-  ],
-};
+    'fontFamily/string'
+  ]
+}
 
 describe('buildCssConfig', () => {
   it('should return the css config for the given brand and mode', () => {
-    const config = buildCssConfig('pokemon', 'pikachu');
+    const config = buildCssConfig('pokemon', 'pikachu')
 
-    expect(config).toEqual(expectedCssConfig);
-  });
-});
+    expect(config).toEqual(expectedCssConfig)
+  })
+})

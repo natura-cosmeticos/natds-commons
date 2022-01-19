@@ -1,9 +1,9 @@
-import path from 'path';
-import fs from 'fs';
-import { convertFilToCss } from './convertFillToStyle';
+import path from 'path'
+import fs from 'fs'
+import { convertFilToCss } from './convertFillToStyle'
 
-jest.mock('fs');
-jest.mock('path');
+jest.mock('fs')
+jest.mock('path')
 
 describe('convertFillToStyle', () => {
   it('should change characters with brackets', () => {
@@ -14,10 +14,10 @@ describe('convertFillToStyle', () => {
           fill: #000000
         !!!
       </style><path ></path><rect ></rect></svg>
-    }`;
+    }`
 
-    fs.readFileSync.mockReturnValue(mockTheme);
-    path.resolve.mockReturnValue('a/path');
+    fs.readFileSync.mockReturnValue(mockTheme)
+    path.resolve.mockReturnValue('a/path')
 
     const expectedTheme = `{
       asset: <svg>
@@ -26,10 +26,10 @@ describe('convertFillToStyle', () => {
           fill: #000000
         }
       </style><path ></path><rect ></rect></svg>
-    }`;
+    }`
 
-    convertFilToCss();
+    convertFilToCss()
 
-    expect(fs.writeFileSync).toHaveBeenCalledWith('a/path/light.json', expectedTheme);
-  });
-});
+    expect(fs.writeFileSync).toHaveBeenCalledWith('a/path/light.json', expectedTheme)
+  })
+})

@@ -1,4 +1,4 @@
-import { registerFillToCssTransform } from './registerFillToCssTransform';
+import { registerFillToCssTransform } from './registerFillToCssTransform'
 
 describe('registerFillToCssTransform', () => {
   it('should return the transform config', () => {
@@ -7,20 +7,20 @@ describe('registerFillToCssTransform', () => {
       name: 'asset/svg-fill-to-css',
       transformer: expect.any(Function),
       transitive: false,
-      type: 'value',
-    };
+      type: 'value'
+    }
 
-    const result = registerFillToCssTransform();
+    const result = registerFillToCssTransform()
 
-    expect(result).toEqual(expectedConfig);
-  });
+    expect(result).toEqual(expectedConfig)
+  })
 
   it('should remove the fill prop from elements and add to a style tag', () => {
-    const transform = registerFillToCssTransform();
+    const transform = registerFillToCssTransform()
 
     const prop = {
-      value: '<svg><path fill="#000000"></path><rect fill="#000000"></rect></svg>',
-    };
+      value: '<svg><path fill="#000000"></path><rect fill="#000000"></rect></svg>'
+    }
 
     const expectedSvg = `<svg>
     <style>
@@ -28,10 +28,10 @@ describe('registerFillToCssTransform', () => {
         fill: #000000
       !!!
     </style>
-    <path ></path><rect ></rect></svg>`;
+    <path ></path><rect ></rect></svg>`
 
-    const result = transform.transformer(prop);
+    const result = transform.transformer(prop)
 
-    expect(result).toEqual(expectedSvg);
-  });
-});
+    expect(result).toEqual(expectedSvg)
+  })
+})

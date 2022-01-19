@@ -1,4 +1,4 @@
-import { isProp } from '../../shared/helpers';
+import { isProp } from '../../shared/helpers'
 
 const fontWeight = {
   100: '.ultraLight',
@@ -9,15 +9,15 @@ const fontWeight = {
   600: '.semibold',
   700: '.bold',
   800: '.heavy',
-  900: '.black',
-};
+  900: '.black'
+}
 
 export const registerFontWeightTransform = () => ({
   matcher: isProp('fontWeight'),
   name: 'value/font-weight-ios',
   transformer: ({ value }) => fontWeight[value],
   transitive: false,
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerFontWeightTransform;
+export default registerFontWeightTransform

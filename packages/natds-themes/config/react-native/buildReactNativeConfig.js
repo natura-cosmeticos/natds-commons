@@ -5,18 +5,18 @@ const buildReactNativeConfig = (brand, mode) => ({
     {
       destination: `${brand}/${mode}.json`,
       filter: 'privateProperties',
-      format: 'json/nested',
+      format: 'json/nested'
     },
     {
       destination: `search/${brand}/${mode}.json`,
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
+      format: 'tokenSearch/template'
     },
     {
       destination: `spectrum/${brand}/spectrum.json`,
       filter: 'spectrumProperties',
-      format: 'json/nested',
-    },
+      format: 'json/nested'
+    }
   ],
   transforms: [
     'attribute/cti',
@@ -25,8 +25,8 @@ const buildReactNativeConfig = (brand, mode) => ({
     'asset/extension',
     'asset/svg-optimized',
     'asset/svg-inline',
-    'asset/svg-fill-to-css',
-  ],
-});
+    'asset/svg-fill-to-css'
+  ]
+})
 
-export default buildReactNativeConfig;
+export default buildReactNativeConfig

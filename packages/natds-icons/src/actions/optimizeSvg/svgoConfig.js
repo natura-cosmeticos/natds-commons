@@ -31,14 +31,14 @@ export const svgoConfig = {
     { removeRasterImages: false },
     {
       mergePaths: {
-        noSpaceAfterFlags: false,
-      },
+        noSpaceAfterFlags: false
+      }
     },
     { convertShapeToPath: true },
     { sortAttrs: true },
     { removeDimensions: true },
-    { removeAttrs: { attrs: '(stroke|fill)' } },
-  ],
-};
+    { removeAttrs: { attrs: '(stroke|fill)' } }
+  ]
+}
 
-export default svgoConfig;
+export default svgoConfig

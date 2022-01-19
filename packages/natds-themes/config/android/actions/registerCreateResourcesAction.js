@@ -1,39 +1,39 @@
-import fs from 'fs';
-import { prop } from 'ramda';
-import { isDimension, isColor, mapFilteredValues } from '../helpers/helpers';
-import { createOutputPathInfo } from '../../shared/helpers';
+import fs from 'fs'
+import { prop } from 'ramda'
+import { isDimension, isColor, mapFilteredValues } from '../helpers/helpers'
+import { createOutputPathInfo } from '../../shared/helpers'
 
-const outputPath = 'build/android/theme';
-const colorsOutputPath = `${outputPath}/colors.json`;
-const dimensionsOutputPath = `${outputPath}/dimens.json`;
+const outputPath = 'build/android/theme'
+const colorsOutputPath = `${outputPath}/colors.json`
+const dimensionsOutputPath = `${outputPath}/dimens.json`
 
 export const dataBuilder = (filterFn) => (dictionary) => mapFilteredValues(
   dictionary.allProperties,
   filterFn,
-  prop('value'),
-);
+  prop('value')
+)
 
 const extractValuesForResourceOutput = (dictionary, config) => {
   createOutputPathInfo(
     colorsOutputPath,
     dataBuilder(isColor),
     dictionary,
-    config,
-  );
-  createOutputPathInfo(dimensionsOutputPath, dataBuilder(isDimension), dictionary, config);
-};
+    config
+  )
+  createOutputPathInfo(dimensionsOutputPath, dataBuilder(isDimension), dictionary, config)
+}
 
 const deleteResourceFile = () => {
-  fs.unlinkSync(colorsOutputPath);
-  fs.unlinkSync(dimensionsOutputPath);
-};
+  fs.unlinkSync(colorsOutputPath)
+  fs.unlinkSync(dimensionsOutputPath)
+}
 
 export const registerCreateResourcesAction = () => (
   {
     do: extractValuesForResourceOutput,
     name: 'create_resources',
-    undo: deleteResourceFile,
+    undo: deleteResourceFile
   }
-);
+)
 
-export default registerCreateResourcesAction;
+export default registerCreateResourcesAction

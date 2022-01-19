@@ -3,21 +3,21 @@ import {
   join,
   map,
   pipe,
-  split,
-} from 'ramda';
+  split
+} from 'ramda'
 
 export const buildIconNamesFromGlyphData = (glyphsData, transformCode) => glyphsData
   .reduce((prev, { metadata: { name, unicode } }) => ({
     ...prev,
-    [name]: transformCode(unicode),
-  }), {});
+    [name]: transformCode(unicode)
+  }), {})
 
-const capitalizeWord = (word) => `${word[0].toUpperCase()}${word.slice(1)}`;
+const capitalizeWord = (word) => `${word[0].toUpperCase()}${word.slice(1)}`
 
-const mapIndexed = addIndex(map);
+const mapIndexed = addIndex(map)
 
 export const toCamelCase = pipe(
   split('-'),
   mapIndexed((item, index) => (index === 0 ? item : capitalizeWord(item))),
-  join(''),
-);
+  join('')
+)

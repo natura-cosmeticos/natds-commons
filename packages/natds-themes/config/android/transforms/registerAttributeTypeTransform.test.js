@@ -1,69 +1,69 @@
-import { registerAttributeTypeTransform, getType } from './registerAttributeTypeTransform';
+import { registerAttributeTypeTransform, getType } from './registerAttributeTypeTransform'
 
 describe('registerAttributeTypeTransform', () => {
   afterEach(() => {
-    jest.resetAllMocks();
-  });
+    jest.resetAllMocks()
+  })
 
   it('should return the transform config', () => {
     const expectedConfig = {
       name: 'size/attrType',
       transformer: expect.any(Function),
-      type: 'attribute',
-    };
+      type: 'attribute'
+    }
 
-    expect(registerAttributeTypeTransform()).toMatchObject(expectedConfig);
-  });
+    expect(registerAttributeTypeTransform()).toMatchObject(expectedConfig)
+  })
 
   it('should add the type of the attribute for dimensions', () => {
-    const transformConfig = registerAttributeTypeTransform();
+    const transformConfig = registerAttributeTypeTransform()
 
     const prop = {
       attributes: { category: 'spacing' },
       name: 'spacingSmall',
       original: {
-        value: 8,
+        value: 8
       },
       path: [
         'spacing',
-        'small',
+        'small'
       ],
-      value: 8,
-    };
+      value: 8
+    }
 
     const expectedProp = {
       customOptions: {
-        type: 'dimension',
-      },
-    };
+        type: 'dimension'
+      }
+    }
 
-    expect(transformConfig.transformer(prop)).toEqual(expectedProp);
-  });
+    expect(transformConfig.transformer(prop)).toEqual(expectedProp)
+  })
 
   it('should add the type of the attribute for string', () => {
-    const transformConfig = registerAttributeTypeTransform();
+    const transformConfig = registerAttributeTypeTransform()
 
     const prop = {
       attributes: { category: 'fontFamily' },
       name: 'fontFamilySmall',
       original: {
-        value: 8,
+        value: 8
       },
       path: [
         'fontFamily',
-        'small',
+        'small'
       ],
-      value: 8,
-    };
+      value: 8
+    }
 
     const expectedProp = {
       customOptions: {
-        type: 'string',
-      },
-    };
+        type: 'string'
+      }
+    }
 
-    expect(transformConfig.transformer(prop)).toEqual(expectedProp);
-  });
+    expect(transformConfig.transformer(prop)).toEqual(expectedProp)
+  })
 
   describe('getType', () => {
     it('should return the type for the prop when is string', () => {
@@ -71,47 +71,47 @@ describe('registerAttributeTypeTransform', () => {
         attributes: { category: 'fontFamily' },
         path: [
           'fontFamily',
-          'small',
-        ],
-      };
+          'small'
+        ]
+      }
 
-      expect(getType(prop)).toEqual('string');
-    });
+      expect(getType(prop)).toEqual('string')
+    })
 
     it('should return the type for the prop when is an asset', () => {
       const prop = {
         attributes: { category: 'asset' },
         path: [
           'asset',
-          'file',
-        ],
-      };
+          'file'
+        ]
+      }
 
-      expect(getType(prop)).toEqual('reference');
-    });
+      expect(getType(prop)).toEqual('reference')
+    })
 
     it('should return the type for the prop when is an color', () => {
       const prop = {
         attributes: { category: 'color' },
         path: [
           'color',
-          'primary',
-        ],
-      };
+          'primary'
+        ]
+      }
 
-      expect(getType(prop)).toEqual('color');
-    });
+      expect(getType(prop)).toEqual('color')
+    })
 
     it('should return the type for the prop when is an dimension', () => {
       const prop = {
         attributes: { category: 'spacing' },
         path: [
           'spacing',
-          'small',
-        ],
-      };
+          'small'
+        ]
+      }
 
-      expect(getType(prop)).toEqual('dimension');
-    });
-  });
-});
+      expect(getType(prop)).toEqual('dimension')
+    })
+  })
+})

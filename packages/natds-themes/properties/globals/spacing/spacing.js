@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys */
 
-const spacing = 8;
+const spacing = 8
 
 const scale = {
   none: 0,
@@ -8,34 +8,34 @@ const scale = {
   standard: 3,
   semi: 4,
   large: 6,
-  xLarge: 8,
-};
+  xLarge: 8
+}
 
 module.exports = {
   spacing: {
     none: {
-      value: scale.none,
+      value: scale.none
     },
     micro: {
-      value: spacing / 2,
+      value: spacing / 2
     },
     tiny: {
-      value: spacing,
+      value: spacing
     },
     small: {
-      value: spacing * scale.small,
+      value: spacing * scale.small
     },
     standard: {
-      value: spacing * scale.standard,
+      value: spacing * scale.standard
     },
     semi: {
-      value: spacing * scale.semi,
+      value: spacing * scale.semi
     },
     large: {
-      value: spacing * scale.large,
+      value: spacing * scale.large
     },
     xLarge: {
-      value: spacing * scale.xLarge,
-    },
-  },
-};
+      value: spacing * scale.xLarge
+    }
+  }
+}

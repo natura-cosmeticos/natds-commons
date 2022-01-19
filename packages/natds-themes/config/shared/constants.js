@@ -4,13 +4,13 @@ export const brands = [
   'biome',
   'natdsTest',
   'natura',
-  'theBodyShop',
-];
+  'theBodyShop'
+]
 
 export const modes = [
   'dark',
-  'light',
-];
+  'light'
+]
 
 export const platforms = [
   'android',
@@ -18,5 +18,5 @@ export const platforms = [
   'html',
   'ios',
   'react-native',
-  'web',
-];
+  'web'
+]

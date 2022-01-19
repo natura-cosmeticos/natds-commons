@@ -1,54 +1,54 @@
-import { registerCamelTransform } from './registerCamelTransform';
-import * as arrayToCamelCase from '../helpers';
+import { registerCamelTransform } from './registerCamelTransform'
+import * as arrayToCamelCase from '../helpers'
 
-jest.mock('../helpers');
+jest.mock('../helpers')
 
 describe('registerCamelTransform', () => {
   it('should return the transform config', () => {
-    const config = registerCamelTransform();
+    const config = registerCamelTransform()
 
     const expectedConfig = {
       name: 'name/cti/camel-custom',
       transformer: expect.any(Function),
-      type: 'name',
-    };
+      type: 'name'
+    }
 
-    expect(config).toMatchObject(expectedConfig);
-  });
+    expect(config).toMatchObject(expectedConfig)
+  })
 
   it('should transform the name to camel case with prefix option', () => {
-    const arrayToCamelCaseSpy = jest.fn();
+    const arrayToCamelCaseSpy = jest.fn()
 
     jest
       .spyOn(arrayToCamelCase, 'arrayToCamelCase')
-      .mockImplementation(arrayToCamelCaseSpy);
+      .mockImplementation(arrayToCamelCaseSpy)
 
-    const config = registerCamelTransform();
+    const config = registerCamelTransform()
 
     const prop = {
-      path: ['pokemon', 'pikachu'],
-    };
+      path: ['pokemon', 'pikachu']
+    }
 
-    config.transformer(prop, { prefix: 'prefix' });
+    config.transformer(prop, { prefix: 'prefix' })
 
-    expect(arrayToCamelCaseSpy).toBeCalledWith(['prefix', 'pokemon', 'pikachu']);
-  });
+    expect(arrayToCamelCaseSpy).toBeCalledWith(['prefix', 'pokemon', 'pikachu'])
+  })
 
   it('should transform the name to camel case without prefix option', () => {
-    const arrayToCamelCaseSpy = jest.fn();
+    const arrayToCamelCaseSpy = jest.fn()
 
     jest
       .spyOn(arrayToCamelCase, 'arrayToCamelCase')
-      .mockImplementation(arrayToCamelCaseSpy);
+      .mockImplementation(arrayToCamelCaseSpy)
 
-    const config = registerCamelTransform();
+    const config = registerCamelTransform()
 
     const prop = {
-      path: ['pokemon', 'pikachu'],
-    };
+      path: ['pokemon', 'pikachu']
+    }
 
-    config.transformer(prop, {});
+    config.transformer(prop, {})
 
-    expect(arrayToCamelCaseSpy).toBeCalledWith(['pokemon', 'pikachu']);
-  });
-});
+    expect(arrayToCamelCaseSpy).toBeCalledWith(['pokemon', 'pikachu'])
+  })
+})

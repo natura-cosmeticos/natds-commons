@@ -1,8 +1,8 @@
-import { capitalizeWord, camelToSnakeCase } from '../shared/helpers';
-import { filterPrivateAndFontFamilyProps, filterSearchAndFontFamilyProps } from './helpers/helpers';
+import { capitalizeWord, camelToSnakeCase } from '../shared/helpers'
+import { filterPrivateAndFontFamilyProps, filterSearchAndFontFamilyProps } from './helpers/helpers'
 
 export const buildAndroidConfig = (brand, mode) => {
-  const brandName = camelToSnakeCase(brand);
+  const brandName = camelToSnakeCase(brand)
 
   return {
     actions: ['create_resources', 'convert_drawables', 'custom_copy_assets'],
@@ -11,27 +11,27 @@ export const buildAndroidConfig = (brand, mode) => {
       {
         destination: 'theme/theme_attributes.xml',
         filter: filterPrivateAndFontFamilyProps,
-        format: 'android/attributes',
+        format: 'android/attributes'
       },
       {
         brandName: capitalizeWord(brand),
         destination: `theme/theme_${brandName}_${mode}_ssot.xml`,
         filter: filterPrivateAndFontFamilyProps,
         format: 'android/themes',
-        mode: capitalizeWord(mode),
+        mode: capitalizeWord(mode)
       },
       {
         brandName: capitalizeWord(brand),
         destination: `spectrum/spectrum_${brandName}_ssot.xml`,
         filter: 'spectrumProperties',
         format: 'android/spectrum',
-        mode: capitalizeWord(mode),
+        mode: capitalizeWord(mode)
       },
       {
         destination: `search/${brandName}/${mode}.json`,
         filter: filterSearchAndFontFamilyProps,
-        format: 'tokenSearch/template',
-      },
+        format: 'tokenSearch/template'
+      }
     ],
     transforms: [
       'name/cti/camel-custom',
@@ -41,9 +41,9 @@ export const buildAndroidConfig = (brand, mode) => {
       'asset/extension',
       'asset/snake',
       'value/font-weight-android',
-      'color/android-alpha',
-    ],
-  };
-};
+      'color/android-alpha'
+    ]
+  }
+}
 
-export default buildAndroidConfig;
+export default buildAndroidConfig

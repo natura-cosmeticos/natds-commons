@@ -1,20 +1,20 @@
-import { compileTemplate } from './templateHelpers';
+import { compileTemplate } from './templateHelpers'
 
 export const formatBuilder = (name, templatePath, templateDataBuilder) => {
-  const template = compileTemplate(templatePath);
+  const template = compileTemplate(templatePath)
 
   function formatter(dictionary, platform) {
-    const templateData = templateDataBuilder(dictionary, platform, this);
+    const templateData = templateDataBuilder(dictionary, platform, this)
 
-    return template(templateData);
+    return template(templateData)
   }
 
   return {
     formatter,
-    name,
-  };
-};
+    name
+  }
+}
 
 export default {
-  formatBuilder,
-};
+  formatBuilder
+}

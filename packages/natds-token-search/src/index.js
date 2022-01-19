@@ -1,17 +1,17 @@
-import { App } from './App';
-import { globalStyles, reset } from './styles/global';
-import jss from './styles/jss';
+import { App } from './App'
+import { globalStyles, reset } from './styles/global'
+import jss from './styles/jss'
 
 jss
   .createStyleSheet(reset)
-  .attach();
+  .attach()
 
 jss
   .createStyleSheet(globalStyles)
-  .attach();
+  .attach()
 
-if (module.hot) module.hot.accept();
+if (module.hot) module.hot.accept()
 
-const root = document.getElementById('app-root');
+const root = document.getElementById('app-root')
 
-root.appendChild(App());
+root.appendChild(App())

@@ -1,4 +1,4 @@
-import { flipIsProp, isProp } from '../../shared/helpers';
+import { flipIsProp, isProp } from '../../shared/helpers'
 
 const types = {
   color: 'String',
@@ -9,29 +9,29 @@ const types = {
   number: 'CGFloat',
   shadowOpacity: 'Float',
   spectrum: 'String',
-  string: 'String',
-};
+  string: 'String'
+}
 
 const transformer = (prop) => {
   const typeKey = Object
     .keys(types)
-    .find(flipIsProp(prop));
+    .find(flipIsProp(prop))
 
-  const type = types[typeKey || typeof prop.value];
+  const type = types[typeKey || typeof prop.value]
 
   return {
     customOptions: {
       includeType: isProp('fontWeight')(prop) || (type !== 'String' && type !== 'UIColor'),
-      type,
-    },
-  };
-};
+      type
+    }
+  }
+}
 
 export const registerAttributeTypeTransform = () => ({
   name: 'attribute/type',
   transformer,
   transitive: true,
-  type: 'attribute',
-});
+  type: 'attribute'
+})
 
-export default registerAttributeTypeTransform;
+export default registerAttributeTypeTransform

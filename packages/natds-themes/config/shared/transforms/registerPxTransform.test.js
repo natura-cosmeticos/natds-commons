@@ -1,62 +1,62 @@
-import { registerPxTransform } from './registerPxTransform';
-import * as helpers from '../helpers';
+import { registerPxTransform } from './registerPxTransform'
+import * as helpers from '../helpers'
 
-jest.mock('../helpers');
+jest.mock('../helpers')
 
 describe('registerPxTransform', () => {
   it('should return the transform config', () => {
     const expectedConfig = {
       name: 'unit/px',
       transformer: expect.any(Function),
-      type: 'value',
-    };
+      type: 'value'
+    }
 
-    expect(registerPxTransform()).toMatchObject(expectedConfig);
-  });
+    expect(registerPxTransform()).toMatchObject(expectedConfig)
+  })
 
   it('should add the px unit to the value', () => {
-    const config = registerPxTransform();
+    const config = registerPxTransform()
 
     const prop = {
       attributes: { category: 'spacing' },
       name: 'spacingSmall',
       original: {
-        value: 8,
+        value: 8
       },
       path: [
         'spacing',
-        'small',
+        'small'
       ],
-      value: 8,
-    };
+      value: 8
+    }
 
-    expect(config.transformer(prop)).toEqual('8px');
-  });
+    expect(config.transformer(prop)).toEqual('8px')
+  })
 
   it('should match only dimension categories', () => {
-    const isOneOfPropsReturnSpy = jest.fn();
+    const isOneOfPropsReturnSpy = jest.fn()
     const isOneOfPropsSpy = jest
       .spyOn(helpers, 'isOneOfProps')
-      .mockReturnValue(isOneOfPropsReturnSpy);
+      .mockReturnValue(isOneOfPropsReturnSpy)
 
-    const config = registerPxTransform();
+    const config = registerPxTransform()
 
     const prop = {
       attributes: { category: 'spacing' },
       name: 'spacingSmall',
       original: {
-        value: 8,
+        value: 8
       },
       path: [
         'spacing',
-        'small',
+        'small'
       ],
-      value: 8,
-    };
+      value: 8
+    }
 
-    config.matcher(prop);
+    config.matcher(prop)
 
-    expect(isOneOfPropsReturnSpy).toHaveBeenCalledWith(prop);
+    expect(isOneOfPropsReturnSpy).toHaveBeenCalledWith(prop)
     expect(isOneOfPropsSpy).toHaveBeenCalledWith([
       'color',
       'fontWeight',
@@ -65,7 +65,7 @@ describe('registerPxTransform', () => {
       'opacity',
       'lineHeight',
       'asset',
-      'spectrum',
-    ]);
-  });
-});
+      'spectrum'
+    ])
+  })
+})

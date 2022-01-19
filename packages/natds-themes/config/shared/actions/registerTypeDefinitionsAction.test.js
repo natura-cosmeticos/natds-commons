@@ -1,40 +1,40 @@
-import fs from 'fs';
-import path from 'path';
-import { registerTypeDefinitionsAction } from './registerTypeDefinitionsAction';
-import * as templateHelpers from '../helpers';
-import { brands } from '../constants';
+import fs from 'fs'
+import path from 'path'
+import { registerTypeDefinitionsAction } from './registerTypeDefinitionsAction'
+import * as templateHelpers from '../helpers'
+import { brands } from '../constants'
 
-jest.mock('fs');
-jest.mock('../helpers');
+jest.mock('fs')
+jest.mock('../helpers')
 
 const config = {
   buildPath: 'build/web/avon',
   files: [
-    { destination: 'light.json' },
-  ],
-};
+    { destination: 'light.json' }
+  ]
+}
 
 const tokens = {
   button: {
-    borderRadius: 4,
+    borderRadius: 4
   },
   color: {
-    primary: '#000000',
-  },
-};
+    primary: '#000000'
+  }
+}
 
 const splitTokens = {
   components: {
     button: {
-      borderRadius: 4,
-    },
+      borderRadius: 4
+    }
   },
   tokens: {
     color: {
-      primary: '#000000',
-    },
-  },
-};
+      primary: '#000000'
+    }
+  }
+}
 
 const expectedTypes = `
  export interface Theme {
@@ -46,72 +46,72 @@ const expectedTypes = `
 }
  export interface Color {
   primary: string
-}`;
+}`
 
 describe('registerTypeDefinitionsAction', () => {
   afterEach(() => {
-    jest.resetAllMocks();
-  });
+    jest.resetAllMocks()
+  })
 
   describe('do action', () => {
-    let typesTemplateSpy;
-    let compileTemplateSpy;
-    let splitTokensAndComponentsSpy;
+    let typesTemplateSpy
+    let compileTemplateSpy
+    let splitTokensAndComponentsSpy
 
     beforeEach(() => {
-      fs.readFileSync.mockImplementation(() => JSON.stringify(tokens));
+      fs.readFileSync.mockImplementation(() => JSON.stringify(tokens))
 
       typesTemplateSpy = jest
         .fn()
-        .mockReturnValue('test');
+        .mockReturnValue('test')
 
       compileTemplateSpy = jest
         .spyOn(templateHelpers, 'compileTemplate')
-        .mockReturnValue(typesTemplateSpy);
+        .mockReturnValue(typesTemplateSpy)
 
       splitTokensAndComponentsSpy = jest
         .spyOn(templateHelpers, 'splitTokensAndComponents')
-        .mockReturnValue(splitTokens);
-    });
+        .mockReturnValue(splitTokens)
+    })
 
     it('should return false if definitions already exist', () => {
-      fs.existsSync.mockImplementation(() => true);
-      expect(registerTypeDefinitionsAction().do(null, config)).toEqual(false);
-    });
+      fs.existsSync.mockImplementation(() => true)
+      expect(registerTypeDefinitionsAction().do(null, config)).toEqual(false)
+    })
 
     describe('type definition creation', () => {
-      const existsSyncMock = () => false;
+      const existsSyncMock = () => false
 
       beforeEach(() => {
-        fs.existsSync.mockImplementation(existsSyncMock);
-      });
+        fs.existsSync.mockImplementation(existsSyncMock)
+      })
 
       it('should create the definition if there is none', () => {
-        registerTypeDefinitionsAction().do(null, config);
+        registerTypeDefinitionsAction().do(null, config)
 
-        expect(fs.writeFileSync).toHaveBeenCalledWith('build/web/index.d.ts', 'test');
-      });
+        expect(fs.writeFileSync).toHaveBeenCalledWith('build/web/index.d.ts', 'test')
+      })
 
       it('should create token definitions from json output with fixes', () => {
-        registerTypeDefinitionsAction().do(null, config);
+        registerTypeDefinitionsAction().do(null, config)
 
-        expect(splitTokensAndComponentsSpy).toHaveBeenCalledWith(tokens);
-        expect(typesTemplateSpy).toHaveBeenCalledWith({ brands, tokensTypes: expectedTypes });
-      });
+        expect(splitTokensAndComponentsSpy).toHaveBeenCalledWith(tokens)
+        expect(typesTemplateSpy).toHaveBeenCalledWith({ brands, tokensTypes: expectedTypes })
+      })
 
       it('should compile the correct template', () => {
-        registerTypeDefinitionsAction().do(null, config);
-        const basePath = path.resolve(__dirname, '..');
+        registerTypeDefinitionsAction().do(null, config)
+        const basePath = path.resolve(__dirname, '..')
 
-        expect(compileTemplateSpy).toHaveBeenCalledWith(`${basePath}/templates/typeDefinitions.hbs`);
-      });
-    });
-  });
+        expect(compileTemplateSpy).toHaveBeenCalledWith(`${basePath}/templates/typeDefinitions.hbs`)
+      })
+    })
+  })
 
   describe('undo action', () => {
     it('should remove file definitions', () => {
-      registerTypeDefinitionsAction().undo(null, config);
-      expect(fs.unlinkSync).toHaveBeenCalledWith('build/web/index.d.ts');
-    });
-  });
-});
+      registerTypeDefinitionsAction().undo(null, config)
+      expect(fs.unlinkSync).toHaveBeenCalledWith('build/web/index.d.ts')
+    })
+  })
+})

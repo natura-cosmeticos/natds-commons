@@ -19,14 +19,14 @@ module.exports = {
     'import/extensions': [
       '.js',
       '.mjs',
-      '.jsx',
+      '.jsx'
     ],
     'import/core-modules': [
     ],
     'import/ignore': [
       'node_modules',
-      '\\.(coffee|scss|css|less|hbs|svg|json)$',
-    ],
+      '\\.(coffee|scss|css|less|hbs|svg|json)$'
+    ]
   },
 
   rules: {
@@ -93,7 +93,7 @@ module.exports = {
         '**/karma.conf.js', // karma config
         '**/.eslintrc.js' // eslint config
       ],
-      optionalDependencies: false,
+      optionalDependencies: false
     }],
 
     // Forbid mutable exports
@@ -140,7 +140,7 @@ module.exports = {
     'import/extensions': ['error', 'ignorePackages', {
       js: 'never',
       mjs: 'never',
-      jsx: 'never',
+      jsx: 'never'
     }],
 
     // ensure absolute imports are above relative imports and that unassigned imports are ignored
@@ -175,7 +175,7 @@ module.exports = {
     // prevent importing the submodules of other modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
     'import/no-internal-modules': ['off', {
-      allow: [],
+      allow: []
     }],
 
     // Warn if a module could be mistakenly parsed as a script by a consumer
@@ -206,7 +206,7 @@ module.exports = {
       allowAnonymousClass: false,
       allowAnonymousFunction: false,
       allowLiteral: false,
-      allowObject: false,
+      allowObject: false
     }],
 
     // This rule enforces that all exports are declared at the bottom of the file.
@@ -244,7 +244,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/ebafcbf59ec9f653b2ac2a0156ca3bcba0a7cf57/docs/rules/dynamic-import-chunkname.md
     'import/dynamic-import-chunkname': ['off', {
       importFunctions: [],
-      webpackChunknameFormat: '[0-9a-zA-Z-_/.]+',
+      webpackChunknameFormat: '[0-9a-zA-Z-_/.]+'
     }],
 
     // Use this rule to prevent imports to folders in relative parent paths.
@@ -257,7 +257,7 @@ module.exports = {
     'import/no-unused-modules': ['off', {
       ignoreExports: [],
       missingExports: true,
-      unusedExports: true,
-    }],
-  },
-};
+      unusedExports: true
+    }]
+  }
+}

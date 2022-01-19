@@ -1,11 +1,11 @@
-import android from '../android';
-import html from '../html';
-import ios from '../ios';
-import reactNative from '../react-native';
-import css from '../css';
-import web from '../web';
-import shared from '.';
-import { registerTemplateHeaderHelper } from './helpers/templateHelpers';
+import android from '../android'
+import html from '../html'
+import ios from '../ios'
+import reactNative from '../react-native'
+import css from '../css'
+import web from '../web'
+import shared from '.'
+import { registerTemplateHeaderHelper } from './helpers/templateHelpers'
 
 export const customFormats = [
   ...android.formats,
@@ -14,8 +14,8 @@ export const customFormats = [
   ...web.formats,
   ...css.formats,
   ...html.formats,
-  ...shared.formats,
-];
+  ...shared.formats
+]
 
 export const customActions = [
   ...android.actions,
@@ -24,8 +24,8 @@ export const customActions = [
   ...web.actions,
   ...css.actions,
   ...html.actions,
-  ...shared.actions,
-];
+  ...shared.actions
+]
 
 export const customTransforms = [
   ...android.transforms,
@@ -34,11 +34,11 @@ export const customTransforms = [
   ...web.transforms,
   ...css.transforms,
   ...html.transforms,
-  ...shared.transforms,
-];
+  ...shared.transforms
+]
 
 export const customFilters = [
-  ...shared.filters,
-];
+  ...shared.filters
+]
 
-registerTemplateHeaderHelper();
+registerTemplateHeaderHelper()

@@ -1,5 +1,5 @@
-import { assocPath } from 'ramda';
-import { getIconString, getUnicodeIconString } from './helpers';
+import { assocPath } from 'ramda'
+import { getIconString, getUnicodeIconString } from './helpers'
 
 const buildSwiftContentFromJson = (data) => `
 public enum Icon: String, CaseIterable {
@@ -13,17 +13,17 @@ extension Icon {
     }
   }
 }
-`;
+`
 
 export const buildSwift = (data) => {
-  const { globalConfig: { fontName, outputPath } } = data;
+  const { globalConfig: { fontName, outputPath } } = data
 
   const swiftOutput = {
     content: buildSwiftContentFromJson(data),
-    outputPath: `${outputPath}/${fontName}.swift`,
-  };
+    outputPath: `${outputPath}/${fontName}.swift`
+  }
 
-  return assocPath(['outputs', 'swift'], swiftOutput, data);
-};
+  return assocPath(['outputs', 'swift'], swiftOutput, data)
+}
 
-export default buildSwift;
+export default buildSwift

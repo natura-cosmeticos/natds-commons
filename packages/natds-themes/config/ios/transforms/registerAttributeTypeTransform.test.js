@@ -1,36 +1,36 @@
-import { registerAttributeTypeTransform } from './registerAttributeTypeTransform';
+import { registerAttributeTypeTransform } from './registerAttributeTypeTransform'
 // import * as helpers from '../../shared/helpers';
 
 // jest.mock('../../shared/helpers');
 
 describe('registerAttributeTypeTransform', () => {
   it('should return the transformer config', () => {
-    const config = registerAttributeTypeTransform();
+    const config = registerAttributeTypeTransform()
     const expectedConfig = {
       name: 'attribute/type',
       transformer: expect.any(Function),
-      type: 'attribute',
-    };
+      type: 'attribute'
+    }
 
-    expect(config).toMatchObject(expectedConfig);
-  });
+    expect(config).toMatchObject(expectedConfig)
+  })
 
   describe('transformer', () => {
     it('should add the customOptions object when the prop is fontWeight', () => {
-      const config = registerAttributeTypeTransform();
+      const config = registerAttributeTypeTransform()
       const prop = {
         attributes: { category: 'typography' },
         name: 'typographyFontWeightSmall',
         original: {
-          value: 500,
+          value: 500
         },
         path: [
           'typography',
           'fontWeight',
-          'small',
+          'small'
         ],
-        value: '.medium',
-      };
+        value: '.medium'
+      }
 
       // jest
       //   .spyOn(helpers, 'isProp')
@@ -40,16 +40,16 @@ describe('registerAttributeTypeTransform', () => {
       //   .spyOn(helpers, 'flipIsProp')
       //   .mockImplementation(() => () => false);
 
-      const result = config.transformer(prop);
+      const result = config.transformer(prop)
       const expectedResult = {
         customOptions: {
           includeType: true,
-          type: 'UIFont.Weight',
-        },
-      };
+          type: 'UIFont.Weight'
+        }
+      }
 
-      expect(result).toEqual(expectedResult);
-    });
+      expect(result).toEqual(expectedResult)
+    })
 
     it('should add the customOptions object', () => {
       // jest
@@ -60,29 +60,29 @@ describe('registerAttributeTypeTransform', () => {
       //   .spyOn(helpers, 'flipIsProp')
       //   .mockImplementation(() => () => false);
 
-      const config = registerAttributeTypeTransform();
+      const config = registerAttributeTypeTransform()
       const prop = {
         attributes: { category: 'spacing' },
         name: 'spacingSmall',
         original: {
-          value: 8,
+          value: 8
         },
         path: [
           'spacing',
-          'small',
+          'small'
         ],
-        value: 8,
-      };
+        value: 8
+      }
 
-      const result = config.transformer(prop);
+      const result = config.transformer(prop)
       const expectedResult = {
         customOptions: {
           includeType: true,
-          type: 'CGFloat',
-        },
-      };
+          type: 'CGFloat'
+        }
+      }
 
-      expect(result).toEqual(expectedResult);
-    });
-  });
-});
+      expect(result).toEqual(expectedResult)
+    })
+  })
+})

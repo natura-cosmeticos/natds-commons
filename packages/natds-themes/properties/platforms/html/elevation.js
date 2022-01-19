@@ -1,3 +1,3 @@
-import elevation from '../web/elevation.json';
+import elevation from '../web/elevation.json'
 
-module.exports = elevation;
+module.exports = elevation

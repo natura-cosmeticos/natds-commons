@@ -1,9 +1,9 @@
-import fs from 'fs';
-import path from 'path';
-import { optimize } from 'svgo';
+import fs from 'fs'
+import path from 'path'
+import { optimize } from 'svgo'
 import {
-  isLogoAssetFile, readAsset, execPattern, convertBase64ToExternalImage,
-} from '../helpers';
+  isLogoAssetFile, readAsset, execPattern, convertBase64ToExternalImage
+} from '../helpers'
 
 const plugins = [
   'cleanupAttrs',
@@ -37,34 +37,34 @@ const plugins = [
   'removeUselessDefs',
   'removeUselessStrokeAndFill',
   'removeXMLProcInst',
-  'sortDefsChildren',
-];
+  'sortDefsChildren'
+]
 
 const transformer = (token) => {
-  const assetName = `${token.original.value}.svg`;
-  const svgInline = readAsset(assetName);
+  const assetName = `${token.original.value}.svg`
+  const svgInline = readAsset(assetName)
 
-  let optimizedSvg = optimize(svgInline, { plugins }).data;
+  let optimizedSvg = optimize(svgInline, { plugins }).data
 
-  const matches = execPattern('data:image/png;base64,(?<imageData>[^"\']+)', optimizedSvg);
+  const matches = execPattern('data:image/png;base64,(?<imageData>[^"\']+)', optimizedSvg)
 
   if (matches.length) {
-    optimizedSvg = matches.reduce(convertBase64ToExternalImage(token.original.value), optimizedSvg);
+    optimizedSvg = matches.reduce(convertBase64ToExternalImage(token.original.value), optimizedSvg)
   }
 
-  const optimizedAssetName = `${token.original.value}-optimized`;
-  const optimizedAssetPath = path.join(__dirname, '../../../assets', optimizedAssetName);
+  const optimizedAssetName = `${token.original.value}-optimized`
+  const optimizedAssetPath = path.join(__dirname, '../../../assets', optimizedAssetName)
 
-  fs.writeFileSync(`${optimizedAssetPath}.svg`, optimizedSvg);
+  fs.writeFileSync(`${optimizedAssetPath}.svg`, optimizedSvg)
 
-  return optimizedAssetName;
-};
+  return optimizedAssetName
+}
 
 export const registerOptimizeSvgTransform = () => ({
   matcher: isLogoAssetFile,
   name: 'asset/svg-optimized',
   transformer,
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerOptimizeSvgTransform;
+export default registerOptimizeSvgTransform

@@ -1,13 +1,13 @@
-import config from './buildIosConfig';
-import { registerAttributeTypeTransform } from './transforms/registerAttributeTypeTransform';
-import { registerValueStringLiteralTransform } from './transforms/registerValueStringLiteralTransform';
-import { registerFontWeightTransform } from './transforms/registerFontWeightTransform';
+import config from './buildIosConfig'
+import { registerAttributeTypeTransform } from './transforms/registerAttributeTypeTransform'
+import { registerValueStringLiteralTransform } from './transforms/registerValueStringLiteralTransform'
+import { registerFontWeightTransform } from './transforms/registerFontWeightTransform'
 import {
   registerSpectrumFormat,
   registerThemeFormat,
   registerThemeProtocolFormat,
-  registerSpectrumProtocolFormat,
-} from './formats/registerFormats';
+  registerSpectrumProtocolFormat
+} from './formats/registerFormats'
 
 export default {
   actions: [],
@@ -16,11 +16,11 @@ export default {
     registerSpectrumFormat,
     registerThemeFormat,
     registerThemeProtocolFormat,
-    registerSpectrumProtocolFormat,
+    registerSpectrumProtocolFormat
   ],
   transforms: [
     registerAttributeTypeTransform,
     registerValueStringLiteralTransform,
-    registerFontWeightTransform,
-  ],
-};
+    registerFontWeightTransform
+  ]
+}

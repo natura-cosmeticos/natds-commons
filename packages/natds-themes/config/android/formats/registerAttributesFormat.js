@@ -1,28 +1,28 @@
-import path from 'path';
-import { pipe, map } from 'ramda';
-import { formatBuilder, flattenProps } from '../../shared/helpers';
+import path from 'path'
+import { pipe, map } from 'ramda'
+import { formatBuilder, flattenProps } from '../../shared/helpers'
 
 export const registerAttributesFormat = () => {
-  const templatePath = path.resolve(__dirname, './templates/attributes.hbs');
+  const templatePath = path.resolve(__dirname, './templates/attributes.hbs')
 
   return formatBuilder(
     'android/attributes',
     templatePath,
-    ({ properties }) => ({ properties: flattenProps(properties) }),
-  );
-};
+    ({ properties }) => ({ properties: flattenProps(properties) })
+  )
+}
 
 export const registerSpectrumFormat = () => {
-  const templatePath = path.resolve(__dirname, './templates/colors.hbs');
+  const templatePath = path.resolve(__dirname, './templates/colors.hbs')
 
   return formatBuilder('android/spectrum', templatePath, ({ properties }) => {
     const data = pipe(
       flattenProps,
-      map((item) => ({ [item.name]: item.value })),
-    )(properties);
+      map((item) => ({ [item.name]: item.value }))
+    )(properties)
 
-    return ({ colors: data });
-  });
-};
+    return ({ colors: data })
+  })
+}
 
-export default registerAttributesFormat;
+export default registerAttributesFormat
