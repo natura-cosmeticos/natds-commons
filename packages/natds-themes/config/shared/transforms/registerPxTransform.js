@@ -1,4 +1,4 @@
-import { isOneOfProps } from '../helpers';
+import { isOneOfProps } from '../helpers'
 
 const notPxProps = [
   'color',
@@ -8,15 +8,15 @@ const notPxProps = [
   'opacity',
   'lineHeight',
   'asset',
-  'spectrum',
-];
+  'spectrum'
+]
 
 export const registerPxTransform = () => ({
   matcher: (prop) => !isOneOfProps(notPxProps)(prop),
   name: 'unit/px',
   transformer: ({ value }) => `${value}px`,
   transitive: false,
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerPxTransform;
+export default registerPxTransform

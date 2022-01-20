@@ -1,28 +1,30 @@
-import JsonToTS from 'json-to-ts';
-import { buildJsonDts } from './buildJsonDts';
+/* eslint-disable jest/no-try-expect */
+/* eslint-disable jest/no-conditional-expect */
+import JsonToTS from 'json-to-ts'
+import { buildJsonDts } from './buildJsonDts'
 
-jest.mock('json-to-ts');
+jest.mock('json-to-ts')
 
 const jsonContent = {
-  'icon-name': 'code',
-};
+  'icon-name': 'code'
+}
 
 const data = {
   globalConfig: {
     fontName: 'font-name',
-    outputPath: 'folder/name',
+    outputPath: 'folder/name'
   },
   outputs: {
     json: {
-      content: JSON.stringify(jsonContent),
-    },
-  },
-};
+      content: JSON.stringify(jsonContent)
+    }
+  }
+}
 
 const mockTypeDefinition = `
 interface RootObject {
   icon-name: string;
-}`;
+}`
 
 const expectedTypeDefinition = `
 interface RootObject {
@@ -31,32 +33,32 @@ interface RootObject {
 declare const styles : RootObject;
 
 export default styles;
-`;
+`
 
 describe('buildJsonDts', () => {
   it('should throw if there is no json data', () => {
     try {
-      buildJsonDts();
+      buildJsonDts()
     } catch (error) {
-      expect(error.message).toEqual('json not found');
+      expect(error.message).toEqual('json not found')
     }
-  });
+  })
 
   it('should create the json type definition', () => {
-    JsonToTS.mockReturnValue([mockTypeDefinition]);
+    JsonToTS.mockReturnValue([mockTypeDefinition])
 
-    const result = buildJsonDts(data);
+    const result = buildJsonDts(data)
 
-    expect(JsonToTS).toHaveBeenCalledWith(jsonContent);
+    expect(JsonToTS).toHaveBeenCalledWith(jsonContent)
     expect(result).toEqual({
       ...data,
       outputs: {
         ...data.outputs,
         jsonDts: {
           content: expectedTypeDefinition,
-          outputPath: 'folder/name/font-name.json.d.ts',
-        },
-      },
-    });
-  });
-});
+          outputPath: 'folder/name/font-name.json.d.ts'
+        }
+      }
+    })
+  })
+})

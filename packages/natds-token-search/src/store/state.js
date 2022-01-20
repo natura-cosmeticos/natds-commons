@@ -1,8 +1,8 @@
-import { createStore } from 'redux';
-import { path, prop, mergeDeepRight } from 'ramda';
-import { tokens as allTokens } from './tokens';
-import { searchActionType } from './actions';
-import { filterTokens } from '../helpers';
+import { createStore } from 'redux'
+import { path, prop, mergeDeepRight } from 'ramda'
+import { tokens as allTokens } from './tokens'
+import { searchActionType } from './actions'
+import { filterTokens } from '../helpers'
 
 const initialState = {
   allTokens,
@@ -11,41 +11,41 @@ const initialState = {
   mode: 'light',
   platform: 'web',
   search: null,
-  selectedTokens: allTokens.web.natura.light.allTokens,
-};
+  selectedTokens: allTokens.web.natura.light.allTokens
+}
 
 // eslint-disable-next-line max-lines-per-function
 const onSearch = (state, { payload }) => {
-  const newState = mergeDeepRight(state, payload);
-  const { platform, brand, mode } = newState;
+  const newState = mergeDeepRight(state, payload)
+  const { platform, brand, mode } = newState
 
   const selectedTokens = filterTokens(
     path([platform, brand, mode, 'allTokens'], allTokens),
-    newState.search,
-  );
+    newState.search
+  )
 
   const deprecatedTokens = filterTokens(
     path([platform, brand, mode, 'deprecatedTokens'], allTokens),
-    newState.search,
-  );
+    newState.search
+  )
 
   return {
     ...newState,
     deprecatedTokens,
-    selectedTokens,
-  };
-};
+    selectedTokens
+  }
+}
 
 const reducer = (state = initialState, action) => {
   const actionMap = {
-    [searchActionType]: onSearch,
-  };
+    [searchActionType]: onSearch
+  }
 
-  const currentAction = prop(action.type, actionMap);
+  const currentAction = prop(action.type, actionMap)
 
-  return currentAction ? currentAction(state, action) : { ...state };
-};
+  return currentAction ? currentAction(state, action) : { ...state }
+}
 
-export const store = createStore(reducer);
+export const store = createStore(reducer)
 
-export default store;
+export default store

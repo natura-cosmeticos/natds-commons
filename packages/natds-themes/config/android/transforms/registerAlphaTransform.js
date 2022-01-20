@@ -1,18 +1,18 @@
-import { isColor } from '../helpers/helpers';
-import { hasAlpha } from '../../shared/helpers';
+import { isColor } from '../helpers/helpers'
+import { hasAlpha } from '../../shared/helpers'
 
 export const registerAlphaTransform = () => ({
   matcher: isColor,
   name: 'color/android-alpha',
   transformer: ({ value }) => {
     if (hasAlpha(value)) {
-      return `#${value.substring(7)}${value.substring(1, 7)}`;
+      return `#${value.substring(7)}${value.substring(1, 7)}`
     }
 
-    return value;
+    return value
   },
   transitive: false,
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerAlphaTransform;
+export default registerAlphaTransform

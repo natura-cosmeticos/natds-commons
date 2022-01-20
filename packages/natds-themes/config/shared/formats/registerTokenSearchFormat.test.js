@@ -1,5 +1,5 @@
-import path from 'path';
-import { registerTokenSearchFormat } from './registerTokenSearchFormat';
+import path from 'path'
+import { registerTokenSearchFormat } from './registerTokenSearchFormat'
 
 const dictionary = {
   properties: {
@@ -9,8 +9,8 @@ const dictionary = {
         name: 'colorPrimary',
         original: { value: '#F091C9' },
         path: ['color', 'primary'],
-        value: '#F091C9',
-      },
+        value: '#F091C9'
+      }
     },
     size: {
       tiny: {
@@ -18,8 +18,8 @@ const dictionary = {
         name: 'sizeTiny',
         original: { value: 8 },
         path: ['size', 'tiny'],
-        value: 8,
-      },
+        value: 8
+      }
     },
     typography: {
       fontFamily: {
@@ -31,21 +31,21 @@ const dictionary = {
           original: {
             deprecated: true,
             deprecated_comment: 'replace with Headline, Display or Body',
-            value: '{platform.typography.fontFamily.primary.value}',
+            value: '{platform.typography.fontFamily.primary.value}'
           },
           path: ['typography', 'fontFamily', 'primary'],
-          value: 'Roboto',
-        },
-      },
-    },
-  },
-};
+          value: 'Roboto'
+        }
+      }
+    }
+  }
+}
 
 describe('registerTokenSearchFormat', () => {
   it('should return the correct formatter template for tokens search', () => {
-    const register = registerTokenSearchFormat();
-    const output = register.formatter(dictionary);
+    const register = registerTokenSearchFormat()
+    const output = register.formatter(dictionary)
 
-    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerTokenSearchFormat.snap.json'));
-  });
-});
+    expect(output).toMatchFile(path.join(__dirname, '__file_snapshots__/registerTokenSearchFormat.snap.json'))
+  })
+})

@@ -1,8 +1,8 @@
-import { isPrivateProp } from '../helpers';
+import { isPrivateProp } from '../helpers'
 
 export const registerPrivatePropertiesFilter = () => ({
   matcher: (prop) => !isPrivateProp(prop),
-  name: 'privateProperties',
-});
+  name: 'privateProperties'
+})
 
-export default registerPrivatePropertiesFilter;
+export default registerPrivatePropertiesFilter

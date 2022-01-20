@@ -1,4 +1,4 @@
-const confusingBrowserGlobals = require('confusing-browser-globals');
+const confusingBrowserGlobals = require('confusing-browser-globals')
 
 module.exports = {
   rules: {
@@ -21,13 +21,13 @@ module.exports = {
       {
         name: 'isFinite',
         message:
-          'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite',
+          'Use Number.isFinite instead https://github.com/airbnb/javascript#standard-library--isfinite'
       },
       {
         name: 'isNaN',
         message:
-          'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan',
-      },
+          'Use Number.isNaN instead https://github.com/airbnb/javascript#standard-library--isnan'
+      }
     ].concat(confusingBrowserGlobals),
 
     // disallow declaration of variables already declared in the outer scope
@@ -51,6 +51,6 @@ module.exports = {
     'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
 
     // disallow use of variables before they are defined
-    'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
+    'no-use-before-define': ['error', { functions: true, classes: true, variables: true }]
   }
-};
+}

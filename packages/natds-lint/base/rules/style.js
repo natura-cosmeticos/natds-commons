@@ -29,13 +29,13 @@ module.exports = {
       line: {
         ignorePattern: '.*',
         ignoreInlineComments: true,
-        ignoreConsecutiveComments: true,
+        ignoreConsecutiveComments: true
       },
       block: {
         ignorePattern: '.*',
         ignoreInlineComments: true,
-        ignoreConsecutiveComments: true,
-      },
+        ignoreConsecutiveComments: true
+      }
     }],
 
     // require trailing commas in multiline object literals
@@ -44,7 +44,7 @@ module.exports = {
       objects: 'never',
       imports: 'never',
       exports: 'never',
-      functions: 'never',
+      functions: 'never'
     }],
 
     // enforce spacing before and after comma
@@ -63,7 +63,7 @@ module.exports = {
         ObjectExpression: false,
         ObjectPattern: false,
         VariableDeclaration: false,
-        NewExpression: false,
+        NewExpression: false
       }
     }],
 
@@ -89,7 +89,7 @@ module.exports = {
     // https://eslint.org/docs/rules/func-name-matching
     'func-name-matching': ['off', 'always', {
       includeCommonJSModuleExports: false,
-      considerPropertyDescriptor: true,
+      considerPropertyDescriptor: true
     }],
 
     // require function expressions to have a name
@@ -176,7 +176,7 @@ module.exports = {
     'line-comment-position': ['off', {
       position: 'above',
       ignorePattern: '',
-      applyDefaultPatterns: true,
+      applyDefaultPatterns: true
     }],
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
@@ -194,7 +194,7 @@ module.exports = {
     // https://eslint.org/docs/rules/lines-around-directive
     'lines-around-directive': ['error', {
       before: 'always',
-      after: 'always',
+      after: 'always'
     }],
 
     // specify the maximum depth that blocks can be nested
@@ -207,7 +207,7 @@ module.exports = {
       ignoreComments: false,
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
-      ignoreTemplateLiterals: true,
+      ignoreTemplateLiterals: true
     }],
 
     // specify the max number of lines in a file
@@ -249,7 +249,7 @@ module.exports = {
       newIsCap: true,
       newIsCapExceptions: [],
       capIsNew: false,
-      capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List'],
+      capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List']
     }],
 
     // disallow the omission of parentheses when invoking a constructor with no arguments
@@ -299,7 +299,7 @@ module.exports = {
         ['/', '*'],
         ['&', '|', '<<', '>>', '>>>'],
         ['==', '!=', '===', '!=='],
-        ['&&', '||'],
+        ['&&', '||']
       ],
       allowSamePrecedence: false
     }],
@@ -335,20 +335,20 @@ module.exports = {
       'error',
       {
         selector: 'ForInStatement',
-        message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+        message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.'
       },
       {
         selector: 'ForOfStatement',
-        message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+        message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.'
       },
       {
         selector: 'LabeledStatement',
-        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.'
       },
       {
         selector: 'WithStatement',
-        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
-      },
+        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
+      }
     ],
 
     // disallow space between function identifier and application
@@ -363,7 +363,7 @@ module.exports = {
     // disallow trailing whitespace at the end of lines
     'no-trailing-spaces': ['error', {
       skipBlankLines: false,
-      ignoreComments: false,
+      ignoreComments: false
     }],
 
     // disallow dangling underscores in identifiers
@@ -372,7 +372,7 @@ module.exports = {
       allow: [],
       allowAfterThis: false,
       allowAfterSuper: false,
-      enforceInMethodNames: true,
+      enforceInMethodNames: true
     }],
 
     // disallow the use of Boolean literals in conditional expressions
@@ -397,13 +397,13 @@ module.exports = {
       ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
       ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
       ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
-      ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 4, multiline: true, consistent: true }
     }],
 
     // enforce "same line" or "multiple line" on object properties.
     // https://eslint.org/docs/rules/object-property-newline
     'object-property-newline': ['error', {
-      allowAllPropertiesOnSameLine: true,
+      allowAllPropertiesOnSameLine: true
     }],
 
     // allow just one var statement per function
@@ -425,9 +425,9 @@ module.exports = {
     'padded-blocks': ['error', {
       blocks: 'never',
       classes: 'never',
-      switches: 'never',
+      switches: 'never'
     }, {
-      allowSingleLineBlocks: true,
+      allowSingleLineBlocks: true
     }],
 
     // Require or disallow padding lines between statements
@@ -493,7 +493,7 @@ module.exports = {
       words: true,
       nonwords: false,
       overrides: {
-      },
+      }
     }],
 
     // require or disallow a space immediately following the // or /* in a comment
@@ -501,12 +501,12 @@ module.exports = {
     'spaced-comment': ['error', 'always', {
       line: {
         exceptions: ['-', '+'],
-        markers: ['=', '!', '/'], // space here to support sprockets directives, slash for TS /// comments
+        markers: ['=', '!', '/'] // space here to support sprockets directives, slash for TS /// comments
       },
       block: {
         exceptions: ['-', '+'],
         markers: ['=', '!', ':', '::'], // space here to support sprockets directives and flow comment types
-        balanced: true,
+        balanced: true
       }
     }],
 
@@ -525,4 +525,4 @@ module.exports = {
     // require regex literals to be wrapped in parentheses
     'wrap-regex': 'off'
   }
-};
+}

@@ -1,7 +1,7 @@
-import * as helpers from '../helpers';
-import { registerSpectrumPropertiesFilter } from './registerSpectrumPropertiesFilter';
+import * as helpers from '../helpers'
+import { registerSpectrumPropertiesFilter } from './registerSpectrumPropertiesFilter'
 
-jest.mock('../helpers');
+jest.mock('../helpers')
 
 const styleProperties = {
   attributes: {},
@@ -10,21 +10,21 @@ const styleProperties = {
   name: 'platformOverlineLetterSpacing',
   original: { value: 1.92 },
   path: ['platform', 'overline', 'letterSpacing'],
-  value: 1.92,
-};
+  value: 1.92
+}
 
 describe('registerSpectrumPropertiesFilter', () => {
   afterEach(() => {
-    jest.resetAllMocks();
-  });
+    jest.resetAllMocks()
+  })
 
   it('should filter spectrum properties', () => {
-    const mockIsSpectrumProp = jest.spyOn(helpers, 'isSpectrumProp').mockReturnValue(true);
-    const config = registerSpectrumPropertiesFilter();
+    const mockIsSpectrumProp = jest.spyOn(helpers, 'isSpectrumProp').mockReturnValue(true)
+    const config = registerSpectrumPropertiesFilter()
 
-    const isAllowedProp = config.matcher(styleProperties);
+    const isAllowedProp = config.matcher(styleProperties)
 
-    expect(mockIsSpectrumProp).toHaveBeenCalledWith(styleProperties);
-    expect(isAllowedProp).toBe(true);
-  });
-});
+    expect(mockIsSpectrumProp).toHaveBeenCalledWith(styleProperties)
+    expect(isAllowedProp).toBe(true)
+  })
+})

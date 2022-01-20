@@ -1,29 +1,29 @@
-import svg2vectordrawable from 'svg2vectordrawable';
-import { buildDrawable } from './buildDrawable';
+import svg2vectordrawable from 'svg2vectordrawable'
+import { buildDrawable } from './buildDrawable'
 
-jest.mock('svg2vectordrawable');
+jest.mock('svg2vectordrawable')
 
 const data = {
   globalConfig: {
     fontName: 'font-name',
-    outputPath: 'folder/name',
+    outputPath: 'folder/name'
   },
   glyphsData: [
     {
       contents: '<svg><circle/></svg>',
       metadata: {
-        name: 'icon-Name',
-      },
-    },
-  ],
-};
+        name: 'icon-Name'
+      }
+    }
+  ]
+}
 
 const drawable = `
 <vector>
     <path
         android:pathData="M"/>
 </vector>
-`;
+`
 
 const expectedDrawable = `
 <vector>
@@ -31,19 +31,19 @@ const expectedDrawable = `
         android:fillColor="#FF000000"
         android:pathData="M"/>
 </vector>
-`;
+`
 
 describe('buildDrawable', () => {
   afterEach(() => {
-    jest.resetAllMocks();
-  });
+    jest.resetAllMocks()
+  })
 
   beforeEach(() => {
-    svg2vectordrawable.mockReturnValue(Promise.resolve(drawable));
-  });
+    svg2vectordrawable.mockReturnValue(Promise.resolve(drawable))
+  })
 
   it('should call svg2vectordrawable with the given svgs', () => buildDrawable(data)
-    .then(() => expect(svg2vectordrawable).toHaveBeenCalledWith('<svg><circle/></svg>')));
+    .then(() => expect(svg2vectordrawable).toHaveBeenCalledWith('<svg><circle/></svg>')))
 
   it('should return the drawables outputs', () => buildDrawable(data)
     .then((response) => {
@@ -52,15 +52,15 @@ describe('buildDrawable', () => {
         outputs: {
           icon_name: {
             content: expectedDrawable,
-            outputPath: 'folder/name/drawables/icon_name.xml',
+            outputPath: 'folder/name/drawables/icon_name.xml'
           },
           txt: {
             content: 'icon_name\n',
-            outputPath: 'folder/name/font-name.txt',
-          },
-        },
-      };
+            outputPath: 'folder/name/font-name.txt'
+          }
+        }
+      }
 
-      expect(response).toEqual(expectedResponse);
-    }));
-});
+      expect(response).toEqual(expectedResponse)
+    }))
+})

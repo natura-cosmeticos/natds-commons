@@ -1,17 +1,17 @@
-import { isDimensionWithUnit, isSpDimension } from '../helpers/helpers';
+import { isDimensionWithUnit, isSpDimension } from '../helpers/helpers'
 
 export const registerDpTransform = () => ({
   matcher: isDimensionWithUnit,
   name: 'size/dp-custom',
   transformer: (prop) => {
     if (typeof prop.value === 'string') {
-      return prop.value;
+      return prop.value
     }
 
-    return `${prop.value}${isSpDimension(prop) ? 'sp' : 'dp'}`;
+    return `${prop.value}${isSpDimension(prop) ? 'sp' : 'dp'}`
   },
   transitive: true,
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerDpTransform;
+export default registerDpTransform

@@ -1,9 +1,9 @@
-import json from '@rollup/plugin-json';
+import json from '@rollup/plugin-json'
 import {
-  directories, displayName,
-} from './package.json';
+  directories, displayName
+} from './package.json'
 
-const plugins = [json()];
+const plugins = [json()]
 
 // eslint-disable-next-line max-lines-per-function
 export default [
@@ -14,9 +14,9 @@ export default [
       dir: directories['react-native'],
       exports: 'default',
       format: 'cjs',
-      sourcemap: false,
+      sourcemap: false
     }],
-    plugins,
+    plugins
   },
   {
     input: './build/web/index.js',
@@ -25,22 +25,22 @@ export default [
         compact: false,
         dir: `${directories.lib}/esm`,
         format: 'esm',
-        sourcemap: false,
+        sourcemap: false
       }, {
         compact: true,
         dir: `${directories.lib}/umd`,
         format: 'umd',
         name: displayName,
-        sourcemap: true,
+        sourcemap: true
       },
       {
         compact: false,
         dir: directories.lib,
         exports: 'default',
         format: 'cjs',
-        sourcemap: false,
-      },
+        sourcemap: false
+      }
     ],
-    plugins,
-  },
-];
+    plugins
+  }
+]

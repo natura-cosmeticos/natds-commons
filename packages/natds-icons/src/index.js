@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'path'
 import {
   buildSvgPaths,
   optimizeSvg,
@@ -12,8 +12,8 @@ import {
   buildFonts,
   buildSwift,
   buildDrawable,
-  writeFiles,
-} from './actions';
+  writeFiles
+} from './actions'
 
 export const buildConfig = () => ({
   cleanedSvgOutput: path.resolve(__dirname, '../dist/svg'),
@@ -21,11 +21,11 @@ export const buildConfig = () => ({
   fontName: 'natds-icons',
   iconCodesPath: path.resolve(__dirname, './generated/natds-icons-codes.json'),
   outputPath: path.resolve(__dirname, '../dist'),
-  rawSvgInput: './svg/**/*.svg',
-});
+  rawSvgInput: './svg/**/*.svg'
+})
 
 export const init = () => buildSvgPaths({
-  globalConfig: buildConfig(),
+  globalConfig: buildConfig()
 }).then(optimizeSvg)
   .then(buildPreviousIconCodes)
   .then(buildInitialFontData)
@@ -38,6 +38,6 @@ export const init = () => buildSvgPaths({
   .then(buildSwift)
   .then(buildDrawable)
   .then(writeFiles)
-  .catch((msg) => console.log(msg));
+  .catch((msg) => console.log(msg))
 
-export default init;
+export default init

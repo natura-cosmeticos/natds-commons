@@ -7,17 +7,17 @@ export const buildCssConfig = (brand, mode) => ({
       filter: 'privateProperties',
       format: 'css/variables',
       options: {
-        showFileHeader: false,
-      },
+        showFileHeader: false
+      }
     },
     {
       destination: `spectrum/${brand}/spectrum.css`,
       filter: 'spectrumProperties',
       format: 'css/variables',
       options: {
-        showFileHeader: false,
-      },
-    },
+        showFileHeader: false
+      }
+    }
   ],
   transforms: [
     'attribute/cti',
@@ -25,8 +25,8 @@ export const buildCssConfig = (brand, mode) => ({
     'color/hex',
     'unit/px',
     'asset/extension',
-    'fontFamily/string',
-  ],
-});
+    'fontFamily/string'
+  ]
+})
 
-export default buildCssConfig;
+export default buildCssConfig

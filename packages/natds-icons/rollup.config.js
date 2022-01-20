@@ -1,4 +1,4 @@
-import json from '@rollup/plugin-json';
+import json from '@rollup/plugin-json'
 
 export default {
   external: [],
@@ -7,27 +7,27 @@ export default {
     {
       dir: './dist/cjs',
       format: 'cjs',
-      sourcemap: true,
+      sourcemap: true
     },
     {
       dir: './dist/esm',
       format: 'esm',
-      sourcemap: true,
+      sourcemap: true
     },
     {
       dir: './dist/iife',
       format: 'iife',
       name: 'natdsIcons',
-      sourcemap: true,
+      sourcemap: true
     },
     {
       dir: './dist/umd',
       format: 'umd',
       name: 'natdsIcons',
-      sourcemap: true,
-    },
+      sourcemap: true
+    }
   ],
   plugins: [
-    json(),
-  ],
-};
+    json()
+  ]
+}

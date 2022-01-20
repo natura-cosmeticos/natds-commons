@@ -6,13 +6,13 @@ const buildHtmlConfig = (brand, mode) => ({
     {
       destination: `${mode}.html`,
       filter: 'privateProperties',
-      format: 'html/colors',
+      format: 'html/colors'
     },
     {
       destination: 'spectrum.html',
       filter: 'spectrumProperties',
-      format: 'html/spectrum',
-    },
+      format: 'html/spectrum'
+    }
   ],
   transformGroup: 'html',
   transforms: [
@@ -21,8 +21,8 @@ const buildHtmlConfig = (brand, mode) => ({
     'asset/svg-optimized',
     'asset/svg-inline',
     'unit/px',
-    'fontFamily/string',
-  ],
-});
+    'fontFamily/string'
+  ]
+})
 
-export default buildHtmlConfig;
+export default buildHtmlConfig

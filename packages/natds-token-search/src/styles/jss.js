@@ -1,4 +1,4 @@
-import jss from 'jss';
-import preset from 'jss-preset-default';
+import jss from 'jss'
+import preset from 'jss-preset-default'
 
-export default jss.setup(preset());
+export default jss.setup(preset())

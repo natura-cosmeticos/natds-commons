@@ -1,4 +1,4 @@
-import { isAssetFile, isProp } from '../helpers';
+import { isAssetFile, isProp } from '../helpers'
 
 const extensions = {
   android: [],
@@ -6,8 +6,8 @@ const extensions = {
   html: ['svg'],
   ios: ['pdf'],
   'react-native': ['svg'],
-  web: ['svg'],
-};
+  web: ['svg']
+}
 
 const fontExtensions = {
   android: ['ttf'],
@@ -15,33 +15,33 @@ const fontExtensions = {
   html: ['ttf', 'eot', 'woff', 'woff2'],
   ios: ['ttf'],
   'react-native': ['ttf'],
-  web: ['ttf', 'eot', 'woff', 'woff2'],
-};
+  web: ['ttf', 'eot', 'woff', 'woff2']
+}
 
 const transformer = (prop, config) => {
-  const [, platform] = config.buildPath.split('/');
+  const [, platform] = config.buildPath.split('/')
 
   if (isProp('brand')(prop)) {
     return {
       assetOptions: {
-        extensions: extensions[platform],
-      },
-    };
+        extensions: extensions[platform]
+      }
+    }
   }
 
   return {
     assetOptions: {
-      extensions: fontExtensions[platform],
-    },
-  };
-};
+      extensions: fontExtensions[platform]
+    }
+  }
+}
 
 export const registerAssetExtensionTransform = () => ({
   matcher: isAssetFile,
   name: 'asset/extension',
   transformer,
   transitive: true,
-  type: 'attribute',
-});
+  type: 'attribute'
+})
 
-export default registerAssetExtensionTransform;
+export default registerAssetExtensionTransform

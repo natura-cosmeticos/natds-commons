@@ -8,6 +8,6 @@ module.exports = {
     base,
     react,
     jest,
-    typescript,
-  },
+    typescript
+  }
 }

@@ -1,41 +1,41 @@
 /* eslint-disable no-use-before-define */
-import CryptoJS from 'crypto-js';
+import CryptoJS from 'crypto-js'
 import {
-  pipe, prop, both, complement,
-} from 'ramda';
-import { isTokenSearchProp } from '../../shared/filters/registerTokenSearchPropertiesFilter';
+  pipe, prop, both, complement
+} from 'ramda'
+import { isTokenSearchProp } from '../../shared/filters/registerTokenSearchPropertiesFilter'
 import {
   toSnakeCase,
   isProp,
   isOneOfProps,
   isPrivateProp,
-  isFontFamilyProp,
-} from '../../shared/helpers';
+  isFontFamilyProp
+} from '../../shared/helpers'
 
-export const createEncodedHashFromValue = (value) => `ssot${CryptoJS.MD5(value.toString())}`;
+export const createEncodedHashFromValue = (value) => `ssot${CryptoJS.MD5(value.toString())}`
 
 export const isColor = (property) => both(
   isProp('color'),
-  complement(isProp('spectrum')),
-)(property);
+  complement(isProp('spectrum'))
+)(property)
 
-export const isSpDimension = isProp('fontSize');
+export const isSpDimension = isProp('fontSize')
 
-export const isUnitlessDimension = isOneOfProps(['opacity', 'lineHeight', 'letterSpacing']);
+export const isUnitlessDimension = isOneOfProps(['opacity', 'lineHeight', 'letterSpacing'])
 
-export const isDimension = (property) => !isOneOfProps(['color', 'spectrum', 'fontFamily', 'fontWeight', 'file'])(property) && !isPrivateProp(property);
+export const isDimension = (property) => !isOneOfProps(['color', 'spectrum', 'fontFamily', 'fontWeight', 'file'])(property) && !isPrivateProp(property)
 
 export const isDimensionWithUnit = (property) => (
   isDimension(property) && !isUnitlessDimension(property)
-);
+)
 
-export const mapFilteredValues = (props, filterFn, mapFn) => props.filter(filterFn).map(mapFn);
+export const mapFilteredValues = (props, filterFn, mapFn) => props.filter(filterFn).map(mapFn)
 
-export const propValueToSnakeCase = pipe(prop('value'), toSnakeCase);
+export const propValueToSnakeCase = pipe(prop('value'), toSnakeCase)
 
 export const filterPrivateAndFontFamilyProps = (property) => !(
   isFontFamilyProp(property) || isPrivateProp(property)
-);
+)
 
 export const filterSearchAndFontFamilyProps = (property) => isTokenSearchProp(property)
-  && !isFontFamilyProp(property);
+  && !isFontFamilyProp(property)

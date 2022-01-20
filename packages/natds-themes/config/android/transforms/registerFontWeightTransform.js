@@ -1,4 +1,4 @@
-import { isProp } from '../../shared/helpers';
+import { isProp } from '../../shared/helpers'
 
 const fontWeight = {
   100: 'sans-serif-thin',
@@ -9,15 +9,15 @@ const fontWeight = {
   600: 'sans-serif-semibold',
   700: 'sans-serif-bold',
   800: 'sans-serif-extrabold',
-  900: 'sans-serif-black',
-};
+  900: 'sans-serif-black'
+}
 
 export const registerFontWeightTransform = () => ({
   matcher: isProp('fontWeight'),
   name: 'value/font-weight-android',
   transformer: ({ value }) => fontWeight[value],
   transitive: false,
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerFontWeightTransform;
+export default registerFontWeightTransform

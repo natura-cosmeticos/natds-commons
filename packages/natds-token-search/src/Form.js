@@ -1,49 +1,49 @@
-import { createElement } from './helpers';
-import { searchAction, store } from './store';
-import { RadioGroup } from './RadioGroup';
-import { Search } from './Search';
+import { createElement } from './helpers'
+import { searchAction, store } from './store'
+import { RadioGroup } from './RadioGroup'
+import { Search } from './Search'
 
 const brands = [
   'aesop',
   'avon',
   'biome',
   'natura',
-  'theBodyShop',
-];
+  'theBodyShop'
+]
 
-const modes = ['light', 'dark'];
+const modes = ['light', 'dark']
 
 const platforms = [
   'android',
   'ios',
   'reactNative',
-  'web',
-];
+  'web'
+]
 
 export const onInputSearch = ({ target }) => store.dispatch(
-  searchAction({ search: target.value }),
-);
+  searchAction({ search: target.value })
+)
 
 const onFormChange = (event) => store.dispatch(
-  searchAction({ [event.target.name]: event.target.value }),
-);
+  searchAction({ [event.target.name]: event.target.value })
+)
 
-export const onFormSubmit = (event) => event.preventDefault();
+export const onFormSubmit = (event) => event.preventDefault()
 
 export const Form = () => {
-  const form = createElement('form');
+  const form = createElement('form')
 
-  const state = store.getState();
+  const state = store.getState()
 
-  form.appendChild(RadioGroup('platform', platforms, state.platform, 'Platforms'));
-  form.appendChild(Search(onInputSearch));
-  form.appendChild(RadioGroup('brand', brands, state.brand, 'Brands'));
-  form.appendChild(RadioGroup('mode', modes, state.mode, 'Modes'));
+  form.appendChild(RadioGroup('platform', platforms, state.platform, 'Platforms'))
+  form.appendChild(Search(onInputSearch))
+  form.appendChild(RadioGroup('brand', brands, state.brand, 'Brands'))
+  form.appendChild(RadioGroup('mode', modes, state.mode, 'Modes'))
 
-  form.addEventListener('change', onFormChange);
-  form.addEventListener('submit', onFormSubmit);
+  form.addEventListener('change', onFormChange)
+  form.addEventListener('submit', onFormSubmit)
 
-  return form;
-};
+  return form
+}
 
-export default Form;
+export default Form

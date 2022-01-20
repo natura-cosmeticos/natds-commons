@@ -1,4 +1,4 @@
-import buildIosConfig from './buildIosConfig';
+import buildIosConfig from './buildIosConfig'
 
 const expectedConfig = {
   actions: ['custom_copy_assets'],
@@ -8,29 +8,29 @@ const expectedConfig = {
       destination: 'theme/Pokemon/PokemonPikachuTheme.swift',
       filter: 'privateProperties',
       format: 'ios-swift/theme.swift',
-      themeName: 'PokemonPikachu',
+      themeName: 'PokemonPikachu'
     },
     {
       destination: 'theme/ThemeProtocol.swift',
       filter: 'privateProperties',
-      format: 'ios-swift/theme-protocol.swift',
+      format: 'ios-swift/theme-protocol.swift'
     },
     {
       destination: 'spectrum/SpectrumProtocol.swift',
       filter: 'spectrumProperties',
-      format: 'ios-swift/spectrum-protocol.swift',
+      format: 'ios-swift/spectrum-protocol.swift'
     },
     {
       destination: 'spectrum/PokemonSpectrum.swift',
       filter: 'spectrumProperties',
       format: 'ios-swift/spectrum.swift',
-      themeName: 'Pokemon',
+      themeName: 'Pokemon'
     },
     {
       destination: 'search/pokemon/pikachu.json',
       filter: 'tokenSearchProperties',
-      format: 'tokenSearch/template',
-    },
+      format: 'tokenSearch/template'
+    }
   ],
   transformGroup: 'ios-swift',
   transforms: [
@@ -40,14 +40,14 @@ const expectedConfig = {
     'attribute/type',
     'value/string-literal',
     'asset/extension',
-    'value/font-weight-ios',
-  ],
-};
+    'value/font-weight-ios'
+  ]
+}
 
 describe('buildIosConfig', () => {
   it('should return the ios config for the given brand and mode', () => {
-    const config = buildIosConfig('pokemon', 'pikachu');
+    const config = buildIosConfig('pokemon', 'pikachu')
 
-    expect(config).toEqual(expectedConfig);
-  });
-});
+    expect(config).toEqual(expectedConfig)
+  })
+})

@@ -1,3 +1,3 @@
-import typography from '../web/typography.json';
+import typography from '../web/typography.json'
 
-module.exports = typography;
+module.exports = typography

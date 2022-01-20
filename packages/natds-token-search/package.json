@@ -28,6 +28,7 @@
     "build": "yarn copy:tokens && parcel build index.html",
     "test": "jest --colors --collectCoverage",
     "lint": "eslint --ext .js ./",
+    "lint:fix": "yarn lint --fix",
     "copy:tokens": "rm -rf ./tokens && mkdir -p ./tokens && cp -r ../natds-themes/build/** ./tokens"
   },
   "bugs": {

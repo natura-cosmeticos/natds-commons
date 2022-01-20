@@ -69,7 +69,7 @@ module.exports = {
       nestedBinaryExpressions: false,
       returnAssign: false,
       ignoreJSX: 'all', // delegate to eslint-plugin-react
-      enforceForArrowConditionals: false,
+      enforceForArrowConditionals: false
     }],
 
     // disallow unnecessary semicolons
@@ -138,7 +138,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unreachable-loop
     // TODO: enable, semver-minor, once eslint v7.3 is required (which is major)
     'no-unreachable-loop': ['off', {
-      ignore: [], // WhileStatement, DoWhileStatement, ForStatement, ForInStatement, ForOfStatement
+      ignore: [] // WhileStatement, DoWhileStatement, ForStatement, ForInStatement, ForOfStatement
     }],
 
     // disallow return/throw/break/continue inside finally blocks
@@ -177,6 +177,6 @@ module.exports = {
 
     // ensure that the results of typeof are compared against a valid string
     // https://eslint.org/docs/rules/valid-typeof
-    'valid-typeof': ['error', { requireStringLiterals: true }],
+    'valid-typeof': ['error', { requireStringLiterals: true }]
   }
-};
+}

@@ -7,7 +7,10 @@ module.exports = {
     "jest": true,
     "browser": true,
   },
-  "extends": ["@naturacosmeticos/natura"],
+  extends: [
+    '@naturacosmeticos/eslint-config-natds/base',
+    '@naturacosmeticos/eslint-config-natds/jest',
+  ],
   "ignorePatterns": [
     ".eslintrc.js",
     "**/build/**",
@@ -18,33 +21,13 @@ module.exports = {
   ],
   "overrides": [
     {
-      "files": [
-        './packages/natds-themes/**/*.test.js',
-        './packages/natds-token-search/__tests__/**',
-        './packages/natds-icons/**/*.test.js'
-      ],
-      "rules": {
-        'max-lines-per-function': "off",
-        'max-statements': "off",
-        'max-lines': "off"
-      },
-    },
-    {
       "files": ['./packages/natds-storybook-themes/src/**/*.{js,ts}'],
       rules: {
-        "import/extensions": [
-          "error",
-          "ignorePackages",
-          {
-            ts: "never"
-          }
-        ],
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            devDependencies: true,
-            packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
-          },
+        "import/extensions": ["error", "ignorePackages", { ts: "never" }],
+        "import/no-extraneous-dependencies": ["error", {
+          devDependencies: true,
+          packageDir: path.join(__dirname, 'packages', 'natds-storybook-themes'),
+        },
         ],
       },
     },
@@ -57,25 +40,32 @@ module.exports = {
     {
       "files": ['./packages/natds-themes/**/*.js'],
       rules: {
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            devDependencies: true,
-            packageDir: path.join(__dirname, 'packages', 'natds-themes'),
-          },
+        "import/no-extraneous-dependencies": ["error", {
+          devDependencies: true,
+          packageDir: path.join(__dirname, 'packages', 'natds-themes'),
+        },
         ],
-        'max-lines-per-function': "off"
       },
     },
     {
       "files": ['./packages/natds-icons/**/*.js'],
       rules: {
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            devDependencies: true,
-            packageDir: path.join(__dirname, 'packages', 'natds-icons'),
-          },
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": ["error", {
+          devDependencies: true,
+          packageDir: path.join(__dirname, 'packages', 'natds-icons'),
+        },
+        ],
+      },
+    },
+    {
+      "files": ['./packages/natds-lint/**/*.js'],
+      rules: {
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": ["error", {
+          devDependencies: true,
+          packageDir: path.join(__dirname, 'packages', 'natds-lint'),
+        },
         ],
       },
     },
@@ -85,12 +75,10 @@ module.exports = {
         './packages/natds-token-search/__tests__/testHelpers.js'
       ],
       rules: {
-        "import/no-extraneous-dependencies": [
-          "error",
-          {
-            devDependencies: true,
-            packageDir: path.join(__dirname, 'packages', 'natds-token-search'),
-          },
+        "import/no-extraneous-dependencies": ["error", {
+          devDependencies: true,
+          packageDir: path.join(__dirname, 'packages', 'natds-token-search'),
+        },
         ],
       },
     },
@@ -100,12 +88,10 @@ module.exports = {
     "ecmaVersion": 2017
   },
   "rules": {
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": true,
-        "packageDir": __dirname,
-      },
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": true,
+      "packageDir": __dirname,
+    },
     ],
   },
   "settings": {

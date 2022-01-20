@@ -1,7 +1,7 @@
-import { createElement } from './helpers';
-import jss from './styles/jss';
-import { color } from './styles/global';
-import { Radio } from './Radio';
+import { createElement } from './helpers'
+import jss from './styles/jss'
+import { color } from './styles/global'
+import { Radio } from './Radio'
 
 const radioGroupStyles = {
   radioGroup: {
@@ -9,18 +9,18 @@ const radioGroupStyles = {
       '& input:checked+label': {
         borderColor: color.primary,
         color: 'black',
-        fontWeight: 'bold',
+        fontWeight: 'bold'
       },
       '& label': {
         '&:hover': {
           backgroundColor: color.primaryHover,
-          borderColor: color.primary,
+          borderColor: color.primary
         },
         border: [1, 'solid', color.gray],
         borderRadius: 25,
         color: color.text,
-        padding: [8, 24],
-      },
+        padding: [8, 24]
+      }
     },
     '&.platform': {
       '& $radios': {
@@ -30,17 +30,17 @@ const radioGroupStyles = {
           content: '""',
           left: 16,
           position: 'absolute',
-          right: 0,
+          right: 0
         },
         marginLeft: -20,
-        position: 'relative',
+        position: 'relative'
       },
       '& h5': {
-        display: 'none',
+        display: 'none'
       },
       '& input': {
         '&:checked+label': {
-          fontWeight: 'bold',
+          fontWeight: 'bold'
         },
         '&:checked+label::after': {
           borderBottom: [2, 'solid', color.primary],
@@ -48,62 +48,62 @@ const radioGroupStyles = {
           content: '""',
           left: 0,
           position: 'absolute',
-          right: 0,
-        },
+          right: 0
+        }
       },
       '& label': {
-        padding: [20, 0],
+        padding: [20, 0]
       },
       '& span': {
         display: 'flex',
         margin: [0, 16],
         padding: 0,
-        width: 'auto',
-      },
+        width: 'auto'
+      }
     },
-    margin: [20, 0],
+    margin: [20, 0]
   },
   radios: {
     '& span': {
       '& *': {
-        verticalAlign: 'middle',
+        verticalAlign: 'middle'
       },
       '& input': {
         margin: 0,
         opacity: 0,
-        position: 'absolute',
+        position: 'absolute'
       },
       '& label': {
         fontSize: 14,
-        position: 'relative',
+        position: 'relative'
       },
       marginRight: 24,
-      padding: [8, 0],
+      padding: [8, 0]
     },
-    display: 'flex',
-  },
+    display: 'flex'
+  }
 
-};
+}
 
-const radioGroupSheet = jss.createStyleSheet(radioGroupStyles);
+const radioGroupSheet = jss.createStyleSheet(radioGroupStyles)
 
 export const RadioGroup = (name, data, selected, titleText) => {
-  radioGroupSheet.attach();
-  const wrapper = createElement('div', null, null, radioGroupSheet.classes.radioGroup);
-  const title = createElement('h5', null, titleText);
+  radioGroupSheet.attach()
+  const wrapper = createElement('div', null, null, radioGroupSheet.classes.radioGroup)
+  const title = createElement('h5', null, titleText)
 
-  wrapper.classList.add(name);
-  wrapper.appendChild(title);
+  wrapper.classList.add(name)
+  wrapper.appendChild(title)
 
-  const radios = createElement('div', null, null, radioGroupSheet.classes.radios);
+  const radios = createElement('div', null, null, radioGroupSheet.classes.radios)
 
   data.forEach((item) => {
-    radios.appendChild(Radio(name, item, selected === item));
-  });
+    radios.appendChild(Radio(name, item, selected === item))
+  })
 
-  wrapper.appendChild(radios);
+  wrapper.appendChild(radios)
 
-  return wrapper;
-};
+  return wrapper
+}
 
-export default RadioGroup;
+export default RadioGroup

@@ -1,17 +1,17 @@
-import { mapObjIndexed } from 'ramda';
+import { mapObjIndexed } from 'ramda'
 
 export const createMockElement = (el, attrs, content) => {
-  const element = document.createElement(el);
+  const element = document.createElement(el)
 
   if (attrs) {
-    mapObjIndexed((value, attribute) => element.setAttribute(attribute, value), attrs);
+    mapObjIndexed((value, attribute) => element.setAttribute(attribute, value), attrs)
   }
 
   if (content) {
-    element.innerHTML = content;
+    element.innerHTML = content
   }
 
-  return element;
-};
+  return element
+}
 
-export default createMockElement;
+export default createMockElement

@@ -1,7 +1,7 @@
-import * as helpers from '../helpers';
-import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilter';
+import * as helpers from '../helpers'
+import { registerPrivatePropertiesFilter } from './registerPrivatePropertiesFilter'
 
-jest.mock('../helpers');
+jest.mock('../helpers')
 
 const styleProperties = {
   attributes: {},
@@ -10,21 +10,21 @@ const styleProperties = {
   name: 'platformOverlineLetterSpacing',
   original: { value: 1.92 },
   path: ['platform', 'overline', 'letterSpacing'],
-  value: 1.92,
-};
+  value: 1.92
+}
 
 describe('registerPrivatePropertiesFilter', () => {
   afterEach(() => {
-    jest.resetAllMocks();
-  });
+    jest.resetAllMocks()
+  })
 
   it('should filter platform private properties', () => {
-    const mockIsPrivateProp = jest.spyOn(helpers, 'isPrivateProp').mockReturnValue(true);
-    const config = registerPrivatePropertiesFilter();
+    const mockIsPrivateProp = jest.spyOn(helpers, 'isPrivateProp').mockReturnValue(true)
+    const config = registerPrivatePropertiesFilter()
 
-    const isAllowedProp = config.matcher(styleProperties);
+    const isAllowedProp = config.matcher(styleProperties)
 
-    expect(mockIsPrivateProp).toHaveBeenCalledWith(styleProperties);
-    expect(isAllowedProp).toBe(false);
-  });
-});
+    expect(mockIsPrivateProp).toHaveBeenCalledWith(styleProperties)
+    expect(isAllowedProp).toBe(false)
+  })
+})

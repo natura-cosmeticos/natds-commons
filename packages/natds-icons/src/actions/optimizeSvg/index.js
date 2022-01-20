@@ -1,1 +1,1 @@
-export * from './optimizeSvg';
+export * from './optimizeSvg'

@@ -1,41 +1,41 @@
-import fs from 'fs';
-import registerCreatePathsAction, { createPaths, deletePaths, dataBuilderFunction } from './registerCreatePathsAction';
-import * as createOutputPathInfo from '../../shared/helpers';
+import fs from 'fs'
+import registerCreatePathsAction, { createPaths, deletePaths, dataBuilderFunction } from './registerCreatePathsAction'
+import * as createOutputPathInfo from '../../shared/helpers'
 
-jest.mock('fs');
-jest.mock('../../shared/helpers');
+jest.mock('fs')
+jest.mock('../../shared/helpers')
 
 describe('registerCreatePathsAction', () => {
   it('should return create paths action', () => {
-    const createPathsAction = registerCreatePathsAction();
+    const createPathsAction = registerCreatePathsAction()
 
-    expect(typeof createPathsAction.do).toBe('function');
-    expect(typeof createPathsAction.undo).toBe('function');
-    expect(createPathsAction.name).toEqual('create_paths_html');
-  });
+    expect(typeof createPathsAction.do).toBe('function')
+    expect(typeof createPathsAction.undo).toBe('function')
+    expect(createPathsAction.name).toEqual('create_paths_html')
+  })
 
   describe('createPaths', () => {
     it('should call createOutputPathInfo function', () => {
       const sampleConfig = {
         buildPath: 'build/html/brand/',
-        files: [{ destination: 'mode.html' }],
-      };
+        files: [{ destination: 'mode.html' }]
+      }
 
-      jest.spyOn(createOutputPathInfo, 'createOutputPathInfo');
+      jest.spyOn(createOutputPathInfo, 'createOutputPathInfo')
 
-      createPaths(null, sampleConfig);
+      createPaths(null, sampleConfig)
 
-      expect(createOutputPathInfo.createOutputPathInfo).toHaveBeenCalled();
-    });
-  });
+      expect(createOutputPathInfo.createOutputPathInfo).toHaveBeenCalled()
+    })
+  })
 
   describe('deletePaths', () => {
     it('should delete the html docs paths file', () => {
-      deletePaths();
+      deletePaths()
 
-      expect(fs.unlinkSync).toHaveBeenCalledWith('build/html/paths.json');
-    });
-  });
+      expect(fs.unlinkSync).toHaveBeenCalledWith('build/html/paths.json')
+    })
+  })
 
   describe('dataBuilderFunction', () => {
     it('should return the name of the theme and path', () => {
@@ -45,17 +45,17 @@ describe('registerCreatePathsAction', () => {
           {
             destination: 'light.html',
             filter: 'privateProperties',
-            format: 'html/colors',
-          },
-        ],
-      };
+            format: 'html/colors'
+          }
+        ]
+      }
 
-      const result = dataBuilderFunction({}, config);
+      const result = dataBuilderFunction({}, config)
 
       expect(result).toEqual([{
         name: 'avon light',
-        path: '/avon/light.html',
-      }]);
-    });
-  });
-});
+        path: '/avon/light.html'
+      }])
+    })
+  })
+})

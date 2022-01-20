@@ -1,1 +1,1 @@
-export * from './buildInitialFontData';
+export * from './buildInitialFontData'

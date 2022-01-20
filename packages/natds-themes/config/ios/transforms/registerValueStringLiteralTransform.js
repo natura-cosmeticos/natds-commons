@@ -1,4 +1,4 @@
-import { isProp } from '../../shared/helpers';
+import { isProp } from '../../shared/helpers'
 
 export const registerValueStringLiteralTransform = () => ({
   name: 'value/string-literal',
@@ -7,7 +7,7 @@ export const registerValueStringLiteralTransform = () => ({
       ? `"${prop.value}"`
       : prop.value
   ),
-  type: 'value',
-});
+  type: 'value'
+})
 
-export default registerValueStringLiteralTransform;
+export default registerValueStringLiteralTransform

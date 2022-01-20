@@ -1,8 +1,8 @@
-import { isSpectrumProp } from '../helpers';
+import { isSpectrumProp } from '../helpers'
 
 export const registerSpectrumPropertiesFilter = () => ({
   matcher: isSpectrumProp,
-  name: 'spectrumProperties',
-});
+  name: 'spectrumProperties'
+})
 
-export default registerSpectrumPropertiesFilter;
+export default registerSpectrumPropertiesFilter

@@ -1,4 +1,4 @@
-import buildHtmlConfig from './buildHtmlConfig';
+import buildHtmlConfig from './buildHtmlConfig'
 
 const expectedConfig = {
   actions: ['create_paths_html', 'custom_copy_assets', 'create_type_face'],
@@ -8,13 +8,13 @@ const expectedConfig = {
     {
       destination: 'pikachu.html',
       filter: 'privateProperties',
-      format: 'html/colors',
+      format: 'html/colors'
     },
     {
       destination: 'spectrum.html',
       filter: 'spectrumProperties',
-      format: 'html/spectrum',
-    },
+      format: 'html/spectrum'
+    }
   ],
   transformGroup: 'html',
   transforms: [
@@ -23,14 +23,14 @@ const expectedConfig = {
     'asset/svg-optimized',
     'asset/svg-inline',
     'unit/px',
-    'fontFamily/string',
-  ],
-};
+    'fontFamily/string'
+  ]
+}
 
 describe('buildHtmlConfig', () => {
   it('should return the html config for the given brand and mode', () => {
-    const config = buildHtmlConfig('pokemon', 'pikachu');
+    const config = buildHtmlConfig('pokemon', 'pikachu')
 
-    expect(config).toEqual(expectedConfig);
-  });
-});
+    expect(config).toEqual(expectedConfig)
+  })
+})

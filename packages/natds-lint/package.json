@@ -46,5 +46,9 @@
   },
   "peerDependencies": {
     "eslint": "^7.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js ./",
+    "lint:fix": "yarn lint --fix"
   }
 }
