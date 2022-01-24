@@ -1,0 +1,32 @@
+{
+  "link": {
+    "label": {
+      "fontSize": {
+        "value": "{body1.fontSize.value}"
+      },
+      "letterSpacing": {
+        "value": "{body1.letterSpacing.value}"
+      },
+      "lineHeight": {
+        "value": "{body1.lineHeight.value}"
+      },
+      "primary": {
+        "fontFamily": {
+          "value": "{typography.fontFamily.primary.value}"
+        },
+        "fontWeight": {
+          "value": "{typography.fontWeight.regular.value}"
+        }
+      },
+      "fallback": {
+        "fontFamily": {
+          "value": "{platform.typography.fallback.fontFamily.value}"
+        },
+        "fontWeight": {
+          "value": "{platform.typography.fallback.fontWeight.value}"
+        }
+      }
+    }
+  }
+}
+  

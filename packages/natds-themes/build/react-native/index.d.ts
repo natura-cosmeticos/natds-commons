@@ -23,6 +23,7 @@ declare namespace Themes {
   expansionPanel: ExpansionPanel
   iconButton: IconButton
   image: Card
+  link: Link
   menuItem: Semi
   navigationDrawer: NavigationDrawer
   progressIndicator: ProgressIndicator
@@ -30,7 +31,7 @@ declare namespace Themes {
   rating: Rating
   shortcut: Checkbox
   snackbar: Snackbar
-  tab: Counter2
+  tab: Link
   tag: Tag
   textField: TextField
   heading1: Heading1
@@ -69,11 +70,8 @@ declare namespace Themes {
   borderRadius: number
 }
  export interface Rating {
-  counter: Counter2
-  input: Counter2
-}
- export interface Counter2 {
-  label: Title
+  counter: Link
+  input: Link
 }
  export interface ProgressIndicator {
   standard: Semi
@@ -92,6 +90,9 @@ declare namespace Themes {
  export interface Header {
   title: Title
   subtitle: Title
+}
+ export interface Link {
+  label: Title
 }
  export interface IconButton {
   semi: Semi
