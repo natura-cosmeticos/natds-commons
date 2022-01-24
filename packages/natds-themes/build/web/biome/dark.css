@@ -165,6 +165,13 @@
   --iconButtonMediumBorderRadius: 24px;
   --imageBorderRadiusEnable: 4px;
   --imageBorderRadiusDisable: 0px;
+  --linkLabelFontSize: 16px;
+  --linkLabelLetterSpacing: 0.51px;
+  --linkLabelLineHeight: 1.5;
+  --linkLabelPrimaryFontFamily: "Roboto";
+  --linkLabelPrimaryFontWeight: 400;
+  --linkLabelFallbackFontFamily: "Arial";
+  --linkLabelFallbackFontWeight: 400;
   --menuItemBorderRadius: 4px;
   --navigationDrawerHeaderTitleFontSize: 20px;
   --navigationDrawerHeaderTitleLetterSpacing: 0.24px;
