@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.24.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.24.0...@naturacosmeticos/natds-themes@0.24.1) (2022-01-27)
+
+
+### Bug Fixes
+
+* **natds-themes:** provides Suisse Medium font file ([#348](https://github.com/natura-cosmeticos/natds-commons/issues/348)) ([093b594](https://github.com/natura-cosmeticos/natds-commons/commit/093b5946b36486b8006d88306e7f61da894d2e5b))
+
+
+
+
+
 # [0.24.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.23.1...@naturacosmeticos/natds-themes@0.24.0) (2022-01-24)
 
 
