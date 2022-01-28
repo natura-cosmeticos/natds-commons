@@ -1,8 +1,5 @@
 {
   "heading1": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 96
     },
@@ -17,9 +14,6 @@
     }
   },
   "heading2": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 60
     },
@@ -34,9 +28,6 @@
     }
   },
   "heading3": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 48
     },
@@ -51,9 +42,6 @@
     }
   },
   "heading4": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 34
     },
@@ -68,9 +56,6 @@
     }
   },
   "heading5": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 24
     },
@@ -85,9 +70,6 @@
     }
   },
   "heading6": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 20
     },
@@ -102,9 +84,6 @@
     }
   },
   "subtitle1": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 16
     },
@@ -119,9 +98,6 @@
     }
   },
   "subtitle2": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 14
     },
@@ -136,9 +112,6 @@
     }
   },
   "body1": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 16
     },
@@ -153,9 +126,6 @@
     }
   },
   "body2": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 14
     },
@@ -170,9 +140,6 @@
     }
   },
   "caption": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 12
     },
@@ -187,9 +154,6 @@
     }
   },
   "overline": {
-    "fontFamily": {
-      "value": "{typography.body.regular.fontFamily.value}"
-    },
     "fontSize": {
       "value": 12
     },
