@@ -222,6 +222,9 @@
     "borderRadius": {
       "enable": 4,
       "disable": 0
+    },
+    "color": {
+      "background": "#ffffff"
     }
   },
   "checkbox": {
@@ -296,7 +299,16 @@
         "fontWeight": 400
       }
     },
-    "borderRadius": 4
+    "borderRadius": 4,
+    "color": {
+      "background": "#ffffff",
+      "title": "#000000"
+    }
+  },
+  "divider": {
+    "color": {
+      "background": "#bbbbbb"
+    }
   },
   "expansionPanel": {
     "title": {
@@ -343,6 +355,12 @@
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
+      }
+    },
+    "color": {
+      "label": {
+        "default": "#227bbd",
+        "light": "#bbbbbb"
       }
     }
   },
@@ -540,6 +558,24 @@
       "borderRadius": {
         "enable": 12,
         "disable": 0
+      }
+    },
+    "color": {
+      "background": {
+        "primary": "#004236",
+        "secondary": "#d6ce4b",
+        "success": "#569a32",
+        "alert": "#e74627",
+        "warning": "#fcc433",
+        "link": "#227bbd"
+      },
+      "label": {
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "success": "#ffffff",
+        "alert": "#ffffff",
+        "warning": "#333333",
+        "link": "#ffffff"
       }
     }
   },

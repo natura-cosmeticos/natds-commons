@@ -46,6 +46,48 @@
           "value": "{borderRadius.none.value}"
         }
       }
+    },
+    "color": {
+      "background": {
+        "primary": {
+          "value": "{color.primary.value}"
+        },
+        "secondary": {
+          "value": "{color.secondary.value}"
+        },
+        "success": {
+          "value": "{color.success.value}"
+        },
+        "alert": {
+          "value": "{color.alert.value}"
+        },
+        "warning": {
+          "value": "{color.warning.value}"
+        },
+        "link": {
+          "value": "{color.link.value}"
+        }
+      },
+      "label": {
+        "primary": {
+          "value": "{color.onPrimary.value}"
+        },
+        "secondary": {
+          "value": "{color.onSecondary.value}"
+        },
+        "success": {
+          "value": "{color.onSuccess.value}"
+        },
+        "alert": {
+          "value": "{color.onAlert.value}"
+        },
+        "warning": {
+          "value": "{color.onWarning.value}"
+        },
+        "link": {
+          "value": "{color.onLink.value}"
+        }
+      }
     }
   }
 }

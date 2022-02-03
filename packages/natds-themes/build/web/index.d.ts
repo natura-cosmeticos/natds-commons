@@ -20,9 +20,10 @@ declare namespace Themes {
   checkbox: Checkbox
   counter: Counter
   dialog: Dialog
+  divider: Divider
   expansionPanel: ExpansionPanel
   iconButton: IconButton
-  image: Card
+  image: Image
   link: Link
   menuItem: Semi
   navigationDrawer: NavigationDrawer
@@ -31,7 +32,7 @@ declare namespace Themes {
   rating: Rating
   shortcut: Checkbox
   snackbar: Snackbar
-  tab: Link
+  tab: Counter2
   tag: Tag
   textField: TextField
   heading1: Heading1
@@ -61,16 +62,32 @@ declare namespace Themes {
 }
  export interface Tag {
   label: Title
-  small: Card
-  standard: Card
+  small: Image
+  standard: Image
+  color: Color7
+}
+ export interface Color7 {
+  background: Background
+  label: Background
+}
+ export interface Background {
+  primary: string
+  secondary: string
+  success: string
+  alert: string
+  warning: string
+  link: string
 }
  export interface Snackbar {
   content: Title
   borderRadius: number
 }
  export interface Rating {
-  counter: Link
-  input: Link
+  counter: Counter2
+  input: Counter2
+}
+ export interface Counter2 {
+  label: Title
 }
  export interface ProgressIndicator {
   standard: Semi
@@ -92,6 +109,17 @@ declare namespace Themes {
 }
  export interface Link {
   label: Title
+  color: Color6
+}
+ export interface Color6 {
+  label: Label
+}
+ export interface Label {
+  default: string
+  light: string
+}
+ export interface Image {
+  borderRadius: BorderRadius2
 }
  export interface IconButton {
   semi: Semi
@@ -105,10 +133,18 @@ declare namespace Themes {
   title: Title
   borderRadius: number
 }
+ export interface Divider {
+  color: Color4
+}
  export interface Dialog {
   title: Title
   body: Title
   borderRadius: number
+  color: Color5
+}
+ export interface Color5 {
+  background: string
+  title: string
 }
  export interface Counter {
   label: Title
@@ -121,6 +157,10 @@ declare namespace Themes {
 }
  export interface Card {
   borderRadius: BorderRadius2
+  color: Color4
+}
+ export interface Color4 {
+  background: string
 }
  export interface BorderRadius2 {
   enable: number

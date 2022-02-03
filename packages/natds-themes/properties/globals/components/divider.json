@@ -1,0 +1,9 @@
+{
+  "divider": {
+    "color": {
+      "background": {
+        "value": "{color.lowEmphasis.value}"
+      }
+    }
+  }
+}

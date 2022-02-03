@@ -114,6 +114,7 @@
   --buttonTextColorFocusLabel: #fafafa;
   --cardBorderRadiusEnable: 4px;
   --cardBorderRadiusDisable: 0px;
+  --cardColorBackground: #333333;
   --checkboxLabelFontSize: 14px;
   --checkboxLabelLetterSpacing: 0.22px;
   --checkboxLabelLineHeight: 1.5;
@@ -152,6 +153,9 @@
   --dialogBodyFallbackFontFamily: "Arial";
   --dialogBodyFallbackFontWeight: 400;
   --dialogBorderRadius: 4px;
+  --dialogColorBackground: #333333;
+  --dialogColorTitle: #ffffff;
+  --dividerColorBackground: #777777;
   --expansionPanelTitleFontSize: 16px;
   --expansionPanelTitleLetterSpacing: 0.13px;
   --expansionPanelTitleLineHeight: 1.5;
@@ -172,6 +176,8 @@
   --linkLabelPrimaryFontWeight: 400;
   --linkLabelFallbackFontFamily: "Arial";
   --linkLabelFallbackFontWeight: 400;
+  --linkColorLabelDefault: #227bbd;
+  --linkColorLabelLight: #777777;
   --menuItemBorderRadius: 4px;
   --navigationDrawerHeaderTitleFontSize: 20px;
   --navigationDrawerHeaderTitleLetterSpacing: 0.24px;
@@ -261,6 +267,18 @@
   --tagSmallBorderRadiusDisable: 0px;
   --tagStandardBorderRadiusEnable: 12px;
   --tagStandardBorderRadiusDisable: 0px;
+  --tagColorBackgroundPrimary: #f4ab34;
+  --tagColorBackgroundSecondary: #ff6b0b;
+  --tagColorBackgroundSuccess: #569a32;
+  --tagColorBackgroundAlert: #e74627;
+  --tagColorBackgroundWarning: #fcc433;
+  --tagColorBackgroundLink: #227bbd;
+  --tagColorLabelPrimary: #333333;
+  --tagColorLabelSecondary: #000000;
+  --tagColorLabelSuccess: #ffffff;
+  --tagColorLabelAlert: #ffffff;
+  --tagColorLabelWarning: #333333;
+  --tagColorLabelLink: #ffffff;
   --textFieldLabelPrimaryFontFamily: "Roboto";
   --textFieldLabelPrimaryFontWeight: 500;
   --textFieldLabelFallbackFontFamily: "Arial";

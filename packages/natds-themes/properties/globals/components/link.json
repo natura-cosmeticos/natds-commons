@@ -26,7 +26,16 @@
           "value": "{platform.typography.fallback.fontWeight.value}"
         }
       }
+    },
+    "color": {
+      "label": {
+        "default": {
+          "value": "{color.link.value}"
+        },
+        "light": {
+          "value": "{color.lowEmphasis.value}"
+        }
+      }
     }
   }
 }
-  

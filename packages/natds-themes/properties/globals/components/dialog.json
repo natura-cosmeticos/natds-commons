@@ -56,6 +56,14 @@
     },
     "borderRadius": {
       "value": "{borderRadius.medium.value}"
+    },
+    "color": {
+      "background": {
+        "value": "{color.surface.value}"
+      },
+      "title": {
+        "value": "{color.highlight.value}"
+      }
     }
   }
 }

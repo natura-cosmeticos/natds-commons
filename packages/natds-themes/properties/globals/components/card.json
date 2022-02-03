@@ -7,6 +7,11 @@
       "disable": {
         "value": "{borderRadius.none.value}"
       }
+    },
+    "color": {
+      "background": {
+        "value": "{color.surface.value}"
+      }
     }
   }
 }
