@@ -392,8 +392,8 @@ struct NaturaDarkComponents: Components {
   let linkLabelPrimaryFontWeight: UIFont.Weight = .regular
   let linkLabelFallbackFontFamily = "San Francisco"
   let linkLabelFallbackFontWeight: UIFont.Weight = .regular
-  let linkColorLabelDefault = "#227BBD"
-  let linkColorLabelLight = "#777777"
+  let linkColorLabelEnableDefault = "#227BBD"
+  let linkColorLabelEnableLight = "#777777"
   let menuItemBorderRadius: CGFloat = 4
   let navigationDrawerHeaderTitleFontSize: CGFloat = 20
   let navigationDrawerHeaderTitleLetterSpacing: CGFloat = 0.12

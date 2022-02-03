@@ -29,11 +29,13 @@
     },
     "color": {
       "label": {
-        "default": {
-          "value": "{color.link.value}"
-        },
-        "light": {
-          "value": "{color.lowEmphasis.value}"
+        "enable": {
+          "default": {
+            "value": "{color.link.value}"
+          },
+          "light": {
+            "value": "{color.lowEmphasis.value}"
+          }
         }
       }
     }
