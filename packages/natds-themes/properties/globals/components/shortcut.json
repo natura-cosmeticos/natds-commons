@@ -41,7 +41,7 @@
               "value": "{color.highEmphasis.value}"
             }
           },
-          "light": {
+          "neutral": {
             "background": {
               "value": "{color.surface.value}"
             },
@@ -65,7 +65,7 @@
               "value": "{color.mediumEmphasis.value}"
             }
           },
-          "light": {
+          "neutral": {
             "background": {
               "value": "{color.lowEmphasis.value}"
             },
@@ -89,7 +89,7 @@
               "value": "{color.highEmphasis.value}"
             }
           },
-          "light": {
+          "neutral": {
             "background": {
               "value": "{color.neutral100.value}"
             },
@@ -117,7 +117,7 @@
               "value": "{color.highEmphasis.value}"
             }
           },
-          "light": {
+          "neutral": {
             "background": {
               "value": "{color.surface.value}"
             },
@@ -141,7 +141,7 @@
               "value": "{color.lowEmphasis.value}"
             }
           },
-          "light": {
+          "neutral": {
             "background": {
               "value": "{color.surface.value}"
             },
@@ -165,7 +165,7 @@
               "value": "{color.highEmphasis.value}"
             }
           },
-          "light": {
+          "neutral": {
             "background": {
               "value": "{color.neutral100.value}"
             },

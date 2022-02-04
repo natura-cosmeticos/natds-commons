@@ -581,7 +581,7 @@
             "border": "#FFFFFF00",
             "label": "#333333"
           },
-          "light": {
+          "neutral": {
             "background": "#ffffff",
             "border": "#FFFFFF00",
             "label": "#333333"
@@ -593,7 +593,7 @@
             "border": "#FFFFFF00",
             "label": "#777777"
           },
-          "light": {
+          "neutral": {
             "background": "#bbbbbb",
             "border": "#FFFFFF00",
             "label": "#777777"
@@ -605,7 +605,7 @@
             "border": "#FFFFFF00",
             "label": "#333333"
           },
-          "light": {
+          "neutral": {
             "background": "#f1f3f5",
             "border": "#FFFFFF00",
             "label": "#333333"
@@ -621,7 +621,7 @@
             "border": "#f4ab34",
             "label": "#333333"
           },
-          "light": {
+          "neutral": {
             "background": "#ffffff",
             "border": "#bbbbbb",
             "label": "#333333"
@@ -633,7 +633,7 @@
             "border": "#bbbbbb",
             "label": "#bbbbbb"
           },
-          "light": {
+          "neutral": {
             "background": "#ffffff",
             "border": "#bbbbbb",
             "label": "#bbbbbb"
@@ -645,7 +645,7 @@
             "border": "#ef8426",
             "label": "#333333"
           },
-          "light": {
+          "neutral": {
             "background": "#f1f3f5",
             "border": "#777777",
             "label": "#333333"

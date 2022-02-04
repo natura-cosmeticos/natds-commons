@@ -245,39 +245,39 @@
   <attr name="shortcutContainedColorEnablePrimaryBackground" format="color" />  
   <attr name="shortcutContainedColorEnablePrimaryBorder" format="color" />  
   <attr name="shortcutContainedColorEnablePrimaryLabel" format="color" />  
-  <attr name="shortcutContainedColorEnableLightBackground" format="color" />  
-  <attr name="shortcutContainedColorEnableLightBorder" format="color" />  
-  <attr name="shortcutContainedColorEnableLightLabel" format="color" />  
+  <attr name="shortcutContainedColorEnableNeutralBackground" format="color" />  
+  <attr name="shortcutContainedColorEnableNeutralBorder" format="color" />  
+  <attr name="shortcutContainedColorEnableNeutralLabel" format="color" />  
   <attr name="shortcutContainedColorDisablePrimaryBackground" format="color" />  
   <attr name="shortcutContainedColorDisablePrimaryBorder" format="color" />  
   <attr name="shortcutContainedColorDisablePrimaryLabel" format="color" />  
-  <attr name="shortcutContainedColorDisableLightBackground" format="color" />  
-  <attr name="shortcutContainedColorDisableLightBorder" format="color" />  
-  <attr name="shortcutContainedColorDisableLightLabel" format="color" />  
+  <attr name="shortcutContainedColorDisableNeutralBackground" format="color" />  
+  <attr name="shortcutContainedColorDisableNeutralBorder" format="color" />  
+  <attr name="shortcutContainedColorDisableNeutralLabel" format="color" />  
   <attr name="shortcutContainedColorHoverPrimaryBackground" format="color" />  
   <attr name="shortcutContainedColorHoverPrimaryBorder" format="color" />  
   <attr name="shortcutContainedColorHoverPrimaryLabel" format="color" />  
-  <attr name="shortcutContainedColorHoverLightBackground" format="color" />  
-  <attr name="shortcutContainedColorHoverLightBorder" format="color" />  
-  <attr name="shortcutContainedColorHoverLightLabel" format="color" />  
+  <attr name="shortcutContainedColorHoverNeutralBackground" format="color" />  
+  <attr name="shortcutContainedColorHoverNeutralBorder" format="color" />  
+  <attr name="shortcutContainedColorHoverNeutralLabel" format="color" />  
   <attr name="shortcutOutlinedColorEnablePrimaryBackground" format="color" />  
   <attr name="shortcutOutlinedColorEnablePrimaryBorder" format="color" />  
   <attr name="shortcutOutlinedColorEnablePrimaryLabel" format="color" />  
-  <attr name="shortcutOutlinedColorEnableLightBackground" format="color" />  
-  <attr name="shortcutOutlinedColorEnableLightBorder" format="color" />  
-  <attr name="shortcutOutlinedColorEnableLightLabel" format="color" />  
+  <attr name="shortcutOutlinedColorEnableNeutralBackground" format="color" />  
+  <attr name="shortcutOutlinedColorEnableNeutralBorder" format="color" />  
+  <attr name="shortcutOutlinedColorEnableNeutralLabel" format="color" />  
   <attr name="shortcutOutlinedColorDisablePrimaryBackground" format="color" />  
   <attr name="shortcutOutlinedColorDisablePrimaryBorder" format="color" />  
   <attr name="shortcutOutlinedColorDisablePrimaryLabel" format="color" />  
-  <attr name="shortcutOutlinedColorDisableLightBackground" format="color" />  
-  <attr name="shortcutOutlinedColorDisableLightBorder" format="color" />  
-  <attr name="shortcutOutlinedColorDisableLightLabel" format="color" />  
+  <attr name="shortcutOutlinedColorDisableNeutralBackground" format="color" />  
+  <attr name="shortcutOutlinedColorDisableNeutralBorder" format="color" />  
+  <attr name="shortcutOutlinedColorDisableNeutralLabel" format="color" />  
   <attr name="shortcutOutlinedColorHoverPrimaryBackground" format="color" />  
   <attr name="shortcutOutlinedColorHoverPrimaryBorder" format="color" />  
   <attr name="shortcutOutlinedColorHoverPrimaryLabel" format="color" />  
-  <attr name="shortcutOutlinedColorHoverLightBackground" format="color" />  
-  <attr name="shortcutOutlinedColorHoverLightBorder" format="color" />  
-  <attr name="shortcutOutlinedColorHoverLightLabel" format="color" />  
+  <attr name="shortcutOutlinedColorHoverNeutralBackground" format="color" />  
+  <attr name="shortcutOutlinedColorHoverNeutralBorder" format="color" />  
+  <attr name="shortcutOutlinedColorHoverNeutralLabel" format="color" />  
   <attr name="shortcutBorderRadius" format="dimension" />  
   <attr name="snackbarContentFontSize" format="dimension" />  
   <attr name="snackbarContentLetterSpacing" format="dimension" />  

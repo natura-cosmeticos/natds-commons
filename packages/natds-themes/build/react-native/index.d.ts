@@ -98,7 +98,7 @@ declare namespace Themes {
 }
  export interface Enable2 {
   primary: Enable
-  light: Enable
+  neutral: Enable
 }
  export interface Rating {
   counter: Counter2

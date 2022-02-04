@@ -485,39 +485,39 @@ protocol Components {
   var shortcutContainedColorEnablePrimaryBackground: String { get }
   var shortcutContainedColorEnablePrimaryBorder: String { get }
   var shortcutContainedColorEnablePrimaryLabel: String { get }
-  var shortcutContainedColorEnableLightBackground: String { get }
-  var shortcutContainedColorEnableLightBorder: String { get }
-  var shortcutContainedColorEnableLightLabel: String { get }
+  var shortcutContainedColorEnableNeutralBackground: String { get }
+  var shortcutContainedColorEnableNeutralBorder: String { get }
+  var shortcutContainedColorEnableNeutralLabel: String { get }
   var shortcutContainedColorDisablePrimaryBackground: String { get }
   var shortcutContainedColorDisablePrimaryBorder: String { get }
   var shortcutContainedColorDisablePrimaryLabel: String { get }
-  var shortcutContainedColorDisableLightBackground: String { get }
-  var shortcutContainedColorDisableLightBorder: String { get }
-  var shortcutContainedColorDisableLightLabel: String { get }
+  var shortcutContainedColorDisableNeutralBackground: String { get }
+  var shortcutContainedColorDisableNeutralBorder: String { get }
+  var shortcutContainedColorDisableNeutralLabel: String { get }
   var shortcutContainedColorHoverPrimaryBackground: String { get }
   var shortcutContainedColorHoverPrimaryBorder: String { get }
   var shortcutContainedColorHoverPrimaryLabel: String { get }
-  var shortcutContainedColorHoverLightBackground: String { get }
-  var shortcutContainedColorHoverLightBorder: String { get }
-  var shortcutContainedColorHoverLightLabel: String { get }
+  var shortcutContainedColorHoverNeutralBackground: String { get }
+  var shortcutContainedColorHoverNeutralBorder: String { get }
+  var shortcutContainedColorHoverNeutralLabel: String { get }
   var shortcutOutlinedColorEnablePrimaryBackground: String { get }
   var shortcutOutlinedColorEnablePrimaryBorder: String { get }
   var shortcutOutlinedColorEnablePrimaryLabel: String { get }
-  var shortcutOutlinedColorEnableLightBackground: String { get }
-  var shortcutOutlinedColorEnableLightBorder: String { get }
-  var shortcutOutlinedColorEnableLightLabel: String { get }
+  var shortcutOutlinedColorEnableNeutralBackground: String { get }
+  var shortcutOutlinedColorEnableNeutralBorder: String { get }
+  var shortcutOutlinedColorEnableNeutralLabel: String { get }
   var shortcutOutlinedColorDisablePrimaryBackground: String { get }
   var shortcutOutlinedColorDisablePrimaryBorder: String { get }
   var shortcutOutlinedColorDisablePrimaryLabel: String { get }
-  var shortcutOutlinedColorDisableLightBackground: String { get }
-  var shortcutOutlinedColorDisableLightBorder: String { get }
-  var shortcutOutlinedColorDisableLightLabel: String { get }
+  var shortcutOutlinedColorDisableNeutralBackground: String { get }
+  var shortcutOutlinedColorDisableNeutralBorder: String { get }
+  var shortcutOutlinedColorDisableNeutralLabel: String { get }
   var shortcutOutlinedColorHoverPrimaryBackground: String { get }
   var shortcutOutlinedColorHoverPrimaryBorder: String { get }
   var shortcutOutlinedColorHoverPrimaryLabel: String { get }
-  var shortcutOutlinedColorHoverLightBackground: String { get }
-  var shortcutOutlinedColorHoverLightBorder: String { get }
-  var shortcutOutlinedColorHoverLightLabel: String { get }
+  var shortcutOutlinedColorHoverNeutralBackground: String { get }
+  var shortcutOutlinedColorHoverNeutralBorder: String { get }
+  var shortcutOutlinedColorHoverNeutralLabel: String { get }
   var shortcutBorderRadius: CGFloat { get }
   var snackbarContentFontSize: CGFloat { get }
   var snackbarContentLetterSpacing: CGFloat { get }
