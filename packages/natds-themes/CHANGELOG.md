@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.26.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.25.0...@naturacosmeticos/natds-themes@0.26.0) (2022-02-04)
+
+
+### Features
+
+* **natds-themes:** add Color tokens for pack 1 ([#351](https://github.com/natura-cosmeticos/natds-commons/issues/351)) ([edbc175](https://github.com/natura-cosmeticos/natds-commons/commit/edbc1756c0a10d49d8436f6206d2ab179b9f4972))
+
+
+
+
+
 # [0.25.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.24.3...@naturacosmeticos/natds-themes@0.25.0) (2022-02-03)
 
 
