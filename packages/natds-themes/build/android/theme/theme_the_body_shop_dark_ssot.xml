@@ -22,6 +22,8 @@
 -->
 <resources>
   <style name="Theme.TheBodyShop.Dark.SSOT" parent="Theme.MaterialComponents.DayNight">
+    <item name="avatarColorBackground">@color/ssotfb7dbc1c4db362297f65c58fd6e21105</item>
+    <item name="avatarColorLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
     <item name="badgeColorPrimaryLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
     <item name="badgeColorPrimaryBackground">@color/ssotfb7dbc1c4db362297f65c58fd6e21105</item>
     <item name="badgeColorSecondaryLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>

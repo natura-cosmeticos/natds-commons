@@ -85,6 +85,14 @@
       "fontWeight": {
         "value": "{platform.typography.fallback.fontWeight.value}"
       }
+    },
+    "color": {
+      "background": {
+        "value": "{color.primary.value}"
+      },
+      "label": {
+        "value": "{color.onPrimary.value}"
+      }
     }
   }
 }

@@ -28,9 +28,9 @@ declare namespace Themes {
   menuItem: Semi
   navigationDrawer: NavigationDrawer
   progressIndicator: ProgressIndicator
-  radioButton: Checkbox
+  radioButton: RadioButton
   rating: Rating
-  shortcut: Checkbox
+  shortcut: Shortcut
   snackbar: Snackbar
   tab: Counter2
   tag: Tag
@@ -64,9 +64,9 @@ declare namespace Themes {
   label: Title
   small: Image
   standard: Image
-  color: Color7
+  color: Color12
 }
- export interface Color7 {
+ export interface Color12 {
   background: Background
   label: Background
 }
@@ -82,6 +82,24 @@ declare namespace Themes {
   content: Title
   borderRadius: number
 }
+ export interface Shortcut {
+  label: Title
+  contained: Contained2
+  outlined: Contained2
+  borderRadius: number
+}
+ export interface Contained2 {
+  color: Color11
+}
+ export interface Color11 {
+  enable: Enable2
+  disable: Enable2
+  hover: Enable2
+}
+ export interface Enable2 {
+  primary: Enable
+  light: Enable
+}
  export interface Rating {
   counter: Counter2
   input: Counter2
@@ -89,11 +107,30 @@ declare namespace Themes {
  export interface Counter2 {
   label: Title
 }
+ export interface RadioButton {
+  label: Title
+  borderRadius: number
+  color: Color10
+}
+ export interface Color10 {
+  select: Select
+  unselect: Select
+  disable: Select
+}
+ export interface Select {
+  border: string
+  content: string
+}
  export interface ProgressIndicator {
   standard: Semi
   semi: Semi
   medium: Semi
   large: Semi
+  color: Color9
+}
+ export interface Color9 {
+  stroke: string
+  layer: string
 }
  export interface NavigationDrawer {
   header: Header
@@ -109,9 +146,9 @@ declare namespace Themes {
 }
  export interface Link {
   label: Title
-  color: Color6
+  color: Color8
 }
- export interface Color6 {
+ export interface Color8 {
   label: Label
 }
  export interface Label {
@@ -128,6 +165,18 @@ declare namespace Themes {
   semi: Semi
   semiX: Semi
   medium: Semi
+  standard: Standard3
+  float: Standard3
+  overlay: Standard3
+}
+ export interface Standard3 {
+  color: Color7
+}
+ export interface Color7 {
+  enable: Color5
+  disable: Color5
+  hover: Color5
+  focus: Color5
 }
  export interface Semi {
   borderRadius: number
@@ -137,15 +186,15 @@ declare namespace Themes {
   borderRadius: number
 }
  export interface Divider {
-  color: Color4
+  color: Color5
 }
  export interface Dialog {
   title: Title
   body: Title
   borderRadius: number
-  color: Color5
+  color: Color6
 }
- export interface Color5 {
+ export interface Color6 {
   background: string
   title: string
 }
@@ -160,9 +209,9 @@ declare namespace Themes {
 }
  export interface Card {
   borderRadius: BorderRadius2
-  color: Color4
+  color: Color5
 }
- export interface Color4 {
+ export interface Color5 {
   background: string
 }
  export interface BorderRadius2 {
@@ -177,9 +226,9 @@ declare namespace Themes {
   text: Contained
 }
  export interface Contained {
-  color: Color3
+  color: Color4
 }
- export interface Color3 {
+ export interface Color4 {
   enable: Enable
   disable: Enable
   hover: Enable
@@ -194,17 +243,13 @@ declare namespace Themes {
   label: Title
   standard: Standard2
   dot: Standard2
-  color: Color2
+  color: Color3
 }
- export interface Color2 {
-  primary: Primary
-  secondary: Primary
-  success: Primary
-  alert: Primary
-}
- export interface Primary {
-  label: string
-  background: string
+ export interface Color3 {
+  primary: Color2
+  secondary: Color2
+  success: Color2
+  alert: Color2
 }
  export interface Standard2 {
   height: number
@@ -218,6 +263,11 @@ declare namespace Themes {
   largeXXX: Standard
   primary: Display
   fallback: Display
+  color: Color2
+}
+ export interface Color2 {
+  background: string
+  label: string
 }
  export interface Standard {
   fontSize: number

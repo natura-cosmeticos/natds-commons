@@ -22,6 +22,8 @@
 -->
 <resources>
   <style name="Theme.Biome.Light.SSOT" parent="Theme.MaterialComponents.Light">
+    <item name="avatarColorBackground">@color/ssotfa7947408a5909082d4d4bb0709966bc</item>
+    <item name="avatarColorLabel">@color/ssot09c72ac813bc7a0108f7f274f6197773</item>
     <item name="badgeColorPrimaryLabel">@color/ssot09c72ac813bc7a0108f7f274f6197773</item>
     <item name="badgeColorPrimaryBackground">@color/ssotfa7947408a5909082d4d4bb0709966bc</item>
     <item name="badgeColorSecondaryLabel">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>

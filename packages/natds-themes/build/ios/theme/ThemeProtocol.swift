@@ -269,6 +269,8 @@ protocol Components {
   var avatarPrimaryFontWeight: UIFont.Weight { get }
   var avatarFallbackFontFamily: String { get }
   var avatarFallbackFontWeight: UIFont.Weight { get }
+  var avatarColorBackground: String { get }
+  var avatarColorLabel: String { get }
   var badgeLabelFontSize: CGFloat { get }
   var badgeLabelLetterSpacing: CGFloat { get }
   var badgeLabelLineHeight: CGFloat { get }
@@ -387,6 +389,18 @@ protocol Components {
   var iconButtonSemiBorderRadius: CGFloat { get }
   var iconButtonSemiXBorderRadius: CGFloat { get }
   var iconButtonMediumBorderRadius: CGFloat { get }
+  var iconButtonStandardColorEnableBackground: String { get }
+  var iconButtonStandardColorDisableBackground: String { get }
+  var iconButtonStandardColorHoverBackground: String { get }
+  var iconButtonStandardColorFocusBackground: String { get }
+  var iconButtonFloatColorEnableBackground: String { get }
+  var iconButtonFloatColorDisableBackground: String { get }
+  var iconButtonFloatColorHoverBackground: String { get }
+  var iconButtonFloatColorFocusBackground: String { get }
+  var iconButtonOverlayColorEnableBackground: String { get }
+  var iconButtonOverlayColorDisableBackground: String { get }
+  var iconButtonOverlayColorHoverBackground: String { get }
+  var iconButtonOverlayColorFocusBackground: String { get }
   var imageBorderRadiusEnable: CGFloat { get }
   var imageBorderRadiusDisable: CGFloat { get }
   var linkLabelFontSize: CGFloat { get }
@@ -431,6 +445,8 @@ protocol Components {
   var progressIndicatorSemiBorderRadius: CGFloat { get }
   var progressIndicatorMediumBorderRadius: CGFloat { get }
   var progressIndicatorLargeBorderRadius: CGFloat { get }
+  var progressIndicatorColorStroke: String { get }
+  var progressIndicatorColorLayer: String { get }
   var radioButtonLabelFontSize: CGFloat { get }
   var radioButtonLabelLetterSpacing: CGFloat { get }
   var radioButtonLabelLineHeight: CGFloat { get }
@@ -439,6 +455,12 @@ protocol Components {
   var radioButtonLabelFallbackFontFamily: String { get }
   var radioButtonLabelFallbackFontWeight: UIFont.Weight { get }
   var radioButtonBorderRadius: CGFloat { get }
+  var radioButtonColorSelectBorder: String { get }
+  var radioButtonColorSelectContent: String { get }
+  var radioButtonColorUnselectBorder: String { get }
+  var radioButtonColorUnselectContent: String { get }
+  var radioButtonColorDisableBorder: String { get }
+  var radioButtonColorDisableContent: String { get }
   var ratingCounterLabelFontSize: CGFloat { get }
   var ratingCounterLabelLetterSpacing: CGFloat { get }
   var ratingCounterLabelLineHeight: CGFloat { get }
@@ -460,6 +482,42 @@ protocol Components {
   var shortcutLabelPrimaryFontWeight: UIFont.Weight { get }
   var shortcutLabelFallbackFontFamily: String { get }
   var shortcutLabelFallbackFontWeight: UIFont.Weight { get }
+  var shortcutContainedColorEnablePrimaryBackground: String { get }
+  var shortcutContainedColorEnablePrimaryBorder: String { get }
+  var shortcutContainedColorEnablePrimaryLabel: String { get }
+  var shortcutContainedColorEnableLightBackground: String { get }
+  var shortcutContainedColorEnableLightBorder: String { get }
+  var shortcutContainedColorEnableLightLabel: String { get }
+  var shortcutContainedColorDisablePrimaryBackground: String { get }
+  var shortcutContainedColorDisablePrimaryBorder: String { get }
+  var shortcutContainedColorDisablePrimaryLabel: String { get }
+  var shortcutContainedColorDisableLightBackground: String { get }
+  var shortcutContainedColorDisableLightBorder: String { get }
+  var shortcutContainedColorDisableLightLabel: String { get }
+  var shortcutContainedColorHoverPrimaryBackground: String { get }
+  var shortcutContainedColorHoverPrimaryBorder: String { get }
+  var shortcutContainedColorHoverPrimaryLabel: String { get }
+  var shortcutContainedColorHoverLightBackground: String { get }
+  var shortcutContainedColorHoverLightBorder: String { get }
+  var shortcutContainedColorHoverLightLabel: String { get }
+  var shortcutOutlinedColorEnablePrimaryBackground: String { get }
+  var shortcutOutlinedColorEnablePrimaryBorder: String { get }
+  var shortcutOutlinedColorEnablePrimaryLabel: String { get }
+  var shortcutOutlinedColorEnableLightBackground: String { get }
+  var shortcutOutlinedColorEnableLightBorder: String { get }
+  var shortcutOutlinedColorEnableLightLabel: String { get }
+  var shortcutOutlinedColorDisablePrimaryBackground: String { get }
+  var shortcutOutlinedColorDisablePrimaryBorder: String { get }
+  var shortcutOutlinedColorDisablePrimaryLabel: String { get }
+  var shortcutOutlinedColorDisableLightBackground: String { get }
+  var shortcutOutlinedColorDisableLightBorder: String { get }
+  var shortcutOutlinedColorDisableLightLabel: String { get }
+  var shortcutOutlinedColorHoverPrimaryBackground: String { get }
+  var shortcutOutlinedColorHoverPrimaryBorder: String { get }
+  var shortcutOutlinedColorHoverPrimaryLabel: String { get }
+  var shortcutOutlinedColorHoverLightBackground: String { get }
+  var shortcutOutlinedColorHoverLightBorder: String { get }
+  var shortcutOutlinedColorHoverLightLabel: String { get }
   var shortcutBorderRadius: CGFloat { get }
   var snackbarContentFontSize: CGFloat { get }
   var snackbarContentLetterSpacing: CGFloat { get }

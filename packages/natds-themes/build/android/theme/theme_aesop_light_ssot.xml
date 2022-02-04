@@ -22,6 +22,8 @@
 -->
 <resources>
   <style name="Theme.Aesop.Light.SSOT" parent="Theme.MaterialComponents.Light">
+    <item name="avatarColorBackground">@color/ssot694928dbb67ecf03ddf79210b96120c0</item>
+    <item name="avatarColorLabel">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>
     <item name="badgeColorPrimaryLabel">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>
     <item name="badgeColorPrimaryBackground">@color/ssot694928dbb67ecf03ddf79210b96120c0</item>
     <item name="badgeColorSecondaryLabel">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>

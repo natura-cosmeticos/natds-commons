@@ -22,6 +22,8 @@
 -->
 <resources>
   <style name="Theme.Avon.Dark.SSOT" parent="Theme.MaterialComponents.DayNight">
+    <item name="avatarColorBackground">@color/ssot9e8170cadc381593571ff129e51fbfea</item>
+    <item name="avatarColorLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
     <item name="badgeColorPrimaryLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
     <item name="badgeColorPrimaryBackground">@color/ssot9e8170cadc381593571ff129e51fbfea</item>
     <item name="badgeColorSecondaryLabel">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>

@@ -29,6 +29,32 @@
     },
     "borderRadius": {
       "value": "{private.borderRadius.circle.standard.value}"
+    },
+    "color": {
+      "select": {
+        "border": {
+          "value": "{color.primary.value}"
+        },
+        "content": {
+          "value": "{color.primary.value}"
+        }
+      },
+      "unselect": {
+        "border": {
+          "value": "{color.highlight.value}"
+        },
+        "content": {
+          "value": "{color.highlight.value}"
+        }
+      },
+      "disable": {
+        "border": {
+          "value": "{color.lowEmphasis.value}"
+        },
+        "content": {
+          "value": "{color.lowEmphasis.value}"
+        }
+      }
     }
   }
 }

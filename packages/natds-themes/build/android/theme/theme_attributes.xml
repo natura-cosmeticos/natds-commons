@@ -63,6 +63,8 @@
   <attr name="avatarLargeXXXBorderRadius" format="dimension" />  
   <attr name="avatarPrimaryFontWeight" format="string" />  
   <attr name="avatarFallbackFontWeight" format="string" />  
+  <attr name="avatarColorBackground" format="color" />  
+  <attr name="avatarColorLabel" format="color" />  
   <attr name="badgeLabelFontSize" format="dimension" />  
   <attr name="badgeLabelLetterSpacing" format="dimension" />  
   <attr name="badgeLabelLineHeight" format="dimension" />  
@@ -165,6 +167,18 @@
   <attr name="iconButtonSemiBorderRadius" format="dimension" />  
   <attr name="iconButtonSemiXBorderRadius" format="dimension" />  
   <attr name="iconButtonMediumBorderRadius" format="dimension" />  
+  <attr name="iconButtonStandardColorEnableBackground" format="color" />  
+  <attr name="iconButtonStandardColorDisableBackground" format="color" />  
+  <attr name="iconButtonStandardColorHoverBackground" format="color" />  
+  <attr name="iconButtonStandardColorFocusBackground" format="color" />  
+  <attr name="iconButtonFloatColorEnableBackground" format="color" />  
+  <attr name="iconButtonFloatColorDisableBackground" format="color" />  
+  <attr name="iconButtonFloatColorHoverBackground" format="color" />  
+  <attr name="iconButtonFloatColorFocusBackground" format="color" />  
+  <attr name="iconButtonOverlayColorEnableBackground" format="color" />  
+  <attr name="iconButtonOverlayColorDisableBackground" format="color" />  
+  <attr name="iconButtonOverlayColorHoverBackground" format="color" />  
+  <attr name="iconButtonOverlayColorFocusBackground" format="color" />  
   <attr name="imageBorderRadiusEnable" format="dimension" />  
   <attr name="imageBorderRadiusDisable" format="dimension" />  
   <attr name="linkLabelFontSize" format="dimension" />  
@@ -199,12 +213,20 @@
   <attr name="progressIndicatorSemiBorderRadius" format="dimension" />  
   <attr name="progressIndicatorMediumBorderRadius" format="dimension" />  
   <attr name="progressIndicatorLargeBorderRadius" format="dimension" />  
+  <attr name="progressIndicatorColorStroke" format="color" />  
+  <attr name="progressIndicatorColorLayer" format="color" />  
   <attr name="radioButtonLabelFontSize" format="dimension" />  
   <attr name="radioButtonLabelLetterSpacing" format="dimension" />  
   <attr name="radioButtonLabelLineHeight" format="dimension" />  
   <attr name="radioButtonLabelPrimaryFontWeight" format="string" />  
   <attr name="radioButtonLabelFallbackFontWeight" format="string" />  
   <attr name="radioButtonBorderRadius" format="dimension" />  
+  <attr name="radioButtonColorSelectBorder" format="color" />  
+  <attr name="radioButtonColorSelectContent" format="color" />  
+  <attr name="radioButtonColorUnselectBorder" format="color" />  
+  <attr name="radioButtonColorUnselectContent" format="color" />  
+  <attr name="radioButtonColorDisableBorder" format="color" />  
+  <attr name="radioButtonColorDisableContent" format="color" />  
   <attr name="ratingCounterLabelFontSize" format="dimension" />  
   <attr name="ratingCounterLabelLetterSpacing" format="dimension" />  
   <attr name="ratingCounterLabelLineHeight" format="dimension" />  
@@ -220,6 +242,42 @@
   <attr name="shortcutLabelLineHeight" format="dimension" />  
   <attr name="shortcutLabelPrimaryFontWeight" format="string" />  
   <attr name="shortcutLabelFallbackFontWeight" format="string" />  
+  <attr name="shortcutContainedColorEnablePrimaryBackground" format="color" />  
+  <attr name="shortcutContainedColorEnablePrimaryBorder" format="color" />  
+  <attr name="shortcutContainedColorEnablePrimaryLabel" format="color" />  
+  <attr name="shortcutContainedColorEnableLightBackground" format="color" />  
+  <attr name="shortcutContainedColorEnableLightBorder" format="color" />  
+  <attr name="shortcutContainedColorEnableLightLabel" format="color" />  
+  <attr name="shortcutContainedColorDisablePrimaryBackground" format="color" />  
+  <attr name="shortcutContainedColorDisablePrimaryBorder" format="color" />  
+  <attr name="shortcutContainedColorDisablePrimaryLabel" format="color" />  
+  <attr name="shortcutContainedColorDisableLightBackground" format="color" />  
+  <attr name="shortcutContainedColorDisableLightBorder" format="color" />  
+  <attr name="shortcutContainedColorDisableLightLabel" format="color" />  
+  <attr name="shortcutContainedColorHoverPrimaryBackground" format="color" />  
+  <attr name="shortcutContainedColorHoverPrimaryBorder" format="color" />  
+  <attr name="shortcutContainedColorHoverPrimaryLabel" format="color" />  
+  <attr name="shortcutContainedColorHoverLightBackground" format="color" />  
+  <attr name="shortcutContainedColorHoverLightBorder" format="color" />  
+  <attr name="shortcutContainedColorHoverLightLabel" format="color" />  
+  <attr name="shortcutOutlinedColorEnablePrimaryBackground" format="color" />  
+  <attr name="shortcutOutlinedColorEnablePrimaryBorder" format="color" />  
+  <attr name="shortcutOutlinedColorEnablePrimaryLabel" format="color" />  
+  <attr name="shortcutOutlinedColorEnableLightBackground" format="color" />  
+  <attr name="shortcutOutlinedColorEnableLightBorder" format="color" />  
+  <attr name="shortcutOutlinedColorEnableLightLabel" format="color" />  
+  <attr name="shortcutOutlinedColorDisablePrimaryBackground" format="color" />  
+  <attr name="shortcutOutlinedColorDisablePrimaryBorder" format="color" />  
+  <attr name="shortcutOutlinedColorDisablePrimaryLabel" format="color" />  
+  <attr name="shortcutOutlinedColorDisableLightBackground" format="color" />  
+  <attr name="shortcutOutlinedColorDisableLightBorder" format="color" />  
+  <attr name="shortcutOutlinedColorDisableLightLabel" format="color" />  
+  <attr name="shortcutOutlinedColorHoverPrimaryBackground" format="color" />  
+  <attr name="shortcutOutlinedColorHoverPrimaryBorder" format="color" />  
+  <attr name="shortcutOutlinedColorHoverPrimaryLabel" format="color" />  
+  <attr name="shortcutOutlinedColorHoverLightBackground" format="color" />  
+  <attr name="shortcutOutlinedColorHoverLightBorder" format="color" />  
+  <attr name="shortcutOutlinedColorHoverLightLabel" format="color" />  
   <attr name="shortcutBorderRadius" format="dimension" />  
   <attr name="snackbarContentFontSize" format="dimension" />  
   <attr name="snackbarContentLetterSpacing" format="dimension" />  
