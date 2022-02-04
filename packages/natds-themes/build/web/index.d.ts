@@ -115,6 +115,9 @@ declare namespace Themes {
   label: Label
 }
  export interface Label {
+  enable: Enable2
+}
+ export interface Enable2 {
   default: string
   light: string
 }

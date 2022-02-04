@@ -359,8 +359,10 @@
     },
     "color": {
       "label": {
-        "default": "#227bbd",
-        "light": "#777777"
+        "enable": {
+          "default": "#227bbd",
+          "light": "#777777"
+        }
       }
     }
   },

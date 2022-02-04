@@ -396,8 +396,8 @@ protocol Components {
   var linkLabelPrimaryFontWeight: UIFont.Weight { get }
   var linkLabelFallbackFontFamily: String { get }
   var linkLabelFallbackFontWeight: UIFont.Weight { get }
-  var linkColorLabelDefault: String { get }
-  var linkColorLabelLight: String { get }
+  var linkColorLabelEnableDefault: String { get }
+  var linkColorLabelEnableLight: String { get }
   var menuItemBorderRadius: CGFloat { get }
   var navigationDrawerHeaderTitleFontSize: CGFloat { get }
   var navigationDrawerHeaderTitleLetterSpacing: CGFloat { get }

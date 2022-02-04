@@ -176,8 +176,8 @@
   --linkLabelPrimaryFontWeight: 400;
   --linkLabelFallbackFontFamily: "Arial";
   --linkLabelFallbackFontWeight: 400;
-  --linkColorLabelDefault: #227bbd;
-  --linkColorLabelLight: #bbbbbb;
+  --linkColorLabelEnableDefault: #227bbd;
+  --linkColorLabelEnableLight: #bbbbbb;
   --menuItemBorderRadius: 4px;
   --navigationDrawerHeaderTitleFontSize: 20px;
   --navigationDrawerHeaderTitleLetterSpacing: 0.24px;

@@ -70,8 +70,8 @@
     <item name="dialogColorBackground">@color/ssot262da8014d7d6e3c30cd4b6a9bb7a338</item>
     <item name="dialogColorTitle">@color/ssot77e774e6cc4d94d6a32f6256f02d9552</item>
     <item name="dividerColorBackground">@color/ssotc9459f76001cfea305e1a5847babd674</item>
-    <item name="linkColorLabelDefault">@color/ssotbf5c940a2659af01382672262b5244d4</item>
-    <item name="linkColorLabelLight">@color/ssotc9459f76001cfea305e1a5847babd674</item>
+    <item name="linkColorLabelEnableDefault">@color/ssotbf5c940a2659af01382672262b5244d4</item>
+    <item name="linkColorLabelEnableLight">@color/ssotc9459f76001cfea305e1a5847babd674</item>
     <item name="tagColorBackgroundPrimary">@color/ssote24dbfee1ebd6c357c91df0a28b8ca21</item>
     <item name="tagColorBackgroundSecondary">@color/ssot2fbbceb6696a9a09c30b6625cbff41c0</item>
     <item name="tagColorBackgroundSuccess">@color/ssot5f3b2baa1770dae9b24db5309ba5541c</item>

@@ -392,8 +392,8 @@ struct NatdsTestLightComponents: Components {
   let linkLabelPrimaryFontWeight: UIFont.Weight = .regular
   let linkLabelFallbackFontFamily = "San Francisco"
   let linkLabelFallbackFontWeight: UIFont.Weight = .regular
-  let linkColorLabelDefault = "#227BBD"
-  let linkColorLabelLight = "#BBBBBB"
+  let linkColorLabelEnableDefault = "#227BBD"
+  let linkColorLabelEnableLight = "#BBBBBB"
   let menuItemBorderRadius: CGFloat = 4
   let navigationDrawerHeaderTitleFontSize: CGFloat = 20
   let navigationDrawerHeaderTitleLetterSpacing: CGFloat = 0.12
