@@ -39,6 +39,7 @@ interface RootObject {
   'filled-finance-money': string;
   'filled-finance-paymentlink': string;
   'filled-finance-paymentnotapproved': string;
+  'filled-finance-pix': string;
   'filled-media-pause': string;
   'filled-media-play': string;
   'filled-media-stop': string;
@@ -215,6 +216,7 @@ interface RootObject {
   'outlined-finance-paymentlink': string;
   'outlined-finance-paymentnotapproved': string;
   'outlined-finance-payreference': string;
+  'outlined-finance-pix': string;
   'outlined-finance-promotion': string;
   'outlined-finance-scancard': string;
   'outlined-finance-shoppingcart': string;

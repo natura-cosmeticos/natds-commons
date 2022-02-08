@@ -119,6 +119,9 @@
 	"filled-finance-paymentnotapproved": [
 		""
 	],
+	"filled-finance-pix": [
+		""
+	],
 	"filled-media-pause": [
 		""
 	],
@@ -646,6 +649,9 @@
 	],
 	"outlined-finance-payreference": [
 		""
+	],
+	"outlined-finance-pix": [
+		""
 	],
 	"outlined-finance-promotion": [
 		""

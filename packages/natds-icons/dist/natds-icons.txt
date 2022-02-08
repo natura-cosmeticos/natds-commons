@@ -38,6 +38,7 @@ filled_finance_invoice
 filled_finance_money
 filled_finance_paymentlink
 filled_finance_paymentnotapproved
+filled_finance_pix
 filled_media_pause
 filled_media_play
 filled_media_stop
@@ -214,6 +215,7 @@ outlined_finance_paid
 outlined_finance_paymentlink
 outlined_finance_paymentnotapproved
 outlined_finance_payreference
+outlined_finance_pix
 outlined_finance_promotion
 outlined_finance_scancard
 outlined_finance_shoppingcart
