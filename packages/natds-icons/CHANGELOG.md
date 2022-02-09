@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.10.2...@naturacosmeticos/natds-icons@1.11.0) (2022-02-09)
+
+
+### Features
+
+* **natds-icons:** add finance-pix icons ([#352](https://github.com/natura-cosmeticos/natds-commons/issues/352)) ([14d5d9f](https://github.com/natura-cosmeticos/natds-commons/commit/14d5d9f5c10915971674badc9b613062eda6527c))
+
+
+
+
+
 ## [1.10.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.10.1...@naturacosmeticos/natds-icons@1.10.2) (2022-01-20)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
