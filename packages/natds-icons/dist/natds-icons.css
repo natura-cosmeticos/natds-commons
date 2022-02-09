@@ -261,6 +261,10 @@
   content: "\eaf1";
 }
 
+.natds-icons-filled-finance-pix::before {
+  content: "\eb2b";
+}
+
 .natds-icons-filled-media-pause::before {
   content: "\ea19";
 }
@@ -963,6 +967,10 @@
 
 .natds-icons-outlined-finance-payreference::before {
   content: "\eaa4";
+}
+
+.natds-icons-outlined-finance-pix::before {
+  content: "\eb2c";
 }
 
 .natds-icons-outlined-finance-promotion::before {
