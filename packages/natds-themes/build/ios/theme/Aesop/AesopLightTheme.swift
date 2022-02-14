@@ -213,7 +213,7 @@ struct AesopLightTokens: Tokens {
   let typographyHeadlineFontWeight: UIFont.Weight = .regular
   let typographyBodyRegularFontFamily = "Suisse Int'l"
   let typographyBodyRegularFontWeight: UIFont.Weight = .regular
-  let typographyBodyBoldFontFamily = "Suisse Int'l"
+  let typographyBodyBoldFontFamily = "Suisse Int'l Medium"
   let typographyBodyBoldFontWeight: UIFont.Weight = .medium
   let typographyFallbackFontFamily = "San Francisco"
   let typographyFallbackFontWeight: UIFont.Weight = .regular
