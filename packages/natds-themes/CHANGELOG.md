@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.26.0...@naturacosmeticos/natds-themes@0.27.0) (2022-02-14)
+
+
+### Bug Fixes
+
+* **natds-themes:** fix font-family escape ([#353](https://github.com/natura-cosmeticos/natds-commons/issues/353)) ([6aa53cd](https://github.com/natura-cosmeticos/natds-commons/commit/6aa53cd2c5f126637fd7da5a41b2247ca1c2311e))
+
+
+### Features
+
+* **natds-icons:** add finance-pix icons ([#352](https://github.com/natura-cosmeticos/natds-commons/issues/352)) ([14d5d9f](https://github.com/natura-cosmeticos/natds-commons/commit/14d5d9f5c10915971674badc9b613062eda6527c))
+
+
+
+
+
 # [0.26.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.25.0...@naturacosmeticos/natds-themes@0.26.0) (2022-02-04)
 
 
