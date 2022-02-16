@@ -366,9 +366,6 @@
       }
     }
   },
-  "menuItem": {
-    "borderRadius": 4
-  },
   "navigationDrawer": {
     "header": {
       "title": {
