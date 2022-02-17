@@ -25,7 +25,6 @@ declare namespace Themes {
   iconButton: IconButton
   image: Image
   link: Link
-  menuItem: Semi
   navigationDrawer: NavigationDrawer
   progressIndicator: ProgressIndicator
   radioButton: RadioButton

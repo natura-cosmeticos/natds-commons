@@ -191,7 +191,6 @@ export const linkLabelFallbackFontFamily = "Arial";
 export const linkLabelFallbackFontWeight = 400;
 export const linkColorLabelEnableDefault = "#227bbd";
 export const linkColorLabelEnableLight = "#bbbbbb";
-export const menuItemBorderRadius = 4;
 export const navigationDrawerHeaderTitleFontSize = 20;
 export const navigationDrawerHeaderTitleLetterSpacing = 0.24;
 export const navigationDrawerHeaderTitleLineHeight = 1.25;

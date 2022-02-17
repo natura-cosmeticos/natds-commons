@@ -412,7 +412,6 @@ protocol Components {
   var linkLabelFallbackFontWeight: UIFont.Weight { get }
   var linkColorLabelEnableDefault: String { get }
   var linkColorLabelEnableLight: String { get }
-  var menuItemBorderRadius: CGFloat { get }
   var navigationDrawerHeaderTitleFontSize: CGFloat { get }
   var navigationDrawerHeaderTitleLetterSpacing: CGFloat { get }
   var navigationDrawerHeaderTitleLineHeight: CGFloat { get }

@@ -188,7 +188,6 @@
   <attr name="linkLabelFallbackFontWeight" format="string" />  
   <attr name="linkColorLabelEnableDefault" format="color" />  
   <attr name="linkColorLabelEnableLight" format="color" />  
-  <attr name="menuItemBorderRadius" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleFontSize" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleLetterSpacing" format="dimension" />  
   <attr name="navigationDrawerHeaderTitleLineHeight" format="dimension" />  
