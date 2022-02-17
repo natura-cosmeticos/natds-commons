@@ -183,9 +183,8 @@
       background-color: #E74627;
       color: #FFFFFF;
     }
-    .ds-shortcut {
-      background-color: #262625;
-      color: #333333;
+
+    .ds-shorcut {
       font-family: "Roboto";
       font-weight: 400;
       height: 56px;
@@ -196,6 +195,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .ds-shortcut-contained {
+      background-color: #262625;
+      color: #333333;
+      border-color: #FFFFFF00;
+    }
+    .ds-shortcut-outlined {
+      background-color: #FFFFFF;
+      color: #333333;
+      border-color: #262625;
     }
     
   </style>
@@ -810,6 +819,7 @@
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">: <code></code></p>
+        <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="typography-sample mt-2"
           style="font-size: px; font-weight: ; letter-spacing: ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -876,6 +886,9 @@
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">: <code></code></p>
+        <p class="color-name mt-1 mb-1">: <code></code></p>
+        <p class="color-name mt-1 mb-1">: <code></code></p>
+        <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="typography-sample mt-2"
           style="font-size: px; font-weight: ; letter-spacing: ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -921,6 +934,7 @@
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">: <code></code></p>
+        <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="typography-sample mt-2"
           style="font-size: px; font-weight: ; letter-spacing: ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -930,6 +944,7 @@
       <div class="color col-12">
         <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="color-name mt-1 mb-1">radioButtonBorderRadius: <code>12px</code></p>
+        <p class="color-name mt-1 mb-1">: <code></code></p>
         <p class="typography-sample mt-2"
           style="font-size: px; font-weight: ; letter-spacing: ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1143,7 +1158,8 @@
     </div>
       <h2 class="color-name col-12 mt-3 mb-1">Shortcut</h2>
       <div class="button-wrapper col-12">
-        <div class="ds-shortcut">DS</div>
+        <div class="ds-shorcut ds-shortcut-contained">DS</div>
+        <div class="ds-shorcut ds-shortcut-outlined">DS</div>
       </div>
     <hr>
   </div>

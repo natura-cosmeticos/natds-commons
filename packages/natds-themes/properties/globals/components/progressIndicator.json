@@ -19,6 +19,14 @@
       "borderRadius": {
         "value": "{private.borderRadius.circle.large.value}"
       }
+    },
+    "color": {
+      "stroke": {
+        "value": "{color.primary.value}"
+      },
+      "layer": {
+        "value": "{color.surface.value}"
+      }
     }
   }
 }

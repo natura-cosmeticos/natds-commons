@@ -14,6 +14,78 @@
       "borderRadius": {
         "value": "{private.borderRadius.circle.medium.value}"
       }
+    },
+    "standard": {
+      "color": {
+        "enable": {
+          "background": {
+            "value": "#FFFFFF00"
+          }
+        },
+        "disable": {
+          "background": {
+            "value": "#FFFFFF00"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.neutral100.value}"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "{color.neutral200.value}"
+          }
+        }
+      }
+    },
+    "float": {
+      "color": {
+        "enable": {
+          "background": {
+            "value": "{color.surface.value}"
+          }
+        },
+        "disable": {
+          "background": {
+            "value": "{color.lowEmphasis.value}"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.neutral100.value}"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "{color.neutral200.value}"
+          }
+        }
+      }
+    },
+    "overlay": {
+      "color": {
+        "enable": {
+          "background": {
+            "value": "{color.highlight.value}"
+          }
+        },
+        "disable": {
+          "background": {
+            "value": "{color.highlight.value}"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.highlight.value}"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "{color.highlight.value}"
+          }
+        }
+      }
     }
   }
 }

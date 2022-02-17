@@ -27,6 +27,158 @@
         }
       }
     },
+    "contained": {
+      "color": {
+        "enable": {
+          "primary": {
+            "background": {
+              "value": "{color.primary.value}"
+            },
+            "border": {
+              "value": "#FFFFFF00"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          },
+          "neutral": {
+            "background": {
+              "value": "{color.surface.value}"
+            },
+            "border": {
+              "value": "#FFFFFF00"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          }
+        },
+        "disable": {
+          "primary": {
+            "background": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "border": {
+              "value": "#FFFFFF00"
+            },
+            "label": {
+              "value": "{color.mediumEmphasis.value}"
+            }
+          },
+          "neutral": {
+            "background": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "border": {
+              "value": "#FFFFFF00"
+            },
+            "label": {
+              "value": "{color.mediumEmphasis.value}"
+            }
+          }
+        },
+        "hover": {
+          "primary": {
+            "background": {
+              "value": "{color.primaryDark.value}"
+            },
+            "border": {
+              "value": "#FFFFFF00"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          },
+          "neutral": {
+            "background": {
+              "value": "{color.neutral100.value}"
+            },
+            "border": {
+              "value": "#FFFFFF00"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          }
+        }
+      }
+    },
+    "outlined": {
+      "color": {
+        "enable": {
+          "primary": {
+            "background": {
+              "value": "{color.surface.value}"
+            },
+            "border": {
+              "value": "{color.primary.value}"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          },
+          "neutral": {
+            "background": {
+              "value": "{color.surface.value}"
+            },
+            "border": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          }
+        },
+        "disable": {
+          "primary": {
+            "background": {
+              "value": "{color.surface.value}"
+            },
+            "border": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "label": {
+              "value": "{color.lowEmphasis.value}"
+            }
+          },
+          "neutral": {
+            "background": {
+              "value": "{color.surface.value}"
+            },
+            "border": {
+              "value": "{color.lowEmphasis.value}"
+            },
+            "label": {
+              "value": "{color.lowEmphasis.value}"
+            }
+          }
+        },
+        "hover": {
+          "primary": {
+            "background": {
+              "value": "{color.neutral100.value}"
+            },
+            "border": {
+              "value": "{color.primaryDark.value}"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          },
+          "neutral": {
+            "background": {
+              "value": "{color.neutral100.value}"
+            },
+            "border": {
+              "value": "{color.mediumEmphasis.value}"
+            },
+            "label": {
+              "value": "{color.highEmphasis.value}"
+            }
+          }
+        }
+      }
+    },
     "borderRadius": {
       "value": "{private.shortcut.borderRadius.value}"
     }
