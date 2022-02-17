@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.28.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.28.0...@naturacosmeticos/natds-themes@0.28.1) (2022-02-17)
+
+
+### Bug Fixes
+
+* **natds-themes:** remove menuItem custom component ([#357](https://github.com/natura-cosmeticos/natds-commons/issues/357)) ([a330fea](https://github.com/natura-cosmeticos/natds-commons/commit/a330fea61b3457ce87dc9b2402a75c1bf49be132))
+
+
+
+
+
 # [0.28.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.27.2...@naturacosmeticos/natds-themes@0.28.0) (2022-02-17)
 
 
