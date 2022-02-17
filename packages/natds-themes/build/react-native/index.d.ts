@@ -92,11 +92,11 @@ declare namespace Themes {
   color: Color11
 }
  export interface Color11 {
-  enable: Enable2
-  disable: Enable2
-  hover: Enable2
+  enable: Enable3
+  disable: Enable3
+  hover: Enable3
 }
- export interface Enable2 {
+ export interface Enable3 {
   primary: Enable
   neutral: Enable
 }
