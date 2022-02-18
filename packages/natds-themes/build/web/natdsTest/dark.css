@@ -279,6 +279,12 @@
   --shortcutContainedColorHoverNeutralBackground: #343a40;
   --shortcutContainedColorHoverNeutralBorder: #FFFFFF00;
   --shortcutContainedColorHoverNeutralLabel: #fafafa;
+  --shortcutContainedColorFocusPrimaryBackground: #9672D6;
+  --shortcutContainedColorFocusPrimaryBorder: #FFFFFF00;
+  --shortcutContainedColorFocusPrimaryLabel: #fafafa;
+  --shortcutContainedColorFocusNeutralBackground: #495057;
+  --shortcutContainedColorFocusNeutralBorder: #FFFFFF00;
+  --shortcutContainedColorFocusNeutralLabel: #fafafa;
   --shortcutOutlinedColorEnablePrimaryBackground: #333333;
   --shortcutOutlinedColorEnablePrimaryBorder: #be9ae2;
   --shortcutOutlinedColorEnablePrimaryLabel: #fafafa;
@@ -297,6 +303,12 @@
   --shortcutOutlinedColorHoverNeutralBackground: #343a40;
   --shortcutOutlinedColorHoverNeutralBorder: #bbbbbb;
   --shortcutOutlinedColorHoverNeutralLabel: #fafafa;
+  --shortcutOutlinedColorFocusPrimaryBackground: #495057;
+  --shortcutOutlinedColorFocusPrimaryBorder: #8d6bb0;
+  --shortcutOutlinedColorFocusPrimaryLabel: #fafafa;
+  --shortcutOutlinedColorFocusNeutralBackground: #495057;
+  --shortcutOutlinedColorFocusNeutralBorder: #bbbbbb;
+  --shortcutOutlinedColorFocusNeutralLabel: #fafafa;
   --shortcutBorderRadius: 0px;
   --snackbarContentFontSize: 14px;
   --snackbarContentLetterSpacing: 0.22px;

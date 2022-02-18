@@ -495,6 +495,12 @@ struct AvonLightComponents: Components {
   let shortcutContainedColorHoverNeutralBackground = "#f1f3f5"
   let shortcutContainedColorHoverNeutralBorder = "#FFFFFF00"
   let shortcutContainedColorHoverNeutralLabel = "#333333"
+  let shortcutContainedColorFocusPrimaryBackground = "#442184"
+  let shortcutContainedColorFocusPrimaryBorder = "#FFFFFF00"
+  let shortcutContainedColorFocusPrimaryLabel = "#333333"
+  let shortcutContainedColorFocusNeutralBackground = "#e9ecef"
+  let shortcutContainedColorFocusNeutralBorder = "#FFFFFF00"
+  let shortcutContainedColorFocusNeutralLabel = "#333333"
   let shortcutOutlinedColorEnablePrimaryBackground = "#FFFFFF"
   let shortcutOutlinedColorEnablePrimaryBorder = "#7F28C4"
   let shortcutOutlinedColorEnablePrimaryLabel = "#333333"
@@ -513,6 +519,12 @@ struct AvonLightComponents: Components {
   let shortcutOutlinedColorHoverNeutralBackground = "#f1f3f5"
   let shortcutOutlinedColorHoverNeutralBorder = "#777777"
   let shortcutOutlinedColorHoverNeutralLabel = "#333333"
+  let shortcutOutlinedColorFocusPrimaryBackground = "#e9ecef"
+  let shortcutOutlinedColorFocusPrimaryBorder = "#4B0092"
+  let shortcutOutlinedColorFocusPrimaryLabel = "#333333"
+  let shortcutOutlinedColorFocusNeutralBackground = "#e9ecef"
+  let shortcutOutlinedColorFocusNeutralBorder = "#777777"
+  let shortcutOutlinedColorFocusNeutralLabel = "#333333"
   let shortcutBorderRadius: CGFloat = 28
   let snackbarContentFontSize: CGFloat = 14
   let snackbarContentLetterSpacing: CGFloat = 0.16

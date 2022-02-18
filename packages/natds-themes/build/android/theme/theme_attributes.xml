@@ -259,6 +259,12 @@
   <attr name="shortcutContainedColorHoverNeutralBackground" format="color" />  
   <attr name="shortcutContainedColorHoverNeutralBorder" format="color" />  
   <attr name="shortcutContainedColorHoverNeutralLabel" format="color" />  
+  <attr name="shortcutContainedColorFocusPrimaryBackground" format="color" />  
+  <attr name="shortcutContainedColorFocusPrimaryBorder" format="color" />  
+  <attr name="shortcutContainedColorFocusPrimaryLabel" format="color" />  
+  <attr name="shortcutContainedColorFocusNeutralBackground" format="color" />  
+  <attr name="shortcutContainedColorFocusNeutralBorder" format="color" />  
+  <attr name="shortcutContainedColorFocusNeutralLabel" format="color" />  
   <attr name="shortcutOutlinedColorEnablePrimaryBackground" format="color" />  
   <attr name="shortcutOutlinedColorEnablePrimaryBorder" format="color" />  
   <attr name="shortcutOutlinedColorEnablePrimaryLabel" format="color" />  
@@ -277,6 +283,12 @@
   <attr name="shortcutOutlinedColorHoverNeutralBackground" format="color" />  
   <attr name="shortcutOutlinedColorHoverNeutralBorder" format="color" />  
   <attr name="shortcutOutlinedColorHoverNeutralLabel" format="color" />  
+  <attr name="shortcutOutlinedColorFocusPrimaryBackground" format="color" />  
+  <attr name="shortcutOutlinedColorFocusPrimaryBorder" format="color" />  
+  <attr name="shortcutOutlinedColorFocusPrimaryLabel" format="color" />  
+  <attr name="shortcutOutlinedColorFocusNeutralBackground" format="color" />  
+  <attr name="shortcutOutlinedColorFocusNeutralBorder" format="color" />  
+  <attr name="shortcutOutlinedColorFocusNeutralLabel" format="color" />  
   <attr name="shortcutBorderRadius" format="dimension" />  
   <attr name="snackbarContentFontSize" format="dimension" />  
   <attr name="snackbarContentLetterSpacing" format="dimension" />  

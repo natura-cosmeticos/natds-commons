@@ -495,6 +495,12 @@ struct TheBodyShopDarkComponents: Components {
   let shortcutContainedColorHoverNeutralBackground = "#343a40"
   let shortcutContainedColorHoverNeutralBorder = "#FFFFFF00"
   let shortcutContainedColorHoverNeutralLabel = "#FAFAFA"
+  let shortcutContainedColorFocusPrimaryBackground = "#4C938C"
+  let shortcutContainedColorFocusPrimaryBorder = "#FFFFFF00"
+  let shortcutContainedColorFocusPrimaryLabel = "#FAFAFA"
+  let shortcutContainedColorFocusNeutralBackground = "#495057"
+  let shortcutContainedColorFocusNeutralBorder = "#FFFFFF00"
+  let shortcutContainedColorFocusNeutralLabel = "#FAFAFA"
   let shortcutOutlinedColorEnablePrimaryBackground = "#333333"
   let shortcutOutlinedColorEnablePrimaryBorder = "#7CC4BC"
   let shortcutOutlinedColorEnablePrimaryLabel = "#FAFAFA"
@@ -513,6 +519,12 @@ struct TheBodyShopDarkComponents: Components {
   let shortcutOutlinedColorHoverNeutralBackground = "#343a40"
   let shortcutOutlinedColorHoverNeutralBorder = "#BBBBBB"
   let shortcutOutlinedColorHoverNeutralLabel = "#FAFAFA"
+  let shortcutOutlinedColorFocusPrimaryBackground = "#495057"
+  let shortcutOutlinedColorFocusPrimaryBorder = "#4C938C"
+  let shortcutOutlinedColorFocusPrimaryLabel = "#FAFAFA"
+  let shortcutOutlinedColorFocusNeutralBackground = "#495057"
+  let shortcutOutlinedColorFocusNeutralBorder = "#BBBBBB"
+  let shortcutOutlinedColorFocusNeutralLabel = "#FAFAFA"
   let shortcutBorderRadius: CGFloat = 28
   let snackbarContentFontSize: CGFloat = 14
   let snackbarContentLetterSpacing: CGFloat = 0.16

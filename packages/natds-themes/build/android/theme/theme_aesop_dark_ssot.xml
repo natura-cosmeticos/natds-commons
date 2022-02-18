@@ -112,6 +112,12 @@
     <item name="shortcutContainedColorHoverNeutralBackground">@color/ssot09c72ac813bc7a0108f7f274f6197773</item>
     <item name="shortcutContainedColorHoverNeutralBorder">@color/ssot7ba57fc95536e9b0d3a30fcc7b77d045</item>
     <item name="shortcutContainedColorHoverNeutralLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
+    <item name="shortcutContainedColorFocusPrimaryBackground">@color/ssot9e8eab2b2193d9c98685a5d7af41d30f</item>
+    <item name="shortcutContainedColorFocusPrimaryBorder">@color/ssot7ba57fc95536e9b0d3a30fcc7b77d045</item>
+    <item name="shortcutContainedColorFocusPrimaryLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
+    <item name="shortcutContainedColorFocusNeutralBackground">@color/ssot5569e951203d1ad446563b134b472801</item>
+    <item name="shortcutContainedColorFocusNeutralBorder">@color/ssot7ba57fc95536e9b0d3a30fcc7b77d045</item>
+    <item name="shortcutContainedColorFocusNeutralLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
     <item name="shortcutOutlinedColorEnablePrimaryBackground">@color/ssot09c72ac813bc7a0108f7f274f6197773</item>
     <item name="shortcutOutlinedColorEnablePrimaryBorder">@color/ssotab5f4078553b4e7aa97fb938a24dea8b</item>
     <item name="shortcutOutlinedColorEnablePrimaryLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
@@ -130,6 +136,12 @@
     <item name="shortcutOutlinedColorHoverNeutralBackground">@color/ssot09c72ac813bc7a0108f7f274f6197773</item>
     <item name="shortcutOutlinedColorHoverNeutralBorder">@color/ssotc9459f76001cfea305e1a5847babd674</item>
     <item name="shortcutOutlinedColorHoverNeutralLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
+    <item name="shortcutOutlinedColorFocusPrimaryBackground">@color/ssot5569e951203d1ad446563b134b472801</item>
+    <item name="shortcutOutlinedColorFocusPrimaryBorder">@color/ssot652ce318ac087f92a0d3fc639feed8bd</item>
+    <item name="shortcutOutlinedColorFocusPrimaryLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
+    <item name="shortcutOutlinedColorFocusNeutralBackground">@color/ssot5569e951203d1ad446563b134b472801</item>
+    <item name="shortcutOutlinedColorFocusNeutralBorder">@color/ssotc9459f76001cfea305e1a5847babd674</item>
+    <item name="shortcutOutlinedColorFocusNeutralLabel">@color/ssotf167fa4e8eeb4595e45ebbacf38c49b3</item>
     <item name="tagColorBackgroundPrimary">@color/ssotab5f4078553b4e7aa97fb938a24dea8b</item>
     <item name="tagColorBackgroundSecondary">@color/ssot0b810e5ef84d62c0871338a5ea1d230a</item>
     <item name="tagColorBackgroundSuccess">@color/ssot5f3b2baa1770dae9b24db5309ba5541c</item>
