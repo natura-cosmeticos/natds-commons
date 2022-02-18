@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.29.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.28.1...@naturacosmeticos/natds-themes@0.29.0) (2022-02-18)
+
+
+### Features
+
+* **natds-themes:** add focus color to Shortcut ([#362](https://github.com/natura-cosmeticos/natds-commons/issues/362)) ([3bf031b](https://github.com/natura-cosmeticos/natds-commons/commit/3bf031b1ee20a29a4f466cd7335e787617945996))
+
+
+
+
+
 ## [0.28.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.28.0...@naturacosmeticos/natds-themes@0.28.1) (2022-02-17)
 
 
