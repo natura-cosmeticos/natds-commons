@@ -94,6 +94,7 @@ declare namespace Themes {
   enable: Enable3
   disable: Enable3
   hover: Enable3
+  focus: Enable3
 }
  export interface Enable3 {
   primary: Enable

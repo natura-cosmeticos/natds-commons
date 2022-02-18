@@ -607,6 +607,18 @@
             "border": "#FFFFFF00",
             "label": "#333333"
           }
+        },
+        "focus": {
+          "primary": {
+            "background": "#232323",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#E3E3E3",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          }
         }
       }
     },
@@ -644,6 +656,18 @@
           },
           "neutral": {
             "background": "#EEEEEE",
+            "border": "#777777",
+            "label": "#333333"
+          }
+        },
+        "focus": {
+          "primary": {
+            "background": "#E3E3E3",
+            "border": "#000000",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#E3E3E3",
             "border": "#777777",
             "label": "#333333"
           }

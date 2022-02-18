@@ -495,6 +495,12 @@ struct BiomeLightComponents: Components {
   let shortcutContainedColorHoverNeutralBackground = "#EEEEEE"
   let shortcutContainedColorHoverNeutralBorder = "#FFFFFF00"
   let shortcutContainedColorHoverNeutralLabel = "#333333"
+  let shortcutContainedColorFocusPrimaryBackground = "#A8998B"
+  let shortcutContainedColorFocusPrimaryBorder = "#FFFFFF00"
+  let shortcutContainedColorFocusPrimaryLabel = "#333333"
+  let shortcutContainedColorFocusNeutralBackground = "#E3E3E3"
+  let shortcutContainedColorFocusNeutralBorder = "#FFFFFF00"
+  let shortcutContainedColorFocusNeutralLabel = "#333333"
   let shortcutOutlinedColorEnablePrimaryBackground = "#FFFFFF"
   let shortcutOutlinedColorEnablePrimaryBorder = "#DACABB"
   let shortcutOutlinedColorEnablePrimaryLabel = "#333333"
@@ -513,6 +519,12 @@ struct BiomeLightComponents: Components {
   let shortcutOutlinedColorHoverNeutralBackground = "#EEEEEE"
   let shortcutOutlinedColorHoverNeutralBorder = "#777777"
   let shortcutOutlinedColorHoverNeutralLabel = "#333333"
+  let shortcutOutlinedColorFocusPrimaryBackground = "#E3E3E3"
+  let shortcutOutlinedColorFocusPrimaryBorder = "#A8998B"
+  let shortcutOutlinedColorFocusPrimaryLabel = "#333333"
+  let shortcutOutlinedColorFocusNeutralBackground = "#E3E3E3"
+  let shortcutOutlinedColorFocusNeutralBorder = "#777777"
+  let shortcutOutlinedColorFocusNeutralLabel = "#333333"
   let shortcutBorderRadius: CGFloat = 28
   let snackbarContentFontSize: CGFloat = 14
   let snackbarContentLetterSpacing: CGFloat = 0.16

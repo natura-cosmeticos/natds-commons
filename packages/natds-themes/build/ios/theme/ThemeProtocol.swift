@@ -499,6 +499,12 @@ protocol Components {
   var shortcutContainedColorHoverNeutralBackground: String { get }
   var shortcutContainedColorHoverNeutralBorder: String { get }
   var shortcutContainedColorHoverNeutralLabel: String { get }
+  var shortcutContainedColorFocusPrimaryBackground: String { get }
+  var shortcutContainedColorFocusPrimaryBorder: String { get }
+  var shortcutContainedColorFocusPrimaryLabel: String { get }
+  var shortcutContainedColorFocusNeutralBackground: String { get }
+  var shortcutContainedColorFocusNeutralBorder: String { get }
+  var shortcutContainedColorFocusNeutralLabel: String { get }
   var shortcutOutlinedColorEnablePrimaryBackground: String { get }
   var shortcutOutlinedColorEnablePrimaryBorder: String { get }
   var shortcutOutlinedColorEnablePrimaryLabel: String { get }
@@ -517,6 +523,12 @@ protocol Components {
   var shortcutOutlinedColorHoverNeutralBackground: String { get }
   var shortcutOutlinedColorHoverNeutralBorder: String { get }
   var shortcutOutlinedColorHoverNeutralLabel: String { get }
+  var shortcutOutlinedColorFocusPrimaryBackground: String { get }
+  var shortcutOutlinedColorFocusPrimaryBorder: String { get }
+  var shortcutOutlinedColorFocusPrimaryLabel: String { get }
+  var shortcutOutlinedColorFocusNeutralBackground: String { get }
+  var shortcutOutlinedColorFocusNeutralBorder: String { get }
+  var shortcutOutlinedColorFocusNeutralLabel: String { get }
   var shortcutBorderRadius: CGFloat { get }
   var snackbarContentFontSize: CGFloat { get }
   var snackbarContentLetterSpacing: CGFloat { get }
