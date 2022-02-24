@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.29.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.0...@naturacosmeticos/natds-themes@0.29.1) (2022-02-24)
+
+
+### Bug Fixes
+
+* **natds-themes:** apply correct background color for Shortcut outlined version ([#363](https://github.com/natura-cosmeticos/natds-commons/issues/363)) ([5db6837](https://github.com/natura-cosmeticos/natds-commons/commit/5db6837729a5d495ca058bd369ada24c73eeaa1b))
+
+
+
+
+
 # [0.29.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.28.1...@naturacosmeticos/natds-themes@0.29.0) (2022-02-18)
 
 
