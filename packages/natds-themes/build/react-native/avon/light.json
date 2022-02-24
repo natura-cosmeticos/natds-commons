@@ -626,12 +626,12 @@
       "color": {
         "enable": {
           "primary": {
-            "background": "#ffffff",
+            "background": "#FFFFFF00",
             "border": "#7f28c4",
             "label": "#333333"
           },
           "neutral": {
-            "background": "#ffffff",
+            "background": "#FFFFFF00",
             "border": "#bbbbbb",
             "label": "#333333"
           }
