@@ -132,7 +132,7 @@
         "enable": {
           "primary": {
             "background": {
-              "value": "{color.surface.value}"
+              "value": "#FFFFFF00"
             },
             "border": {
               "value": "{color.primary.value}"
@@ -143,7 +143,7 @@
           },
           "neutral": {
             "background": {
-              "value": "{color.surface.value}"
+              "value": "#FFFFFF00"
             },
             "border": {
               "value": "{color.lowEmphasis.value}"

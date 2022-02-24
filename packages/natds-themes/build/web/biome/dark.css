@@ -285,10 +285,10 @@
   --shortcutContainedColorFocusNeutralBackground: #515151;
   --shortcutContainedColorFocusNeutralBorder: #FFFFFF00;
   --shortcutContainedColorFocusNeutralLabel: #fafafa;
-  --shortcutOutlinedColorEnablePrimaryBackground: #333333;
+  --shortcutOutlinedColorEnablePrimaryBackground: #FFFFFF00;
   --shortcutOutlinedColorEnablePrimaryBorder: #f3eade;
   --shortcutOutlinedColorEnablePrimaryLabel: #fafafa;
-  --shortcutOutlinedColorEnableNeutralBackground: #333333;
+  --shortcutOutlinedColorEnableNeutralBackground: #FFFFFF00;
   --shortcutOutlinedColorEnableNeutralBorder: #777777;
   --shortcutOutlinedColorEnableNeutralLabel: #fafafa;
   --shortcutOutlinedColorDisablePrimaryBackground: #333333;
