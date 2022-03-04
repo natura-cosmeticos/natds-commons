@@ -79,7 +79,7 @@
     "json-to-ts": "1.7.0",
     "puppeteer": "5.5.0",
     "ramda": "0.27.1",
-    "rollup": "2.68.0",
+    "rollup": "2.69.1",
     "string.fromcodepoint": "1.0.0",
     "string.prototype.codepointat": "1.0.0",
     "svg2vectordrawable": "2.6.26",
