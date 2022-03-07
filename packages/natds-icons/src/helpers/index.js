@@ -1,8 +1,8 @@
 import {
   addIndex,
   join,
-  map,
   pipe,
+  map,
   split
 } from 'ramda'
 
