@@ -397,8 +397,8 @@ struct TheBodyShopLightComponents: Components {
   let iconButtonOverlayColorDisableBackground = "#000000"
   let iconButtonOverlayColorHoverBackground = "#000000"
   let iconButtonOverlayColorFocusBackground = "#000000"
-  let imageBorderRadiusEnable: CGFloat = 4
-  let imageBorderRadiusDisable: CGFloat = 0
+  let imageBorderRadiusMedium: CGFloat = 4
+  let imageBorderRadiusNone: CGFloat = 0
   let linkLabelFontSize: CGFloat = 16
   let linkLabelLetterSpacing: CGFloat = 0.32
   let linkLabelLineHeight: CGFloat = 1.5

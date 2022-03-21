@@ -181,8 +181,8 @@
   --iconButtonOverlayColorDisableBackground: #000000;
   --iconButtonOverlayColorHoverBackground: #000000;
   --iconButtonOverlayColorFocusBackground: #000000;
-  --imageBorderRadiusEnable: 4px;
-  --imageBorderRadiusDisable: 0px;
+  --imageBorderRadiusMedium: 4px;
+  --imageBorderRadiusNone: 0px;
   --linkLabelFontSize: 16px;
   --linkLabelLetterSpacing: 0.51px;
   --linkLabelLineHeight: 1.5;

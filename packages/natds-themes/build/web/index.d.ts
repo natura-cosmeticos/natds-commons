@@ -61,8 +61,8 @@ declare namespace Themes {
 }
  export interface Tag {
   label: Title
-  small: Image
-  standard: Image
+  small: Small
+  standard: Small
   color: Color12
 }
  export interface Color12 {
@@ -76,6 +76,9 @@ declare namespace Themes {
   alert: string
   warning: string
   link: string
+}
+ export interface Small {
+  borderRadius: BorderRadius2
 }
  export interface Snackbar {
   content: Title
@@ -159,7 +162,11 @@ declare namespace Themes {
   light: string
 }
  export interface Image {
-  borderRadius: BorderRadius2
+  borderRadius: BorderRadius3
+}
+ export interface BorderRadius3 {
+  medium: number
+  none: number
 }
  export interface IconButton {
   semi: Semi

@@ -401,8 +401,8 @@ protocol Components {
   var iconButtonOverlayColorDisableBackground: String { get }
   var iconButtonOverlayColorHoverBackground: String { get }
   var iconButtonOverlayColorFocusBackground: String { get }
-  var imageBorderRadiusEnable: CGFloat { get }
-  var imageBorderRadiusDisable: CGFloat { get }
+  var imageBorderRadiusMedium: CGFloat { get }
+  var imageBorderRadiusNone: CGFloat { get }
   var linkLabelFontSize: CGFloat { get }
   var linkLabelLetterSpacing: CGFloat { get }
   var linkLabelLineHeight: CGFloat { get }
