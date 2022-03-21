@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.29.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.1...@naturacosmeticos/natds-themes@0.29.2) (2022-03-21)
+
+
+### Bug Fixes
+
+* **natds-themes:** update image border radius token names ([90070d1](https://github.com/natura-cosmeticos/natds-commons/commit/90070d11c71ddea2061848dab4069acb67b67a7f))
+
+
+
+
+
 ## [0.29.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.0...@naturacosmeticos/natds-themes@0.29.1) (2022-02-24)
 
 
