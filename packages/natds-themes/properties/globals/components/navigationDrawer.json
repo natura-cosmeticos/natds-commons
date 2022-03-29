@@ -59,20 +59,20 @@
     "section": {
       "title": {
         "fontSize": {
-          "value": "{caption.fontSize.value}"
+          "value": "{subtitle1.fontSize.value}"
         },
         "letterSpacing": {
-          "value": "{caption.letterSpacing.value}"
+          "value": "{subtitle1.letterSpacing.value}"
         },
         "lineHeight": {
-          "value": "{typography.lineHeight.medium.value}"
+          "value": "{subtitle1.lineHeight.value}"
         },
         "primary": {
           "fontFamily": {
             "value": "{typography.fontFamily.primary.value}"
           },
           "fontWeight": {
-            "value": "{typography.fontWeight.regular.value}"
+            "value": "{typography.fontWeight.medium.value}"
           }
         },
         "fallback": {
@@ -86,13 +86,13 @@
       },
       "item": {
         "fontSize": {
-          "value": "{body2.fontSize.value}"
+          "value": "{body1.fontSize.value}"
         },
         "letterSpacing": {
-          "value": "{body2.letterSpacing.value}"
+          "value": "{body1.letterSpacing.value}"
         },
         "lineHeight": {
-          "value": "{typography.lineHeight.medium.value}"
+          "value": "{body1.lineHeight.value}"
         },
         "primary": {
           "fontFamily": {

@@ -449,12 +449,12 @@
     },
     "section": {
       "title": {
-        "fontSize": 12,
-        "letterSpacing": 0.38,
+        "fontSize": 16,
+        "letterSpacing": 0.13,
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
-          "fontWeight": 400
+          "fontWeight": 500
         },
         "fallback": {
           "fontFamily": "Arial",
@@ -462,8 +462,8 @@
         }
       },
       "item": {
-        "fontSize": 14,
-        "letterSpacing": 0.22,
+        "fontSize": 16,
+        "letterSpacing": 0.51,
         "lineHeight": 1.5,
         "primary": {
           "fontFamily": "Roboto",
