@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.29.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.2...@naturacosmeticos/natds-themes@0.29.3) (2022-03-29)
+
+
+### Bug Fixes
+
+* **natds-themes:** updating drawer section token values ([aa50ece](https://github.com/natura-cosmeticos/natds-commons/commit/aa50ece022c067156a723fb157d0768091b8f68c))
+
+
+
+
+
 ## [0.29.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.1...@naturacosmeticos/natds-themes@0.29.2) (2022-03-21)
 
 
