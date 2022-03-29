@@ -279,10 +279,10 @@
     <item name="navigationDrawerHeaderSubtitleFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="navigationDrawerHeaderSubtitleLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="navigationDrawerHeaderSubtitleLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
-    <item name="navigationDrawerSectionTitleFontSize">@dimen/ssote60ad958761d5e3b0ddae458b2921e7a</item>
-    <item name="navigationDrawerSectionTitleLetterSpacing">@dimen/ssot2c18afe60933e3530f4310384a2a0014</item>
+    <item name="navigationDrawerSectionTitleFontSize">@dimen/ssotc44d0948764dbf2c5666b7e8309c73cb</item>
+    <item name="navigationDrawerSectionTitleLetterSpacing">@dimen/ssot40f3f3640647251fc4da2ce46193df95</item>
     <item name="navigationDrawerSectionTitleLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
-    <item name="navigationDrawerSectionItemFontSize">@dimen/ssote60ad958761d5e3b0ddae458b2921e7a</item>
+    <item name="navigationDrawerSectionItemFontSize">@dimen/ssotc2495f0d9de767b82b3bf958745bf316</item>
     <item name="navigationDrawerSectionItemLetterSpacing">@dimen/ssot2428a4883e5dc1b29352d505666ccadf</item>
     <item name="navigationDrawerSectionItemLineHeight">@dimen/ssot6008647277c4454cecd97d33c069f0ca</item>
     <item name="progressIndicatorStandardBorderRadius">@dimen/ssot5efa55b135027e50e8d8aa041e584a33</item>
@@ -480,7 +480,7 @@
     <item name="navigationDrawerHeaderTitleFallbackFontWeight">sans-serif</item>
     <item name="navigationDrawerHeaderSubtitlePrimaryFontWeight">sans-serif</item>
     <item name="navigationDrawerHeaderSubtitleFallbackFontWeight">sans-serif</item>
-    <item name="navigationDrawerSectionTitlePrimaryFontWeight">sans-serif-medium</item>
+    <item name="navigationDrawerSectionTitlePrimaryFontWeight">sans-serif</item>
     <item name="navigationDrawerSectionTitleFallbackFontWeight">sans-serif</item>
     <item name="navigationDrawerSectionItemPrimaryFontWeight">sans-serif</item>
     <item name="navigationDrawerSectionItemFallbackFontWeight">sans-serif</item>
