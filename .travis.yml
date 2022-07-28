@@ -17,8 +17,8 @@ before_script:
   - "yarn bootstrap"
 script: 
   - "yarn lint"
-  - "yarn test --runInBand"
-  - "bash <(curl -s https://codecov.io/bash)"
+  # - "yarn test --runInBand"
+  # - "bash <(curl -s https://codecov.io/bash)"
 jobs:
   include:
     - stage: check
