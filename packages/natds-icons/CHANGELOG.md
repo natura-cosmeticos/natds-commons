@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.11.3...@naturacosmeticos/natds-icons@1.12.0) (2022-07-28)
+
+
+### Features
+
+* remove step of tests ([3c661f6](https://github.com/natura-cosmeticos/natds-commons/commit/3c661f6c06aa394396bb0e634dbfa48e03ec59d7))
+* **natds-icons:** add icon outlined-bag-emptybag ([6ee6d61](https://github.com/natura-cosmeticos/natds-commons/commit/6ee6d6106e980beffb4bb6b0bf91c0017fca186d))
+
+
+
+
+
 ## [1.11.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.11.2...@naturacosmeticos/natds-icons@1.11.3) (2022-03-07)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
