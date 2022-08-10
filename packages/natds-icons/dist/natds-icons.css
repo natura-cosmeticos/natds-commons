@@ -637,6 +637,10 @@
   content: "\eb1f";
 }
 
+.natds-icons-outlined-bag-emptybag::before {
+  content: "\eb2d";
+}
+
 .natds-icons-outlined-brand-avondesenvolve::before {
   content: "\eb22";
 }
@@ -743,6 +747,10 @@
 
 .natds-icons-outlined-content-education::before {
   content: "\ea7e";
+}
+
+.natds-icons-outlined-content-emptybag::before {
+  content: "\eb2e";
 }
 
 .natds-icons-outlined-content-exchangereports::before {
