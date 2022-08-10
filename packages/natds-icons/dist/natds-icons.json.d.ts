@@ -133,6 +133,7 @@ interface RootObject {
   'outlined-alert-notificationsbadge': string;
   'outlined-alert-warning': string;
   'outlined-avon-desenvolve': string;
+  'outlined-bag-emptybag': string;
   'outlined-brand-avondesenvolve': string;
   'outlined-brand-messenger': string;
   'outlined-brand-thebodyshop': string;
@@ -160,6 +161,7 @@ interface RootObject {
   'outlined-content-consistency': string;
   'outlined-content-divulgation': string;
   'outlined-content-education': string;
+  'outlined-content-emptybag': string;
   'outlined-content-exchangereports': string;
   'outlined-content-flower': string;
   'outlined-content-fragrance': string;

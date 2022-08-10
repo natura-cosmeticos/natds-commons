@@ -151,6 +151,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-notificationsbadge": string;
   readonly "natds-icons-outlined-alert-warning": string;
   readonly "natds-icons-outlined-avon-desenvolve": string;
+  readonly "natds-icons-outlined-bag-emptybag": string;
   readonly "natds-icons-outlined-brand-avondesenvolve": string;
   readonly "natds-icons-outlined-brand-messenger": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
@@ -178,6 +179,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-consistency": string;
   readonly "natds-icons-outlined-content-divulgation": string;
   readonly "natds-icons-outlined-content-education": string;
+  readonly "natds-icons-outlined-content-emptybag": string;
   readonly "natds-icons-outlined-content-exchangereports": string;
   readonly "natds-icons-outlined-content-flower": string;
   readonly "natds-icons-outlined-content-fragrance": string;

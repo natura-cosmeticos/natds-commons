@@ -132,6 +132,7 @@ outlined_alert_notification
 outlined_alert_notificationsbadge
 outlined_alert_warning
 outlined_avon_desenvolve
+outlined_bag_emptybag
 outlined_brand_avondesenvolve
 outlined_brand_messenger
 outlined_brand_thebodyshop
@@ -159,6 +160,7 @@ outlined_content_cloud
 outlined_content_consistency
 outlined_content_divulgation
 outlined_content_education
+outlined_content_emptybag
 outlined_content_exchangereports
 outlined_content_flower
 outlined_content_fragrance
