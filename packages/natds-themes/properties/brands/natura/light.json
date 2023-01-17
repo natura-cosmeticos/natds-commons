@@ -4,31 +4,31 @@
       "value": "#F4AB34"
     },
     "onPrimary": {
-      "value": "#333333"
+      "value": "#000000"
     },
     "primaryLight": {
-      "value": "#FEFDE8"
+      "value": "#F6B854"
     },
     "onPrimaryLight": {
-      "value": "#333333"
+      "value": "#000000"
     },
     "primaryLightest": {
       "value": "{spectrum.color.brand.a.lightest.value}"
     },
     "onPrimaryLightest": {
-      "value": "#333333"
+      "value": "#000000"
     },
     "primaryDark": {
-      "value": "#EF8426"
+      "value": "#CD902C"
     },
     "onPrimaryDark": {
-      "value": "#333333"
+      "value": "#000000"
     },
     "primaryDarkest": {
       "value": "{spectrum.color.brand.a.darkest.value}"
     },
     "onPrimaryDarkest": {
-      "value": "#333333"
+      "value": "#000000"
     },
 
     "secondary": {
@@ -38,16 +38,28 @@
       "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#FFF8E1"
+      "value": "#FF8332"
     },
     "onSecondaryLight": {
       "value": "#000000"
     },
+    "secondaryLightest": {
+      "value": "#FF9A59"
+    },
+    "onSecondaryLightest": {
+      "value": "#000000"
+    },
     "secondaryDark": {
-      "value": "#FF5808"
+      "value": "#D65A09"
     },
     "onSecondaryDark": {
       "value": "#000000"
+    },
+    "secondaryDarkest": {
+      "value": "#AD4907"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
     },
 
     "background": {
