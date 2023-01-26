@@ -20,6 +20,16 @@ script:
   - "yarn test --runInBand"
   - "bash <(curl -s https://codecov.io/bash)"
 jobs:
+  tex:
+    name: Installing TeX Live and ((Xe)La)TeX related packages
+    runs-on: ubuntu-latest
+    shell: bash
+    steps:
+      - name: Install sudo package
+        run: apt update && apt install sudo
+      - name: Installing TeX Live
+        run: |
+          sudo apt-get update
   include:
     - stage: check
       name: "Confidence check"
