@@ -1,5 +1,8 @@
 name: Icon-regression
-on: pull_request
+on: 
+    branches:
+      - main    
+    pull_request:
 jobs:
   regression:
     runs-on: ubuntu-latest
