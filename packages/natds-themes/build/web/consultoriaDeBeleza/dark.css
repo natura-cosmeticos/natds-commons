@@ -540,10 +540,10 @@
   --colorOnWarning: #000000;
   --colorAlert: #ffaa96;
   --colorOnAlert: #000000;
-  --assetFontFileDisplay: "helvetica_now_display_bd";
-  --assetFontFileHeadline: "helvetica_now_display_md";
-  --assetFontFileBodyRegular: "helvetica_now_display_regular";
-  --assetFontFileBodyBold: "helvetica_now_display_bd";
+  --assetFontFileDisplay: "roboto_regular";
+  --assetFontFileHeadline: "roboto_regular";
+  --assetFontFileBodyRegular: "roboto_regular";
+  --assetFontFileBodyBold: "roboto_medium";
   --assetBrandNeutralAFile: "natura-a-official-dark";
   --assetBrandNeutralAWidth: "256";
   --assetBrandNeutralAHeight: "55";

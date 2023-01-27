@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "helvetica_now_display_bd"
+          "value": "roboto_regular"
         },
         "headline": {
-          "value": "helvetica_now_display_md"
+          "value": "roboto_regular"
         },
         "body": {
           "regular": {
-            "value": "helvetica_now_display_regular"
+            "value": "roboto_regular"
           },
           "bold": {
-            "value": "helvetica_now_display_bd"
+            "value": "roboto_medium"
           }
         }
       }

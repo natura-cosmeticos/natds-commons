@@ -24,10 +24,10 @@ struct ConsultoriaDeBelezaDarkTheme: Theme {
 }
 
 struct ConsultoriaDeBelezaDarkTokens: Tokens {
-  let assetFontFileDisplay = "helvetica_now_display_bd"
-  let assetFontFileHeadline = "helvetica_now_display_md"
-  let assetFontFileBodyRegular = "helvetica_now_display_regular"
-  let assetFontFileBodyBold = "helvetica_now_display_bd"
+  let assetFontFileDisplay = "roboto_regular"
+  let assetFontFileHeadline = "roboto_regular"
+  let assetFontFileBodyRegular = "roboto_regular"
+  let assetFontFileBodyBold = "roboto_medium"
   let assetBrandNeutralAFile = "natura-a-official-dark"
   let assetBrandNeutralAWidth: CGFloat = 256
   let assetBrandNeutralAHeight: CGFloat = 55
