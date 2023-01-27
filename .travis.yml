@@ -7,7 +7,7 @@ cache:
   npm: false
   yarn: true
 notifications:
-  email: false
+  email: false 
 git:
   quiet: true
 install: 
