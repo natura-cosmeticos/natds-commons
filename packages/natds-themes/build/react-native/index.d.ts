@@ -441,8 +441,12 @@ declare namespace Themes {
   onSecondary: string
   secondaryLight: string
   onSecondaryLight: string
+  secondaryLightest: string
+  onSecondaryLightest: string
   secondaryDark: string
   onSecondaryDark: string
+  secondaryDarkest: string
+  onSecondaryDarkest: string
   background: string
   onBackground: string
   surface: string
@@ -508,6 +512,7 @@ declare namespace Themes {
     natdsTest: BrandThemes
     natura: BrandThemes
     theBodyShop: BrandThemes
+    consultoriaDeBeleza: BrandThemes
   }
 }
 

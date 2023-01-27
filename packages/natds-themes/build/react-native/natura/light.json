@@ -162,14 +162,14 @@
           "label": "#333333"
         },
         "hover": {
-          "background": "#ef8426",
+          "background": "#cd902c",
           "border": "#FFFFFF00",
-          "label": "#333333"
+          "label": "#ffffff"
         },
         "focus": {
           "background": "#A67423",
           "border": "#FFFFFF00",
-          "label": "#333333"
+          "label": "#ffffff"
         }
       }
     },
@@ -598,7 +598,7 @@
         },
         "hover": {
           "primary": {
-            "background": "#ef8426",
+            "background": "#cd902c",
             "border": "#FFFFFF00",
             "label": "#333333"
           },
@@ -651,7 +651,7 @@
         "hover": {
           "primary": {
             "background": "#f1f3f5",
-            "border": "#ef8426",
+            "border": "#cd902c",
             "label": "#333333"
           },
           "neutral": {
@@ -663,7 +663,7 @@
         "focus": {
           "primary": {
             "background": "#e9ecef",
-            "border": "#ef8426",
+            "border": "#cd902c",
             "label": "#333333"
           },
           "neutral": {
@@ -930,7 +930,7 @@
     "fontFamily": {
       "primary": "Roboto",
       "secondary": "sans-serif",
-      "branding": "Helvetica Now",
+      "branding": "Roboto",
       "code": "Roboto Mono"
     },
     "fontWeight": {
@@ -983,20 +983,24 @@
     "neutral900": "#212529",
     "primary": "#f4ab34",
     "onPrimary": "#333333",
-    "primaryLight": "#fefde8",
+    "primaryLight": "#f6b854",
     "onPrimaryLight": "#333333",
     "primaryLightest": "#F8C675",
     "onPrimaryLightest": "#333333",
-    "primaryDark": "#ef8426",
-    "onPrimaryDark": "#333333",
+    "primaryDark": "#cd902c",
+    "onPrimaryDark": "#ffffff",
     "primaryDarkest": "#A67423",
-    "onPrimaryDarkest": "#333333",
+    "onPrimaryDarkest": "#ffffff",
     "secondary": "#ff6b0b",
     "onSecondary": "#000000",
-    "secondaryLight": "#fff8e1",
+    "secondaryLight": "#ff8332",
     "onSecondaryLight": "#000000",
-    "secondaryDark": "#ff5808",
-    "onSecondaryDark": "#000000",
+    "secondaryLightest": "#ff9a59",
+    "onSecondaryLightest": "#000000",
+    "secondaryDark": "#d65a09",
+    "onSecondaryDark": "#ffffff",
+    "secondaryDarkest": "#ad4907",
+    "onSecondaryDarkest": "#ffffff",
     "background": "#fafafa",
     "onBackground": "#333333",
     "surface": "#ffffff",

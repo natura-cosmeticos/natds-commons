@@ -930,7 +930,7 @@
     "fontFamily": {
       "primary": "Roboto",
       "secondary": "sans-serif",
-      "branding": "Helvetica Now",
+      "branding": "Roboto",
       "code": "Roboto Mono"
     },
     "fontWeight": {
