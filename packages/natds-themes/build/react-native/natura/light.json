@@ -90,7 +90,7 @@
     },
     "color": {
       "background": "#f4ab34",
-      "label": "#000000"
+      "label": "#333333"
     }
   },
   "badge": {
@@ -117,7 +117,7 @@
     },
     "color": {
       "primary": {
-        "label": "#000000",
+        "label": "#333333",
         "background": "#f4ab34"
       },
       "secondary": {
@@ -154,7 +154,7 @@
         "enable": {
           "background": "#f4ab34",
           "border": "#FFFFFF00",
-          "label": "#000000"
+          "label": "#333333"
         },
         "disable": {
           "background": "#bbbbbb",
@@ -164,12 +164,12 @@
         "hover": {
           "background": "#cd902c",
           "border": "#FFFFFF00",
-          "label": "#000000"
+          "label": "#ffffff"
         },
         "focus": {
           "background": "#A67423",
           "border": "#FFFFFF00",
-          "label": "#000000"
+          "label": "#ffffff"
         }
       }
     },
@@ -743,7 +743,7 @@
         "link": "#227bbd"
       },
       "label": {
-        "primary": "#000000",
+        "primary": "#333333",
         "secondary": "#000000",
         "success": "#ffffff",
         "alert": "#ffffff",
@@ -930,7 +930,7 @@
     "fontFamily": {
       "primary": "Roboto",
       "secondary": "sans-serif",
-      "branding": "Helvetica Now",
+      "branding": "Roboto",
       "code": "Roboto Mono"
     },
     "fontWeight": {
@@ -982,15 +982,15 @@
     "neutral800": "#343a40",
     "neutral900": "#212529",
     "primary": "#f4ab34",
-    "onPrimary": "#000000",
+    "onPrimary": "#333333",
     "primaryLight": "#f6b854",
-    "onPrimaryLight": "#000000",
+    "onPrimaryLight": "#333333",
     "primaryLightest": "#F8C675",
-    "onPrimaryLightest": "#000000",
+    "onPrimaryLightest": "#333333",
     "primaryDark": "#cd902c",
-    "onPrimaryDark": "#000000",
+    "onPrimaryDark": "#ffffff",
     "primaryDarkest": "#A67423",
-    "onPrimaryDarkest": "#000000",
+    "onPrimaryDarkest": "#ffffff",
     "secondary": "#ff6b0b",
     "onSecondary": "#000000",
     "secondaryLight": "#ff8332",
@@ -998,7 +998,7 @@
     "secondaryLightest": "#ff9a59",
     "onSecondaryLightest": "#000000",
     "secondaryDark": "#d65a09",
-    "onSecondaryDark": "#000000",
+    "onSecondaryDark": "#ffffff",
     "secondaryDarkest": "#ad4907",
     "onSecondaryDarkest": "#ffffff",
     "background": "#fafafa",
