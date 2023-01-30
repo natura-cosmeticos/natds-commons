@@ -1,0 +1,54 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "consultoriadebeleza-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "natura-b-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 192
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "consultoriadebeleza-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "natura-b-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 192
+          }
+        }
+      }
+    }
+  }
+}
