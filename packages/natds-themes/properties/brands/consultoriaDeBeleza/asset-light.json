@@ -4,7 +4,7 @@
       "neutral":{
         "a": {
           "file": {
-            "value": "natura-a-official"
+            "value": "consultoriadebeleza-a-oficial-pt"
           },
           "width": {
             "value": 256
@@ -15,7 +15,7 @@
         },
         "b": {
           "file": {
-            "value": "natura-b-official"
+            "value": "consultoriadebeleza-a-oficial-pt"
           },
           "width": {
             "value": 256
@@ -28,7 +28,7 @@
       "custom":{
         "a": {
           "file": {
-            "value": "natura-a-custom"
+            "value": "consultoriadebeleza-a-custom-pt"
           },
           "width": {
             "value": 256
@@ -39,7 +39,7 @@
         },
         "b": {
           "file": {
-            "value": "natura-b-custom"
+            "value": "consultoriadebeleza-a-custom-pt"
           },
           "width": {
             "value": 256
