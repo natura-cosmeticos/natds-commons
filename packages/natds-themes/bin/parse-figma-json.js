@@ -42,7 +42,7 @@ export const parseBrandMainColors = () => {
 
   fs.writeFileSync('./parsed-tokens.json', JSON.stringify(output))
 }
- 
+
 export const parseSpectrumCustomColors = () => {
   const colors = rawTokens.colors.reduce((allTokens, token) => {
     const tokenOriginalName = token.name.toLowerCase()
