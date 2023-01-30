@@ -9,6 +9,8 @@ import naturaDarkTheme from './natura/dark.json'
 import naturaLightTheme from './natura/light.json'
 import theBodyShopDarkTheme from './theBodyShop/dark.json'
 import theBodyShopLightTheme from './theBodyShop/light.json'
+import consultoriaDeBelezaDarkTheme from './consultoriaDeBeleza/dark.json'
+import consultoriaDeBelezaLightTheme from './consultoriaDeBeleza/light.json'
 
 const themes = {
   aesop: {
@@ -30,6 +32,10 @@ const themes = {
   theBodyShop: {
     dark: theBodyShopDarkTheme,
     light: theBodyShopLightTheme
+  },
+  consultoriaDeBeleza: {
+    dark: consultoriaDeBelezaDarkTheme,
+    light: consultoriaDeBelezaLightTheme
   }
 }
 
