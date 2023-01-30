@@ -1,0 +1,9 @@
+{
+  "private": {
+    "shortcut": {
+      "borderRadius": {
+        "value": "{private.borderRadius.circle.mediumX.value}"
+      }
+    }
+  }
+}
