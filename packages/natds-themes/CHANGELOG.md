@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.31.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.5...@naturacosmeticos/natds-themes@0.31.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* pipeline fix release ([6f657af](https://github.com/natura-cosmeticos/natds-commons/commit/6f657af6ff226d58c8b1f50faaaca65a4350c6fd))
+* pipeline fix release ([d0ef777](https://github.com/natura-cosmeticos/natds-commons/commit/d0ef777894d33fc1f444bb06e28ed429e4d56d54))
+* pipeline fix release ([c48ddf9](https://github.com/natura-cosmeticos/natds-commons/commit/c48ddf940d266779af3788259aa29a36f7dd4437))
+
+
+### Features
+
+* **natds-themes:** create theme consultoriaDeBeleza ([02f2d87](https://github.com/natura-cosmeticos/natds-commons/commit/02f2d876449b14b6fdfa971ff41d409321c198ae))
+* **natds-themes:** version to 0.30.0 ([e5f45e8](https://github.com/natura-cosmeticos/natds-commons/commit/e5f45e84ed9379599c03e61be506985974fb005c))
+
+
+
+
+
 ## [0.29.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.4...@naturacosmeticos/natds-themes@0.29.5) (2023-01-27)
 
 
