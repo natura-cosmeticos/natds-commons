@@ -4,7 +4,8 @@ export const brands = [
   'biome',
   'natdsTest',
   'natura',
-  'theBodyShop'
+  'theBodyShop',
+  'consultoriaDeBeleza'
 ]
 
 export const modes = [
