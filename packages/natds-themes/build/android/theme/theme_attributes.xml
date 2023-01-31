@@ -477,8 +477,12 @@
   <attr name="colorOnSecondary" format="color" />  
   <attr name="colorSecondaryLight" format="color" />  
   <attr name="colorOnSecondaryLight" format="color" />  
+  <attr name="colorSecondaryLightest" format="color" />  
+  <attr name="colorOnSecondaryLightest" format="color" />  
   <attr name="colorSecondaryDark" format="color" />  
   <attr name="colorOnSecondaryDark" format="color" />  
+  <attr name="colorSecondaryDarkest" format="color" />  
+  <attr name="colorOnSecondaryDarkest" format="color" />  
   <attr name="colorBackground" format="color" />  
   <attr name="colorOnBackground" format="color" />  
   <attr name="colorSurface" format="color" />  

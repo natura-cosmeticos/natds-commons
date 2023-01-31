@@ -68,8 +68,12 @@ protocol Tokens {
   var colorOnSecondary: String { get }
   var colorSecondaryLight: String { get }
   var colorOnSecondaryLight: String { get }
+  var colorSecondaryLightest: String { get }
+  var colorOnSecondaryLightest: String { get }
   var colorSecondaryDark: String { get }
   var colorOnSecondaryDark: String { get }
+  var colorSecondaryDarkest: String { get }
+  var colorOnSecondaryDarkest: String { get }
   var colorBackground: String { get }
   var colorOnBackground: String { get }
   var colorSurface: String { get }
