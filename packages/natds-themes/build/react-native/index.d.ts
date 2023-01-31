@@ -513,6 +513,7 @@ declare namespace Themes {
     natura: BrandThemes
     theBodyShop: BrandThemes
     consultoriaDeBeleza: BrandThemes
+    natura_v2: BrandThemes
   }
 }
 
