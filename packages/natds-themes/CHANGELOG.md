@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.32.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.31.0...@naturacosmeticos/natds-themes@0.32.0) (2023-01-31)
+
+
+### Bug Fixes
+
+* **natds-themes:** optimized svg ([dfba3cf](https://github.com/natura-cosmeticos/natds-commons/commit/dfba3cff0a2e9713a29412909ea09ee04d605131))
+
+
+### Features
+
+* **natds-themes:** add export in index theme ([c82765f](https://github.com/natura-cosmeticos/natds-commons/commit/c82765ff7f8f3b95943b27e55f74eda166bf4521))
+* **natds-themes:** add import rn theme ([419c9c5](https://github.com/natura-cosmeticos/natds-commons/commit/419c9c5515d12d37421d42f1b7113fe732af5ab2))
+* **natds-themes:** add line in constants array ([4b37ab2](https://github.com/natura-cosmeticos/natds-commons/commit/4b37ab24bbeae4d53c65207b5964571e9f3dbb8f))
+
+
+
+
+
 # [0.31.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.29.5...@naturacosmeticos/natds-themes@0.31.0) (2023-01-30)
 
 
