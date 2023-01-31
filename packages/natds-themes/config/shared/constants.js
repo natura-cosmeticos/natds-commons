@@ -5,7 +5,8 @@ export const brands = [
   'natdsTest',
   'natura',
   'theBodyShop',
-  'consultoriaDeBeleza'
+  'consultoriaDeBeleza',
+  'natura_v2'
 ]
 
 export const modes = [

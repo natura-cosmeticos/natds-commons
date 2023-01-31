@@ -1,0 +1,114 @@
+{
+  "color": {
+    "primary": {
+      "value": "#EB6619"
+    },
+    "onPrimary": {
+      "value": "#000000"
+    },
+    "primaryLight": {
+      "value": "#F29966"
+    },
+    "onPrimaryLight": {
+      "value": "#000000"
+    },
+    "primaryLightest": {
+      "value": "{spectrum.color.brand.a.lightest.value}"
+    },
+    "onPrimaryLightest": {
+      "value": "#000000"
+    },
+    "primaryDark": {
+      "value": "#A0430E"
+    },
+    "onPrimaryDark": {
+      "value": "#FFFFFF"
+    },
+    "primaryDarkest": {
+      "value": "{spectrum.color.brand.a.darkest.value}"
+    },
+    "onPrimaryDarkest": {
+      "value": "#FFFFFF"
+    },
+
+    "secondary": {
+      "value": "#263F30"
+    },
+    "onSecondary": {
+      "value": "#FFFFFF"
+    },
+    "secondaryLight": {
+      "value": "#599471"
+    },
+    "onSecondaryLight": {
+      "value": "#FFFFFF"
+    },
+    "secondaryLightest": {
+      "value": "#AACCB7"
+    },
+    "onSecondaryLightest": {
+      "value": "#000000"
+    },
+    "secondaryDark": {
+      "value": "#192A20"
+    },
+    "onSecondaryDark": {
+      "value": "#FFFFFF"
+    },
+    "secondaryDarkest": {
+      "value": "#0D1510"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
+    },
+
+    "background": {
+      "value": "#FAFAFA"
+    },
+    "onBackground": {
+      "value": "#333333"
+    },
+    "surface": {
+      "value": "#FFFFFF"
+    },
+    "onSurface": {
+      "value": "#333333"
+    },
+    "highlight": {
+      "value": "#000000"
+    },
+    "highEmphasis": {
+      "value": "#333333"
+    },
+    "mediumEmphasis": {
+      "value": "#777777"
+    },
+    "lowEmphasis": {
+      "value": "#BBBBBB"
+    },
+    "link": {
+      "value": "#227BBD"
+    },
+    "onLink": {
+      "value": "#FFFFFF"
+    },
+    "success": {
+      "value": "#569A32"
+    },
+    "onSuccess": {
+      "value": "#FFFFFF"
+    },
+    "warning": {
+      "value": "#FCC433"
+    },
+    "onWarning": {
+      "value": "#333333"
+    },
+    "alert": {
+      "value": "#E74627"
+    },
+    "onAlert": {
+      "value": "#FFFFFF"
+    }
+  }
+}
