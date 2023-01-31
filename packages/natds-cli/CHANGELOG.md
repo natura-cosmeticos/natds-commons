@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-cli@0.2.2...@naturacosmeticos/natds-cli@0.2.3) (2023-01-31)
+
+
+### Bug Fixes
+
+* **natds-theme:** pipeline fix release ([d873dd1](https://github.com/natura-cosmeticos/natds-commons/commit/d873dd1d3da3c8908f6c5b73f343545f1d04ea5f))
+
+
+
+
+
 ## [0.2.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-cli@0.2.1...@naturacosmeticos/natds-cli@0.2.2) (2023-01-30)
 
 
