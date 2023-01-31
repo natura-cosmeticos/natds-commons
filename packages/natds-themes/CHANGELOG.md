@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.33.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.32.0...@naturacosmeticos/natds-themes@0.33.0) (2023-01-31)
+
+
+### Features
+
+* **natds-themes:** add assets 1x2x3x4x ([f148aec](https://github.com/natura-cosmeticos/natds-commons/commit/f148aec685f1cf31cb0aae359ebe6c60b3dbd942))
+* **natds-themes:** create theme natura_v2 ([ed57235](https://github.com/natura-cosmeticos/natds-commons/commit/ed572351dafc58a7afdcd2335743d430845924c8))
+
+
+
+
+
 # [0.32.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.31.0...@naturacosmeticos/natds-themes@0.32.0) (2023-01-31)
 
 
