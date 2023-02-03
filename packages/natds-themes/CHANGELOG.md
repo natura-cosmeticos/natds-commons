@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.44.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.43.1...@naturacosmeticos/natds-themes@0.44.0) (2023-02-03)
+
+
+### Features
+
+* **natds-themes:** update assets PDF ([682e2f3](https://github.com/natura-cosmeticos/natds-commons/commit/682e2f3e5e80f737b032d6598f1d34fe2807c7fe))
+
+
+
+
+
 ## [0.43.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.33.0...@naturacosmeticos/natds-themes@0.43.1) (2023-01-31)
 
 
