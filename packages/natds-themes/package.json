@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-themes",
   "displayName": "NatDSThemes",
   "description": "The single source of truth for Natura Design System tokens.",
-  "version": "0.44.4",
+  "version": "0.44.5",
   "private": false,
   "keywords": [
     "naturacosmeticos",
