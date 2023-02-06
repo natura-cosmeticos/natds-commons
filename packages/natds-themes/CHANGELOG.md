@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.44.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.2...@naturacosmeticos/natds-themes@0.44.4) (2023-02-06)
+
+
+### Bug Fixes
+
+* bump ver ([3cd2332](https://github.com/natura-cosmeticos/natds-commons/commit/3cd2332c4f73f21a2c8b6cf26fd90b1f16e2a29e))
+
+
+
+
+
 ## [0.44.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.1...@naturacosmeticos/natds-themes@0.44.2) (2023-02-06)
 
 
