@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.44.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.0...@naturacosmeticos/natds-themes@0.44.1) (2023-02-06)
+
+
+### Bug Fixes
+
+* **natds-themes:** renames consultoria de beleza  brand files and correct their references ([ebedf3e](https://github.com/natura-cosmeticos/natds-commons/commit/ebedf3e0aedaeb4be0c96b7f3ba4bcccfac41d2f))
+
+
+
+
+
 # [0.44.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.43.1...@naturacosmeticos/natds-themes@0.44.0) (2023-02-03)
 
 
