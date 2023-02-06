@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.44.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.1...@naturacosmeticos/natds-themes@0.44.2) (2023-02-06)
+
+
+### Bug Fixes
+
+* **natds-themes:** assets a-b consultoria-de-beleza ([7ba8c2e](https://github.com/natura-cosmeticos/natds-commons/commit/7ba8c2e96c476fc2a66296bc97588f56d20a4e04))
+* **natds-themes:** optimized files SVG cb ([7220515](https://github.com/natura-cosmeticos/natds-commons/commit/72205157efa94af4b6e454b6d1b6ea63a32799c4))
+* **natds-themes:** rename mode Dark assets json ([a17e9f4](https://github.com/natura-cosmeticos/natds-commons/commit/a17e9f4147596d6e09d074b8c8ba873dbdabce80))
+
+
+
+
+
 ## [0.44.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.0...@naturacosmeticos/natds-themes@0.44.1) (2023-02-06)
 
 
