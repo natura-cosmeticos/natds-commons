@@ -1,53 +1,65 @@
 {
   "color": {
     "primary": {
-      "value": "#BE9AE2"
+      "value": "#6221BD"
     },
     "onPrimary": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "primaryLight": {
-      "value": "#F1CBFF"
+      "value": "#7D51CC"
     },
     "onPrimaryLight": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "primaryLightest": {
-      "value": "{spectrum.color.brand.a.darkest.value}"
-    },
-    "onPrimaryLightest": {
-      "value": "#000000"
-    },
-    "primaryDark": {
-      "value": "#8D6BB0"
-    },
-    "onPrimaryDark": {
-      "value": "#000000"
-    },
-    "primaryDarkest": {
       "value": "{spectrum.color.brand.a.lightest.value}"
     },
+    "onPrimaryLightest": {
+      "value": "#FFFFFF"
+    },
+    "primaryDark": {
+      "value": "#5428A3"
+    },
+    "onPrimaryDark": {
+      "value": "#FFFFFF"
+    },
+    "primaryDarkest": {
+      "value": "{spectrum.color.brand.a.darkest.value}"
+    },
     "onPrimaryDarkest": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
 
     "secondary": {
-      "value": "#F593C4"
+      "value": "#C2488E"
     },
     "onSecondary": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "secondaryLight": {
-      "value": "#FFC5F7"
+      "value": "#CC65A0"
     },
     "onSecondaryLight": {
-      "value": "#000000"
+      "value": "#FFFFFF"
+    },
+    "secondaryLightest": {
+      "value": "#D683B2"
+    },
+    "onSecondaryLightest": {
+      "value": "#FFFFFF"
     },
     "secondaryDark": {
-      "value": "#C16394"
+      "value": "#A33C77"
     },
     "onSecondaryDark": {
-      "value": "#000000"
+      "value": "#FFFFFF"
+    },
+    "secondaryDarkest": {
+      "value": "#843161"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
     },
 
     "background": {
@@ -75,28 +87,28 @@
       "value": "#777777"
     },
     "link": {
-      "value": "#227BBD"
+      "value": "#86D6FB"
     },
     "onLink": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "success": {
-      "value": "#569A32"
+      "value": "#BCDEA2"
     },
     "onSuccess": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "warning": {
-      "value": "#FCC433"
+      "value": "#FEF59E"
     },
     "onWarning": {
-      "value": "#333333"
+      "value": "#000000"
     },
     "alert": {
-      "value": "#E74627"
+      "value": "#FFAA96"
     },
     "onAlert": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     }
   }
 }
