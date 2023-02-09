@@ -7,7 +7,7 @@
       "value": "#FFFFFF"
     },
     "primaryLight": {
-      "value": "#356D60"
+      "value": "#2B6258"
     },
     "onPrimaryLight": {
       "value": "#FFFFFF"
@@ -19,7 +19,7 @@
       "value": "#FFFFFF"
     },
     "primaryDark": {
-      "value": "#001D10"
+      "value": "#00372D"
     },
     "onPrimaryDark": {
       "value": "#FFFFFF"
@@ -32,22 +32,34 @@
     },
 
     "secondary": {
-      "value": "#D6CE4B"
+      "value": "#D5CD61"
     },
     "onSecondary": {
       "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#FFFF7C"
+      "value": "#DCD57A"
     },
     "onSecondaryLight": {
       "value": "#000000"
     },
+    "secondaryLightest": {
+      "value": "#E2DD94"
+    },
+    "onSecondaryLightest": {
+      "value": "#000000"
+    },
     "secondaryDark": {
-      "value": "#A29D12"
+      "value": "#B3AC51"
     },
     "onSecondaryDark": {
       "value": "#000000"
+    },
+    "secondaryDarkest": {
+      "value": "#918B42"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
     },
 
     "background": {

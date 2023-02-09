@@ -1,52 +1,65 @@
 {
   "color": {
     "primary": {
-      "value": "#7CC4BC"
+      "value": "#004236"
     },
     "onPrimary": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "primaryLight": {
-      "value": "#AEF7EE"
+      "value": "#2B6258"
     },
     "onPrimaryLight": {
-      "value": "#000000"
+      "value": "#FFFFFF"
     },
     "primaryLightest": {
-      "value": "{spectrum.color.brand.a.darkest.value}"
-    },
-    "onPrimaryLightest": {
-      "value": "#000000"
-    },
-    "primaryDark": {
-      "value": "#4C938C"
-    },
-    "onPrimaryDark": {
-      "value": "#000000"
-    },
-    "primaryDarkest": {
-      "value": "#4C938C"
-    },
-    "onPrimaryDarkest": {
       "value": "{spectrum.color.brand.a.lightest.value}"
     },
+    "onPrimaryLightest": {
+      "value": "#FFFFFF"
+    },
+    "primaryDark": {
+      "value": "#00372D"
+    },
+    "onPrimaryDark": {
+      "value": "#FFFFFF"
+    },
+    "primaryDarkest": {
+      "value": "{spectrum.color.brand.a.darkest.value}"
+    },
+    "onPrimaryDarkest": {
+      "value": "#FFFFFF"
+    },
+
     "secondary": {
-      "value": "#F3F1A5"
+      "value": "#D5CD61"
     },
     "onSecondary": {
       "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#FFFFD7"
+      "value": "#DCD57A"
     },
     "onSecondaryLight": {
       "value": "#000000"
     },
+    "secondaryLightest": {
+      "value": "#E2DD94"
+    },
+    "onSecondaryLightest": {
+      "value": "#000000"
+    },
     "secondaryDark": {
-      "value": "#BFBF75"
+      "value": "#B3AC51"
     },
     "onSecondaryDark": {
       "value": "#000000"
+    },
+    "secondaryDarkest": {
+      "value": "#918B42"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
     },
 
     "background": {
@@ -74,28 +87,28 @@
       "value": "#777777"
     },
     "link": {
-      "value": "#227BBD"
+      "value": "#86DFFB"
     },
     "onLink": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "success": {
-      "value": "#569A32"
+      "value": "#BCDEA2"
     },
     "onSuccess": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "warning": {
-      "value": "#FCC433"
+      "value": "#FEF59E"
     },
     "onWarning": {
-      "value": "#333333"
+      "value": "#000000"
     },
     "alert": {
-      "value": "#E74627"
+      "value": "#FFAA96"
     },
     "onAlert": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     }
   }
 }

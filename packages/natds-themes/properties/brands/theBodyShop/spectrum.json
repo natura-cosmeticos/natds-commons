@@ -4,7 +4,7 @@
       "brand": {
         "a": {
           "lightest": {
-            "value": "#566D69"
+            "value": "#558179"
           },
           "light": {
             "value": "#2E4B46"
@@ -16,7 +16,7 @@
             "value": "#05221D"
           },
           "darkest": {
-            "value": "#041C18"
+            "value": "#002C24"
           }
         },
         "b": {
