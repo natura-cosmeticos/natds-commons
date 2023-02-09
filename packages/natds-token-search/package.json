@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@naturacosmeticos/natds-themes": "^0.21.0",
-    "jss": "10.5.0",
+    "jss": "10.10.0",
     "jss-preset-default": "10.5.0",
     "ramda": "0.27.1",
     "redux": "4.0.5"
