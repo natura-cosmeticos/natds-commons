@@ -8,7 +8,9 @@ const brands = [
   'avon',
   'biome',
   'natura',
-  'theBodyShop'
+  'theBodyShop',
+  'consultoriaDeBeleza',
+  'natura_v2'
 ]
 
 const modes = ['light', 'dark']

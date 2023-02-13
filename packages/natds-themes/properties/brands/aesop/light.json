@@ -1,13 +1,13 @@
 {
   "color": {
     "primary": {
-      "value": "#262625"
+      "value": "#333333"
     },
     "onPrimary": {
       "value": "#FFFFFF"
     },
     "primaryLight": {
-      "value": "#4E4E4D"
+      "value": "#545454"
     },
     "onPrimaryLight": {
       "value": "#FFFFFF"
@@ -19,7 +19,7 @@
       "value": "#FFFFFF"
     },
     "primaryDark": {
-      "value": "#000000"
+      "value": "#2B2B2B"
     },
     "onPrimaryDark": {
       "value": "#FFFFFF"
@@ -31,21 +31,33 @@
       "value": "#FFFFFF"
     },
     "secondary": {
-      "value": "#A6662B"
+      "value": "#A6672B"
     },
     "onSecondary": {
       "value": "#FFFFFF"
     },
     "secondaryLight": {
-      "value": "#DB9457"
+      "value": "#B47F4D"
     },
     "onSecondaryLight": {
-      "value": "#000000"
+      "value": "#FFFFFF"
+    },
+    "secondaryLightest": {
+      "value": "#C2986F"
+    },
+    "onSecondaryLightest": {
+      "value": "#FFFFFF"
     },
     "secondaryDark": {
-      "value": "#733B00"
+      "value": "#8B5724"
     },
     "onSecondaryDark": {
+      "value": "#FFFFFF"
+    },
+    "secondaryDarkest": {
+      "value": "#71461D"
+    },
+    "onSecondaryDarkest": {
       "value": "#FFFFFF"
     },
 
