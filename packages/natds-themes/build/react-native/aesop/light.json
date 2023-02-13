@@ -89,7 +89,7 @@
       "fontWeight": 400
     },
     "color": {
-      "background": "#262625",
+      "background": "#333333",
       "label": "#ffffff"
     }
   },
@@ -118,11 +118,11 @@
     "color": {
       "primary": {
         "label": "#ffffff",
-        "background": "#262625"
+        "background": "#333333"
       },
       "secondary": {
         "label": "#ffffff",
-        "background": "#a6662b"
+        "background": "#a6672b"
       },
       "success": {
         "label": "#ffffff",
@@ -152,7 +152,7 @@
     "contained": {
       "color": {
         "enable": {
-          "background": "#262625",
+          "background": "#333333",
           "border": "#FFFFFF00",
           "label": "#ffffff"
         },
@@ -162,7 +162,7 @@
           "label": "#333333"
         },
         "hover": {
-          "background": "#000000",
+          "background": "#2b2b2b",
           "border": "#FFFFFF00",
           "label": "#ffffff"
         },
@@ -177,7 +177,7 @@
       "color": {
         "enable": {
           "background": "#FFFFFF00",
-          "border": "#262625",
+          "border": "#333333",
           "label": "#333333"
         },
         "disable": {
@@ -187,12 +187,12 @@
         },
         "hover": {
           "background": "#EEEEEE",
-          "border": "#262625",
+          "border": "#333333",
           "label": "#333333"
         },
         "focus": {
           "background": "#E3E3E3",
-          "border": "#262625",
+          "border": "#333333",
           "label": "#333333"
         }
       }
@@ -490,7 +490,7 @@
       "borderRadius": 32
     },
     "color": {
-      "stroke": "#262625",
+      "stroke": "#333333",
       "layer": "#ffffff"
     }
   },
@@ -511,8 +511,8 @@
     "borderRadius": 12,
     "color": {
       "select": {
-        "border": "#262625",
-        "content": "#262625"
+        "border": "#333333",
+        "content": "#333333"
       },
       "unselect": {
         "border": "#000000",
@@ -574,7 +574,7 @@
       "color": {
         "enable": {
           "primary": {
-            "background": "#262625",
+            "background": "#333333",
             "border": "#FFFFFF00",
             "label": "#333333"
           },
@@ -598,7 +598,7 @@
         },
         "hover": {
           "primary": {
-            "background": "#000000",
+            "background": "#2b2b2b",
             "border": "#FFFFFF00",
             "label": "#333333"
           },
@@ -627,7 +627,7 @@
         "enable": {
           "primary": {
             "background": "#FFFFFF00",
-            "border": "#262625",
+            "border": "#333333",
             "label": "#333333"
           },
           "neutral": {
@@ -651,7 +651,7 @@
         "hover": {
           "primary": {
             "background": "#EEEEEE",
-            "border": "#000000",
+            "border": "#2b2b2b",
             "label": "#333333"
           },
           "neutral": {
@@ -663,7 +663,7 @@
         "focus": {
           "primary": {
             "background": "#E3E3E3",
-            "border": "#000000",
+            "border": "#2b2b2b",
             "label": "#333333"
           },
           "neutral": {
@@ -735,8 +735,8 @@
     },
     "color": {
       "background": {
-        "primary": "#262625",
-        "secondary": "#a6662b",
+        "primary": "#333333",
+        "secondary": "#a6672b",
         "success": "#569a32",
         "alert": "#e74627",
         "warning": "#fcc433",
@@ -938,7 +938,7 @@
       "medium": 500
     },
     "display": {
-      "fontFamily": "Zapf Humanist 601",
+      "fontFamily": "ZapfHumnst BT",
       "fontWeight": 400
     },
     "headline": {
@@ -981,22 +981,26 @@
     "neutral700": "#515151",
     "neutral800": "#333333",
     "neutral900": "#131313",
-    "primary": "#262625",
+    "primary": "#333333",
     "onPrimary": "#ffffff",
-    "primaryLight": "#4e4e4d",
+    "primaryLight": "#545454",
     "onPrimaryLight": "#ffffff",
     "primaryLightest": "#747474",
     "onPrimaryLightest": "#ffffff",
-    "primaryDark": "#000000",
+    "primaryDark": "#2b2b2b",
     "onPrimaryDark": "#ffffff",
     "primaryDarkest": "#232323",
     "onPrimaryDarkest": "#ffffff",
-    "secondary": "#a6662b",
+    "secondary": "#a6672b",
     "onSecondary": "#ffffff",
-    "secondaryLight": "#db9457",
-    "onSecondaryLight": "#000000",
-    "secondaryDark": "#733b00",
+    "secondaryLight": "#b47f4d",
+    "onSecondaryLight": "#ffffff",
+    "secondaryLightest": "#c2986f",
+    "onSecondaryLightest": "#ffffff",
+    "secondaryDark": "#8b5724",
     "onSecondaryDark": "#ffffff",
+    "secondaryDarkest": "#71461d",
+    "onSecondaryDarkest": "#ffffff",
     "background": "#fafafa",
     "onBackground": "#333333",
     "surface": "#ffffff",

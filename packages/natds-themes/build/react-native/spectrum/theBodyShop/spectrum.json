@@ -137,11 +137,11 @@
     "color": {
       "brand": {
         "a": {
-          "lightest": "#566D69",
+          "lightest": "#558179",
           "light": "#2E4B46",
           "main": "#062923",
           "dark": "#05221D",
-          "darkest": "#041C18"
+          "darkest": "#002C24"
         },
         "b": {
           "lightest": "#E2DD94",

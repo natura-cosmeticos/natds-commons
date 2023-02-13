@@ -89,7 +89,7 @@
       "fontWeight": 400
     },
     "color": {
-      "background": "#7f28c4",
+      "background": "#6221bd",
       "label": "#ffffff"
     }
   },
@@ -118,11 +118,11 @@
     "color": {
       "primary": {
         "label": "#ffffff",
-        "background": "#7f28c4"
+        "background": "#6221bd"
       },
       "secondary": {
         "label": "#ffffff",
-        "background": "#e2197c"
+        "background": "#c2488e"
       },
       "success": {
         "label": "#ffffff",
@@ -152,7 +152,7 @@
     "contained": {
       "color": {
         "enable": {
-          "background": "#7f28c4",
+          "background": "#6221bd",
           "border": "#FFFFFF00",
           "label": "#ffffff"
         },
@@ -162,7 +162,7 @@
           "label": "#333333"
         },
         "hover": {
-          "background": "#4b0092",
+          "background": "#5428a3",
           "border": "#FFFFFF00",
           "label": "#ffffff"
         },
@@ -177,7 +177,7 @@
       "color": {
         "enable": {
           "background": "#FFFFFF00",
-          "border": "#7f28c4",
+          "border": "#6221bd",
           "label": "#333333"
         },
         "disable": {
@@ -187,12 +187,12 @@
         },
         "hover": {
           "background": "#f1f3f5",
-          "border": "#7f28c4",
+          "border": "#6221bd",
           "label": "#333333"
         },
         "focus": {
           "background": "#e9ecef",
-          "border": "#7f28c4",
+          "border": "#6221bd",
           "label": "#333333"
         }
       }
@@ -490,7 +490,7 @@
       "borderRadius": 32
     },
     "color": {
-      "stroke": "#7f28c4",
+      "stroke": "#6221bd",
       "layer": "#ffffff"
     }
   },
@@ -511,8 +511,8 @@
     "borderRadius": 12,
     "color": {
       "select": {
-        "border": "#7f28c4",
-        "content": "#7f28c4"
+        "border": "#6221bd",
+        "content": "#6221bd"
       },
       "unselect": {
         "border": "#000000",
@@ -574,7 +574,7 @@
       "color": {
         "enable": {
           "primary": {
-            "background": "#7f28c4",
+            "background": "#6221bd",
             "border": "#FFFFFF00",
             "label": "#333333"
           },
@@ -598,7 +598,7 @@
         },
         "hover": {
           "primary": {
-            "background": "#4b0092",
+            "background": "#5428a3",
             "border": "#FFFFFF00",
             "label": "#333333"
           },
@@ -627,7 +627,7 @@
         "enable": {
           "primary": {
             "background": "#FFFFFF00",
-            "border": "#7f28c4",
+            "border": "#6221bd",
             "label": "#333333"
           },
           "neutral": {
@@ -651,7 +651,7 @@
         "hover": {
           "primary": {
             "background": "#f1f3f5",
-            "border": "#4b0092",
+            "border": "#5428a3",
             "label": "#333333"
           },
           "neutral": {
@@ -663,7 +663,7 @@
         "focus": {
           "primary": {
             "background": "#e9ecef",
-            "border": "#4b0092",
+            "border": "#5428a3",
             "label": "#333333"
           },
           "neutral": {
@@ -735,8 +735,8 @@
     },
     "color": {
       "background": {
-        "primary": "#7f28c4",
-        "secondary": "#e2197c",
+        "primary": "#6221bd",
+        "secondary": "#c2488e",
         "success": "#569a32",
         "alert": "#e74627",
         "warning": "#fcc433",
@@ -981,22 +981,26 @@
     "neutral700": "#495057",
     "neutral800": "#343a40",
     "neutral900": "#212529",
-    "primary": "#7f28c4",
+    "primary": "#6221bd",
     "onPrimary": "#ffffff",
-    "primaryLight": "#b35bf8",
-    "onPrimaryLight": "#000000",
+    "primaryLight": "#7d51cc",
+    "onPrimaryLight": "#ffffff",
     "primaryLightest": "#9672D6",
-    "onPrimaryLightest": "#000000",
-    "primaryDark": "#4b0092",
+    "onPrimaryLightest": "#ffffff",
+    "primaryDark": "#5428a3",
     "onPrimaryDark": "#ffffff",
     "primaryDarkest": "#442184",
     "onPrimaryDarkest": "#ffffff",
-    "secondary": "#e2197c",
+    "secondary": "#c2488e",
     "onSecondary": "#ffffff",
-    "secondaryLight": "#ff5eab",
-    "onSecondaryLight": "#000000",
-    "secondaryDark": "#aa0050",
+    "secondaryLight": "#cc65a0",
+    "onSecondaryLight": "#ffffff",
+    "secondaryLightest": "#d683b2",
+    "onSecondaryLightest": "#ffffff",
+    "secondaryDark": "#a33c77",
     "onSecondaryDark": "#ffffff",
+    "secondaryDarkest": "#843161",
+    "onSecondaryDarkest": "#ffffff",
     "background": "#fafafa",
     "onBackground": "#333333",
     "surface": "#ffffff",
