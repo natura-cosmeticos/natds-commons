@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.44.10](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.7...@naturacosmeticos/natds-themes@0.44.10) (2023-02-13)
+
+
+### Bug Fixes
+
+* **natds-themes:** hamonization aesop theme ([70e83ff](https://github.com/natura-cosmeticos/natds-commons/commit/70e83ff9fd47598bd87b11632de408b197b9e86f))
+* **natds-themes:** harm the body shop theme ([2ef201c](https://github.com/natura-cosmeticos/natds-commons/commit/2ef201c1f0974c8332187f07e87e5f92a9a667fc))
+* **natds-themes:** harmonization avon theme ([ade2c38](https://github.com/natura-cosmeticos/natds-commons/commit/ade2c38152237a10fa70f48b28cfb58a312ceaa1))
+* **natds-themes:** version change pkg ([fbf1ea7](https://github.com/natura-cosmeticos/natds-commons/commit/fbf1ea7b310eb47f98c6649e7f27132bd98b979e))
+
+
+
+
+
 ## [0.44.7](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.6...@naturacosmeticos/natds-themes@0.44.7) (2023-02-06)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
