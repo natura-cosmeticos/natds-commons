@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.45.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.10...@naturacosmeticos/natds-themes@0.45.0) (2023-02-14)
+
+
+### Features
+
+* **natds-themes:** add version 0.44.11 ([f7445e0](https://github.com/natura-cosmeticos/natds-commons/commit/f7445e06bd41883be961ba16d539b24ff0026019))
+* **natds-themes:** resize SVGs cb ([44e478b](https://github.com/natura-cosmeticos/natds-commons/commit/44e478b59f583f8751ce9491109a0b2bc92fd30b))
+
+
+
+
+
 ## [0.44.10](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.7...@naturacosmeticos/natds-themes@0.44.10) (2023-02-13)
 
 
