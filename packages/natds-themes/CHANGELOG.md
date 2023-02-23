@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.45.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.45.0...@naturacosmeticos/natds-themes@0.45.2) (2023-02-23)
+
+
+### Bug Fixes
+
+* **natds-themes:** add fill in svg ([c5bcac7](https://github.com/natura-cosmeticos/natds-commons/commit/c5bcac74eeb2c8ee7dcc45453d0b12cb97609317))
+
+
+
+
+
 # [0.45.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.44.10...@naturacosmeticos/natds-themes@0.45.0) (2023-02-14)
 
 
