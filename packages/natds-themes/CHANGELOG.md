@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.46.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.45.2...@naturacosmeticos/natds-themes@0.46.0) (2023-03-09)
+
+
+### Bug Fixes
+
+* **natds-themes:** change version 0.45.2 to 0.45.3 ([536eb9a](https://github.com/natura-cosmeticos/natds-commons/commit/536eb9a04e35715f1c30157a73a9f2e6dc783650))
+
+
+### Features
+
+* **natds-themes:** add new logo Cons de Bel ([854ecb6](https://github.com/natura-cosmeticos/natds-commons/commit/854ecb6858344d9832918dbfc74c440cdb3847de))
+
+
+
+
+
 ## [0.45.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.45.0...@naturacosmeticos/natds-themes@0.45.2) (2023-02-23)
 
 
