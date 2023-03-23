@@ -14,6 +14,8 @@ import webConsultoriaDeBelezaDark from '../../tokens/web/search/consultoriaDeBel
 import webConsultoriaDeBelezaLight from '../../tokens/web/search/consultoriaDeBeleza/light'
 import webNaturaV2Dark from '../../tokens/web/search/natura_v2/dark'
 import webNaturaV2Light from '../../tokens/web/search/natura_v2/light'
+import webCasaEestiloDark from '../../tokens/web/search/casaEestilo/dark'
+import webCasaEestiloLight from '../../tokens/web/search/casaEestilo/light'
 
 import reactNativeAesopDark from '../../tokens/react-native/search/aesop/dark'
 import reactNativeAesopLight from '../../tokens/react-native/search/aesop/light'
@@ -25,6 +27,8 @@ import reactNativeNaturaDark from '../../tokens/react-native/search/natura/dark'
 import reactNativeNaturaLight from '../../tokens/react-native/search/natura/light'
 import reactNativeTheBodyShopDark from '../../tokens/react-native/search/theBodyShop/dark'
 import reactNativeTheBodyShopLight from '../../tokens/react-native/search/theBodyShop/light'
+import reactNativeCasaEestiloDark from '../../tokens/react-native/search/casaEestilo/dark'
+import reactNativeCasaEestiloLight from '../../tokens/react-native/search/casaEestilo/light'
 
 import reactNativeConsultoriaDeBelezaDark from '../../tokens/react-native/search/consultoriaDeBeleza/dark'
 import reactNativeConsultoriaDeBelezaLight from '../../tokens/react-native/search/consultoriaDeBeleza/light'
@@ -46,6 +50,8 @@ import androidConsultoriaDeBelezaDark from '../../tokens/android/search/consulto
 import androidConsultoriaDeBelezaLight from '../../tokens/android/search/consultoria_de_beleza/light'
 import androidNaturaV2Dark from '../../tokens/android/search/natura_v2/dark'
 import androidNaturaV2Light from '../../tokens/android/search/natura_v2/light'
+import androidCasaEestiloDark from '../../tokens/android/search/casaEestilo/dark'
+import androidCasaEestiloLight from '../../tokens/android/search/casaEestilo/light'
 
 import iosAesopDark from '../../tokens/ios/search/aesop/dark'
 import iosAesopLight from '../../tokens/ios/search/aesop/light'
@@ -62,6 +68,8 @@ import iosConsultoriaDeBelezaDark from '../../tokens/ios/search/consultoriaDeBel
 import iosConsultoriaDeBelezaLight from '../../tokens/ios/search/consultoriaDeBeleza/light'
 import iosNaturaV2Dark from '../../tokens/ios/search/natura_v2/dark'
 import iosNaturaV2Light from '../../tokens/ios/search/natura_v2/light'
+import iosCasaEestiloDark from '../../tokens/ios/search/casaEestilo/dark'
+import iosCasaEestiloLight from '../../tokens/ios/search/casaEestilo/light'
 
 import { buildTokensForBrand } from '../helpers'
 
@@ -73,7 +81,8 @@ export const tokens = {
     ...buildTokensForBrand('natura')([androidNaturaLight, androidNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([androidTheBodyShopLight, androidTheBodyShopDark]),
     ...buildTokensForBrand('consultoriaDeBeleza')([androidConsultoriaDeBelezaLight, androidConsultoriaDeBelezaDark]),
-    ...buildTokensForBrand('consultoriaDeBeleza')([androidNaturaV2Light, androidNaturaV2Dark])
+    ...buildTokensForBrand('natura_v2')([androidNaturaV2Light, androidNaturaV2Dark]),
+    ...buildTokensForBrand('casaEestilo')([androidCasaEestiloLight, androidCasaEestiloDark])
   },
   ios: {
     ...buildTokensForBrand('aesop')([iosAesopLight, iosAesopDark]),
@@ -81,8 +90,9 @@ export const tokens = {
     ...buildTokensForBrand('biome')([iosBiomeLight, iosBiomeDark]),
     ...buildTokensForBrand('natura')([iosNaturaLight, iosNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([iosTheBodyShopLight, iosTheBodyShopDark]),
-    ...buildTokensForBrand('theBodyShop')([iosConsultoriaDeBelezaLight, iosConsultoriaDeBelezaDark]),
-    ...buildTokensForBrand('theBodyShop')([iosNaturaV2Light, iosNaturaV2Dark])
+    ...buildTokensForBrand('consultoriaDeBeleza')([iosConsultoriaDeBelezaLight, iosConsultoriaDeBelezaDark]),
+    ...buildTokensForBrand('natura_v2')([iosNaturaV2Light, iosNaturaV2Dark]),
+    ...buildTokensForBrand('casaEestilo')([iosCasaEestiloLight, iosCasaEestiloDark])
   },
   reactNative: {
     ...buildTokensForBrand('aesop')([reactNativeAesopLight, reactNativeAesopDark]),
@@ -91,7 +101,8 @@ export const tokens = {
     ...buildTokensForBrand('natura')([reactNativeNaturaLight, reactNativeNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([reactNativeTheBodyShopLight, reactNativeTheBodyShopDark]),
     ...buildTokensForBrand('consultoriaDeBeleza')([reactNativeConsultoriaDeBelezaLight, reactNativeConsultoriaDeBelezaDark]),
-    ...buildTokensForBrand('natura_v2')([reactNativeNaturaV2Light, reactNativeNaturaV2Dark])
+    ...buildTokensForBrand('natura_v2')([reactNativeNaturaV2Light, reactNativeNaturaV2Dark]),
+    ...buildTokensForBrand('casaEestilo')([reactNativeCasaEestiloLight, reactNativeCasaEestiloDark])
   },
   web: {
     ...buildTokensForBrand('aesop')([webAesopLight, webAesopDark]),
@@ -100,7 +111,8 @@ export const tokens = {
     ...buildTokensForBrand('natura')([webNaturaLight, webNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([webTheBodyShopLight, webTheBodyShopDark]),
     ...buildTokensForBrand('consultoriaDeBeleza')([webConsultoriaDeBelezaLight, webConsultoriaDeBelezaDark]),
-    ...buildTokensForBrand('natura_v2')([webNaturaV2Light, webNaturaV2Dark])
+    ...buildTokensForBrand('natura_v2')([webNaturaV2Light, webNaturaV2Dark]),
+    ...buildTokensForBrand('casaEestilo')([webCasaEestiloLight, webCasaEestiloDark])
   }
 }
 
