@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.48.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.46.2...@naturacosmeticos/natds-themes@0.48.0) (2023-03-23)
+
+
+### Bug Fixes
+
+* **natds-themes:** change name casaeestilo ([be11e29](https://github.com/natura-cosmeticos/natds-commons/commit/be11e295186fad8f1418b04d3b23e5220c179fe9))
+* **natds-themes:** remove plural in pngs file ([6711fd6](https://github.com/natura-cosmeticos/natds-commons/commit/6711fd609e8df9965826c858df08341854ae80bf))
+* **natds-themes:** remove plural name ([117e9e9](https://github.com/natura-cosmeticos/natds-commons/commit/117e9e9933fcb5247c2eea842ef8db4b3fc47509))
+
+
+### Features
+
+* **natds-themes:** add logo casaEestilo ([03007f4](https://github.com/natura-cosmeticos/natds-commons/commit/03007f465c606aea8ecfde373d8c29e261edc137))
+* **natds-themes:** add name casaeestilo in assets ([f0e04fb](https://github.com/natura-cosmeticos/natds-commons/commit/f0e04fb579b9b538978f021a83aecb742d0604ad))
+* **natds-themes:** casaEestilo in file constants ([0f652ec](https://github.com/natura-cosmeticos/natds-commons/commit/0f652ec8377cd5c3e9de420c15c4d6b6111f95b8))
+* **natds-themes:** create theme casaEestilo ([5a07c02](https://github.com/natura-cosmeticos/natds-commons/commit/5a07c02e38335cb997598c02abe4de513ceb076a))
+* **natds-themes:** export brand casaEestilo ([9d4fbeb](https://github.com/natura-cosmeticos/natds-commons/commit/9d4fbebd3566ccc629b21449312f93fb145b83a2))
+* **natds-themes:** version 0.46.2 to 0.47.0 ([98bd2e9](https://github.com/natura-cosmeticos/natds-commons/commit/98bd2e974b689fa5a1c46b86773fd0974e2dac9d))
+
+
+
+
+
 ## [0.46.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.46.0...@naturacosmeticos/natds-themes@0.46.2) (2023-03-20)
 
 
