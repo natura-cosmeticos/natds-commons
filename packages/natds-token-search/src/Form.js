@@ -10,7 +10,8 @@ const brands = [
   'natura',
   'theBodyShop',
   'consultoriaDeBeleza',
-  'natura_v2'
+  'natura_v2',
+  'casaEestilo'
 ]
 
 const modes = ['light', 'dark']

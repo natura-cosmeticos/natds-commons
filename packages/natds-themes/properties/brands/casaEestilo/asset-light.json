@@ -1,0 +1,54 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "casaeestilo-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
+        },
+        "b": {
+          "file": {
+            "value": "casaeestilo-a-official"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "casaeestilo-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
+        },
+        "b": {
+          "file": {
+            "value": "casaeestilo-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
+        }
+      }
+    }
+  }
+}
