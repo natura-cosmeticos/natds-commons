@@ -4,7 +4,7 @@
       "neutral":{
         "a": {
           "file": {
-            "value": "casaseestilo-a-official"
+            "value": "casaeestilo-a-official"
           },
           "width": {
             "value": 256
@@ -15,7 +15,7 @@
         },
         "b": {
           "file": {
-            "value": "casaseestilo-a-official"
+            "value": "casaeestilo-a-official"
           },
           "width": {
             "value": 256
@@ -28,7 +28,7 @@
       "custom":{
         "a": {
           "file": {
-            "value": "casaseestilo-a-custom"
+            "value": "casaeestilo-a-custom"
           },
           "width": {
             "value": 256
@@ -39,7 +39,7 @@
         },
         "b": {
           "file": {
-            "value": "casaseestilo-a-custom"
+            "value": "casaeestilo-a-custom"
           },
           "width": {
             "value": 256
