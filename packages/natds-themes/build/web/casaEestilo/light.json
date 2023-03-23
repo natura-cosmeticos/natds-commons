@@ -1,0 +1,1072 @@
+{
+  "borderRadius": {
+    "none": 0,
+    "small": 2,
+    "medium": 4,
+    "large": 8
+  },
+  "alert": {
+    "title": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "content": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": 4
+  },
+  "appBarTop": {
+    "title": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.25,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "avatar": {
+    "standard": {
+      "fontSize": 12,
+      "letterSpacing": 0,
+      "lineHeight": 1.5,
+      "borderRadius": 12
+    },
+    "semi": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "borderRadius": 16
+    },
+    "semiX": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.5,
+      "borderRadius": 20
+    },
+    "medium": {
+      "fontSize": 24,
+      "letterSpacing": 0,
+      "lineHeight": 1.5,
+      "borderRadius": 24
+    },
+    "largeXXX": {
+      "fontSize": 48,
+      "letterSpacing": 0,
+      "lineHeight": 1.5,
+      "borderRadius": 44
+    },
+    "primary": {
+      "fontFamily": "Roboto",
+      "fontWeight": 400
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
+    },
+    "color": {
+      "background": "#c2488e",
+      "label": "#ffffff"
+    }
+  },
+  "badge": {
+    "label": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "standard": {
+      "height": 16,
+      "borderRadius": 8
+    },
+    "dot": {
+      "height": 8,
+      "borderRadius": 4
+    },
+    "color": {
+      "primary": {
+        "label": "#ffffff",
+        "background": "#c2488e"
+      },
+      "secondary": {
+        "label": "#ffffff",
+        "background": "#6221bd"
+      },
+      "success": {
+        "label": "#ffffff",
+        "background": "#569a32"
+      },
+      "alert": {
+        "label": "#ffffff",
+        "background": "#e74627"
+      }
+    }
+  },
+  "button": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 1.23,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 500
+      }
+    },
+    "borderRadius": 4,
+    "contained": {
+      "color": {
+        "enable": {
+          "background": "#c2488e",
+          "border": "#FFFFFF00",
+          "label": "#ffffff"
+        },
+        "disable": {
+          "background": "#bbbbbb",
+          "border": "#FFFFFF00",
+          "label": "#333333"
+        },
+        "hover": {
+          "background": "#a33c77",
+          "border": "#FFFFFF00",
+          "label": "#ffffff"
+        },
+        "focus": {
+          "background": "#843161",
+          "border": "#FFFFFF00",
+          "label": "#ffffff"
+        }
+      }
+    },
+    "outlined": {
+      "color": {
+        "enable": {
+          "background": "#FFFFFF00",
+          "border": "#c2488e",
+          "label": "#333333"
+        },
+        "disable": {
+          "background": "#FFFFFF00",
+          "border": "#bbbbbb",
+          "label": "#777777"
+        },
+        "hover": {
+          "background": "#f1f3f5",
+          "border": "#c2488e",
+          "label": "#333333"
+        },
+        "focus": {
+          "background": "#e9ecef",
+          "border": "#c2488e",
+          "label": "#333333"
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "enable": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#333333"
+        },
+        "disable": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#777777"
+        },
+        "hover": {
+          "background": "#f1f3f5",
+          "border": "#FFFFFF00",
+          "label": "#333333"
+        },
+        "focus": {
+          "background": "#e9ecef",
+          "border": "#FFFFFF00",
+          "label": "#333333"
+        }
+      }
+    }
+  },
+  "card": {
+    "borderRadius": {
+      "enable": 4,
+      "disable": 0
+    },
+    "color": {
+      "background": "#ffffff"
+    }
+  },
+  "checkbox": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": 2
+  },
+  "counter": {
+    "label": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 14,
+      "letterSpacing": 0.11,
+      "lineHeight": 1.25
+    },
+    "content": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.25
+    },
+    "borderRadius": 4
+  },
+  "dialog": {
+    "title": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.25,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "body": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": 4,
+    "color": {
+      "background": "#ffffff",
+      "title": "#000000"
+    }
+  },
+  "divider": {
+    "color": {
+      "background": "#bbbbbb"
+    }
+  },
+  "expansionPanel": {
+    "title": {
+      "fontSize": 16,
+      "letterSpacing": 0.13,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": 4
+  },
+  "iconButton": {
+    "semi": {
+      "borderRadius": 16
+    },
+    "semiX": {
+      "borderRadius": 20
+    },
+    "medium": {
+      "borderRadius": 24
+    },
+    "standard": {
+      "color": {
+        "enable": {
+          "background": "#FFFFFF00"
+        },
+        "disable": {
+          "background": "#FFFFFF00"
+        },
+        "hover": {
+          "background": "#f1f3f5"
+        },
+        "focus": {
+          "background": "#e9ecef"
+        }
+      }
+    },
+    "float": {
+      "color": {
+        "enable": {
+          "background": "#ffffff"
+        },
+        "disable": {
+          "background": "#bbbbbb"
+        },
+        "hover": {
+          "background": "#f1f3f5"
+        },
+        "focus": {
+          "background": "#e9ecef"
+        }
+      }
+    },
+    "overlay": {
+      "color": {
+        "enable": {
+          "background": "#000000"
+        },
+        "disable": {
+          "background": "#000000"
+        },
+        "hover": {
+          "background": "#000000"
+        },
+        "focus": {
+          "background": "#000000"
+        }
+      }
+    }
+  },
+  "image": {
+    "borderRadius": {
+      "medium": 4,
+      "none": 0
+    }
+  },
+  "link": {
+    "label": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "color": {
+      "label": {
+        "enable": {
+          "default": "#227bbd",
+          "light": "#bbbbbb"
+        }
+      }
+    }
+  },
+  "navigationDrawer": {
+    "header": {
+      "title": {
+        "fontSize": 20,
+        "letterSpacing": 0.24,
+        "lineHeight": 1.25,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 500
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      },
+      "subtitle": {
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    },
+    "section": {
+      "title": {
+        "fontSize": 12,
+        "letterSpacing": 0.38,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      },
+      "item": {
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    }
+  },
+  "progressIndicator": {
+    "standard": {
+      "borderRadius": 12
+    },
+    "semi": {
+      "borderRadius": 16
+    },
+    "medium": {
+      "borderRadius": 24
+    },
+    "large": {
+      "borderRadius": 32
+    },
+    "color": {
+      "stroke": "#c2488e",
+      "layer": "#ffffff"
+    }
+  },
+  "radioButton": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": 12,
+    "color": {
+      "select": {
+        "border": "#c2488e",
+        "content": "#c2488e"
+      },
+      "unselect": {
+        "border": "#000000",
+        "content": "#000000"
+      },
+      "disable": {
+        "border": "#bbbbbb",
+        "content": "#bbbbbb"
+      }
+    }
+  },
+  "rating": {
+    "counter": {
+      "label": {
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    },
+    "input": {
+      "label": {
+        "fontSize": 12,
+        "letterSpacing": 0.38,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    }
+  },
+  "shortcut": {
+    "label": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "contained": {
+      "color": {
+        "enable": {
+          "primary": {
+            "background": "#c2488e",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#ffffff",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          }
+        },
+        "disable": {
+          "primary": {
+            "background": "#bbbbbb",
+            "border": "#FFFFFF00",
+            "label": "#777777"
+          },
+          "neutral": {
+            "background": "#bbbbbb",
+            "border": "#FFFFFF00",
+            "label": "#777777"
+          }
+        },
+        "hover": {
+          "primary": {
+            "background": "#a33c77",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#f1f3f5",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          }
+        },
+        "focus": {
+          "primary": {
+            "background": "#843161",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#e9ecef",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          }
+        }
+      }
+    },
+    "outlined": {
+      "color": {
+        "enable": {
+          "primary": {
+            "background": "#FFFFFF00",
+            "border": "#c2488e",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#FFFFFF00",
+            "border": "#bbbbbb",
+            "label": "#333333"
+          }
+        },
+        "disable": {
+          "primary": {
+            "background": "#ffffff",
+            "border": "#bbbbbb",
+            "label": "#bbbbbb"
+          },
+          "neutral": {
+            "background": "#ffffff",
+            "border": "#bbbbbb",
+            "label": "#bbbbbb"
+          }
+        },
+        "hover": {
+          "primary": {
+            "background": "#f1f3f5",
+            "border": "#a33c77",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#f1f3f5",
+            "border": "#777777",
+            "label": "#333333"
+          }
+        },
+        "focus": {
+          "primary": {
+            "background": "#e9ecef",
+            "border": "#a33c77",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#e9ecef",
+            "border": "#777777",
+            "label": "#333333"
+          }
+        }
+      }
+    },
+    "borderRadius": 28
+  },
+  "snackbar": {
+    "content": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "borderRadius": 4
+  },
+  "tab": {
+    "label": {
+      "fontSize": 14,
+      "letterSpacing": 1.23,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "tag": {
+    "label": {
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.25,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "small": {
+      "borderRadius": {
+        "enable": 8,
+        "disable": 0
+      }
+    },
+    "standard": {
+      "borderRadius": {
+        "enable": 12,
+        "disable": 0
+      }
+    },
+    "color": {
+      "background": {
+        "primary": "#c2488e",
+        "secondary": "#6221bd",
+        "success": "#569a32",
+        "alert": "#e74627",
+        "warning": "#fcc433",
+        "link": "#227bbd"
+      },
+      "label": {
+        "primary": "#ffffff",
+        "secondary": "#ffffff",
+        "success": "#ffffff",
+        "alert": "#ffffff",
+        "warning": "#333333",
+        "link": "#ffffff"
+      }
+    }
+  },
+  "textField": {
+    "label": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 14,
+      "letterSpacing": 0.11,
+      "lineHeight": 1.5
+    },
+    "content": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.25
+    },
+    "helperText": {
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      },
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.25
+    },
+    "borderRadius": 4
+  },
+  "heading1": {
+    "fontSize": 96,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0
+  },
+  "heading2": {
+    "fontSize": 60,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0
+  },
+  "heading3": {
+    "fontSize": 48,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0
+  },
+  "heading4": {
+    "fontSize": 34,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.27
+  },
+  "heading5": {
+    "fontSize": 24,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0
+  },
+  "heading6": {
+    "fontSize": 20,
+    "fontWeight": 500,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.24
+  },
+  "subtitle1": {
+    "fontSize": 16,
+    "fontWeight": 500,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.13
+  },
+  "subtitle2": {
+    "fontSize": 14,
+    "fontWeight": 500,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.11
+  },
+  "body1": {
+    "fontSize": 16,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.51
+  },
+  "body2": {
+    "fontSize": 14,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.22
+  },
+  "caption": {
+    "fontSize": 12,
+    "fontWeight": 400,
+    "lineHeight": 1.5,
+    "letterSpacing": 0.38
+  },
+  "overline": {
+    "fontSize": 12,
+    "fontWeight": 500,
+    "lineHeight": 1.5,
+    "letterSpacing": 1.92
+  },
+  "opacity": {
+    "transparent": 0,
+    "lower": 0.04,
+    "veryLow": 0.08,
+    "low": 0.12,
+    "mediumLow": 0.16,
+    "disabledLow": 0.24,
+    "disabled": 0.32,
+    "medium": 0.48,
+    "mediumHigh": 0.56,
+    "high": 0.64,
+    "veryHigh": 0.8,
+    "opaque": 1
+  },
+  "size": {
+    "none": 0,
+    "micro": 4,
+    "tiny": 8,
+    "small": 16,
+    "standard": 24,
+    "semi": 32,
+    "semiX": 40,
+    "medium": 48,
+    "mediumX": 56,
+    "large": 64,
+    "largeX": 72,
+    "largeXX": 80,
+    "largeXXX": 88,
+    "huge": 96,
+    "hugeX": 128,
+    "hugeXX": 144,
+    "hugeXXX": 192,
+    "veryHuge": 256
+  },
+  "typography": {
+    "fontSize": {
+      "level1": 13,
+      "level2": 14,
+      "level3": 16,
+      "level4": 18,
+      "level5": 20,
+      "level6": 23,
+      "level7": 26,
+      "level8": 29,
+      "level9": 32,
+      "level10": 36,
+      "level11": 41,
+      "level12": 46,
+      "level13": 52,
+      "level14": 58,
+      "level15": 66,
+      "level16": 74,
+      "level17": 83
+    },
+    "lineHeight": {
+      "auto": 1,
+      "reset": 1,
+      "small": 1.25,
+      "medium": 1.5,
+      "large": 2
+    },
+    "fontFamily": {
+      "primary": "Roboto",
+      "secondary": "sans-serif",
+      "branding": "Roboto",
+      "code": "Roboto Mono"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500
+    },
+    "display": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 700
+    },
+    "headline": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 600
+    },
+    "body": {
+      "regular": {
+        "fontFamily": "Montserrat",
+        "fontWeight": 400
+      },
+      "bold": {
+        "fontFamily": "Montserrat",
+        "fontWeight": 700
+      }
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
+    }
+  },
+  "spacing": {
+    "none": 0,
+    "micro": 4,
+    "tiny": 8,
+    "small": 16,
+    "standard": 24,
+    "semi": 32,
+    "large": 48,
+    "xLarge": 64
+  },
+  "color": {
+    "neutral50": "#f8f9fa",
+    "neutral100": "#f1f3f5",
+    "neutral200": "#e9ecef",
+    "neutral300": "#dee2e6",
+    "neutral400": "#ced4da",
+    "neutral500": "#adb5bd",
+    "neutral600": "#868e96",
+    "neutral700": "#495057",
+    "neutral800": "#343a40",
+    "neutral900": "#212529",
+    "primary": "#c2488e",
+    "onPrimary": "#ffffff",
+    "primaryLight": "#cc65a0",
+    "onPrimaryLight": "#ffffff",
+    "primaryLightest": "#D683B2",
+    "onPrimaryLightest": "#ffffff",
+    "primaryDark": "#a33c77",
+    "onPrimaryDark": "#ffffff",
+    "primaryDarkest": "#843161",
+    "onPrimaryDarkest": "#ffffff",
+    "secondary": "#6221bd",
+    "onSecondary": "#ffffff",
+    "secondaryLight": "#7d51cc",
+    "onSecondaryLight": "#ffffff",
+    "secondaryLightest": "#9672d6",
+    "onSecondaryLightest": "#ffffff",
+    "secondaryDark": "#5428a3",
+    "onSecondaryDark": "#ffffff",
+    "secondaryDarkest": "#442184",
+    "onSecondaryDarkest": "#ffffff",
+    "background": "#fafafa",
+    "onBackground": "#333333",
+    "surface": "#ffffff",
+    "onSurface": "#333333",
+    "highlight": "#000000",
+    "highEmphasis": "#333333",
+    "mediumEmphasis": "#777777",
+    "lowEmphasis": "#bbbbbb",
+    "link": "#227bbd",
+    "onLink": "#ffffff",
+    "success": "#569a32",
+    "onSuccess": "#ffffff",
+    "warning": "#fcc433",
+    "onWarning": "#333333",
+    "alert": "#e74627",
+    "onAlert": "#ffffff"
+  },
+  "asset": {
+    "font": {
+      "file": {
+        "display": "montserrat_bold",
+        "headline": "montserrat_semi_bold",
+        "body": {
+          "regular": "montserrat_regular",
+          "bold": "montserrat_bold"
+        }
+      }
+    },
+    "brand": {
+      "neutral": {
+        "a": {
+          "file": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"256\" height=\"111.51\" viewBox=\"0 0 256 111.51\"><path d=\"M211.52 34.46c0 9.21 6.9 14.27 16.31 14.27 6.85 0 10.86-1.31 14.48-4.4l5 4.93 7.63-7.23-5.46-5.33c2.3-3.09 3.35-7.63 3.35-11.65h-10.32c.07 1.78-.13 3.16-.53 4.28l-4.87-4.74c4.8-2.37 8.48-7.17 8.48-11.38 0-8.48-6.57-12.75-13.94-12.75-7.83 0-15.92 4.21-15.92 12.29 0 3.62 1.05 5.86 4.21 9.34-4.74 2.5-8.42 7.11-8.42 12.37zm22.76-21.39c0 2.11-1.25 4.61-3.49 5.59-1.91-1.71-3.16-3.03-3.16-5.4 0-1.97 1.18-3.75 3.55-3.75 2.11 0 3.1 1.65 3.1 3.55zm-9.94 20.27c0-1.84.99-3.36 2.57-4.21l.33.33 7.7 7.57c-1.18.92-2.7 1.38-4.28 1.38-3.16 0-6.32-1.78-6.32-5.07zM1.12 110.46h37.33V99.45h-24.2v-6.33h18.73V82.44H14.25v-7.45h22.82V63.98H1.12v46.49zm64.76 1.06c6.46 0 11.21-1.31 14.25-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.38-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.15 0-10.8 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.49 5.97 4.58 2.53 1.1 5.73 2.02 9.59 2.77 2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.58-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.95 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm37.52-1.06h13.52V75.18h13.58V63.97H89.75v11.21h13.65v35.28zm36.27 0h13.52V63.97h-13.52v46.49zm25.19 0h35.48V98.79h-21.96V63.97h-13.52v46.49zm66.27 1.06c4.97 0 9.33-1.02 13.09-3.07 3.76-2.04 6.66-4.91 8.7-8.61 2.05-3.69 3.07-7.89 3.07-12.6s-1.02-8.96-3.07-12.63c-2.04-3.67-4.94-6.54-8.7-8.61-3.76-2.07-8.12-3.1-13.09-3.1s-9.33 1.03-13.09 3.1c-3.76 2.07-6.66 4.94-8.71 8.61-2.04 3.67-3.07 7.88-3.07 12.63s1.02 8.9 3.07 12.6c2.05 3.69 4.95 6.56 8.71 8.61 3.76 2.04 8.12 3.07 13.09 3.07zm0-12c-3.25 0-5.88-1.13-7.88-3.4-2-2.26-3-5.22-3-8.87s1-6.62 3-8.9c2-2.29 4.63-3.43 7.88-3.43s5.95 1.13 7.95 3.4c2 2.26 3 5.24 3 8.94s-1 6.61-3 8.87c-2 2.26-4.65 3.4-7.95 3.4zM24.73 48.54c4.66 0 8.66-.77 12-2.31a24.21 24.21 0 0 0 8.57-6.59L34.95 31.2c-.97 1.67-2.27 2.97-3.89 3.89-1.63.92-3.54 1.39-5.74 1.39-3.65 0-6.46-1.09-8.44-3.26-1.98-2.18-2.97-5.18-2.97-9s.99-6.74 2.97-8.87c1.98-2.13 4.79-3.2 8.44-3.2 2.15 0 4.04.46 5.67 1.38 1.63.92 2.95 2.22 3.96 3.89L45.3 8.98c-2.33-2.81-5.24-5.01-8.74-6.59S29.12.02 24.72.02c-5.14 0-9.57.97-13.29 2.9-3.72 1.94-6.55 4.73-8.51 8.37C.96 14.94-.02 19.25-.02 24.22s.98 9.34 2.94 12.99c1.96 3.65 4.79 6.45 8.51 8.41 3.71 1.96 8.14 2.93 13.29 2.93zm60.74-1.05h14.38L77.36.86H70.1L47.68 47.48h14.31l2.9-6.66h17.67l2.9 6.66zM73.73 17.88l4.94 12.79h-9.89l4.95-12.79zm51.77 30.66c6.46 0 11.21-1.31 14.24-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.39-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.16 0-10.81 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.48 5.97 4.58s5.73 2.02 9.6 2.77c2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.59-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.94 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm60.01-1.05h14.38L177.4.86h-7.25l-22.42 46.62h14.31l2.9-6.66h17.67l2.9 6.66zm-11.74-29.61 4.95 12.79h-9.89l4.94-12.79z\"/></svg>",
+          "width": 256,
+          "height": 58
+        },
+        "b": {
+          "file": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"256\" height=\"111.51\" viewBox=\"0 0 256 111.51\"><path d=\"M211.52 34.46c0 9.21 6.9 14.27 16.31 14.27 6.85 0 10.86-1.31 14.48-4.4l5 4.93 7.63-7.23-5.46-5.33c2.3-3.09 3.35-7.63 3.35-11.65h-10.32c.07 1.78-.13 3.16-.53 4.28l-4.87-4.74c4.8-2.37 8.48-7.17 8.48-11.38 0-8.48-6.57-12.75-13.94-12.75-7.83 0-15.92 4.21-15.92 12.29 0 3.62 1.05 5.86 4.21 9.34-4.74 2.5-8.42 7.11-8.42 12.37zm22.76-21.39c0 2.11-1.25 4.61-3.49 5.59-1.91-1.71-3.16-3.03-3.16-5.4 0-1.97 1.18-3.75 3.55-3.75 2.11 0 3.1 1.65 3.1 3.55zm-9.94 20.27c0-1.84.99-3.36 2.57-4.21l.33.33 7.7 7.57c-1.18.92-2.7 1.38-4.28 1.38-3.16 0-6.32-1.78-6.32-5.07zM1.12 110.46h37.33V99.45h-24.2v-6.33h18.73V82.44H14.25v-7.45h22.82V63.98H1.12v46.49zm64.76 1.06c6.46 0 11.21-1.31 14.25-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.38-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.15 0-10.8 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.49 5.97 4.58 2.53 1.1 5.73 2.02 9.59 2.77 2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.58-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.95 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm37.52-1.06h13.52V75.18h13.58V63.97H89.75v11.21h13.65v35.28zm36.27 0h13.52V63.97h-13.52v46.49zm25.19 0h35.48V98.79h-21.96V63.97h-13.52v46.49zm66.27 1.06c4.97 0 9.33-1.02 13.09-3.07 3.76-2.04 6.66-4.91 8.7-8.61 2.05-3.69 3.07-7.89 3.07-12.6s-1.02-8.96-3.07-12.63c-2.04-3.67-4.94-6.54-8.7-8.61-3.76-2.07-8.12-3.1-13.09-3.1s-9.33 1.03-13.09 3.1c-3.76 2.07-6.66 4.94-8.71 8.61-2.04 3.67-3.07 7.88-3.07 12.63s1.02 8.9 3.07 12.6c2.05 3.69 4.95 6.56 8.71 8.61 3.76 2.04 8.12 3.07 13.09 3.07zm0-12c-3.25 0-5.88-1.13-7.88-3.4-2-2.26-3-5.22-3-8.87s1-6.62 3-8.9c2-2.29 4.63-3.43 7.88-3.43s5.95 1.13 7.95 3.4c2 2.26 3 5.24 3 8.94s-1 6.61-3 8.87c-2 2.26-4.65 3.4-7.95 3.4zM24.73 48.54c4.66 0 8.66-.77 12-2.31a24.21 24.21 0 0 0 8.57-6.59L34.95 31.2c-.97 1.67-2.27 2.97-3.89 3.89-1.63.92-3.54 1.39-5.74 1.39-3.65 0-6.46-1.09-8.44-3.26-1.98-2.18-2.97-5.18-2.97-9s.99-6.74 2.97-8.87c1.98-2.13 4.79-3.2 8.44-3.2 2.15 0 4.04.46 5.67 1.38 1.63.92 2.95 2.22 3.96 3.89L45.3 8.98c-2.33-2.81-5.24-5.01-8.74-6.59S29.12.02 24.72.02c-5.14 0-9.57.97-13.29 2.9-3.72 1.94-6.55 4.73-8.51 8.37C.96 14.94-.02 19.25-.02 24.22s.98 9.34 2.94 12.99c1.96 3.65 4.79 6.45 8.51 8.41 3.71 1.96 8.14 2.93 13.29 2.93zm60.74-1.05h14.38L77.36.86H70.1L47.68 47.48h14.31l2.9-6.66h17.67l2.9 6.66zM73.73 17.88l4.94 12.79h-9.89l4.95-12.79zm51.77 30.66c6.46 0 11.21-1.31 14.24-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.39-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.16 0-10.81 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.48 5.97 4.58s5.73 2.02 9.6 2.77c2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.59-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.94 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm60.01-1.05h14.38L177.4.86h-7.25l-22.42 46.62h14.31l2.9-6.66h17.67l2.9 6.66zm-11.74-29.61 4.95 12.79h-9.89l4.94-12.79z\"/></svg>",
+          "width": 256,
+          "height": 58
+        }
+      },
+      "custom": {
+        "a": {
+          "file": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" width=\"256\" height=\"111.51\" viewBox=\"0 0 256 111.51\"><path d=\"M211.52 34.46c0 9.21 6.9 14.27 16.31 14.27 6.85 0 10.86-1.31 14.48-4.4l5 4.93 7.63-7.23-5.46-5.33c2.3-3.09 3.35-7.63 3.35-11.65h-10.32c.07 1.78-.13 3.16-.53 4.28l-4.87-4.74c4.8-2.37 8.48-7.17 8.48-11.38 0-8.48-6.57-12.75-13.94-12.75-7.83 0-15.92 4.21-15.92 12.29 0 3.62 1.05 5.86 4.21 9.34-4.74 2.5-8.42 7.11-8.42 12.37zm22.76-21.39c0 2.11-1.25 4.61-3.49 5.59-1.91-1.71-3.16-3.03-3.16-5.4 0-1.97 1.18-3.75 3.55-3.75 2.11 0 3.1 1.65 3.1 3.55zm-9.94 20.27c0-1.84.99-3.36 2.57-4.21l.33.33 7.7 7.57c-1.18.92-2.7 1.38-4.28 1.38-3.16 0-6.32-1.78-6.32-5.07zM1.12 110.46h37.33V99.45h-24.2v-6.33h18.73V82.44H14.25v-7.45h22.82V63.98H1.12v46.49zm64.76 1.06c6.46 0 11.21-1.31 14.25-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.38-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.15 0-10.8 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.49 5.97 4.58 2.53 1.1 5.73 2.02 9.59 2.77 2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.58-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.95 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm37.52-1.06h13.52V75.18h13.58V63.97H89.75v11.21h13.65v35.28zm36.27 0h13.52V63.97h-13.52v46.49zm25.19 0h35.48V98.79h-21.96V63.97h-13.52v46.49zm66.27 1.06c4.97 0 9.33-1.02 13.09-3.07 3.76-2.04 6.66-4.91 8.7-8.61 2.05-3.69 3.07-7.89 3.07-12.6s-1.02-8.96-3.07-12.63c-2.04-3.67-4.94-6.54-8.7-8.61-3.76-2.07-8.12-3.1-13.09-3.1s-9.33 1.03-13.09 3.1c-3.76 2.07-6.66 4.94-8.71 8.61-2.04 3.67-3.07 7.88-3.07 12.63s1.02 8.9 3.07 12.6c2.05 3.69 4.95 6.56 8.71 8.61 3.76 2.04 8.12 3.07 13.09 3.07zm0-12c-3.25 0-5.88-1.13-7.88-3.4-2-2.26-3-5.22-3-8.87s1-6.62 3-8.9c2-2.29 4.63-3.43 7.88-3.43s5.95 1.13 7.95 3.4c2 2.26 3 5.24 3 8.94s-1 6.61-3 8.87c-2 2.26-4.65 3.4-7.95 3.4zM24.73 48.54c4.66 0 8.66-.77 12-2.31a24.21 24.21 0 0 0 8.57-6.59L34.95 31.2c-.97 1.67-2.27 2.97-3.89 3.89-1.63.92-3.54 1.39-5.74 1.39-3.65 0-6.46-1.09-8.44-3.26-1.98-2.18-2.97-5.18-2.97-9s.99-6.74 2.97-8.87c1.98-2.13 4.79-3.2 8.44-3.2 2.15 0 4.04.46 5.67 1.38 1.63.92 2.95 2.22 3.96 3.89L45.3 8.98c-2.33-2.81-5.24-5.01-8.74-6.59S29.12.02 24.72.02c-5.14 0-9.57.97-13.29 2.9-3.72 1.94-6.55 4.73-8.51 8.37C.96 14.94-.02 19.25-.02 24.22s.98 9.34 2.94 12.99c1.96 3.65 4.79 6.45 8.51 8.41 3.71 1.96 8.14 2.93 13.29 2.93zm60.74-1.05h14.38L77.36.86H70.1L47.68 47.48h14.31l2.9-6.66h17.67l2.9 6.66zM73.73 17.88l4.94 12.79h-9.89l4.95-12.79zm51.77 30.66c6.46 0 11.21-1.31 14.24-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.39-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.16 0-10.81 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.48 5.97 4.58s5.73 2.02 9.6 2.77c2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.59-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.94 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm60.01-1.05h14.38L177.4.86h-7.25l-22.42 46.62h14.31l2.9-6.66h17.67l2.9 6.66zm-11.74-29.61 4.95 12.79h-9.89l4.94-12.79z\" fill=\"#000\"/></svg>",
+          "width": 256,
+          "height": 58
+        },
+        "b": {
+          "file": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" width=\"256\" height=\"111.51\" viewBox=\"0 0 256 111.51\"><path d=\"M211.52 34.46c0 9.21 6.9 14.27 16.31 14.27 6.85 0 10.86-1.31 14.48-4.4l5 4.93 7.63-7.23-5.46-5.33c2.3-3.09 3.35-7.63 3.35-11.65h-10.32c.07 1.78-.13 3.16-.53 4.28l-4.87-4.74c4.8-2.37 8.48-7.17 8.48-11.38 0-8.48-6.57-12.75-13.94-12.75-7.83 0-15.92 4.21-15.92 12.29 0 3.62 1.05 5.86 4.21 9.34-4.74 2.5-8.42 7.11-8.42 12.37zm22.76-21.39c0 2.11-1.25 4.61-3.49 5.59-1.91-1.71-3.16-3.03-3.16-5.4 0-1.97 1.18-3.75 3.55-3.75 2.11 0 3.1 1.65 3.1 3.55zm-9.94 20.27c0-1.84.99-3.36 2.57-4.21l.33.33 7.7 7.57c-1.18.92-2.7 1.38-4.28 1.38-3.16 0-6.32-1.78-6.32-5.07zM1.12 110.46h37.33V99.45h-24.2v-6.33h18.73V82.44H14.25v-7.45h22.82V63.98H1.12v46.49zm64.76 1.06c6.46 0 11.21-1.31 14.25-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.38-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.15 0-10.8 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.49 5.97 4.58 2.53 1.1 5.73 2.02 9.59 2.77 2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.58-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.95 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm37.52-1.06h13.52V75.18h13.58V63.97H89.75v11.21h13.65v35.28zm36.27 0h13.52V63.97h-13.52v46.49zm25.19 0h35.48V98.79h-21.96V63.97h-13.52v46.49zm66.27 1.06c4.97 0 9.33-1.02 13.09-3.07 3.76-2.04 6.66-4.91 8.7-8.61 2.05-3.69 3.07-7.89 3.07-12.6s-1.02-8.96-3.07-12.63c-2.04-3.67-4.94-6.54-8.7-8.61-3.76-2.07-8.12-3.1-13.09-3.1s-9.33 1.03-13.09 3.1c-3.76 2.07-6.66 4.94-8.71 8.61-2.04 3.67-3.07 7.88-3.07 12.63s1.02 8.9 3.07 12.6c2.05 3.69 4.95 6.56 8.71 8.61 3.76 2.04 8.12 3.07 13.09 3.07zm0-12c-3.25 0-5.88-1.13-7.88-3.4-2-2.26-3-5.22-3-8.87s1-6.62 3-8.9c2-2.29 4.63-3.43 7.88-3.43s5.95 1.13 7.95 3.4c2 2.26 3 5.24 3 8.94s-1 6.61-3 8.87c-2 2.26-4.65 3.4-7.95 3.4zM24.73 48.54c4.66 0 8.66-.77 12-2.31a24.21 24.21 0 0 0 8.57-6.59L34.95 31.2c-.97 1.67-2.27 2.97-3.89 3.89-1.63.92-3.54 1.39-5.74 1.39-3.65 0-6.46-1.09-8.44-3.26-1.98-2.18-2.97-5.18-2.97-9s.99-6.74 2.97-8.87c1.98-2.13 4.79-3.2 8.44-3.2 2.15 0 4.04.46 5.67 1.38 1.63.92 2.95 2.22 3.96 3.89L45.3 8.98c-2.33-2.81-5.24-5.01-8.74-6.59S29.12.02 24.72.02c-5.14 0-9.57.97-13.29 2.9-3.72 1.94-6.55 4.73-8.51 8.37C.96 14.94-.02 19.25-.02 24.22s.98 9.34 2.94 12.99c1.96 3.65 4.79 6.45 8.51 8.41 3.71 1.96 8.14 2.93 13.29 2.93zm60.74-1.05h14.38L77.36.86H70.1L47.68 47.48h14.31l2.9-6.66h17.67l2.9 6.66zM73.73 17.88l4.94 12.79h-9.89l4.95-12.79zm51.77 30.66c6.46 0 11.21-1.31 14.24-3.92 3.03-2.62 4.55-6.45 4.55-11.51 0-4.44-1.25-7.73-3.76-9.86-2.51-2.13-6.24-3.68-11.21-4.65-3.65-.75-6.17-1.41-7.55-1.98-1.39-.57-2.08-1.43-2.08-2.57 0-.97.43-1.66 1.28-2.08.86-.42 2.1-.63 3.73-.63 3.47 0 7.65.9 12.53 2.7l5.41-10.42c-4.97-2.42-10.99-3.63-18.07-3.63-6.16 0-10.81 1.33-13.95 3.99-3.14 2.66-4.72 6.39-4.72 11.18 0 3.08.73 5.6 2.18 7.55 1.45 1.96 3.44 3.48 5.97 4.58s5.73 2.02 9.6 2.77c2.46.48 4.19 1.03 5.18 1.65.99.62 1.48 1.47 1.48 2.57 0 2.07-1.8 3.1-5.41 3.1-2.24 0-4.77-.38-7.59-1.15-2.81-.77-5.23-1.72-7.25-2.87l-4.94 10.68c3.12 1.54 6.29 2.67 9.5 3.4s6.84 1.09 10.88 1.09zm60.01-1.05h14.38L177.4.86h-7.25l-22.42 46.62h14.31l2.9-6.66h17.67l2.9 6.66zm-11.74-29.61 4.95 12.79h-9.89l4.94-12.79z\" fill=\"#000\"/></svg>",
+          "width": 256,
+          "height": 58
+        }
+      }
+    }
+  },
+  "elevation": {
+    "none": "none",
+    "micro": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+    "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "medium": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "large": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeX": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeXX": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "huge": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)"
+  }
+}

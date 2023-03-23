@@ -514,6 +514,7 @@ declare namespace Themes {
     theBodyShop: BrandThemes
     consultoriaDeBeleza: BrandThemes
     natura_v2: BrandThemes
+    casaEestilo: BrandThemes
   }
 }
 
