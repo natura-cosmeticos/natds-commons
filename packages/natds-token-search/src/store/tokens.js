@@ -50,8 +50,8 @@ import androidConsultoriaDeBelezaDark from '../../tokens/android/search/consulto
 import androidConsultoriaDeBelezaLight from '../../tokens/android/search/consultoria_de_beleza/light'
 import androidNaturaV2Dark from '../../tokens/android/search/natura_v2/dark'
 import androidNaturaV2Light from '../../tokens/android/search/natura_v2/light'
-import androidCasaEestiloDark from '../../tokens/android/search/casaEestilo/dark'
-import androidCasaEestiloLight from '../../tokens/android/search/casaEestilo/light'
+import androidCasaEestiloDark from '../../tokens/android/search/casa_eestilo/dark'
+import androidCasaEestiloLight from '../../tokens/android/search/casa_eestilo/light'
 
 import iosAesopDark from '../../tokens/ios/search/aesop/dark'
 import iosAesopLight from '../../tokens/ios/search/aesop/light'
