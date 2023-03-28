@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.50.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.48.0...@naturacosmeticos/natds-themes@0.50.0) (2023-03-28)
+
+
+### Bug Fixes
+
+* **natds-themes:** add prop fill in a-official ([7237695](https://github.com/natura-cosmeticos/natds-commons/commit/7237695b3444f28b2c6f4095a53b7c68dc118f1a))
+
+
+### Features
+
+* **natds-themes:** version 0.48.0 to 0.48.1 ([6094bf2](https://github.com/natura-cosmeticos/natds-commons/commit/6094bf29731e1196c58fe71b6bf268b88586cc99))
+* **natds-themes:** version 0.49.0 ([a930fe1](https://github.com/natura-cosmeticos/natds-commons/commit/a930fe11c56caa204794211885163018ff514d21))
+
+
+
+
+
 # [0.48.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.46.2...@naturacosmeticos/natds-themes@0.48.0) (2023-03-23)
 
 
