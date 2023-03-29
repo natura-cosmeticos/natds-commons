@@ -19,7 +19,7 @@
     "body": {
       "regular":{
         "fontFamily": {
-          "value": "Helvetica Now Display"
+          "value": "Helvetica Now Text"
         },
         "fontWeight": {
           "value": 400
@@ -27,7 +27,7 @@
       },
       "bold":{
         "fontFamily": {
-          "value": "Helvetica Now Display"
+          "value": "Helvetica Now Text"
         },
         "fontWeight": {
           "value": 700
