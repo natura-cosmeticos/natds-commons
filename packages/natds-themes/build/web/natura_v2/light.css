@@ -480,9 +480,9 @@
   --typographyDisplayFontWeight: 700;
   --typographyHeadlineFontFamily: "Helvetica Now Display";
   --typographyHeadlineFontWeight: 500;
-  --typographyBodyRegularFontFamily: "Helvetica Now Display";
+  --typographyBodyRegularFontFamily: "Helvetica Now Text";
   --typographyBodyRegularFontWeight: 400;
-  --typographyBodyBoldFontFamily: "Helvetica Now Display";
+  --typographyBodyBoldFontFamily: "Helvetica Now Text";
   --typographyBodyBoldFontWeight: 700;
   --typographyFallbackFontFamily: "Arial";
   --typographyFallbackFontWeight: 400;

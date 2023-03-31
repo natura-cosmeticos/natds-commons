@@ -947,11 +947,11 @@
     },
     "body": {
       "regular": {
-        "fontFamily": "Helvetica Now Display",
+        "fontFamily": "Helvetica Now Text",
         "fontWeight": 400
       },
       "bold": {
-        "fontFamily": "Helvetica Now Display",
+        "fontFamily": "Helvetica Now Text",
         "fontWeight": 700
       }
     },
