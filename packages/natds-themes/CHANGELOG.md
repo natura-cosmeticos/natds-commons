@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.50.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.50.0...@naturacosmeticos/natds-themes@0.50.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* **natds-themes:** change fontFamily natura n_v2 ([5fbefb4](https://github.com/natura-cosmeticos/natds-commons/commit/5fbefb44364dcb34376f23249b91325be46f9c24))
+
+
+
+
+
 # [0.50.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.48.0...@naturacosmeticos/natds-themes@0.50.0) (2023-03-28)
 
 
