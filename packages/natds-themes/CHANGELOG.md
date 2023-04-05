@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.51.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.50.1...@naturacosmeticos/natds-themes@0.51.0) (2023-04-05)
+
+
+### Bug Fixes
+
+* **natds-themes:** change typografy nat and nat v2 ([2e7d221](https://github.com/natura-cosmeticos/natds-commons/commit/2e7d2212a232cf06df3549f598f22c467e62866c))
+
+
+### Features
+
+* **natds-themes:** v 0.50.1 to 0.50.2 ([3a4374d](https://github.com/natura-cosmeticos/natds-commons/commit/3a4374d06a7c2429f4dfbbd0fd5c53d2d25fb5e6))
+
+
+
+
+
 ## [0.50.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.50.0...@naturacosmeticos/natds-themes@0.50.1) (2023-03-31)
 
 
