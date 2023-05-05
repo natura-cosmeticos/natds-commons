@@ -1,0 +1,126 @@
+{
+  "color": {
+    "primary": {
+      "value": "#E5004B"
+    },
+    "onPrimary": {
+      "value": "#FFFFFF"
+    },
+    "primaryLight": {
+      "value": "#FF4482"
+    },
+    "onPrimaryLight": {
+      "value": "#000000"
+    },
+    "primaryLightest": {
+      "value": "{spectrum.color.brand.a.lightest.value}"
+    },
+    "onPrimaryLightest": {
+      "value": "#000000"
+    },
+    "primaryDark": {
+      "value": "#B3003B"
+    },
+    "onPrimaryDark": {
+      "value": "#FFFFFF"
+    },
+    "primaryDarkest": {
+      "value": "{spectrum.color.brand.a.darkest.value}"
+    },
+    "onPrimaryDarkest": {
+      "value": "#FFFFFF"
+    },
+
+    "secondary": {
+      "value": "#121212"
+    },
+    "onSecondary": {
+      "value": "#FFFFFF"
+    },
+    "secondaryLight": {
+      "value": "#777777"
+    },
+    "onSecondaryLight": {
+      "value": "#000000"
+    },
+    "secondaryLightest": {
+      "value": "#BBBBBB"
+    },
+    "onSecondaryLightest": {
+      "value": "#000000"
+    },
+    "secondaryDark": {
+      "value": "#080808"
+    },
+    "onSecondaryDark": {
+      "value": "#FFFFFF"
+    },
+    "secondaryDarkest": {
+      "value": "#000000"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
+    },
+
+    "background": {
+      "value": "#FAFAFA"
+    },
+    "onBackground": {
+      "value": "#333333"
+    },
+    "surface": {
+      "value": "#FFFFFF"
+    },
+    "onSurface": {
+      "value": "#333333"
+    },
+    "highlight": {
+      "value": "#000000"
+    },
+    "onHighlight": {
+      "value":"#FFFFFF"
+    },
+    "highEmphasis": {
+      "value": "#333333"
+    },
+    "onHighEmphasis": {
+      "value":"#FFFFFF"
+    },
+    "mediumEmphasis": {
+      "value": "#777777"
+    },
+    "onMediumEmphasis":{
+      "value": "#FFFFFF"
+    },
+    "lowEmphasis": {
+      "value": "#BBBBBB"
+    },
+    "onLowEmphasis": {
+      "value": "#000000"
+    },
+    "link": {
+      "value": "#227BBD"
+    },
+    "onLink": {
+      "value": "#FFFFFF"
+    },
+    "success": {
+      "value": "#569A32"
+    },
+    "onSuccess": {
+      "value": "#FFFFFF"
+    },
+    "warning": {
+      "value": "#FCC433"
+    },
+    "onWarning": {
+      "value": "#333333"
+    },
+    "alert": {
+      "value": "#E74627"
+    },
+    "onAlert": {
+      "value": "#FFFFFF"
+    }
+  }
+}
