@@ -77,26 +77,14 @@
     "highlight": {
       "value": "#FFFFFF"
     },
-    "onHighlight": {
-      "value": "#333333"
-    },
     "highEmphasis": {
       "value": "#FAFAFA"
-    },
-    "onHighEmphasis": {
-      "value": "#333333"
     },
     "mediumEmphasis": {
       "value": "#BBBBBB"
     },
-    "onMediumEmphasis": {
-      "value": "#BBBBBB"
-    },
     "lowEmphasis": {
       "value": "#777777"
-    },
-    "onLowEmphasis": {
-      "value": "#FFFFFF"
     },
     "link": {
       "value": "#86D6FB"
