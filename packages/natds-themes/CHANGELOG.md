@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.53.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.51.0...@naturacosmeticos/natds-themes@0.53.0) (2023-05-08)
+
+
+### Bug Fixes
+
+* **natds-themes:** remove onHighlight ([d557bc8](https://github.com/natura-cosmeticos/natds-commons/commit/d557bc8a323e3f635c5fc31be00e844f85597ac0))
+
+
+### Features
+
+* **natds-themes:** create theme avon_v2 ([35fe994](https://github.com/natura-cosmeticos/natds-commons/commit/35fe994867d119c8dff2c4fb0443be92259e73f0))
+* **natds-themes:** version 0.51.0 to 0.52.0 ([c70786b](https://github.com/natura-cosmeticos/natds-commons/commit/c70786b84efb7ee6af38c6a2316af8d735d9ea00))
+
+
+
+
+
 # [0.51.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.50.1...@naturacosmeticos/natds-themes@0.51.0) (2023-04-05)
 
 
