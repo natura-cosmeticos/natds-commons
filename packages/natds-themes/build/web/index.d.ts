@@ -500,6 +500,7 @@ declare namespace Themes {
   export interface Themes {
     aesop: BrandThemes
     avon: BrandThemes
+    avon_v2: BrandThemes
     biome: BrandThemes
     natdsTest: BrandThemes
     natura: BrandThemes
