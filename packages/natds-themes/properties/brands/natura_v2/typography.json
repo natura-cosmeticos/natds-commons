@@ -2,24 +2,24 @@
   "typography": {
     "display": {
       "fontFamily": {
-        "value": "Helvetica Now Display"
-      },
-      "fontWeight": {
-        "value": 900
-      }
-    },
-    "headline": {
-      "fontFamily": {
-        "value": "Helvetica Now Display"
+        "value": "Roboto"
       },
       "fontWeight": {
         "value": 700
       }
     },
+    "headline": {
+      "fontFamily": {
+        "value": "Roboto"
+      },
+      "fontWeight": {
+        "value": 500
+      }
+    },
     "body": {
       "regular":{
         "fontFamily": {
-          "value": "Helvetica Now Text"
+          "value": "Roboto"
         },
         "fontWeight": {
           "value": 400
@@ -27,7 +27,7 @@
       },
       "bold":{
         "fontFamily": {
-          "value": "Helvetica Now Text"
+          "value": "Roboto"
         },
         "fontWeight": {
           "value": 700
@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "helvetica_now_display_bd"
+          "value": "roboto_regular"
         },
         "headline": {
-          "value": "helvetica_now_display_md"
+          "value": "roboto_regular"
         },
         "body": {
           "regular": {
-            "value": "helvetica_now_display_regular"
+            "value": "roboto_regular"
           },
           "bold": {
-            "value": "helvetica_now_display_bd"
+            "value": "roboto_medium"
           }
         }
       }
