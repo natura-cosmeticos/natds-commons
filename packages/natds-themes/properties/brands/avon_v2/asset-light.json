@@ -4,7 +4,7 @@
       "neutral":{
         "a": {
           "file": {
-            "value": "avon-a-official"
+            "value": "avon_v2-a-official"
           },
           "width": {
             "value": 256
@@ -15,7 +15,7 @@
         },
         "b": {
           "file": {
-            "value": "avon-a-official"
+            "value": "avon_v2-a-official"
           },
           "width": {
             "value": 256
@@ -28,7 +28,7 @@
       "custom":{
         "a": {
           "file": {
-            "value": "avon-a-custom"
+            "value": "avon_v2-a-custom"
           },
           "width": {
             "value": 256
@@ -39,7 +39,7 @@
         },
         "b": {
           "file": {
-            "value": "avon-a-custom"
+            "value": "avon_v2-a-custom"
           },
           "width": {
             "value": 256
