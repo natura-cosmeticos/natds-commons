@@ -374,7 +374,7 @@
   --heading1FontWeight: 400;
   --heading1LineHeight: 1.5;
   --heading1LetterSpacing: 0px;
-  --heading2FontSize: 60px;
+  --heading2FontSize: 64px;
   --heading2FontWeight: 400;
   --heading2LineHeight: 1.5;
   --heading2LetterSpacing: 0px;
@@ -382,10 +382,10 @@
   --heading3FontWeight: 400;
   --heading3LineHeight: 1.5;
   --heading3LetterSpacing: 0px;
-  --heading4FontSize: 34px;
+  --heading4FontSize: 32px;
   --heading4FontWeight: 400;
   --heading4LineHeight: 1.5;
-  --heading4LetterSpacing: 0.27px;
+  --heading4LetterSpacing: 0px;
   --heading5FontSize: 24px;
   --heading5FontWeight: 400;
   --heading5LineHeight: 1.5;
