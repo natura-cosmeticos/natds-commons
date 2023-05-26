@@ -15,7 +15,7 @@
   },
   "heading2": {
     "fontSize": {
-      "value": 60
+      "value": 64
     },
     "fontWeight": {
       "value": "{typography.fontWeight.regular.value}"
@@ -43,7 +43,7 @@
   },
   "heading4": {
     "fontSize": {
-      "value": 34
+      "value": 32
     },
     "fontWeight": {
       "value": "{typography.fontWeight.regular.value}"
