@@ -26,7 +26,7 @@ export const reset = {
 export const globalStyles = {
   '@global': {
     body: {
-      fontFamily: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif!important'
+      fontFamily: '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,sans-serif!important'
     }
   }
 }
