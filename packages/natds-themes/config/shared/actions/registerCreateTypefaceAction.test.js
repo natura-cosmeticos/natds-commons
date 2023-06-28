@@ -25,7 +25,7 @@ const dictionary = {
             isSource: true,
             name: 'assetFontDisplayFile',
             original: {
-              value: 'Helvetica'
+              value: 'Roboto'
             },
             path: [
               'asset',
@@ -33,7 +33,7 @@ const dictionary = {
               'display',
               'file'
             ],
-            value: 'Helvetica'
+            value: 'Roboto'
           }
         },
         headline: {
@@ -126,8 +126,8 @@ describe('registerCreateTypefaceAction', () => {
 
     const expectedFontFace = `
 @font-face {
-  font-family: 'Helvetica';
-  src: url('Helvetica.eot');
+  font-family: 'Roboto';
+  src: url('Roboto.eot');
 }
 
 @font-face {
