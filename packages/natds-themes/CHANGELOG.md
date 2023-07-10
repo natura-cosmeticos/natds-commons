@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.57.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.55.0...@naturacosmeticos/natds-themes@0.57.0) (2023-07-10)
+
+
+### Bug Fixes
+
+* **natds-themes:** remove ref font helvetica in file test ([e4e8c20](https://github.com/natura-cosmeticos/natds-commons/commit/e4e8c202da5490c8d41d07aeb318a6091d2ff619))
+
+
+### Features
+
+* **natds-themes:** add new Logo Avon-v2 ([ff9a874](https://github.com/natura-cosmeticos/natds-commons/commit/ff9a874707f595710d8693fef00c391f5c4b4284))
+
+
+
+
+
 ## [0.56.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.56.0...@naturacosmeticos/natds-themes@0.56.1) (2023-07-10)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
