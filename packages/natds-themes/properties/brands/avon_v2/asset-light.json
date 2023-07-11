@@ -15,7 +15,7 @@
         },
         "b": {
           "file": {
-            "value": "avon_v2-a-official"
+            "value": "avon_v2-b-official"
           },
           "width": {
             "value": 256
@@ -39,7 +39,7 @@
         },
         "b": {
           "file": {
-            "value": "avon_v2-a-custom"
+            "value": "avon_v2-b-custom"
           },
           "width": {
             "value": 256
