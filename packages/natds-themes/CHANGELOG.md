@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.59.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.58.5...@naturacosmeticos/natds-themes@0.59.0) (2023-07-26)
+
+
+### Features
+
+* **natds-themes:** add language asset logo ([33163cb](https://github.com/natura-cosmeticos/natds-commons/commit/33163cbfeb0bb8a2015e5a799b9cebc57c0c520e))
+* **natds-themes:** add languages key in consult de bel ([6419bdb](https://github.com/natura-cosmeticos/natds-commons/commit/6419bdb457b08ad44589105f4127cd183595410b))
+* **natds-themes:** create func isLogoAssetFileLanguage ([2855c04](https://github.com/natura-cosmeticos/natds-commons/commit/2855c04ba24dd46790060518bdfd15ce0dda05b4))
+* **natds-themes:** create func isnakeToCamelCase ([ef5080d](https://github.com/natura-cosmeticos/natds-commons/commit/ef5080d8c2601e18cb50d37e396875deb01932c0))
+
+
+
+
+
 ## [0.58.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.58.4...@naturacosmeticos/natds-themes@0.58.5) (2023-07-11)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
