@@ -29,6 +29,14 @@ const doAction = (_dictionary, config) => {
   const { tokens, components } = splitTokensAndComponents(JSON.parse(jsonThemeFile))
 
   const theme = { ...tokens, ...components }
+  theme.asset.brand.neutral.a.pt = ''
+  theme.asset.brand.neutral.a.es = ''
+  theme.asset.brand.neutral.b.pt = ''
+  theme.asset.brand.neutral.b.es = ''
+  theme.asset.brand.custom.a.pt = ''
+  theme.asset.brand.custom.a.es = ''
+  theme.asset.brand.custom.b.pt = ''
+  theme.asset.brand.custom.b.es = ''
 
   const typeDefinitions = JsonToTS(theme)
     .reduce((types, typeInterface) => types.concat(typeInterface), '')
