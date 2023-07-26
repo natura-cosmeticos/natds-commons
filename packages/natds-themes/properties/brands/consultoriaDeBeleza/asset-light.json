@@ -6,6 +6,12 @@
           "file": {
             "value": "consultoriadebeleza-a-official"
           },
+          "es": {
+            "value": "consultoriadebeleza-a-official-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-a-official-pt"
+          },
           "width": {
             "value": 256
           },
@@ -17,11 +23,17 @@
           "file": {
             "value": "consultoriadebeleza-b-official"
           },
+          "es": {
+            "value": "consultoriadebeleza-b-official-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-b-official-pt"
+          },
           "width": {
             "value": 256
           },
           "height": {
-            "value": 192
+            "value": 55
           }
         }
       },
@@ -29,6 +41,12 @@
         "a": {
           "file": {
             "value": "consultoriadebeleza-a-custom"
+          },
+          "es": {
+            "value": "consultoriadebeleza-a-custom-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-a-custom-pt"
           },
           "width": {
             "value": 256
@@ -41,11 +59,17 @@
           "file": {
             "value": "consultoriadebeleza-b-custom"
           },
+          "es": {
+            "value": "consultoriadebeleza-b-custom-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-b-custom-pt"
+          },
           "width": {
             "value": 256
           },
           "height": {
-            "value": 192
+            "value": 55
           }
         }
       }
