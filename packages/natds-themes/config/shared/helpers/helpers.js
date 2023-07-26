@@ -37,7 +37,9 @@ export const isFontFamilyProp = isProp('fontFamily')
 export const checkDir = (dir) => !fs.existsSync(dir) && fs.mkdirSync(dir, { recursive: true })
 
 export const isLogoAssetFileLanguage = (token) => token.attributes.state === 'file' || token.attributes.state === 'pt' || token.attributes.state === 'es'
-
+export function snakeToCamelCase(str) {
+  return str.replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase())
+}
 export const flattenProps = (properties) => {
   const isProperty = has('name')
   const isNotItem = negate(isProperty)
