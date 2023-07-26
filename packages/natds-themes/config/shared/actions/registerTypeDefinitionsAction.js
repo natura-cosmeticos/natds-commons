@@ -29,14 +29,12 @@ const doAction = (_dictionary, config) => {
   const { tokens, components } = splitTokensAndComponents(JSON.parse(jsonThemeFile))
 
   const theme = { ...tokens, ...components }
-  theme.asset.brand.neutral.a.pt = ''
-  theme.asset.brand.neutral.a.es = ''
-  theme.asset.brand.neutral.b.pt = ''
-  theme.asset.brand.neutral.b.es = ''
-  theme.asset.brand.custom.a.pt = ''
-  theme.asset.brand.custom.a.es = ''
-  theme.asset.brand.custom.b.pt = ''
-  theme.asset.brand.custom.b.es = ''
+
+  const defaultBrandTheme = { pt: '', es: '' }
+  theme.asset.brand.neutral.a = Object.assign(theme.asset.brand.neutral.a, defaultBrandTheme)
+  theme.asset.brand.neutral.b = Object.assign(theme.asset.brand.neutral.b, defaultBrandTheme)
+  theme.asset.brand.custom.a = Object.assign(theme.asset.brand.custom.a, defaultBrandTheme)
+  theme.asset.brand.custom.b = Object.assign(theme.asset.brand.custom.b, defaultBrandTheme)
 
   const typeDefinitions = JsonToTS(theme)
     .reduce((types, typeInterface) => types.concat(typeInterface), '')
