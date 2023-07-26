@@ -476,8 +476,6 @@ declare namespace Themes {
 }
  export interface A {
   file: string
-  es: string
-  pt: string
   width: number
   height: number
 }
