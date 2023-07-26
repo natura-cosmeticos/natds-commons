@@ -486,6 +486,8 @@ declare namespace Themes {
   file: string
   width: number
   height: number
+  pt: string
+  es: string
 }
  export interface Font {
   file: File
