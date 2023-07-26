@@ -30,6 +30,12 @@ const doAction = (_dictionary, config) => {
 
   const theme = { ...tokens, ...components }
 
+  const defaultBrandTheme = { pt: '', es: '' }
+  theme.asset.brand.neutral.a = Object.assign(theme.asset.brand.neutral.a, defaultBrandTheme)
+  theme.asset.brand.neutral.b = Object.assign(theme.asset.brand.neutral.b, defaultBrandTheme)
+  theme.asset.brand.custom.a = Object.assign(theme.asset.brand.custom.a, defaultBrandTheme)
+  theme.asset.brand.custom.b = Object.assign(theme.asset.brand.custom.b, defaultBrandTheme)
+
   const typeDefinitions = JsonToTS(theme)
     .reduce((types, typeInterface) => types.concat(typeInterface), '')
 
