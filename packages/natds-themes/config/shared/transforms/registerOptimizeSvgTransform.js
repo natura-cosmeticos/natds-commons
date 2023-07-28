@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { optimize } from 'svgo'
 import {
-  isLogoAssetFile, readAsset, execPattern, convertBase64ToExternalImage
+  readAsset, execPattern, convertBase64ToExternalImage, isLogoAssetFileLanguage
 } from '../helpers'
 
 const plugins = [
@@ -61,7 +61,7 @@ const transformer = (token) => {
 }
 
 export const registerOptimizeSvgTransform = () => ({
-  matcher: isLogoAssetFile,
+  matcher: isLogoAssetFileLanguage,
   name: 'asset/svg-optimized',
   transformer,
   type: 'value'
