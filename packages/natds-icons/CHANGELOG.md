@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.19.0...@naturacosmeticos/natds-icons@1.15.0) (2023-08-03)
+
+
+### Features
+
+* **natds-icons:** add icon outlined-content-gauge ([b736984](https://github.com/natura-cosmeticos/natds-commons/commit/b736984edb22ae997c4df7892fb82fdd494c336c))
+* **natds-icons:** add icon visibilitysleeping ([168460d](https://github.com/natura-cosmeticos/natds-commons/commit/168460d11f01383cd8e1415f81a99782dd4e5cfa))
+
+
+
+
+
 # [1.14.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.13.0...@naturacosmeticos/natds-icons@1.14.0) (2022-08-11)
 
 
