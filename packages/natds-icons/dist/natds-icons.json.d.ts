@@ -29,6 +29,7 @@ interface RootObject {
   'filled-communication-noconnection': string;
   'filled-content-channel': string;
   'filled-content-divulgation': string;
+  'filled-content-gauge': string;
   'filled-content-quote': string;
   'filled-content-violence': string;
   'filled-content-wifi': string;
@@ -124,6 +125,7 @@ interface RootObject {
   'outlined-action-upload': string;
   'outlined-action-visibility': string;
   'outlined-action-visibilityoff': string;
+  'outlined-action-visibilitysleeping': string;
   'outlined-alert-cancel': string;
   'outlined-alert-check': string;
   'outlined-alert-empty': string;
@@ -135,6 +137,7 @@ interface RootObject {
   'outlined-avon-desenvolve': string;
   'outlined-bag-emptybag': string;
   'outlined-brand-avondesenvolve': string;
+  'outlined-brand-avonshorthand': string;
   'outlined-brand-messenger': string;
   'outlined-brand-thebodyshop': string;
   'outlined-communication-chat': string;
@@ -166,6 +169,7 @@ interface RootObject {
   'outlined-content-flower': string;
   'outlined-content-fragrance': string;
   'outlined-content-gallery': string;
+  'outlined-content-gauge': string;
   'outlined-content-gift': string;
   'outlined-content-global': string;
   'outlined-content-handbag': string;

@@ -28,6 +28,7 @@ filled_brand_youtube
 filled_communication_noconnection
 filled_content_channel
 filled_content_divulgation
+filled_content_gauge
 filled_content_quote
 filled_content_violence
 filled_content_wifi
@@ -123,6 +124,7 @@ outlined_action_update
 outlined_action_upload
 outlined_action_visibility
 outlined_action_visibilityoff
+outlined_action_visibilitysleeping
 outlined_alert_cancel
 outlined_alert_check
 outlined_alert_empty
@@ -134,6 +136,7 @@ outlined_alert_warning
 outlined_avon_desenvolve
 outlined_bag_emptybag
 outlined_brand_avondesenvolve
+outlined_brand_avonshorthand
 outlined_brand_messenger
 outlined_brand_thebodyshop
 outlined_communication_chat
@@ -165,6 +168,7 @@ outlined_content_exchangereports
 outlined_content_flower
 outlined_content_fragrance
 outlined_content_gallery
+outlined_content_gauge
 outlined_content_gift
 outlined_content_global
 outlined_content_handbag

@@ -89,6 +89,9 @@
 	"filled-content-divulgation": [
 		""
 	],
+	"filled-content-gauge": [
+		""
+	],
 	"filled-content-quote": [
 		""
 	],
@@ -374,6 +377,9 @@
 	"outlined-action-visibilityoff": [
 		""
 	],
+	"outlined-action-visibilitysleeping": [
+		""
+	],
 	"outlined-alert-cancel": [
 		""
 	],
@@ -406,6 +412,9 @@
 	],
 	"outlined-brand-avondesenvolve": [
 		""
+	],
+	"outlined-brand-avonshorthand": [
+		""
 	],
 	"outlined-brand-messenger": [
 		""
@@ -499,6 +508,9 @@
 	],
 	"outlined-content-gallery": [
 		""
+	],
+	"outlined-content-gauge": [
+		""
 	],
 	"outlined-content-gift": [
 		""

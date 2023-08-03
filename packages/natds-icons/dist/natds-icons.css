@@ -221,6 +221,10 @@
   content: "\ea14";
 }
 
+.natds-icons-filled-content-gauge::before {
+  content: "\eb2f";
+}
+
 .natds-icons-filled-content-quote::before {
   content: "\ea15";
 }
@@ -601,6 +605,10 @@
   content: "\ea62";
 }
 
+.natds-icons-outlined-action-visibilitysleeping::before {
+  content: "\eb30";
+}
+
 .natds-icons-outlined-alert-cancel::before {
   content: "\ea63";
 }
@@ -643,6 +651,10 @@
 
 .natds-icons-outlined-brand-avondesenvolve::before {
   content: "\eb22";
+}
+
+.natds-icons-outlined-brand-avonshorthand::before {
+  content: "\eb31";
 }
 
 .natds-icons-outlined-brand-messenger::before {
@@ -767,6 +779,10 @@
 
 .natds-icons-outlined-content-gallery::before {
   content: "\ea80";
+}
+
+.natds-icons-outlined-content-gauge::before {
+  content: "\eb32";
 }
 
 .natds-icons-outlined-content-gift::before {

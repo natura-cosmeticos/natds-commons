@@ -47,6 +47,7 @@ declare const styles: {
   readonly "natds-icons-filled-communication-noconnection": string;
   readonly "natds-icons-filled-content-channel": string;
   readonly "natds-icons-filled-content-divulgation": string;
+  readonly "natds-icons-filled-content-gauge": string;
   readonly "natds-icons-filled-content-quote": string;
   readonly "natds-icons-filled-content-violence": string;
   readonly "natds-icons-filled-content-wifi": string;
@@ -142,6 +143,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-upload": string;
   readonly "natds-icons-outlined-action-visibility": string;
   readonly "natds-icons-outlined-action-visibilityoff": string;
+  readonly "natds-icons-outlined-action-visibilitysleeping": string;
   readonly "natds-icons-outlined-alert-cancel": string;
   readonly "natds-icons-outlined-alert-check": string;
   readonly "natds-icons-outlined-alert-empty": string;
@@ -153,6 +155,7 @@ declare const styles: {
   readonly "natds-icons-outlined-avon-desenvolve": string;
   readonly "natds-icons-outlined-bag-emptybag": string;
   readonly "natds-icons-outlined-brand-avondesenvolve": string;
+  readonly "natds-icons-outlined-brand-avonshorthand": string;
   readonly "natds-icons-outlined-brand-messenger": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
   readonly "natds-icons-outlined-communication-chat": string;
@@ -184,6 +187,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-flower": string;
   readonly "natds-icons-outlined-content-fragrance": string;
   readonly "natds-icons-outlined-content-gallery": string;
+  readonly "natds-icons-outlined-content-gauge": string;
   readonly "natds-icons-outlined-content-gift": string;
   readonly "natds-icons-outlined-content-global": string;
   readonly "natds-icons-outlined-content-handbag": string;
