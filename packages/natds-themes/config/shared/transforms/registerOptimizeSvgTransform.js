@@ -8,7 +8,7 @@ import {
 const plugins = [
   'cleanupAttrs',
   'cleanupEnableBackground',
-  'cleanupIDs',
+  // 'cleanupIDs',
   'cleanupNumericValues',
   'collapseGroups',
   'convertColors',
