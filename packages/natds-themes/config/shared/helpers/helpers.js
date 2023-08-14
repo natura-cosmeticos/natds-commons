@@ -57,6 +57,8 @@ export const flattenProps = (properties) => {
   return until(isFlat, getPropertyValues)(values(properties))
 }
 
+export const NoUser = () => 0
+
 export const splitTokensAndComponents = ({
   size, spacing, typography, borderRadius, color, elevation, opacity, asset,
   ...components
