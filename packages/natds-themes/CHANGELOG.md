@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.60.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.59.2...@naturacosmeticos/natds-themes@0.60.0) (2023-08-14)
+
+
+### Bug Fixes
+
+* **natds-themes:**  remove svgs with ES-PT in final name ([75d55c5](https://github.com/natura-cosmeticos/natds-commons/commit/75d55c5b8d47dfd045674cde830c397cf96a3b75))
+* **natds-themes:** fix  json asset-dark ([d78fb13](https://github.com/natura-cosmeticos/natds-commons/commit/d78fb13e14addcc507d4f53c7441665fbc423359))
+
+
+### Features
+
+* **natds-themes:**  add update logo consultoria de beleza ([5ff59d7](https://github.com/natura-cosmeticos/natds-commons/commit/5ff59d7129f2a64ef447024bb8e23a0682f09859))
+
+
+
+
+
 ## [0.59.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.59.1...@naturacosmeticos/natds-themes@0.59.2) (2023-07-28)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
