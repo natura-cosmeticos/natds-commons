@@ -100,16 +100,10 @@
     <dimen name="ssot7f49ed724a176205534a7d92e208901b">55dp</dimen>
     <dimen name="ssot89e57eb584d9a3577eeeffba786fd62a">27dp</dimen>
     <dimen name="ssot4b5e00e0a3a67d3b581c63bf093d6259">109dp</dimen>
-    <dimen name="ssot4bc97fbf82d909943ccaed192588d519">consultoriadebeleza-a-official-dark-es</dimen>
-    <dimen name="ssot3504d91f181610098a2d46fb7c2fcd22">consultoriadebeleza-a-official-dark-pt</dimen>
-    <dimen name="ssot2120d8d47ee6d3b8111e83573bd203f9">consultoriadebeleza-b-official-dark-es</dimen>
-    <dimen name="ssot4a72f0bcdc23d0fa850e7b0788d9401b">consultoriadebeleza-b-official-dark-pt</dimen>
-    <dimen name="ssot303459afdc4ee2af20268398fa7a1db8">consultoriadebeleza-a-custom-es</dimen>
-    <dimen name="ssot32e15866683f20d1e26583219d45dc3e">consultoriadebeleza-a-custom-pt</dimen>
-    <dimen name="ssot604934da166bc7eaadd629e5aca19b4c">consultoriadebeleza-a-official-es</dimen>
-    <dimen name="ssot2f1a4ddbe0e02b4a4ef682fb767fd662">consultoriadebeleza-a-official-pt</dimen>
-    <dimen name="ssotcff2a61873bde3a8377ddcfe1ce42979">consultoriadebeleza-b-official-es</dimen>
-    <dimen name="ssot9c0ba68c360c31c1f15e2493a14dd749">consultoriadebeleza-b-official-pt</dimen>
-    <dimen name="ssot4891da27aaef91b91f879cd98193f522">consultoriadebeleza-b-custom-es</dimen>
-    <dimen name="ssot449d9bc7c177e0a1f874a3ffd1a879f2">consultoriadebeleza-b-custom-pt</dimen>
+    <dimen name="ssot17c03fc85e9863b7b3b19566146bf87e">consultoriadebeleza-a-official-dark</dimen>
+    <dimen name="ssot3de6fa4bb2d824728aa1a03f0d1e684b">consultoriadebeleza-b-official-dark</dimen>
+    <dimen name="ssotdf2fa23e7f157653c90d44050910e620">consultoriadebeleza-a-custom</dimen>
+    <dimen name="ssot462bb6d6db6cc0f9f604b4a5a3e25745">consultoriadebeleza-b-custom</dimen>
+    <dimen name="ssot9e4b6e557e7e4ca2bd573886444fc615">consultoriadebeleza-a-official</dimen>
+    <dimen name="ssot2a1f96dcb2cf80f9381d6e6c768753df">consultoriadebeleza-b-official</dimen>
 </resources>
