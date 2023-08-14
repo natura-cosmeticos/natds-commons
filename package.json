@@ -102,7 +102,7 @@
     "json2ts": "0.0.7",
     "lerna": "3.22.1",
     "lerna-changelog": "1.0.1",
-    "nodemon": "2.0.15",
+    "nodemon": "2.0.22",
     "puppeteer": "5.5.0",
     "rollup": "2.69.1",
     "semantic-release": "15.14.0",
