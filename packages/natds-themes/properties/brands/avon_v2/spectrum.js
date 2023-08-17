@@ -4,6 +4,9 @@ import { buildColors } from '../../../config/shared/helpers'
 
 const { gray, red } = map(buildColors)(colors)
 
-const spectrum = { gray, red }
+const spectrum = { 
+  gray, 
+  red 
+}
 
 module.exports = { spectrum }
