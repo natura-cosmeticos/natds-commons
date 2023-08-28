@@ -12,7 +12,7 @@ echo "Verifying $1"
 mkdir -p ${OUTPUT_PATH}
 echo "Created ${FOLDER_NAME} folder at ${OUTPUT_PATH}"
 
-yarn install
+npm install install .nvmrc
 yarn html:build
 
 cp -r build/* ${OUTPUT_PATH}
