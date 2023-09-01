@@ -209,6 +209,10 @@
   content: "\ea12";
 }
 
+.natds-icons-filled-communication-digital-service::before {
+  content: "\eb33";
+}
+
 .natds-icons-filled-communication-noconnection::before {
   content: "\eb17";
 }
@@ -667,6 +671,10 @@
 
 .natds-icons-outlined-communication-chat::before {
   content: "\ea6a";
+}
+
+.natds-icons-outlined-communication-digital-service::before {
+  content: "\eb34";
 }
 
 .natds-icons-outlined-communication-email::before {

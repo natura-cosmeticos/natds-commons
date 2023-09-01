@@ -26,6 +26,7 @@ interface RootObject {
   'filled-brand-twitter': string;
   'filled-brand-whatsapp': string;
   'filled-brand-youtube': string;
+  'filled-communication-digital-service': string;
   'filled-communication-noconnection': string;
   'filled-content-channel': string;
   'filled-content-divulgation': string;
@@ -141,6 +142,7 @@ interface RootObject {
   'outlined-brand-messenger': string;
   'outlined-brand-thebodyshop': string;
   'outlined-communication-chat': string;
+  'outlined-communication-digital-service': string;
   'outlined-communication-email': string;
   'outlined-communication-help': string;
   'outlined-communication-message': string;

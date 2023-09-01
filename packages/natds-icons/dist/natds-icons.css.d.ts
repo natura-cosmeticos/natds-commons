@@ -44,6 +44,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-twitter": string;
   readonly "natds-icons-filled-brand-whatsapp": string;
   readonly "natds-icons-filled-brand-youtube": string;
+  readonly "natds-icons-filled-communication-digital-service": string;
   readonly "natds-icons-filled-communication-noconnection": string;
   readonly "natds-icons-filled-content-channel": string;
   readonly "natds-icons-filled-content-divulgation": string;
@@ -159,6 +160,7 @@ declare const styles: {
   readonly "natds-icons-outlined-brand-messenger": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
   readonly "natds-icons-outlined-communication-chat": string;
+  readonly "natds-icons-outlined-communication-digital-service": string;
   readonly "natds-icons-outlined-communication-email": string;
   readonly "natds-icons-outlined-communication-help": string;
   readonly "natds-icons-outlined-communication-message": string;

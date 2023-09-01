@@ -80,6 +80,9 @@
 	"filled-brand-youtube": [
 		""
 	],
+	"filled-communication-digital-service": [
+		""
+	],
 	"filled-communication-noconnection": [
 		""
 	],
@@ -424,6 +427,9 @@
 	],
 	"outlined-communication-chat": [
 		""
+	],
+	"outlined-communication-digital-service": [
+		""
 	],
 	"outlined-communication-email": [
 		""

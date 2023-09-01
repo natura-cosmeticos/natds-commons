@@ -25,6 +25,7 @@ filled_brand_thebodyshop
 filled_brand_twitter
 filled_brand_whatsapp
 filled_brand_youtube
+filled_communication_digital_service
 filled_communication_noconnection
 filled_content_channel
 filled_content_divulgation
@@ -140,6 +141,7 @@ outlined_brand_avonshorthand
 outlined_brand_messenger
 outlined_brand_thebodyshop
 outlined_communication_chat
+outlined_communication_digital_service
 outlined_communication_email
 outlined_communication_help
 outlined_communication_message
