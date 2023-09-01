@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.15.0...@naturacosmeticos/natds-icons@1.16.0) (2023-09-01)
+
+
+### Bug Fixes
+
+* **icons:** fix icon filled-content-gauge ([2b1b227](https://github.com/natura-cosmeticos/natds-commons/commit/2b1b227b02995ef4b3c1cf870d384965757fd737))
+* **natds-icons:** fix icon filled-content-gauge  ([21f34b1](https://github.com/natura-cosmeticos/natds-commons/commit/21f34b1b4d04bd1647c89a9464f0f72c0d68c21b))
+* **natds-icons:** refact ([b17faae](https://github.com/natura-cosmeticos/natds-commons/commit/b17faae2cf7ab1bf73331355c0a50469dab3233b))
+
+
+### Features
+
+* **natds-icons:** add icon filled-communication-digital-service ([fa12fd7](https://github.com/natura-cosmeticos/natds-commons/commit/fa12fd7070572d3ababf4f9d25c32d828cc6035d))
+
+
+
+
+
 # [1.15.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.19.0...@naturacosmeticos/natds-icons@1.15.0) (2023-08-03)
 
 
