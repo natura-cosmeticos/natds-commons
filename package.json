@@ -10,7 +10,7 @@
     "changelog": "lerna-changelog",
     "clean": "lerna clean",
     "commit": "git cz",
-    "lerna:publish": "lerna publish --yes --no-push --force-publish",
+    "lerna:publish": "lerna publish --yes --no-push --force-publish --access public",
     "lerna:publish:ci": "yarn lerna:publish",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
