@@ -12,7 +12,6 @@ echo "Verifying $1"
 mkdir -p ${OUTPUT_PATH}
 echo "Created ${FOLDER_NAME} folder at ${OUTPUT_PATH}"
 
-npm install -g node@14.0.0
 yarn install
 yarn html:build
 
