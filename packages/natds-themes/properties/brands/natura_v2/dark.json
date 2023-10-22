@@ -1,62 +1,62 @@
 {
   "color": {
     "primary": {
-      "value": "#EB6619"
+      "value": "#F9D4AF"
     },
     "onPrimary": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "primaryLight": {
-      "value": "#F29966"
+      "value": "#FDEBD7"
     },
     "onPrimaryLight": {
       "value": "#000000"
     },
     "primaryLightest": {
-      "value": "{spectrum.color.brand.a.lightest.value}"
+      "value": "#FEF6EE"
     },
     "onPrimaryLightest": {
       "value": "#000000"
     },
     "primaryDark": {
-      "value": "#A0430E"
+      "value": "#F5B57C"
     },
     "onPrimaryDark": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "primaryDarkest": {
-      "value": "{spectrum.color.brand.a.darkest.value}"
+      "value": "#F08C47"
     },
     "onPrimaryDarkest": {
       "value": "#FFFFFF"
     },
 
     "secondary": {
-      "value": "#263F30"
+      "value": "#C2D8C7"
     },
     "onSecondary": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#599471"
+      "value": "#E0EBE1"
     },
     "onSecondaryLight": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryLightest": {
-      "value": "#AACCB7"
+      "value": "#F2F7F3"
     },
     "onSecondaryLightest": {
       "value": "#000000"
     },
     "secondaryDark": {
-      "value": "#192A20"
+      "value": "#9ABBA3"
     },
     "onSecondaryDark": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryDarkest": {
-      "value": "#0D1510"
+      "value": "#6D9A7C"
     },
     "onSecondaryDarkest": {
       "value": "#FFFFFF"
@@ -66,13 +66,19 @@
       "value": "#121212"
     },
     "onBackground": {
-      "value": "#FFFFFF"
+      "value": "#FAFAFA"
     },
     "surface": {
       "value": "#333333"
     },
     "onSurface": {
       "value": "#FFFFFF"
+    },
+    "surfaceInverse": {
+      "value": "FAFAFA"
+    },
+    "onSurfaceInverse": {
+      "value": "333333"
     },
     "highlight": {
       "value": "#FFFFFF"
@@ -86,29 +92,143 @@
     "lowEmphasis": {
       "value": "#777777"
     },
+    "lowLight": {
+      "value": "#000000"
+    },
     "link": {
-      "value": "#86D6FB"
+      "value": "#C4DFF3"
     },
     "onLink": {
-      "value": "#000000"
+      "value": "#333333"
+    },
+    "linkLight": {
+      "value": "#E4EFFA"
+    },
+    "onLinkLight": {
+      "value": "#333333"
+    },
+    "linkLightest": {
+      "value": "#F2F8FD"
+    },
+    "onLinkLightest": {
+      "value": "#333333"
+    },
+    "linkDark": {
+      "value": "#8FC4EA"
+    },
+    "onLinkDark": {
+      "value": "#333333"
+    },
+    "linkDarkest": {
+      "value": "#54A6DC"
+    },
+    "onLinkDarkest": {
+      "value": "#FFFFFF"
     },
     "success": {
-      "value": "#BCDEA2"
+      "value": "#C5E8AE"
     },
     "onSuccess": {
-      "value": "#000000"
+      "value": "#333333"
+    },
+    "successLight": {
+      "value": "#E1F3D4"
+    },
+    "onSuccessLight": {
+      "value": "#333333"
+    },
+    "successLightest": {
+      "value": "#F1FAEB"
+    },
+    "onSuccessLightest": {
+      "value": "#333333"
+    },
+    "successDark": {
+      "value": "#A0D87E"
+    },
+    "onSuccessDark": {
+      "value": "#333333"
+    },
+    "successDarkest": {
+      "value": "#7EC655"
+    },
+    "onSuccessDarkest": {
+      "value": "#333333"
     },
     "warning": {
-      "value": "#FEF59E"
+      "value": "#FDE68A"
     },
     "onWarning": {
-      "value": "#000000"
+      "value": "#333333"
+    },
+    "warningLight": {
+      "value": "#FEF3C7"
+    },
+    "onWarningLight": {
+      "value": "#333333"
+    },
+    "warningLightest": {
+      "value": "#FFFBEB"
+    },
+    "onWarningLightest": {
+      "value": "#333333"
+    },
+    "warningDark": {
+      "value": "#FDD34C"
+    },
+    "onWarningDark": {
+      "value": "#333333"
+    },
+    "warningDarkest": {
+      "value": "#FCC433"
+    },
+    "onWarningDarkest": {
+      "value": "#333333"
     },
     "alert": {
-      "value": "#FFAA96"
+      "value": "#FFD0C7"
     },
     "onAlert": {
-      "value": "#000000"
+      "value": "#333333"
+    },
+    "alertLight": {
+      "value": "#FFE5E8"
+    },
+    "onAlertLight": {
+      "value": "#333333"
+    },
+    "alertLightest": {
+      "value": "#FFF3F1"
+    },
+    "onAlertLightest": {
+      "value": "#333333"
+    },
+    "alertDark": {
+      "value": "#FFAFA0"
+    },
+    "onAlertDark": {
+      "value": "#333333"
+    },
+    "alertDarkest": {
+      "value": "#FF826A"
+    },
+    "onAlertDarkest": {
+      "value": "#FFFFFF"
+    },
+    "neutralMedium": {
+      "value": "#BBBBBB"
+    },
+    "neutralMediumLight": {
+      "value": "#FAFAFA"
+    },
+    "neutralMediumLightest": {
+      "value": "#FFFFFF"
+    },
+    "neutralMediumDark": {
+      "value": "#777777"
+    },
+    "neutralMediumDarkest": {
+      "value": "#333333"
     }
   }
 }
