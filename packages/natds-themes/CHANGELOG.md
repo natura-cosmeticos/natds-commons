@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.61.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.59.23...@naturacosmeticos/natds-themes@0.61.0) (2023-10-25)
+
+
+### Bug Fixes
+
+* **natds-themes:**  bump version 0.59.23 to 0.60.0 ([43d674c](https://github.com/natura-cosmeticos/natds-commons/commit/43d674cab5b9d39a30dea499c371d81b29b1c2ea))
+
+
+### Features
+
+* **natds-themes:**  add range colors globals mode light ([67d0938](https://github.com/natura-cosmeticos/natds-commons/commit/67d09389eb0f658b8aa61262fa03636a5837c9ba))
+
+
+
+
+
 ## [0.59.23](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.59.22...@naturacosmeticos/natds-themes@0.59.23) (2023-09-13)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
