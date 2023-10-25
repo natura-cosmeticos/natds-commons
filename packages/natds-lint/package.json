@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/eslint-config-natds",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Lint rules for Natura Design System js/ts projects",
   "keywords": [
     "lint",
