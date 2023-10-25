@@ -443,18 +443,58 @@ declare namespace Themes {
   onBackground: string
   surface: string
   onSurface: string
+  surfaceInverse: string
+  onSurfaceInverse: string
   highlight: string
   highEmphasis: string
   mediumEmphasis: string
   lowEmphasis: string
+  lowLight: string
   link: string
   onLink: string
+  linkLight: string
+  onLinkLight: string
+  linkLightest: string
+  onLinkLightest: string
+  linkDark: string
+  onLinkDark: string
+  linkDarkest: string
+  onLinkDarkest: string
   success: string
   onSuccess: string
+  successLight: string
+  onSuccessLight: string
+  successLightest: string
+  onSuccessLightest: string
+  successDark: string
+  onSuccessDark: string
+  successDarkest: string
+  onSuccessDarkest: string
   warning: string
   onWarning: string
+  warningLight: string
+  onWarningLight: string
+  warningLightest: string
+  onWarningLightest: string
+  warningDark: string
+  onWarningDark: string
+  warningDarkest: string
+  onWarningDarkest: string
   alert: string
   onAlert: string
+  alertLight: string
+  onAlertLight: string
+  alertLightest: string
+  onAlertLightest: string
+  alertDark: string
+  onAlertDark: string
+  alertDarkest: string
+  onAlertDarkest: string
+  neutralLightest: string
+  neutralLight: string
+  neutralMedium: string
+  neutralDark: string
+  neutralDarkest: string
 }
  export interface BorderRadius {
   none: number

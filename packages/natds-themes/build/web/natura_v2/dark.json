@@ -89,8 +89,8 @@
       "fontWeight": 400
     },
     "color": {
-      "background": "#eb6619",
-      "label": "#ffffff"
+      "background": "#f9d4af",
+      "label": "#000000"
     }
   },
   "badge": {
@@ -117,20 +117,20 @@
     },
     "color": {
       "primary": {
-        "label": "#ffffff",
-        "background": "#eb6619"
+        "label": "#000000",
+        "background": "#f9d4af"
       },
       "secondary": {
-        "label": "#ffffff",
-        "background": "#263f30"
+        "label": "#000000",
+        "background": "#c2d8c7"
       },
       "success": {
-        "label": "#000000",
-        "background": "#bcdea2"
+        "label": "#333333",
+        "background": "#c5e8ae"
       },
       "alert": {
-        "label": "#000000",
-        "background": "#ffaa96"
+        "label": "#333333",
+        "background": "#ffd0c7"
       }
     }
   },
@@ -152,9 +152,9 @@
     "contained": {
       "color": {
         "enable": {
-          "background": "#eb6619",
+          "background": "#f9d4af",
           "border": "#FFFFFF00",
-          "label": "#ffffff"
+          "label": "#000000"
         },
         "disable": {
           "background": "#777777",
@@ -162,12 +162,12 @@
           "label": "#fafafa"
         },
         "hover": {
-          "background": "#a0430e",
+          "background": "#f5b57c",
           "border": "#FFFFFF00",
-          "label": "#ffffff"
+          "label": "#000000"
         },
         "focus": {
-          "background": "#502207",
+          "background": "#f08c47",
           "border": "#FFFFFF00",
           "label": "#ffffff"
         }
@@ -177,7 +177,7 @@
       "color": {
         "enable": {
           "background": "#FFFFFF00",
-          "border": "#eb6619",
+          "border": "#f9d4af",
           "label": "#fafafa"
         },
         "disable": {
@@ -187,12 +187,12 @@
         },
         "hover": {
           "background": "#343a40",
-          "border": "#eb6619",
+          "border": "#f9d4af",
           "label": "#fafafa"
         },
         "focus": {
           "background": "#495057",
-          "border": "#eb6619",
+          "border": "#f9d4af",
           "label": "#fafafa"
         }
       }
@@ -412,7 +412,7 @@
     "color": {
       "label": {
         "enable": {
-          "default": "#86d6fb",
+          "default": "#c4dff3",
           "light": "#777777"
         }
       }
@@ -490,7 +490,7 @@
       "borderRadius": 32
     },
     "color": {
-      "stroke": "#eb6619",
+      "stroke": "#f9d4af",
       "layer": "#333333"
     }
   },
@@ -511,8 +511,8 @@
     "borderRadius": 12,
     "color": {
       "select": {
-        "border": "#eb6619",
-        "content": "#eb6619"
+        "border": "#f9d4af",
+        "content": "#f9d4af"
       },
       "unselect": {
         "border": "#ffffff",
@@ -574,7 +574,7 @@
       "color": {
         "enable": {
           "primary": {
-            "background": "#eb6619",
+            "background": "#f9d4af",
             "border": "#FFFFFF00",
             "label": "#fafafa"
           },
@@ -598,7 +598,7 @@
         },
         "hover": {
           "primary": {
-            "background": "#a0430e",
+            "background": "#f5b57c",
             "border": "#FFFFFF00",
             "label": "#fafafa"
           },
@@ -610,7 +610,7 @@
         },
         "focus": {
           "primary": {
-            "background": "#502207",
+            "background": "#f08c47",
             "border": "#FFFFFF00",
             "label": "#fafafa"
           },
@@ -627,7 +627,7 @@
         "enable": {
           "primary": {
             "background": "#FFFFFF00",
-            "border": "#eb6619",
+            "border": "#f9d4af",
             "label": "#fafafa"
           },
           "neutral": {
@@ -651,7 +651,7 @@
         "hover": {
           "primary": {
             "background": "#343a40",
-            "border": "#a0430e",
+            "border": "#f5b57c",
             "label": "#fafafa"
           },
           "neutral": {
@@ -663,7 +663,7 @@
         "focus": {
           "primary": {
             "background": "#495057",
-            "border": "#a0430e",
+            "border": "#f5b57c",
             "label": "#fafafa"
           },
           "neutral": {
@@ -735,20 +735,20 @@
     },
     "color": {
       "background": {
-        "primary": "#eb6619",
-        "secondary": "#263f30",
-        "success": "#bcdea2",
-        "alert": "#ffaa96",
-        "warning": "#fef59e",
-        "link": "#86d6fb"
+        "primary": "#f9d4af",
+        "secondary": "#c2d8c7",
+        "success": "#c5e8ae",
+        "alert": "#ffd0c7",
+        "warning": "#fde68a",
+        "link": "#c4dff3"
       },
       "label": {
-        "primary": "#ffffff",
-        "secondary": "#ffffff",
-        "success": "#000000",
-        "alert": "#000000",
-        "warning": "#000000",
-        "link": "#000000"
+        "primary": "#000000",
+        "secondary": "#000000",
+        "success": "#333333",
+        "alert": "#333333",
+        "warning": "#333333",
+        "link": "#333333"
       }
     }
   },
@@ -981,42 +981,82 @@
     "neutral700": "#e9ecef",
     "neutral800": "#f1f3f5",
     "neutral900": "#f8f9fa",
-    "primary": "#eb6619",
-    "onPrimary": "#ffffff",
-    "primaryLight": "#f29966",
+    "primary": "#f9d4af",
+    "onPrimary": "#000000",
+    "primaryLight": "#fdebd7",
     "onPrimaryLight": "#000000",
-    "primaryLightest": "#F8CCB2",
+    "primaryLightest": "#fef6ee",
     "onPrimaryLightest": "#000000",
-    "primaryDark": "#a0430e",
-    "onPrimaryDark": "#ffffff",
-    "primaryDarkest": "#502207",
+    "primaryDark": "#f5b57c",
+    "onPrimaryDark": "#000000",
+    "primaryDarkest": "#f08c47",
     "onPrimaryDarkest": "#ffffff",
-    "secondary": "#263f30",
-    "onSecondary": "#ffffff",
-    "secondaryLight": "#599471",
-    "onSecondaryLight": "#ffffff",
-    "secondaryLightest": "#aaccb7",
+    "secondary": "#c2d8c7",
+    "onSecondary": "#000000",
+    "secondaryLight": "#e0ebe1",
+    "onSecondaryLight": "#000000",
+    "secondaryLightest": "#f2f7f3",
     "onSecondaryLightest": "#000000",
-    "secondaryDark": "#192a20",
-    "onSecondaryDark": "#ffffff",
-    "secondaryDarkest": "#0d1510",
+    "secondaryDark": "#9abba3",
+    "onSecondaryDark": "#000000",
+    "secondaryDarkest": "#6d9a7c",
     "onSecondaryDarkest": "#ffffff",
     "background": "#121212",
-    "onBackground": "#ffffff",
+    "onBackground": "#fafafa",
     "surface": "#333333",
     "onSurface": "#ffffff",
+    "surfaceInverse": "#fafafa",
+    "onSurfaceInverse": "#333333",
     "highlight": "#ffffff",
     "highEmphasis": "#fafafa",
     "mediumEmphasis": "#bbbbbb",
     "lowEmphasis": "#777777",
-    "link": "#86d6fb",
-    "onLink": "#000000",
-    "success": "#bcdea2",
-    "onSuccess": "#000000",
-    "warning": "#fef59e",
-    "onWarning": "#000000",
-    "alert": "#ffaa96",
-    "onAlert": "#000000"
+    "lowLight": "#000000",
+    "link": "#c4dff3",
+    "onLink": "#333333",
+    "linkLight": "#e4effa",
+    "onLinkLight": "#333333",
+    "linkLightest": "#f2f8fd",
+    "onLinkLightest": "#333333",
+    "linkDark": "#8fc4ea",
+    "onLinkDark": "#333333",
+    "linkDarkest": "#54a6dc",
+    "onLinkDarkest": "#ffffff",
+    "success": "#c5e8ae",
+    "onSuccess": "#333333",
+    "successLight": "#e1f3d4",
+    "onSuccessLight": "#333333",
+    "successLightest": "#f1faeb",
+    "onSuccessLightest": "#333333",
+    "successDark": "#a0d87e",
+    "onSuccessDark": "#333333",
+    "successDarkest": "#7ec655",
+    "onSuccessDarkest": "#333333",
+    "warning": "#fde68a",
+    "onWarning": "#333333",
+    "warningLight": "#fef3c7",
+    "onWarningLight": "#333333",
+    "warningLightest": "#fffbeb",
+    "onWarningLightest": "#333333",
+    "warningDark": "#fdd34c",
+    "onWarningDark": "#333333",
+    "warningDarkest": "#fcc433",
+    "onWarningDarkest": "#333333",
+    "alert": "#ffd0c7",
+    "onAlert": "#333333",
+    "alertLight": "#ffe5e8",
+    "onAlertLight": "#333333",
+    "alertLightest": "#fff3f1",
+    "onAlertLightest": "#333333",
+    "alertDark": "#ffafa0",
+    "onAlertDark": "#333333",
+    "alertDarkest": "#ff826a",
+    "onAlertDarkest": "#ffffff",
+    "neutralMedium": "#bbbbbb",
+    "neutralMediumLight": "#fafafa",
+    "neutralMediumLightest": "#ffffff",
+    "neutralMediumDark": "#777777",
+    "neutralMediumDarkest": "#333333"
   },
   "asset": {
     "font": {
