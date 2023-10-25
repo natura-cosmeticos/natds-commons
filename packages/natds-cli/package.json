@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-cli",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A CLI with helper scripts",
   "keywords": [
     "cli",
