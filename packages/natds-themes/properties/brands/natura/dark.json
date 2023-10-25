@@ -54,13 +54,19 @@
       "value": "#121212"
     },
     "onBackground": {
-      "value": "#FFFFFF"
+      "value": "#FAFAFA"
     },
     "surface": {
       "value": "#333333"
     },
     "onSurface": {
       "value": "#FFFFFF"
+    },
+    "surfaceInverse": {
+      "value": "FAFAFA"
+    },
+    "onSurfaceInverse": {
+      "value": "333333"
     },
     "highlight": {
       "value": "#FFFFFF"
@@ -74,29 +80,143 @@
     "lowEmphasis": {
       "value": "#777777"
     },
+    "lowLight": {
+      "value": "#000000"
+    },
     "link": {
-      "value": "#227BBD"
+      "value": "#C4DFF3"
     },
     "onLink": {
+      "value": "#333333"
+    },
+    "linkLight": {
+      "value": "#E4EFFA"
+    },
+    "onLinkLight": {
+      "value": "#333333"
+    },
+    "linkLightest": {
+      "value": "#F2F8FD"
+    },
+    "onLinkLightest": {
+      "value": "#333333"
+    },
+    "linkDark": {
+      "value": "#8FC4EA"
+    },
+    "onLinkDark": {
+      "value": "#333333"
+    },
+    "linkDarkest": {
+      "value": "#54A6DC"
+    },
+    "onLinkDarkest": {
       "value": "#FFFFFF"
     },
     "success": {
-      "value": "#569A32"
+      "value": "#C5E8AE"
     },
     "onSuccess": {
-      "value": "#FFFFFF"
+      "value": "#333333"
+    },
+    "successLight": {
+      "value": "#E1F3D4"
+    },
+    "onSuccessLight": {
+      "value": "#333333"
+    },
+    "successLightest": {
+      "value": "#F1FAEB"
+    },
+    "onSuccessLightest": {
+      "value": "#333333"
+    },
+    "successDark": {
+      "value": "#A0D87E"
+    },
+    "onSuccessDark": {
+      "value": "#333333"
+    },
+    "successDarkest": {
+      "value": "#7EC655"
+    },
+    "onSuccessDarkest": {
+      "value": "#333333"
     },
     "warning": {
-      "value": "#FCC433"
+      "value": "#FDE68A"
     },
     "onWarning": {
       "value": "#333333"
     },
+    "warningLight": {
+      "value": "#FEF3C7"
+    },
+    "onWarningLight": {
+      "value": "#333333"
+    },
+    "warningLightest": {
+      "value": "#FFFBEB"
+    },
+    "onWarningLightest": {
+      "value": "#333333"
+    },
+    "warningDark": {
+      "value": "#FDD34C"
+    },
+    "onWarningDark": {
+      "value": "#333333"
+    },
+    "warningDarkest": {
+      "value": "#FCC433"
+    },
+    "onWarningDarkest": {
+      "value": "#333333"
+    },
     "alert": {
-      "value": "#E74627"
+      "value": "#FFD0C7"
     },
     "onAlert": {
+      "value": "#333333"
+    },
+    "alertLight": {
+      "value": "#FFE5E8"
+    },
+    "onAlertLight": {
+      "value": "#333333"
+    },
+    "alertLightest": {
+      "value": "#FFF3F1"
+    },
+    "onAlertLightest": {
+      "value": "#333333"
+    },
+    "alertDark": {
+      "value": "#FFAFA0"
+    },
+    "onAlertDark": {
+      "value": "#333333"
+    },
+    "alertDarkest": {
+      "value": "#FF826A"
+    },
+    "onAlertDarkest": {
       "value": "#FFFFFF"
+    },
+    "neutralMedium": {
+      "value": "#BBBBBB"
+    },
+    "neutralMediumLight": {
+      "value": "#FAFAFA"
+    },
+    "neutralMediumLightest": {
+      "value": "#FFFFFF"
+    },
+    "neutralMediumDark": {
+      "value": "#777777"
+    },
+    "neutralMediumDarkest": {
+      "value": "#333333"
     }
   }
 }
