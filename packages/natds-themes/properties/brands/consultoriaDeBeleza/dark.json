@@ -1,7 +1,7 @@
 {
   "color": {
     "primary": {
-      "value": "#FFFBB5"
+      "value": "#FFFB85"
     },
     "onPrimary": {
       "value": "#000000"
@@ -192,7 +192,7 @@
       "value": "#333333"
     },
     "alertLight": {
-      "value": "#FFE5E8"
+      "value": "#FFE5E0"
     },
     "onAlertLight": {
       "value": "#333333"
