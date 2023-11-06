@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.67.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.66.0...@naturacosmeticos/natds-themes@0.67.0) (2023-11-06)
+
+
+### Features
+
+* **natds-themes:** change color linkDarkest ([d9fe622](https://github.com/natura-cosmeticos/natds-commons/commit/d9fe622b11c1396dd120eb2aefa1fa2e5df01b1a))
+* **natds-themes:** change dark color alertLight ([e6e9ebd](https://github.com/natura-cosmeticos/natds-commons/commit/e6e9ebd6feacb08b7ef731202da9271e91dc0331))
+* **natds-themes:** update changelog ([180234c](https://github.com/natura-cosmeticos/natds-commons/commit/180234c891b542109dd6395c3ac308f9dacfe0cd))
+
+
+
+
+
 # [0.66.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.66.0...@naturacosmeticos/natds-themes@0.66.2) (2023-10-25)
 
 
