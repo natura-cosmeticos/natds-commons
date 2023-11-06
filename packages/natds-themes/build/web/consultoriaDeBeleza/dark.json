@@ -89,7 +89,7 @@
       "fontWeight": 400
     },
     "color": {
-      "background": "#fffbb5",
+      "background": "#fffb85",
       "label": "#000000"
     }
   },
@@ -118,7 +118,7 @@
     "color": {
       "primary": {
         "label": "#000000",
-        "background": "#fffbb5"
+        "background": "#fffb85"
       },
       "secondary": {
         "label": "#000000",
@@ -152,7 +152,7 @@
     "contained": {
       "color": {
         "enable": {
-          "background": "#fffbb5",
+          "background": "#fffb85",
           "border": "#FFFFFF00",
           "label": "#000000"
         },
@@ -177,7 +177,7 @@
       "color": {
         "enable": {
           "background": "#FFFFFF00",
-          "border": "#fffbb5",
+          "border": "#fffb85",
           "label": "#fafafa"
         },
         "disable": {
@@ -187,12 +187,12 @@
         },
         "hover": {
           "background": "#343a40",
-          "border": "#fffbb5",
+          "border": "#fffb85",
           "label": "#fafafa"
         },
         "focus": {
           "background": "#495057",
-          "border": "#fffbb5",
+          "border": "#fffb85",
           "label": "#fafafa"
         }
       }
@@ -490,7 +490,7 @@
       "borderRadius": 32
     },
     "color": {
-      "stroke": "#fffbb5",
+      "stroke": "#fffb85",
       "layer": "#333333"
     }
   },
@@ -511,8 +511,8 @@
     "borderRadius": 12,
     "color": {
       "select": {
-        "border": "#fffbb5",
-        "content": "#fffbb5"
+        "border": "#fffb85",
+        "content": "#fffb85"
       },
       "unselect": {
         "border": "#ffffff",
@@ -574,7 +574,7 @@
       "color": {
         "enable": {
           "primary": {
-            "background": "#fffbb5",
+            "background": "#fffb85",
             "border": "#FFFFFF00",
             "label": "#fafafa"
           },
@@ -627,7 +627,7 @@
         "enable": {
           "primary": {
             "background": "#FFFFFF00",
-            "border": "#fffbb5",
+            "border": "#fffb85",
             "label": "#fafafa"
           },
           "neutral": {
@@ -735,7 +735,7 @@
     },
     "color": {
       "background": {
-        "primary": "#fffbb5",
+        "primary": "#fffb85",
         "secondary": "#dcd5ff",
         "success": "#c5e8ae",
         "alert": "#ffd0c7",
@@ -981,7 +981,7 @@
     "neutral700": "#e9ecef",
     "neutral800": "#f1f3f5",
     "neutral900": "#f8f9fa",
-    "primary": "#fffbb5",
+    "primary": "#fffb85",
     "onPrimary": "#000000",
     "primaryLight": "#fffcc5",
     "onPrimaryLight": "#000000",
@@ -1044,7 +1044,7 @@
     "onWarningDarkest": "#333333",
     "alert": "#ffd0c7",
     "onAlert": "#333333",
-    "alertLight": "#ffe5e8",
+    "alertLight": "#ffe5e0",
     "onAlertLight": "#333333",
     "alertLightest": "#fff3f1",
     "onAlertLightest": "#333333",

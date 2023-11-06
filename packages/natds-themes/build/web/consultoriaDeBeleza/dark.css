@@ -49,7 +49,7 @@
   --avatarPrimaryFontWeight: 400;
   --avatarFallbackFontFamily: "Arial";
   --avatarFallbackFontWeight: 400;
-  --avatarColorBackground: #fffbb5;
+  --avatarColorBackground: #fffb85;
   --avatarColorLabel: #000000;
   --badgeLabelFontSize: 12px;
   --badgeLabelLetterSpacing: 0.38px;
@@ -63,7 +63,7 @@
   --badgeDotHeight: 8px;
   --badgeDotBorderRadius: 4px;
   --badgeColorPrimaryLabel: #000000;
-  --badgeColorPrimaryBackground: #fffbb5;
+  --badgeColorPrimaryBackground: #fffb85;
   --badgeColorSecondaryLabel: #000000;
   --badgeColorSecondaryBackground: #dcd5ff;
   --badgeColorSuccessLabel: #333333;
@@ -78,7 +78,7 @@
   --buttonLabelFallbackFontFamily: "Arial";
   --buttonLabelFallbackFontWeight: 500;
   --buttonBorderRadius: 4px;
-  --buttonContainedColorEnableBackground: #fffbb5;
+  --buttonContainedColorEnableBackground: #fffb85;
   --buttonContainedColorEnableBorder: #FFFFFF00;
   --buttonContainedColorEnableLabel: #000000;
   --buttonContainedColorDisableBackground: #777777;
@@ -91,16 +91,16 @@
   --buttonContainedColorFocusBorder: #FFFFFF00;
   --buttonContainedColorFocusLabel: #000000;
   --buttonOutlinedColorEnableBackground: #FFFFFF00;
-  --buttonOutlinedColorEnableBorder: #fffbb5;
+  --buttonOutlinedColorEnableBorder: #fffb85;
   --buttonOutlinedColorEnableLabel: #fafafa;
   --buttonOutlinedColorDisableBackground: #FFFFFF00;
   --buttonOutlinedColorDisableBorder: #777777;
   --buttonOutlinedColorDisableLabel: #bbbbbb;
   --buttonOutlinedColorHoverBackground: #343a40;
-  --buttonOutlinedColorHoverBorder: #fffbb5;
+  --buttonOutlinedColorHoverBorder: #fffb85;
   --buttonOutlinedColorHoverLabel: #fafafa;
   --buttonOutlinedColorFocusBackground: #495057;
-  --buttonOutlinedColorFocusBorder: #fffbb5;
+  --buttonOutlinedColorFocusBorder: #fffb85;
   --buttonOutlinedColorFocusLabel: #fafafa;
   --buttonTextColorEnableBackground: #FFFFFF00;
   --buttonTextColorEnableBorder: #FFFFFF00;
@@ -224,7 +224,7 @@
   --progressIndicatorSemiBorderRadius: 16px;
   --progressIndicatorMediumBorderRadius: 24px;
   --progressIndicatorLargeBorderRadius: 32px;
-  --progressIndicatorColorStroke: #fffbb5;
+  --progressIndicatorColorStroke: #fffb85;
   --progressIndicatorColorLayer: #333333;
   --radioButtonLabelFontSize: 14px;
   --radioButtonLabelLetterSpacing: 0.22px;
@@ -234,8 +234,8 @@
   --radioButtonLabelFallbackFontFamily: "Arial";
   --radioButtonLabelFallbackFontWeight: 400;
   --radioButtonBorderRadius: 12px;
-  --radioButtonColorSelectBorder: #fffbb5;
-  --radioButtonColorSelectContent: #fffbb5;
+  --radioButtonColorSelectBorder: #fffb85;
+  --radioButtonColorSelectContent: #fffb85;
   --radioButtonColorUnselectBorder: #ffffff;
   --radioButtonColorUnselectContent: #ffffff;
   --radioButtonColorDisableBorder: #777777;
@@ -261,7 +261,7 @@
   --shortcutLabelPrimaryFontWeight: 400;
   --shortcutLabelFallbackFontFamily: "Arial";
   --shortcutLabelFallbackFontWeight: 400;
-  --shortcutContainedColorEnablePrimaryBackground: #fffbb5;
+  --shortcutContainedColorEnablePrimaryBackground: #fffb85;
   --shortcutContainedColorEnablePrimaryBorder: #FFFFFF00;
   --shortcutContainedColorEnablePrimaryLabel: #fafafa;
   --shortcutContainedColorEnableNeutralBackground: #333333;
@@ -286,7 +286,7 @@
   --shortcutContainedColorFocusNeutralBorder: #FFFFFF00;
   --shortcutContainedColorFocusNeutralLabel: #fafafa;
   --shortcutOutlinedColorEnablePrimaryBackground: #FFFFFF00;
-  --shortcutOutlinedColorEnablePrimaryBorder: #fffbb5;
+  --shortcutOutlinedColorEnablePrimaryBorder: #fffb85;
   --shortcutOutlinedColorEnablePrimaryLabel: #fafafa;
   --shortcutOutlinedColorEnableNeutralBackground: #FFFFFF00;
   --shortcutOutlinedColorEnableNeutralBorder: #777777;
@@ -336,7 +336,7 @@
   --tagSmallBorderRadiusDisable: 0px;
   --tagStandardBorderRadiusEnable: 12px;
   --tagStandardBorderRadiusDisable: 0px;
-  --tagColorBackgroundPrimary: #fffbb5;
+  --tagColorBackgroundPrimary: #fffb85;
   --tagColorBackgroundSecondary: #dcd5ff;
   --tagColorBackgroundSuccess: #c5e8ae;
   --tagColorBackgroundAlert: #ffd0c7;
@@ -504,7 +504,7 @@
   --colorNeutral700: #e9ecef;
   --colorNeutral800: #f1f3f5;
   --colorNeutral900: #f8f9fa;
-  --colorPrimary: #fffbb5;
+  --colorPrimary: #fffb85;
   --colorOnPrimary: #000000;
   --colorPrimaryLight: #fffcc5;
   --colorOnPrimaryLight: #000000;
@@ -567,7 +567,7 @@
   --colorOnWarningDarkest: #333333;
   --colorAlert: #ffd0c7;
   --colorOnAlert: #333333;
-  --colorAlertLight: #ffe5e8;
+  --colorAlertLight: #ffe5e0;
   --colorOnAlertLight: #333333;
   --colorAlertLightest: #fff3f1;
   --colorOnAlertLightest: #333333;

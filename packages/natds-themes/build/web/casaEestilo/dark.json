@@ -1044,7 +1044,7 @@
     "onWarningDarkest": "#333333",
     "alert": "#ffd0c7",
     "onAlert": "#333333",
-    "alertLight": "#ffe5e8",
+    "alertLight": "#ffe5e0",
     "onAlertLight": "#333333",
     "alertLightest": "#fff3f1",
     "onAlertLightest": "#333333",
