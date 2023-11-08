@@ -1,3 +1,7 @@
+/* eslint-disable no-prototype-builtins */
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-restricted-syntax */
+
 import {
   pipe, join, mapObjIndexed, values
 } from 'ramda'
@@ -58,7 +62,6 @@ const buildNamePreview = (name) => {
   if (Object.keys(deprecatedTokens).includes(name)) {
     return `<td>${name} <span class="deprecated">deprecated</span></td>`
   }
-
   return `<td>${name}</td>`
 }
 
@@ -66,7 +69,6 @@ const buildPreview = (name, value) => {
   if (name.includes('color')) {
     return `<div class="preview color" style="background-color: ${value.replace(/"/g, '')}"></div>`
   }
-
   if (name.includes('opacity')) {
     return `<div class="preview opacity-wrapper"><span class="opacity" style="opacity: ${value}"></span></div>`
   }
@@ -79,6 +81,21 @@ const renderBody = pipe(
   values,
   join('')
 )
+const keysToRemove = ['colorNeutral50',
+  'colorNeutral100', 'colorNeutral200',
+  'colorNeutral300', 'colorNeutral400',
+  'colorNeutral500', 'colorNeutral600',
+  'colorNeutral700', 'colorNeutral800',
+  'colorNeutral900'
+]
+function removeKeys(obj) {
+  for (const key of keysToRemove) {
+    if (obj.hasOwnProperty(key)) {
+      delete obj[key]
+    }
+  }
+  return obj
+}
 
 export const Table = () => {
   tableSheet.attach()
@@ -86,9 +103,11 @@ export const Table = () => {
   const tableBody = createElement('tbody')
 
   store.subscribe(() => {
-    tableBody.innerHTML = renderBody(store.getState().selectedTokens)
+    // tableBody.innerHTML = renderBody(store.getState().selectedTokens)
+    tableBody.innerHTML = renderBody(removeKeys(store.getState().selectedTokens))
   })
-  tableBody.innerHTML = renderBody(store.getState().selectedTokens)
+  // tableBody.innerHTML = renderBody(store.getState().selectedTokens)
+  tableBody.innerHTML = renderBody(removeKeys(store.getState().selectedTokens))
   table.appendChild(tableBody)
 
   return table

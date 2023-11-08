@@ -4,7 +4,7 @@ import { RadioGroup } from './RadioGroup'
 import { Search } from './Search'
 
 const brands = [
-  'aesop',
+  // 'aesop',
   'avon',
   'avon_v2',
   'biome',
