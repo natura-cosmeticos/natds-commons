@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.16.3...@naturacosmeticos/natds-icons@1.18.0) (2023-11-22)
+
+
+### Features
+
+* **natds-icons:** add icon filled-alert-info ([ac9d95f](https://github.com/natura-cosmeticos/natds-commons/commit/ac9d95ff6bd95dbc0905597c30d6370a5245e64b))
+* **natds-themes:**  bump version cli lint storybook theme icons ([d4e8c5d](https://github.com/natura-cosmeticos/natds-commons/commit/d4e8c5d2321bc2bf98bc1369f6e67bc22d542f39))
+* **natds-themes:** bump-version cli icons lint storybook themes ([000cc67](https://github.com/natura-cosmeticos/natds-commons/commit/000cc67647540545305bb3188a714081c4da96b9))
+
+
+
+
+
 ## [1.16.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.16.1...@naturacosmeticos/natds-icons@1.16.3) (2023-09-13)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
