@@ -13,6 +13,14 @@ interface RootObject {
   'filled-action-register': string;
   'filled-action-request': string;
   'filled-action-subtract': string;
+  'filled-alert-cancel': string;
+  'filled-alert-check': string;
+  'filled-alert-empty': string;
+  'filled-alert-indeterminate': string;
+  'filled-alert-info': string;
+  'filled-alert-notification': string;
+  'filled-alert-notificationbadge': string;
+  'filled-alert-warning': string;
   'filled-brand-avonshorthand': string;
   'filled-brand-facebook': string;
   'filled-brand-google': string;
@@ -25,6 +33,7 @@ interface RootObject {
   'filled-brand-thebodyshop': string;
   'filled-brand-twitter': string;
   'filled-brand-whatsapp': string;
+  'filled-brand-x': string;
   'filled-brand-youtube': string;
   'filled-communication-digital-service': string;
   'filled-communication-noconnection': string;
@@ -141,6 +150,7 @@ interface RootObject {
   'outlined-brand-avonshorthand': string;
   'outlined-brand-messenger': string;
   'outlined-brand-thebodyshop': string;
+  'outlined-brand-x': string;
   'outlined-communication-chat': string;
   'outlined-communication-digital-service': string;
   'outlined-communication-email': string;

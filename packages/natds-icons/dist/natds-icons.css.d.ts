@@ -31,6 +31,14 @@ declare const styles: {
   readonly "natds-icons-filled-action-register": string;
   readonly "natds-icons-filled-action-request": string;
   readonly "natds-icons-filled-action-subtract": string;
+  readonly "natds-icons-filled-alert-cancel": string;
+  readonly "natds-icons-filled-alert-check": string;
+  readonly "natds-icons-filled-alert-empty": string;
+  readonly "natds-icons-filled-alert-indeterminate": string;
+  readonly "natds-icons-filled-alert-info": string;
+  readonly "natds-icons-filled-alert-notification": string;
+  readonly "natds-icons-filled-alert-notificationbadge": string;
+  readonly "natds-icons-filled-alert-warning": string;
   readonly "natds-icons-filled-brand-avonshorthand": string;
   readonly "natds-icons-filled-brand-facebook": string;
   readonly "natds-icons-filled-brand-google": string;
@@ -43,6 +51,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-thebodyshop": string;
   readonly "natds-icons-filled-brand-twitter": string;
   readonly "natds-icons-filled-brand-whatsapp": string;
+  readonly "natds-icons-filled-brand-x": string;
   readonly "natds-icons-filled-brand-youtube": string;
   readonly "natds-icons-filled-communication-digital-service": string;
   readonly "natds-icons-filled-communication-noconnection": string;
@@ -159,6 +168,7 @@ declare const styles: {
   readonly "natds-icons-outlined-brand-avonshorthand": string;
   readonly "natds-icons-outlined-brand-messenger": string;
   readonly "natds-icons-outlined-brand-thebodyshop": string;
+  readonly "natds-icons-outlined-brand-x": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-digital-service": string;
   readonly "natds-icons-outlined-communication-email": string;

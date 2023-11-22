@@ -41,6 +41,30 @@
 	"filled-action-subtract": [
 		""
 	],
+	"filled-alert-cancel": [
+		""
+	],
+	"filled-alert-check": [
+		""
+	],
+	"filled-alert-empty": [
+		""
+	],
+	"filled-alert-indeterminate": [
+		""
+	],
+	"filled-alert-info": [
+		""
+	],
+	"filled-alert-notification": [
+		""
+	],
+	"filled-alert-notificationbadge": [
+		""
+	],
+	"filled-alert-warning": [
+		""
+	],
 	"filled-brand-avonshorthand": [
 		""
 	],
@@ -76,6 +100,9 @@
 	],
 	"filled-brand-whatsapp": [
 		""
+	],
+	"filled-brand-x": [
+		""
 	],
 	"filled-brand-youtube": [
 		""
@@ -424,6 +451,9 @@
 	],
 	"outlined-brand-thebodyshop": [
 		""
+	],
+	"outlined-brand-x": [
+		""
 	],
 	"outlined-communication-chat": [
 		""

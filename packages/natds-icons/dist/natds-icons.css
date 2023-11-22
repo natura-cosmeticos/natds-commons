@@ -157,6 +157,38 @@
   content: "\ea08";
 }
 
+.natds-icons-filled-alert-cancel::before {
+  content: "\eb35";
+}
+
+.natds-icons-filled-alert-check::before {
+  content: "\eb36";
+}
+
+.natds-icons-filled-alert-empty::before {
+  content: "\eb37";
+}
+
+.natds-icons-filled-alert-indeterminate::before {
+  content: "\eb38";
+}
+
+.natds-icons-filled-alert-info::before {
+  content: "\eb39";
+}
+
+.natds-icons-filled-alert-notification::before {
+  content: "\eb3a";
+}
+
+.natds-icons-filled-alert-notificationbadge::before {
+  content: "\eb3b";
+}
+
+.natds-icons-filled-alert-warning::before {
+  content: "\eb3c";
+}
+
 .natds-icons-filled-brand-avonshorthand::before {
   content: "\eaee";
 }
@@ -203,6 +235,10 @@
 
 .natds-icons-filled-brand-whatsapp::before {
   content: "\ea11";
+}
+
+.natds-icons-filled-brand-x::before {
+  content: "\eb3d";
 }
 
 .natds-icons-filled-brand-youtube::before {
@@ -667,6 +703,10 @@
 
 .natds-icons-outlined-brand-thebodyshop::before {
   content: "\eb13";
+}
+
+.natds-icons-outlined-brand-x::before {
+  content: "\eb3e";
 }
 
 .natds-icons-outlined-communication-chat::before {

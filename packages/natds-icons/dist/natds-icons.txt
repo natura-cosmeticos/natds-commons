@@ -12,6 +12,14 @@ filled_action_rating
 filled_action_register
 filled_action_request
 filled_action_subtract
+filled_alert_cancel
+filled_alert_check
+filled_alert_empty
+filled_alert_indeterminate
+filled_alert_info
+filled_alert_notification
+filled_alert_notificationbadge
+filled_alert_warning
 filled_brand_avonshorthand
 filled_brand_facebook
 filled_brand_google
@@ -24,6 +32,7 @@ filled_brand_spotify
 filled_brand_thebodyshop
 filled_brand_twitter
 filled_brand_whatsapp
+filled_brand_x
 filled_brand_youtube
 filled_communication_digital_service
 filled_communication_noconnection
@@ -140,6 +149,7 @@ outlined_brand_avondesenvolve
 outlined_brand_avonshorthand
 outlined_brand_messenger
 outlined_brand_thebodyshop
+outlined_brand_x
 outlined_communication_chat
 outlined_communication_digital_service
 outlined_communication_email
