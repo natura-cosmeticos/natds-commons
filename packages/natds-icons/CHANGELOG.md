@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.18.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.18.0...@naturacosmeticos/natds-icons@1.18.5) (2023-11-24)
+
+
+### Bug Fixes
+
+* **natds-icons:** fix icon alert ([dc1ca29](https://github.com/natura-cosmeticos/natds-commons/commit/dc1ca295e2275396616ae52a5099b209e3a799d4))
+* **natds-icons:** fix icon filled-alert-cancel ([244a3b7](https://github.com/natura-cosmeticos/natds-commons/commit/244a3b74b4b29e722fd4cd9f4aa69743531b3edd))
+* **natds-icons:** fix icon filled-alert-check ([10e3bf5](https://github.com/natura-cosmeticos/natds-commons/commit/10e3bf5e7ffa76ceb2bd675ec0d7c121c84e6410))
+* **natds-icons:** fix icon filled-alert-empty ([de39a08](https://github.com/natura-cosmeticos/natds-commons/commit/de39a086f10713e917d077ee398096a6b1fd0bf2))
+* **natds-icons:** fix icon filled-alert-indeterminate ([92af3d1](https://github.com/natura-cosmeticos/natds-commons/commit/92af3d16b7cca52ae1b588afd0d49851627c9ae0))
+* **natds-icons:** fix icon filled-alert-info ([fb6678c](https://github.com/natura-cosmeticos/natds-commons/commit/fb6678c501d5f2bca87e1b4d07c2fef96595ce88))
+* **natds-icons:** fix icon filled-alert-warning ([c820542](https://github.com/natura-cosmeticos/natds-commons/commit/c820542fe2e86482afd0a3486a75e6766037fdcb))
+* **natds-icons:** fix icon outlined-finance-pix ([b16f62f](https://github.com/natura-cosmeticos/natds-commons/commit/b16f62fa4197a0c167aea5a892c86e424e2b85ad))
+
+
+
+
+
 # [1.18.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.16.3...@naturacosmeticos/natds-icons@1.18.0) (2023-11-22)
 
 
