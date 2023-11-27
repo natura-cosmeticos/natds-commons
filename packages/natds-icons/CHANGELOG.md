@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.18.7](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.18.5...@naturacosmeticos/natds-icons@1.18.7) (2023-11-27)
+
+
+### Bug Fixes
+
+* **natds-icons:** fix icon filled-alert-warning ([6a77f22](https://github.com/natura-cosmeticos/natds-commons/commit/6a77f224393a02590571c3e7fa28968467898ea0))
+
+
+
+
+
 ## [1.18.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.18.0...@naturacosmeticos/natds-icons@1.18.5) (2023-11-24)
 
 
