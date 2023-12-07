@@ -5,6 +5,7 @@ interface RootObject {
   'filled-action-clock': string;
   'filled-action-delete': string;
   'filled-action-dislike': string;
+  'filled-action-half-rating': string;
   'filled-action-increase': string;
   'filled-action-love': string;
   'filled-action-newrequest': string;
@@ -98,6 +99,7 @@ interface RootObject {
   'outlined-action-filter': string;
   'outlined-action-frame': string;
   'outlined-action-gridsquare': string;
+  'outlined-action-half-rating': string;
   'outlined-action-help': string;
   'outlined-action-history': string;
   'outlined-action-increase': string;

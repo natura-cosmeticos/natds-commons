@@ -125,6 +125,10 @@
   content: "\eb0f";
 }
 
+.natds-icons-filled-action-half-rating::before {
+  content: "\eb3f";
+}
+
 .natds-icons-filled-action-increase::before {
   content: "\eb27";
 }
@@ -495,6 +499,10 @@
 
 .natds-icons-outlined-action-gridsquare::before {
   content: "\ea41";
+}
+
+.natds-icons-outlined-action-half-rating::before {
+  content: "\eb40";
 }
 
 .natds-icons-outlined-action-help::before {

@@ -23,6 +23,7 @@ declare const styles: {
   readonly "natds-icons-filled-action-clock": string;
   readonly "natds-icons-filled-action-delete": string;
   readonly "natds-icons-filled-action-dislike": string;
+  readonly "natds-icons-filled-action-half-rating": string;
   readonly "natds-icons-filled-action-increase": string;
   readonly "natds-icons-filled-action-love": string;
   readonly "natds-icons-filled-action-newrequest": string;
@@ -116,6 +117,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-filter": string;
   readonly "natds-icons-outlined-action-frame": string;
   readonly "natds-icons-outlined-action-gridsquare": string;
+  readonly "natds-icons-outlined-action-half-rating": string;
   readonly "natds-icons-outlined-action-help": string;
   readonly "natds-icons-outlined-action-history": string;
   readonly "natds-icons-outlined-action-increase": string;

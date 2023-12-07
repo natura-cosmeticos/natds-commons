@@ -17,6 +17,9 @@
 	"filled-action-dislike": [
 		""
 	],
+	"filled-action-half-rating": [
+		""
+	],
 	"filled-action-increase": [
 		""
 	],
@@ -295,6 +298,9 @@
 	],
 	"outlined-action-gridsquare": [
 		""
+	],
+	"outlined-action-half-rating": [
+		""
 	],
 	"outlined-action-help": [
 		""

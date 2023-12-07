@@ -4,6 +4,7 @@ filled_action_check
 filled_action_clock
 filled_action_delete
 filled_action_dislike
+filled_action_half_rating
 filled_action_increase
 filled_action_love
 filled_action_newrequest
@@ -97,6 +98,7 @@ outlined_action_favorite
 outlined_action_filter
 outlined_action_frame
 outlined_action_gridsquare
+outlined_action_half_rating
 outlined_action_help
 outlined_action_history
 outlined_action_increase
