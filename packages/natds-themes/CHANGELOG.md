@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.68.8](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.68.7...@naturacosmeticos/natds-themes@0.68.8) (2023-12-12)
+
+
+### Bug Fixes
+
+* **natds-themes:** fix neutrals dark mode ([5719e93](https://github.com/natura-cosmeticos/natds-commons/commit/5719e93f8d6c0e89952470d5a2c5b74acdc99f6f))
+
+
+
+
+
 ## [0.68.7](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.68.6...@naturacosmeticos/natds-themes@0.68.7) (2023-12-07)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
