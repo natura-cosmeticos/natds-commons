@@ -203,19 +203,19 @@
     "onAlertDarkest": {
       "value": "#FFFFFF"
     },
+    "neutralLightest": {
+      "value": "#FFFFFF"
+    },
+    "neutralLight": {
+      "value": "#FAFAFA"
+    },
     "neutralMedium": {
       "value": "#BBBBBB"
     },
-    "neutralMediumLight": {
-      "value": "#FAFAFA"
-    },
-    "neutralMediumLightest": {
-      "value": "#FFFFFF"
-    },
-    "neutralMediumDark": {
+    "neutralDark": {
       "value": "#777777"
     },
-    "neutralMediumDarkest": {
+    "neutralDarkest": {
       "value": "#333333"
     }
   }
