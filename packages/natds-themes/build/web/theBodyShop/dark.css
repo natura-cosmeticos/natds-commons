@@ -575,11 +575,11 @@
   --colorOnAlertDark: #333333;
   --colorAlertDarkest: #ff826a;
   --colorOnAlertDarkest: #ffffff;
+  --colorNeutralLightest: #ffffff;
+  --colorNeutralLight: #fafafa;
   --colorNeutralMedium: #bbbbbb;
-  --colorNeutralMediumLight: #fafafa;
-  --colorNeutralMediumLightest: #ffffff;
-  --colorNeutralMediumDark: #777777;
-  --colorNeutralMediumDarkest: #333333;
+  --colorNeutralDark: #777777;
+  --colorNeutralDarkest: #333333;
   --assetFontFileDisplay: "druk_cy_bold";
   --assetFontFileHeadline: "recoleta_semi_bold";
   --assetFontFileBodyRegular: "work_sans_regular";

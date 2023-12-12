@@ -1048,11 +1048,11 @@
     "onAlertDark": "#333333",
     "alertDarkest": "#ff826a",
     "onAlertDarkest": "#ffffff",
+    "neutralLightest": "#ffffff",
+    "neutralLight": "#fafafa",
     "neutralMedium": "#bbbbbb",
-    "neutralMediumLight": "#fafafa",
-    "neutralMediumLightest": "#ffffff",
-    "neutralMediumDark": "#777777",
-    "neutralMediumDarkest": "#333333"
+    "neutralDark": "#777777",
+    "neutralDarkest": "#333333"
   },
   "asset": {
     "font": {
