@@ -29,6 +29,36 @@
     },
     "neutral900": {
       "value": "{spectrum.gray.900.value}"
+    },
+    "colorPrimitiveLightGray10": {
+      "value": "#FAFAFA"
+    },
+    "colorPrimitiveLightGray20": {
+      "value": "#EEEEEE"
+    },
+    "colorPrimitiveLightGray30": {
+      "value": "#E1E1E1"
+    },
+    "colorPrimitiveLightGray40": {
+      "value": "#D5D5D5"
+    },
+    "colorPrimitiveLightGray50": {
+      "value": "#C9C9C9"
+    },
+    "colorPrimitiveLightGray60": {
+      "value": "#C3C3C3"
+    },
+    "colorPrimitiveLightGray70": {
+      "value": "#BDBDBD"
+    },
+    "colorPrimitiveLightGray80": {
+      "value": "#B0B0B0"
+    },
+    "colorPrimitiveLightGray90": {
+      "value": "#A4A4A4"
+    },
+    "colorPrimitiveLightGray100": {
+      "value": "#989898"
     }
   }
 }
