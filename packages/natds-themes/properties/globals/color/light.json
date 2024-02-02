@@ -30,35 +30,41 @@
     "neutral900": {
       "value": "{spectrum.gray.900.value}"
     },
-    "colorPrimitiveLightGray10": {
+    "primitiveLightGray10": {
       "value": "#FAFAFA"
     },
-    "colorPrimitiveLightGray20": {
+    "primitiveLightGray20": {
       "value": "#EEEEEE"
     },
-    "colorPrimitiveLightGray30": {
+    "primitiveLightGray30": {
       "value": "#E1E1E1"
     },
-    "colorPrimitiveLightGray40": {
+    "primitiveLightGray40": {
       "value": "#D5D5D5"
     },
-    "colorPrimitiveLightGray50": {
+    "primitiveLightGray50": {
       "value": "#C9C9C9"
     },
-    "colorPrimitiveLightGray60": {
+    "primitiveLightGray60": {
       "value": "#C3C3C3"
     },
-    "colorPrimitiveLightGray70": {
+    "primitiveLightGray70": {
       "value": "#BDBDBD"
     },
-    "colorPrimitiveLightGray80": {
+    "primitiveLightGray80": {
       "value": "#B0B0B0"
     },
-    "colorPrimitiveLightGray90": {
+    "primitiveLightGray90": {
       "value": "#A4A4A4"
     },
-    "colorPrimitiveLightGray100": {
+    "primitiveLightGray100": {
       "value": "#989898"
+    },
+    "black": {
+      "value": "#000000"
+    },
+    "white": {
+      "value": "#FFFFFF"
     }
   }
 }
