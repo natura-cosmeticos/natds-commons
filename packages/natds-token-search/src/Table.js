@@ -62,6 +62,9 @@ const buildNamePreview = (name) => {
   if (Object.keys(deprecatedTokens).includes(name)) {
     return `<td>${name} <span class="deprecated">deprecated</span></td>`
   }
+  if (name.includes('colorPrimitive')) {
+    return `<td>${name} <span class="deprecated">Internal only</span></td>`
+  }
   return `<td>${name}</td>`
 }
 
