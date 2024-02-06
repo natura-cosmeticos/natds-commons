@@ -29,6 +29,72 @@
     },
     "neutral900": {
       "value": "{spectrum.gray.900.value}"
+    },
+    "primitiveLightGray10": {
+      "value": "#FAFAFA"
+    },
+    "primitiveLightGray20": {
+      "value": "#EEEEEE"
+    },
+    "primitiveLightGray30": {
+      "value": "#E1E1E1"
+    },
+    "primitiveLightGray40": {
+      "value": "#D5D5D5"
+    },
+    "primitiveLightGray50": {
+      "value": "#C9C9C9"
+    },
+    "primitiveLightGray60": {
+      "value": "#C3C3C3"
+    },
+    "primitiveLightGray70": {
+      "value": "#BDBDBD"
+    },
+    "primitiveLightGray80": {
+      "value": "#B0B0B0"
+    },
+    "primitiveLightGray90": {
+      "value": "#A4A4A4"
+    },
+    "primitiveLightGray100": {
+      "value": "#989898"
+    },
+    "primitiveDarkGray10": {
+      "value": "#8C8C8C"
+    },
+    "primitiveDarkGray20": {
+      "value": "#7F7F7F"
+    },
+    "primitiveDarkGray30": {
+      "value": "#737373"
+    },
+    "primitiveDarkGray40": {
+      "value": "#676767"
+    },
+    "primitiveDarkGray50": {
+      "value": "#4E4E4E"
+    },
+    "primitiveDarkGray60": {
+      "value": "#424242"
+    },
+    "primitiveDarkGray70": {
+      "value": "#363636"
+    },
+    "primitiveDarkGray80": {
+      "value": "#2A2A2A"
+    },
+    "primitiveDarkGray90": {
+      "value": "#1D1D1D"
+    },
+    "primitiveDarkGray100": {
+      "value": "#111111"
+    },
+    "primitiveBlack": {
+      "value": "#000000"
+    },
+    "primitiveWhite": {
+      "value": "#FFFFFF"
     }
   }
 }

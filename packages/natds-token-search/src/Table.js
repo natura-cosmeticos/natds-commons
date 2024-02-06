@@ -17,7 +17,14 @@ const tableStyles = {
       borderRadius: 8,
       color: 'white',
       fontSize: 12,
-      padding: [0, 8]
+      padding: [4, 8]
+    },
+    '& .internalOnly': {
+      backgroundColor: '#227bbd',
+      borderRadius: 8,
+      color: 'white',
+      fontSize: 12,
+      padding: [4, 8]
     },
     '& .opacity': {
       backgroundColor: '#D51BE5',
@@ -61,6 +68,9 @@ const buildNamePreview = (name) => {
 
   if (Object.keys(deprecatedTokens).includes(name)) {
     return `<td>${name} <span class="deprecated">deprecated</span></td>`
+  }
+  if (name.includes('colorPrimitive')) {
+    return `<td>${name} <span class="internalOnly">Internal only</span></td>`
   }
   return `<td>${name}</td>`
 }
