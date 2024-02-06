@@ -427,6 +427,28 @@ declare namespace Themes {
   neutral700: string
   neutral800: string
   neutral900: string
+  primitiveLightGray10: string
+  primitiveLightGray20: string
+  primitiveLightGray30: string
+  primitiveLightGray40: string
+  primitiveLightGray50: string
+  primitiveLightGray60: string
+  primitiveLightGray70: string
+  primitiveLightGray80: string
+  primitiveLightGray90: string
+  primitiveLightGray100: string
+  primitiveDarkGray10: string
+  primitiveDarkGray20: string
+  primitiveDarkGray30: string
+  primitiveDarkGray40: string
+  primitiveDarkGray50: string
+  primitiveDarkGray60: string
+  primitiveDarkGray70: string
+  primitiveDarkGray80: string
+  primitiveDarkGray90: string
+  primitiveDarkGray100: string
+  primitiveBlack: string
+  primitiveWhite: string
   primary: string
   onPrimary: string
   primaryLight: string
