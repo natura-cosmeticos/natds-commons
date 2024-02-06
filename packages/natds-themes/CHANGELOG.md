@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.69.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.68.8...@naturacosmeticos/natds-themes@0.69.0) (2024-02-06)
+
+
+### Features
+
+* **natds-themes:** add color black and white ([a5d1bd9](https://github.com/natura-cosmeticos/natds-commons/commit/a5d1bd97bc28f7ec65d8cd935ae6f0a50b7d2696))
+* **natds-themes:** add color primitiveBlack and primitiveWhite ([793a1f3](https://github.com/natura-cosmeticos/natds-commons/commit/793a1f367437b330c8992e84ff0acd52ad81373e))
+* **natds-themes:** added color primitives light dark ([946d2ac](https://github.com/natura-cosmeticos/natds-commons/commit/946d2ac008f4cfeb7ebc1b0fb85876c8aadc07fa))
+
+
+
+
+
 ## [0.68.8](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.68.7...@naturacosmeticos/natds-themes@0.68.8) (2023-12-12)
 
 
