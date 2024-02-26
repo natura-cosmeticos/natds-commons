@@ -1,93 +1,98 @@
 {
   "color": {
+    "neutral0": {
+      "value": "{color.primitiveWhite.value}"
+    },
     "neutral50": {
-      "value": "{spectrum.gray.50.value}"
+      "value": "{color.primitiveLightGray50.value}"
     },
     "neutral100": {
-      "value": "{spectrum.gray.100.value}"
+      "value": "{color.primitiveLightGray200.value}"
     },
     "neutral200": {
-      "value": "{spectrum.gray.200.value}"
+      "value": "{color.primitiveLightGray400.value}"
     },
     "neutral300": {
-      "value": "{spectrum.gray.300.value}"
+      "value": "{color.primitiveLightGray600.value}"
     },
     "neutral400": {
-      "value": "{spectrum.gray.400.value}"
+      "value": "{color.primitiveLightGray800.value}"
     },
     "neutral500": {
-      "value": "{spectrum.gray.500.value}"
+      "value": "{color.primitiveDarkGray50.value}"
     },
     "neutral600": {
-      "value": "{spectrum.gray.600.value}"
+      "value": "{color.primitiveDarkGray200.value}"
     },
     "neutral700": {
-      "value": "{spectrum.gray.700.value}"
+      "value": "{color.primitiveDarkGray400.value}"
     },
     "neutral800": {
-      "value": "{spectrum.gray.800.value}"
+      "value": "{color.primitiveDarkGray600.value}"
     },
     "neutral900": {
-      "value": "{spectrum.gray.900.value}"
+      "value": "{color.primitiveDarkGray800.value}"
     },
-    "primitiveLightGray10": {
+
+
+    "primitiveLightGray50": {
       "value": "#FAFAFA"
     },
-    "primitiveLightGray20": {
+    "primitiveLightGray100": {
       "value": "#EEEEEE"
     },
-    "primitiveLightGray30": {
+    "primitiveLightGray200": {
       "value": "#E1E1E1"
     },
-    "primitiveLightGray40": {
+    "primitiveLightGray300": {
       "value": "#D5D5D5"
     },
-    "primitiveLightGray50": {
+    "primitiveLightGray400": {
       "value": "#C9C9C9"
     },
-    "primitiveLightGray60": {
+    "primitiveLightGray500": {
       "value": "#C3C3C3"
     },
-    "primitiveLightGray70": {
+    "primitiveLightGray600": {
       "value": "#BDBDBD"
     },
-    "primitiveLightGray80": {
+    "primitiveLightGray700": {
       "value": "#B0B0B0"
     },
-    "primitiveLightGray90": {
+    "primitiveLightGray800": {
       "value": "#A4A4A4"
     },
-    "primitiveLightGray100": {
+    "primitiveLightGray900": {
       "value": "#989898"
     },
-    "primitiveDarkGray10": {
+    "primitiveDarkGray50": {
       "value": "#8C8C8C"
     },
-    "primitiveDarkGray20": {
+    "primitiveDarkGray100": {
       "value": "#7F7F7F"
     },
-    "primitiveDarkGray30": {
+    "primitiveDarkGray200": {
       "value": "#737373"
     },
-    "primitiveDarkGray40": {
+    "primitiveDarkGray300": {
       "value": "#676767"
     },
-    "primitiveDarkGray50": {
+    "primitiveDarkGray400": {
       "value": "#4E4E4E"
     },
-    "primitiveDarkGray60": {
+    "primitiveDarkGray500": {
       "value": "#424242"
     },
-    "primitiveDarkGray70": {
+    "primitiveDarkGray600": {
       "value": "#363636"
     },
-    "primitiveDarkGray80": {
+    "primitiveDarkGray700": {
       "value": "#2A2A2A"
     },
-    "primitiveDarkGray90": {
+    "primitiveDarkGray800": {
       "value": "#1D1D1D"
     },
-    "primitiveDarkGray100": {
+    "primitiveDarkGray900": {
       "value": "#111111"
     },
     "primitiveBlack": {
