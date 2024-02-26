@@ -91,12 +91,15 @@ const renderBody = pipe(
   values,
   join('')
 )
-const keysToRemove = ['colorNeutral50',
-  'colorNeutral100', 'colorNeutral200',
-  'colorNeutral300', 'colorNeutral400',
-  'colorNeutral500', 'colorNeutral600',
-  'colorNeutral700', 'colorNeutral800',
-  'colorNeutral900'
+
+const removeFilterString = (obj, searchString) => {
+  const transformObjInArray = Object.entries(obj)
+  const filterObj = transformObjInArray.filter(([key]) => typeof key === 'string' && !key.includes(searchString))
+  const resultObj = Object.fromEntries(filterObj)
+  return resultObj
+}
+
+const keysToRemove = [
 ]
 function removeKeys(obj) {
   for (const key of keysToRemove) {
@@ -104,7 +107,8 @@ function removeKeys(obj) {
       delete obj[key]
     }
   }
-  return obj
+  const ObjFiltered = removeFilterString(obj, 'typographyFontSizeLevel')
+  return ObjFiltered
 }
 
 export const Table = () => {
