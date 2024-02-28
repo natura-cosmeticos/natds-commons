@@ -62,18 +62,77 @@
       "value": "#FFFFFF"
     },
 
+
+
+    "contentHighlight": {
+      "value": "{color.neutral900.value}"
+    },
+    "contentHighEmphasis": {
+      "value": "{color.neutral800.value}"
+    },
+    "contentMediumEmphasis": {
+      "value": "{color.neutral600.value}"
+    },
+    "contentLowEmphasis": {
+      "value": "{color.neutral500.value}"
+    },
+    "contentDisabled": {
+      "value": "{color.neutral400.value}"
+    },
+    "contentHighlightLight": {
+      "value": "{color.neutral0.value}"
+    },
+    "contentHighEmphasisLight": {
+      "value": "{color.neutral100.value}"
+    },
+    "contentMediumEmphasisLight": {
+      "value": "{color.neutral300.value}"
+    },
+    "contentLowEmphasisLight": {
+      "value": "{color.neutral400.value}"
+    },
+
+    "surface": {
+      "value": "{color.neutral0.value}"
+    },
+    "surfaceDark": {
+      "value": "{color.neutral700.value}"
+    },
+    "surfaceFixedLight": {
+      "value": "{color.neutral0.value}"
+    },
+    "surfaceFixedDark": {
+      "value": "{color.neutral700.value}"
+    },
+    "surfaceDisabled": {
+      "value": "{color.neutral400.value}"
+    },
+
+    "onSurface": {
+      "value": "{color.neutral800.value}"
+    },
+    "onSurfaceDark": {
+      "value": "{color.neutral0.value}"
+    },
+    "onSurfaceFixedLight": {
+      "value": "{color.neutral800.value}"
+    },
+    "onSurfaceFixedDark": {
+      "value": "{color.neutral0.value}"
+    },
+    "onSurfaceDisabled": {
+      "value": "{color.neutral800.value}"
+    },
+    
     "background": {
-      "value": "#FAFAFA"
+      "value": "{color.neutral50.value}"
     },
     "onBackground": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
-    "surface": {
-      "value": "#FFFFFF"
-    },
-    "onSurface": {
-      "value": "#333333"
-    },
+
+
+ 
     "surfaceInverse": {
       "value": "#333333"
     },
