@@ -286,6 +286,40 @@
     },
     "neutralDarkest": {
       "value": "#333333"
+    },
+
+    "neutral0": {
+      "value": "{color.primitiveDarkGray800.value}"
+    },
+    "neutral50": {
+      "value": "{color.primitiveDarkGray600.value}"
+    },
+    "neutral100": {
+      "value": "{color.primitiveDarkGray400.value}"
+    },
+    "neutral200": {
+      "value": "{color.primitiveDarkGray200.value}"
+    },
+    "neutral300": {
+      "value": "{color.primitiveDarkGray50.value}"
+    },
+    "neutral400": {
+      "value": "{color.primitiveLightGray800.value}"
+    },
+    "neutral500": {
+      "value": "{color.primitiveLightGray600.value}"
+    },
+    "neutral600": {
+      "value": "{color.primitiveLightGray400.value}"
+    },
+    "neutral700": {
+      "value": "{color.primitiveLightGray200.value}"
+    },
+    "neutral800": {
+      "value": "{color.primitiveLightGray50.value}"
+    },
+    "neutral900": {
+      "value": "{color.primitiveWhite.value}"
     }
   }
 }
