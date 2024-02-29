@@ -12,6 +12,7 @@ const radioGroupStyles = {
         fontWeight: 'bold'
       },
       '& label': {
+        whiteSpace: 'nowrap',
         '&:hover': {
           backgroundColor: color.primaryHover,
           borderColor: color.primary
@@ -77,10 +78,12 @@ const radioGroupStyles = {
         fontSize: 14,
         position: 'relative'
       },
-      marginRight: 24,
+      marginRight: 12,
       padding: [8, 0]
     },
-    display: 'flex'
+    display: 'flex',
+    flexWrap: 'wrap',
+    gap: 12
   }
 
 }
