@@ -1,7 +1,7 @@
 {
   "color": {
     "neutral0": {
-      "value": "{color.primitiveDarkGray800.value}"
+      "value": "{color.primitiveDarkGray900.value}"
     },
     "neutral50": {
       "value": "{color.primitiveDarkGray600.value}"

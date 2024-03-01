@@ -92,7 +92,7 @@
 
 
     "surface": {
-      "value": "{color.neutral700.value}"
+      "value": "{color.neutral100.value}"
     },
     "surfaceDark": {
       "value": "{color.neutral900.value}"
@@ -289,7 +289,7 @@
     },
 
     "neutral0": {
-      "value": "{color.primitiveDarkGray800.value}"
+      "value": "{color.primitiveDarkGray900.value}"
     },
     "neutral50": {
       "value": "{color.primitiveDarkGray600.value}"
