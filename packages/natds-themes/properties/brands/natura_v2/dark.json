@@ -136,22 +136,22 @@
 
  
     "surfaceInverse": {
-      "value": "FAFAFA"
+      "value": "{color.surfaceDark}"
     },
     "onSurfaceInverse": {
-      "value": "333333"
+      "value": "{color.onSurfaceDark}"
     },
     "highlight": {
-      "value": "#FFFFFF"
+      "value": "{color.contentHighlight}"
     },
     "highEmphasis": {
-      "value": "#FAFAFA"
+      "value": "{color.contentHighEmphasis}"
     },
     "mediumEmphasis": {
-      "value": "#BBBBBB"
+      "value": "{color.contentMediumEmphasis}"
     },
     "lowEmphasis": {
-      "value": "#777777"
+      "value": "{color.contentLowEmphasis}"
     },
     "lowLight": {
       "value": "#000000"
