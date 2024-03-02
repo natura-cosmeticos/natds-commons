@@ -80,16 +80,16 @@
     "contentDisabled": {
       "value": "{color.neutral400.value}"
     },
-    "contentHighlightLight": {
+    "contentHighlightFixedLight": {
       "value": "{color.neutral900.value}"
     },
-    "contentHighEmphasisLight": {
+    "contentHighEmphasisFixedLight": {
       "value": "{color.neutral800.value}"
     },
-    "contentMediumEmphasisLight": {
+    "contentMediumEmphasisFixedLight": {
       "value": "{color.neutral600.value}"
     },
-    "contentLowEmphasisLight": {
+    "contentLowEmphasisFixedLight": {
       "value": "{color.neutral500.value}"
     },
 
@@ -293,7 +293,7 @@
     },
 
     "neutral0": {
-      "value": "{color.primitiveDarkGray800.value}"
+      "value": "{color.primitiveDarkGray900.value}"
     },
     "neutral50": {
       "value": "{color.primitiveDarkGray600.value}"

@@ -77,16 +77,16 @@
     "contentDisabled": {
       "value": "{color.neutral400.value}"
     },
-    "contentHighlightLight": {
+    "contentHighlightFixedLight": {
       "value": "{color.neutral900.value}"
     },
-    "contentHighEmphasisLight": {
+    "contentHighEmphasisFixedLight": {
       "value": "{color.neutral800.value}"
     },
-    "contentMediumEmphasisLight": {
+    "contentMediumEmphasisFixedLight": {
       "value": "{color.neutral600.value}"
     },
-    "contentLowEmphasisLight": {
+    "contentLowEmphasisFixedLight": {
       "value": "{color.neutral500.value}"
     },
 
