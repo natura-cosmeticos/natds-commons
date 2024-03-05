@@ -62,11 +62,22 @@ const tableStyles = {
 const tableSheet = jss.createStyleSheet(tableStyles)
 
 const tableHeading = '<thead><th>Name</th><th>Value</th><th>Preview</th></thead>'
+const deprecated = [
+  'colorHighEmphasis',
+  'colorMediumEmphasis',
+  'colorLowEmphasis',
+  'colorHighlight',
+  'colorSurfaceInverse',
+  'colorOnSurfaceInverse'
 
+]
 const buildNamePreview = (name) => {
   const { deprecatedTokens } = store.getState()
 
   if (Object.keys(deprecatedTokens).includes(name)) {
+    return `<td>${name} <span class="deprecated">deprecated</span></td>`
+  }
+  if (deprecated.some((dep) => name.includes(dep))) {
     return `<td>${name} <span class="deprecated">deprecated</span></td>`
   }
   if (name.includes('colorPrimitive')) {

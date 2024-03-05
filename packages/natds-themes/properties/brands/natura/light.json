@@ -62,35 +62,94 @@
       "value": "#FFFFFF"
     },
 
+
+
+    "contentHighlight": {
+      "value": "{color.neutral900.value}"
+    },
+    "contentHighEmphasis": {
+      "value": "{color.neutral800.value}"
+    },
+    "contentMediumEmphasis": {
+      "value": "{color.neutral600.value}"
+    },
+    "contentLowEmphasis": {
+      "value": "{color.neutral500.value}"
+    },
+    "contentDisabled": {
+      "value": "{color.neutral400.value}"
+    },
+    "contentHighlightFixedLight": {
+      "value": "{color.neutral0.value}"
+    },
+    "contentHighEmphasisFixedLight": {
+      "value": "{color.neutral100.value}"
+    },
+    "contentMediumEmphasisFixedLight": {
+      "value": "{color.neutral300.value}"
+    },
+    "contentLowEmphasisFixedLight": {
+      "value": "{color.neutral400.value}"
+    },
+
+    "surface": {
+      "value": "{color.neutral0.value}"
+    },
+    "surfaceDark": {
+      "value": "{color.neutral700.value}"
+    },
+    "surfaceFixedLight": {
+      "value": "{color.neutral0.value}"
+    },
+    "surfaceFixedDark": {
+      "value": "{color.neutral700.value}"
+    },
+    "surfaceDisabled": {
+      "value": "{color.neutral400.value}"
+    },
+
+    "onSurface": {
+      "value": "{color.neutral800.value}"
+    },
+    "onSurfaceDark": {
+      "value": "{color.neutral0.value}"
+    },
+    "onSurfaceFixedLight": {
+      "value": "{color.neutral800.value}"
+    },
+    "onSurfaceFixedDark": {
+      "value": "{color.neutral0.value}"
+    },
+    "onSurfaceDisabled": {
+      "value": "{color.neutral800.value}"
+    },
+    
     "background": {
-      "value": "#FAFAFA"
+      "value": "{color.neutral50.value}"
     },
     "onBackground": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
-    "surface": {
-      "value": "#FFFFFF"
-    },
-    "onSurface": {
-      "value": "#333333"
-    },
+
+
+ 
     "surfaceInverse": {
-      "value": "#333333"
+      "value": "{color.surfaceDark.value}"
     },
     "onSurfaceInverse": {
-      "value": "#FFFFFF"
+      "value": "{color.onSurfaceDark.value}"
     },
     "highlight": {
-      "value": "#000000"
+      "value": "{color.contentHighlight.value}"
     },
     "highEmphasis": {
-      "value": "#333333"
+      "value": "{color.contentHighEmphasis.value}"
     },
     "mediumEmphasis": {
-      "value": "#777777"
+      "value": "{color.contentMediumEmphasis.value}"
     },
     "lowEmphasis": {
-      "value": "#BBBBBB"
+      "value": "{color.contentLowEmphasis.value}"
     },
     "lowLight": {
       "value": "#FFFFFF"
@@ -229,6 +288,40 @@
     },
     "neutralDarkest": {
       "value": "#333333"
+    },
+
+    "neutral0": {
+      "value": "{color.primitiveWhite.value}"
+    },
+    "neutral50": {
+      "value": "{color.primitiveLightGray50.value}"
+    },
+    "neutral100": {
+      "value": "{color.primitiveLightGray200.value}"
+    },
+    "neutral200": {
+      "value": "{color.primitiveLightGray400.value}"
+    },
+    "neutral300": {
+      "value": "{color.primitiveLightGray600.value}"
+    },
+    "neutral400": {
+      "value": "{color.primitiveLightGray800.value}"
+    },
+    "neutral500": {
+      "value": "{color.primitiveDarkGray50.value}"
+    },
+    "neutral600": {
+      "value": "{color.primitiveDarkGray200.value}"
+    },
+    "neutral700": {
+      "value": "{color.primitiveDarkGray400.value}"
+    },
+    "neutral800": {
+      "value": "{color.primitiveDarkGray600.value}"
+    },
+    "neutral900": {
+      "value": "{color.primitiveDarkGray900.value}"
     }
   }
 }
