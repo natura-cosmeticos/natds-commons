@@ -1,65 +1,65 @@
 {
   "color": {
     "primary": {
-      "value": "#DE6926"
+      "value": "#FFC9AB"
     },
     "onPrimary": {
-      "value": "#111111"
+      "value": "{color.neutral900.value}"
     },
     "primaryLight": {
-      "value": "#AA4E19"
+      "value": "#FFD7C2"
     },
     "onPrimaryLight": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral900.value}"
     },
     "primaryLightest": {
-      "value": "#713411"
+      "value": "#FFE4D6"
     },
     "onPrimaryLightest": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral900.value}"
     },
     "primaryDark": {
-      "value": "#E78F5C"
+      "value": "#FF8442"
     },
     "onPrimaryDark": {
-      "value": "#111111"
+      "value": "{color.neutral900.value}"
     },
     "primaryDarkest": {
-      "value": "#EFB492"
+      "value": "#D64B00"
     },
     "onPrimaryDarkest": {
-      "value": "#111111"
+      "value": "{color.neutral0.value}"
     },
 
     "secondary": {
-      "value": "#D9BA39"
+      "value": "#FFE1A0"
     },
     "onSecondary": {
-      "value": "#111111"
+      "value": "{color.neutral900.value}"
     },
     "secondaryLight": {
-      "value": "#AE9121"
+      "value": "#FFE8B6"
     },
     "onSecondaryLight": {
-      "value": "#111111"
+      "value": "{color.neutral900.value}"
     },
     "secondaryLightest": {
-      "value": "#746116"
+      "value": "#FFF0CF"
     },
     "onSecondaryLightest": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral900.value}"
     },
     "secondaryDark": {
-      "value": "#E3CB6B"
+      "value": "#FFC037"
     },
     "onSecondaryDark": {
-      "value": "#111111"
+      "value": "{color.neutral900.value}"
     },
     "secondaryDarkest": {
-      "value": "#ECDC9C"
+      "value": "#CF8D00"
     },
     "onSecondaryDarkest": {
-      "value": "#111111"
+      "value": "{color.neutral900.value}"
     },
 
 
