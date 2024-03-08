@@ -1,0 +1,54 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "natura-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "natura-b-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 192
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "natura-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "natura-b-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 192
+          }
+        }
+      }
+    }
+  }
+}

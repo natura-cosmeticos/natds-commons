@@ -8,6 +8,7 @@ export const brands = [
   'theBodyShop',
   'consultoriaDeBeleza',
   'natura_v2',
+  'natura_v3',
   'casaEestilo'
 ]
 
