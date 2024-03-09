@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.70.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.69.0...@naturacosmeticos/natds-themes@0.70.0) (2024-03-09)
+
+
+### Bug Fixes
+
+* **natds-themes:** change colors in nauraV2  neutral900 surface ([b60d610](https://github.com/natura-cosmeticos/natds-commons/commit/b60d61053506e9a06e951eef5c2afd267ed2b660))
+* **natds-themes:** change name color contentFixedLight ([8a1f298](https://github.com/natura-cosmeticos/natds-commons/commit/8a1f298e03f4a93ea2940c56770ecd1aa427b954))
+* **natds-themes:** change neutrals onColor dark mode naturav3 ([d8e78df](https://github.com/natura-cosmeticos/natds-commons/commit/d8e78df05c177d21bdd1256ef5e7c1efde0ff644))
+* **natds-themes:** complete reference value in colors deprecate ([9c1da17](https://github.com/natura-cosmeticos/natds-commons/commit/9c1da17aa960b393467bd22681dc50afb795545b))
+* **natds-themes:** redirect value colors surfaceInverse and deprecade colors ([06d42c9](https://github.com/natura-cosmeticos/natds-commons/commit/06d42c9a7c9b5df72c3229e9231ba00e9a17981c))
+* **natds-themes:** transfer content e surface to brand colors ([c93983d](https://github.com/natura-cosmeticos/natds-commons/commit/c93983dc2984ae256c5179898f86ebe6f56ff861))
+
+
+### Features
+
+* **natds-themes:** added color neutrals semantics ([974f4d7](https://github.com/natura-cosmeticos/natds-commons/commit/974f4d79deee165c5b54d880c8c7efe110711d88))
+* **natds-themes:** added natura_v3 mode dark ([07b7120](https://github.com/natura-cosmeticos/natds-commons/commit/07b712025447e2e9a93bf7670a8dd093ef59befe))
+* **natds-themes:** added neutrals in brand colors ([2a90ab6](https://github.com/natura-cosmeticos/natds-commons/commit/2a90ab6dec6f35cc5e40b33266fe7255c6a03f66))
+* **natds-themes:** added new theme natura_v3 ([5d5b395](https://github.com/natura-cosmeticos/natds-commons/commit/5d5b395d7f889d910417b999d8876b8ec8647294))
+* **natds-themes:** added news neutrals in global colors ([8e5f485](https://github.com/natura-cosmeticos/natds-commons/commit/8e5f4859ab420e396546483040afd55bf17ece73))
+
+
+
+
+
 # [0.69.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.68.8...@naturacosmeticos/natds-themes@0.69.0) (2024-02-06)
 
 
