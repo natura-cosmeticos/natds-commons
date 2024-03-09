@@ -4,62 +4,62 @@
       "value": "#FFC9AB"
     },
     "onPrimary": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "primaryLight": {
       "value": "#FFD7C2"
     },
     "onPrimaryLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "primaryLightest": {
       "value": "#FFE4D6"
     },
     "onPrimaryLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "primaryDark": {
       "value": "#FF8442"
     },
     "onPrimaryDark": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "primaryDarkest": {
       "value": "#D64B00"
     },
     "onPrimaryDarkest": {
-      "value": "{color.neutral0.value}"
+      "value": "{color.neutral900.value}"
     },
 
     "secondary": {
       "value": "#FFE1A0"
     },
     "onSecondary": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "secondaryLight": {
       "value": "#FFE8B6"
     },
     "onSecondaryLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "secondaryLightest": {
       "value": "#FFF0CF"
     },
     "onSecondaryLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "secondaryDark": {
       "value": "#FFC037"
     },
     "onSecondaryDark": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "secondaryDarkest": {
       "value": "#CF8D00"
     },
     "onSecondaryDarkest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
 
 
