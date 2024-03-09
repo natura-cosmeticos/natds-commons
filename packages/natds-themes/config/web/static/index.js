@@ -11,6 +11,8 @@ import naturaDarkTheme from './natura/dark.json'
 import naturaLightTheme from './natura/light.json'
 import naturaV2DarkTheme from './natura_v2/dark.json'
 import naturaV2LightTheme from './natura_v2/light.json'
+import naturaV3DarkTheme from './natura_v3/dark.json'
+import naturaV3LightTheme from './natura_v3/light.json'
 import theBodyShopDarkTheme from './theBodyShop/dark.json'
 import theBodyShopLightTheme from './theBodyShop/light.json'
 import consultoriaDeBelezaDarkTheme from './consultoriaDeBeleza/dark.json'
@@ -42,6 +44,10 @@ const themes = {
   natura_v2: {
     dark: naturaV2DarkTheme,
     light: naturaV2LightTheme
+  },
+  natura_v3: {
+    dark: naturaV3DarkTheme,
+    light: naturaV3LightTheme
   },
   theBodyShop: {
     dark: theBodyShopDarkTheme,

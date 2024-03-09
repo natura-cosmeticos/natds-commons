@@ -8,6 +8,7 @@ const brandsLabel = {
   theBodyShop: 'The Body Shop',
   consultoriaDeBeleza: 'Consultoria de Beleza',
   natura_v2: 'Natura v2',
+  natura_v3: 'Natura v3',
   casaEestilo: 'Casa & estilo'
 }
 const platformsLabel = {

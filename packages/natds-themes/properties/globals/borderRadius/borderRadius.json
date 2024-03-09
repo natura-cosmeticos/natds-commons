@@ -11,6 +11,9 @@
     },
     "large": {
       "value": 8
+    },
+    "circle": {
+      "value": 999
     }
   }
 }
