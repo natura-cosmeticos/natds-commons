@@ -417,6 +417,7 @@ declare namespace Themes {
   elevation: number
 }
  export interface Color {
+  neutral0: string
   neutral50: string
   neutral100: string
   neutral200: string
@@ -427,26 +428,26 @@ declare namespace Themes {
   neutral700: string
   neutral800: string
   neutral900: string
-  primitiveLightGray10: string
-  primitiveLightGray20: string
-  primitiveLightGray30: string
-  primitiveLightGray40: string
   primitiveLightGray50: string
-  primitiveLightGray60: string
-  primitiveLightGray70: string
-  primitiveLightGray80: string
-  primitiveLightGray90: string
   primitiveLightGray100: string
-  primitiveDarkGray10: string
-  primitiveDarkGray20: string
-  primitiveDarkGray30: string
-  primitiveDarkGray40: string
+  primitiveLightGray200: string
+  primitiveLightGray300: string
+  primitiveLightGray400: string
+  primitiveLightGray500: string
+  primitiveLightGray600: string
+  primitiveLightGray700: string
+  primitiveLightGray800: string
+  primitiveLightGray900: string
   primitiveDarkGray50: string
-  primitiveDarkGray60: string
-  primitiveDarkGray70: string
-  primitiveDarkGray80: string
-  primitiveDarkGray90: string
   primitiveDarkGray100: string
+  primitiveDarkGray200: string
+  primitiveDarkGray300: string
+  primitiveDarkGray400: string
+  primitiveDarkGray500: string
+  primitiveDarkGray600: string
+  primitiveDarkGray700: string
+  primitiveDarkGray800: string
+  primitiveDarkGray900: string
   primitiveBlack: string
   primitiveWhite: string
   primary: string
@@ -469,10 +470,27 @@ declare namespace Themes {
   onSecondaryDark: string
   secondaryDarkest: string
   onSecondaryDarkest: string
+  contentHighlight: string
+  contentHighEmphasis: string
+  contentMediumEmphasis: string
+  contentLowEmphasis: string
+  contentDisabled: string
+  contentHighlightFixedLight: string
+  contentHighEmphasisFixedLight: string
+  contentMediumEmphasisFixedLight: string
+  contentLowEmphasisFixedLight: string
+  surface: string
+  surfaceDark: string
+  surfaceFixedLight: string
+  surfaceFixedDark: string
+  surfaceDisabled: string
+  onSurface: string
+  onSurfaceDark: string
+  onSurfaceFixedLight: string
+  onSurfaceFixedDark: string
+  onSurfaceDisabled: string
   background: string
   onBackground: string
-  surface: string
-  onSurface: string
   surfaceInverse: string
   onSurfaceInverse: string
   highlight: string
@@ -531,6 +549,7 @@ declare namespace Themes {
   small: number
   medium: number
   large: number
+  circle: number
 }
  export interface Asset {
   font: Font
@@ -579,6 +598,7 @@ declare namespace Themes {
     theBodyShop: BrandThemes
     consultoriaDeBeleza: BrandThemes
     natura_v2: BrandThemes
+    natura_v3: BrandThemes
     casaEestilo: BrandThemes
   }
 }
