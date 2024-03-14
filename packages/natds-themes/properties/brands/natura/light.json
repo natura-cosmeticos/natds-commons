@@ -154,126 +154,169 @@
     "lowLight": {
       "value": "#FFFFFF"
     },
-    "link": {
+
+
+    "info": {
       "value": "#227BBD"
     },
-    "onLink": {
-      "value": "#FFFFFF"
+    "onInfo": {
+      "value": "{color.neutral0.value}"
     },
-    "linkLight": {
+    "infoLight": {
       "value": "#54A6DC"
     },
-    "onLinkLight": {
-      "value": "#FFFFFF"
+    "onInfoLight": {
+      "value": "{color.neutral900.value}"
     },
-    "linkLightest": {
+    "infoLightest": {
       "value": "#C4DFF3"
     },
-    "onLinkLightest": {
-      "value": "#333333"
+    "onInfoLightest": {
+      "value": "{color.neutral900.value}"
     },
-    "linkDark": {
+    "infoDark": {
       "value": "#1A588A"
     },
-    "onLinkDark": {
-      "value": "#FFFFFF"
+    "onInfoDark": {
+      "value": "{color.neutral0.value}"
     },
-    "linkDarkest": {
+    "infoDarkest": {
       "value": "#194B73"
     },
-    "onLinkDarkest": {
-      "value": "#FFFFFF"
+    "onInfoDarkest": {
+      "value": "{color.neutral0.value}"
     },
+
+
+
+    "link": {
+      "value": "{color.info.value}"
+    },
+    "onLink": {
+      "value": "{color.neutral0.value}"
+    },
+    "linkLight": {
+      "value": "{color.infoLight.value}"
+    },
+    "onLinkLight": {
+      "value": "{color.neutral900.value}"
+    },
+    "linkLightest": {
+      "value": "{color.infoLightest.value}"
+    },
+    "onLinkLightest": {
+      "value": "{color.neutral900.value}"
+    },
+    "linkDark": {
+      "value": "{color.infoDark.value}"
+    },
+    "onLinkDark": {
+      "value": "{color.neutral0.value}"
+    },
+    "linkDarkest": {
+      "value": "{color.infoDarkest.value}"
+    },
+    "onLinkDarkest": {
+      "value": "{color.neutral0.value}"
+    },
+
+
     "success": {
       "value": "#569A32"
     },
     "onSuccess": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral900.value}"
     },
     "successLight": {
       "value": "#A0D87E"
     },
     "onSuccessLight": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
     "successLightest": {
       "value": "#E1F3D4"
     },
     "onSuccessLightest": {
-      "value": "#333333 "
+      "value": "{color.neutral900.value}"
     },
     "successDark": {
       "value": "#386823"
     },
     "onSuccessDark": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral0.value}"
     },
     "successDarkest": {
       "value": "#2B4720"
     },      
     "onSuccessDarkest": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral0.value}"
     },
+
+
     "warning": {
       "value": "#FCC433"
     },
     "onWarning": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
     "warningLight": {
-      "value": "#FDE68A"
+      "value": "#FDD265"
     },
     "onWarningLight": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
     "warningLightest": {
-      "value": "#FEF3C7"
+      "value": "#FDE198"
     },
     "onWarningLightest": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
     "warningDark": {
-      "value": "#F69E0A"
+      "value": "#DEA003"
     },
     "onWarningDark": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
     "warningDarkest": {
-      "value": "#DA7705"
+      "value": "#946B02"
     },
     "onWarningDarkest": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral0.value}"
     },
+
+
     "alert": {
       "value": "#E74627"
     },
     "onAlert": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral900.value}"
     },
     "alertLight": {
       "value": "#FF826A"
     },
     "onAlertLight": {
-      "value": "#333333"
+      "value": "{color.neutral900.value}"
     },
     "alertLightest": {
       "value": "#FFD0C7"
     },
     "onAlertLightest": {
-      "value": "#3333"
+      "value": "{color.neutral900.value}"
     },
     "alertDark": {
       "value": "#C13014"
     },
     "onAlertDark": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral0.value}"
     },
     "alertDarkest": {
       "value": "#A02B14"
     },
     "onAlertDarkest": {
-      "value": "#FFFFFF"
+      "value": "{color.neutral0.value}"
     },
+
+
     "neutralLightest": {
       "value": "#FFFFFF"
     },
@@ -289,6 +332,7 @@
     "neutralDarkest": {
       "value": "#333333"
     },
+
 
     "neutral0": {
       "value": "{color.primitiveWhite.value}"
