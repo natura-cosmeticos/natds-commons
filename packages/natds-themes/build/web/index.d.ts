@@ -490,6 +490,16 @@ declare namespace Themes {
   mediumEmphasis: string
   lowEmphasis: string
   lowLight: string
+  info: string
+  onInfo: string
+  infoLight: string
+  onInfoLight: string
+  infoLightest: string
+  onInfoLightest: string
+  infoDark: string
+  onInfoDark: string
+  infoDarkest: string
+  onInfoDarkest: string
   link: string
   onLink: string
   linkLight: string
