@@ -68,7 +68,9 @@ const deprecated = [
   'colorLowEmphasis',
   'colorHighlight',
   'colorSurfaceInverse',
-  'colorOnSurfaceInverse'
+  'colorOnSurfaceInverse',
+  'colorLink',
+  'colorOnLink'
 
 ]
 const buildNamePreview = (name) => {
