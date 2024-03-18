@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.71.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.70.0...@naturacosmeticos/natds-themes@0.71.0) (2024-03-18)
+
+
+### Features
+
+* **natds-themes:** added semantic colors feedback ([8fd4458](https://github.com/natura-cosmeticos/natds-commons/commit/8fd4458b61a354d00d8cb97432266bcc2a6b08d0))
+
+
+
+
+
 # [0.70.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.69.0...@naturacosmeticos/natds-themes@0.70.0) (2024-03-09)
 
 
