@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import fs from 'fs'
 import path from 'path'
 import {
@@ -35,6 +36,32 @@ export const isCustomAsset = both(isAssetFile, isProp('custom'))
 export const hasAlpha = (value) => value.length === 9
 export const isFontFamilyProp = isProp('fontFamily')
 export const checkDir = (dir) => !fs.existsSync(dir) && fs.mkdirSync(dir, { recursive: true })
+
+const removeTokens = [
+  'colorPrimitiveLightGray50',
+  'colorPrimitiveLightGray100',
+  'colorPrimitiveLightGray200',
+  'colorPrimitiveLightGray300',
+  'colorPrimitiveLightGray400',
+  'colorPrimitiveLightGray600',
+  'colorPrimitiveLightGray700',
+  'colorPrimitiveLightGray800',
+  'colorPrimitiveLightGray900',
+  'colorPrimitiveDarkGray50',
+  'colorPrimitiveDarkGray100',
+  'colorPrimitiveDarkGray200',
+  'colorPrimitiveDarkGray300',
+  'colorPrimitiveDarkGray400',
+  'colorPrimitiveDarkGray500',
+  'colorPrimitiveDarkGray600',
+  'colorPrimitiveDarkGray700',
+  'colorPrimitiveDarkGray800',
+  'colorPrimitiveDarkGray900',
+  'colorPrimitiveBlack',
+  'colorPrimitiveWhite'
+]
+
+export const excludePrimitiveTokens = (token) => !removeTokens.some((excludeItem) => token.name.includes(excludeItem))
 
 export const isLogoAssetFileLanguage = (token) => token.attributes.state === 'file' || token.attributes.state === 'pt' || token.attributes.state === 'es'
 export function snakeToCamelCase(str) {

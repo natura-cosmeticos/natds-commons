@@ -1,4 +1,4 @@
-import { capitalizeWord, snakeToCamelCase } from '../shared/helpers'
+import { capitalizeWord, snakeToCamelCase, excludePrimitiveTokens } from '../shared/helpers'
 
 const buildIosConfig = (brand, mode) => {
   const brandFormated = capitalizeWord(snakeToCamelCase(brand))
@@ -11,13 +11,13 @@ const buildIosConfig = (brand, mode) => {
     files: [
       {
         destination: `theme/${brandFormated}/${fileName}Theme.swift`,
-        filter: 'privateProperties',
+        filter: (token) => excludePrimitiveTokens(token) && 'privateProperties',
         format: 'ios-swift/theme.swift',
         themeName: fileName
       },
       {
         destination: 'theme/ThemeProtocol.swift',
-        filter: 'privateProperties',
+        filter: (token) => excludePrimitiveTokens(token) && 'privateProperties',
         format: 'ios-swift/theme-protocol.swift'
       },
       {
