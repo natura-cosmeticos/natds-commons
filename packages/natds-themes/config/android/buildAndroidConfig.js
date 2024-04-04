@@ -1,4 +1,4 @@
-import { capitalizeWord, camelToSnakeCase } from '../shared/helpers'
+import { capitalizeWord, camelToSnakeCase, excludePrimitiveTokens } from '../shared/helpers'
 import { filterPrivateAndFontFamilyProps, filterSearchAndFontFamilyProps } from './helpers/helpers'
 
 export const buildAndroidConfig = (brand, mode) => {
@@ -16,7 +16,7 @@ export const buildAndroidConfig = (brand, mode) => {
       {
         brandName: capitalizeWord(brand),
         destination: `theme/theme_${brandName}_${mode}_ssot.xml`,
-        filter: filterPrivateAndFontFamilyProps,
+        filter: (token) => excludePrimitiveTokens(token) && filterPrivateAndFontFamilyProps,
         format: 'android/themes',
         mode: capitalizeWord(mode)
       },

@@ -1,3 +1,5 @@
+import { excludePrimitiveTokens } from '../shared/helpers'
+
 export const buildWebConfig = (brand, mode) => ({
   actions: ['create_type_definitions', 'custom_copy_assets', 'create_type_face'],
   brand,
@@ -11,13 +13,13 @@ export const buildWebConfig = (brand, mode) => ({
     },
     {
       destination: `${brand}/${mode}.json`,
-      filter: 'privateProperties',
+      filter: (token) => excludePrimitiveTokens(token) && 'privateProperties',
       format: 'json/nested',
       options: { showFileHeader: false }
     },
     {
       destination: `${brand}/${mode}.js`,
-      filter: 'privateProperties',
+      filter: (token) => excludePrimitiveTokens(token) && 'privateProperties',
       format: 'javascript/es6',
       options: { showFileHeader: false }
     },
