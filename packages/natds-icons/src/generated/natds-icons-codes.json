@@ -98,6 +98,9 @@
 	"filled-brand-thebodyshop": [
 		""
 	],
+	"filled-brand-tiktok": [
+		""
+	],
 	"filled-brand-twitter": [
 		""
 	],
@@ -125,8 +128,20 @@
 	"filled-content-gauge": [
 		""
 	],
+	"filled-content-handsoap": [
+		""
+	],
+	"filled-content-handwater": [
+		""
+	],
+	"filled-content-oilunavailable": [
+		""
+	],
 	"filled-content-quote": [
 		""
+	],
+	"filled-content-sensitive": [
+		""
 	],
 	"filled-content-violence": [
 		""
@@ -158,6 +173,9 @@
 	"filled-finance-pix": [
 		""
 	],
+	"filled-finance-shieldplus": [
+		""
+	],
 	"filled-media-pause": [
 		""
 	],
@@ -166,6 +184,12 @@
 	],
 	"filled-media-stop": [
 		""
+	],
+	"filled-media-volumeoff": [
+		""
+	],
+	"filled-media-volumeon": [
+		""
 	],
 	"filled-navigation-arrowbottom": [
 		""
@@ -194,8 +218,14 @@
 	"filled-navigation-home": [
 		""
 	],
+	"filled-navigation-maximize": [
+		""
+	],
 	"filled-navigation-menu": [
 		""
+	],
+	"filled-navigation-minimize": [
+		""
 	],
 	"filled-navigation-more": [
 		""
@@ -215,11 +245,17 @@
 	"filled-place-local": [
 		""
 	],
+	"filled-place-target": [
+		""
+	],
 	"filled-place-truck": [
 		""
 	],
 	"filled-product-brandsproduct": [
 		""
+	],
+	"filled-product-cube": [
+		""
 	],
 	"filled-product-fashion": [
 		""
@@ -416,6 +452,12 @@
 	"outlined-action-visibilitysleeping": [
 		""
 	],
+	"outlined-action-zoomin": [
+		""
+	],
+	"outlined-action-zoomout": [
+		""
+	],
 	"outlined-alert-cancel": [
 		""
 	],
@@ -457,6 +499,9 @@
 	],
 	"outlined-brand-thebodyshop": [
 		""
+	],
+	"outlined-brand-tiktok": [
+		""
 	],
 	"outlined-brand-x": [
 		""
@@ -572,6 +617,12 @@
 	"outlined-content-hands": [
 		""
 	],
+	"outlined-content-handsoap": [
+		""
+	],
+	"outlined-content-handwater": [
+		""
+	],
 	"outlined-content-health": [
 		""
 	],
@@ -608,6 +659,9 @@
 	"outlined-content-mirror": [
 		""
 	],
+	"outlined-content-oilunavailable": [
+		""
+	],
 	"outlined-content-password": [
 		""
 	],
@@ -628,6 +682,9 @@
 	],
 	"outlined-content-saleinsight": [
 		""
+	],
+	"outlined-content-sensitive": [
+		""
 	],
 	"outlined-content-snow": [
 		""
@@ -719,6 +776,9 @@
 	"outlined-finance-scancard": [
 		""
 	],
+	"outlined-finance-shieldplus": [
+		""
+	],
 	"outlined-finance-shoppingcart": [
 		""
 	],
@@ -734,6 +794,9 @@
 	"outlined-finance-transfermoney": [
 		""
 	],
+	"outlined-makeup-age": [
+		""
+	],
 	"outlined-makeup-eyebrow": [
 		""
 	],
@@ -746,8 +809,14 @@
 	"outlined-makeup-face": [
 		""
 	],
+	"outlined-makeup-mixedskin": [
+		""
+	],
 	"outlined-makeup-mouth": [
 		""
+	],
+	"outlined-makeup-typeacneic": [
+		""
 	],
 	"outlined-media-app": [
 		""
@@ -763,6 +832,12 @@
 	],
 	"outlined-media-play": [
 		""
+	],
+	"outlined-media-volumeoff": [
+		""
+	],
+	"outlined-media-volumeon": [
+		""
 	],
 	"outlined-navigation-arrowbottom": [
 		""
@@ -815,8 +890,14 @@
 	"outlined-navigation-home": [
 		""
 	],
+	"outlined-navigation-maximize": [
+		""
+	],
 	"outlined-navigation-menu": [
 		""
+	],
+	"outlined-navigation-minimize": [
+		""
 	],
 	"outlined-place-bus": [
 		""

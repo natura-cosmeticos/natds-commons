@@ -46,6 +46,99 @@ declare namespace Themes {
   body2: Heading1
   caption: Heading1
   overline: Heading1
+  private: Private
+  spectrum: Spectrum
+  platform: Platform
+}
+ export interface Platform {
+  button: Button2
+  typography: Typography2
+  heading1: Button2
+  heading2: Button2
+  heading3: Button2
+  heading4: Button2
+  heading5: Button2
+  heading6: Button2
+  subtitle1: Button2
+  subtitle2: Button2
+  body1: Button2
+  body2: Button2
+  caption: Button2
+  overline: Button2
+}
+ export interface Typography2 {
+  fontFamily: FontFamily2
+  fallback: Display
+}
+ export interface FontFamily2 {
+  primary: string
+  code: string
+}
+ export interface Button2 {
+  letterSpacing: number
+}
+ export interface Spectrum {
+  dark: string
+  light: string
+  pink: Pink
+  grape: Pink
+  violet: Pink
+  indigo: Pink
+  blue: Pink
+  cyan: Pink
+  teal: Pink
+  green: Pink
+  lime: Pink
+  yellow: Pink
+  orange: Pink
+  color: Color13
+  gray: Pink
+  red: Pink
+}
+ export interface Color13 {
+  brand: Brand2
+}
+ export interface Brand2 {
+  a: A2
+  b: A2
+  c: A2
+  gradient: Gradient
+}
+ export interface Gradient {
+  primary: Primary
+}
+ export interface Primary {
+  type: string
+  angle: number
+  start: string
+  end: string
+}
+ export interface A2 {
+  lightest: string
+  light: string
+  main: string
+  dark: string
+  darkest: string
+}
+ export interface Pink {
+  '50': string
+  '100': string
+  '200': string
+  '300': string
+  '400': string
+  '500': string
+  '600': string
+  '700': string
+  '800': string
+  '900': string
+}
+ export interface Private {
+  borderRadius: BorderRadius4
+  button: Semi
+  shortcut: Semi
+}
+ export interface BorderRadius4 {
+  circle: Size
 }
  export interface Heading1 {
   fontSize: number
@@ -420,28 +513,6 @@ declare namespace Themes {
   neutral700: string
   neutral800: string
   neutral900: string
-  primitiveLightGray50: string
-  primitiveLightGray100: string
-  primitiveLightGray200: string
-  primitiveLightGray300: string
-  primitiveLightGray400: string
-  primitiveLightGray500: string
-  primitiveLightGray600: string
-  primitiveLightGray700: string
-  primitiveLightGray800: string
-  primitiveLightGray900: string
-  primitiveDarkGray50: string
-  primitiveDarkGray100: string
-  primitiveDarkGray200: string
-  primitiveDarkGray300: string
-  primitiveDarkGray400: string
-  primitiveDarkGray500: string
-  primitiveDarkGray600: string
-  primitiveDarkGray700: string
-  primitiveDarkGray800: string
-  primitiveDarkGray900: string
-  primitiveBlack: string
-  primitiveWhite: string
   primary: string
   onPrimary: string
   primaryLight: string

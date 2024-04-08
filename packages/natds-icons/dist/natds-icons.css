@@ -233,6 +233,10 @@
   content: "\eb10";
 }
 
+.natds-icons-filled-brand-tiktok::before {
+  content: "\eb41";
+}
+
 .natds-icons-filled-brand-twitter::before {
   content: "\ea10";
 }
@@ -269,8 +273,24 @@
   content: "\eb2f";
 }
 
+.natds-icons-filled-content-handsoap::before {
+  content: "\eb42";
+}
+
+.natds-icons-filled-content-handwater::before {
+  content: "\eb43";
+}
+
+.natds-icons-filled-content-oilunavailable::before {
+  content: "\eb44";
+}
+
 .natds-icons-filled-content-quote::before {
   content: "\ea15";
+}
+
+.natds-icons-filled-content-sensitive::before {
+  content: "\eb45";
 }
 
 .natds-icons-filled-content-violence::before {
@@ -313,6 +333,10 @@
   content: "\eb2b";
 }
 
+.natds-icons-filled-finance-shieldplus::before {
+  content: "\eb46";
+}
+
 .natds-icons-filled-media-pause::before {
   content: "\ea19";
 }
@@ -323,6 +347,14 @@
 
 .natds-icons-filled-media-stop::before {
   content: "\ea1b";
+}
+
+.natds-icons-filled-media-volumeoff::before {
+  content: "\eb47";
+}
+
+.natds-icons-filled-media-volumeon::before {
+  content: "\eb48";
 }
 
 .natds-icons-filled-navigation-arrowbottom::before {
@@ -361,8 +393,16 @@
   content: "\eaf2";
 }
 
+.natds-icons-filled-navigation-maximize::before {
+  content: "\eb49";
+}
+
 .natds-icons-filled-navigation-menu::before {
   content: "\ea24";
+}
+
+.natds-icons-filled-navigation-minimize::before {
+  content: "\eb4a";
 }
 
 .natds-icons-filled-navigation-more::before {
@@ -389,12 +429,20 @@
   content: "\eb11";
 }
 
+.natds-icons-filled-place-target::before {
+  content: "\eb4b";
+}
+
 .natds-icons-filled-place-truck::before {
   content: "\eaf3";
 }
 
 .natds-icons-filled-product-brandsproduct::before {
   content: "\ea2a";
+}
+
+.natds-icons-filled-product-cube::before {
+  content: "\eb4c";
 }
 
 .natds-icons-filled-product-fashion::before {
@@ -657,6 +705,14 @@
   content: "\eb30";
 }
 
+.natds-icons-outlined-action-zoomin::before {
+  content: "\eb4d";
+}
+
+.natds-icons-outlined-action-zoomout::before {
+  content: "\eb4e";
+}
+
 .natds-icons-outlined-alert-cancel::before {
   content: "\ea63";
 }
@@ -711,6 +767,10 @@
 
 .natds-icons-outlined-brand-thebodyshop::before {
   content: "\eb13";
+}
+
+.natds-icons-outlined-brand-tiktok::before {
+  content: "\eb4f";
 }
 
 .natds-icons-outlined-brand-x::before {
@@ -865,6 +925,14 @@
   content: "\ea84";
 }
 
+.natds-icons-outlined-content-handsoap::before {
+  content: "\eb50";
+}
+
+.natds-icons-outlined-content-handwater::before {
+  content: "\eb51";
+}
+
 .natds-icons-outlined-content-health::before {
   content: "\ea85";
 }
@@ -913,6 +981,10 @@
   content: "\ea8e";
 }
 
+.natds-icons-outlined-content-oilunavailable::before {
+  content: "\eb52";
+}
+
 .natds-icons-outlined-content-password::before {
   content: "\ea8f";
 }
@@ -939,6 +1011,10 @@
 
 .natds-icons-outlined-content-saleinsight::before {
   content: "\eae8";
+}
+
+.natds-icons-outlined-content-sensitive::before {
+  content: "\eb53";
 }
 
 .natds-icons-outlined-content-snow::before {
@@ -1061,6 +1137,10 @@
   content: "\eafe";
 }
 
+.natds-icons-outlined-finance-shieldplus::before {
+  content: "\eb54";
+}
+
 .natds-icons-outlined-finance-shoppingcart::before {
   content: "\eaa6";
 }
@@ -1081,6 +1161,10 @@
   content: "\eaaa";
 }
 
+.natds-icons-outlined-makeup-age::before {
+  content: "\eb55";
+}
+
 .natds-icons-outlined-makeup-eyebrow::before {
   content: "\eb02";
 }
@@ -1097,8 +1181,16 @@
   content: "\eb05";
 }
 
+.natds-icons-outlined-makeup-mixedskin::before {
+  content: "\eb56";
+}
+
 .natds-icons-outlined-makeup-mouth::before {
   content: "\eb06";
+}
+
+.natds-icons-outlined-makeup-typeacneic::before {
+  content: "\eb57";
 }
 
 .natds-icons-outlined-media-app::before {
@@ -1119,6 +1211,14 @@
 
 .natds-icons-outlined-media-play::before {
   content: "\eaae";
+}
+
+.natds-icons-outlined-media-volumeoff::before {
+  content: "\eb58";
+}
+
+.natds-icons-outlined-media-volumeon::before {
+  content: "\eb59";
 }
 
 .natds-icons-outlined-navigation-arrowbottom::before {
@@ -1189,8 +1289,16 @@
   content: "\eabb";
 }
 
+.natds-icons-outlined-navigation-maximize::before {
+  content: "\eb5a";
+}
+
 .natds-icons-outlined-navigation-menu::before {
   content: "\eabc";
+}
+
+.natds-icons-outlined-navigation-minimize::before {
+  content: "\eb5b";
 }
 
 .natds-icons-outlined-place-bus::before {
