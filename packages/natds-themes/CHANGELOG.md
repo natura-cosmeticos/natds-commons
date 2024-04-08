@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.72.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.71.0...@naturacosmeticos/natds-themes@0.72.0) (2024-04-08)
+
+
+### Features
+
+* **natds-themes:** added tokens components ([d90f70b](https://github.com/natura-cosmeticos/natds-commons/commit/d90f70becd996f52b31e5ba466c1ab8968fb6566))
+* **natds-themes:** filter Primitive Colors ([6e24643](https://github.com/natura-cosmeticos/natds-commons/commit/6e24643b59dee1a7fc0a08b52a55cab7a763c31e))
+
+
+
+
+
 # [0.71.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.70.0...@naturacosmeticos/natds-themes@0.71.0) (2024-03-18)
 
 
