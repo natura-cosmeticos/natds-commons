@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.21.0...@naturacosmeticos/natds-icons@1.22.0) (2024-04-09)
+
+
+### Features
+
+* **natds-icons:** add icon outlined-finance-addbag ([8d7bd49](https://github.com/natura-cosmeticos/natds-commons/commit/8d7bd49b2fd0312b362250b3918602d383dcb028))
+
+
+
+
+
 # [1.21.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.20.0...@naturacosmeticos/natds-icons@1.21.0) (2024-04-08)
 
 
