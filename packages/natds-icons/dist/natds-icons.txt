@@ -238,6 +238,7 @@ outlined_content_wellness
 outlined_content_wifi
 outlined_content_world
 outlined_default_mockup
+outlined_finance_addbag
 outlined_finance_bag
 outlined_finance_bank
 outlined_finance_cards

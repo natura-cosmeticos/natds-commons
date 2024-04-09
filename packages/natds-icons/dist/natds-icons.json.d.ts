@@ -239,6 +239,7 @@ interface RootObject {
   'outlined-content-wifi': string;
   'outlined-content-world': string;
   'outlined-default-mockup': string;
+  'outlined-finance-addbag': string;
   'outlined-finance-bag': string;
   'outlined-finance-bank': string;
   'outlined-finance-cards': string;

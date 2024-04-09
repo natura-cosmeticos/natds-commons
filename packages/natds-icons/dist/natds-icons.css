@@ -1061,6 +1061,10 @@
   content: "\ea96";
 }
 
+.natds-icons-outlined-finance-addbag::before {
+  content: "\eb5c";
+}
+
 .natds-icons-outlined-finance-bag::before {
   content: "\ea97";
 }

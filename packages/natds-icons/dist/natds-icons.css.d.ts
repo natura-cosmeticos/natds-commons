@@ -257,6 +257,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-wifi": string;
   readonly "natds-icons-outlined-content-world": string;
   readonly "natds-icons-outlined-default-mockup": string;
+  readonly "natds-icons-outlined-finance-addbag": string;
   readonly "natds-icons-outlined-finance-bag": string;
   readonly "natds-icons-outlined-finance-bank": string;
   readonly "natds-icons-outlined-finance-cards": string;
