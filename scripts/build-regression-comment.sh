@@ -31,8 +31,20 @@ An error ocurred uploading the icons regression test image for commit ${GITHUB_S
   printf "$MESSAGE"
 }
 
+# case $IMG_URL in
+# "upload_error") ERROR_MESSAGE ;;
+# "no_diff") NO_DIFF_MESSAGE ;;
+# *) DIFF_MESSAGE ;;
+# esac
+
 case $IMG_URL in
-"upload_error") ERROR_MESSAGE ;;
-"no_diff") NO_DIFF_MESSAGE ;;
-*) DIFF_MESSAGE ;;
+    "upload_error")
+        ERROR_MESSAGE
+        ;;
+    "no_diff")
+        NO_DIFF_MESSAGE
+        ;;
+    *)
+        DIFF_MESSAGE
+        ;;
 esac
