@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-storybook-themes",
   "displayName": "StorybookThemes",
-  "version": "0.17.0",
+  "version": "0.18.1",
   "description": "Storybook themes for Natura Design System",
   "private": false,
   "keywords": [
