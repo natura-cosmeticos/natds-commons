@@ -44,6 +44,12 @@
 	"filled-action-subtract": [
 		""
 	],
+	"filled-action-zoomin": [
+		""
+	],
+	"filled-action-zoomout": [
+		""
+	],
 	"filled-alert-cancel": [
 		""
 	],
@@ -64,6 +70,9 @@
 	],
 	"filled-alert-notificationbadge": [
 		""
+	],
+	"filled-alert-notificationunavailable": [
+		""
 	],
 	"filled-alert-warning": [
 		""
@@ -134,6 +143,9 @@
 	"filled-content-handwater": [
 		""
 	],
+	"filled-content-oil": [
+		""
+	],
 	"filled-content-oilunavailable": [
 		""
 	],
@@ -173,6 +185,12 @@
 	"filled-finance-pix": [
 		""
 	],
+	"filled-finance-shield": [
+		""
+	],
+	"filled-finance-shieldcheck": [
+		""
+	],
 	"filled-finance-shieldplus": [
 		""
 	],
@@ -194,14 +212,62 @@
 	"filled-navigation-arrowbottom": [
 		""
 	],
+	"filled-navigation-arrowctrlcompactbottom": [
+		""
+	],
+	"filled-navigation-arrowctrlcompactleft": [
+		""
+	],
+	"filled-navigation-arrowctrlcompactright": [
+		""
+	],
+	"filled-navigation-arrowctrlcompacttop": [
+		""
+	],
+	"filled-navigation-arrowctrlregularbottom": [
+		""
+	],
+	"filled-navigation-arrowctrlregularleft": [
+		""
+	],
+	"filled-navigation-arrowctrlregularright": [
+		""
+	],
+	"filled-navigation-arrowctrlregulartop": [
+		""
+	],
 	"filled-navigation-arrowleft": [
 		""
 	],
 	"filled-navigation-arrowright": [
 		""
 	],
+	"filled-navigation-arrowrunbottom": [
+		""
+	],
+	"filled-navigation-arrowrunleft": [
+		""
+	],
+	"filled-navigation-arrowrunright": [
+		""
+	],
+	"filled-navigation-arrowruntop": [
+		""
+	],
 	"filled-navigation-arrowtop": [
 		""
+	],
+	"filled-navigation-arrowtrianglebottom": [
+		""
+	],
+	"filled-navigation-arrowtriangleleft": [
+		""
+	],
+	"filled-navigation-arrowtriangleright": [
+		""
+	],
+	"filled-navigation-arrowtriangletop": [
+		""
 	],
 	"filled-navigation-directionleft": [
 		""
@@ -265,6 +331,9 @@
 	],
 	"filled-toggle-indeterminatecheckbox": [
 		""
+	],
+	"fillled-action-indeterminatecheckbox": [
+		""
 	],
 	"outlined-action-add": [
 		""
@@ -479,6 +548,9 @@
 	"outlined-alert-notificationsbadge": [
 		""
 	],
+	"outlined-alert-notificationunavailable": [
+		""
+	],
 	"outlined-alert-warning": [
 		""
 	],
@@ -659,6 +731,9 @@
 	"outlined-content-mirror": [
 		""
 	],
+	"outlined-content-oil": [
+		""
+	],
 	"outlined-content-oilunavailable": [
 		""
 	],
@@ -779,6 +854,12 @@
 	"outlined-finance-scancard": [
 		""
 	],
+	"outlined-finance-shield": [
+		""
+	],
+	"outlined-finance-shieldcheck": [
+		""
+	],
 	"outlined-finance-shieldplus": [
 		""
 	],
@@ -845,6 +926,30 @@
 	"outlined-navigation-arrowbottom": [
 		""
 	],
+	"outlined-navigation-arrowctrlcompactbottom": [
+		""
+	],
+	"outlined-navigation-arrowctrlcompactleft": [
+		""
+	],
+	"outlined-navigation-arrowctrlcompactright": [
+		""
+	],
+	"outlined-navigation-arrowctrlcompacttop": [
+		""
+	],
+	"outlined-navigation-arrowctrlregularbottom": [
+		""
+	],
+	"outlined-navigation-arrowctrlregularleft": [
+		""
+	],
+	"outlined-navigation-arrowctrlregularright": [
+		""
+	],
+	"outlined-navigation-arrowctrlregulartop": [
+		""
+	],
 	"outlined-navigation-arrowleft": [
 		""
 	],
@@ -856,6 +961,18 @@
 	],
 	"outlined-navigation-arrowright-alt": [
 		""
+	],
+	"outlined-navigation-arrowrunbottom": [
+		""
+	],
+	"outlined-navigation-arrowrunleft": [
+		""
+	],
+	"outlined-navigation-arrowrunright": [
+		""
+	],
+	"outlined-navigation-arrowruntop": [
+		""
 	],
 	"outlined-navigation-arrowtop": [
 		""
@@ -920,6 +1037,9 @@
 	"outlined-place-runningtruck": [
 		""
 	],
+	"outlined-place-target": [
+		""
+	],
 	"outlined-place-truck": [
 		""
 	],
@@ -943,6 +1063,9 @@
 	],
 	"outlined-product-childish": [
 		""
+	],
+	"outlined-product-cube": [
+		""
 	],
 	"outlined-product-dailycare": [
 		""

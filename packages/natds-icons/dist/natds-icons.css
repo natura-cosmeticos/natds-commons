@@ -161,6 +161,14 @@
   content: "\ea08";
 }
 
+.natds-icons-filled-action-zoomin::before {
+  content: "\eb5d";
+}
+
+.natds-icons-filled-action-zoomout::before {
+  content: "\eb5e";
+}
+
 .natds-icons-filled-alert-cancel::before {
   content: "\eb35";
 }
@@ -187,6 +195,10 @@
 
 .natds-icons-filled-alert-notificationbadge::before {
   content: "\eb3b";
+}
+
+.natds-icons-filled-alert-notificationunavailable::before {
+  content: "\eb5f";
 }
 
 .natds-icons-filled-alert-warning::before {
@@ -281,6 +293,10 @@
   content: "\eb43";
 }
 
+.natds-icons-filled-content-oil::before {
+  content: "\eb60";
+}
+
 .natds-icons-filled-content-oilunavailable::before {
   content: "\eb44";
 }
@@ -333,6 +349,14 @@
   content: "\eb2b";
 }
 
+.natds-icons-filled-finance-shield::before {
+  content: "\eb61";
+}
+
+.natds-icons-filled-finance-shieldcheck::before {
+  content: "\eb62";
+}
+
 .natds-icons-filled-finance-shieldplus::before {
   content: "\eb46";
 }
@@ -361,6 +385,38 @@
   content: "\ea1c";
 }
 
+.natds-icons-filled-navigation-arrowctrlcompactbottom::before {
+  content: "\eb63";
+}
+
+.natds-icons-filled-navigation-arrowctrlcompactleft::before {
+  content: "\eb64";
+}
+
+.natds-icons-filled-navigation-arrowctrlcompactright::before {
+  content: "\eb65";
+}
+
+.natds-icons-filled-navigation-arrowctrlcompacttop::before {
+  content: "\eb66";
+}
+
+.natds-icons-filled-navigation-arrowctrlregularbottom::before {
+  content: "\eb67";
+}
+
+.natds-icons-filled-navigation-arrowctrlregularleft::before {
+  content: "\eb68";
+}
+
+.natds-icons-filled-navigation-arrowctrlregularright::before {
+  content: "\eb69";
+}
+
+.natds-icons-filled-navigation-arrowctrlregulartop::before {
+  content: "\eb6a";
+}
+
 .natds-icons-filled-navigation-arrowleft::before {
   content: "\ea1d";
 }
@@ -369,8 +425,40 @@
   content: "\ea1e";
 }
 
+.natds-icons-filled-navigation-arrowrunbottom::before {
+  content: "\eb6b";
+}
+
+.natds-icons-filled-navigation-arrowrunleft::before {
+  content: "\eb6c";
+}
+
+.natds-icons-filled-navigation-arrowrunright::before {
+  content: "\eb6d";
+}
+
+.natds-icons-filled-navigation-arrowruntop::before {
+  content: "\eb6e";
+}
+
 .natds-icons-filled-navigation-arrowtop::before {
   content: "\ea1f";
+}
+
+.natds-icons-filled-navigation-arrowtrianglebottom::before {
+  content: "\eb6f";
+}
+
+.natds-icons-filled-navigation-arrowtriangleleft::before {
+  content: "\eb70";
+}
+
+.natds-icons-filled-navigation-arrowtriangleright::before {
+  content: "\eb71";
+}
+
+.natds-icons-filled-navigation-arrowtriangletop::before {
+  content: "\eb72";
 }
 
 .natds-icons-filled-navigation-directionleft::before {
@@ -455,6 +543,10 @@
 
 .natds-icons-filled-toggle-indeterminatecheckbox::before {
   content: "\ea2c";
+}
+
+.natds-icons-fillled-action-indeterminatecheckbox::before {
+  content: "\eb73";
 }
 
 .natds-icons-outlined-action-add::before {
@@ -741,6 +833,10 @@
   content: "\eae6";
 }
 
+.natds-icons-outlined-alert-notificationunavailable::before {
+  content: "\eb74";
+}
+
 .natds-icons-outlined-alert-warning::before {
   content: "\ea69";
 }
@@ -981,6 +1077,10 @@
   content: "\ea8e";
 }
 
+.natds-icons-outlined-content-oil::before {
+  content: "\eb75";
+}
+
 .natds-icons-outlined-content-oilunavailable::before {
   content: "\eb52";
 }
@@ -1141,6 +1241,14 @@
   content: "\eafe";
 }
 
+.natds-icons-outlined-finance-shield::before {
+  content: "\eb76";
+}
+
+.natds-icons-outlined-finance-shieldcheck::before {
+  content: "\eb77";
+}
+
 .natds-icons-outlined-finance-shieldplus::before {
   content: "\eb54";
 }
@@ -1229,6 +1337,38 @@
   content: "\eaaf";
 }
 
+.natds-icons-outlined-navigation-arrowctrlcompactbottom::before {
+  content: "\eb78";
+}
+
+.natds-icons-outlined-navigation-arrowctrlcompactleft::before {
+  content: "\eb79";
+}
+
+.natds-icons-outlined-navigation-arrowctrlcompactright::before {
+  content: "\eb7a";
+}
+
+.natds-icons-outlined-navigation-arrowctrlcompacttop::before {
+  content: "\eb7b";
+}
+
+.natds-icons-outlined-navigation-arrowctrlregularbottom::before {
+  content: "\eb7c";
+}
+
+.natds-icons-outlined-navigation-arrowctrlregularleft::before {
+  content: "\eb7d";
+}
+
+.natds-icons-outlined-navigation-arrowctrlregularright::before {
+  content: "\eb7e";
+}
+
+.natds-icons-outlined-navigation-arrowctrlregulartop::before {
+  content: "\eb7f";
+}
+
 .natds-icons-outlined-navigation-arrowleft::before {
   content: "\eab0";
 }
@@ -1243,6 +1383,22 @@
 
 .natds-icons-outlined-navigation-arrowright-alt::before {
   content: "\eb24";
+}
+
+.natds-icons-outlined-navigation-arrowrunbottom::before {
+  content: "\eb80";
+}
+
+.natds-icons-outlined-navigation-arrowrunleft::before {
+  content: "\eb81";
+}
+
+.natds-icons-outlined-navigation-arrowrunright::before {
+  content: "\eb82";
+}
+
+.natds-icons-outlined-navigation-arrowruntop::before {
+  content: "\eb83";
 }
 
 .natds-icons-outlined-navigation-arrowtop::before {
@@ -1329,6 +1485,10 @@
   content: "\eac2";
 }
 
+.natds-icons-outlined-place-target::before {
+  content: "\eb84";
+}
+
 .natds-icons-outlined-place-truck::before {
   content: "\eac3";
 }
@@ -1359,6 +1519,10 @@
 
 .natds-icons-outlined-product-childish::before {
   content: "\eac9";
+}
+
+.natds-icons-outlined-product-cube::before {
+  content: "\eb85";
 }
 
 .natds-icons-outlined-product-dailycare::before {
