@@ -43,13 +43,24 @@
     "onSecondaryLight": {
       "value": "#000000"
     },
+    "secondaryLightest": {
+      "value": "#FF9A59"
+    },
+    "onSecondaryLightest": {
+      "value": "#000000"
+    },
     "secondaryDark": {
       "value": "#FF5808"
     },
     "onSecondaryDark": {
       "value": "#000000"
     },
-
+    "secondaryDarkest": {
+      "value": "#AD4907"
+    },
+    "onSecondaryDarkest": {
+      "value": "#FFFFFF"
+    },
 
 
     "contentHighlight": {
