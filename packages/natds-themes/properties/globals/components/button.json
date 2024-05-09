@@ -30,6 +30,9 @@
     "borderRadius": {
       "value": "{private.button.borderRadius.value}"
     },
+    "elevation": {
+      "value": "{private.button.elevation.value}"
+    },
     "contained": {
       "color": {
         "primary": {
