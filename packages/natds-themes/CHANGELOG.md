@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.74.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.73.1...@naturacosmeticos/natds-themes@0.74.0) (2024-05-09)
+
+
+### Bug Fixes
+
+* **natds-themes:** biome equalizing colors based on natura_v1 ([a926cd3](https://github.com/natura-cosmeticos/natds-commons/commit/a926cd3b0e132075d6713d59be2a2f1247c7590c))
+* **natds-themes:** global colors equalizing colors based in brand ([be0c84d](https://github.com/natura-cosmeticos/natds-commons/commit/be0c84d099878d10d619b7e034de7b49fb1e2b28))
+* **natds-themes:** natdsTest equalizing colors based on natura_v1 ([64a6a61](https://github.com/natura-cosmeticos/natds-commons/commit/64a6a614cc25a2651e7922020776b6fde24573d6))
+* **natds-themes:** natura_v1 dark equalizing colors based in light mode ([3a26504](https://github.com/natura-cosmeticos/natds-commons/commit/3a26504e47f3ab99cab3a5423980037a7525deaa))
+
+
+### Features
+
+* **natds-themes:** added button elevation token ([8aea4ea](https://github.com/natura-cosmeticos/natds-commons/commit/8aea4ea553015de9bda4fd9aa04438e704339065))
+* **natds-themes:** added new states and colors to component button ([067bf38](https://github.com/natura-cosmeticos/natds-commons/commit/067bf38cbec1d12760a59d8096dc8a5c6d08f39f))
+
+
+
+
+
 ## [0.73.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.73.0...@naturacosmeticos/natds-themes@0.73.1) (2024-04-30)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
