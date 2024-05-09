@@ -6,6 +6,12 @@
       },
       "elevation": {
         "value": "none"
+      },
+      "paddingX":{
+        "value": "{spacing.standard}"
+      },
+      "textTransform":{
+        "value": "lowercase"
       }
     }
   }

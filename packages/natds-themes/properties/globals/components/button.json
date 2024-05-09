@@ -33,6 +33,12 @@
     "elevation": {
       "value": "{private.button.elevation.value}"
     },
+    "paddingX": {
+      "value": "{private.button.paddingX.value}"
+    },
+    "textTransform": {
+      "value": "{private.button.textTransform.value}"
+    },
     "contained": {
       "color": {
         "primary": {

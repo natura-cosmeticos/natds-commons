@@ -5,7 +5,13 @@
         "value": "{borderRadius.none.value}"
       },
       "elevation": {
-        "value": "0 4px 5px 0 rgba(0, 0, 0, 0.14)"
+        "value": "none"
+      },
+      "paddingX":{
+        "value": "{spacing.tiny}"
+      },
+      "textTransform":{
+        "value": "uppercase"
       }
     }
   }
