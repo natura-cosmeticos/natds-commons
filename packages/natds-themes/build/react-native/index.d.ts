@@ -51,20 +51,20 @@ declare namespace Themes {
   platform: Platform
 }
  export interface Platform {
-  button: Button2
+  button: Button3
   typography: Typography2
-  heading1: Button2
-  heading2: Button2
-  heading3: Button2
-  heading4: Button2
-  heading5: Button2
-  heading6: Button2
-  subtitle1: Button2
-  subtitle2: Button2
-  body1: Button2
-  body2: Button2
-  caption: Button2
-  overline: Button2
+  heading1: Button3
+  heading2: Button3
+  heading3: Button3
+  heading4: Button3
+  heading5: Button3
+  heading6: Button3
+  subtitle1: Button3
+  subtitle2: Button3
+  body1: Button3
+  body2: Button3
+  caption: Button3
+  overline: Button3
 }
  export interface Typography2 {
   fontFamily: FontFamily2
@@ -74,7 +74,7 @@ declare namespace Themes {
   primary: string
   code: string
 }
- export interface Button2 {
+ export interface Button3 {
   letterSpacing: number
 }
  export interface Spectrum {
@@ -91,11 +91,11 @@ declare namespace Themes {
   lime: Pink
   yellow: Pink
   orange: Pink
-  color: Color13
+  color: Color14
   gray: Pink
   red: Pink
 }
- export interface Color13 {
+ export interface Color14 {
   brand: Brand2
 }
  export interface Brand2 {
@@ -105,9 +105,9 @@ declare namespace Themes {
   gradient: Gradient
 }
  export interface Gradient {
-  primary: Primary
+  primary: Primary2
 }
- export interface Primary {
+ export interface Primary2 {
   type: string
   angle: number
   start: string
@@ -134,8 +134,12 @@ declare namespace Themes {
 }
  export interface Private {
   borderRadius: BorderRadius4
-  button: Semi
+  button: Button2
   shortcut: Semi
+}
+ export interface Button2 {
+  borderRadius: number
+  elevation: string
 }
  export interface BorderRadius4 {
   circle: Size
@@ -156,9 +160,9 @@ declare namespace Themes {
   label: Title
   small: Small
   standard: Small
-  color: Color12
+  color: Color13
 }
- export interface Color12 {
+ export interface Color13 {
   background: Background
   label: Background
 }
@@ -184,9 +188,9 @@ declare namespace Themes {
   borderRadius: number
 }
  export interface Contained2 {
-  color: Color11
+  color: Color12
 }
- export interface Color11 {
+ export interface Color12 {
   enable: Enable3
   disable: Enable3
   hover: Enable3
@@ -206,9 +210,9 @@ declare namespace Themes {
  export interface RadioButton {
   label: Title
   borderRadius: number
-  color: Color10
+  color: Color11
 }
- export interface Color10 {
+ export interface Color11 {
   select: Select
   unselect: Select
   disable: Select
@@ -222,9 +226,9 @@ declare namespace Themes {
   semi: Semi
   medium: Semi
   large: Semi
-  color: Color9
+  color: Color10
 }
- export interface Color9 {
+ export interface Color10 {
   stroke: string
   layer: string
 }
@@ -242,9 +246,9 @@ declare namespace Themes {
 }
  export interface Link {
   label: Title
-  color: Color8
+  color: Color9
 }
- export interface Color8 {
+ export interface Color9 {
   label: Label
 }
  export interface Label {
@@ -270,13 +274,13 @@ declare namespace Themes {
   overlay: Standard3
 }
  export interface Standard3 {
-  color: Color7
+  color: Color8
 }
- export interface Color7 {
-  enable: Color5
-  disable: Color5
-  hover: Color5
-  focus: Color5
+ export interface Color8 {
+  enable: Color6
+  disable: Color6
+  hover: Color6
+  focus: Color6
 }
  export interface Semi {
   borderRadius: number
@@ -286,15 +290,15 @@ declare namespace Themes {
   borderRadius: number
 }
  export interface Divider {
-  color: Color5
+  color: Color6
 }
  export interface Dialog {
   title: Title
   body: Title
   borderRadius: number
-  color: Color6
+  color: Color7
 }
- export interface Color6 {
+ export interface Color7 {
   background: string
   title: string
 }
@@ -309,9 +313,9 @@ declare namespace Themes {
 }
  export interface Card {
   borderRadius: BorderRadius2
-  color: Color5
+  color: Color6
 }
- export interface Color5 {
+ export interface Color6 {
   background: string
 }
  export interface BorderRadius2 {
@@ -321,23 +325,74 @@ declare namespace Themes {
  export interface Button {
   label: Title
   borderRadius: number
+  elevation: string
   contained: Contained
-  outlined: Contained
-  text: Contained
+  filled: Contained
+  outlined: Outlined
+  ghost: Outlined
+  text: Outlined
+  tonal: Contained
+}
+ export interface Outlined {
+  color: Color5
+}
+ export interface Color5 {
+  primary: Primary
+  onPrimary: Primary
+  secondary: Primary
+  onSecondary: Primary
+  neutral: Primary
+  inverse: Primary
+  enable: Enable
+  disable: Enable
+  hover: Hover
+  focus: Hover
 }
  export interface Contained {
   color: Color4
 }
  export interface Color4 {
+  primary: Primary
+  onPrimary: Primary
+  secondary: Primary
+  onSecondary: Primary
+  neutral: Primary
+  inverse: Primary
   enable: Enable
   disable: Enable
-  hover: Enable
-  focus: Enable
+  hover: Hover
+  focus: Focus
+}
+ export interface Focus {
+  primary: Primary
+  onPrimary: Primary
+  secondary: Primary
+  onSecondary: Primary
+  neutral: Primary
+  inverse: Primary
+}
+ export interface Hover {
+  background: string
+  border: string
+  label: string
+  primary: Primary
+  onPrimary: Primary
+  secondary: Primary
+  onSecondary: Primary
+  neutral: Primary
+  inverse: Primary
 }
  export interface Enable {
   background: string
   border: string
   label: string
+}
+ export interface Primary {
+  background: string
+  border: string
+  label: string
+  iconColor: string
+  rippleColor: string
 }
  export interface Badge {
   label: Title
@@ -521,35 +576,6 @@ declare namespace Themes {
   neutral700: string
   neutral800: string
   neutral900: string
-  primary: string
-  onPrimary: string
-  primaryLight: string
-  onPrimaryLight: string
-  primaryLightest: string
-  onPrimaryLightest: string
-  primaryDark: string
-  onPrimaryDark: string
-  primaryDarkest: string
-  onPrimaryDarkest: string
-  secondary: string
-  onSecondary: string
-  secondaryLight: string
-  onSecondaryLight: string
-  secondaryLightest: string
-  onSecondaryLightest: string
-  secondaryDark: string
-  onSecondaryDark: string
-  secondaryDarkest: string
-  onSecondaryDarkest: string
-  contentHighlight: string
-  contentHighEmphasis: string
-  contentMediumEmphasis: string
-  contentLowEmphasis: string
-  contentDisabled: string
-  contentHighlightFixedLight: string
-  contentHighEmphasisFixedLight: string
-  contentMediumEmphasisFixedLight: string
-  contentLowEmphasisFixedLight: string
   surface: string
   surfaceDark: string
   surfaceFixedLight: string
@@ -624,6 +650,35 @@ declare namespace Themes {
   neutralMedium: string
   neutralDark: string
   neutralDarkest: string
+  primary: string
+  onPrimary: string
+  primaryLight: string
+  onPrimaryLight: string
+  primaryLightest: string
+  onPrimaryLightest: string
+  primaryDark: string
+  onPrimaryDark: string
+  primaryDarkest: string
+  onPrimaryDarkest: string
+  secondary: string
+  onSecondary: string
+  secondaryLight: string
+  onSecondaryLight: string
+  secondaryLightest: string
+  onSecondaryLightest: string
+  secondaryDark: string
+  onSecondaryDark: string
+  secondaryDarkest: string
+  onSecondaryDarkest: string
+  contentHighlight: string
+  contentHighEmphasis: string
+  contentMediumEmphasis: string
+  contentLowEmphasis: string
+  contentDisabled: string
+  contentHighlightFixedLight: string
+  contentHighEmphasisFixedLight: string
+  contentMediumEmphasisFixedLight: string
+  contentLowEmphasisFixedLight: string
 }
  export interface BorderRadius {
   none: number

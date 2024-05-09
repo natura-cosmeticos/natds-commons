@@ -150,8 +150,51 @@
       }
     },
     "borderRadius": 4,
+    "elevation": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
     "contained": {
       "color": {
+        "primary": {
+          "background": "#dacabb",
+          "border": "#FFFFFF00",
+          "label": "#333333",
+          "iconColor": "#333333",
+          "rippleColor": "#333333"
+        },
+        "onPrimary": {
+          "background": "#ffffff",
+          "border": "#FFFFFF00",
+          "label": "#111111",
+          "iconColor": "#111111",
+          "rippleColor": "#111111"
+        },
+        "secondary": {
+          "background": "#00892f",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "onSecondary": {
+          "background": "#ffffff",
+          "border": "#FFFFFF00",
+          "label": "#111111",
+          "iconColor": "#111111",
+          "rippleColor": "#111111"
+        },
+        "neutral": {
+          "background": "#4e4e4e",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "inverse": {
+          "background": "#ffffff",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#363636"
+        },
         "enable": {
           "background": "#dacabb",
           "border": "#FFFFFF00",
@@ -165,17 +208,287 @@
         "hover": {
           "background": "#a8998b",
           "border": "#FFFFFF00",
-          "label": "#333333"
+          "label": "#333333",
+          "primary": {
+            "background": "#fffded",
+            "border": "#FFFFFF00",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "onPrimary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "secondary": {
+            "background": "#4cba5c",
+            "border": "#FFFFFF00",
+            "label": "#000000",
+            "iconColor": "#000000",
+            "rippleColor": "#000000"
+          },
+          "onSecondary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "neutral": {
+            "background": "#737373",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "inverse": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#363636",
+            "iconColor": "#363636",
+            "rippleColor": "#363636"
+          }
         },
         "focus": {
+          "primary": {
+            "background": "#fffded",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "onPrimary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "secondary": {
+            "background": "#ff9a59",
+            "border": "#FFFFFF00",
+            "label": "#000000",
+            "iconColor": "#000000",
+            "rippleColor": "#000000"
+          },
+          "onSecondary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "neutral": {
+            "background": "#8c8c8c",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "inverse": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#363636",
+            "iconColor": "#363636",
+            "rippleColor": "#363636"
+          }
+        }
+      }
+    },
+    "filled": {
+      "color": {
+        "primary": {
+          "background": "#dacabb",
+          "border": "#FFFFFF00",
+          "label": "#333333",
+          "iconColor": "#333333",
+          "rippleColor": "#333333"
+        },
+        "onPrimary": {
+          "background": "#ffffff",
+          "border": "#FFFFFF00",
+          "label": "#111111",
+          "iconColor": "#111111",
+          "rippleColor": "#111111"
+        },
+        "secondary": {
+          "background": "#00892f",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "onSecondary": {
+          "background": "#ffffff",
+          "border": "#FFFFFF00",
+          "label": "#111111",
+          "iconColor": "#111111",
+          "rippleColor": "#111111"
+        },
+        "neutral": {
+          "background": "#4e4e4e",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "inverse": {
+          "background": "#ffffff",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#363636"
+        },
+        "enable": {
+          "background": "#dacabb",
+          "border": "#FFFFFF00",
+          "label": "#333333"
+        },
+        "disable": {
+          "background": "#8c8c8c",
+          "border": "#FFFFFF00",
+          "label": "#363636"
+        },
+        "hover": {
           "background": "#a8998b",
           "border": "#FFFFFF00",
-          "label": "#ffffff"
+          "label": "#333333",
+          "primary": {
+            "background": "#fffded",
+            "border": "#FFFFFF00",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "onPrimary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "secondary": {
+            "background": "#4cba5c",
+            "border": "#FFFFFF00",
+            "label": "#000000",
+            "iconColor": "#000000",
+            "rippleColor": "#000000"
+          },
+          "onSecondary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "neutral": {
+            "background": "#737373",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "inverse": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#363636",
+            "iconColor": "#363636",
+            "rippleColor": "#363636"
+          }
+        },
+        "focus": {
+          "primary": {
+            "background": "#fffded",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "onPrimary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "secondary": {
+            "background": "#ff9a59",
+            "border": "#FFFFFF00",
+            "label": "#000000",
+            "iconColor": "#000000",
+            "rippleColor": "#000000"
+          },
+          "onSecondary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "neutral": {
+            "background": "#8c8c8c",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "inverse": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#363636",
+            "iconColor": "#363636",
+            "rippleColor": "#363636"
+          }
         }
       }
     },
     "outlined": {
       "color": {
+        "primary": {
+          "background": "#FFFFFF00",
+          "border": "#dacabb",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#111111"
+        },
+        "onPrimary": {
+          "background": "#FFFFFF00",
+          "border": "#333333",
+          "label": "#333333",
+          "iconColor": "#333333",
+          "rippleColor": "#333333"
+        },
+        "secondary": {
+          "background": "#FFFFFF00",
+          "border": "#00892f",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#111111"
+        },
+        "onSecondary": {
+          "background": "#FFFFFF00",
+          "border": "#ffffff",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "neutral": {
+          "background": "#FFFFFF00",
+          "border": "#4e4e4e",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#111111"
+        },
+        "inverse": {
+          "background": "#FFFFFF00",
+          "border": "#ffffff",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
         "enable": {
           "background": "#FFFFFF00",
           "border": "#dacabb",
@@ -189,17 +502,143 @@
         "hover": {
           "background": "#e1e1e1",
           "border": "#dacabb",
-          "label": "#363636"
+          "label": "#363636",
+          "primary": {
+            "background": "#e1e1e1",
+            "border": "#fffded",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#333333",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "secondary": {
+            "background": "#e1e1e1",
+            "border": "#4cba5c",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onSecondary": {
+            "background": "#005a00",
+            "border": "#ffffff",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#e1e1e1",
+            "border": "#4e4e4e",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#7f7f7f",
+            "border": "#ffffff",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
         },
         "focus": {
           "background": "#c9c9c9",
           "border": "#dacabb",
-          "label": "#363636"
+          "label": "#363636",
+          "primary": {
+            "background": "#c9c9c9",
+            "border": "#fffded",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#333333",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "secondary": {
+            "background": "#c9c9c9",
+            "border": "#ff9a59",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onSecondary": {
+            "background": "#ad4907",
+            "border": "#ffffff",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#c9c9c9",
+            "border": "#4e4e4e",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#676767",
+            "border": "#ffffff",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
         }
       }
     },
-    "text": {
+    "ghost": {
       "color": {
+        "primary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#dacabb",
+          "iconColor": "#dacabb",
+          "rippleColor": "#111111"
+        },
+        "onPrimary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#333333",
+          "iconColor": "#333333",
+          "rippleColor": "#333333"
+        },
+        "secondary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#00892f",
+          "iconColor": "#00892f",
+          "rippleColor": "#111111"
+        },
+        "onSecondary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "neutral": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#111111"
+        },
+        "inverse": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
         "enable": {
           "background": "#FFFFFF00",
           "border": "#FFFFFF00",
@@ -213,12 +652,393 @@
         "hover": {
           "background": "#e1e1e1",
           "border": "#FFFFFF00",
-          "label": "#363636"
+          "label": "#363636",
+          "primary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#FFFFFF00",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "secondary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onSecondary": {
+            "background": "#005a00",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#7f7f7f",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
         },
         "focus": {
           "background": "#c9c9c9",
           "border": "#FFFFFF00",
+          "label": "#363636",
+          "primary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "secondary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onSecondary": {
+            "background": "#ad4907",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#676767",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "primary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#dacabb",
+          "iconColor": "#dacabb",
+          "rippleColor": "#111111"
+        },
+        "onPrimary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#333333",
+          "iconColor": "#333333",
+          "rippleColor": "#333333"
+        },
+        "secondary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#00892f",
+          "iconColor": "#00892f",
+          "rippleColor": "#111111"
+        },
+        "onSecondary": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "neutral": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#111111"
+        },
+        "inverse": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "enable": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
           "label": "#363636"
+        },
+        "disable": {
+          "background": "#FFFFFF00",
+          "border": "#FFFFFF00",
+          "label": "#737373"
+        },
+        "hover": {
+          "background": "#e1e1e1",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "primary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#FFFFFF00",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "secondary": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onSecondary": {
+            "background": "#005a00",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#e1e1e1",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#7f7f7f",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
+        },
+        "focus": {
+          "background": "#c9c9c9",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "primary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "secondary": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "onSecondary": {
+            "background": "#ad4907",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#676767",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
+        }
+      }
+    },
+    "tonal": {
+      "color": {
+        "primary": {
+          "background": "#fffded",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "onPrimary": {
+          "background": "#fffded",
+          "border": "#FFFFFF00",
+          "label": "#333333",
+          "iconColor": "#333333",
+          "rippleColor": "#333333"
+        },
+        "secondary": {
+          "background": "#ff9a59",
+          "border": "#FFFFFF00",
+          "label": "#000000",
+          "iconColor": "#000000",
+          "rippleColor": "#000000"
+        },
+        "onSecondary": {
+          "background": "#4cba5c",
+          "border": "#FFFFFF00",
+          "label": "#000000",
+          "iconColor": "#000000",
+          "rippleColor": "#000000"
+        },
+        "neutral": {
+          "background": "#e1e1e1",
+          "border": "#FFFFFF00",
+          "label": "#363636",
+          "iconColor": "#363636",
+          "rippleColor": "#363636"
+        },
+        "inverse": {
+          "background": "#737373",
+          "border": "#FFFFFF00",
+          "label": "#ffffff",
+          "iconColor": "#ffffff",
+          "rippleColor": "#ffffff"
+        },
+        "enable": {
+          "background": "#dacabb",
+          "border": "#FFFFFF00",
+          "label": "#333333"
+        },
+        "disable": {
+          "background": "#8c8c8c",
+          "border": "#FFFFFF00",
+          "label": "#363636"
+        },
+        "hover": {
+          "background": "#a8998b",
+          "border": "#FFFFFF00",
+          "label": "#333333",
+          "primary": {
+            "background": "#fffded",
+            "border": "#FFFFFF00",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "onPrimary": {
+            "background": "#fffded",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "secondary": {
+            "background": "#4cba5c",
+            "border": "#FFFFFF00",
+            "label": "#000000",
+            "iconColor": "#000000",
+            "rippleColor": "#000000"
+          },
+          "onSecondary": {
+            "background": "#ff9a59",
+            "border": "#FFFFFF00",
+            "label": "#000000",
+            "iconColor": "#000000",
+            "rippleColor": "#000000"
+          },
+          "neutral": {
+            "background": "#c9c9c9",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#8c8c8c",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
+        },
+        "focus": {
+          "primary": {
+            "background": "#a8998b",
+            "border": "#FFFFFF00",
+            "label": "#333333",
+            "iconColor": "#333333",
+            "rippleColor": "#333333"
+          },
+          "onPrimary": {
+            "background": "#a8998b",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "secondary": {
+            "background": "#005a00",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "onSecondary": {
+            "background": "#ad4907",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          },
+          "neutral": {
+            "background": "#fafafa",
+            "border": "#FFFFFF00",
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
+          },
+          "inverse": {
+            "background": "#737373",
+            "border": "#FFFFFF00",
+            "label": "#ffffff",
+            "iconColor": "#ffffff",
+            "rippleColor": "#ffffff"
+          }
         }
       }
     }
@@ -985,7 +1805,8 @@
       }
     },
     "button": {
-      "borderRadius": 4
+      "borderRadius": 4,
+      "elevation": "0 4px 5px 0 rgba(0, 0, 0, 0.14)"
     },
     "shortcut": {
       "borderRadius": 28
@@ -1206,31 +2027,6 @@
     "neutral700": "#4e4e4e",
     "neutral800": "#363636",
     "neutral900": "#111111",
-    "primary": "#dacabb",
-    "onPrimary": "#333333",
-    "primaryLight": "#fffded",
-    "onPrimaryLight": "#333333",
-    "primaryLightest": "#fffded",
-    "onPrimaryLightest": "#ffffff",
-    "primaryDark": "#a8998b",
-    "onPrimaryDark": "#333333",
-    "primaryDarkest": "#a8998b",
-    "onPrimaryDarkest": "#ffffff",
-    "secondary": "#00892f",
-    "onSecondary": "#ffffff",
-    "secondaryLight": "#4cba5c",
-    "onSecondaryLight": "#000000",
-    "secondaryDark": "#005a00",
-    "onSecondaryDark": "#ffffff",
-    "contentHighlight": "#111111",
-    "contentHighEmphasis": "#363636",
-    "contentMediumEmphasis": "#737373",
-    "contentLowEmphasis": "#8c8c8c",
-    "contentDisabled": "#a4a4a4",
-    "contentHighlightFixedLight": "#ffffff",
-    "contentHighEmphasisFixedLight": "#e1e1e1",
-    "contentMediumEmphasisFixedLight": "#bdbdbd",
-    "contentLowEmphasisFixedLight": "#a4a4a4",
     "surface": "#ffffff",
     "surfaceDark": "#4e4e4e",
     "surfaceFixedLight": "#ffffff",
@@ -1304,7 +2100,36 @@
     "neutralLight": "#fafafa",
     "neutralMedium": "#bbbbbb",
     "neutralDark": "#777777",
-    "neutralDarkest": "#333333"
+    "neutralDarkest": "#333333",
+    "primary": "#dacabb",
+    "onPrimary": "#333333",
+    "primaryLight": "#fffded",
+    "onPrimaryLight": "#333333",
+    "primaryLightest": "#fffded",
+    "onPrimaryLightest": "#ffffff",
+    "primaryDark": "#a8998b",
+    "onPrimaryDark": "#333333",
+    "primaryDarkest": "#a8998b",
+    "onPrimaryDarkest": "#ffffff",
+    "secondary": "#00892f",
+    "onSecondary": "#ffffff",
+    "secondaryLight": "#4cba5c",
+    "onSecondaryLight": "#000000",
+    "secondaryLightest": "#ff9a59",
+    "onSecondaryLightest": "#000000",
+    "secondaryDark": "#005a00",
+    "onSecondaryDark": "#ffffff",
+    "secondaryDarkest": "#ad4907",
+    "onSecondaryDarkest": "#ffffff",
+    "contentHighlight": "#111111",
+    "contentHighEmphasis": "#363636",
+    "contentMediumEmphasis": "#737373",
+    "contentLowEmphasis": "#8c8c8c",
+    "contentDisabled": "#a4a4a4",
+    "contentHighlightFixedLight": "#ffffff",
+    "contentHighEmphasisFixedLight": "#e1e1e1",
+    "contentMediumEmphasisFixedLight": "#bdbdbd",
+    "contentLowEmphasisFixedLight": "#a4a4a4"
   },
   "asset": {
     "font": {
