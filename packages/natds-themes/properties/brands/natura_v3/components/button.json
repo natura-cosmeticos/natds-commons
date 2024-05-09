@@ -3,6 +3,9 @@
     "button": {
       "borderRadius": {
         "value": "{borderRadius.circle.value}"
+      },
+      "elevation": {
+        "value": "none"
       }
     }
   }

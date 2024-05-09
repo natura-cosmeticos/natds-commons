@@ -3,6 +3,9 @@
     "button": {
       "borderRadius": {
         "value": "{borderRadius.medium.value}"
+      },
+      "elevation": {
+        "value": "0 4px 5px 0 rgba(0, 0, 0, 0.14)"
       }
     }
   }
