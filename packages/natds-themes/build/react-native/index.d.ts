@@ -140,6 +140,8 @@ declare namespace Themes {
  export interface Button2 {
   borderRadius: number
   elevation: string
+  paddingX: number
+  textTransform: string
 }
  export interface BorderRadius4 {
   circle: Size
@@ -326,6 +328,8 @@ declare namespace Themes {
   label: Title
   borderRadius: number
   elevation: string
+  paddingX: number
+  textTransform: string
   contained: Contained
   filled: Contained
   outlined: Outlined

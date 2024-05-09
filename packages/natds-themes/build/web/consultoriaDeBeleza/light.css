@@ -79,7 +79,9 @@
   --buttonLabelFallbackFontFamily: "Arial";
   --buttonLabelFallbackFontWeight: 500;
   --buttonBorderRadius: 4px;
-  --buttonElevation: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+  --buttonElevation: none;
+  --buttonPaddingX: 8px;
+  --buttonTextTransform: uppercasepx;
   --buttonContainedColorPrimaryBackground: #f6be00;
   --buttonContainedColorPrimaryBorder: #FFFFFF00;
   --buttonContainedColorPrimaryLabel: #000000;
