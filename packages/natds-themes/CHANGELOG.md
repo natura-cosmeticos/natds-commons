@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.75.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.74.0...@naturacosmeticos/natds-themes@0.75.0) (2024-05-09)
+
+
+### Features
+
+* **natds-themes:** added button paddindX textTransform ([60eb59e](https://github.com/natura-cosmeticos/natds-commons/commit/60eb59e744aa33a2afe8256e3db3364d037e35fd))
+
+
+
+
+
 # [0.74.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.73.1...@naturacosmeticos/natds-themes@0.74.0) (2024-05-09)
 
 
