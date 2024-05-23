@@ -258,9 +258,9 @@
           "primary": {
             "background": "#F8CCB2",
             "border": "#FFFFFF00",
-            "label": "#ffffff",
-            "iconColor": "#ffffff",
-            "rippleColor": "#ffffff"
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
           },
           "onPrimary": {
             "background": "#c9c9c9",
@@ -405,9 +405,9 @@
           "primary": {
             "background": "#F8CCB2",
             "border": "#FFFFFF00",
-            "label": "#ffffff",
-            "iconColor": "#ffffff",
-            "rippleColor": "#ffffff"
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
           },
           "onPrimary": {
             "background": "#c9c9c9",
@@ -902,9 +902,9 @@
         "primary": {
           "background": "#F8CCB2",
           "border": "#FFFFFF00",
-          "label": "#ffffff",
-          "iconColor": "#ffffff",
-          "rippleColor": "#ffffff"
+          "label": "#111111",
+          "iconColor": "#111111",
+          "rippleColor": "#111111"
         },
         "onPrimary": {
           "background": "#f29966",
@@ -965,9 +965,9 @@
           "onPrimary": {
             "background": "#F8CCB2",
             "border": "#FFFFFF00",
-            "label": "#ffffff",
-            "iconColor": "#ffffff",
-            "rippleColor": "#ffffff"
+            "label": "#111111",
+            "iconColor": "#111111",
+            "rippleColor": "#111111"
           },
           "secondary": {
             "background": "#ecd062",
@@ -2110,7 +2110,7 @@
     "primaryLight": "#f29966",
     "onPrimaryLight": "#111111",
     "primaryLightest": "#F8CCB2",
-    "onPrimaryLightest": "#ffffff",
+    "onPrimaryLightest": "#111111",
     "primaryDark": "#a0430e",
     "onPrimaryDark": "#ffffff",
     "primaryDarkest": "#502207",
