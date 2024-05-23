@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.75.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.75.0...@naturacosmeticos/natds-themes@0.75.1) (2024-05-23)
+
+
+### Bug Fixes
+
+* **natds-themes:** fixed color onPrimaryLightest Natura V2 ([6c9d678](https://github.com/natura-cosmeticos/natds-commons/commit/6c9d678bd5393642a394bfe5beb35bb32930c769))
+
+
+
+
+
 # [0.75.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.74.0...@naturacosmeticos/natds-themes@0.75.0) (2024-05-09)
 
 
