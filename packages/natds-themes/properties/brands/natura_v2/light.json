@@ -16,7 +16,7 @@
       "value": "{spectrum.color.brand.a.lightest.value}"
     },
     "onPrimaryLightest": {
-      "value": "#FFFFFF"
+      "value": "#111111"
     },
     "primaryDark": {
       "value": "#A0430E"
