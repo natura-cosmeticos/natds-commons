@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.25.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.24.0...@naturacosmeticos/natds-icons@1.25.0) (2024-05-29)
+
+
+### Bug Fixes
+
+* **natds-icons:** update version pkg ([38494a2](https://github.com/natura-cosmeticos/natds-commons/commit/38494a2a925a812d8cdbef6620b120a0c4e16609))
+
+
+### Features
+
+* **natds-icons:** add icon filled-finance-bag ([56a920c](https://github.com/natura-cosmeticos/natds-commons/commit/56a920c43039ed1220b32af89ba3fa2fc7f6a912))
+* **natds-icons:** add icon filled-finance-bagcheck ([aa0e74d](https://github.com/natura-cosmeticos/natds-commons/commit/aa0e74d48cc185be76596dddf7c6f8e788569d5b))
+* **natds-icons:** add icon filled-product-nailpolish ([ac8c1cc](https://github.com/natura-cosmeticos/natds-commons/commit/ac8c1cc1df0d1eb20a47d493e9030a9310ec7d27))
+* **natds-icons:** add icon outlined-finance-bagcheck ([7e40a87](https://github.com/natura-cosmeticos/natds-commons/commit/7e40a87515f0cce2deabf15ec7e14ce1620ef14e))
+* **natds-icons:** add icon outlined-product-nailpolish ([e927ce0](https://github.com/natura-cosmeticos/natds-commons/commit/e927ce040e0462d7fbd67ea637826a9b215665e8))
+
+
+
+
+
 # [1.24.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.22.0...@naturacosmeticos/natds-icons@1.24.1) (2024-04-30)
 
 
