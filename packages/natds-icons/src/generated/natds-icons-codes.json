@@ -167,6 +167,12 @@
 	"filled-default-mockup": [
 		""
 	],
+	"filled-finance-bag": [
+		""
+	],
+	"filled-finance-bagcheck": [
+		""
+	],
 	"filled-finance-charging": [
 		""
 	],
@@ -325,6 +331,9 @@
 	],
 	"filled-product-fashion": [
 		""
+	],
+	"filled-product-nailpolish": [
+		""
 	],
 	"filled-social-myprofile": [
 		""
@@ -800,6 +809,9 @@
 	"outlined-finance-bag": [
 		""
 	],
+	"outlined-finance-bagcheck": [
+		""
+	],
 	"outlined-finance-bank": [
 		""
 	],
@@ -1096,6 +1108,9 @@
 	],
 	"outlined-product-makeup": [
 		""
+	],
+	"outlined-product-nailpolish": [
+		""
 	],
 	"outlined-product-outlet": [
 		""

@@ -325,6 +325,14 @@
   content: "\ea16";
 }
 
+.natds-icons-filled-finance-bag::before {
+  content: "\eb86";
+}
+
+.natds-icons-filled-finance-bagcheck::before {
+  content: "\eb87";
+}
+
 .natds-icons-filled-finance-charging::before {
   content: "\ea17";
 }
@@ -535,6 +543,10 @@
 
 .natds-icons-filled-product-fashion::before {
   content: "\eb1c";
+}
+
+.natds-icons-filled-product-nailpolish::before {
+  content: "\eb88";
 }
 
 .natds-icons-filled-social-myprofile::before {
@@ -1169,6 +1181,10 @@
   content: "\ea97";
 }
 
+.natds-icons-outlined-finance-bagcheck::before {
+  content: "\eb89";
+}
+
 .natds-icons-outlined-finance-bank::before {
   content: "\ea98";
 }
@@ -1563,6 +1579,10 @@
 
 .natds-icons-outlined-product-makeup::before {
   content: "\eacf";
+}
+
+.natds-icons-outlined-product-nailpolish::before {
+  content: "\eb8a";
 }
 
 .natds-icons-outlined-product-outlet::before {

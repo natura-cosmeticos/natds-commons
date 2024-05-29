@@ -73,6 +73,8 @@ declare const styles: {
   readonly "natds-icons-filled-content-wifi": string;
   readonly "natds-icons-filled-content-world": string;
   readonly "natds-icons-filled-default-mockup": string;
+  readonly "natds-icons-filled-finance-bag": string;
+  readonly "natds-icons-filled-finance-bagcheck": string;
   readonly "natds-icons-filled-finance-charging": string;
   readonly "natds-icons-filled-finance-invoice": string;
   readonly "natds-icons-filled-finance-money": string;
@@ -126,6 +128,7 @@ declare const styles: {
   readonly "natds-icons-filled-product-brandsproduct": string;
   readonly "natds-icons-filled-product-cube": string;
   readonly "natds-icons-filled-product-fashion": string;
+  readonly "natds-icons-filled-product-nailpolish": string;
   readonly "natds-icons-filled-social-myprofile": string;
   readonly "natds-icons-filled-toggle-indeterminatecheckbox": string;
   readonly "natds-icons-fillled-action-indeterminatecheckbox": string;
@@ -284,6 +287,7 @@ declare const styles: {
   readonly "natds-icons-outlined-default-mockup": string;
   readonly "natds-icons-outlined-finance-addbag": string;
   readonly "natds-icons-outlined-finance-bag": string;
+  readonly "natds-icons-outlined-finance-bagcheck": string;
   readonly "natds-icons-outlined-finance-bank": string;
   readonly "natds-icons-outlined-finance-cards": string;
   readonly "natds-icons-outlined-finance-charging": string;
@@ -383,6 +387,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-liner": string;
   readonly "natds-icons-outlined-product-lipgloss": string;
   readonly "natds-icons-outlined-product-makeup": string;
+  readonly "natds-icons-outlined-product-nailpolish": string;
   readonly "natds-icons-outlined-product-outlet": string;
   readonly "natds-icons-outlined-product-pencil": string;
   readonly "natds-icons-outlined-product-perfumery": string;

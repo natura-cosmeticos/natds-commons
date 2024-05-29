@@ -55,6 +55,8 @@ interface RootObject {
   'filled-content-wifi': string;
   'filled-content-world': string;
   'filled-default-mockup': string;
+  'filled-finance-bag': string;
+  'filled-finance-bagcheck': string;
   'filled-finance-charging': string;
   'filled-finance-invoice': string;
   'filled-finance-money': string;
@@ -108,6 +110,7 @@ interface RootObject {
   'filled-product-brandsproduct': string;
   'filled-product-cube': string;
   'filled-product-fashion': string;
+  'filled-product-nailpolish': string;
   'filled-social-myprofile': string;
   'filled-toggle-indeterminatecheckbox': string;
   'fillled-action-indeterminatecheckbox': string;
@@ -266,6 +269,7 @@ interface RootObject {
   'outlined-default-mockup': string;
   'outlined-finance-addbag': string;
   'outlined-finance-bag': string;
+  'outlined-finance-bagcheck': string;
   'outlined-finance-bank': string;
   'outlined-finance-cards': string;
   'outlined-finance-charging': string;
@@ -365,6 +369,7 @@ interface RootObject {
   'outlined-product-liner': string;
   'outlined-product-lipgloss': string;
   'outlined-product-makeup': string;
+  'outlined-product-nailpolish': string;
   'outlined-product-outlet': string;
   'outlined-product-pencil': string;
   'outlined-product-perfumery': string;
