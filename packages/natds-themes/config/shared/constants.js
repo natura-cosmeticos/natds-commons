@@ -10,7 +10,8 @@ export const brands = [
   'natura_v2',
   'natura_v3',
   'casaEestilo',
-  'casaEestilo_v2'
+  'casaEestilo_v2',
+  'forcaDeVendas'
 ]
 
 export const modes = [
