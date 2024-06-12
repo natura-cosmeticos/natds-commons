@@ -7,9 +7,11 @@ const brandsLabel = {
   natura: 'Natura',
   theBodyShop: 'The Body Shop',
   consultoriaDeBeleza: 'Consultoria de Beleza',
+  forcaDeVendas: 'Força de Vendas',
   natura_v2: 'Natura v2',
   natura_v3: 'Natura v3',
-  casaEestilo: 'Casa & estilo'
+  casaEestilo: 'Casa & estilo',
+  casaEestilo_v2: 'Casa & estilo v2'
 }
 const platformsLabel = {
   android: 'Android',

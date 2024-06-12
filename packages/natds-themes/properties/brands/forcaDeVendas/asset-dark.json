@@ -1,0 +1,78 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "consultoriadebeleza-a-official-dark"
+          },
+          "es": {
+            "value": "consultoriadebeleza-a-official-dark"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-b-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "consultoriadebeleza-b-official-dark"
+          },
+          "es": {
+            "value": "consultoriadebeleza-a-official-dark"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-b-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "consultoriadebeleza-a-custom"
+          },
+          "es": {
+            "value": "consultoriadebeleza-a-custom"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "consultoriadebeleza-b-custom"
+          },
+          "es": {
+            "value": "consultoriadebeleza-a-custom"
+          },
+          "pt": {
+            "value": "consultoriadebeleza-b-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        }
+      }
+    }
+  }
+}
