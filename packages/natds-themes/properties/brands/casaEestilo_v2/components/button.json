@@ -11,7 +11,7 @@
         "value": "{spacing.tiny}"
       },
       "textTransform":{
-        "value": "uppercase"
+        "value": "capitalize"
       }
     }
   }

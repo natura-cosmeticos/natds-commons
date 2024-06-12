@@ -8,10 +8,10 @@
         "value": "none"
       },
       "paddingX":{
-        "value": "{spacing.tiny}"
+        "value": "{spacing.standard}"
       },
       "textTransform":{
-        "value": "uppercase"
+        "value": "capitalize"
       }
     }
   }
