@@ -697,10 +697,10 @@ declare namespace Themes {
 }
  export interface A {
   file: string
+  es: string
+  pt: string
   width: number
   height: number
-  pt: string
-  es: string
 }
  export interface Font {
   file: File
@@ -732,6 +732,8 @@ declare namespace Themes {
     natura_v2: BrandThemes
     natura_v3: BrandThemes
     casaEestilo: BrandThemes
+    casaEestilo_v2: BrandThemes
+    forcaDeVendas: BrandThemes
   }
 }
 

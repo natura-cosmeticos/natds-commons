@@ -19,6 +19,10 @@ import consultoriaDeBelezaDarkTheme from './consultoriaDeBeleza/dark.json'
 import consultoriaDeBelezaLightTheme from './consultoriaDeBeleza/light.json'
 import casaEestiloDarkTheme from './casaEestilo/dark.json'
 import casaEestiloLightTheme from './casaEestilo/light.json'
+import casaEestiloV2DarkTheme from './casaEestilo_v2/dark.json'
+import casaEestiloV2LightTheme from './casaEestilo_v2/light.json'
+import forcaDeVendasDarkTheme from './forcaDeVendas/dark.json'
+import forcaDeVendasLightTheme from './forcaDeVendas/light.json'
 
 const themes = {
   aesop: {
@@ -60,6 +64,14 @@ const themes = {
   casaEestilo: {
     dark: casaEestiloDarkTheme,
     light: casaEestiloLightTheme
+  },
+  casaEestilo_v2: {
+    dark: casaEestiloV2DarkTheme,
+    light: casaEestiloV2LightTheme
+  },
+  forcaDeVendas: {
+    dark: forcaDeVendasDarkTheme,
+    light: forcaDeVendasLightTheme
   }
 }
 

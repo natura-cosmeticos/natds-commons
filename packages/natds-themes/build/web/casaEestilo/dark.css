@@ -81,7 +81,7 @@
   --buttonBorderRadius: 4px;
   --buttonElevation: none;
   --buttonPaddingX: 8px;
-  --buttonTextTransform: uppercasepx;
+  --buttonTextTransform: capitalizepx;
   --buttonContainedColorPrimaryBackground: #c2488e;
   --buttonContainedColorPrimaryBorder: #FFFFFF00;
   --buttonContainedColorPrimaryLabel: #ffffff;
