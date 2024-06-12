@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.76.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.75.3...@naturacosmeticos/natds-themes@0.76.0) (2024-06-12)
+
+
+### Bug Fixes
+
+* **natds-themes:** change textTransform and paddingX ([6efd9c6](https://github.com/natura-cosmeticos/natds-commons/commit/6efd9c61012c934840146b51b9b719467083a19e))
+
+
+### Features
+
+* **natds-themes:** added new theme casaEestilo_v2 ([ccb6ca6](https://github.com/natura-cosmeticos/natds-commons/commit/ccb6ca6d954fc17f3289df6266956ef17906886f))
+* **natds-themes:** added new theme forcaDeVendas ([405ddcb](https://github.com/natura-cosmeticos/natds-commons/commit/405ddcb207822855c56078b1fe667c0dc53fb4a7))
+
+
+
+
+
 ## [0.75.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.75.2...@naturacosmeticos/natds-themes@0.75.3) (2024-06-12)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
