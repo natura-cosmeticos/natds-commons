@@ -4,13 +4,13 @@
       "neutral":{
         "a": {
           "file": {
-            "value": "consultoriadebeleza-a-official-dark"
+            "value": "forcadevendas-a-official-dark"
           },
           "es": {
-            "value": "consultoriadebeleza-a-official-dark"
+            "value": "forcadevendas-a-official-dark"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-official-dark"
+            "value": "forcadevendas-a-official-dark"
           },
           "width": {
             "value": 256
@@ -21,13 +21,13 @@
         },
         "b": {
           "file": {
-            "value": "consultoriadebeleza-b-official-dark"
+            "value": "forcadevendas-a-official-dark"
           },
           "es": {
-            "value": "consultoriadebeleza-a-official-dark"
+            "value": "forcadevendas-a-official-dark"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-official-dark"
+            "value": "forcadevendas-a-official-dark"
           },
           "width": {
             "value": 256
@@ -40,13 +40,13 @@
       "custom":{
         "a": {
           "file": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "forcadevendas-a-custom"
           },
           "es": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "forcadevendas-a-custom"
           },
           "pt": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "forcadevendas-a-custom"
           },
           "width": {
             "value": 256
@@ -57,13 +57,13 @@
         },
         "b": {
           "file": {
-            "value": "consultoriadebeleza-b-custom"
+            "value": "forcadevendas-a-custom"
           },
           "es": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "forcadevendas-a-custom"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-custom"
+            "value": "forcadevendas-a-custom"
           },
           "width": {
             "value": 256
