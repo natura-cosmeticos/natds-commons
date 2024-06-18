@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.77.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.77.0...@naturacosmeticos/natds-themes@0.77.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* **natds-themes:** change path logo casa & estilo v2 ([52e22eb](https://github.com/natura-cosmeticos/natds-commons/commit/52e22eb5c64f3918c4fe37f78f0167e2f61fd0de))
+
+
+
+
+
 # [0.77.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.76.0...@naturacosmeticos/natds-themes@0.77.0) (2024-06-18)
 
 
