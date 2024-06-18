@@ -2,7 +2,7 @@
   "private": {
     "button": {
       "borderRadius": {
-        "value": "{borderRadius.medium.value}"
+        "value": "{borderRadius.circle.value}"
       },
       "elevation": {
         "value": "none"
@@ -11,7 +11,7 @@
         "value": "{spacing.standard}"
       },
       "textTransform":{
-        "value": "capitalize"
+        "value": "lowercase"
       }
     }
   }
