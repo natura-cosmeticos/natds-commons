@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.77.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.77.1...@naturacosmeticos/natds-themes@0.77.2) (2024-06-20)
+
+
+### Bug Fixes
+
+* **natds-themes:** fixed svg forcaDeVendas-custom-a ([b7bd751](https://github.com/natura-cosmeticos/natds-commons/commit/b7bd751b021e3c01496db4af320603767a18ae97))
+
+
+
+
+
 ## [0.77.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.77.0...@naturacosmeticos/natds-themes@0.77.1) (2024-06-18)
 
 
