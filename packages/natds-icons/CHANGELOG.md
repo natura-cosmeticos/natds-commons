@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.25.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.25.0...@naturacosmeticos/natds-icons@1.25.1) (2024-07-03)
+
+
+### Bug Fixes
+
+* **natds-icons:** fix-icon-filled-action-indeterminatecheckbox ([d365d34](https://github.com/natura-cosmeticos/natds-commons/commit/d365d34b15cf16f3d66b4330a4ee62d9b5e34d7b))
+
+
+
+
+
 # [1.25.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.24.0...@naturacosmeticos/natds-icons@1.25.1) (2024-05-29)
 
 
