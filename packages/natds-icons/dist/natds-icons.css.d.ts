@@ -25,6 +25,7 @@ declare const styles: {
   readonly "natds-icons-filled-action-dislike": string;
   readonly "natds-icons-filled-action-half-rating": string;
   readonly "natds-icons-filled-action-increase": string;
+  readonly "natds-icons-filled-action-indeterminatecheckbox": string;
   readonly "natds-icons-filled-action-love": string;
   readonly "natds-icons-filled-action-newrequest": string;
   readonly "natds-icons-filled-action-privacy": string;
@@ -131,7 +132,6 @@ declare const styles: {
   readonly "natds-icons-filled-product-nailpolish": string;
   readonly "natds-icons-filled-social-myprofile": string;
   readonly "natds-icons-filled-toggle-indeterminatecheckbox": string;
-  readonly "natds-icons-fillled-action-indeterminatecheckbox": string;
   readonly "natds-icons-outlined-action-add": string;
   readonly "natds-icons-outlined-action-addproduct": string;
   readonly "natds-icons-outlined-action-attachment": string;

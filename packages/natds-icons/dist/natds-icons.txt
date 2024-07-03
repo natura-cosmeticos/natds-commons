@@ -6,6 +6,7 @@ filled_action_delete
 filled_action_dislike
 filled_action_half_rating
 filled_action_increase
+filled_action_indeterminatecheckbox
 filled_action_love
 filled_action_newrequest
 filled_action_privacy
@@ -112,7 +113,6 @@ filled_product_fashion
 filled_product_nailpolish
 filled_social_myprofile
 filled_toggle_indeterminatecheckbox
-fillled_action_indeterminatecheckbox
 outlined_action_add
 outlined_action_addproduct
 outlined_action_attachment

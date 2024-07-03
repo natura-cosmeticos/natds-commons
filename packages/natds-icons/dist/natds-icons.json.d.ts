@@ -7,6 +7,7 @@ interface RootObject {
   'filled-action-dislike': string;
   'filled-action-half-rating': string;
   'filled-action-increase': string;
+  'filled-action-indeterminatecheckbox': string;
   'filled-action-love': string;
   'filled-action-newrequest': string;
   'filled-action-privacy': string;
@@ -113,7 +114,6 @@ interface RootObject {
   'filled-product-nailpolish': string;
   'filled-social-myprofile': string;
   'filled-toggle-indeterminatecheckbox': string;
-  'fillled-action-indeterminatecheckbox': string;
   'outlined-action-add': string;
   'outlined-action-addproduct': string;
   'outlined-action-attachment': string;

@@ -23,6 +23,9 @@
 	"filled-action-increase": [
 		""
 	],
+	"filled-action-indeterminatecheckbox": [
+		""
+	],
 	"filled-action-love": [
 		""
 	],
@@ -340,9 +343,6 @@
 	],
 	"filled-toggle-indeterminatecheckbox": [
 		""
-	],
-	"fillled-action-indeterminatecheckbox": [
-		""
 	],
 	"outlined-action-add": [
 		""

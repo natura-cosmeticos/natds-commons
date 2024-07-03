@@ -133,6 +133,10 @@
   content: "\eb27";
 }
 
+.natds-icons-filled-action-indeterminatecheckbox::before {
+  content: "\eb73";
+}
+
 .natds-icons-filled-action-love::before {
   content: "\ea05";
 }
@@ -555,10 +559,6 @@
 
 .natds-icons-filled-toggle-indeterminatecheckbox::before {
   content: "\ea2c";
-}
-
-.natds-icons-fillled-action-indeterminatecheckbox::before {
-  content: "\eb73";
 }
 
 .natds-icons-outlined-action-add::before {
