@@ -1,4 +1,4 @@
-# Themes for Natura Design System
+# Themes for GaYa Design System
 
 ## Installation
 
