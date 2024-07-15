@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.78.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.77.3...@naturacosmeticos/natds-themes@0.78.0) (2024-07-15)
+
+
+### Bug Fixes
+
+* **natds-themes:** fixed readme ([3a01d4b](https://github.com/natura-cosmeticos/natds-commons/commit/3a01d4bc9ea2a48c646e8b552bae89427a56565a))
+
+
+### Features
+
+* **natds-themes:** update feedback colors aesop ([b7ce10b](https://github.com/natura-cosmeticos/natds-commons/commit/b7ce10b99eb7739cfa397133030e879c6ff859b7))
+* **natds-themes:** update feedback colors avon ([d9d03d4](https://github.com/natura-cosmeticos/natds-commons/commit/d9d03d45c7645ecfc20af2ad7c81a4e74ce7b0a4))
+* **natds-themes:** update feedback colors avon_v2 ([4088ac7](https://github.com/natura-cosmeticos/natds-commons/commit/4088ac719aded77ab81d2650368c110432db7f5a))
+* **natds-themes:** update feedback colors biome ([60529e1](https://github.com/natura-cosmeticos/natds-commons/commit/60529e15fba320bfdc2792b817fc39cc6ec19bd0))
+* **natds-themes:** update feedback colors casaEestilo ([0b5754d](https://github.com/natura-cosmeticos/natds-commons/commit/0b5754de74fbf379fc09334ab69f99c89eb653b3))
+* **natds-themes:** update feedback colors casaEestilo_v2 ([6a90a43](https://github.com/natura-cosmeticos/natds-commons/commit/6a90a434f938d9b0d9c6ec1f1129edac56b8cf8a))
+* **natds-themes:** update feedback colors consultoriaDeBeleza ([eefdcbf](https://github.com/natura-cosmeticos/natds-commons/commit/eefdcbf84557ba546fd45ad9dfe4d11f045d787a))
+* **natds-themes:** update feedback colors forcaDeVendas ([0ac8de7](https://github.com/natura-cosmeticos/natds-commons/commit/0ac8de7e226ee37b67d300ac08156c667a8d63fc))
+* **natds-themes:** update feedback colors natura ([9f74f29](https://github.com/natura-cosmeticos/natds-commons/commit/9f74f290c8160cfe7568e7504d923af309df6eca))
+* **natds-themes:** update feedback colors natura_v2 ([1041328](https://github.com/natura-cosmeticos/natds-commons/commit/10413285bc4743e310726a47afac625713a85982))
+* **natds-themes:** update feedback colors natura_v3 ([6fe3f36](https://github.com/natura-cosmeticos/natds-commons/commit/6fe3f36cec1f908ef157210b40060dfe4494f4eb))
+* **natds-themes:** update feedback colors primitive reference ([5e85ab1](https://github.com/natura-cosmeticos/natds-commons/commit/5e85ab10ec551c62fcf61b8c7f804cc3bab98a21))
+* **natds-themes:** update feedback colors theBodyShop ([27d1406](https://github.com/natura-cosmeticos/natds-commons/commit/27d1406e99861fc1203891eeaf0faec406bca07b))
+
+
+
+
+
 ## [0.77.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.77.2...@naturacosmeticos/natds-themes@0.77.3) (2024-07-03)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
