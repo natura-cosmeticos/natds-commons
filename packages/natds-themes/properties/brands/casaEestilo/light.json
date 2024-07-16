@@ -156,31 +156,31 @@
 
     
    "info": {
-      "value": "color.primitiveDarkBlue300.value"
+      "value": "{color.primitiveDarkBlue300.value}"
     },
     "onInfo": {
       "value": "{color.neutral0.value}"
     },
     "infoLight": {
-      "value": "color.primitiveLightBlue500.value"
+      "value": "{color.primitiveLightBlue500.value}"
     },
     "onInfoLight": {
       "value": "{color.neutral900.value}"
     },
     "infoLightest": {
-      "value": "color.primitiveLightBlue50.value"
+      "value": "{color.primitiveLightBlue50.value}"
     },
     "onInfoLightest": {
       "value": "{color.neutral900.value}"
     },
     "infoDark": {
-      "value": "color.primitiveDarkBlue500.value"
+      "value": "{color.primitiveDarkBlue500.value}"
     },
     "onInfoDark": {
       "value": "{color.neutral0.value}"
     },
     "infoDarkest": {
-      "value": "color.primitiveDarkBlue800.value"
+      "value": "{color.primitiveDarkBlue800.value}"
     },
     "onInfoDarkest": {
       "value": "{color.neutral0.value}"
@@ -221,31 +221,31 @@
 
 
     "success": {
-      "value": "color.primitiveDarkGreen200.value"
+      "value": "{color.primitiveDarkGreen200.value}"
     },
     "onSuccess": {
       "value": "{color.neutral900.value}"
     },
     "successLight": {
-      "value": "color.primitiveLightGreen500.value"
+      "value": "{color.primitiveLightGreen500.value}"
     },
     "onSuccessLight": {
       "value": "{color.neutral900.value}"
     },
     "successLightest": {
-      "value": "color.primitiveLightGreen100.value"
+      "value": "{color.primitiveLightGreen100.value}"
     },
     "onSuccessLightest": {
       "value": "{color.neutral900.value}"
     },
     "successDark": {
-      "value": "color.primitiveDarkGreen500.value"
+      "value": "{color.primitiveDarkGreen500.value}"
     },
     "onSuccessDark": {
       "value": "{color.neutral0.value}"
     },
     "successDarkest": {
-      "value": "color.primitiveDarkGreen800.value"
+      "value": "{color.primitiveDarkGreen800.value}"
     },      
     "onSuccessDarkest": {
       "value": "{color.neutral0.value}"
@@ -253,31 +253,31 @@
 
 
     "warning": {
-      "value": "color.primitiveLightYellow500.value"
+      "value": "{color.primitiveLightYellow500.value}"
     },
     "onWarning": {
       "value": "{color.neutral900.value}"
     },
     "warningLight": {
-      "value": "color.primitiveLightYellow200.value"
+      "value": "{color.primitiveLightYellow200.value}"
     },
     "onWarningLight": {
       "value": "{color.neutral900.value}"
     },
     "warningLightest": {
-      "value": "color.primitiveLightYellow50.value"
+      "value": "{color.primitiveLightYellow50.value}"
     },
     "onWarningLightest": {
       "value": "{color.neutral900.value}"
     },
     "warningDark": {
-      "value": "color.primitiveDarkYellow50.value"
+      "value": "{color.primitiveDarkYellow50.value}"
     },
     "onWarningDark": {
       "value": "{color.neutral900.value}"
     },
     "warningDarkest": {
-      "value": "color.primitiveDarkYellow500.value"
+      "value": "{color.primitiveDarkYellow500.value}"
     },
     "onWarningDarkest": {
       "value": "{color.neutral0.value}"
@@ -285,31 +285,31 @@
 
 
     "alert": {
-      "value": "color.primitiveDarkRed100.value"
+      "value": "{color.primitiveDarkRed100.value}"
     },
     "onAlert": {
       "value": "{color.neutral900.value}"
     },
     "alertLight": {
-      "value": "color.primitiveLightRed500.value"
+      "value": "{color.primitiveLightRed500.value}"
     },
     "onAlertLight": {
       "value": "{color.neutral900.value}"
     },
     "alertLightest": {
-      "value": "color.primitiveLightRed50.value"
+      "value": "{color.primitiveLightRed50.value}"
     },
     "onAlertLightest": {
       "value": "{color.neutral900.value}"
     },
     "alertDark": {
-      "value": "color.primitiveDarkRed500.value"
+      "value": "{color.primitiveDarkRed500.value}"
     },
     "onAlertDark": {
       "value": "{color.neutral0.value}"
     },
     "alertDarkest": {
-      "value": "color.primitiveDarkRed800.value"
+      "value": "{color.primitiveDarkRed800.value}"
     },
     "onAlertDarkest": {
       "value": "{color.neutral0.value}"

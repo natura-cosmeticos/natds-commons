@@ -158,31 +158,31 @@
 
 
     "info": {
-      "value": "color.primitiveLightBlue500.value"
+      "value": "{color.primitiveLightBlue500.value}"
     },
     "onInfo": {
       "value": "{color.neutral0.value}"
     },
     "infoLight": {
-      "value": "color.primitiveLightBlue200.value"
+      "value": "{color.primitiveLightBlue200.value}"
     },
     "onInfoLight": {
       "value": "{color.neutral0.value}"
     },
     "infoLightest": {
-      "value": "color.primitiveLightBlue50.value"
+      "value": "{color.primitiveLightBlue50.value}"
     },
     "onInfoLightest": {
       "value": "{color.neutral0.value}"
     },
     "infoDark": {
-      "value": "color.primitiveLightBlue800.value"
+      "value": "{color.primitiveLightBlue800.value}"
     },
     "onInfoDark": {
       "value": "{color.neutral0.value}"
     },
     "infoDarkest": {
-      "value": "color.primitiveDarkBlue50.value"
+      "value": "{color.primitiveDarkBlue50.value}"
     },
     "onInfoDarkest": {
       "value": "{color.neutral0.value}"
@@ -313,7 +313,7 @@
       "value": "{color.neutral0.value}"
     },
     "alertDarkest": {
-      "value": "color.primitiveLightRed900.value"
+      "value": "{color.primitiveLightRed900.value}"
     },
     "onAlertDarkest": {
       "value": "{color.neutral0.value}"
