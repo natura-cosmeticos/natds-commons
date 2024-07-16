@@ -1235,7 +1235,7 @@
     "color": {
       "label": {
         "enable": {
-          "default": "#000000",
+          "default": "#a5c0fc",
           "light": "#bdbdbd"
         }
       }
@@ -1563,7 +1563,7 @@
         "success": "#92d492",
         "alert": "#ffa392",
         "warning": "#e5b815",
-        "link": "#000000"
+        "link": "#a5c0fc"
       },
       "label": {
         "primary": "#000000",
@@ -2130,25 +2130,25 @@
     "mediumEmphasis": "#c9c9c9",
     "lowEmphasis": "#bdbdbd",
     "lowLight": "#000000",
-    "info": "#000000",
+    "info": "#a5c0fc",
     "onInfo": "#111111",
-    "infoLight": "#000000",
+    "infoLight": "#d1ddfd",
     "onInfoLight": "#111111",
-    "infoLightest": "#000000",
+    "infoLightest": "#edf0ff",
     "onInfoLightest": "#111111",
-    "infoDark": "#000000",
+    "infoDark": "#70a1fc",
     "onInfoDark": "#111111",
-    "infoDarkest": "#000000",
+    "infoDarkest": "#418afd",
     "onInfoDarkest": "#111111",
-    "link": "#000000",
+    "link": "#a5c0fc",
     "onLink": "#111111",
-    "linkLight": "#000000",
+    "linkLight": "#d1ddfd",
     "onLinkLight": "#111111",
-    "linkLightest": "#000000",
+    "linkLightest": "#edf0ff",
     "onLinkLightest": "#111111",
-    "linkDark": "#000000",
+    "linkDark": "#70a1fc",
     "onLinkDark": "#111111",
-    "linkDarkest": "#000000",
+    "linkDarkest": "#418afd",
     "onLinkDarkest": "#111111",
     "success": "#92d492",
     "onSuccess": "#111111",
@@ -2178,7 +2178,7 @@
     "onAlertLightest": "#111111",
     "alertDark": "#ff7d69",
     "onAlertDark": "#111111",
-    "alertDarkest": "#000000",
+    "alertDarkest": "#fa5140",
     "onAlertDarkest": "#111111",
     "neutralLightest": "#ffffff",
     "neutralLight": "#fafafa",
