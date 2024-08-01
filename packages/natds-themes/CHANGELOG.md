@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.79.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.78.2...@naturacosmeticos/natds-themes@0.79.0) (2024-08-01)
+
+
+### Features
+
+* **natds-themes:** added logo fuerzadeventas FV-espanha ([c5fc71a](https://github.com/natura-cosmeticos/natds-commons/commit/c5fc71acb023625ffd77d20ff0807f4308453d5b))
+
+
+
+
+
 ## [0.78.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.78.1...@naturacosmeticos/natds-themes@0.78.2) (2024-07-16)
 
 
