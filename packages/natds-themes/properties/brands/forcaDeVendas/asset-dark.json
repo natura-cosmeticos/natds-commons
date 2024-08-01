@@ -7,7 +7,7 @@
             "value": "forcadevendas-a-official-dark"
           },
           "es": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "fuerzadeventas-b-official-dark"
           },
           "pt": {
             "value": "forcadevendas-a-official-dark"
@@ -21,10 +21,10 @@
         },
         "b": {
           "file": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "fuerzadeventas-b-official-dark"
           },
           "es": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "fuerzadeventas-b-official-dark"
           },
           "pt": {
             "value": "forcadevendas-a-official-dark"
@@ -43,7 +43,7 @@
             "value": "forcadevendas-a-custom"
           },
           "es": {
-            "value": "forcadevendas-a-custom"
+            "value": "fuerzadeventas-b-custom"
           },
           "pt": {
             "value": "forcadevendas-a-custom"
@@ -57,10 +57,10 @@
         },
         "b": {
           "file": {
-            "value": "forcadevendas-a-custom"
+            "value": "fuerzadeventas-b-custom"
           },
           "es": {
-            "value": "forcadevendas-a-custom"
+            "value": "fuerzadeventas-b-custom"
           },
           "pt": {
             "value": "forcadevendas-a-custom"

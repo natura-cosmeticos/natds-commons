@@ -7,7 +7,7 @@
             "value": "forcadevendas-a-official"
           },
           "es": {
-            "value": "forcadevendas-a-official"
+            "value": "fuerzadeventas-b-official"
           },
           "pt": {
             "value": "forcadevendas-a-official"
@@ -21,10 +21,10 @@
         },
         "b": {
           "file": {
-            "value": "forcadevendas-a-official"
+            "value": "fuerzadeventas-b-official"
           },
           "es": {
-            "value": "forcadevendas-a-official"
+            "value": "fuerzadeventas-b-official"
           },
           "pt": {
             "value": "forcadevendas-a-official"
@@ -43,7 +43,7 @@
             "value": "forcadevendas-a-custom"
           },
           "es": {
-            "value": "forcadevendas-a-custom"
+            "value": "fuerzadeventas-b-custom"
           },
           "pt": {
             "value": "forcadevendas-a-custom"
@@ -57,10 +57,10 @@
         },
         "b": {
           "file": {
-            "value": "forcadevendas-a-custom"
+            "value": "fuerzadeventas-b-custom"
           },
           "es": {
-            "value": "forcadevendas-a-custom"
+            "value": "fuerzadeventas-b-custom"
           },
           "pt": {
             "value": "forcadevendas-a-custom"
