@@ -26,11 +26,17 @@
 	"filled-action-indeterminatecheckbox": [
 		""
 	],
+	"filled-action-like": [
+		""
+	],
 	"filled-action-love": [
 		""
 	],
 	"filled-action-newrequest": [
 		""
+	],
+	"filled-action-opacity": [
+		""
 	],
 	"filled-action-privacy": [
 		""
@@ -46,6 +52,9 @@
 	],
 	"filled-action-subtract": [
 		""
+	],
+	"filled-action-transparent": [
+		""
 	],
 	"filled-action-zoomin": [
 		""
@@ -131,14 +140,32 @@
 	"filled-communication-noconnection": [
 		""
 	],
+	"filled-content-bathtub": [
+		""
+	],
 	"filled-content-channel": [
 		""
+	],
+	"filled-content-childfriendly": [
+		""
+	],
+	"filled-content-design": [
+		""
 	],
 	"filled-content-divulgation": [
 		""
 	],
+	"filled-content-dropper": [
+		""
+	],
 	"filled-content-gauge": [
 		""
+	],
+	"filled-content-gymdumbbell": [
+		""
+	],
+	"filled-content-hairbeard": [
+		""
 	],
 	"filled-content-handsoap": [
 		""
@@ -146,17 +173,41 @@
 	"filled-content-handwater": [
 		""
 	],
+	"filled-content-house": [
+		""
+	],
+	"filled-content-microscope": [
+		""
+	],
+	"filled-content-moonstars": [
+		""
+	],
+	"filled-content-mortar": [
+		""
+	],
 	"filled-content-oil": [
 		""
 	],
 	"filled-content-oilunavailable": [
 		""
 	],
+	"filled-content-palette": [
+		""
+	],
 	"filled-content-quote": [
 		""
 	],
 	"filled-content-sensitive": [
 		""
+	],
+	"filled-content-shower": [
+		""
+	],
+	"filled-content-soap": [
+		""
+	],
+	"filled-content-soapbubble": [
+		""
 	],
 	"filled-content-violence": [
 		""
@@ -178,6 +229,15 @@
 	],
 	"filled-finance-charging": [
 		""
+	],
+	"filled-finance-intensityhigh": [
+		""
+	],
+	"filled-finance-intensitylow": [
+		""
+	],
+	"filled-finance-intensitymedium": [
+		""
 	],
 	"filled-finance-invoice": [
 		""
@@ -202,6 +262,21 @@
 	],
 	"filled-finance-shieldplus": [
 		""
+	],
+	"filled-makeup-haircoily": [
+		""
+	],
+	"filled-makeup-haircurly": [
+		""
+	],
+	"filled-makeup-hairtowel": [
+		""
+	],
+	"filled-makeup-hairwavy": [
+		""
+	],
+	"filled-makeup-hairwoman": [
+		""
 	],
 	"filled-media-pause": [
 		""
@@ -326,20 +401,86 @@
 	"filled-place-truck": [
 		""
 	],
+	"filled-product-ambientspray": [
+		""
+	],
+	"filled-product-blush": [
+		""
+	],
+	"filled-product-bodycream": [
+		""
+	],
+	"filled-product-bodysplash": [
+		""
+	],
 	"filled-product-brandsproduct": [
 		""
+	],
+	"filled-product-candlearomatic": [
+		""
+	],
+	"filled-product-candlescented": [
+		""
+	],
+	"filled-product-combcream": [
+		""
+	],
+	"filled-product-conditioner": [
+		""
 	],
 	"filled-product-cube": [
 		""
 	],
+	"filled-product-deodorantrollon": [
+		""
+	],
 	"filled-product-fashion": [
 		""
+	],
+	"filled-product-haircream": [
+		""
+	],
+	"filled-product-hairdresser": [
+		""
+	],
+	"filled-product-hairgel": [
+		""
+	],
+	"filled-product-makeconcealer": [
+		""
+	],
+	"filled-product-makeeyeliner": [
+		""
+	],
+	"filled-product-makefoundation": [
+		""
+	],
+	"filled-product-makemask": [
+		""
 	],
 	"filled-product-nailpolish": [
 		""
 	],
+	"filled-product-pencilblush": [
+		""
+	],
+	"filled-product-shampoo": [
+		""
+	],
+	"filled-product-soapliquid": [
+		""
+	],
+	"filled-social-fireworks": [
+		""
+	],
 	"filled-social-myprofile": [
 		""
+	],
+	"filled-social-nightlife": [
+		""
+	],
+	"filled-social-sparks": [
+		""
 	],
 	"filled-toggle-indeterminatecheckbox": [
 		""
@@ -452,6 +593,9 @@
 	"outlined-action-newrequest": [
 		""
 	],
+	"outlined-action-opacity": [
+		""
+	],
 	"outlined-action-order": [
 		""
 	],
@@ -514,6 +658,9 @@
 	],
 	"outlined-action-text": [
 		""
+	],
+	"outlined-action-transparent": [
+		""
 	],
 	"outlined-action-update": [
 		""
@@ -632,6 +779,9 @@
 	"outlined-content-asleep": [
 		""
 	],
+	"outlined-content-bathtub": [
+		""
+	],
 	"outlined-content-bellringing": [
 		""
 	],
@@ -647,6 +797,9 @@
 	"outlined-content-channel": [
 		""
 	],
+	"outlined-content-childfriendly": [
+		""
+	],
 	"outlined-content-christmascard": [
 		""
 	],
@@ -656,8 +809,14 @@
 	"outlined-content-consistency": [
 		""
 	],
+	"outlined-content-design": [
+		""
+	],
 	"outlined-content-divulgation": [
 		""
+	],
+	"outlined-content-dropper": [
+		""
 	],
 	"outlined-content-education": [
 		""
@@ -686,6 +845,12 @@
 	"outlined-content-global": [
 		""
 	],
+	"outlined-content-gymdumbbell": [
+		""
+	],
+	"outlined-content-hairbeard": [
+		""
+	],
 	"outlined-content-handbag": [
 		""
 	],
@@ -709,6 +874,9 @@
 	],
 	"outlined-content-healthy": [
 		""
+	],
+	"outlined-content-house": [
+		""
 	],
 	"outlined-content-indicator": [
 		""
@@ -737,14 +905,26 @@
 	"outlined-content-menu": [
 		""
 	],
+	"outlined-content-microscope": [
+		""
+	],
 	"outlined-content-mirror": [
 		""
+	],
+	"outlined-content-moonstars": [
+		""
+	],
+	"outlined-content-mortar": [
+		""
 	],
 	"outlined-content-oil": [
 		""
 	],
 	"outlined-content-oilunavailable": [
 		""
+	],
+	"outlined-content-palette": [
+		""
 	],
 	"outlined-content-password": [
 		""
@@ -770,8 +950,17 @@
 	"outlined-content-sensitive": [
 		""
 	],
+	"outlined-content-shower": [
+		""
+	],
 	"outlined-content-snow": [
 		""
+	],
+	"outlined-content-soap": [
+		""
+	],
+	"outlined-content-soapbubble": [
+		""
 	],
 	"outlined-content-store": [
 		""
@@ -832,6 +1021,15 @@
 	],
 	"outlined-finance-idcard": [
 		""
+	],
+	"outlined-finance-intensityhigh": [
+		""
+	],
+	"outlined-finance-intensitylow": [
+		""
+	],
+	"outlined-finance-intensitymedium": [
+		""
 	],
 	"outlined-finance-invoice": [
 		""
@@ -904,6 +1102,21 @@
 	],
 	"outlined-makeup-face": [
 		""
+	],
+	"outlined-makeup-haircoily": [
+		""
+	],
+	"outlined-makeup-haircurly": [
+		""
+	],
+	"outlined-makeup-hairtowel": [
+		""
+	],
+	"outlined-makeup-hairwavy": [
+		""
+	],
+	"outlined-makeup-hairwoman": [
+		""
 	],
 	"outlined-makeup-mixedskin": [
 		""
@@ -1064,23 +1277,50 @@
 	"outlined-product-accessories": [
 		""
 	],
+	"outlined-product-ambientspray": [
+		""
+	],
 	"outlined-product-bagproduct": [
 		""
 	],
 	"outlined-product-beard": [
 		""
 	],
+	"outlined-product-blush": [
+		""
+	],
+	"outlined-product-bodycream": [
+		""
+	],
+	"outlined-product-bodysplash": [
+		""
+	],
 	"outlined-product-brandsproduct": [
 		""
 	],
+	"outlined-product-candlearomatic": [
+		""
+	],
+	"outlined-product-candlescented": [
+		""
+	],
 	"outlined-product-childish": [
 		""
+	],
+	"outlined-product-combcream": [
+		""
+	],
+	"outlined-product-conditioner": [
+		""
 	],
 	"outlined-product-cube": [
 		""
 	],
 	"outlined-product-dailycare": [
 		""
+	],
+	"outlined-product-deodorantrollon": [
+		""
 	],
 	"outlined-product-ekos": [
 		""
@@ -1097,6 +1337,15 @@
 	"outlined-product-hair": [
 		""
 	],
+	"outlined-product-haircream": [
+		""
+	],
+	"outlined-product-hairdresser": [
+		""
+	],
+	"outlined-product-hairgel": [
+		""
+	],
 	"outlined-product-lashes": [
 		""
 	],
@@ -1105,6 +1354,18 @@
 	],
 	"outlined-product-lipgloss": [
 		""
+	],
+	"outlined-product-makeconcealer": [
+		""
+	],
+	"outlined-product-makeeyeliner": [
+		""
+	],
+	"outlined-product-makefoundation": [
+		""
+	],
+	"outlined-product-makemask": [
+		""
 	],
 	"outlined-product-makeup": [
 		""
@@ -1117,6 +1378,9 @@
 	],
 	"outlined-product-pencil": [
 		""
+	],
+	"outlined-product-pencilblush": [
+		""
 	],
 	"outlined-product-perfumery": [
 		""
@@ -1148,6 +1412,12 @@
 	"outlined-product-scent": [
 		""
 	],
+	"outlined-product-shampoo": [
+		""
+	],
+	"outlined-product-soapliquid": [
+		""
+	],
 	"outlined-product-vegan": [
 		""
 	],
@@ -1166,6 +1436,9 @@
 	"outlined-social-digitalconsultant": [
 		""
 	],
+	"outlined-social-fireworks": [
+		""
+	],
 	"outlined-social-groupofpeople": [
 		""
 	],
@@ -1178,7 +1451,13 @@
 	"outlined-social-network": [
 		""
 	],
+	"outlined-social-nightlife": [
+		""
+	],
 	"outlined-social-person": [
 		""
+	],
+	"outlined-social-sparks": [
+		""
 	]
 }

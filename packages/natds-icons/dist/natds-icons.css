@@ -137,12 +137,20 @@
   content: "\eb73";
 }
 
+.natds-icons-filled-action-like::before {
+  content: "\eb8b";
+}
+
 .natds-icons-filled-action-love::before {
   content: "\ea05";
 }
 
 .natds-icons-filled-action-newrequest::before {
   content: "\ea06";
+}
+
+.natds-icons-filled-action-opacity::before {
+  content: "\eb8c";
 }
 
 .natds-icons-filled-action-privacy::before {
@@ -163,6 +171,10 @@
 
 .natds-icons-filled-action-subtract::before {
   content: "\ea08";
+}
+
+.natds-icons-filled-action-transparent::before {
+  content: "\eb8d";
 }
 
 .natds-icons-filled-action-zoomin::before {
@@ -277,16 +289,40 @@
   content: "\eb17";
 }
 
+.natds-icons-filled-content-bathtub::before {
+  content: "\eb8e";
+}
+
 .natds-icons-filled-content-channel::before {
   content: "\ea13";
+}
+
+.natds-icons-filled-content-childfriendly::before {
+  content: "\eb8f";
+}
+
+.natds-icons-filled-content-design::before {
+  content: "\eb90";
 }
 
 .natds-icons-filled-content-divulgation::before {
   content: "\ea14";
 }
 
+.natds-icons-filled-content-dropper::before {
+  content: "\eb91";
+}
+
 .natds-icons-filled-content-gauge::before {
   content: "\eb2f";
+}
+
+.natds-icons-filled-content-gymdumbbell::before {
+  content: "\eb92";
+}
+
+.natds-icons-filled-content-hairbeard::before {
+  content: "\eb93";
 }
 
 .natds-icons-filled-content-handsoap::before {
@@ -297,6 +333,22 @@
   content: "\eb43";
 }
 
+.natds-icons-filled-content-house::before {
+  content: "\eb94";
+}
+
+.natds-icons-filled-content-microscope::before {
+  content: "\eb95";
+}
+
+.natds-icons-filled-content-moonstars::before {
+  content: "\eb96";
+}
+
+.natds-icons-filled-content-mortar::before {
+  content: "\eb97";
+}
+
 .natds-icons-filled-content-oil::before {
   content: "\eb60";
 }
@@ -305,12 +357,28 @@
   content: "\eb44";
 }
 
+.natds-icons-filled-content-palette::before {
+  content: "\eb98";
+}
+
 .natds-icons-filled-content-quote::before {
   content: "\ea15";
 }
 
 .natds-icons-filled-content-sensitive::before {
   content: "\eb45";
+}
+
+.natds-icons-filled-content-shower::before {
+  content: "\eb99";
+}
+
+.natds-icons-filled-content-soap::before {
+  content: "\eb9a";
+}
+
+.natds-icons-filled-content-soapbubble::before {
+  content: "\eb9b";
 }
 
 .natds-icons-filled-content-violence::before {
@@ -339,6 +407,18 @@
 
 .natds-icons-filled-finance-charging::before {
   content: "\ea17";
+}
+
+.natds-icons-filled-finance-intensityhigh::before {
+  content: "\eb9c";
+}
+
+.natds-icons-filled-finance-intensitylow::before {
+  content: "\eb9d";
+}
+
+.natds-icons-filled-finance-intensitymedium::before {
+  content: "\eb9e";
 }
 
 .natds-icons-filled-finance-invoice::before {
@@ -371,6 +451,26 @@
 
 .natds-icons-filled-finance-shieldplus::before {
   content: "\eb46";
+}
+
+.natds-icons-filled-makeup-haircoily::before {
+  content: "\eb9f";
+}
+
+.natds-icons-filled-makeup-haircurly::before {
+  content: "\eba0";
+}
+
+.natds-icons-filled-makeup-hairtowel::before {
+  content: "\eba1";
+}
+
+.natds-icons-filled-makeup-hairwavy::before {
+  content: "\eba2";
+}
+
+.natds-icons-filled-makeup-hairwoman::before {
+  content: "\eba3";
 }
 
 .natds-icons-filled-media-pause::before {
@@ -537,24 +637,112 @@
   content: "\eaf3";
 }
 
+.natds-icons-filled-product-ambientspray::before {
+  content: "\eba4";
+}
+
+.natds-icons-filled-product-blush::before {
+  content: "\eba5";
+}
+
+.natds-icons-filled-product-bodycream::before {
+  content: "\eba6";
+}
+
+.natds-icons-filled-product-bodysplash::before {
+  content: "\eba7";
+}
+
 .natds-icons-filled-product-brandsproduct::before {
   content: "\ea2a";
+}
+
+.natds-icons-filled-product-candlearomatic::before {
+  content: "\eba8";
+}
+
+.natds-icons-filled-product-candlescented::before {
+  content: "\eba9";
+}
+
+.natds-icons-filled-product-combcream::before {
+  content: "\ebaa";
+}
+
+.natds-icons-filled-product-conditioner::before {
+  content: "\ebab";
 }
 
 .natds-icons-filled-product-cube::before {
   content: "\eb4c";
 }
 
+.natds-icons-filled-product-deodorantrollon::before {
+  content: "\ebac";
+}
+
 .natds-icons-filled-product-fashion::before {
   content: "\eb1c";
+}
+
+.natds-icons-filled-product-haircream::before {
+  content: "\ebad";
+}
+
+.natds-icons-filled-product-hairdresser::before {
+  content: "\ebae";
+}
+
+.natds-icons-filled-product-hairgel::before {
+  content: "\ebaf";
+}
+
+.natds-icons-filled-product-makeconcealer::before {
+  content: "\ebb0";
+}
+
+.natds-icons-filled-product-makeeyeliner::before {
+  content: "\ebb1";
+}
+
+.natds-icons-filled-product-makefoundation::before {
+  content: "\ebb2";
+}
+
+.natds-icons-filled-product-makemask::before {
+  content: "\ebb3";
 }
 
 .natds-icons-filled-product-nailpolish::before {
   content: "\eb88";
 }
 
+.natds-icons-filled-product-pencilblush::before {
+  content: "\ebb4";
+}
+
+.natds-icons-filled-product-shampoo::before {
+  content: "\ebb5";
+}
+
+.natds-icons-filled-product-soapliquid::before {
+  content: "\ebb6";
+}
+
+.natds-icons-filled-social-fireworks::before {
+  content: "\ebb7";
+}
+
 .natds-icons-filled-social-myprofile::before {
   content: "\ea2b";
+}
+
+.natds-icons-filled-social-nightlife::before {
+  content: "\ebb8";
+}
+
+.natds-icons-filled-social-sparks::before {
+  content: "\ebb9";
 }
 
 .natds-icons-filled-toggle-indeterminatecheckbox::before {
@@ -705,6 +893,10 @@
   content: "\ea4c";
 }
 
+.natds-icons-outlined-action-opacity::before {
+  content: "\ebba";
+}
+
 .natds-icons-outlined-action-order::before {
   content: "\ea4d";
 }
@@ -787,6 +979,10 @@
 
 .natds-icons-outlined-action-text::before {
   content: "\ea5e";
+}
+
+.natds-icons-outlined-action-transparent::before {
+  content: "\ebbb";
 }
 
 .natds-icons-outlined-action-update::before {
@@ -945,6 +1141,10 @@
   content: "\eae7";
 }
 
+.natds-icons-outlined-content-bathtub::before {
+  content: "\ebbc";
+}
+
 .natds-icons-outlined-content-bellringing::before {
   content: "\ea76";
 }
@@ -965,6 +1165,10 @@
   content: "\ea7a";
 }
 
+.natds-icons-outlined-content-childfriendly::before {
+  content: "\ebbd";
+}
+
 .natds-icons-outlined-content-christmascard::before {
   content: "\ea7b";
 }
@@ -977,8 +1181,16 @@
   content: "\ea7c";
 }
 
+.natds-icons-outlined-content-design::before {
+  content: "\ebbe";
+}
+
 .natds-icons-outlined-content-divulgation::before {
   content: "\ea7d";
+}
+
+.natds-icons-outlined-content-dropper::before {
+  content: "\ebbf";
 }
 
 .natds-icons-outlined-content-education::before {
@@ -1017,6 +1229,14 @@
   content: "\ea82";
 }
 
+.natds-icons-outlined-content-gymdumbbell::before {
+  content: "\ebc0";
+}
+
+.natds-icons-outlined-content-hairbeard::before {
+  content: "\ebc1";
+}
+
 .natds-icons-outlined-content-handbag::before {
   content: "\eb0e";
 }
@@ -1047,6 +1267,10 @@
 
 .natds-icons-outlined-content-healthy::before {
   content: "\ea86";
+}
+
+.natds-icons-outlined-content-house::before {
+  content: "\ebc2";
 }
 
 .natds-icons-outlined-content-indicator::before {
@@ -1085,8 +1309,20 @@
   content: "\ea8d";
 }
 
+.natds-icons-outlined-content-microscope::before {
+  content: "\ebc3";
+}
+
 .natds-icons-outlined-content-mirror::before {
   content: "\ea8e";
+}
+
+.natds-icons-outlined-content-moonstars::before {
+  content: "\ebc4";
+}
+
+.natds-icons-outlined-content-mortar::before {
+  content: "\ebc5";
 }
 
 .natds-icons-outlined-content-oil::before {
@@ -1095,6 +1331,10 @@
 
 .natds-icons-outlined-content-oilunavailable::before {
   content: "\eb52";
+}
+
+.natds-icons-outlined-content-palette::before {
+  content: "\ebc6";
 }
 
 .natds-icons-outlined-content-password::before {
@@ -1129,8 +1369,20 @@
   content: "\eb53";
 }
 
+.natds-icons-outlined-content-shower::before {
+  content: "\ebc7";
+}
+
 .natds-icons-outlined-content-snow::before {
   content: "\eaf9";
+}
+
+.natds-icons-outlined-content-soap::before {
+  content: "\ebc8";
+}
+
+.natds-icons-outlined-content-soapbubble::before {
+  content: "\ebc9";
 }
 
 .natds-icons-outlined-content-store::before {
@@ -1211,6 +1463,18 @@
 
 .natds-icons-outlined-finance-idcard::before {
   content: "\ea9e";
+}
+
+.natds-icons-outlined-finance-intensityhigh::before {
+  content: "\ebca";
+}
+
+.natds-icons-outlined-finance-intensitylow::before {
+  content: "\ebcb";
+}
+
+.natds-icons-outlined-finance-intensitymedium::before {
+  content: "\ebcc";
 }
 
 .natds-icons-outlined-finance-invoice::before {
@@ -1307,6 +1571,26 @@
 
 .natds-icons-outlined-makeup-face::before {
   content: "\eb05";
+}
+
+.natds-icons-outlined-makeup-haircoily::before {
+  content: "\ebcd";
+}
+
+.natds-icons-outlined-makeup-haircurly::before {
+  content: "\ebce";
+}
+
+.natds-icons-outlined-makeup-hairtowel::before {
+  content: "\ebcf";
+}
+
+.natds-icons-outlined-makeup-hairwavy::before {
+  content: "\ebd0";
+}
+
+.natds-icons-outlined-makeup-hairwoman::before {
+  content: "\ebd1";
 }
 
 .natds-icons-outlined-makeup-mixedskin::before {
@@ -1521,6 +1805,10 @@
   content: "\eac5";
 }
 
+.natds-icons-outlined-product-ambientspray::before {
+  content: "\ebd2";
+}
+
 .natds-icons-outlined-product-bagproduct::before {
   content: "\eac6";
 }
@@ -1529,12 +1817,40 @@
   content: "\eac7";
 }
 
+.natds-icons-outlined-product-blush::before {
+  content: "\ebd3";
+}
+
+.natds-icons-outlined-product-bodycream::before {
+  content: "\ebd4";
+}
+
+.natds-icons-outlined-product-bodysplash::before {
+  content: "\ebd5";
+}
+
 .natds-icons-outlined-product-brandsproduct::before {
   content: "\eac8";
 }
 
+.natds-icons-outlined-product-candlearomatic::before {
+  content: "\ebd6";
+}
+
+.natds-icons-outlined-product-candlescented::before {
+  content: "\ebd7";
+}
+
 .natds-icons-outlined-product-childish::before {
   content: "\eac9";
+}
+
+.natds-icons-outlined-product-combcream::before {
+  content: "\ebd8";
+}
+
+.natds-icons-outlined-product-conditioner::before {
+  content: "\ebd9";
 }
 
 .natds-icons-outlined-product-cube::before {
@@ -1543,6 +1859,10 @@
 
 .natds-icons-outlined-product-dailycare::before {
   content: "\eaca";
+}
+
+.natds-icons-outlined-product-deodorantrollon::before {
+  content: "\ebda";
 }
 
 .natds-icons-outlined-product-ekos::before {
@@ -1565,6 +1885,18 @@
   content: "\eace";
 }
 
+.natds-icons-outlined-product-haircream::before {
+  content: "\ebdb";
+}
+
+.natds-icons-outlined-product-hairdresser::before {
+  content: "\ebdc";
+}
+
+.natds-icons-outlined-product-hairgel::before {
+  content: "\ebdd";
+}
+
 .natds-icons-outlined-product-lashes::before {
   content: "\eb08";
 }
@@ -1575,6 +1907,22 @@
 
 .natds-icons-outlined-product-lipgloss::before {
   content: "\eb0a";
+}
+
+.natds-icons-outlined-product-makeconcealer::before {
+  content: "\ebde";
+}
+
+.natds-icons-outlined-product-makeeyeliner::before {
+  content: "\ebdf";
+}
+
+.natds-icons-outlined-product-makefoundation::before {
+  content: "\ebe0";
+}
+
+.natds-icons-outlined-product-makemask::before {
+  content: "\ebe1";
 }
 
 .natds-icons-outlined-product-makeup::before {
@@ -1591,6 +1939,10 @@
 
 .natds-icons-outlined-product-pencil::before {
   content: "\eb0b";
+}
+
+.natds-icons-outlined-product-pencilblush::before {
+  content: "\ebe2";
 }
 
 .natds-icons-outlined-product-perfumery::before {
@@ -1633,6 +1985,14 @@
   content: "\ead3";
 }
 
+.natds-icons-outlined-product-shampoo::before {
+  content: "\ebe3";
+}
+
+.natds-icons-outlined-product-soapliquid::before {
+  content: "\ebe4";
+}
+
 .natds-icons-outlined-product-vegan::before {
   content: "\ead4";
 }
@@ -1657,6 +2017,10 @@
   content: "\ead9";
 }
 
+.natds-icons-outlined-social-fireworks::before {
+  content: "\ebe5";
+}
+
 .natds-icons-outlined-social-groupofpeople::before {
   content: "\eada";
 }
@@ -1673,7 +2037,15 @@
   content: "\eadc";
 }
 
+.natds-icons-outlined-social-nightlife::before {
+  content: "\ebe6";
+}
+
 .natds-icons-outlined-social-person::before {
   content: "\eadd";
+}
+
+.natds-icons-outlined-social-sparks::before {
+  content: "\ebe7";
 }
 
