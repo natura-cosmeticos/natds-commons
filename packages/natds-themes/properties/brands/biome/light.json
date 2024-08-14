@@ -336,6 +336,9 @@
     "neutral50": {
       "value": "{color.primitiveLightGray50.value}"
     },
+    "neutral75": {
+      "value": "{color.primitiveLightGray100.value}"
+    },
     "neutral100": {
       "value": "{color.primitiveLightGray200.value}"
     },
