@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.80.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.79.2...@naturacosmeticos/natds-themes@0.80.0) (2024-08-14)
+
+
+### Features
+
+* **natds-themes:** added color neutral75 ([ca82b28](https://github.com/natura-cosmeticos/natds-commons/commit/ca82b28463ecf33713ecb576346bb665438ef121))
+
+
+
+
+
 ## [0.79.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.79.1...@naturacosmeticos/natds-themes@0.79.2) (2024-08-14)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
