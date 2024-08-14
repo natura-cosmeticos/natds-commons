@@ -2022,6 +2022,7 @@
   "color": {
     "neutral0": "#111111",
     "neutral50": "#363636",
+    "neutral75": "#1d1d1d",
     "neutral100": "#4e4e4e",
     "neutral200": "#737373",
     "neutral300": "#8c8c8c",

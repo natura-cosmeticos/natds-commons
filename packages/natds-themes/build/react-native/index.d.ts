@@ -571,6 +571,7 @@ declare namespace Themes {
  export interface Color {
   neutral0: string
   neutral50: string
+  neutral75: string
   neutral100: string
   neutral200: string
   neutral300: string

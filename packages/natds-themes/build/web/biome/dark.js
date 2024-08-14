@@ -1240,6 +1240,7 @@ export const spectrumRed800 = "#C04831";
 export const spectrumRed900 = "#B23F25";
 export const colorNeutral0 = "#111111";
 export const colorNeutral50 = "#363636";
+export const colorNeutral75 = "#1d1d1d";
 export const colorNeutral100 = "#4e4e4e";
 export const colorNeutral200 = "#737373";
 export const colorNeutral300 = "#8c8c8c";
