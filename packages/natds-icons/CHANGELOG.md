@@ -6,23 +6,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [1.26.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.26.0...@naturacosmeticos/natds-icons@1.26.5) (2024-08-14)
 
 
-### Bug Fixes
-
-* **natds-icons:** fix icon remove tags g ([40c22c4](https://github.com/natura-cosmeticos/natds-commons/commit/40c22c4f4351b4658dac5ef3f9953fbf4d5655b2))
-* **natds-icons:** fix packages ([d7e5615](https://github.com/natura-cosmeticos/natds-commons/commit/d7e56156e83b7bca79cef412ba88dbf0248b2339))
-
-
-
-
-
-# [1.26.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.25.1...@naturacosmeticos/natds-icons@1.26.0) (2024-08-13)
-
-
-### Bug Fixes
-
-* **natds-icons:** fix packages ([a398505](https://github.com/natura-cosmeticos/natds-commons/commit/a3985056546e687d36f1467090f40b6587cefac6))
-
-
 ### Features
 
 * **natds-icons:** add icon filled-action-like ([84306cc](https://github.com/natura-cosmeticos/natds-commons/commit/84306cc9c26fe67c915da7ebc4aa46fe32885f85))
