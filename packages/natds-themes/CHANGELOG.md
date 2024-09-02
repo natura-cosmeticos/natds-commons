@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.80.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.80.0...@naturacosmeticos/natds-themes@0.80.1) (2024-09-02)
+
+
+### Bug Fixes
+
+* **natds-themes:** change theme FV textTransform to none ([880ef70](https://github.com/natura-cosmeticos/natds-commons/commit/880ef70061b4c7a5c26cb809fdb59f3f49f6b005))
+
+
+
+
+
 # [0.80.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.79.2...@naturacosmeticos/natds-themes@0.80.0) (2024-08-14)
 
 
