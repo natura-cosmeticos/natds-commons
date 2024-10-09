@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:pathData="M14.4 7.02a0.5 0.5 0 1 0 0 1a0.5 0.5 0 1 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:pathData="M12.4 9.02a0.5 0.5 0 1 0 0 1a0.5 0.5 0 1 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:pathData="M11.4 14.02a0.5 0.5 0 1 0 0 1a0.5 0.5 0 1 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:pathData="M8.4 15.02a0.5 0.5 0 1 0 0 1a0.5 0.5 0 1 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:pathData="M12.4 17.02a0.5 0.5 0 1 0 0 1a0.5 0.5 0 1 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:pathData="M15.4 15.02a0.5 0.5 0 1 0 0 1a0.5 0.5 0 1 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:fillType="evenOdd"
+        android:pathData="M16.5 12h-2a0.5 0.5 0 0 0 0 1h2a0.5 0.5 0 0 0 0-1zm-7 0h-2a0.5 0.5 0 0 0 0 1h2a0.5 0.5 0 0 0 0-1z"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillColor="#363636"
+        android:fillType="evenOdd"
+        android:pathData="M12 1C5.92 1 1 5.92 1 12v8.5c0 0.16 0.08 0.32 0.21 0.41h0.01l0.01 0.01l0.03 0.02a6.61 6.61 0 0 0 0.59 0.32c0.41 0.2 1.03 0.46 1.9 0.72C5.45 22.49 8.13 23 12 23s6.54-0.5 8.26-1.02c0.86-0.26 1.48-0.52 1.9-0.72a6.61 6.61 0 0 0 0.58-0.32l0.03-0.02h0.01V20.9A0.5 0.5 0 0 0 23 20.5V12c0-6.08-4.92-11-11-11zm0 19a8 8 0 0 1-8-8c0-1.06 0.13-2.22 0.54-3.2a0.5 0.5 0 0 1 0.41-0.3c3.43-0.34 6.42-1.58 8.7-3.86a0.5 0.5 0 0 1 0.5-0.12C17.42 5.5 20 8.35 20 12a8 8 0 0 1-8 8z"/>
+</vector>

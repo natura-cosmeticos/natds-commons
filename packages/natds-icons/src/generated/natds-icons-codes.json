@@ -149,6 +149,18 @@
 	"filled-content-childfriendly": [
 		""
 	],
+	"filled-content-christmasstocking": [
+		""
+	],
+	"filled-content-christmastree": [
+		""
+	],
+	"filled-content-crueltyfreebunny": [
+		""
+	],
+	"filled-content-daynight": [
+		""
+	],
 	"filled-content-design": [
 		""
 	],
@@ -158,8 +170,29 @@
 	"filled-content-dropper": [
 		""
 	],
+	"filled-content-energy": [
+		""
+	],
+	"filled-content-exfoliator": [
+		""
+	],
+	"filled-content-farmrows": [
+		""
+	],
 	"filled-content-gauge": [
 		""
+	],
+	"filled-content-giftpricefair": [
+		""
+	],
+	"filled-content-giftpricegreat": [
+		""
+	],
+	"filled-content-giftpricehigh": [
+		""
+	],
+	"filled-content-giftpricespecial": [
+		""
 	],
 	"filled-content-gymdumbbell": [
 		""
@@ -194,6 +227,9 @@
 	"filled-content-palette": [
 		""
 	],
+	"filled-content-plasticfree": [
+		""
+	],
 	"filled-content-quote": [
 		""
 	],
@@ -203,14 +239,23 @@
 	"filled-content-shower": [
 		""
 	],
+	"filled-content-snorkelmask": [
+		""
+	],
 	"filled-content-soap": [
 		""
 	],
 	"filled-content-soapbubble": [
 		""
 	],
+	"filled-content-teddybear": [
+		""
+	],
 	"filled-content-violence": [
 		""
+	],
+	"filled-content-wetwipe": [
+		""
 	],
 	"filled-content-wifi": [
 		""
@@ -263,11 +308,23 @@
 	"filled-finance-shieldplus": [
 		""
 	],
+	"filled-makeup-antiacne": [
+		""
+	],
 	"filled-makeup-haircoily": [
 		""
 	],
 	"filled-makeup-haircurly": [
 		""
+	],
+	"filled-makeup-hairdamaged": [
+		""
+	],
+	"filled-makeup-hairdandruff": [
+		""
+	],
+	"filled-makeup-hairreconstruction": [
+		""
 	],
 	"filled-makeup-hairtowel": [
 		""
@@ -434,11 +491,17 @@
 	"filled-product-deodorantrollon": [
 		""
 	],
+	"filled-product-eyeshadow": [
+		""
+	],
 	"filled-product-fashion": [
 		""
 	],
 	"filled-product-haircream": [
 		""
+	],
+	"filled-product-hairdetox": [
+		""
 	],
 	"filled-product-hairdresser": [
 		""
@@ -461,11 +524,23 @@
 	"filled-product-nailpolish": [
 		""
 	],
+	"filled-product-organicalcohol": [
+		""
+	],
 	"filled-product-pencilblush": [
 		""
 	],
+	"filled-product-recyclablepackaging": [
+		""
+	],
+	"filled-product-refill": [
+		""
+	],
 	"filled-product-shampoo": [
 		""
+	],
+	"filled-product-shampooconditioner": [
+		""
 	],
 	"filled-product-soapliquid": [
 		""
@@ -479,8 +554,14 @@
 	"filled-social-nightlife": [
 		""
 	],
+	"filled-social-pregnant": [
+		""
+	],
 	"filled-social-sparks": [
 		""
+	],
+	"filled-social-userlock": [
+		""
 	],
 	"filled-toggle-indeterminatecheckbox": [
 		""
@@ -803,11 +884,23 @@
 	"outlined-content-christmascard": [
 		""
 	],
+	"outlined-content-christmasstocking": [
+		""
+	],
+	"outlined-content-christmastree": [
+		""
+	],
 	"outlined-content-cloud": [
 		""
 	],
 	"outlined-content-consistency": [
 		""
+	],
+	"outlined-content-crueltyfreebunny": [
+		""
+	],
+	"outlined-content-daynight": [
+		""
 	],
 	"outlined-content-design": [
 		""
@@ -824,8 +917,17 @@
 	"outlined-content-emptybag": [
 		""
 	],
+	"outlined-content-energy": [
+		""
+	],
 	"outlined-content-exchangereports": [
 		""
+	],
+	"outlined-content-exfoliator": [
+		""
+	],
+	"outlined-content-farmrows": [
+		""
 	],
 	"outlined-content-flower": [
 		""
@@ -841,6 +943,18 @@
 	],
 	"outlined-content-gift": [
 		""
+	],
+	"outlined-content-giftpricefair": [
+		""
+	],
+	"outlined-content-giftpricegreat": [
+		""
+	],
+	"outlined-content-giftpricehigh": [
+		""
+	],
+	"outlined-content-giftpricespecial": [
+		""
 	],
 	"outlined-content-global": [
 		""
@@ -932,6 +1046,9 @@
 	"outlined-content-planb": [
 		""
 	],
+	"outlined-content-plasticfree": [
+		""
+	],
 	"outlined-content-productshowcase": [
 		""
 	],
@@ -953,6 +1070,9 @@
 	"outlined-content-shower": [
 		""
 	],
+	"outlined-content-snorkelmask": [
+		""
+	],
 	"outlined-content-snow": [
 		""
 	],
@@ -971,6 +1091,9 @@
 	"outlined-content-sunandcloud": [
 		""
 	],
+	"outlined-content-teddybear": [
+		""
+	],
 	"outlined-content-unavailable": [
 		""
 	],
@@ -982,6 +1105,9 @@
 	],
 	"outlined-content-wellness": [
 		""
+	],
+	"outlined-content-wetwipe": [
+		""
 	],
 	"outlined-content-wifi": [
 		""
@@ -1091,6 +1217,9 @@
 	"outlined-makeup-age": [
 		""
 	],
+	"outlined-makeup-antiacne": [
+		""
+	],
 	"outlined-makeup-eyebrow": [
 		""
 	],
@@ -1108,6 +1237,15 @@
 	],
 	"outlined-makeup-haircurly": [
 		""
+	],
+	"outlined-makeup-hairdamaged": [
+		""
+	],
+	"outlined-makeup-hairdandruff": [
+		""
+	],
+	"outlined-makeup-hairreconstruction": [
+		""
 	],
 	"outlined-makeup-hairtowel": [
 		""
@@ -1328,6 +1466,9 @@
 	"outlined-product-erlenmeyer": [
 		""
 	],
+	"outlined-product-eyeshadow": [
+		""
+	],
 	"outlined-product-face": [
 		""
 	],
@@ -1339,6 +1480,9 @@
 	],
 	"outlined-product-haircream": [
 		""
+	],
+	"outlined-product-hairdetox": [
+		""
 	],
 	"outlined-product-hairdresser": [
 		""
@@ -1373,6 +1517,9 @@
 	"outlined-product-nailpolish": [
 		""
 	],
+	"outlined-product-organicalcohol": [
+		""
+	],
 	"outlined-product-outlet": [
 		""
 	],
@@ -1403,6 +1550,12 @@
 	"outlined-product-promotionproduct": [
 		""
 	],
+	"outlined-product-recyclablepackaging": [
+		""
+	],
+	"outlined-product-refill": [
+		""
+	],
 	"outlined-product-relatedproducts": [
 		""
 	],
@@ -1414,6 +1567,9 @@
 	],
 	"outlined-product-shampoo": [
 		""
+	],
+	"outlined-product-shampooconditioner": [
+		""
 	],
 	"outlined-product-soapliquid": [
 		""
@@ -1457,7 +1613,13 @@
 	"outlined-social-person": [
 		""
 	],
+	"outlined-social-pregnant": [
+		""
+	],
 	"outlined-social-sparks": [
 		""
+	],
+	"outlined-social-userlock": [
+		""
 	]
 }

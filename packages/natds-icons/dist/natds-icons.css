@@ -301,6 +301,22 @@
   content: "\eb8f";
 }
 
+.natds-icons-filled-content-christmasstocking::before {
+  content: "\ebe8";
+}
+
+.natds-icons-filled-content-christmastree::before {
+  content: "\ebe9";
+}
+
+.natds-icons-filled-content-crueltyfreebunny::before {
+  content: "\ebea";
+}
+
+.natds-icons-filled-content-daynight::before {
+  content: "\ebeb";
+}
+
 .natds-icons-filled-content-design::before {
   content: "\eb90";
 }
@@ -313,8 +329,36 @@
   content: "\eb91";
 }
 
+.natds-icons-filled-content-energy::before {
+  content: "\ebec";
+}
+
+.natds-icons-filled-content-exfoliator::before {
+  content: "\ebed";
+}
+
+.natds-icons-filled-content-farmrows::before {
+  content: "\ebee";
+}
+
 .natds-icons-filled-content-gauge::before {
   content: "\eb2f";
+}
+
+.natds-icons-filled-content-giftpricefair::before {
+  content: "\ebef";
+}
+
+.natds-icons-filled-content-giftpricegreat::before {
+  content: "\ebf0";
+}
+
+.natds-icons-filled-content-giftpricehigh::before {
+  content: "\ebf1";
+}
+
+.natds-icons-filled-content-giftpricespecial::before {
+  content: "\ebf2";
 }
 
 .natds-icons-filled-content-gymdumbbell::before {
@@ -361,6 +405,10 @@
   content: "\eb98";
 }
 
+.natds-icons-filled-content-plasticfree::before {
+  content: "\ebf3";
+}
+
 .natds-icons-filled-content-quote::before {
   content: "\ea15";
 }
@@ -373,6 +421,10 @@
   content: "\eb99";
 }
 
+.natds-icons-filled-content-snorkelmask::before {
+  content: "\ebf4";
+}
+
 .natds-icons-filled-content-soap::before {
   content: "\eb9a";
 }
@@ -381,8 +433,16 @@
   content: "\eb9b";
 }
 
+.natds-icons-filled-content-teddybear::before {
+  content: "\ebf5";
+}
+
 .natds-icons-filled-content-violence::before {
   content: "\eb1b";
+}
+
+.natds-icons-filled-content-wetwipe::before {
+  content: "\ebf6";
 }
 
 .natds-icons-filled-content-wifi::before {
@@ -453,12 +513,28 @@
   content: "\eb46";
 }
 
+.natds-icons-filled-makeup-antiacne::before {
+  content: "\ebf7";
+}
+
 .natds-icons-filled-makeup-haircoily::before {
   content: "\eb9f";
 }
 
 .natds-icons-filled-makeup-haircurly::before {
   content: "\eba0";
+}
+
+.natds-icons-filled-makeup-hairdamaged::before {
+  content: "\ebf8";
+}
+
+.natds-icons-filled-makeup-hairdandruff::before {
+  content: "\ebf9";
+}
+
+.natds-icons-filled-makeup-hairreconstruction::before {
+  content: "\ebfa";
 }
 
 .natds-icons-filled-makeup-hairtowel::before {
@@ -681,12 +757,20 @@
   content: "\ebac";
 }
 
+.natds-icons-filled-product-eyeshadow::before {
+  content: "\ebfb";
+}
+
 .natds-icons-filled-product-fashion::before {
   content: "\eb1c";
 }
 
 .natds-icons-filled-product-haircream::before {
   content: "\ebad";
+}
+
+.natds-icons-filled-product-hairdetox::before {
+  content: "\ebfc";
 }
 
 .natds-icons-filled-product-hairdresser::before {
@@ -717,12 +801,28 @@
   content: "\eb88";
 }
 
+.natds-icons-filled-product-organicalcohol::before {
+  content: "\ebfd";
+}
+
 .natds-icons-filled-product-pencilblush::before {
   content: "\ebb4";
 }
 
+.natds-icons-filled-product-recyclablepackaging::before {
+  content: "\ebfe";
+}
+
+.natds-icons-filled-product-refill::before {
+  content: "\ebff";
+}
+
 .natds-icons-filled-product-shampoo::before {
   content: "\ebb5";
+}
+
+.natds-icons-filled-product-shampooconditioner::before {
+  content: "\ec00";
 }
 
 .natds-icons-filled-product-soapliquid::before {
@@ -741,8 +841,16 @@
   content: "\ebb8";
 }
 
+.natds-icons-filled-social-pregnant::before {
+  content: "\ec01";
+}
+
 .natds-icons-filled-social-sparks::before {
   content: "\ebb9";
+}
+
+.natds-icons-filled-social-userlock::before {
+  content: "\ec02";
 }
 
 .natds-icons-filled-toggle-indeterminatecheckbox::before {
@@ -1173,12 +1281,28 @@
   content: "\ea7b";
 }
 
+.natds-icons-outlined-content-christmasstocking::before {
+  content: "\ec03";
+}
+
+.natds-icons-outlined-content-christmastree::before {
+  content: "\ec04";
+}
+
 .natds-icons-outlined-content-cloud::before {
   content: "\eaf4";
 }
 
 .natds-icons-outlined-content-consistency::before {
   content: "\ea7c";
+}
+
+.natds-icons-outlined-content-crueltyfreebunny::before {
+  content: "\ec05";
+}
+
+.natds-icons-outlined-content-daynight::before {
+  content: "\ec06";
 }
 
 .natds-icons-outlined-content-design::before {
@@ -1201,8 +1325,20 @@
   content: "\eb2e";
 }
 
+.natds-icons-outlined-content-energy::before {
+  content: "\ec07";
+}
+
 .natds-icons-outlined-content-exchangereports::before {
   content: "\ea7f";
+}
+
+.natds-icons-outlined-content-exfoliator::before {
+  content: "\ec08";
+}
+
+.natds-icons-outlined-content-farmrows::before {
+  content: "\ec09";
 }
 
 .natds-icons-outlined-content-flower::before {
@@ -1223,6 +1359,22 @@
 
 .natds-icons-outlined-content-gift::before {
   content: "\ea81";
+}
+
+.natds-icons-outlined-content-giftpricefair::before {
+  content: "\ec0a";
+}
+
+.natds-icons-outlined-content-giftpricegreat::before {
+  content: "\ec0b";
+}
+
+.natds-icons-outlined-content-giftpricehigh::before {
+  content: "\ec0c";
+}
+
+.natds-icons-outlined-content-giftpricespecial::before {
+  content: "\ec0d";
 }
 
 .natds-icons-outlined-content-global::before {
@@ -1345,6 +1497,10 @@
   content: "\ea90";
 }
 
+.natds-icons-outlined-content-plasticfree::before {
+  content: "\ec0e";
+}
+
 .natds-icons-outlined-content-productshowcase::before {
   content: "\eadf";
 }
@@ -1373,6 +1529,10 @@
   content: "\ebc7";
 }
 
+.natds-icons-outlined-content-snorkelmask::before {
+  content: "\ec0f";
+}
+
 .natds-icons-outlined-content-snow::before {
   content: "\eaf9";
 }
@@ -1397,6 +1557,10 @@
   content: "\eafb";
 }
 
+.natds-icons-outlined-content-teddybear::before {
+  content: "\ec10";
+}
+
 .natds-icons-outlined-content-unavailable::before {
   content: "\eb00";
 }
@@ -1411,6 +1575,10 @@
 
 .natds-icons-outlined-content-wellness::before {
   content: "\ea94";
+}
+
+.natds-icons-outlined-content-wetwipe::before {
+  content: "\ec11";
 }
 
 .natds-icons-outlined-content-wifi::before {
@@ -1557,6 +1725,10 @@
   content: "\eb55";
 }
 
+.natds-icons-outlined-makeup-antiacne::before {
+  content: "\ec12";
+}
+
 .natds-icons-outlined-makeup-eyebrow::before {
   content: "\eb02";
 }
@@ -1579,6 +1751,18 @@
 
 .natds-icons-outlined-makeup-haircurly::before {
   content: "\ebce";
+}
+
+.natds-icons-outlined-makeup-hairdamaged::before {
+  content: "\ec13";
+}
+
+.natds-icons-outlined-makeup-hairdandruff::before {
+  content: "\ec14";
+}
+
+.natds-icons-outlined-makeup-hairreconstruction::before {
+  content: "\ec15";
 }
 
 .natds-icons-outlined-makeup-hairtowel::before {
@@ -1873,6 +2057,10 @@
   content: "\eacc";
 }
 
+.natds-icons-outlined-product-eyeshadow::before {
+  content: "\ec16";
+}
+
 .natds-icons-outlined-product-face::before {
   content: "\eacd";
 }
@@ -1887,6 +2075,10 @@
 
 .natds-icons-outlined-product-haircream::before {
   content: "\ebdb";
+}
+
+.natds-icons-outlined-product-hairdetox::before {
+  content: "\ec17";
 }
 
 .natds-icons-outlined-product-hairdresser::before {
@@ -1933,6 +2125,10 @@
   content: "\eb8a";
 }
 
+.natds-icons-outlined-product-organicalcohol::before {
+  content: "\ec18";
+}
+
 .natds-icons-outlined-product-outlet::before {
   content: "\ead0";
 }
@@ -1973,6 +2169,14 @@
   content: "\ead2";
 }
 
+.natds-icons-outlined-product-recyclablepackaging::before {
+  content: "\ec19";
+}
+
+.natds-icons-outlined-product-refill::before {
+  content: "\ec1a";
+}
+
 .natds-icons-outlined-product-relatedproducts::before {
   content: "\eaea";
 }
@@ -1987,6 +2191,10 @@
 
 .natds-icons-outlined-product-shampoo::before {
   content: "\ebe3";
+}
+
+.natds-icons-outlined-product-shampooconditioner::before {
+  content: "\ec1b";
 }
 
 .natds-icons-outlined-product-soapliquid::before {
@@ -2045,7 +2253,15 @@
   content: "\eadd";
 }
 
+.natds-icons-outlined-social-pregnant::before {
+  content: "\ec1c";
+}
+
 .natds-icons-outlined-social-sparks::before {
   content: "\ebe7";
+}
+
+.natds-icons-outlined-social-userlock::before {
+  content: "\ec1d";
 }
 
