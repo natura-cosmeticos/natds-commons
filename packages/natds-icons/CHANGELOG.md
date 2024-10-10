@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.27.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.27.0...@naturacosmeticos/natds-icons@1.27.4) (2024-10-10)
+## [1.27.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.27.0...@naturacosmeticos/natds-icons@1.27.4) (2024-10-10)
 
 
 ### Bug Fixes
@@ -18,12 +18,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **natds-icons:** fix-icon-outlined-navigation-arrowctrlregularleft ([c3e510d](https://github.com/natura-cosmeticos/natds-commons/commit/c3e510d792aa809404c4f7b6deb438d8329ef4b2))
 * **natds-icons:** fix-icon-outlined-navigation-arrowctrlregularright ([63bb0d8](https://github.com/natura-cosmeticos/natds-commons/commit/63bb0d8bb8e10e591bce75cb5d75e176621b7d14))
 * **natds-icons:** fix-icon-outlined-navigation-arrowctrlregulartop ([28ce2ae](https://github.com/natura-cosmeticos/natds-commons/commit/28ce2ae56ffefe87edeff43cf15eddc54001f6f2))
-
-
-
-
-
-# [1.27.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.26.4...@naturacosmeticos/natds-icons@1.27.0) (2024-10-09)
 
 
 ### Features
