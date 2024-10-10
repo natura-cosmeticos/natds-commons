@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.27.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.27.0...@naturacosmeticos/natds-icons@1.27.4) (2024-10-10)
+
+
+### Bug Fixes
+
+* **natds-icons:** filled-navigation-arrowctrlregularright ([fbef897](https://github.com/natura-cosmeticos/natds-commons/commit/fbef8973d70530d3efe60e30a993b3713f032f28))
+* **natds-icons:** fix-icon-filled-media-play ([9de0cfb](https://github.com/natura-cosmeticos/natds-commons/commit/9de0cfb1dd59062fdf11bd42a9f510dbba466127))
+* **natds-icons:** fix-icon-filled-navigation-arrowctrlregularbottom ([8b5dd04](https://github.com/natura-cosmeticos/natds-commons/commit/8b5dd0454f9a1ac6feec3402715de2d6ae6b6285))
+* **natds-icons:** fix-icon-filled-navigation-arrowctrlregularleft ([0ec24d8](https://github.com/natura-cosmeticos/natds-commons/commit/0ec24d85e930d2951b51a2b7b0ab96e58659e80f))
+* **natds-icons:** fix-icon-filled-navigation-arrowctrlregulartop ([b76a5d6](https://github.com/natura-cosmeticos/natds-commons/commit/b76a5d6ff423aab5ba024887270066f0d5ab9d01))
+* **natds-icons:** fix-icon-outlined-media-play ([f75b43e](https://github.com/natura-cosmeticos/natds-commons/commit/f75b43e3523a79b59da9dd345c8898f4ebd649f0))
+* **natds-icons:** fix-icon-outlined-navigation-arrowctrlregularbottom ([1e53522](https://github.com/natura-cosmeticos/natds-commons/commit/1e53522367041c405b38c9bd29086d9bf5e3dd31))
+* **natds-icons:** fix-icon-outlined-navigation-arrowctrlregularleft ([c3e510d](https://github.com/natura-cosmeticos/natds-commons/commit/c3e510d792aa809404c4f7b6deb438d8329ef4b2))
+* **natds-icons:** fix-icon-outlined-navigation-arrowctrlregularright ([63bb0d8](https://github.com/natura-cosmeticos/natds-commons/commit/63bb0d8bb8e10e591bce75cb5d75e176621b7d14))
+* **natds-icons:** fix-icon-outlined-navigation-arrowctrlregulartop ([28ce2ae](https://github.com/natura-cosmeticos/natds-commons/commit/28ce2ae56ffefe87edeff43cf15eddc54001f6f2))
+
+
+
+
+
 # [1.27.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.26.4...@naturacosmeticos/natds-icons@1.27.0) (2024-10-09)
 
 
