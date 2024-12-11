@@ -1,0 +1,10 @@
+{
+  "private": {
+    "textfield": {
+      "borderRadius": {
+        "value": "{borderRadius.largeX.value}"
+      }
+      
+    }
+  }
+}
