@@ -1,0 +1,10 @@
+{
+  "private": {
+    "select": {
+      "borderRadius": {
+        "value": "{borderRadius.circle.value}"
+      }
+      
+    }
+  }
+}
