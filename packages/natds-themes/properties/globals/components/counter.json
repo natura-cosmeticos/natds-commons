@@ -55,7 +55,7 @@
       }
     },
     "borderRadius": {
-      "value": "{borderRadius.medium.value}"
+      "value": "{private.counter.borderRadius.value}"
     }
   }
 }

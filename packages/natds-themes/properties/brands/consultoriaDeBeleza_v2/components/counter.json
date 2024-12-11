@@ -1,0 +1,10 @@
+{
+  "private": {
+    "counter": {
+      "borderRadius": {
+        "value": "{borderRadius.largeX.value}"
+      }
+      
+    }
+  }
+}
