@@ -2,7 +2,7 @@
   "private": {
     "textfield": {
       "borderRadius": {
-        "value": "{borderRadius.largeX.value}"
+        "value": "{borderRadius.huge.value}"
       }
       
     }
