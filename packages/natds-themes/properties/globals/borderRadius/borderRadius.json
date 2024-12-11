@@ -12,6 +12,12 @@
     "large": {
       "value": 8
     },
+    "largeX": {
+      "value": 16
+    },
+    "pill": {
+      "value": 999
+    },
     "circle": {
       "value": 999
     }
