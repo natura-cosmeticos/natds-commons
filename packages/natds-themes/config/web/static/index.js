@@ -17,6 +17,8 @@ import theBodyShopDarkTheme from './theBodyShop/dark.json'
 import theBodyShopLightTheme from './theBodyShop/light.json'
 import consultoriaDeBelezaDarkTheme from './consultoriaDeBeleza/dark.json'
 import consultoriaDeBelezaLightTheme from './consultoriaDeBeleza/light.json'
+import consultoriaDeBelezaV2DarkTheme from './consultoriaDeBeleza_v2/dark.json'
+import consultoriaDeBelezaV2LightTheme from './consultoriaDeBeleza_v2/light.json'
 import casaEestiloDarkTheme from './casaEestilo/dark.json'
 import casaEestiloLightTheme from './casaEestilo/light.json'
 import casaEestiloV2DarkTheme from './casaEestilo_v2/dark.json'
@@ -60,6 +62,10 @@ const themes = {
   consultoriaDeBeleza: {
     dark: consultoriaDeBelezaDarkTheme,
     light: consultoriaDeBelezaLightTheme
+  },
+  consultoriaDeBeleza_v2: {
+    dark: consultoriaDeBelezaV2DarkTheme,
+    light: consultoriaDeBelezaV2LightTheme
   },
   casaEestilo: {
     dark: casaEestiloDarkTheme,
