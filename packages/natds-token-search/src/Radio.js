@@ -7,6 +7,7 @@ const brandsLabel = {
   natura: 'Natura',
   theBodyShop: 'The Body Shop',
   consultoriaDeBeleza: 'Consultoria de Beleza',
+  consultoriaDeBeleza_v2: 'Consultoria de Beleza v2',
   forcaDeVendas: 'Força de Vendas',
   natura_v2: 'Natura v2',
   natura_v3: 'Natura v3',

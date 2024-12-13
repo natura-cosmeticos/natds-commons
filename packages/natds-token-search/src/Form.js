@@ -11,6 +11,7 @@ const brands = [
   'natura',
   'theBodyShop',
   'consultoriaDeBeleza',
+  'consultoriaDeBeleza_v2',
   'forcaDeVendas',
   'natura_v2',
   'natura_v3',
