@@ -12,6 +12,7 @@ const tokenCategories = [
   'card',
   'checkbox',
   'counter',
+  'select',
   'dialog',
   'divider',
   'expansionPanel',
