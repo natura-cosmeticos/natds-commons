@@ -1,0 +1,78 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "consultoriadebelleza_v2-a-official-dark-es"
+          },
+          "es": {
+            "value": "consultoriadebelleza_v2-a-official-dark-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza_v2-a-official-dark-pt-br"
+          },
+          "width": {
+            "value": 128
+          },
+          "height": {
+            "value": 10
+          }
+        },
+        "b": {
+          "file": {
+            "value": "consultoriadebeleza_v2-b-official-dark-pt-br"
+          },
+          "es": {
+            "value": "consultoriadebelleza_v2-b-official-dark-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza_v2-b-official-dark-pt-br"
+          },
+          "width": {
+            "value": 128
+          },
+          "height": {
+            "value": 78
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "consultoriadebelleza_v2-a-custom-es"
+          },
+          "es": {
+            "value": "consultoriadebelleza_v2-a-custom-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza_v2-a-custom-pt-br"
+          },
+          "width": {
+            "value": 128
+          },
+          "height": {
+            "value": 10
+          }
+        },
+        "b": {
+          "file": {
+            "value": "consultoriadebeleza_v2-b-custom-pt-br"
+          },
+          "es": {
+            "value": "consultoriadebelleza_v2-b-custom-es"
+          },
+          "pt": {
+            "value": "consultoriadebeleza_v2-b-custom-pt-br"
+          },
+          "width": {
+            "value": 128
+          },
+          "height": {
+            "value": 78
+          }
+        }
+      }
+    }
+  }
+}

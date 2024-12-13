@@ -82,7 +82,7 @@
       }
     },
     "borderRadius": {
-      "value": "{borderRadius.medium.value}"
+      "value": "{private.textfield.borderRadius.value}"
     }
   }
 }
