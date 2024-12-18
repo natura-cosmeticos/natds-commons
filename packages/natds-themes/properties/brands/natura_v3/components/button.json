@@ -11,7 +11,7 @@
         "value": "{spacing.standard}"
       },
       "textTransform":{
-        "value": "lowercase"
+        "value": "none"
       }
     }
   }
