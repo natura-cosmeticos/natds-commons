@@ -8,7 +8,7 @@
         "value": "none"
       },
       "paddingX":{
-        "value": "{spacing.standard}"
+        "value": "{spacing.tiny}"
       },
       "textTransform":{
         "value": "capitalize"
