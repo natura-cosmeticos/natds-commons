@@ -29,11 +29,12 @@ declare namespace Themes {
   progressIndicator: ProgressIndicator
   radioButton: RadioButton
   rating: Rating
+  select: Select2
   shortcut: Shortcut
   snackbar: Snackbar
   tab: Counter2
   tag: Tag
-  textField: TextField
+  textField: Select2
   heading1: Heading1
   heading2: Heading1
   heading3: Heading1
@@ -135,7 +136,10 @@ declare namespace Themes {
  export interface Private {
   borderRadius: BorderRadius4
   button: Button2
+  counter: Semi
+  select: Semi
   shortcut: Semi
+  textfield: Semi
 }
  export interface Button2 {
   borderRadius: number
@@ -151,12 +155,6 @@ declare namespace Themes {
   fontWeight: number
   lineHeight: number
   letterSpacing: number
-}
- export interface TextField {
-  label: Title
-  content: Title
-  helperText: Title
-  borderRadius: number
 }
  export interface Tag {
   label: Title
@@ -201,6 +199,12 @@ declare namespace Themes {
  export interface Enable3 {
   primary: Enable
   neutral: Enable
+}
+ export interface Select2 {
+  label: Title
+  content: Title
+  helperText: Title
+  borderRadius: number
 }
  export interface Rating {
   counter: Counter2
@@ -690,6 +694,8 @@ declare namespace Themes {
   small: number
   medium: number
   large: number
+  huge: number
+  pill: number
   circle: number
 }
  export interface Asset {
@@ -738,6 +744,7 @@ declare namespace Themes {
     natura: BrandThemes
     theBodyShop: BrandThemes
     consultoriaDeBeleza: BrandThemes
+    consultoriaDeBeleza_v2: BrandThemes
     natura_v2: BrandThemes
     natura_v3: BrandThemes
     casaEestilo: BrandThemes
