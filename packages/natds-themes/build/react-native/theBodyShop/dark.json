@@ -1099,7 +1099,7 @@
       "letterSpacing": 0.51,
       "lineHeight": 1.25
     },
-    "borderRadius": 999
+    "borderRadius": 4
   },
   "dialog": {
     "title": {
@@ -1857,7 +1857,7 @@
       "textTransform": "uppercase"
     },
     "counter": {
-      "borderRadius": 999
+      "borderRadius": 4
     },
     "select": {
       "borderRadius": 4

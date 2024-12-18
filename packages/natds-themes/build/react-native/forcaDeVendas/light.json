@@ -1421,7 +1421,7 @@
       "letterSpacing": 0.38,
       "lineHeight": 1.25
     },
-    "borderRadius": 999
+    "borderRadius": 4
   },
   "shortcut": {
     "label": {
@@ -1860,7 +1860,7 @@
       "borderRadius": 4
     },
     "select": {
-      "borderRadius": 999
+      "borderRadius": 4
     },
     "shortcut": {
       "borderRadius": 28

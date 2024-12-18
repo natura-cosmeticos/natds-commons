@@ -712,7 +712,7 @@
   --counterContentFontSize: 16px;
   --counterContentLetterSpacing: 0.51px;
   --counterContentLineHeight: 1.25;
-  --counterBorderRadius: 999px;
+  --counterBorderRadius: 4px;
   --dialogTitleFontSize: 20px;
   --dialogTitleLetterSpacing: 0.24px;
   --dialogTitleLineHeight: 1.25;

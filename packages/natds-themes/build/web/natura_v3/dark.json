@@ -154,7 +154,7 @@
     "borderRadius": 999,
     "elevation": "none",
     "paddingX": 24,
-    "textTransform": "lowercase",
+    "textTransform": "none",
     "contained": {
       "color": {
         "primary": {
@@ -1854,7 +1854,7 @@
       "borderRadius": 999,
       "elevation": "none",
       "paddingX": 24,
-      "textTransform": "lowercase"
+      "textTransform": "none"
     },
     "counter": {
       "borderRadius": 999

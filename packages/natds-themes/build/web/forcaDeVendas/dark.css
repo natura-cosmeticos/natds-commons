@@ -848,7 +848,7 @@
   --selectHelperTextFontSize: 12px;
   --selectHelperTextLetterSpacing: 0.38px;
   --selectHelperTextLineHeight: 1.25;
-  --selectBorderRadius: 999px;
+  --selectBorderRadius: 4px;
   --shortcutLabelFontSize: 12px;
   --shortcutLabelLetterSpacing: 0.38px;
   --shortcutLabelLineHeight: 1.5;

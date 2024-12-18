@@ -82,7 +82,7 @@
   --buttonLabelFallbackFontWeight: 500;
   --buttonBorderRadius: 4px;
   --buttonElevation: none;
-  --buttonPaddingX: 24px;
+  --buttonPaddingX: 8px;
   --buttonTextTransform: capitalizepx;
   --buttonContainedColorPrimaryBackground: #f6be00;
   --buttonContainedColorPrimaryBorder: #FFFFFF00;
