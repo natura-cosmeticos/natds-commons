@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.81.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.80.3...@naturacosmeticos/natds-themes@0.81.0) (2024-12-18)
+
+
+### Bug Fixes
+
+* **natds-themes:**  change reference assets CB2 ES ([0162782](https://github.com/natura-cosmeticos/natds-commons/commit/0162782e6bf34b752b83de257700369f298e3bb0))
+* **natds-themes:** added reference counter token in thebodyshop ([a7e8d23](https://github.com/natura-cosmeticos/natds-commons/commit/a7e8d23b090fc7a425d52544d435757e1827a5b2))
+
+
+### Features
+
+* **natds-themes:**  register filter to select component ([856cc73](https://github.com/natura-cosmeticos/natds-commons/commit/856cc73890eb3835ab0d258f81993596b6f43f8a))
+* **natds-themes:** added borderRadiusHuge token ([6ad18ac](https://github.com/natura-cosmeticos/natds-commons/commit/6ad18ac5e21b013864a4ced5b9d2709e3d87c843))
+* **natds-themes:** added borderRadiusLargeX  and borderRadiusPill token ([ff96584](https://github.com/natura-cosmeticos/natds-commons/commit/ff965840ad6f76caa8cb1682a18729bb9977ca62))
+* **natds-themes:** added counterBorderRadius token ([7a47eac](https://github.com/natura-cosmeticos/natds-commons/commit/7a47eaca0fa262a8ebf0b7e7ab4459d6e7dd44fb))
+* **natds-themes:** added counterBorderRadius.huge token ([928c3d6](https://github.com/natura-cosmeticos/natds-commons/commit/928c3d6d89821f7fa61e0b6461756f28b096c48b))
+* **natds-themes:** added logo consultoriadebeleza_v2 ES horizontal - vertical ([077b10c](https://github.com/natura-cosmeticos/natds-commons/commit/077b10c483d9f28f3763d552fbf0338cfbe57aa6))
+* **natds-themes:** added logo consultoriadebeleza_v2 pt-br horizontal - vertical ([89a404a](https://github.com/natura-cosmeticos/natds-commons/commit/89a404a4bd9a8e37e666a58abbb0b593cd0b07bf))
+* **natds-themes:** added reference logo name ([dc99daa](https://github.com/natura-cosmeticos/natds-commons/commit/dc99daa59e7e1369c99ef0f201b99298c8dda969))
+* **natds-themes:** added reference themes CB2 constants ([926743b](https://github.com/natura-cosmeticos/natds-commons/commit/926743bb84a78d6202ec472ad71d8b693bc35108))
+* **natds-themes:** added selectBorderRadius token ([7576a0c](https://github.com/natura-cosmeticos/natds-commons/commit/7576a0c61926a095c744559972e82ab5a9eeb944))
+* **natds-themes:** added textfieldBorderRadius token ([aaf85e6](https://github.com/natura-cosmeticos/natds-commons/commit/aaf85e64d5549937035f258dacbcdac0b91093b4))
+* **natds-themes:** added textfieldBorderRadius.huge token ([ade38a8](https://github.com/natura-cosmeticos/natds-commons/commit/ade38a8f985bc97bc5cd916ecb12d856276bc6d9))
+* **natds-themes:** added theme consultoriaDeBeleza_v2 ([ff640f1](https://github.com/natura-cosmeticos/natds-commons/commit/ff640f1fd9cefa0d778a6387c7b91c9c473aed0f))
+
+
+
+
+
 ## [0.80.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.80.2...@naturacosmeticos/natds-themes@0.80.3) (2024-10-10)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
