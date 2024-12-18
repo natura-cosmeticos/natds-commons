@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.81.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.81.0...@naturacosmeticos/natds-themes@0.81.1) (2024-12-18)
+
+
+### Bug Fixes
+
+* **natds-themes:** buttonPaddinX.standard to tiny CB1 ([6c82ec2](https://github.com/natura-cosmeticos/natds-commons/commit/6c82ec26e46b3c3263bfbe167485f5534440f0d4))
+* **natds-themes:** buttonTextTransform.lowercase to none NaturaV3 ([54a6d47](https://github.com/natura-cosmeticos/natds-commons/commit/54a6d47dd32d5f6cae66ec548df34018e578d458))
+* **natds-themes:** counterBorderRadius.circle to medium thebodyshop ([70aaf91](https://github.com/natura-cosmeticos/natds-commons/commit/70aaf9163991ed9875dff79cc2414bc595ad4732))
+* **natds-themes:** selectBorderRadius.circle to medium FV ([3730814](https://github.com/natura-cosmeticos/natds-commons/commit/373081418845c3b577cfe7c9e5a00eeac5dc97b5))
+
+
+
+
+
 # [0.81.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.80.3...@naturacosmeticos/natds-themes@0.81.0) (2024-12-18)
 
 
