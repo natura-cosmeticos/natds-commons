@@ -1,8 +1,8 @@
 {
   "private": {
-    "counter": {
+    "select": {
       "borderRadius": {
-        "value": "{borderRadius.circle.value}"
+        "value": "{borderRadius.huge.value}"
       }
       
     }

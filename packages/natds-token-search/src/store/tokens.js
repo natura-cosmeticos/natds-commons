@@ -18,6 +18,8 @@ import webConsultoriaDeBelezaV2Dark from '../../tokens/web/search/consultoriaDeB
 import webConsultoriaDeBelezaV2Light from '../../tokens/web/search/consultoriaDeBeleza_v2/light'
 import webForcaDeVendasDark from '../../tokens/web/search/forcaDeVendas/dark'
 import webForcaDeVendasLight from '../../tokens/web/search/forcaDeVendas/light'
+import webForcaDeVendasV2Dark from '../../tokens/web/search/forcaDeVendas_v2/dark'
+import webForcaDeVendasV2Light from '../../tokens/web/search/forcaDeVendas_v2/light'
 import webNaturaV2Dark from '../../tokens/web/search/natura_v2/dark'
 import webNaturaV2Light from '../../tokens/web/search/natura_v2/light'
 import webNaturaV3Dark from '../../tokens/web/search/natura_v3/dark'
@@ -50,6 +52,8 @@ import reactNativeConsultoriaDeBelezaV2Dark from '../../tokens/react-native/sear
 import reactNativeConsultoriaDeBelezaV2Light from '../../tokens/react-native/search/consultoriaDeBeleza_v2/light'
 import reactNativeForcaDeVendasDark from '../../tokens/react-native/search/forcaDeVendas/dark'
 import reactNativeForcaDeVendasLight from '../../tokens/react-native/search/forcaDeVendas/light'
+import reactNativeForcaDeVendasV2Dark from '../../tokens/react-native/search/forcaDeVendas_v2/dark'
+import reactNativeForcaDeVendasV2Light from '../../tokens/react-native/search/forcaDeVendas_v2/light'
 import reactNativeNaturaV2Dark from '../../tokens/react-native/search/natura_v2/dark'
 import reactNativeNaturaV2Light from '../../tokens/react-native/search/natura_v2/light'
 import reactNativeNaturaV3Dark from '../../tokens/react-native/search/natura_v3/dark'
@@ -74,6 +78,8 @@ import androidConsultoriaDeBelezaV2Dark from '../../tokens/android/search/consul
 import androidConsultoriaDeBelezaV2Light from '../../tokens/android/search/consultoria_de_beleza_v2/light'
 import androidForcaDeVendasDark from '../../tokens/android/search/forca_de_vendas/dark'
 import androidForcaDeVendasLight from '../../tokens/android/search/forca_de_vendas/light'
+import androidForcaDeVendasV2Dark from '../../tokens/android/search/forca_de_vendas_v2/dark'
+import androidForcaDeVendasV2Light from '../../tokens/android/search/forca_de_vendas_v2/light'
 import androidNaturaV2Dark from '../../tokens/android/search/natura_v2/dark'
 import androidNaturaV2Light from '../../tokens/android/search/natura_v2/light'
 import androidNaturaV3Dark from '../../tokens/android/search/natura_v3/dark'
@@ -102,6 +108,8 @@ import iosConsultoriaDeBelezaV2Dark from '../../tokens/ios/search/consultoriaDeB
 import iosConsultoriaDeBelezaV2Light from '../../tokens/ios/search/consultoriaDeBeleza_v2/light'
 import iosForcaDeVendasDark from '../../tokens/ios/search/forcaDeVendas/dark'
 import iosForcaDeVendasLight from '../../tokens/ios/search/forcaDeVendas/light'
+import iosForcaDeVendasV2Dark from '../../tokens/ios/search/forcaDeVendas_v2/dark'
+import iosForcaDeVendasV2Light from '../../tokens/ios/search/forcaDeVendas_v2/light'
 import iosNaturaV2Dark from '../../tokens/ios/search/natura_v2/dark'
 import iosNaturaV2Light from '../../tokens/ios/search/natura_v2/light'
 import iosNaturaV3Dark from '../../tokens/ios/search/natura_v3/dark'
@@ -127,7 +135,8 @@ export const tokens = {
     ...buildTokensForBrand('natura_v3')([androidNaturaV3Light, androidNaturaV3Dark]),
     ...buildTokensForBrand('casaEestilo')([androidCasaEestiloLight, androidCasaEestiloDark]),
     ...buildTokensForBrand('casaEestilo_v2')([androidCasaEestiloV2Light, androidCasaEestiloV2Dark]),
-    ...buildTokensForBrand('androidForcaDeVendas')([androidForcaDeVendasLight, androidForcaDeVendasDark])
+    ...buildTokensForBrand('androidForcaDeVendas')([androidForcaDeVendasLight, androidForcaDeVendasDark]),
+    ...buildTokensForBrand('androidForcaDeVendas_v2')([androidForcaDeVendasV2Light, androidForcaDeVendasV2Dark])
   },
   ios: {
     // ...buildTokensForBrand('aesop')([iosAesopLight, iosAesopDark]),
@@ -142,7 +151,8 @@ export const tokens = {
     ...buildTokensForBrand('natura_v3')([iosNaturaV3Light, iosNaturaV3Dark]),
     ...buildTokensForBrand('casaEestilo')([iosCasaEestiloLight, iosCasaEestiloDark]),
     ...buildTokensForBrand('casaEestilo_v2')([iosCasaEestiloV2Light, iosCasaEestiloV2Dark]),
-    ...buildTokensForBrand('forcaDeVendas')([iosForcaDeVendasLight, iosForcaDeVendasDark])
+    ...buildTokensForBrand('forcaDeVendas')([iosForcaDeVendasLight, iosForcaDeVendasDark]),
+    ...buildTokensForBrand('forcaDeVendas_v2')([iosForcaDeVendasV2Light, iosForcaDeVendasV2Dark])
   },
   reactNative: {
     // ...buildTokensForBrand('aesop')([reactNativeAesopLight, reactNativeAesopDark]),
@@ -157,7 +167,8 @@ export const tokens = {
     ...buildTokensForBrand('natura_v3')([reactNativeNaturaV3Light, reactNativeNaturaV3Dark]),
     ...buildTokensForBrand('casaEestilo')([reactNativeCasaEestiloLight, reactNativeCasaEestiloDark]),
     ...buildTokensForBrand('casaEestilo_v2')([reactNativeCasaEestiloV2Light, reactNativeCasaEestiloV2Dark]),
-    ...buildTokensForBrand('forcaDeVendas')([reactNativeForcaDeVendasLight, reactNativeForcaDeVendasDark])
+    ...buildTokensForBrand('forcaDeVendas')([reactNativeForcaDeVendasLight, reactNativeForcaDeVendasDark]),
+    ...buildTokensForBrand('forcaDeVendas_v2')([reactNativeForcaDeVendasV2Light, reactNativeForcaDeVendasV2Dark])
   },
   web: {
     // ...buildTokensForBrand('aesop')([webAesopLight, webAesopDark]),
@@ -172,7 +183,8 @@ export const tokens = {
     ...buildTokensForBrand('natura_v3')([webNaturaV3Light, webNaturaV3Dark]),
     ...buildTokensForBrand('casaEestilo')([webCasaEestiloLight, webCasaEestiloDark]),
     ...buildTokensForBrand('casaEestilo_v2')([webCasaEestiloV2Light, webCasaEestiloV2Dark]),
-    ...buildTokensForBrand('forcaDeVendas')([webForcaDeVendasLight, webForcaDeVendasDark])
+    ...buildTokensForBrand('forcaDeVendas')([webForcaDeVendasLight, webForcaDeVendasDark]),
+    ...buildTokensForBrand('forcaDeVendas_v2')([webForcaDeVendasV2Light, webForcaDeVendasV2Dark])
   }
 }
 

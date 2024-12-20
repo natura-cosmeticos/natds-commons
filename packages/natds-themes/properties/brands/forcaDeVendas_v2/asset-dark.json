@@ -1,0 +1,78 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "forcadevendas-a-official-dark"
+          },
+          "es": {
+            "value": "fuerzadeventas-b-official-dark"
+          },
+          "pt": {
+            "value": "forcadevendas-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "fuerzadeventas-b-official-dark"
+          },
+          "es": {
+            "value": "fuerzadeventas-b-official-dark"
+          },
+          "pt": {
+            "value": "forcadevendas-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "forcadevendas-a-custom"
+          },
+          "es": {
+            "value": "fuerzadeventas-b-custom"
+          },
+          "pt": {
+            "value": "forcadevendas-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        },
+        "b": {
+          "file": {
+            "value": "fuerzadeventas-b-custom"
+          },
+          "es": {
+            "value": "fuerzadeventas-b-custom"
+          },
+          "pt": {
+            "value": "forcadevendas-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 55
+          }
+        }
+      }
+    }
+  }
+}
