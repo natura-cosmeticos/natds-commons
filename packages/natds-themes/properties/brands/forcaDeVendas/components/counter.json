@@ -2,7 +2,7 @@
   "private": {
     "counter": {
       "borderRadius": {
-        "value": "{borderRadius.medium.value}"
+        "value": "{borderRadius.circle.value}"
       }
       
     }
