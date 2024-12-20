@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.82.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.81.1...@naturacosmeticos/natds-themes@0.82.0) (2024-12-20)
+
+
+### Bug Fixes
+
+* **natds-themes:**  tokens counter and select to borderRadius.circle ([c42e935](https://github.com/natura-cosmeticos/natds-commons/commit/c42e93509ef7ddcc0062aa2bbb9054af54f98851))
+
+
+### Features
+
+* **natds-themes:**  config constants theme Forca de Vendas V2 ([c5c9a10](https://github.com/natura-cosmeticos/natds-commons/commit/c5c9a10b4db85d783f2ad365839c53ce1ec8ce7f))
+* **natds-themes:**  create theme Forca de Vendas V2 ([1e97ed1](https://github.com/natura-cosmeticos/natds-commons/commit/1e97ed1a2940809c4b2ad03c28e5ba701e953391))
+
+
+
+
+
 ## [0.81.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.81.0...@naturacosmeticos/natds-themes@0.81.1) (2024-12-18)
 
 
