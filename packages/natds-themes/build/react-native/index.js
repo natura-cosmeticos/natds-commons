@@ -25,6 +25,8 @@ import casaEestiloV2DarkTheme from './casaEestilo_v2/dark.json'
 import casaEestiloV2LightTheme from './casaEestilo_v2/light.json'
 import forcaDeVendasDarkTheme from './forcaDeVendas/dark.json'
 import forcaDeVendasLightTheme from './forcaDeVendas/light.json'
+import forcaDeVendasV2DarkTheme from './forcaDeVendas_v2/dark.json'
+import forcaDeVendasV2LightTheme from './forcaDeVendas_v2/light.json'
 
 const themes = {
   aesop: {
@@ -78,6 +80,10 @@ const themes = {
   forcaDeVendas: {
     dark: forcaDeVendasDarkTheme,
     light: forcaDeVendasLightTheme
+  },
+  forcaDeVendas_v2: {
+    dark: forcaDeVendasV2DarkTheme,
+    light: forcaDeVendasV2LightTheme
   }
 }
 

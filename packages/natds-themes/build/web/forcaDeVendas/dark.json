@@ -1099,7 +1099,7 @@
       "letterSpacing": 0.51,
       "lineHeight": 1.25
     },
-    "borderRadius": 4
+    "borderRadius": 999
   },
   "dialog": {
     "title": {
@@ -1421,7 +1421,7 @@
       "letterSpacing": 0.38,
       "lineHeight": 1.25
     },
-    "borderRadius": 4
+    "borderRadius": 999
   },
   "shortcut": {
     "label": {
@@ -1857,10 +1857,10 @@
       "textTransform": "none"
     },
     "counter": {
-      "borderRadius": 4
+      "borderRadius": 999
     },
     "select": {
-      "borderRadius": 4
+      "borderRadius": 999
     },
     "shortcut": {
       "borderRadius": 28

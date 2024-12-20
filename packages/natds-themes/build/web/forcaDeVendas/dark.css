@@ -712,7 +712,7 @@
   --counterContentFontSize: 16px;
   --counterContentLetterSpacing: 0.51px;
   --counterContentLineHeight: 1.25;
-  --counterBorderRadius: 4px;
+  --counterBorderRadius: 999px;
   --dialogTitleFontSize: 20px;
   --dialogTitleLetterSpacing: 0.24px;
   --dialogTitleLineHeight: 1.25;
@@ -848,7 +848,7 @@
   --selectHelperTextFontSize: 12px;
   --selectHelperTextLetterSpacing: 0.38px;
   --selectHelperTextLineHeight: 1.25;
-  --selectBorderRadius: 4px;
+  --selectBorderRadius: 999px;
   --shortcutLabelFontSize: 12px;
   --shortcutLabelLetterSpacing: 0.38px;
   --shortcutLabelLineHeight: 1.5;

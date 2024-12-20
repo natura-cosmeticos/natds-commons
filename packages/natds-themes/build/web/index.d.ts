@@ -742,6 +742,7 @@ declare namespace Themes {
     casaEestilo: BrandThemes
     casaEestilo_v2: BrandThemes
     forcaDeVendas: BrandThemes
+    forcaDeVendas_v2: BrandThemes
   }
 }
 
