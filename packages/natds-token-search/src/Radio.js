@@ -9,6 +9,7 @@ const brandsLabel = {
   consultoriaDeBeleza: 'Consultoria de Beleza',
   consultoriaDeBeleza_v2: 'Consultoria de Beleza v2',
   forcaDeVendas: 'Força de Vendas',
+  forcaDeVendas_v2: 'Força de Vendas V2',
   natura_v2: 'Natura v2',
   natura_v3: 'Natura v3',
   casaEestilo: 'Casa & estilo',
