@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.82.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.1...@naturacosmeticos/natds-themes@0.82.2) (2025-01-21)
+
+
+### Bug Fixes
+
+* **natds-themes:**  fixed assets logo A-ES CB-V2 ([11d4c99](https://github.com/natura-cosmeticos/natds-commons/commit/11d4c99d9c7bd307094d4dd25359c694de9dab91))
+* **natds-themes:**  fixed assets logo A-PT-BR CB-V2 ([52df2f1](https://github.com/natura-cosmeticos/natds-commons/commit/52df2f1d945e1f5a0f176011d59e672441cfa3ae))
+* **natds-themes:**  fixed assets logo B-ES CB-V2 ([9bc6ec6](https://github.com/natura-cosmeticos/natds-commons/commit/9bc6ec63b6b79d3334fe0d4b08e50aa52b928b4e))
+* **natds-themes:**  fixed assets logo B-PT-BR CB-V2 ([164b06c](https://github.com/natura-cosmeticos/natds-commons/commit/164b06cd4f83366573e55e52f711dc3a3c39c446))
+* **natds-themes:**  fixed assets name logo B-ES CB-V2 official ([dffa987](https://github.com/natura-cosmeticos/natds-commons/commit/dffa98731920a33361430dfef9bbf6d03d037861))
+
+
+
+
+
 ## [0.82.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.0...@naturacosmeticos/natds-themes@0.82.1) (2025-01-08)
 
 
