@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.27.4...@naturacosmeticos/natds-icons@1.28.0) (2025-01-23)
+
+
+### Features
+
+* **natds-icons:** add icon filled-action-addproduct ([0b47cc5](https://github.com/natura-cosmeticos/natds-commons/commit/0b47cc51aaf1e0cda8ad68fefef135a0fb881322))
+* **natds-icons:** add icon filled-action-filepdf ([7cae204](https://github.com/natura-cosmeticos/natds-commons/commit/7cae204a79694b6a114d9cce08e2379705a4f8b8))
+* **natds-icons:** add icon filled-content-carbondioxide ([fd879da](https://github.com/natura-cosmeticos/natds-commons/commit/fd879da5350fea1355855e278249d1c77a0dc6d7))
+* **natds-icons:** add icon filled-content-healthy ([87c731b](https://github.com/natura-cosmeticos/natds-commons/commit/87c731b85139bc9e7c9e423c704eaafe3a44595a))
+* **natds-icons:** add icon filled-content-maintenance ([253321f](https://github.com/natura-cosmeticos/natds-commons/commit/253321f16f510f4c1706cf0553f63055094395e5))
+* **natds-icons:** add icon filled-content-ticketdiscount ([8ad4373](https://github.com/natura-cosmeticos/natds-commons/commit/8ad437311c9d494bbf4838232fc703c0832547fe))
+* **natds-icons:** add icon filled-content-ticketstar ([e1bd261](https://github.com/natura-cosmeticos/natds-commons/commit/e1bd2612d3b849f75f68b2467b60793ebe64fa0f))
+* **natds-icons:** add icon filled-content-trophystar ([d06aef0](https://github.com/natura-cosmeticos/natds-commons/commit/d06aef049e66c03b912352ed135058022bb09f76))
+* **natds-icons:** add icon filled-navigation-opennew ([ee259a3](https://github.com/natura-cosmeticos/natds-commons/commit/ee259a37118b8e53681a0fac8ef8ace693357555))
+* **natds-icons:** add icon filled-navigation-shuffle ([52b0db1](https://github.com/natura-cosmeticos/natds-commons/commit/52b0db16b14b75f161b06ea65e0945550b7eef12))
+* **natds-icons:** add icon filled-place-rocket ([7916a85](https://github.com/natura-cosmeticos/natds-commons/commit/7916a8584be11b34309a713c6310aba080910bcc))
+* **natds-icons:** add icon filled-product-backpack ([d78e280](https://github.com/natura-cosmeticos/natds-commons/commit/d78e2803bc9ac9b97b2ae668e3d014cfaea24538))
+* **natds-icons:** add icon filled-product-spray ([2b84280](https://github.com/natura-cosmeticos/natds-commons/commit/2b84280c1ff7ef40f4af8819e60261bff2161506))
+* **natds-icons:** add icon outlined-action-addproduct ([298f09b](https://github.com/natura-cosmeticos/natds-commons/commit/298f09be69262975e051b9e98d7a4c0c5e8e53c6))
+* **natds-icons:** add icon outlined-action-filepdf ([1937e8a](https://github.com/natura-cosmeticos/natds-commons/commit/1937e8ae0be241c28c4784dc8d8672f4062da1cd))
+* **natds-icons:** add icon outlined-content-carbondioxide ([f71e179](https://github.com/natura-cosmeticos/natds-commons/commit/f71e1790575c5209dff7f5d6042626a74c1c82fd))
+* **natds-icons:** add icon outlined-content-healthy ([1206eeb](https://github.com/natura-cosmeticos/natds-commons/commit/1206eebb7e05acde0734e4a212d61df0bd504f38))
+* **natds-icons:** add icon outlined-content-maintenance ([056784b](https://github.com/natura-cosmeticos/natds-commons/commit/056784bcab6108cc3bc5b384a477c300f1222a2e))
+* **natds-icons:** add icon outlined-content-ticketdiscount ([eb25477](https://github.com/natura-cosmeticos/natds-commons/commit/eb25477f5cb5ce2dfcf49740f8e6d851d79bc6f7))
+* **natds-icons:** add icon outlined-content-ticketstar ([962b64d](https://github.com/natura-cosmeticos/natds-commons/commit/962b64dc4646697bf772f0d8fa3ee560c9eb8ea5))
+* **natds-icons:** add icon outlined-content-trophystar ([db6ced5](https://github.com/natura-cosmeticos/natds-commons/commit/db6ced5039ce79f0c7b80523938f503f0b59f7a6))
+* **natds-icons:** add icon outlined-navigation-opennew ([a9ad58b](https://github.com/natura-cosmeticos/natds-commons/commit/a9ad58b294875196f9a51ede14226b9db8afaeef))
+* **natds-icons:** add icon outlined-navigation-shuffle ([0d695d0](https://github.com/natura-cosmeticos/natds-commons/commit/0d695d000a1966f54b82ace09027dfb45b429746))
+* **natds-icons:** add icon outlined-place-rocket ([d735613](https://github.com/natura-cosmeticos/natds-commons/commit/d735613fbbceefcaf6698de472b992448a7f752b))
+* **natds-icons:** add icon outlined-product-backpack ([5296245](https://github.com/natura-cosmeticos/natds-commons/commit/5296245639b66e95bf3c48e69bd1b86541bbde00))
+* **natds-icons:** add icon outlined-product-spray ([10e85d6](https://github.com/natura-cosmeticos/natds-commons/commit/10e85d6a30ec8db035ac697b66379bcf015d9dd8))
+
+
+
+
+
 ## [1.27.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.27.0...@naturacosmeticos/natds-icons@1.27.4) (2024-10-10)
 
 
