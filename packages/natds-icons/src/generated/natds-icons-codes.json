@@ -2,6 +2,9 @@
 	"filled-action-add": [
 		""
 	],
+	"filled-action-addproduct": [
+		""
+	],
 	"filled-action-cancel": [
 		""
 	],
@@ -16,6 +19,9 @@
 	],
 	"filled-action-dislike": [
 		""
+	],
+	"filled-action-filepdf": [
+		""
 	],
 	"filled-action-half-rating": [
 		""
@@ -143,6 +149,9 @@
 	"filled-content-bathtub": [
 		""
 	],
+	"filled-content-carbondioxide": [
+		""
+	],
 	"filled-content-channel": [
 		""
 	],
@@ -206,8 +215,14 @@
 	"filled-content-handwater": [
 		""
 	],
+	"filled-content-healthy": [
+		""
+	],
 	"filled-content-house": [
 		""
+	],
+	"filled-content-maintenance": [
+		""
 	],
 	"filled-content-microscope": [
 		""
@@ -250,6 +265,15 @@
 	],
 	"filled-content-teddybear": [
 		""
+	],
+	"filled-content-ticketdiscount": [
+		""
+	],
+	"filled-content-ticketstar": [
+		""
+	],
+	"filled-content-trophystar": [
+		""
 	],
 	"filled-content-violence": [
 		""
@@ -437,6 +461,9 @@
 	"filled-navigation-more": [
 		""
 	],
+	"filled-navigation-opennew": [
+		""
+	],
 	"filled-navigation-setbottom": [
 		""
 	],
@@ -449,8 +476,14 @@
 	"filled-navigation-settop": [
 		""
 	],
+	"filled-navigation-shuffle": [
+		""
+	],
 	"filled-place-local": [
 		""
+	],
+	"filled-place-rocket": [
+		""
 	],
 	"filled-place-target": [
 		""
@@ -460,6 +493,9 @@
 	],
 	"filled-product-ambientspray": [
 		""
+	],
+	"filled-product-backpack": [
+		""
 	],
 	"filled-product-blush": [
 		""
@@ -545,6 +581,9 @@
 	"filled-product-soapliquid": [
 		""
 	],
+	"filled-product-spray": [
+		""
+	],
 	"filled-social-fireworks": [
 		""
 	],
@@ -625,6 +664,9 @@
 	],
 	"outlined-action-favorite": [
 		""
+	],
+	"outlined-action-filepdf": [
+		""
 	],
 	"outlined-action-filter": [
 		""
@@ -872,6 +914,9 @@
 	"outlined-content-brightness": [
 		""
 	],
+	"outlined-content-carbondioxide": [
+		""
+	],
 	"outlined-content-changeview": [
 		""
 	],
@@ -1093,6 +1138,15 @@
 	],
 	"outlined-content-teddybear": [
 		""
+	],
+	"outlined-content-ticketdiscount": [
+		""
+	],
+	"outlined-content-ticketstar": [
+		""
+	],
+	"outlined-content-trophystar": [
+		""
 	],
 	"outlined-content-unavailable": [
 		""
@@ -1382,6 +1436,12 @@
 	"outlined-navigation-minimize": [
 		""
 	],
+	"outlined-navigation-opennew": [
+		""
+	],
+	"outlined-navigation-shuffle": [
+		""
+	],
 	"outlined-place-bus": [
 		""
 	],
@@ -1417,6 +1477,9 @@
 	],
 	"outlined-product-ambientspray": [
 		""
+	],
+	"outlined-product-backpack": [
+		""
 	],
 	"outlined-product-bagproduct": [
 		""
@@ -1573,6 +1636,9 @@
 	],
 	"outlined-product-soapliquid": [
 		""
+	],
+	"outlined-product-spray": [
+		""
 	],
 	"outlined-product-vegan": [
 		""

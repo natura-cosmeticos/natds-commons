@@ -1,10 +1,12 @@
 interface RootObject {
   'filled-action-add': string;
+  'filled-action-addproduct': string;
   'filled-action-cancel': string;
   'filled-action-check': string;
   'filled-action-clock': string;
   'filled-action-delete': string;
   'filled-action-dislike': string;
+  'filled-action-filepdf': string;
   'filled-action-half-rating': string;
   'filled-action-increase': string;
   'filled-action-indeterminatecheckbox': string;
@@ -47,6 +49,7 @@ interface RootObject {
   'filled-communication-digital-service': string;
   'filled-communication-noconnection': string;
   'filled-content-bathtub': string;
+  'filled-content-carbondioxide': string;
   'filled-content-channel': string;
   'filled-content-childfriendly': string;
   'filled-content-christmasstocking': string;
@@ -68,7 +71,9 @@ interface RootObject {
   'filled-content-hairbeard': string;
   'filled-content-handsoap': string;
   'filled-content-handwater': string;
+  'filled-content-healthy': string;
   'filled-content-house': string;
+  'filled-content-maintenance': string;
   'filled-content-microscope': string;
   'filled-content-moonstars': string;
   'filled-content-mortar': string;
@@ -83,6 +88,9 @@ interface RootObject {
   'filled-content-soap': string;
   'filled-content-soapbubble': string;
   'filled-content-teddybear': string;
+  'filled-content-ticketdiscount': string;
+  'filled-content-ticketstar': string;
+  'filled-content-trophystar': string;
   'filled-content-violence': string;
   'filled-content-wetwipe': string;
   'filled-content-wifi': string;
@@ -145,14 +153,18 @@ interface RootObject {
   'filled-navigation-menu': string;
   'filled-navigation-minimize': string;
   'filled-navigation-more': string;
+  'filled-navigation-opennew': string;
   'filled-navigation-setbottom': string;
   'filled-navigation-setleft': string;
   'filled-navigation-setright': string;
   'filled-navigation-settop': string;
+  'filled-navigation-shuffle': string;
   'filled-place-local': string;
+  'filled-place-rocket': string;
   'filled-place-target': string;
   'filled-place-truck': string;
   'filled-product-ambientspray': string;
+  'filled-product-backpack': string;
   'filled-product-blush': string;
   'filled-product-bodycream': string;
   'filled-product-bodysplash': string;
@@ -181,6 +193,7 @@ interface RootObject {
   'filled-product-shampoo': string;
   'filled-product-shampooconditioner': string;
   'filled-product-soapliquid': string;
+  'filled-product-spray': string;
   'filled-social-fireworks': string;
   'filled-social-myprofile': string;
   'filled-social-nightlife': string;
@@ -208,6 +221,7 @@ interface RootObject {
   'outlined-action-download': string;
   'outlined-action-edit': string;
   'outlined-action-favorite': string;
+  'outlined-action-filepdf': string;
   'outlined-action-filter': string;
   'outlined-action-frame': string;
   'outlined-action-gridsquare': string;
@@ -290,6 +304,7 @@ interface RootObject {
   'outlined-content-bellringing': string;
   'outlined-content-book': string;
   'outlined-content-brightness': string;
+  'outlined-content-carbondioxide': string;
   'outlined-content-changeview': string;
   'outlined-content-channel': string;
   'outlined-content-childfriendly': string;
@@ -364,6 +379,9 @@ interface RootObject {
   'outlined-content-sun': string;
   'outlined-content-sunandcloud': string;
   'outlined-content-teddybear': string;
+  'outlined-content-ticketdiscount': string;
+  'outlined-content-ticketstar': string;
+  'outlined-content-trophystar': string;
   'outlined-content-unavailable': string;
   'outlined-content-violence': string;
   'outlined-content-virtualmirror': string;
@@ -460,6 +478,8 @@ interface RootObject {
   'outlined-navigation-maximize': string;
   'outlined-navigation-menu': string;
   'outlined-navigation-minimize': string;
+  'outlined-navigation-opennew': string;
+  'outlined-navigation-shuffle': string;
   'outlined-place-bus': string;
   'outlined-place-forklift': string;
   'outlined-place-gps': string;
@@ -472,6 +492,7 @@ interface RootObject {
   'outlined-product-abandonedbag': string;
   'outlined-product-accessories': string;
   'outlined-product-ambientspray': string;
+  'outlined-product-backpack': string;
   'outlined-product-bagproduct': string;
   'outlined-product-beard': string;
   'outlined-product-blush': string;
@@ -524,6 +545,7 @@ interface RootObject {
   'outlined-product-shampoo': string;
   'outlined-product-shampooconditioner': string;
   'outlined-product-soapliquid': string;
+  'outlined-product-spray': string;
   'outlined-product-vegan': string;
   'outlined-social-addcontact': string;
   'outlined-social-birthday': string;

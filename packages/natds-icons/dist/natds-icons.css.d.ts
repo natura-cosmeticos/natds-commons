@@ -18,11 +18,13 @@ declare const styles: {
   readonly "natds-icons-pull-left": string;
   readonly "natds-icons-pull-right": string;
   readonly "natds-icons-filled-action-add": string;
+  readonly "natds-icons-filled-action-addproduct": string;
   readonly "natds-icons-filled-action-cancel": string;
   readonly "natds-icons-filled-action-check": string;
   readonly "natds-icons-filled-action-clock": string;
   readonly "natds-icons-filled-action-delete": string;
   readonly "natds-icons-filled-action-dislike": string;
+  readonly "natds-icons-filled-action-filepdf": string;
   readonly "natds-icons-filled-action-half-rating": string;
   readonly "natds-icons-filled-action-increase": string;
   readonly "natds-icons-filled-action-indeterminatecheckbox": string;
@@ -65,6 +67,7 @@ declare const styles: {
   readonly "natds-icons-filled-communication-digital-service": string;
   readonly "natds-icons-filled-communication-noconnection": string;
   readonly "natds-icons-filled-content-bathtub": string;
+  readonly "natds-icons-filled-content-carbondioxide": string;
   readonly "natds-icons-filled-content-channel": string;
   readonly "natds-icons-filled-content-childfriendly": string;
   readonly "natds-icons-filled-content-christmasstocking": string;
@@ -86,7 +89,9 @@ declare const styles: {
   readonly "natds-icons-filled-content-hairbeard": string;
   readonly "natds-icons-filled-content-handsoap": string;
   readonly "natds-icons-filled-content-handwater": string;
+  readonly "natds-icons-filled-content-healthy": string;
   readonly "natds-icons-filled-content-house": string;
+  readonly "natds-icons-filled-content-maintenance": string;
   readonly "natds-icons-filled-content-microscope": string;
   readonly "natds-icons-filled-content-moonstars": string;
   readonly "natds-icons-filled-content-mortar": string;
@@ -101,6 +106,9 @@ declare const styles: {
   readonly "natds-icons-filled-content-soap": string;
   readonly "natds-icons-filled-content-soapbubble": string;
   readonly "natds-icons-filled-content-teddybear": string;
+  readonly "natds-icons-filled-content-ticketdiscount": string;
+  readonly "natds-icons-filled-content-ticketstar": string;
+  readonly "natds-icons-filled-content-trophystar": string;
   readonly "natds-icons-filled-content-violence": string;
   readonly "natds-icons-filled-content-wetwipe": string;
   readonly "natds-icons-filled-content-wifi": string;
@@ -163,14 +171,18 @@ declare const styles: {
   readonly "natds-icons-filled-navigation-menu": string;
   readonly "natds-icons-filled-navigation-minimize": string;
   readonly "natds-icons-filled-navigation-more": string;
+  readonly "natds-icons-filled-navigation-opennew": string;
   readonly "natds-icons-filled-navigation-setbottom": string;
   readonly "natds-icons-filled-navigation-setleft": string;
   readonly "natds-icons-filled-navigation-setright": string;
   readonly "natds-icons-filled-navigation-settop": string;
+  readonly "natds-icons-filled-navigation-shuffle": string;
   readonly "natds-icons-filled-place-local": string;
+  readonly "natds-icons-filled-place-rocket": string;
   readonly "natds-icons-filled-place-target": string;
   readonly "natds-icons-filled-place-truck": string;
   readonly "natds-icons-filled-product-ambientspray": string;
+  readonly "natds-icons-filled-product-backpack": string;
   readonly "natds-icons-filled-product-blush": string;
   readonly "natds-icons-filled-product-bodycream": string;
   readonly "natds-icons-filled-product-bodysplash": string;
@@ -199,6 +211,7 @@ declare const styles: {
   readonly "natds-icons-filled-product-shampoo": string;
   readonly "natds-icons-filled-product-shampooconditioner": string;
   readonly "natds-icons-filled-product-soapliquid": string;
+  readonly "natds-icons-filled-product-spray": string;
   readonly "natds-icons-filled-social-fireworks": string;
   readonly "natds-icons-filled-social-myprofile": string;
   readonly "natds-icons-filled-social-nightlife": string;
@@ -226,6 +239,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-download": string;
   readonly "natds-icons-outlined-action-edit": string;
   readonly "natds-icons-outlined-action-favorite": string;
+  readonly "natds-icons-outlined-action-filepdf": string;
   readonly "natds-icons-outlined-action-filter": string;
   readonly "natds-icons-outlined-action-frame": string;
   readonly "natds-icons-outlined-action-gridsquare": string;
@@ -308,6 +322,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-bellringing": string;
   readonly "natds-icons-outlined-content-book": string;
   readonly "natds-icons-outlined-content-brightness": string;
+  readonly "natds-icons-outlined-content-carbondioxide": string;
   readonly "natds-icons-outlined-content-changeview": string;
   readonly "natds-icons-outlined-content-channel": string;
   readonly "natds-icons-outlined-content-childfriendly": string;
@@ -382,6 +397,9 @@ declare const styles: {
   readonly "natds-icons-outlined-content-sun": string;
   readonly "natds-icons-outlined-content-sunandcloud": string;
   readonly "natds-icons-outlined-content-teddybear": string;
+  readonly "natds-icons-outlined-content-ticketdiscount": string;
+  readonly "natds-icons-outlined-content-ticketstar": string;
+  readonly "natds-icons-outlined-content-trophystar": string;
   readonly "natds-icons-outlined-content-unavailable": string;
   readonly "natds-icons-outlined-content-violence": string;
   readonly "natds-icons-outlined-content-virtualmirror": string;
@@ -478,6 +496,8 @@ declare const styles: {
   readonly "natds-icons-outlined-navigation-maximize": string;
   readonly "natds-icons-outlined-navigation-menu": string;
   readonly "natds-icons-outlined-navigation-minimize": string;
+  readonly "natds-icons-outlined-navigation-opennew": string;
+  readonly "natds-icons-outlined-navigation-shuffle": string;
   readonly "natds-icons-outlined-place-bus": string;
   readonly "natds-icons-outlined-place-forklift": string;
   readonly "natds-icons-outlined-place-gps": string;
@@ -490,6 +510,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-abandonedbag": string;
   readonly "natds-icons-outlined-product-accessories": string;
   readonly "natds-icons-outlined-product-ambientspray": string;
+  readonly "natds-icons-outlined-product-backpack": string;
   readonly "natds-icons-outlined-product-bagproduct": string;
   readonly "natds-icons-outlined-product-beard": string;
   readonly "natds-icons-outlined-product-blush": string;
@@ -542,6 +563,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-shampoo": string;
   readonly "natds-icons-outlined-product-shampooconditioner": string;
   readonly "natds-icons-outlined-product-soapliquid": string;
+  readonly "natds-icons-outlined-product-spray": string;
   readonly "natds-icons-outlined-product-vegan": string;
   readonly "natds-icons-outlined-social-addcontact": string;
   readonly "natds-icons-outlined-social-birthday": string;

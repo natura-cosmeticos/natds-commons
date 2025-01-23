@@ -105,6 +105,10 @@
   content: "\ea01";
 }
 
+.natds-icons-filled-action-addproduct::before {
+  content: "\ec1e";
+}
+
 .natds-icons-filled-action-cancel::before {
   content: "\ea02";
 }
@@ -123,6 +127,10 @@
 
 .natds-icons-filled-action-dislike::before {
   content: "\eb0f";
+}
+
+.natds-icons-filled-action-filepdf::before {
+  content: "\ec1f";
 }
 
 .natds-icons-filled-action-half-rating::before {
@@ -293,6 +301,10 @@
   content: "\eb8e";
 }
 
+.natds-icons-filled-content-carbondioxide::before {
+  content: "\ec20";
+}
+
 .natds-icons-filled-content-channel::before {
   content: "\ea13";
 }
@@ -377,8 +389,16 @@
   content: "\eb43";
 }
 
+.natds-icons-filled-content-healthy::before {
+  content: "\ec21";
+}
+
 .natds-icons-filled-content-house::before {
   content: "\eb94";
+}
+
+.natds-icons-filled-content-maintenance::before {
+  content: "\ec22";
 }
 
 .natds-icons-filled-content-microscope::before {
@@ -435,6 +455,18 @@
 
 .natds-icons-filled-content-teddybear::before {
   content: "\ebf5";
+}
+
+.natds-icons-filled-content-ticketdiscount::before {
+  content: "\ec23";
+}
+
+.natds-icons-filled-content-ticketstar::before {
+  content: "\ec24";
+}
+
+.natds-icons-filled-content-trophystar::before {
+  content: "\ec25";
 }
 
 .natds-icons-filled-content-violence::before {
@@ -685,6 +717,10 @@
   content: "\ea25";
 }
 
+.natds-icons-filled-navigation-opennew::before {
+  content: "\ec26";
+}
+
 .natds-icons-filled-navigation-setbottom::before {
   content: "\ea26";
 }
@@ -701,8 +737,16 @@
   content: "\ea29";
 }
 
+.natds-icons-filled-navigation-shuffle::before {
+  content: "\ec27";
+}
+
 .natds-icons-filled-place-local::before {
   content: "\eb11";
+}
+
+.natds-icons-filled-place-rocket::before {
+  content: "\ec28";
 }
 
 .natds-icons-filled-place-target::before {
@@ -715,6 +759,10 @@
 
 .natds-icons-filled-product-ambientspray::before {
   content: "\eba4";
+}
+
+.natds-icons-filled-product-backpack::before {
+  content: "\ec29";
 }
 
 .natds-icons-filled-product-blush::before {
@@ -829,6 +877,10 @@
   content: "\ebb6";
 }
 
+.natds-icons-filled-product-spray::before {
+  content: "\ec2a";
+}
+
 .natds-icons-filled-social-fireworks::before {
   content: "\ebb7";
 }
@@ -935,6 +987,10 @@
 
 .natds-icons-outlined-action-favorite::before {
   content: "\ea3f";
+}
+
+.natds-icons-outlined-action-filepdf::before {
+  content: "\ec2b";
 }
 
 .natds-icons-outlined-action-filter::before {
@@ -1265,6 +1321,10 @@
   content: "\ea78";
 }
 
+.natds-icons-outlined-content-carbondioxide::before {
+  content: "\ec2c";
+}
+
 .natds-icons-outlined-content-changeview::before {
   content: "\ea79";
 }
@@ -1559,6 +1619,18 @@
 
 .natds-icons-outlined-content-teddybear::before {
   content: "\ec10";
+}
+
+.natds-icons-outlined-content-ticketdiscount::before {
+  content: "\ec2d";
+}
+
+.natds-icons-outlined-content-ticketstar::before {
+  content: "\ec2e";
+}
+
+.natds-icons-outlined-content-trophystar::before {
+  content: "\ec2f";
 }
 
 .natds-icons-outlined-content-unavailable::before {
@@ -1945,6 +2017,14 @@
   content: "\eb5b";
 }
 
+.natds-icons-outlined-navigation-opennew::before {
+  content: "\ec30";
+}
+
+.natds-icons-outlined-navigation-shuffle::before {
+  content: "\ec31";
+}
+
 .natds-icons-outlined-place-bus::before {
   content: "\eabd";
 }
@@ -1991,6 +2071,10 @@
 
 .natds-icons-outlined-product-ambientspray::before {
   content: "\ebd2";
+}
+
+.natds-icons-outlined-product-backpack::before {
+  content: "\ec32";
 }
 
 .natds-icons-outlined-product-bagproduct::before {
@@ -2199,6 +2283,10 @@
 
 .natds-icons-outlined-product-soapliquid::before {
   content: "\ebe4";
+}
+
+.natds-icons-outlined-product-spray::before {
+  content: "\ec33";
 }
 
 .natds-icons-outlined-product-vegan::before {
