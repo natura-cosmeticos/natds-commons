@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.82.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.4...@naturacosmeticos/natds-themes@0.82.5) (2025-01-23)
+
+
+### Bug Fixes
+
+* **natds-themes:**  fixed CB-V2 e FV2  default language PT ([5168b50](https://github.com/natura-cosmeticos/natds-commons/commit/5168b50b2145219b35dfc1e86683210e36a52300))
+
+
+
+
+
 ## [0.82.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.3...@naturacosmeticos/natds-themes@0.82.4) (2025-01-23)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
