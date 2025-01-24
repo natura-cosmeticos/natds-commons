@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.82.8](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.7...@naturacosmeticos/natds-themes@0.82.8) (2025-01-24)
+
+
+### Bug Fixes
+
+* **natds-themes:** fix logo CB-V2 custom standard ([5005584](https://github.com/natura-cosmeticos/natds-commons/commit/50055847856f1c68c8636fa498a6f039927bf642))
+
+
+
+
+
 ## [0.82.7](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.6...@naturacosmeticos/natds-themes@0.82.7) (2025-01-24)
 
 
