@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.82.9](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.8...@naturacosmeticos/natds-themes@0.82.9) (2025-01-25)
+
+
+### Bug Fixes
+
+* **natds-themes:**  fixed Avon-V2  asset b height 58 to 256 ([7954b7e](https://github.com/natura-cosmeticos/natds-commons/commit/7954b7eaae8f10af6c6da0f63f49aafc387e1a87))
+
+
+
+
+
 ## [0.82.8](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.7...@naturacosmeticos/natds-themes@0.82.8) (2025-01-24)
 
 
