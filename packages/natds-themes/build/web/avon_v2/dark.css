@@ -1315,13 +1315,13 @@
   --assetBrandNeutralAHeight: "58";
   --assetBrandNeutralBFile: "avon_v2-b-official-dark";
   --assetBrandNeutralBWidth: "256";
-  --assetBrandNeutralBHeight: "58";
+  --assetBrandNeutralBHeight: "256";
   --assetBrandCustomAFile: "avon_v2-a-custom";
   --assetBrandCustomAWidth: "256";
   --assetBrandCustomAHeight: "58";
   --assetBrandCustomBFile: "avon_v2-b-custom";
   --assetBrandCustomBWidth: "256";
-  --assetBrandCustomBHeight: "58";
+  --assetBrandCustomBHeight: "256";
   --elevationNone: none;
   --elevationMicro: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
   --elevationTiny: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
