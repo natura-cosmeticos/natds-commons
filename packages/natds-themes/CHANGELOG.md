@@ -5,6 +5,35 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.82.9](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.8...@naturacosmeticos/natds-themes@0.82.9) (2025-01-25)
 
+### Features
+
+* **natds-themes:**  filled-action-addproduct
+* **natds-themes:**  filled-action-filepdf
+* **natds-themes:**  filled-content-carbondioxide
+* **natds-themes:**  filled-content-healthy
+* **natds-themes:**  filled-content-maintenance
+* **natds-themes:**  filled-content-ticketdiscount
+* **natds-themes:**  filled-content-ticketstar
+* **natds-themes:**  filled-content-trophystar
+* **natds-themes:**  filled-navigation-opennew
+* **natds-themes:**  filled-navigation-shuffle
+* **natds-themes:**  filled-place-rocket
+* **natds-themes:**  filled-product-backpack
+* **natds-themes:**  filled-product-spray
+
+* **natds-themes:**  outlined-action-addproduct		
+* **natds-themes:**  outlined-action-filepdf
+* **natds-themes:**  outlined-content-carbondioxide
+* **natds-themes:**  outlined-content-healthy		
+* **natds-themes:**  outlined-content-maintenance		
+* **natds-themes:**  outlined-content-ticketdiscount
+* **natds-themes:**  outlined-content-ticketstar
+* **natds-themes:**  outlined-content-trophystar
+* **natds-themes:**  outlined-navigation-opennew
+* **natds-themes:**  outlined-navigation-shuffle
+* **natds-themes:**  outlined-place-rocket			
+* **natds-themes:**  outlined-product-backpack
+* **natds-themes:**  outlined-product-spray
 
 ### Bug Fixes
 
