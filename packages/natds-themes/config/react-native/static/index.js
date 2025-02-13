@@ -5,6 +5,8 @@ import avonDarkTheme from './avon/dark.json'
 import avonLightTheme from './avon/light.json'
 import avonV2DarkTheme from './avon_v2/dark.json'
 import avonV2LightTheme from './avon_v2/light.json'
+import avonV3DarkTheme from './avon_v3/dark.json'
+import avonV3LightTheme from './avon_v3/light.json'
 import biomeDarkTheme from './biome/dark.json'
 import biomeLightTheme from './biome/light.json'
 import naturaDarkTheme from './natura/dark.json'
@@ -40,6 +42,10 @@ const themes = {
   avon_v2: {
     dark: avonV2DarkTheme,
     light: avonV2LightTheme
+  },
+  avon_v3: {
+    dark: avonV3DarkTheme,
+    light: avonV3LightTheme
   },
   biome: {
     dark: biomeDarkTheme,

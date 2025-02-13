@@ -3,6 +3,7 @@ import { createElement } from './helpers'
 const brandsLabel = {
   avon: 'Avon',
   avon_v2: 'Avon v2',
+  avon_v3: 'Avon v3',
   biome: 'Biome',
   natura: 'Natura',
   theBodyShop: 'The Body Shop',

@@ -1,0 +1,54 @@
+{
+  "asset": {
+    "brand": {
+      "neutral":{
+        "a": {
+          "file": {
+            "value": "avon_v2-a-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
+        },
+        "b": {
+          "file": {
+            "value": "avon_v2-b-official-dark"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 256
+          }
+        }
+      },
+      "custom":{
+        "a": {
+          "file": {
+            "value": "avon_v2-a-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 58
+          }
+        },
+        "b": {
+          "file": {
+            "value": "avon_v2-b-custom"
+          },
+          "width": {
+            "value": 256
+          },
+          "height": {
+            "value": 256
+          }
+        }
+      }
+    }
+  }
+}

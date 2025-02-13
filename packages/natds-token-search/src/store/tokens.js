@@ -5,6 +5,8 @@ import webAvonDark from '../../tokens/web/search/avon/dark'
 import webAvonLight from '../../tokens/web/search/avon/light'
 import webAvonV2Dark from '../../tokens/web/search/avon_v2/dark'
 import webAvonV2Light from '../../tokens/web/search/avon_v2/light'
+import webAvonV3Dark from '../../tokens/web/search/avon_v3/dark'
+import webAvonV3Light from '../../tokens/web/search/avon_v3/light'
 import webBiomeDark from '../../tokens/web/search/biome/dark'
 import webBiomeLight from '../../tokens/web/search/biome/light'
 import webNaturaDark from '../../tokens/web/search/natura/dark'
@@ -35,6 +37,8 @@ import reactNativeAvonDark from '../../tokens/react-native/search/avon/dark'
 import reactNativeAvonLight from '../../tokens/react-native/search/avon/light'
 import reactNativeAvonV2Dark from '../../tokens/react-native/search/avon_v2/dark'
 import reactNativeAvonV2Light from '../../tokens/react-native/search/avon_v2/light'
+import reactNativeAvonV3Dark from '../../tokens/react-native/search/avon_v3/dark'
+import reactNativeAvonV3Light from '../../tokens/react-native/search/avon_v3/light'
 import reactNativeBiomeDark from '../../tokens/react-native/search/biome/dark'
 import reactNativeBiomeLight from '../../tokens/react-native/search/biome/light'
 import reactNativeNaturaDark from '../../tokens/react-native/search/natura/dark'
@@ -65,6 +69,8 @@ import androidAvonDark from '../../tokens/android/search/avon/dark'
 import androidAvonLight from '../../tokens/android/search/avon/light'
 import androidAvonV2Dark from '../../tokens/android/search/avon_v2/dark'
 import androidAvonV2Light from '../../tokens/android/search/avon_v2/light'
+import androidAvonV3Dark from '../../tokens/android/search/avon_v3/dark'
+import androidAvonV3Light from '../../tokens/android/search/avon_v3/light'
 import androidBiomeDark from '../../tokens/android/search/biome/dark'
 import androidBiomeLight from '../../tokens/android/search/biome/light'
 import androidNaturaDark from '../../tokens/android/search/natura/dark'
@@ -95,6 +101,8 @@ import iosAvonDark from '../../tokens/ios/search/avon/dark'
 import iosAvonLight from '../../tokens/ios/search/avon/light'
 import iosAvonV2Dark from '../../tokens/ios/search/avon_v2/dark'
 import iosAvonV2Light from '../../tokens/ios/search/avon_v2/light'
+import iosAvonV3Dark from '../../tokens/ios/search/avon_v3/dark'
+import iosAvonV3Light from '../../tokens/ios/search/avon_v3/light'
 import iosBiomeDark from '../../tokens/ios/search/biome/dark'
 import iosBiomeLight from '../../tokens/ios/search/biome/light'
 import iosNaturaDark from '../../tokens/ios/search/natura/dark'
@@ -126,6 +134,7 @@ export const tokens = {
     // ...buildTokensForBrand('aesop')([androidAesopLight, androidAesopDark]),
     ...buildTokensForBrand('avon')([androidAvonLight, androidAvonDark]),
     ...buildTokensForBrand('avon_v2')([androidAvonV2Light, androidAvonV2Dark]),
+    ...buildTokensForBrand('avon_v3')([androidAvonV3Light, androidAvonV3Dark]),
     ...buildTokensForBrand('biome')([androidBiomeLight, androidBiomeDark]),
     ...buildTokensForBrand('natura')([androidNaturaLight, androidNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([androidTheBodyShopLight, androidTheBodyShopDark]),
@@ -142,6 +151,7 @@ export const tokens = {
     // ...buildTokensForBrand('aesop')([iosAesopLight, iosAesopDark]),
     ...buildTokensForBrand('avon')([iosAvonLight, iosAvonDark]),
     ...buildTokensForBrand('avon_v2')([iosAvonV2Light, iosAvonV2Dark]),
+    ...buildTokensForBrand('avon_v3')([iosAvonV3Light, iosAvonV3Dark]),
     ...buildTokensForBrand('biome')([iosBiomeLight, iosBiomeDark]),
     ...buildTokensForBrand('natura')([iosNaturaLight, iosNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([iosTheBodyShopLight, iosTheBodyShopDark]),
@@ -158,6 +168,7 @@ export const tokens = {
     // ...buildTokensForBrand('aesop')([reactNativeAesopLight, reactNativeAesopDark]),
     ...buildTokensForBrand('avon')([reactNativeAvonLight, reactNativeAvonDark]),
     ...buildTokensForBrand('avon_v2')([reactNativeAvonV2Light, reactNativeAvonV2Dark]),
+    ...buildTokensForBrand('avon_v3')([reactNativeAvonV3Light, reactNativeAvonV3Dark]),
     ...buildTokensForBrand('biome')([reactNativeBiomeLight, reactNativeBiomeDark]),
     ...buildTokensForBrand('natura')([reactNativeNaturaLight, reactNativeNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([reactNativeTheBodyShopLight, reactNativeTheBodyShopDark]),
@@ -174,6 +185,7 @@ export const tokens = {
     // ...buildTokensForBrand('aesop')([webAesopLight, webAesopDark]),
     ...buildTokensForBrand('avon')([webAvonLight, webAvonDark]),
     ...buildTokensForBrand('avon_v2')([webAvonV2Light, webAvonV2Dark]),
+    ...buildTokensForBrand('avon_v3')([webAvonV3Light, webAvonV3Dark]),
     ...buildTokensForBrand('biome')([webBiomeLight, webBiomeDark]),
     ...buildTokensForBrand('natura')([webNaturaLight, webNaturaDark]),
     ...buildTokensForBrand('theBodyShop')([webTheBodyShopLight, webTheBodyShopDark]),
