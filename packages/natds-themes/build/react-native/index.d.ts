@@ -739,6 +739,7 @@ declare namespace Themes {
     aesop: BrandThemes
     avon: BrandThemes
     avon_v2: BrandThemes
+    avon_v3: BrandThemes
     biome: BrandThemes
     natdsTest: BrandThemes
     natura: BrandThemes
