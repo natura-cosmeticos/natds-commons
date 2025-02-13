@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.83.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.9...@naturacosmeticos/natds-themes@0.83.0) (2025-02-13)
+
+
+### Features
+
+* **natds-themes:**  added new theme Avon-V2 ([a3c6015](https://github.com/natura-cosmeticos/natds-commons/commit/a3c60151081dfe6576ca226a66f2c52e5ea95a60))
+
+
+
+
+
 ## [0.82.9](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.8...@naturacosmeticos/natds-themes@0.82.9) (2025-01-25)
 
 ### Features
