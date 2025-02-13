@@ -2,6 +2,7 @@ export const brands = [
   'aesop',
   'avon',
   'avon_v2',
+  'avon_v3',
   'biome',
   'natdsTest',
   'natura',
