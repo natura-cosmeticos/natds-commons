@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.83.1](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.0...@naturacosmeticos/natds-themes@0.83.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* **natds-themes:** fix borderRadius counter select textField ([022f452](https://github.com/natura-cosmeticos/natds-commons/commit/022f452636b3a105a9d12f713ddb361e776a9cdd))
+
+
+
+
+
 # [0.83.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.82.9...@naturacosmeticos/natds-themes@0.83.0) (2025-02-13)
 
 
