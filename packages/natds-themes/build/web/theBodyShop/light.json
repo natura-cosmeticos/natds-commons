@@ -128,7 +128,7 @@
         "background": "#d5cd61"
       },
       "success": {
-        "label": "#111111",
+        "label": "#ffffff",
         "background": "#2f833e"
       },
       "alert": {
@@ -1612,7 +1612,7 @@
       "label": {
         "primary": "#ffffff",
         "secondary": "#000000",
-        "success": "#111111",
+        "success": "#ffffff",
         "alert": "#111111",
         "warning": "#111111",
         "link": "#ffffff"
@@ -2125,7 +2125,7 @@
     "linkDarkest": "#052149",
     "onLinkDarkest": "#ffffff",
     "success": "#2f833e",
-    "onSuccess": "#111111",
+    "onSuccess": "#ffffff",
     "successLight": "#92d492",
     "onSuccessLight": "#111111",
     "successLightest": "#d9f7d5",

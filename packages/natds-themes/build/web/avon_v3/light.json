@@ -128,7 +128,7 @@
         "background": "#121212"
       },
       "success": {
-        "label": "#111111",
+        "label": "#ffffff",
         "background": "#2f833e"
       },
       "alert": {
@@ -154,7 +154,7 @@
     "borderRadius": 999,
     "elevation": "none",
     "paddingX": 24,
-    "textTransform": "lowercase",
+    "textTransform": "uppercase",
     "contained": {
       "color": {
         "primary": {
@@ -1612,7 +1612,7 @@
       "label": {
         "primary": "#ffffff",
         "secondary": "#ffffff",
-        "success": "#111111",
+        "success": "#ffffff",
         "alert": "#111111",
         "warning": "#111111",
         "link": "#ffffff"
@@ -1854,7 +1854,7 @@
       "borderRadius": 999,
       "elevation": "none",
       "paddingX": 24,
-      "textTransform": "lowercase"
+      "textTransform": "uppercase"
     },
     "counter": {
       "borderRadius": 16
@@ -2125,7 +2125,7 @@
     "linkDarkest": "#052149",
     "onLinkDarkest": "#ffffff",
     "success": "#2f833e",
-    "onSuccess": "#111111",
+    "onSuccess": "#ffffff",
     "successLight": "#92d492",
     "onSuccessLight": "#111111",
     "successLightest": "#d9f7d5",

@@ -69,7 +69,7 @@
   --badgeColorPrimaryBackground: #f6be00;
   --badgeColorSecondaryLabel: #000000;
   --badgeColorSecondaryBackground: #9f81fd;
-  --badgeColorSuccessLabel: #111111;
+  --badgeColorSuccessLabel: #ffffff;
   --badgeColorSuccessBackground: #2f833e;
   --badgeColorAlertLabel: #111111;
   --badgeColorAlertBackground: #de3529;
@@ -939,7 +939,7 @@
   --tagColorBackgroundLink: #1267cf;
   --tagColorLabelPrimary: #000000;
   --tagColorLabelSecondary: #000000;
-  --tagColorLabelSuccess: #111111;
+  --tagColorLabelSuccess: #ffffff;
   --tagColorLabelAlert: #111111;
   --tagColorLabelWarning: #111111;
   --tagColorLabelLink: #ffffff;
@@ -1243,7 +1243,7 @@
   --colorLinkDarkest: #052149;
   --colorOnLinkDarkest: #ffffff;
   --colorSuccess: #2f833e;
-  --colorOnSuccess: #111111;
+  --colorOnSuccess: #ffffff;
   --colorSuccessLight: #92d492;
   --colorOnSuccessLight: #111111;
   --colorSuccessLightest: #d9f7d5;
