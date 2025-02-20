@@ -288,7 +288,7 @@
       "value": "#E74627"
     },
     "onAlert": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "alertLight": {
       "value": "#FF826A"

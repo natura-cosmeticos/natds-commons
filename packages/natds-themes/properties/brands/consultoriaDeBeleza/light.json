@@ -288,7 +288,7 @@
       "value": "{color.primitiveDarkRed100.value}"
     },
     "onAlert": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "alertLight": {
       "value": "{color.primitiveLightRed500.value}"
