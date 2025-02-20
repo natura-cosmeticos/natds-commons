@@ -224,7 +224,7 @@
       "value": "#569A32"
     },
     "onSuccess": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "successLight": {
       "value": "#A0D87E"

@@ -224,7 +224,7 @@
       "value": "{color.primitiveDarkGreen200.value}"
     },
     "onSuccess": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "successLight": {
       "value": "{color.primitiveLightGreen500.value}"

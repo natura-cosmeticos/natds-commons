@@ -1,62 +1,62 @@
 {
   "color": {
     "primary": {
-      "value": "#E5004B"
+      "value": "#FF6388"
     },
     "onPrimary": {
       "value": "#FFFFFF"
     },
     "primaryLight": {
-      "value": "#FF4482"
+      "value": "#FF9BB0"
     },
     "onPrimaryLight": {
       "value": "#000000"
     },
     "primaryLightest": {
-      "value": "{spectrum.color.brand.a.lightest.value}"
+      "value": "#FFC8D4"
     },
     "onPrimaryLightest": {
       "value": "#000000"
     },
     "primaryDark": {
-      "value": "#B3003B"
+      "value": "#FF2C64"
     },
     "onPrimaryDark": {
       "value": "#FFFFFF"
     },
     "primaryDarkest": {
-      "value": "{spectrum.color.brand.a.darkest.value}"
+      "value": "#F60850"
     },
     "onPrimaryDarkest": {
       "value": "#FFFFFF"
     },
 
     "secondary": {
-      "value": "#121212"
+      "value": "#D1D1D1"
     },
     "onSecondary": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryLight": {
-      "value": "#777777"
+      "value": "#E7E7E7"
     },
     "onSecondaryLight": {
       "value": "#000000"
     },
     "secondaryLightest": {
-      "value": "#BBBBBB"
+      "value": "#F6F6F6"
     },
     "onSecondaryLightest": {
       "value": "#000000"
     },
     "secondaryDark": {
-      "value": "#080808"
+      "value": "#B0B0B0"
     },
     "onSecondaryDark": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
     "secondaryDarkest": {
-      "value": "#000000"
+      "value": "#888888"
     },
     "onSecondaryDarkest": {
       "value": "#FFFFFF"
@@ -79,52 +79,53 @@
       "value": "{color.neutral400.value}"
     },
     "contentHighlightFixedLight": {
-      "value": "{color.neutral0.value}"
+      "value": "{color.neutral900.value}"
     },
     "contentHighEmphasisFixedLight": {
-      "value": "{color.neutral100.value}"
+      "value": "{color.neutral800.value}"
     },
     "contentMediumEmphasisFixedLight": {
-      "value": "{color.neutral300.value}"
+      "value": "{color.neutral600.value}"
     },
     "contentLowEmphasisFixedLight": {
-      "value": "{color.neutral400.value}"
+      "value": "{color.neutral500.value}"
     },
 
+
     "surface": {
-      "value": "{color.neutral0.value}"
+      "value": "{color.neutral100.value}"
     },
     "surfaceDark": {
-      "value": "{color.neutral700.value}"
+      "value": "{color.neutral900.value}"
     },
     "surfaceFixedLight": {
-      "value": "{color.neutral0.value}"
+      "value": "{color.neutral900.value}"
     },
     "surfaceFixedDark": {
-      "value": "{color.neutral700.value}"
+      "value": "{color.neutral100.value}"
     },
     "surfaceDisabled": {
       "value": "{color.neutral400.value}"
     },
 
     "onSurface": {
-      "value": "{color.neutral800.value}"
+      "value": "{color.neutral900.value}"
     },
     "onSurfaceDark": {
-      "value": "{color.neutral0.value}"
+      "value": "{color.neutral50.value}"
     },
     "onSurfaceFixedLight": {
-      "value": "{color.neutral800.value}"
+      "value": "{color.neutral50.value}"
     },
     "onSurfaceFixedDark": {
-      "value": "{color.neutral0.value}"
+      "value": "{color.neutral900.value}"
     },
     "onSurfaceDisabled": {
-      "value": "{color.neutral800.value}"
-    },
-    
-    "background": {
       "value": "{color.neutral50.value}"
+    },
+
+    "background": {
+      "value": "{color.neutral0.value}"
     },
     "onBackground": {
       "value": "{color.neutral900.value}"
@@ -150,41 +151,39 @@
       "value": "{color.contentLowEmphasis.value}"
     },
     "lowLight": {
-      "value": "#FFFFFF"
+      "value": "#000000"
     },
 
-    
     "info": {
-      "value": "{color.primitiveDarkBlue300.value}"
+      "value": "{color.primitiveLightBlue500.value}"
     },
     "onInfo": {
       "value": "{color.neutral0.value}"
     },
     "infoLight": {
-      "value": "{color.primitiveLightBlue500.value}"
+      "value": "{color.primitiveLightBlue200.value}"
     },
     "onInfoLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "infoLightest": {
       "value": "{color.primitiveLightBlue50.value}"
     },
     "onInfoLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "infoDark": {
-      "value": "{color.primitiveDarkBlue500.value}"
+      "value": "{color.primitiveLightBlue800.value}"
     },
     "onInfoDark": {
       "value": "{color.neutral0.value}"
     },
     "infoDarkest": {
-      "value": "{color.primitiveDarkBlue800.value}"
+      "value": "{color.primitiveDarkBlue50.value}"
     },
     "onInfoDarkest": {
       "value": "{color.neutral0.value}"
     },
-
 
 
     "link": {
@@ -197,13 +196,13 @@
       "value": "{color.infoLight.value}"
     },
     "onLinkLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "linkLightest": {
       "value": "{color.infoLightest.value}"
     },
     "onLinkLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "linkDark": {
       "value": "{color.infoDark.value}"
@@ -219,101 +218,103 @@
     },
 
 
+
     "success": {
-      "value": "{color.primitiveDarkGreen200.value}"
-    },
-    "onSuccess": {
-      "value": "{color.neutral900.value}"
-    },
-    "successLight": {
       "value": "{color.primitiveLightGreen500.value}"
     },
+    "onSuccess": {
+      "value": "{color.neutral0.value}"
+    },
+    "successLight": {
+      "value": "{color.primitiveLightGreen200.value}"
+    },
     "onSuccessLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "successLightest": {
-      "value": "{color.primitiveLightGreen100.value}"
+      "value": "{color.primitiveLightGreen50.value}"
     },
     "onSuccessLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "successDark": {
-      "value": "{color.primitiveDarkGreen500.value}"
+      "value": "{color.primitiveLightGreen700.value}"
     },
     "onSuccessDark": {
       "value": "{color.neutral0.value}"
     },
     "successDarkest": {
-      "value": "{color.primitiveDarkGreen800.value}"
-    },      
+      "value": "{color.primitiveLightGreen900.value}"
+    },
     "onSuccessDarkest": {
       "value": "{color.neutral0.value}"
     },
+
 
 
     "warning": {
       "value": "{color.primitiveLightYellow500.value}"
     },
     "onWarning": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "warningLight": {
       "value": "{color.primitiveLightYellow200.value}"
     },
     "onWarningLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "warningLightest": {
       "value": "{color.primitiveLightYellow50.value}"
     },
     "onWarningLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "warningDark": {
-      "value": "{color.primitiveDarkYellow50.value}"
+      "value": "{color.primitiveLightYellow700.value}"
     },
     "onWarningDark": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "warningDarkest": {
-      "value": "{color.primitiveDarkYellow500.value}"
+      "value": "{color.primitiveLightYellow900.value}"
     },
     "onWarningDarkest": {
       "value": "{color.neutral0.value}"
     },
 
 
+
     "alert": {
-      "value": "{color.primitiveDarkRed100.value}"
-    },
-    "onAlert": {
-      "value": "{color.neutral900.value}"
-    },
-    "alertLight": {
       "value": "{color.primitiveLightRed500.value}"
     },
+    "onAlert": {
+      "value": "{color.neutral0.value}"
+    },
+    "alertLight": {
+      "value": "{color.primitiveLightRed200.value}"
+    },
     "onAlertLight": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "alertLightest": {
       "value": "{color.primitiveLightRed50.value}"
     },
     "onAlertLightest": {
-      "value": "{color.neutral900.value}"
+      "value": "{color.neutral0.value}"
     },
     "alertDark": {
-      "value": "{color.primitiveDarkRed500.value}"
+      "value": "{color.primitiveLightRed700.value}"
     },
     "onAlertDark": {
       "value": "{color.neutral0.value}"
     },
     "alertDarkest": {
-      "value": "{color.primitiveDarkRed800.value}"
+      "value": "{color.primitiveLightRed900.value}"
     },
     "onAlertDarkest": {
       "value": "{color.neutral0.value}"
     },
-
 
     "neutralLightest": {
       "value": "#FFFFFF"
@@ -332,40 +333,40 @@
     },
 
     "neutral0": {
-      "value": "{color.primitiveWhite.value}"
+      "value": "{color.primitiveDarkGray900.value}"
     },
     "neutral50": {
-      "value": "{color.primitiveLightGray50.value}"
+      "value": "{color.primitiveDarkGray600.value}"
     },
     "neutral75": {
-      "value": "{color.primitiveLightGray100.value}"
+      "value": "{color.primitiveDarkGray800.value}"
     },
     "neutral100": {
-      "value": "{color.primitiveLightGray200.value}"
+      "value": "{color.primitiveDarkGray400.value}"
     },
     "neutral200": {
-      "value": "{color.primitiveLightGray400.value}"
+      "value": "{color.primitiveDarkGray200.value}"
     },
     "neutral300": {
-      "value": "{color.primitiveLightGray600.value}"
+      "value": "{color.primitiveDarkGray50.value}"
     },
     "neutral400": {
       "value": "{color.primitiveLightGray800.value}"
     },
     "neutral500": {
-      "value": "{color.primitiveDarkGray50.value}"
+      "value": "{color.primitiveLightGray600.value}"
     },
     "neutral600": {
-      "value": "{color.primitiveDarkGray200.value}"
+      "value": "{color.primitiveLightGray400.value}"
     },
     "neutral700": {
-      "value": "{color.primitiveDarkGray400.value}"
+      "value": "{color.primitiveLightGray200.value}"
     },
     "neutral800": {
-      "value": "{color.primitiveDarkGray600.value}"
+      "value": "{color.primitiveLightGray50.value}"
     },
     "neutral900": {
-      "value": "{color.primitiveDarkGray900.value}"
+      "value": "{color.primitiveWhite.value}"
     }
   }
 }
