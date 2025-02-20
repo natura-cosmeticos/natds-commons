@@ -132,7 +132,7 @@
         "background": "#569a32"
       },
       "alert": {
-        "label": "#111111",
+        "label": "#ffffff",
         "background": "#e74627"
       }
     }
@@ -1613,7 +1613,7 @@
         "primary": "#ffffff",
         "secondary": "#ffffff",
         "success": "#ffffff",
-        "alert": "#111111",
+        "alert": "#ffffff",
         "warning": "#111111",
         "link": "#ffffff"
       }
@@ -2145,7 +2145,7 @@
     "warningDarkest": "#946b02",
     "onWarningDarkest": "#ffffff",
     "alert": "#e74627",
-    "onAlert": "#111111",
+    "onAlert": "#ffffff",
     "alertLight": "#ff826a",
     "onAlertLight": "#111111",
     "alertLightest": "#ffd0c7",

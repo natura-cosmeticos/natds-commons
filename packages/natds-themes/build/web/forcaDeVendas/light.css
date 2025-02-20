@@ -71,7 +71,7 @@
   --badgeColorSecondaryBackground: #6a777a;
   --badgeColorSuccessLabel: #ffffff;
   --badgeColorSuccessBackground: #2f833e;
-  --badgeColorAlertLabel: #111111;
+  --badgeColorAlertLabel: #ffffff;
   --badgeColorAlertBackground: #de3529;
   --buttonLabelFontSize: 14px;
   --buttonLabelLetterSpacing: 1.23px;
@@ -940,7 +940,7 @@
   --tagColorLabelPrimary: #ffffff;
   --tagColorLabelSecondary: #ffffff;
   --tagColorLabelSuccess: #ffffff;
-  --tagColorLabelAlert: #111111;
+  --tagColorLabelAlert: #ffffff;
   --tagColorLabelWarning: #111111;
   --tagColorLabelLink: #ffffff;
   --textFieldLabelPrimaryFontFamily: "Roboto";
@@ -1263,7 +1263,7 @@
   --colorWarningDarkest: #5c4b14;
   --colorOnWarningDarkest: #ffffff;
   --colorAlert: #de3529;
-  --colorOnAlert: #111111;
+  --colorOnAlert: #ffffff;
   --colorAlertLight: #ffa392;
   --colorOnAlertLight: #111111;
   --colorAlertLightest: #ffedea;
