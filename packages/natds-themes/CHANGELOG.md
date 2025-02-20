@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.83.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.2...@naturacosmeticos/natds-themes@0.83.3) (2025-02-20)
+
+
+### Bug Fixes
+
+* **natds-themes:**  fixed onAlert color ([6a62078](https://github.com/natura-cosmeticos/natds-commons/commit/6a62078b17c148e86c9c6eaa5a44bd6a6a22bf77))
+
+
+
+
+
 ## [0.83.2](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.1...@naturacosmeticos/natds-themes@0.83.2) (2025-02-20)
 
 
