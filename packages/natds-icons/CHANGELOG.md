@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.29.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.28.0...@naturacosmeticos/natds-icons@1.29.0) (2025-02-21)
+
+
+### Features
+
+* **natds-icons:** add icon filled-growthplan-trophysapphire ([b8238ff](https://github.com/natura-cosmeticos/natds-commons/commit/b8238ff5d6190dbf57c984e4919c69ce92d3f41e))
+
+
+
+
+
 # [1.28.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.27.4...@naturacosmeticos/natds-icons@1.28.0) (2025-01-23)
 
 
