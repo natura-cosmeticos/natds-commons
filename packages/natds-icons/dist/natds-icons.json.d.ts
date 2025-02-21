@@ -110,6 +110,13 @@ interface RootObject {
   'filled-finance-shield': string;
   'filled-finance-shieldcheck': string;
   'filled-finance-shieldplus': string;
+  'filled-growthplan-flowertulip': string;
+  'filled-growthplan-graphic': string;
+  'filled-growthplan-laurelwreath': string;
+  'filled-growthplan-trophy': string;
+  'filled-growthplan-trophyaward': string;
+  'filled-growthplan-trophydiamond': string;
+  'filled-growthplan-trophysapphire': string;
   'filled-makeup-antiacne': string;
   'filled-makeup-haircoily': string;
   'filled-makeup-haircurly': string;
@@ -422,6 +429,13 @@ interface RootObject {
   'outlined-finance-suitcase': string;
   'outlined-finance-tagdiscount': string;
   'outlined-finance-transfermoney': string;
+  'outlined-growthplan-flowertulip': string;
+  'outlined-growthplan-graphic': string;
+  'outlined-growthplan-laurelwreath': string;
+  'outlined-growthplan-trophy': string;
+  'outlined-growthplan-trophyaward': string;
+  'outlined-growthplan-trophydiamond': string;
+  'outlined-growthplan-trophysapphire': string;
   'outlined-makeup-age': string;
   'outlined-makeup-antiacne': string;
   'outlined-makeup-eyebrow': string;

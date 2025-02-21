@@ -128,6 +128,13 @@ declare const styles: {
   readonly "natds-icons-filled-finance-shield": string;
   readonly "natds-icons-filled-finance-shieldcheck": string;
   readonly "natds-icons-filled-finance-shieldplus": string;
+  readonly "natds-icons-filled-growthplan-flowertulip": string;
+  readonly "natds-icons-filled-growthplan-graphic": string;
+  readonly "natds-icons-filled-growthplan-laurelwreath": string;
+  readonly "natds-icons-filled-growthplan-trophy": string;
+  readonly "natds-icons-filled-growthplan-trophyaward": string;
+  readonly "natds-icons-filled-growthplan-trophydiamond": string;
+  readonly "natds-icons-filled-growthplan-trophysapphire": string;
   readonly "natds-icons-filled-makeup-antiacne": string;
   readonly "natds-icons-filled-makeup-haircoily": string;
   readonly "natds-icons-filled-makeup-haircurly": string;
@@ -440,6 +447,13 @@ declare const styles: {
   readonly "natds-icons-outlined-finance-suitcase": string;
   readonly "natds-icons-outlined-finance-tagdiscount": string;
   readonly "natds-icons-outlined-finance-transfermoney": string;
+  readonly "natds-icons-outlined-growthplan-flowertulip": string;
+  readonly "natds-icons-outlined-growthplan-graphic": string;
+  readonly "natds-icons-outlined-growthplan-laurelwreath": string;
+  readonly "natds-icons-outlined-growthplan-trophy": string;
+  readonly "natds-icons-outlined-growthplan-trophyaward": string;
+  readonly "natds-icons-outlined-growthplan-trophydiamond": string;
+  readonly "natds-icons-outlined-growthplan-trophysapphire": string;
   readonly "natds-icons-outlined-makeup-age": string;
   readonly "natds-icons-outlined-makeup-antiacne": string;
   readonly "natds-icons-outlined-makeup-eyebrow": string;

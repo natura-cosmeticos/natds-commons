@@ -545,6 +545,34 @@
   content: "\eb46";
 }
 
+.natds-icons-filled-growthplan-flowertulip::before {
+  content: "\ec34";
+}
+
+.natds-icons-filled-growthplan-graphic::before {
+  content: "\ec35";
+}
+
+.natds-icons-filled-growthplan-laurelwreath::before {
+  content: "\ec36";
+}
+
+.natds-icons-filled-growthplan-trophy::before {
+  content: "\ec37";
+}
+
+.natds-icons-filled-growthplan-trophyaward::before {
+  content: "\ec38";
+}
+
+.natds-icons-filled-growthplan-trophydiamond::before {
+  content: "\ec39";
+}
+
+.natds-icons-filled-growthplan-trophysapphire::before {
+  content: "\ec3a";
+}
+
 .natds-icons-filled-makeup-antiacne::before {
   content: "\ebf7";
 }
@@ -1791,6 +1819,34 @@
 
 .natds-icons-outlined-finance-transfermoney::before {
   content: "\eaaa";
+}
+
+.natds-icons-outlined-growthplan-flowertulip::before {
+  content: "\ec3b";
+}
+
+.natds-icons-outlined-growthplan-graphic::before {
+  content: "\ec3c";
+}
+
+.natds-icons-outlined-growthplan-laurelwreath::before {
+  content: "\ec3d";
+}
+
+.natds-icons-outlined-growthplan-trophy::before {
+  content: "\ec3e";
+}
+
+.natds-icons-outlined-growthplan-trophyaward::before {
+  content: "\ec3f";
+}
+
+.natds-icons-outlined-growthplan-trophydiamond::before {
+  content: "\ec40";
+}
+
+.natds-icons-outlined-growthplan-trophysapphire::before {
+  content: "\ec41";
 }
 
 .natds-icons-outlined-makeup-age::before {
