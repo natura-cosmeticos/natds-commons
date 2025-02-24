@@ -8,7 +8,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **natds-icons:** add icon filled-growthplan-trophysapphire ([b8238ff](https://github.com/natura-cosmeticos/natds-commons/commit/b8238ff5d6190dbf57c984e4919c69ce92d3f41e))
+* **natds-icons:** filled-growthplan-flowertulip
+* **natds-icons:** filled-growthplan-graphic
+* **natds-icons:** filled-growthplan-laurelwreath
+* **natds-icons:** filled-growthplan-trophy
+* **natds-icons:** filled-growthplan-trophyaward
+* **natds-icons:** filled-growthplan-trophydiamond
+* **natds-icons:** filled-growthplan-trophysapphire
+
+* **natds-icons:** outlined-growthplan-flowertulip
+* **natds-icons:** outlined-growthplan-graphic
+* **natds-icons:** outlined-growthplan-laurelwreath
+* **natds-icons:** outlined-growthplan-trophy
+* **natds-icons:** outlined-growthplan-trophyaward
+* **natds-icons:** outlined-growthplan-trophydiamond
+* **natds-icons:** outlined-growthplan-trophysapphire
 
 
 
