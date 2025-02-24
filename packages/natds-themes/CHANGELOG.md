@@ -60,7 +60,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **natds-themes:**  added new theme Avon-V2 ([a3c6015](https://github.com/natura-cosmeticos/natds-commons/commit/a3c60151081dfe6576ca226a66f2c52e5ea95a60))
+* **natds-themes:**  added new theme Avon-V3 ([a3c6015](https://github.com/natura-cosmeticos/natds-commons/commit/a3c60151081dfe6576ca226a66f2c52e5ea95a60))
 
 
 
