@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.30.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.29.0...@naturacosmeticos/natds-icons@1.30.0) (2025-03-10)
+
+
+### Features
+
+* **natds-icons:** add icon filled-content-generativeai ([b206cba](https://github.com/natura-cosmeticos/natds-commons/commit/b206cba25984176a0c2326bd80f30fb3ca687bf6))
+* **natds-icons:** add icon filled-finance-bagshield ([3fe5abb](https://github.com/natura-cosmeticos/natds-commons/commit/3fe5abb5b5c6983d0fe659cff5b69ff03d2157b0))
+* **natds-icons:** add icon filled-finance-cashback ([982c3cd](https://github.com/natura-cosmeticos/natds-commons/commit/982c3cd670a20adfb8abf4ca1d8a0f1a484ee3f1))
+* **natds-icons:** add icon outlined-content-generativeai ([4660319](https://github.com/natura-cosmeticos/natds-commons/commit/46603199e620307e1facb006f11eb8184ea90fcd))
+* **natds-icons:** add icon outlined-finance-bagshield ([c511418](https://github.com/natura-cosmeticos/natds-commons/commit/c5114184a56f58d4061a9bcf52674e97bcf86372))
+* **natds-icons:** add icon outlined-finance-cashback ([19f9247](https://github.com/natura-cosmeticos/natds-commons/commit/19f92471a89ff0fde3f7fcf94bec5c4821b3201d))
+
+
+
+
+
 # [1.29.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.28.0...@naturacosmeticos/natds-icons@1.29.0) (2025-02-21)
 
 

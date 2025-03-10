@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.83.6](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.5...@naturacosmeticos/natds-themes@0.83.6) (2025-03-10)
+
+
+### Bug Fixes
+
+* **natds-themes:** fontFamily to roboto in Avon-V3 ([3b6ca16](https://github.com/natura-cosmeticos/natds-commons/commit/3b6ca16cc5f60530b99cf1c850bc4a21da3ef23e))
+
+
+
+
+
 ## [0.83.5](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.4...@naturacosmeticos/natds-themes@0.83.5) (2025-02-21)
 
 
