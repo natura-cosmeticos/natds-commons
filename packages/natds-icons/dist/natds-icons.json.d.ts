@@ -63,6 +63,7 @@ interface RootObject {
   'filled-content-exfoliator': string;
   'filled-content-farmrows': string;
   'filled-content-gauge': string;
+  'filled-content-generativeai': string;
   'filled-content-giftpricefair': string;
   'filled-content-giftpricegreat': string;
   'filled-content-giftpricehigh': string;
@@ -98,6 +99,8 @@ interface RootObject {
   'filled-default-mockup': string;
   'filled-finance-bag': string;
   'filled-finance-bagcheck': string;
+  'filled-finance-bagshield': string;
+  'filled-finance-cashback': string;
   'filled-finance-charging': string;
   'filled-finance-intensityhigh': string;
   'filled-finance-intensitylow': string;
@@ -335,6 +338,7 @@ interface RootObject {
   'outlined-content-fragrance': string;
   'outlined-content-gallery': string;
   'outlined-content-gauge': string;
+  'outlined-content-generativeai': string;
   'outlined-content-gift': string;
   'outlined-content-giftpricefair': string;
   'outlined-content-giftpricegreat': string;
@@ -400,8 +404,10 @@ interface RootObject {
   'outlined-finance-addbag': string;
   'outlined-finance-bag': string;
   'outlined-finance-bagcheck': string;
+  'outlined-finance-bagshield': string;
   'outlined-finance-bank': string;
   'outlined-finance-cards': string;
+  'outlined-finance-cashback': string;
   'outlined-finance-charging': string;
   'outlined-finance-creditcard': string;
   'outlined-finance-debit': string;

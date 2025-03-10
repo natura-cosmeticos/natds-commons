@@ -81,6 +81,7 @@ declare const styles: {
   readonly "natds-icons-filled-content-exfoliator": string;
   readonly "natds-icons-filled-content-farmrows": string;
   readonly "natds-icons-filled-content-gauge": string;
+  readonly "natds-icons-filled-content-generativeai": string;
   readonly "natds-icons-filled-content-giftpricefair": string;
   readonly "natds-icons-filled-content-giftpricegreat": string;
   readonly "natds-icons-filled-content-giftpricehigh": string;
@@ -116,6 +117,8 @@ declare const styles: {
   readonly "natds-icons-filled-default-mockup": string;
   readonly "natds-icons-filled-finance-bag": string;
   readonly "natds-icons-filled-finance-bagcheck": string;
+  readonly "natds-icons-filled-finance-bagshield": string;
+  readonly "natds-icons-filled-finance-cashback": string;
   readonly "natds-icons-filled-finance-charging": string;
   readonly "natds-icons-filled-finance-intensityhigh": string;
   readonly "natds-icons-filled-finance-intensitylow": string;
@@ -353,6 +356,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-fragrance": string;
   readonly "natds-icons-outlined-content-gallery": string;
   readonly "natds-icons-outlined-content-gauge": string;
+  readonly "natds-icons-outlined-content-generativeai": string;
   readonly "natds-icons-outlined-content-gift": string;
   readonly "natds-icons-outlined-content-giftpricefair": string;
   readonly "natds-icons-outlined-content-giftpricegreat": string;
@@ -418,8 +422,10 @@ declare const styles: {
   readonly "natds-icons-outlined-finance-addbag": string;
   readonly "natds-icons-outlined-finance-bag": string;
   readonly "natds-icons-outlined-finance-bagcheck": string;
+  readonly "natds-icons-outlined-finance-bagshield": string;
   readonly "natds-icons-outlined-finance-bank": string;
   readonly "natds-icons-outlined-finance-cards": string;
+  readonly "natds-icons-outlined-finance-cashback": string;
   readonly "natds-icons-outlined-finance-charging": string;
   readonly "natds-icons-outlined-finance-creditcard": string;
   readonly "natds-icons-outlined-finance-debit": string;

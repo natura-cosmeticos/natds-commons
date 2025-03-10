@@ -357,6 +357,10 @@
   content: "\eb2f";
 }
 
+.natds-icons-filled-content-generativeai::before {
+  content: "\ec42";
+}
+
 .natds-icons-filled-content-giftpricefair::before {
   content: "\ebef";
 }
@@ -495,6 +499,14 @@
 
 .natds-icons-filled-finance-bagcheck::before {
   content: "\eb87";
+}
+
+.natds-icons-filled-finance-bagshield::before {
+  content: "\ec43";
+}
+
+.natds-icons-filled-finance-cashback::before {
+  content: "\ec44";
 }
 
 .natds-icons-filled-finance-charging::before {
@@ -1445,6 +1457,10 @@
   content: "\eb32";
 }
 
+.natds-icons-outlined-content-generativeai::before {
+  content: "\ec45";
+}
+
 .natds-icons-outlined-content-gift::before {
   content: "\ea81";
 }
@@ -1705,12 +1721,20 @@
   content: "\eb89";
 }
 
+.natds-icons-outlined-finance-bagshield::before {
+  content: "\ec46";
+}
+
 .natds-icons-outlined-finance-bank::before {
   content: "\ea98";
 }
 
 .natds-icons-outlined-finance-cards::before {
   content: "\ea99";
+}
+
+.natds-icons-outlined-finance-cashback::before {
+  content: "\ec47";
 }
 
 .natds-icons-outlined-finance-charging::before {

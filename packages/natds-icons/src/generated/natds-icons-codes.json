@@ -191,6 +191,9 @@
 	"filled-content-gauge": [
 		""
 	],
+	"filled-content-generativeai": [
+		""
+	],
 	"filled-content-giftpricefair": [
 		""
 	],
@@ -295,6 +298,12 @@
 	],
 	"filled-finance-bagcheck": [
 		""
+	],
+	"filled-finance-bagshield": [
+		""
+	],
+	"filled-finance-cashback": [
+		""
 	],
 	"filled-finance-charging": [
 		""
@@ -1007,6 +1016,9 @@
 	"outlined-content-gauge": [
 		""
 	],
+	"outlined-content-generativeai": [
+		""
+	],
 	"outlined-content-gift": [
 		""
 	],
@@ -1202,11 +1214,17 @@
 	"outlined-finance-bagcheck": [
 		""
 	],
+	"outlined-finance-bagshield": [
+		""
+	],
 	"outlined-finance-bank": [
 		""
 	],
 	"outlined-finance-cards": [
 		""
+	],
+	"outlined-finance-cashback": [
+		""
 	],
 	"outlined-finance-charging": [
 		""

@@ -24,10 +24,10 @@ struct AvonV3LightTheme: Theme {
 }
 
 struct AvonV3LightTokens: Tokens {
-  let assetFontFileDisplay = "montserrat_bold"
-  let assetFontFileHeadline = "montserrat_semi_bold"
-  let assetFontFileBodyRegular = "montserrat_regular"
-  let assetFontFileBodyBold = "montserrat_bold"
+  let assetFontFileDisplay = "roboto_regular"
+  let assetFontFileHeadline = "roboto_regular"
+  let assetFontFileBodyRegular = "roboto_regular"
+  let assetFontFileBodyBold = "roboto_medium"
   let assetBrandNeutralAFile = "avon_v2-b-official"
   let assetBrandNeutralAWidth: CGFloat = 256
   let assetBrandNeutralAHeight: CGFloat = 58
@@ -283,13 +283,13 @@ struct AvonV3LightTokens: Tokens {
   let typographyFontFamilyCode = "SF Mono"
   let typographyFontWeightRegular: UIFont.Weight = .regular
   let typographyFontWeightMedium: UIFont.Weight = .medium
-  let typographyDisplayFontFamily = "Montserrat"
+  let typographyDisplayFontFamily = "Roboto"
   let typographyDisplayFontWeight: UIFont.Weight = .bold
-  let typographyHeadlineFontFamily = "Montserrat"
-  let typographyHeadlineFontWeight: UIFont.Weight = .semibold
-  let typographyBodyRegularFontFamily = "Montserrat"
+  let typographyHeadlineFontFamily = "Roboto"
+  let typographyHeadlineFontWeight: UIFont.Weight = .medium
+  let typographyBodyRegularFontFamily = "Roboto"
   let typographyBodyRegularFontWeight: UIFont.Weight = .regular
-  let typographyBodyBoldFontFamily = "Montserrat"
+  let typographyBodyBoldFontFamily = "Roboto"
   let typographyBodyBoldFontWeight: UIFont.Weight = .bold
   let typographyFallbackFontFamily = "San Francisco"
   let typographyFallbackFontWeight: UIFont.Weight = .regular

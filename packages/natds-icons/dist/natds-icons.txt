@@ -62,6 +62,7 @@ filled_content_energy
 filled_content_exfoliator
 filled_content_farmrows
 filled_content_gauge
+filled_content_generativeai
 filled_content_giftpricefair
 filled_content_giftpricegreat
 filled_content_giftpricehigh
@@ -97,6 +98,8 @@ filled_content_world
 filled_default_mockup
 filled_finance_bag
 filled_finance_bagcheck
+filled_finance_bagshield
+filled_finance_cashback
 filled_finance_charging
 filled_finance_intensityhigh
 filled_finance_intensitylow
@@ -334,6 +337,7 @@ outlined_content_flower
 outlined_content_fragrance
 outlined_content_gallery
 outlined_content_gauge
+outlined_content_generativeai
 outlined_content_gift
 outlined_content_giftpricefair
 outlined_content_giftpricegreat
@@ -399,8 +403,10 @@ outlined_default_mockup
 outlined_finance_addbag
 outlined_finance_bag
 outlined_finance_bagcheck
+outlined_finance_bagshield
 outlined_finance_bank
 outlined_finance_cards
+outlined_finance_cashback
 outlined_finance_charging
 outlined_finance_creditcard
 outlined_finance_debit

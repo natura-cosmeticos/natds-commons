@@ -1805,20 +1805,20 @@
       "medium": 500
     },
     "display": {
-      "fontFamily": "Montserrat",
+      "fontFamily": "Roboto",
       "fontWeight": 700
     },
     "headline": {
-      "fontFamily": "Montserrat",
-      "fontWeight": 600
+      "fontFamily": "Roboto",
+      "fontWeight": 500
     },
     "body": {
       "regular": {
-        "fontFamily": "Montserrat",
+        "fontFamily": "Roboto",
         "fontWeight": 400
       },
       "bold": {
-        "fontFamily": "Montserrat",
+        "fontFamily": "Roboto",
         "fontWeight": 700
       }
     },
@@ -2192,11 +2192,11 @@
   "asset": {
     "font": {
       "file": {
-        "display": "montserrat_bold",
-        "headline": "montserrat_semi_bold",
+        "display": "roboto_regular",
+        "headline": "roboto_regular",
         "body": {
-          "regular": "montserrat_regular",
-          "bold": "montserrat_bold"
+          "regular": "roboto_regular",
+          "bold": "roboto_medium"
         }
       }
     },
