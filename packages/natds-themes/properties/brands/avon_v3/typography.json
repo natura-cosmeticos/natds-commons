@@ -2,7 +2,7 @@
   "typography": {
     "display": {
       "fontFamily": {
-        "value": "Montserrat"
+        "value": "Roboto"
       },
       "fontWeight": {
         "value": 700
@@ -10,16 +10,16 @@
     },
     "headline": {
       "fontFamily": {
-        "value": "Montserrat"
+        "value": "Roboto"
       },
       "fontWeight": {
-        "value": 600
+        "value": 500
       }
     },
     "body": {
       "regular": {
         "fontFamily": {
-          "value": "Montserrat"
+          "value": "Roboto"
         },
         "fontWeight": {
           "value": 400
@@ -27,7 +27,7 @@
       },
       "bold": {
         "fontFamily": {
-          "value": "Montserrat"
+          "value": "Roboto"
         },
         "fontWeight": {
           "value": 700
@@ -47,17 +47,17 @@
     "font": {
       "file": {
         "display": {
-          "value": "montserrat_bold"
+          "value": "roboto_regular"
         },
         "headline": {
-          "value": "montserrat_semi_bold"
+          "value": "roboto_regular"
         },
         "body": {
           "regular":{
-            "value": "montserrat_regular"
+           "value": "roboto_regular"
           },
           "bold":{
-            "value": "montserrat_bold"
+            "value": "roboto_medium"
           }
         }
       }
