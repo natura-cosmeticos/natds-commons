@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.83.7](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.6...@naturacosmeticos/natds-themes@0.83.7) (2025-03-11)
+
+
+### Bug Fixes
+
+* **natds-rn:** logo Avon -V3 height in position A and custom A ([97b7103](https://github.com/natura-cosmeticos/natds-commons/commit/97b7103a602cd54e5dbceb8cb1121081674faf0f))
+
+
+
+
+
 ## [0.83.6](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.5...@naturacosmeticos/natds-themes@0.83.6) (2025-03-10)
 
 
