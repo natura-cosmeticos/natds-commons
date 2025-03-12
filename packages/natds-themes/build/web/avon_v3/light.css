@@ -336,7 +336,7 @@
   --buttonOutlinedColorHoverSecondaryLabel: #111111;
   --buttonOutlinedColorHoverSecondaryIconColor: #111111;
   --buttonOutlinedColorHoverSecondaryRippleColor: #111111;
-  --buttonOutlinedColorHoverOnSecondaryBackground: #000000;
+  --buttonOutlinedColorHoverOnSecondaryBackground: #080808;
   --buttonOutlinedColorHoverOnSecondaryBorder: #ffffff;
   --buttonOutlinedColorHoverOnSecondaryLabel: #ffffff;
   --buttonOutlinedColorHoverOnSecondaryIconColor: #ffffff;
@@ -369,7 +369,7 @@
   --buttonOutlinedColorFocusSecondaryLabel: #111111;
   --buttonOutlinedColorFocusSecondaryIconColor: #111111;
   --buttonOutlinedColorFocusSecondaryRippleColor: #111111;
-  --buttonOutlinedColorFocusOnSecondaryBackground: #080808;
+  --buttonOutlinedColorFocusOnSecondaryBackground: #000000;
   --buttonOutlinedColorFocusOnSecondaryBorder: #ffffff;
   --buttonOutlinedColorFocusOnSecondaryLabel: #ffffff;
   --buttonOutlinedColorFocusOnSecondaryIconColor: #ffffff;
@@ -438,7 +438,7 @@
   --buttonGhostColorHoverSecondaryLabel: #111111;
   --buttonGhostColorHoverSecondaryIconColor: #111111;
   --buttonGhostColorHoverSecondaryRippleColor: #111111;
-  --buttonGhostColorHoverOnSecondaryBackground: #000000;
+  --buttonGhostColorHoverOnSecondaryBackground: #080808;
   --buttonGhostColorHoverOnSecondaryBorder: #FFFFFF00;
   --buttonGhostColorHoverOnSecondaryLabel: #ffffff;
   --buttonGhostColorHoverOnSecondaryIconColor: #ffffff;
@@ -471,7 +471,7 @@
   --buttonGhostColorFocusSecondaryLabel: #111111;
   --buttonGhostColorFocusSecondaryIconColor: #111111;
   --buttonGhostColorFocusSecondaryRippleColor: #111111;
-  --buttonGhostColorFocusOnSecondaryBackground: #080808;
+  --buttonGhostColorFocusOnSecondaryBackground: #000000;
   --buttonGhostColorFocusOnSecondaryBorder: #FFFFFF00;
   --buttonGhostColorFocusOnSecondaryLabel: #ffffff;
   --buttonGhostColorFocusOnSecondaryIconColor: #ffffff;
@@ -540,7 +540,7 @@
   --buttonTextColorHoverSecondaryLabel: #111111;
   --buttonTextColorHoverSecondaryIconColor: #111111;
   --buttonTextColorHoverSecondaryRippleColor: #111111;
-  --buttonTextColorHoverOnSecondaryBackground: #000000;
+  --buttonTextColorHoverOnSecondaryBackground: #080808;
   --buttonTextColorHoverOnSecondaryBorder: #FFFFFF00;
   --buttonTextColorHoverOnSecondaryLabel: #ffffff;
   --buttonTextColorHoverOnSecondaryIconColor: #ffffff;
@@ -573,7 +573,7 @@
   --buttonTextColorFocusSecondaryLabel: #111111;
   --buttonTextColorFocusSecondaryIconColor: #111111;
   --buttonTextColorFocusSecondaryRippleColor: #111111;
-  --buttonTextColorFocusOnSecondaryBackground: #080808;
+  --buttonTextColorFocusOnSecondaryBackground: #000000;
   --buttonTextColorFocusOnSecondaryBorder: #FFFFFF00;
   --buttonTextColorFocusOnSecondaryLabel: #ffffff;
   --buttonTextColorFocusOnSecondaryIconColor: #ffffff;
@@ -667,12 +667,12 @@
   --buttonTonalColorFocusOnPrimaryLabel: #ffffff;
   --buttonTonalColorFocusOnPrimaryIconColor: #ffffff;
   --buttonTonalColorFocusOnPrimaryRippleColor: #ffffff;
-  --buttonTonalColorFocusSecondaryBackground: #000000;
+  --buttonTonalColorFocusSecondaryBackground: #080808;
   --buttonTonalColorFocusSecondaryBorder: #FFFFFF00;
   --buttonTonalColorFocusSecondaryLabel: #ffffff;
   --buttonTonalColorFocusSecondaryIconColor: #ffffff;
   --buttonTonalColorFocusSecondaryRippleColor: #ffffff;
-  --buttonTonalColorFocusOnSecondaryBackground: #080808;
+  --buttonTonalColorFocusOnSecondaryBackground: #000000;
   --buttonTonalColorFocusOnSecondaryBorder: #FFFFFF00;
   --buttonTonalColorFocusOnSecondaryLabel: #ffffff;
   --buttonTonalColorFocusOnSecondaryIconColor: #ffffff;
@@ -1293,9 +1293,9 @@
   --colorOnSecondaryLight: #000000;
   --colorSecondaryLightest: #bbbbbb;
   --colorOnSecondaryLightest: #000000;
-  --colorSecondaryDark: #000000;
+  --colorSecondaryDark: #080808;
   --colorOnSecondaryDark: #ffffff;
-  --colorSecondaryDarkest: #080808;
+  --colorSecondaryDarkest: #000000;
   --colorOnSecondaryDarkest: #ffffff;
   --colorContentHighlight: #111111;
   --colorContentHighEmphasis: #363636;
