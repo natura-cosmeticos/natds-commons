@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.83.10](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.9...@naturacosmeticos/natds-themes@0.83.10) (2025-03-12)
+
+
+### Bug Fixes
+
+* **natds-themes:**  rollback color secondaryDark and secondaryDarkest ([f7eaafc](https://github.com/natura-cosmeticos/natds-commons/commit/f7eaafcf1bad8c716f34038862fa3893165b72e5))
+
+
+
+
+
 ## [0.83.9](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.8...@naturacosmeticos/natds-themes@0.83.9) (2025-03-12)
 
 
