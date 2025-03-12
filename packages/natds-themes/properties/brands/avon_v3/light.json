@@ -50,13 +50,14 @@
       "value": "#000000"
     },
     "secondaryDark": {
-      "value": "#080808"
+      "value": "#000000"
     },
     "onSecondaryDark": {
       "value": "#FFFFFF"
     },
     "secondaryDarkest": {
-      "value": "#000000"
+      "value": "#080808"
+      
     },
     "onSecondaryDarkest": {
       "value": "#FFFFFF"
