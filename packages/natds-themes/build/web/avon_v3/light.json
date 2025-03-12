@@ -529,7 +529,7 @@
             "rippleColor": "#111111"
           },
           "onSecondary": {
-            "background": "#080808",
+            "background": "#000000",
             "border": "#ffffff",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -576,7 +576,7 @@
             "rippleColor": "#111111"
           },
           "onSecondary": {
-            "background": "#000000",
+            "background": "#080808",
             "border": "#ffffff",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -679,7 +679,7 @@
             "rippleColor": "#111111"
           },
           "onSecondary": {
-            "background": "#080808",
+            "background": "#000000",
             "border": "#FFFFFF00",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -726,7 +726,7 @@
             "rippleColor": "#111111"
           },
           "onSecondary": {
-            "background": "#000000",
+            "background": "#080808",
             "border": "#FFFFFF00",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -829,7 +829,7 @@
             "rippleColor": "#111111"
           },
           "onSecondary": {
-            "background": "#080808",
+            "background": "#000000",
             "border": "#FFFFFF00",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -876,7 +876,7 @@
             "rippleColor": "#111111"
           },
           "onSecondary": {
-            "background": "#000000",
+            "background": "#080808",
             "border": "#FFFFFF00",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -1016,14 +1016,14 @@
             "rippleColor": "#ffffff"
           },
           "secondary": {
-            "background": "#080808",
+            "background": "#000000",
             "border": "#FFFFFF00",
             "label": "#ffffff",
             "iconColor": "#ffffff",
             "rippleColor": "#ffffff"
           },
           "onSecondary": {
-            "background": "#000000",
+            "background": "#080808",
             "border": "#FFFFFF00",
             "label": "#ffffff",
             "iconColor": "#ffffff",
@@ -2175,9 +2175,9 @@
     "onSecondaryLight": "#000000",
     "secondaryLightest": "#bbbbbb",
     "onSecondaryLightest": "#000000",
-    "secondaryDark": "#080808",
+    "secondaryDark": "#000000",
     "onSecondaryDark": "#ffffff",
-    "secondaryDarkest": "#000000",
+    "secondaryDarkest": "#080808",
     "onSecondaryDarkest": "#ffffff",
     "contentHighlight": "#111111",
     "contentHighEmphasis": "#363636",
