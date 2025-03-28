@@ -7,10 +7,10 @@
             "value": "natura-a-official-dark"
           },
           "width": {
-            "value": 256
+            "value": 148
           },
           "height": {
-            "value": 55
+            "value": 32
           }
         },
         "b": {
@@ -18,10 +18,10 @@
             "value": "natura-b-official-dark"
           },
           "width": {
-            "value": 256
+            "value": 162
           },
           "height": {
-            "value": 192
+            "value": 96
           }
         }
       },
@@ -31,10 +31,10 @@
             "value": "natura-a-custom"
           },
           "width": {
-            "value": 256
+            "value": 148
           },
           "height": {
-            "value": 55
+            "value": 32
           }
         },
         "b": {
@@ -42,10 +42,10 @@
             "value": "natura-b-custom"
           },
           "width": {
-            "value": 256
+            "value": 162
           },
           "height": {
-            "value": 192
+            "value": 96
           }
         }
       }

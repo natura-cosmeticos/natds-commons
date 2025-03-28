@@ -4,72 +4,72 @@
       "neutral":{
         "a": {
           "file": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "forcadevendas-a-official-dark-pt-br"
           },
           "es": {
-            "value": "fuerzadeventas-b-official-dark"
+            "value": "fuerzadeventas-a-official-dark-es"
           },
           "pt": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "forcadevendas-a-official-dark-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 186
           },
           "height": {
-            "value": 55
+            "value": 32
           }
         },
         "b": {
           "file": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "forcadevendas-b-official-dark-pt-br"
           },
           "es": {
-            "value": "fuerzadeventas-b-official-dark"
+            "value": "fuerzadeventas-b-official-dark-es"
           },
           "pt": {
-            "value": "forcadevendas-a-official-dark"
+            "value": "forcadevendas-b-official-dark-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 84
           },
           "height": {
-            "value": 55
+            "value": 56
           }
         }
       },
       "custom":{
         "a": {
           "file": {
-            "value": "forcadevendas-a-custom"
+            "value": "forcadevendas-a-custom-pt-br"
           },
           "es": {
-            "value": "fuerzadeventas-b-custom"
+            "value": "fuerzadeventas-a-custom-es"
           },
           "pt": {
-            "value": "forcadevendas-a-custom"
+            "value": "forcadevendas-a-custom-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 186
           },
           "height": {
-            "value": 55
+            "value": 32
           }
         },
         "b": {
           "file": {
-            "value": "forcadevendas-a-custom"
+            "value": "forcadevendas-b-custom-pt-br"
           },
           "es": {
-            "value": "fuerzadeventas-b-custom"
+            "value": "fuerzadeventas-b-custom-es"
           },
           "pt": {
-            "value": "forcadevendas-a-custom"
+            "value": "forcadevendas-b-custom-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 84
           },
           "height": {
-            "value": 55
+            "value": 56
           }
         }
       }
