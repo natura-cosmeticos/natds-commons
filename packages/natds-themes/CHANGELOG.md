@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.84.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.10...@naturacosmeticos/natds-themes@0.84.0) (2025-03-28)
+
+
+### Bug Fixes
+
+* **natds-themes:** remove deprecated asset logo forcaDeVendas ([3cf43b3](https://github.com/natura-cosmeticos/natds-commons/commit/3cf43b3d4357a6f71d77803d5e1d0962ff5dd218))
+
+
+### Features
+
+* **natds-themes:** added new logo forcaDeVendas ([053a125](https://github.com/natura-cosmeticos/natds-commons/commit/053a1255f506ae58387868b730fe3cc61f2e2d33))
+* **natds-themes:** added new logo Natura ([579bc9d](https://github.com/natura-cosmeticos/natds-commons/commit/579bc9d195e11b56676954252e79eefc4a46f18d))
+
+
+
+
+
 ## [0.83.10](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.83.9...@naturacosmeticos/natds-themes@0.83.10) (2025-03-12)
 
 
