@@ -4,72 +4,72 @@
       "neutral":{
         "a": {
           "file": {
-            "value": "consultoriadebeleza-a-official"
+            "value": "consultoriadebeleza_v2-a-official-pt-br"
           },
           "es": {
-            "value": "consultoriadebeleza-a-official"
+            "value": "consultoriadebelleza_v2-a-official-es"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-official"
+            "value": "consultoriadebeleza_v2-a-official-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 192
           },
           "height": {
-            "value": 55
+            "value": 32
           }
         },
         "b": {
           "file": {
-            "value": "consultoriadebeleza-b-official"
+            "value": "consultoriadebeleza_v2-b-official-pt-br"
           },
           "es": {
-            "value": "consultoriadebeleza-a-official"
+            "value": "consultoriadebelleza_v2-b-official-es"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-official"
+            "value": "consultoriadebeleza_v2-b-official-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 92
           },
           "height": {
-            "value": 55
+            "value": 56
           }
         }
       },
       "custom":{
         "a": {
           "file": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "consultoriadebeleza_v2-a-custom-pt-br"
           },
           "es": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "consultoriadebelleza_v2-a-custom-es"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-custom"
+            "value": "consultoriadebeleza_v2-a-custom-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 192
           },
           "height": {
-            "value": 55
+            "value": 32
           }
         },
         "b": {
           "file": {
-            "value": "consultoriadebeleza-b-custom"
+            "value": "consultoriadebeleza_v2-b-custom-pt-br"
           },
           "es": {
-            "value": "consultoriadebeleza-a-custom"
+            "value": "consultoriadebelleza_v2-b-custom-es"
           },
           "pt": {
-            "value": "consultoriadebeleza-b-custom"
+            "value": "consultoriadebeleza_v2-b-custom-pt-br"
           },
           "width": {
-            "value": 256
+            "value": 92
           },
           "height": {
-            "value": 55
+            "value": 56
           }
         }
       }
