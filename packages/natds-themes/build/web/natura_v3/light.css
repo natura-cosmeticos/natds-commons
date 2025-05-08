@@ -83,7 +83,7 @@
   --buttonBorderRadius: 999px;
   --buttonElevation: none;
   --buttonPaddingX: 24px;
-  --buttonTextTransform: nonepx;
+  --buttonTextTransform: lowercasepx;
   --buttonContainedColorPrimaryBackground: #f48646;
   --buttonContainedColorPrimaryBorder: #FFFFFF00;
   --buttonContainedColorPrimaryLabel: #111111;
@@ -712,7 +712,7 @@
   --counterContentFontSize: 16px;
   --counterContentLetterSpacing: 0.51px;
   --counterContentLineHeight: 1.25;
-  --counterBorderRadius: 999px;
+  --counterBorderRadius: 16px;
   --dialogTitleFontSize: 20px;
   --dialogTitleLetterSpacing: 0.24px;
   --dialogTitleLineHeight: 1.25;
@@ -848,7 +848,7 @@
   --selectHelperTextFontSize: 12px;
   --selectHelperTextLetterSpacing: 0.38px;
   --selectHelperTextLineHeight: 1.25;
-  --selectBorderRadius: 999px;
+  --selectBorderRadius: 16px;
   --shortcutLabelFontSize: 12px;
   --shortcutLabelLetterSpacing: 0.38px;
   --shortcutLabelLineHeight: 1.5;
@@ -964,7 +964,7 @@
   --textFieldHelperTextFontSize: 12px;
   --textFieldHelperTextLetterSpacing: 0.38px;
   --textFieldHelperTextLineHeight: 1.25;
-  --textFieldBorderRadius: 999px;
+  --textFieldBorderRadius: 16px;
   --heading1FontSize: 96px;
   --heading1FontWeight: 400;
   --heading1LineHeight: 1.5;

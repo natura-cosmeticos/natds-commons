@@ -154,7 +154,7 @@
     "borderRadius": 999,
     "elevation": "none",
     "paddingX": 24,
-    "textTransform": "none",
+    "textTransform": "lowercase",
     "contained": {
       "color": {
         "primary": {
@@ -1099,7 +1099,7 @@
       "letterSpacing": 0.51,
       "lineHeight": 1.25
     },
-    "borderRadius": 999
+    "borderRadius": 16
   },
   "dialog": {
     "title": {
@@ -1421,7 +1421,7 @@
       "letterSpacing": 0.38,
       "lineHeight": 1.25
     },
-    "borderRadius": 999
+    "borderRadius": 16
   },
   "shortcut": {
     "label": {
@@ -1659,7 +1659,7 @@
       "letterSpacing": 0.38,
       "lineHeight": 1.25
     },
-    "borderRadius": 999
+    "borderRadius": 16
   },
   "heading1": {
     "fontSize": 96,
@@ -1854,19 +1854,19 @@
       "borderRadius": 999,
       "elevation": "none",
       "paddingX": 24,
-      "textTransform": "none"
+      "textTransform": "lowercase"
     },
     "counter": {
-      "borderRadius": 999
+      "borderRadius": 16
     },
     "select": {
-      "borderRadius": 999
+      "borderRadius": 16
     },
     "shortcut": {
       "borderRadius": 28
     },
     "textfield": {
-      "borderRadius": 999
+      "borderRadius": 16
     }
   },
   "spacing": {
