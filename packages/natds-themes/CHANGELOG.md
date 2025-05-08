@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.84.4](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.84.3...@naturacosmeticos/natds-themes@0.84.4) (2025-05-08)
+
+
+### Bug Fixes
+
+* **natds-themes:**  fixed borderRadius counter select textField to huge ([b194b8d](https://github.com/natura-cosmeticos/natds-commons/commit/b194b8dc42de87af5dd8caf1e16a246e330f4476))
+* **natds-themes:**  fixed textTransform NaturaV3 lowercase ([ced0886](https://github.com/natura-cosmeticos/natds-commons/commit/ced0886dfdd6cb8688af23b8c6b9eedc5561fec8))
+
+
+
+
+
 ## [0.84.3](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-themes@0.84.2...@naturacosmeticos/natds-themes@0.84.3) (2025-05-08)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-themes
