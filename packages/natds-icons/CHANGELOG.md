@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.30.0...@naturacosmeticos/natds-icons@1.31.0) (2025-06-06)
+
+
+### Bug Fixes
+
+* **natds-icons:** add icon filled-content-strawberry ([fbf6841](https://github.com/natura-cosmeticos/natds-commons/commit/fbf68417d4d1a193a8316303eb4ee0b22da2698b))
+* **natds-icons:** add icon filled-product-mirror-woman ([314fbbc](https://github.com/natura-cosmeticos/natds-commons/commit/314fbbcd350dffd0c529bc5b15ff13c550490805))
+* **natds-icons:** add icon filled-product-shoewoman ([0e1921b](https://github.com/natura-cosmeticos/natds-commons/commit/0e1921b7401535ba040fe97a354e6766e7974c21))
+* **natds-icons:** add icon outlined-product-mirror-woman ([a2e1f16](https://github.com/natura-cosmeticos/natds-commons/commit/a2e1f16ae3e19b06db92c2941a58bd0e4fad9ddb))
+* **natds-icons:** add icon outlined-product-shoewoman ([ed58e9c](https://github.com/natura-cosmeticos/natds-commons/commit/ed58e9cd1296b907e5ea6d8b7eaf960d82e85ca8))
+
+
+### Features
+
+* **natds-icons:** add icon filled-action-delete ([0e5f594](https://github.com/natura-cosmeticos/natds-commons/commit/0e5f594e847c02f6eda079ec4d616a60996f9c4d))
+* **natds-icons:** add icon filled-alert-cancel ([5d27804](https://github.com/natura-cosmeticos/natds-commons/commit/5d278044ddc64469f3572f0253172579b731485a))
+* **natds-icons:** add icon filled-alert-check ([35aba86](https://github.com/natura-cosmeticos/natds-commons/commit/35aba862d1e419b1331213271923dd8b94fcf111))
+* **natds-icons:** add icon filled-alert-info ([c0ecad2](https://github.com/natura-cosmeticos/natds-commons/commit/c0ecad250c79672436f8eb7f5a26e21082e294fe))
+* **natds-icons:** add icon filled-alert-warning ([24cf387](https://github.com/natura-cosmeticos/natds-commons/commit/24cf3874b091a4d0e8d13e2a1c5737234bb820a1))
+* **natds-icons:** add icon filled-content-strawberry ([dae94dc](https://github.com/natura-cosmeticos/natds-commons/commit/dae94dc5b5a6bfeca19e8bced8cb23e0e745f3db))
+* **natds-icons:** add icon filled-product-mirror-woman ([ec28e79](https://github.com/natura-cosmeticos/natds-commons/commit/ec28e79d07c4171e05260a07b1eaf8b5a55f73cd))
+* **natds-icons:** add icon filled-product-shoewoman ([f5a2658](https://github.com/natura-cosmeticos/natds-commons/commit/f5a2658b57e04ab9b2df13b7da4569ccada87fc2))
+* **natds-icons:** add icon outlined-action-delete ([9f8e69f](https://github.com/natura-cosmeticos/natds-commons/commit/9f8e69f512ae1b410b8e31d2a52f3df497393a08))
+* **natds-icons:** add icon outlined-alert-cancel ([fde25f1](https://github.com/natura-cosmeticos/natds-commons/commit/fde25f12276eeefa85e2f8f426737636f4b6aade))
+* **natds-icons:** add icon outlined-alert-check ([017c2a8](https://github.com/natura-cosmeticos/natds-commons/commit/017c2a84e54eb863bd9e63d65cf42ce4e6978273))
+* **natds-icons:** add icon outlined-alert-info ([129ca9a](https://github.com/natura-cosmeticos/natds-commons/commit/129ca9a223691d863a0bfa34530bf92bff0bcc11))
+* **natds-icons:** add icon outlined-alert-warning ([5b6ca48](https://github.com/natura-cosmeticos/natds-commons/commit/5b6ca48c9860f5ab08a43425cb893215b4fa1829))
+* **natds-icons:** add icon outlined-content-strawberry ([195a15f](https://github.com/natura-cosmeticos/natds-commons/commit/195a15f81497a0e84db2c682e5371bf8883048ed))
+* **natds-icons:** add icon outlined-product-mirror-woman ([addc2f9](https://github.com/natura-cosmeticos/natds-commons/commit/addc2f940626db1e402b5f77d813b42e6cd18f4a))
+* **natds-icons:** add icon outlined-product-shoewoman ([cc63e13](https://github.com/natura-cosmeticos/natds-commons/commit/cc63e132d0cf7445a84dffd847bff1394ab5d0d6))
+
+
+
+
+
 # [1.30.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.29.0...@naturacosmeticos/natds-icons@1.30.0) (2025-03-10)
 
 
