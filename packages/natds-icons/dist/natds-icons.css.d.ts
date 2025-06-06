@@ -106,6 +106,7 @@ declare const styles: {
   readonly "natds-icons-filled-content-snorkelmask": string;
   readonly "natds-icons-filled-content-soap": string;
   readonly "natds-icons-filled-content-soapbubble": string;
+  readonly "natds-icons-filled-content-strawberry": string;
   readonly "natds-icons-filled-content-teddybear": string;
   readonly "natds-icons-filled-content-ticketdiscount": string;
   readonly "natds-icons-filled-content-ticketstar": string;
@@ -213,6 +214,7 @@ declare const styles: {
   readonly "natds-icons-filled-product-makeeyeliner": string;
   readonly "natds-icons-filled-product-makefoundation": string;
   readonly "natds-icons-filled-product-makemask": string;
+  readonly "natds-icons-filled-product-mirror-woman": string;
   readonly "natds-icons-filled-product-nailpolish": string;
   readonly "natds-icons-filled-product-organicalcohol": string;
   readonly "natds-icons-filled-product-pencilblush": string;
@@ -220,6 +222,7 @@ declare const styles: {
   readonly "natds-icons-filled-product-refill": string;
   readonly "natds-icons-filled-product-shampoo": string;
   readonly "natds-icons-filled-product-shampooconditioner": string;
+  readonly "natds-icons-filled-product-shoewoman": string;
   readonly "natds-icons-filled-product-soapliquid": string;
   readonly "natds-icons-filled-product-spray": string;
   readonly "natds-icons-filled-social-fireworks": string;
@@ -405,6 +408,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-soap": string;
   readonly "natds-icons-outlined-content-soapbubble": string;
   readonly "natds-icons-outlined-content-store": string;
+  readonly "natds-icons-outlined-content-strawberry": string;
   readonly "natds-icons-outlined-content-sun": string;
   readonly "natds-icons-outlined-content-sunandcloud": string;
   readonly "natds-icons-outlined-content-teddybear": string;
@@ -563,6 +567,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-makefoundation": string;
   readonly "natds-icons-outlined-product-makemask": string;
   readonly "natds-icons-outlined-product-makeup": string;
+  readonly "natds-icons-outlined-product-mirror-woman": string;
   readonly "natds-icons-outlined-product-nailpolish": string;
   readonly "natds-icons-outlined-product-organicalcohol": string;
   readonly "natds-icons-outlined-product-outlet": string;
@@ -582,6 +587,7 @@ declare const styles: {
   readonly "natds-icons-outlined-product-scent": string;
   readonly "natds-icons-outlined-product-shampoo": string;
   readonly "natds-icons-outlined-product-shampooconditioner": string;
+  readonly "natds-icons-outlined-product-shoewoman": string;
   readonly "natds-icons-outlined-product-soapliquid": string;
   readonly "natds-icons-outlined-product-spray": string;
   readonly "natds-icons-outlined-product-vegan": string;

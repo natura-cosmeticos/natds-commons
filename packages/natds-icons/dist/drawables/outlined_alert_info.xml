@@ -1,12 +1,14 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
     <path
         android:fillColor="#FF000000"
-        android:pathData="M12.01 9.25a0.5 0.5 0 0 0-0.5 0.5v8a0.5 0.5 0 1 0 1 0v-8a0.5 0.5 0 0 0-0.5-0.5zM12.7 6a1 1 0 0 0-0.68-0.25a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1A1 1 0 0 0 12.68 6z"/>
+        android:fillType="evenOdd"
+        android:pathData="M20 18.33a0.83 0.83 0 0 0-0.83 0.84v10a0.83 0.83 0 0 0 1.66 0v-10A0.83 0.83 0 0 0 20 18.33zm0-7.5a1.67 1.67 0 1 0 0 3.34a1.67 1.67 0 0 0 0-3.34z"/>
     <path
         android:fillColor="#FF000000"
-        android:pathData="M22.8 9.8a11 11 0 0 0-3.05-5.62A10.77 10.77 0 0 0 11.95 1a10.99 10.99 0 0 0-7.77 3.24A11 11 0 0 0 12.01 23h0.06A11 11 0 0 0 22.8 9.8zm-3.67 9.25A10 10 0 0 1 12.06 22h-0.05a10 10 0 0 1 0-20a10 10 0 0 1 7.12 17.05z"/>
+        android:fillType="evenOdd"
+        android:pathData="M20 1.67C9.87 1.67 1.67 9.87 1.67 20S9.87 38.33 20 38.33S38.33 30.13 38.33 20S30.13 1.67 20 1.67zm0 35C10.8 36.67 3.33 29.2 3.33 20S10.8 3.33 20 3.33S36.67 10.8 36.67 20S29.2 36.67 20 36.67z"/>
 </vector>

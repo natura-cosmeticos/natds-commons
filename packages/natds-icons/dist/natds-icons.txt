@@ -87,6 +87,7 @@ filled_content_shower
 filled_content_snorkelmask
 filled_content_soap
 filled_content_soapbubble
+filled_content_strawberry
 filled_content_teddybear
 filled_content_ticketdiscount
 filled_content_ticketstar
@@ -194,6 +195,7 @@ filled_product_makeconcealer
 filled_product_makeeyeliner
 filled_product_makefoundation
 filled_product_makemask
+filled_product_mirror_woman
 filled_product_nailpolish
 filled_product_organicalcohol
 filled_product_pencilblush
@@ -201,6 +203,7 @@ filled_product_recyclablepackaging
 filled_product_refill
 filled_product_shampoo
 filled_product_shampooconditioner
+filled_product_shoewoman
 filled_product_soapliquid
 filled_product_spray
 filled_social_fireworks
@@ -386,6 +389,7 @@ outlined_content_snow
 outlined_content_soap
 outlined_content_soapbubble
 outlined_content_store
+outlined_content_strawberry
 outlined_content_sun
 outlined_content_sunandcloud
 outlined_content_teddybear
@@ -544,6 +548,7 @@ outlined_product_makeeyeliner
 outlined_product_makefoundation
 outlined_product_makemask
 outlined_product_makeup
+outlined_product_mirror_woman
 outlined_product_nailpolish
 outlined_product_organicalcohol
 outlined_product_outlet
@@ -563,6 +568,7 @@ outlined_product_repurchase
 outlined_product_scent
 outlined_product_shampoo
 outlined_product_shampooconditioner
+outlined_product_shoewoman
 outlined_product_soapliquid
 outlined_product_spray
 outlined_product_vegan

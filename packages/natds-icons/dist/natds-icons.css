@@ -457,6 +457,10 @@
   content: "\eb9b";
 }
 
+.natds-icons-filled-content-strawberry::before {
+  content: "\ec48";
+}
+
 .natds-icons-filled-content-teddybear::before {
   content: "\ebf5";
 }
@@ -885,6 +889,10 @@
   content: "\ebb3";
 }
 
+.natds-icons-filled-product-mirror-woman::before {
+  content: "\ec49";
+}
+
 .natds-icons-filled-product-nailpolish::before {
   content: "\eb88";
 }
@@ -911,6 +919,10 @@
 
 .natds-icons-filled-product-shampooconditioner::before {
   content: "\ec00";
+}
+
+.natds-icons-filled-product-shoewoman::before {
+  content: "\ec4a";
 }
 
 .natds-icons-filled-product-soapliquid::before {
@@ -1653,6 +1665,10 @@
   content: "\ea93";
 }
 
+.natds-icons-outlined-content-strawberry::before {
+  content: "\ec4b";
+}
+
 .natds-icons-outlined-content-sun::before {
   content: "\eafa";
 }
@@ -2285,6 +2301,10 @@
   content: "\eacf";
 }
 
+.natds-icons-outlined-product-mirror-woman::before {
+  content: "\ec4c";
+}
+
 .natds-icons-outlined-product-nailpolish::before {
   content: "\eb8a";
 }
@@ -2359,6 +2379,10 @@
 
 .natds-icons-outlined-product-shampooconditioner::before {
   content: "\ec1b";
+}
+
+.natds-icons-outlined-product-shoewoman::before {
+  content: "\ec4d";
 }
 
 .natds-icons-outlined-product-soapliquid::before {

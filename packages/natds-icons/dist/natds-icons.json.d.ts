@@ -88,6 +88,7 @@ interface RootObject {
   'filled-content-snorkelmask': string;
   'filled-content-soap': string;
   'filled-content-soapbubble': string;
+  'filled-content-strawberry': string;
   'filled-content-teddybear': string;
   'filled-content-ticketdiscount': string;
   'filled-content-ticketstar': string;
@@ -195,6 +196,7 @@ interface RootObject {
   'filled-product-makeeyeliner': string;
   'filled-product-makefoundation': string;
   'filled-product-makemask': string;
+  'filled-product-mirror-woman': string;
   'filled-product-nailpolish': string;
   'filled-product-organicalcohol': string;
   'filled-product-pencilblush': string;
@@ -202,6 +204,7 @@ interface RootObject {
   'filled-product-refill': string;
   'filled-product-shampoo': string;
   'filled-product-shampooconditioner': string;
+  'filled-product-shoewoman': string;
   'filled-product-soapliquid': string;
   'filled-product-spray': string;
   'filled-social-fireworks': string;
@@ -387,6 +390,7 @@ interface RootObject {
   'outlined-content-soap': string;
   'outlined-content-soapbubble': string;
   'outlined-content-store': string;
+  'outlined-content-strawberry': string;
   'outlined-content-sun': string;
   'outlined-content-sunandcloud': string;
   'outlined-content-teddybear': string;
@@ -545,6 +549,7 @@ interface RootObject {
   'outlined-product-makefoundation': string;
   'outlined-product-makemask': string;
   'outlined-product-makeup': string;
+  'outlined-product-mirror-woman': string;
   'outlined-product-nailpolish': string;
   'outlined-product-organicalcohol': string;
   'outlined-product-outlet': string;
@@ -564,6 +569,7 @@ interface RootObject {
   'outlined-product-scent': string;
   'outlined-product-shampoo': string;
   'outlined-product-shampooconditioner': string;
+  'outlined-product-shoewoman': string;
   'outlined-product-soapliquid': string;
   'outlined-product-spray': string;
   'outlined-product-vegan': string;
