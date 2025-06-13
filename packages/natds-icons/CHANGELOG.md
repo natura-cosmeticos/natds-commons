@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.31.0...@naturacosmeticos/natds-icons@1.32.0) (2025-06-13)
+
+
+### Features
+
+* **natds-icons:** add icon filled-content-strawberry ([1fb42aa](https://github.com/natura-cosmeticos/natds-commons/commit/1fb42aa8c7be7eb6359b0ba9e64435ac5dc77a3c))
+
+
+
+
+
 # [1.31.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.30.0...@naturacosmeticos/natds-icons@1.31.0) (2025-06-06)
 
 
