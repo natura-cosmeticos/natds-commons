@@ -132,6 +132,8 @@ declare const styles: {
   readonly "natds-icons-filled-finance-shield": string;
   readonly "natds-icons-filled-finance-shieldcheck": string;
   readonly "natds-icons-filled-finance-shieldplus": string;
+  readonly "natds-icons-filled-growthplan-crystal": string;
+  readonly "natds-icons-filled-growthplan-diamondgem": string;
   readonly "natds-icons-filled-growthplan-flowertulip": string;
   readonly "natds-icons-filled-growthplan-graphic": string;
   readonly "natds-icons-filled-growthplan-laurelwreath": string;
@@ -457,6 +459,8 @@ declare const styles: {
   readonly "natds-icons-outlined-finance-suitcase": string;
   readonly "natds-icons-outlined-finance-tagdiscount": string;
   readonly "natds-icons-outlined-finance-transfermoney": string;
+  readonly "natds-icons-outlined-growthplan-crystal": string;
+  readonly "natds-icons-outlined-growthplan-diamondgem": string;
   readonly "natds-icons-outlined-growthplan-flowertulip": string;
   readonly "natds-icons-outlined-growthplan-graphic": string;
   readonly "natds-icons-outlined-growthplan-laurelwreath": string;

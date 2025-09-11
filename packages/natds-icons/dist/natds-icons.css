@@ -561,6 +561,14 @@
   content: "\eb46";
 }
 
+.natds-icons-filled-growthplan-crystal::before {
+  content: "\ec4e";
+}
+
+.natds-icons-filled-growthplan-diamondgem::before {
+  content: "\ec4f";
+}
+
 .natds-icons-filled-growthplan-flowertulip::before {
   content: "\ec34";
 }
@@ -1859,6 +1867,14 @@
 
 .natds-icons-outlined-finance-transfermoney::before {
   content: "\eaaa";
+}
+
+.natds-icons-outlined-growthplan-crystal::before {
+  content: "\ec50";
+}
+
+.natds-icons-outlined-growthplan-diamondgem::before {
+  content: "\ec51";
 }
 
 .natds-icons-outlined-growthplan-flowertulip::before {

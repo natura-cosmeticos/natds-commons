@@ -113,6 +113,8 @@ filled_finance_pix
 filled_finance_shield
 filled_finance_shieldcheck
 filled_finance_shieldplus
+filled_growthplan_crystal
+filled_growthplan_diamondgem
 filled_growthplan_flowertulip
 filled_growthplan_graphic
 filled_growthplan_laurelwreath
@@ -438,6 +440,8 @@ outlined_finance_shoppingcartproduct
 outlined_finance_suitcase
 outlined_finance_tagdiscount
 outlined_finance_transfermoney
+outlined_growthplan_crystal
+outlined_growthplan_diamondgem
 outlined_growthplan_flowertulip
 outlined_growthplan_graphic
 outlined_growthplan_laurelwreath

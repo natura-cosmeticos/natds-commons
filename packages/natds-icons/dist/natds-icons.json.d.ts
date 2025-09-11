@@ -114,6 +114,8 @@ interface RootObject {
   'filled-finance-shield': string;
   'filled-finance-shieldcheck': string;
   'filled-finance-shieldplus': string;
+  'filled-growthplan-crystal': string;
+  'filled-growthplan-diamondgem': string;
   'filled-growthplan-flowertulip': string;
   'filled-growthplan-graphic': string;
   'filled-growthplan-laurelwreath': string;
@@ -439,6 +441,8 @@ interface RootObject {
   'outlined-finance-suitcase': string;
   'outlined-finance-tagdiscount': string;
   'outlined-finance-transfermoney': string;
+  'outlined-growthplan-crystal': string;
+  'outlined-growthplan-diamondgem': string;
   'outlined-growthplan-flowertulip': string;
   'outlined-growthplan-graphic': string;
   'outlined-growthplan-laurelwreath': string;
