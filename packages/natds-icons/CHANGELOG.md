@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.32.0...@naturacosmeticos/natds-icons@1.33.0) (2025-09-11)
+
+
+### Features
+
+* **natds-icons:** add icon filled-growthplan-crystal ([860221d](https://github.com/natura-cosmeticos/natds-commons/commit/860221d21c1d51d88d38d069f33a0a9fa4dd26c9))
+* **natds-icons:** add icon filled-growthplan-diamondgem ([3f0db7e](https://github.com/natura-cosmeticos/natds-commons/commit/3f0db7ecbc7ce3a24f82b398d609b5dc79c58bd7))
+* **natds-icons:** add icon outlined-growthplan-crystal ([7da0c52](https://github.com/natura-cosmeticos/natds-commons/commit/7da0c527c83d052ff0761bb212e8358e9db24cb8))
+* **natds-icons:** add icon outlined-growthplan-diamondgem ([297cf2f](https://github.com/natura-cosmeticos/natds-commons/commit/297cf2fecc52278626e357d7bf9f1f1a8e972982))
+
+
+
+
+
 # [1.32.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.31.0...@naturacosmeticos/natds-icons@1.32.0) (2025-06-13)
 
 
