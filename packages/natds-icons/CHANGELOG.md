@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.34.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.33.0...@naturacosmeticos/natds-icons@1.34.0) (2025-09-15)
+
+
+### Features
+
+* **natds-icons:** added spoticon-growthplan-crystal ([59b6d20](https://github.com/natura-cosmeticos/natds-commons/commit/59b6d2061fb393363adcb8cd815ebe65aefa7b1c))
+* **natds-icons:** added spoticon-growthplan-diamondgem ([f5c5672](https://github.com/natura-cosmeticos/natds-commons/commit/f5c5672819b0a405d38f8da7d007ff8952447fa9))
+* **natds-icons:** added spoticon-growthplan-flowertulip ([f14879c](https://github.com/natura-cosmeticos/natds-commons/commit/f14879cf6dad82a6f1df14aff555513d0f1e857c))
+* **natds-icons:** added spoticon-growthplan-graphic ([28fa3a1](https://github.com/natura-cosmeticos/natds-commons/commit/28fa3a19e32759fa01abc5e45b94fbd2dcac370e))
+* **natds-icons:** added spoticon-growthplan-laurelwreath ([b0c9a9b](https://github.com/natura-cosmeticos/natds-commons/commit/b0c9a9bd5c7a074168edfbd6d01a748550b7d896))
+* **natds-icons:** added spoticon-growthplan-trophy ([89c636c](https://github.com/natura-cosmeticos/natds-commons/commit/89c636c95cb9615d66d891658f8c30e3144a325b))
+* **natds-icons:** added spoticon-growthplan-trophyaward ([54dac16](https://github.com/natura-cosmeticos/natds-commons/commit/54dac169242a71536f984d03b7619bb33351922b))
+* **natds-icons:** added spoticon-growthplan-trophydiamond ([aeb2c81](https://github.com/natura-cosmeticos/natds-commons/commit/aeb2c8114168cfde84f60482444c2b53bf580901))
+* **natds-icons:** added spoticon-growthplan-trophysapphire ([03af47b](https://github.com/natura-cosmeticos/natds-commons/commit/03af47b9c80c8c7860e6c169232acd81acb9e9e6))
+
+
+
+
+
 # [1.33.0](https://github.com/natura-cosmeticos/natds-commons/compare/@naturacosmeticos/natds-icons@1.32.0...@naturacosmeticos/natds-icons@1.33.0) (2025-09-11)
 
 
