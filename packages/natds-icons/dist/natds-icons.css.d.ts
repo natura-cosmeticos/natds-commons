@@ -610,6 +610,15 @@ declare const styles: {
   readonly "natds-icons-outlined-social-pregnant": string;
   readonly "natds-icons-outlined-social-sparks": string;
   readonly "natds-icons-outlined-social-userlock": string;
+  readonly "natds-icons-spoticon-growthplan-crystal": string;
+  readonly "natds-icons-spoticon-growthplan-diamondgem": string;
+  readonly "natds-icons-spoticon-growthplan-flowertulip": string;
+  readonly "natds-icons-spoticon-growthplan-graphic": string;
+  readonly "natds-icons-spoticon-growthplan-laurelwreath": string;
+  readonly "natds-icons-spoticon-growthplan-trophy": string;
+  readonly "natds-icons-spoticon-growthplan-trophyaward": string;
+  readonly "natds-icons-spoticon-growthplan-trophydiamond": string;
+  readonly "natds-icons-spoticon-growthplan-trophysapphire": string;
 };
 export = styles;
 

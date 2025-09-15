@@ -591,5 +591,14 @@
 	"outlined-social-person": "%uEADD",
 	"outlined-social-pregnant": "%uEC1C",
 	"outlined-social-sparks": "%uEBE7",
-	"outlined-social-userlock": "%uEC1D"
+	"outlined-social-userlock": "%uEC1D",
+	"spoticon-growthplan-crystal": "%uEC52",
+	"spoticon-growthplan-diamondgem": "%uEC53",
+	"spoticon-growthplan-flowertulip": "%uEC54",
+	"spoticon-growthplan-graphic": "%uEC55",
+	"spoticon-growthplan-laurelwreath": "%uEC56",
+	"spoticon-growthplan-trophy": "%uEC57",
+	"spoticon-growthplan-trophyaward": "%uEC58",
+	"spoticon-growthplan-trophydiamond": "%uEC59",
+	"spoticon-growthplan-trophysapphire": "%uEC5A"
 }

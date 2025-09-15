@@ -593,6 +593,15 @@ public enum Icon: String, CaseIterable {
 	case outlinedSocialPregnant = "outlined-social-pregnant"
 	case outlinedSocialSparks = "outlined-social-sparks"
 	case outlinedSocialUserlock = "outlined-social-userlock"
+	case spoticonGrowthplanCrystal = "spoticon-growthplan-crystal"
+	case spoticonGrowthplanDiamondgem = "spoticon-growthplan-diamondgem"
+	case spoticonGrowthplanFlowertulip = "spoticon-growthplan-flowertulip"
+	case spoticonGrowthplanGraphic = "spoticon-growthplan-graphic"
+	case spoticonGrowthplanLaurelwreath = "spoticon-growthplan-laurelwreath"
+	case spoticonGrowthplanTrophy = "spoticon-growthplan-trophy"
+	case spoticonGrowthplanTrophyaward = "spoticon-growthplan-trophyaward"
+	case spoticonGrowthplanTrophydiamond = "spoticon-growthplan-trophydiamond"
+	case spoticonGrowthplanTrophysapphire = "spoticon-growthplan-trophysapphire"
 	
 }
 
@@ -1192,6 +1201,15 @@ extension Icon {
 		case .outlinedSocialPregnant: return "\u{EC1C}"
 		case .outlinedSocialSparks: return "\u{EBE7}"
 		case .outlinedSocialUserlock: return "\u{EC1D}"
+		case .spoticonGrowthplanCrystal: return "\u{EC52}"
+		case .spoticonGrowthplanDiamondgem: return "\u{EC53}"
+		case .spoticonGrowthplanFlowertulip: return "\u{EC54}"
+		case .spoticonGrowthplanGraphic: return "\u{EC55}"
+		case .spoticonGrowthplanLaurelwreath: return "\u{EC56}"
+		case .spoticonGrowthplanTrophy: return "\u{EC57}"
+		case .spoticonGrowthplanTrophyaward: return "\u{EC58}"
+		case .spoticonGrowthplanTrophydiamond: return "\u{EC59}"
+		case .spoticonGrowthplanTrophysapphire: return "\u{EC5A}"
 		
     }
   }

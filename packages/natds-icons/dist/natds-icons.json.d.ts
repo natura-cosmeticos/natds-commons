@@ -592,6 +592,15 @@ interface RootObject {
   'outlined-social-pregnant': string;
   'outlined-social-sparks': string;
   'outlined-social-userlock': string;
+  'spoticon-growthplan-crystal': string;
+  'spoticon-growthplan-diamondgem': string;
+  'spoticon-growthplan-flowertulip': string;
+  'spoticon-growthplan-graphic': string;
+  'spoticon-growthplan-laurelwreath': string;
+  'spoticon-growthplan-trophy': string;
+  'spoticon-growthplan-trophyaward': string;
+  'spoticon-growthplan-trophydiamond': string;
+  'spoticon-growthplan-trophysapphire': string;
 }
 declare const styles : RootObject;
 
